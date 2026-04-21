@@ -45,6 +45,17 @@
     "ARKK::Stochastic RSI Overbought": "2026-04-21T18:58:26.262194+00:00",
     "SMH::VWAP Deviation \u2014 Overbought": "2026-04-21T18:58:26.262211+00:00",
     "SMH::Stochastic RSI Overbought": "2026-04-21T18:58:26.262222+00:00",
-    "IWM::Stochastic RSI Overbought": "2026-04-21T18:58:26.262232+00:00"
+    "IWM::Stochastic RSI Overbought": "2026-04-21T18:58:26.262232+00:00",
+    "MRVL::52-Week Breakout": "2026-04-21T19:44:01.064525+00:00",
+    "MRVL::ADX Strong Trend \u2014 Bullish": "2026-04-21T19:44:01.064563+00:00",
+    "ARM::RSI Overbought": "2026-04-21T19:44:01.064578+00:00",
+    "APP::VWAP Deviation \u2014 Overbought": "2026-04-21T19:44:01.064589+00:00",
+    "APP::Stochastic RSI Overbought": "2026-04-21T19:44:01.064600+00:00",
+    "AMD::Stochastic RSI Overbought": "2026-04-21T19:44:01.064610+00:00",
+    "MRVL::RSI Overbought": "2026-04-21T19:44:01.064619+00:00",
+    "AMD::VWAP Deviation \u2014 Overbought": "2026-04-21T19:44:01.064629+00:00",
+    "AMD::RSI Overbought": "2026-04-21T19:44:01.064639+00:00",
+    "MRVL::VWAP Deviation \u2014 Overbought": "2026-04-21T19:44:01.064648+00:00",
+    "MRVL::Stochastic RSI Overbought": "2026-04-21T19:44:01.064657+00:00"
   }
 }
