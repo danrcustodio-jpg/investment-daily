@@ -218,12 +218,12 @@ def generate_simulation_report() -> None:
 
 def generate_newsletter_report() -> None:
     print("Generating reports/NEWSLETTER.md ...")
-    from investment_daily import get_market_data, get_news_feeds, analyze_sentiment
+    from investment_daily import get_market_data, get_news, analyze_sentiment
     from strategy_engine import run_full_scan
 
     now       = datetime.now()
     market    = get_market_data()
-    news      = get_news_feeds()
+    news      = get_news()
     sentiment = analyze_sentiment(news, market)
     signals   = run_full_scan()
 
