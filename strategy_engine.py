@@ -113,6 +113,14 @@ SCAN_TICKERS: Dict[str, str] = {
     "SOL-USD": "Solana",
     "GC=F":    "Gold",
     "CL=F":    "Crude Oil",
+    # New additions
+    "APP":     "AppLovin",
+    "AMD":     "AMD",
+    "CRWD":    "CrowdStrike",
+    "ARM":     "ARM Holdings",
+    "MRVL":   "Marvell Technology",
+    "CEG":     "Constellation Energy",
+    "COIN":    "Coinbase",
 }
 
 # ─── Backtesting with proper statistics ───────────────────────────────────────
