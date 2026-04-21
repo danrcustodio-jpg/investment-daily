@@ -11,6 +11,9 @@ on:
 permissions:
   contents: write      # needed to commit reports back to repo
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   check-alerts:
     runs-on: ubuntu-latest
