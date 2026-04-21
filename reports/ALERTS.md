@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday April 21, 2026 at 08:41 PM
+**Last scan:** Tuesday April 21, 2026 at 09:38 PM
 
 ## Scan Summary
 
@@ -26,7 +26,7 @@ _No new signals this window — all already sent today._
 | 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 66.1 | 71.4% | -25.27% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 65.2 | 60.5% | -24.25% | ⏸ Suppressed |
 | 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 64.2 | 65.0% | -73.89% | ⏸ Suppressed |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 61.1 | 60.7% | -30.11% | ⏸ Suppressed |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 61.3 | 60.7% | -30.11% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 57.8 | 56.5% | -62.04% | ⏸ Suppressed |
 | 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 54.9 | 58.8% | -22.96% | ⏸ Suppressed |
 | 🟢 BULLISH | **UPRO** | ADX Strong Trend — Bullish | 52.5 | 56.7% | -45.69% | ⏸ Suppressed |
