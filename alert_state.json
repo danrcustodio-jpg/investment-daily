@@ -37,6 +37,14 @@
     "META::Stochastic RSI Overbought": "2026-04-21T10:33:32.447888-06:00",
     "UPRO::VWAP Deviation \u2014 Overbought": "2026-04-21T10:33:32.447888-06:00",
     "UPRO::Stochastic RSI Overbought": "2026-04-21T10:33:32.447888-06:00",
-    "XLE::ADX Strong Trend \u2014 Bearish": "2026-04-21T10:33:32.447888-06:00"
+    "XLE::ADX Strong Trend \u2014 Bearish": "2026-04-21T10:33:32.447888-06:00",
+    "AVGO::ADX Strong Trend \u2014 Bullish": "2026-04-21T18:58:26.262110+00:00",
+    "SMH::52-Week Breakout": "2026-04-21T18:58:26.262151+00:00",
+    "NVDA::RSI Overbought": "2026-04-21T18:58:26.262166+00:00",
+    "SMH::RSI Overbought": "2026-04-21T18:58:26.262178+00:00",
+    "ARKK::Stochastic RSI Overbought": "2026-04-21T18:58:26.262194+00:00",
+    "SMH::VWAP Deviation \u2014 Overbought": "2026-04-21T18:58:26.262211+00:00",
+    "SMH::Stochastic RSI Overbought": "2026-04-21T18:58:26.262222+00:00",
+    "IWM::Stochastic RSI Overbought": "2026-04-21T18:58:26.262232+00:00"
   }
 }
