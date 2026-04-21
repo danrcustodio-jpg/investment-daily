@@ -462,7 +462,7 @@ def main() -> None:
     state = load_state()
     state = prune_state(state)
 
-    # Filter to signals not sent within the last ALERT_COOLDOWN_HOURS hours
+    # Filter to signals not sent since the last 6 AM MT reset
     new_signals = []
     suppressed  = []
     for s in all_signals:
@@ -474,12 +474,12 @@ def main() -> None:
 
     if suppressed:
         logger.info(
-            f"{len(suppressed)} signal(s) suppressed (sent within last {ALERT_COOLDOWN_HOURS}h): "
+            f"{len(suppressed)} signal(s) suppressed (already sent since 6 AM MT reset): "
             + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed)
         )
 
     if not new_signals:
-        logger.info(f"No new signals outside the {ALERT_COOLDOWN_HOURS}-hour cooldown — skipping.")
+        logger.info(f"No new signals since last 6 AM MT reset — skipping.")
         return
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
