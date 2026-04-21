@@ -1,0 +1,95 @@
+{
+  "initialized": "2026-04-20T10:51:18.786849",
+  "init_date": "2026-04-20",
+  "total_capital": 194000.0,
+  "positions": {
+    "XLE": {
+      "name": "Energy ETF (XLE)",
+      "allocation": 35000,
+      "type": "market",
+      "entry_price": 55.395,
+      "shares": 631.826,
+      "signal": "VWAP Deviation \u2014 Oversold",
+      "confidence": 67.7,
+      "win_rate": 74.1,
+      "sharpe": 1.26,
+      "rationale": "Only clean bullish signal with no conflicting bearish signals. 74.1% win rate historically. Energy sector diverging positively.",
+      "status": "open",
+      "triggered_date": null
+    },
+    "CL=F": {
+      "name": "Crude Oil (CL=F)",
+      "allocation": 15000,
+      "type": "market",
+      "entry_price": 87.25,
+      "shares": 171.9198,
+      "signal": "Stochastic RSI Oversold",
+      "confidence": 60.9,
+      "win_rate": 61.3,
+      "sharpe": 1.63,
+      "rationale": "Confirms the XLE energy trade. Crude oil stochRSI oversold.",
+      "status": "open",
+      "triggered_date": null
+    },
+    "GOOGL": {
+      "name": "Alphabet (GOOGL)",
+      "allocation": 15000,
+      "type": "limit",
+      "ask_at_init": 339.175,
+      "limit_price": 322.22,
+      "entry_price": null,
+      "shares": null,
+      "signal": "ADX Strong Trend \u2014 Bullish",
+      "confidence": 66.9,
+      "win_rate": 55.6,
+      "sharpe": 1.85,
+      "rationale": "ADX trend intact but RSI overbought. Waiting for 5% pullback to $322.22.",
+      "status": "pending",
+      "triggered_date": null
+    },
+    "MSFT": {
+      "name": "Microsoft (MSFT)",
+      "allocation": 9000,
+      "type": "limit",
+      "ask_at_init": 419.12,
+      "limit_price": 399.0,
+      "entry_price": null,
+      "shares": null,
+      "signal": "ADX Strong Trend \u2014 Bullish",
+      "confidence": 67.9,
+      "win_rate": 67.8,
+      "sharpe": 1.75,
+      "rationale": "RSI at 78.9 \u2014 overextended. Waiting for pullback to $399.",
+      "status": "pending",
+      "triggered_date": null
+    },
+    "CASH": {
+      "name": "Cash / Money Market",
+      "allocation": 120000,
+      "type": "cash",
+      "annual_rate": 0.045,
+      "rationale": "SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.",
+      "status": "open",
+      "triggered_date": null
+    }
+  },
+  "benchmark": {
+    "ticker": "SPY",
+    "entry_price": 707.79
+  },
+  "snapshots": [
+    {
+      "date": "2026-04-20",
+      "total_value": 194000.56,
+      "portfolio_pnl": 0.0,
+      "benchmark_pnl": -0.027,
+      "prices": {
+        "XLE": 55.3849983215332,
+        "CL=F": 87.29000091552734,
+        "GOOGL": 338.94000244140625,
+        "MSFT": 419.0400085449219,
+        "SPY": 707.5999755859375
+      }
+    }
+  ]
+}

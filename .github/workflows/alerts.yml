@@ -1,0 +1,65 @@
+name: Strategy Alerts
+
+on:
+  schedule:
+    # Every 30 min during market hours window (covers both EDT and EST)
+    # 13:00-21:30 UTC = ~9:00 AM - 5:30 PM ET (buffer on both sides)
+    # alert_system.py exits immediately if market is actually closed
+    - cron: '*/30 13-21 * * 1-5'
+  workflow_dispatch:   # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write      # needed to commit reports back to repo
+
+jobs:
+  check-alerts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run strategy alert check
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python alert_system.py
+
+      - name: Take simulation snapshot
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python portfolio_sim.py --snapshot
+
+      - name: Generate reports
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python generate_reports.py --alerts --simulation
+
+      - name: Commit state and reports to repo
+        run: |
+          git config user.name "Investment Daily Bot"
+          git config user.email "bot@investment-daily.local"
+          git pull --rebase origin main
+          git add reports/ README.md sim_portfolio.json alert_state.json 2>/dev/null || true
+          git diff --staged --quiet && echo "Nothing to commit" || \
+            git commit -m "Alert scan — $(date -u +'%H:%M UTC %Y-%m-%d')"
+          git push
