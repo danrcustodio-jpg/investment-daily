@@ -224,7 +224,7 @@ def generate_newsletter_report() -> None:
     now       = datetime.now()
     market    = get_market_data()
     news      = get_news()
-    sentiment = analyze_sentiment(news, market)
+    sentiment = analyze_sentiment(market)
     signals   = run_full_scan()
 
     # Flatten market items and get top movers
