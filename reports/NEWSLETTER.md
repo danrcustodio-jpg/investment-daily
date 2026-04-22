@@ -1,9 +1,9 @@
-# Daily Newsletter — Tuesday, April 21, 2026
-Generated at 06:47 PM
+# Daily Newsletter — Wednesday, April 22, 2026
+Generated at 02:17 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 44 total &nbsp;·&nbsp; 🟢 14 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
+**Strategy Signals:** 55 total &nbsp;·&nbsp; 🟢 15 Bullish &nbsp;·&nbsp; 🔴 40 Bearish
 
 ## Top Movers
 
@@ -14,31 +14,31 @@ Generated at 06:47 PM
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 70.2 | 68.0% |
+| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 80.0 | 100.0% |
+| 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 71.6 | 68.3% |
 | 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 68.0 | 64.4% |
-| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 66.9 | 55.9% |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 66.0 | 71.4% |
+| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 67.5 | 63.9% |
+| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 66.8 | 55.6% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 66.0 | 65.4% |
 | 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 65.2 | 60.5% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 64.2 | 65.0% |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 61.0 | 60.7% |
-| 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 58.0 | 56.5% |
-| 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 55.1 | 58.8% |
-| 🟢 BULLISH | **UPRO** | ADX Strong Trend — Bullish | 52.7 | 56.7% |
+| 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 59.6 | 57.1% |
+| 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 55.9 | 59.1% |
+| 🟢 BULLISH | **UPRO** | ADX Strong Trend — Bullish | 53.9 | 57.1% |
 | 🟢 BULLISH | **XLK** | 52-Week Breakout | 51.1 | 61.1% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 48.5 | 48.1% |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 48.9 | 48.4% |
 
 ## Latest News
 
-- [NetSTREIT signals $550M-$650M 2026 net investment activity while raising AFFO per share outlook to $1.36-$1.39](https://seekingalpha.com/news/4577425-netstreit-signals-550m-650m-2026-net-investment-activity-while-raising-affo-per-share-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Vicor forecasts nearly $570M 2026 revenue as 1-year backlog reaches $300.6M](https://seekingalpha.com/news/4577424-vicor-forecasts-nearly-570m-2026-revenue-as-1-year-backlog-reaches-300_6m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Wintrust expects outsized Q2 loan growth and mid- to high single-digit growth for 2026 with net interest margin around 3.5%](https://seekingalpha.com/news/4577423-wintrust-expects-outsized-q2-loan-growth-and-mid-to-high-single-digit-growth-for-2026-with?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Pool Corporation Q1 2026 dividend preview: 15-year streak set for another raise](https://seekingalpha.com/news/4577421-pool-corporation-q1-2026-dividend-preview-15-year-streak-set-for-another-raise?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [American Water Works dividend preview: 17-year growth track set for April boost](https://seekingalpha.com/news/4577418-american-water-works-dividend-preview-17-year-growth-track-set-for-april-boost?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Prices for World Cup public transportation range from free to $150. Here’s what’s going on.](https://www.marketwatch.com/story/prices-for-world-cup-public-transportation-range-from-free-to-150-heres-whats-going-on-4e379437?mod=mw_rss_topstories) — *MarketWatch*
-- [Steel Dynamics surges to all-time high on rising Q1 profit, positive outlook](https://seekingalpha.com/news/4577415-steel-dynamics-surges-to-all-time-high-on-rising-q1-profit-positive-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Mercantile Bank forecasts 5% to 7% annualized quarterly loan growth in 2026 while expecting net interest margin to rise in the back half](https://seekingalpha.com/news/4577420-mercantile-bank-forecasts-5-percent-to-7-percent-annualized-quarterly-loan-growth-in-2026?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access](https://www.cnbc.com/2026/04/21/amazon-glp-1-weight-loss-program.html) — *CNBC Markets*
-- [Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month](https://www.cnbc.com/2026/04/21/sheila-cherfilus-mccormick-resigns-congress.html) — *CNBC Markets*
+- [Traders place $430 million bet on lower oil price before Trump ceasefire extension](https://www.investing.com/news/commodities-news/traders-place-430-million-bet-on-lower-oil-price-before-trump-ceasefire-extension-4629492) — *Investing.com*
+- [Best Buy taps insider Bonfig to succeed veteran Barry as CEO amid demand slowdown](https://www.investing.com/news/economy-news/best-buy-names-insider-jason-bonfig-as-new-ceo-4628854) — *Investing.com*
+- [All eyes on QuantumScape earnings: Can Eagle Line deliver on scale?](https://www.investing.com/news/earnings/all-eyes-on-quantumscape-earnings-can-eagle-line-deliver-on-scale-93CH-4629735) — *Investing.com*
+- [Piper Sandler lowers Intuitive Surgical stock price target to $580](https://www.investing.com/news/analyst-ratings/piper-sandler-lowers-intuitive-surgical-stock-price-target-to-580-93CH-4629734) — *Investing.com*
+- [UBS cuts Tractor Supply stock price target on pet business woes](https://www.investing.com/news/analyst-ratings/ubs-cuts-tractor-supply-stock-price-target-on-pet-business-woes-93CH-4629733) — *Investing.com*
+- [Piper Sandler cuts Beta Bionics stock price target on valuation](https://www.investing.com/news/analyst-ratings/piper-sandler-cuts-beta-bionics-stock-price-target-on-valuation-93CH-4629732) — *Investing.com*
+- [Yum! Brands stock rating reiterated at Buy by UBS ahead of earnings](https://www.investing.com/news/analyst-ratings/yum-brands-stock-rating-reiterated-at-buy-by-ubs-ahead-of-earnings-93CH-4629731) — *Investing.com*
+- [UBS cuts Genuine Parts stock price target on separation timeline](https://www.investing.com/news/analyst-ratings/ubs-cuts-genuine-parts-stock-price-target-on-separation-timeline-93CH-4629730) — *Investing.com*
+- [UBS reiterates Dutch Bros stock rating on food rollout momentum](https://www.investing.com/news/analyst-ratings/ubs-reiterates-dutch-bros-stock-rating-on-food-rollout-momentum-93CH-4629729) — *Investing.com*
+- [Piper Sandler reiterates Weatherford stock rating on Middle East impact](https://www.investing.com/news/analyst-ratings/piper-sandler-reiterates-weatherford-stock-rating-on-middle-east-impact-93CH-4629728) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
