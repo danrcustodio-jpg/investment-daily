@@ -1,24 +1,24 @@
 # Portfolio Simulation 📈
-**Started:** 2026-04-20 &nbsp;·&nbsp; **Day 2** &nbsp;·&nbsp; Updated: Apr 22 2026 04:50 PM
+**Started:** 2026-04-20 &nbsp;·&nbsp; **Day 2** &nbsp;·&nbsp; Updated: Apr 22 2026 05:53 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+0.84%** &nbsp; ($+1,629) |
-| SPY Benchmark | +0.20% &nbsp; ($+384 if 100% SPY) |
-| Alpha vs SPY | **+0.64%** &nbsp; ✅ Outperforming |
+| Portfolio P&L | **+0.85%** &nbsp; ($+1,658) |
+| SPY Benchmark | +0.34% &nbsp; ($+655 if 100% SPY) |
+| Alpha vs SPY | **+0.52%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $195,629 |
+| Current Value | $195,658 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $56.28 | $+559 | +1.60% |
-| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | $93.30 | $+1,040 | +6.93% |
-| **GOOGL** | Alphabet (GOOGL) | ⏳ PENDING (needs -4.3% → $322.22) | $15,000 | $336.70 | — | — |
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -7.4% → $399.00) | $9,000 | $431.08 | — | — |
+| **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $56.43 | $+654 | +1.87% |
+| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | $92.92 | $+975 | +6.50% |
+| **GOOGL** | Alphabet (GOOGL) | ⏳ PENDING (needs -4.6% → $322.22) | $15,000 | $337.58 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -7.6% → $399.00) | $9,000 | $431.82 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $120,000 | — | $+30 | +0.02% |
 
 ## Daily Equity Curve
@@ -27,7 +27,7 @@
 |---|---|---|---|
 | 2026-04-20 | ➡️ +0.00% | -0.03% | ✅ +0.03% |
 | 2026-04-21 | 📈 +0.43% | -0.52% | ✅ +0.95% |
-| 2026-04-22 | 📈 +0.84% | +0.20% | ✅ +0.65% |
+| 2026-04-22 | 📈 +0.85% | +0.34% | ✅ +0.52% |
 
 ## Position Rationale
 
