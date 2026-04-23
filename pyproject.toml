@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",   # style errors
+    "W",   # style warnings
+    "F",   # undefined names, unused imports
+    "B",   # common bugs (bare except, mutable defaults, etc.)
+    "UP",  # modernize Python syntax
+]
+ignore = [
+    "E501",  # line length (handled by line-length setting above)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["F401"]  # unused imports OK in test files
