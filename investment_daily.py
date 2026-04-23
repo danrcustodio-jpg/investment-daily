@@ -26,7 +26,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler(os.path.join(SCRIPT_DIR, "investment_daily.log"), encoding="utf-8"),
+        logging.FileHandler(os.path.join(SCRIPT_DIR, "logs", "investment_daily.log"), encoding="utf-8"),
         logging.StreamHandler(),
     ],
 )

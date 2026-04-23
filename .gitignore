@@ -15,24 +15,11 @@ venv/
 
 # Logs — generated locally, not needed in repo
 *.log
-
-# Local test/scratch files
-live_scan.py
-test_run.py
-test_alerts.py
-test_strategy.py
-send_context.py
-tunnel.py
-verify_reset.py
+logs/
 
 # Sensitive local files
 .ngrok_token
-ngrok.zip
 ngrok.exe
-
-# Dashboard startup logs
-dashboard_startup.txt
-dashboard_startup_err.txt
 
 # Windows
 Thumbs.db

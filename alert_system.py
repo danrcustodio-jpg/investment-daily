@@ -4,7 +4,7 @@ Intraday Strategy Alert System
 Runs every 30 minutes during NYSE market hours (Mon-Fri 9:30 AM – 4:00 PM ET).
 Scans all watched tickers for technical strategy signals, backtests each signal
 against 2 years of history, then emails ONLY the highest-confidence setups.
-One alert per strategy+ticker combination per day (no spam).
+One alert per strategy+ticker combination per 12 hours (no spam).
 """
 
 import os
@@ -12,7 +12,7 @@ import json
 import smtplib
 import logging
 import zoneinfo
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import Dict, List
@@ -28,7 +28,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler(os.path.join(SCRIPT_DIR, "alert_system.log"), encoding="utf-8"),
+        logging.FileHandler(os.path.join(SCRIPT_DIR, "logs", "alert_system.log"), encoding="utf-8"),
         logging.StreamHandler(),
     ],
 )
@@ -63,19 +63,8 @@ def market_status_str() -> str:
 
 # ─── State Management ─────────────────────────────────────────────────────────
 
-MT_ZONE        = zoneinfo.ZoneInfo("America/Denver")
-DAILY_RESET_HOUR = 6   # 6:00 AM Mountain Time — all cooldowns clear at this time
-
-
-def last_reset_time() -> datetime:
-    """Return the most recent 6 AM MT as a timezone-aware datetime (local time)."""
-    now_mt = datetime.now(MT_ZONE)
-    reset_today = now_mt.replace(hour=DAILY_RESET_HOUR, minute=0, second=0, microsecond=0)
-    if now_mt >= reset_today:
-        return reset_today.astimezone()          # today's 6 AM MT in local time
-    # before 6 AM today — last reset was yesterday at 6 AM MT
-    yesterday_reset = reset_today - timedelta(days=1)
-    return yesterday_reset.astimezone()
+# Rolling window: same ticker+strategy will not trigger another email within this many hours.
+ALERT_COOLDOWN_HOURS = 12
 
 
 def load_state() -> Dict:
@@ -99,8 +88,7 @@ def make_state_key(signal: Dict) -> str:
 
 def already_fired_recently(state: Dict, key: str) -> bool:
     """
-    Return True if this signal was already sent since the last 6 AM MT reset.
-    Each signal gets one alert per reset window (resets daily at 6 AM MT).
+    Return True if this signal was already emailed within the last ALERT_COOLDOWN_HOURS.
     """
     last_sent_str = state["fired"].get(key)
     if not last_sent_str:
@@ -109,7 +97,8 @@ def already_fired_recently(state: Dict, key: str) -> bool:
         last_sent = datetime.fromisoformat(last_sent_str)
         if last_sent.tzinfo is None:
             last_sent = last_sent.astimezone()
-        return last_sent >= last_reset_time()
+        cutoff = datetime.now().astimezone() - timedelta(hours=ALERT_COOLDOWN_HOURS)
+        return last_sent >= cutoff
     except Exception:
         return False
 
@@ -122,10 +111,14 @@ def mark_fired(state: Dict, key: str) -> None:
 def prune_state(state: Dict) -> Dict:
     """Remove entries older than 48 hours to keep the state file lean."""
     cutoff = datetime.now().timestamp() - 48 * 3600
-    state["fired"] = {
-        k: v for k, v in state["fired"].items()
-        if datetime.fromisoformat(v).timestamp() > cutoff
-    }
+
+    def _ts(v: str) -> float:
+        try:
+            return datetime.fromisoformat(v).timestamp()
+        except (ValueError, TypeError):
+            return 0.0
+
+    state["fired"] = {k: v for k, v in state["fired"].items() if _ts(v) > cutoff}
     return state
 
 # ─── Email Builder ────────────────────────────────────────────────────────────
@@ -297,11 +290,17 @@ def build_signal_card(signal: Dict) -> str:
     </div>"""
 
 
-def build_alert_email(new_signals: List[Dict], all_signals: List[Dict]) -> tuple:
-    """Returns (subject, html)."""
+def build_alert_email(
+    new_signals: List[Dict],
+    all_signals: List[Dict],
+    *,
+    dispatch_seq: int,
+) -> tuple:
+    """Returns (subject, html). dispatch_seq increments each send so subjects/bodies stay distinct."""
 
     now_et   = datetime.now(ET_ZONE)
     time_str = now_et.strftime("%I:%M %p ET")
+    time_precise = now_et.strftime("%I:%M:%S %p ET")
     date_str = now_et.strftime("%A, %B %d, %Y")
 
     bullish_n = sum(1 for s in new_signals if s["direction"] == "BULLISH")
@@ -317,6 +316,7 @@ def build_alert_email(new_signals: List[Dict], all_signals: List[Dict]) -> tuple
         f"({top_conf:.0f}/100 confidence)"
         + (f" + {len(new_signals)-1} more" if len(new_signals) > 1 else "")
         + f" | {time_str}"
+        + f" · #{dispatch_seq}"
     )
 
     signal_cards = "".join(build_signal_card(s) for s in new_signals)
@@ -341,7 +341,7 @@ def build_alert_email(new_signals: List[Dict], all_signals: List[Dict]) -> tuple
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Strategy Alert — {time_str}</title>
+<title>Strategy Alert #{dispatch_seq} — {time_str}</title>
 </head>
 <body style="margin:0;padding:0;background:#020617;
              font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif">
@@ -360,6 +360,11 @@ def build_alert_email(new_signals: List[Dict], all_signals: List[Dict]) -> tuple
     <div style="font-size:12px;color:#64748b">
       {date_str} &nbsp;·&nbsp; {time_str}
       &nbsp;·&nbsp; Ranked by 2-year backtest confidence
+    </div>
+    <div style="font-size:11px;color:#a78bfa;margin-top:10px;font-weight:600;
+                letter-spacing:0.02em;line-height:1.4">
+      Dispatch #{dispatch_seq} &nbsp;·&nbsp; {time_precise}
+      &nbsp;—&nbsp; new send (not a repeat of a prior email)
     </div>
   </div>
 
@@ -462,7 +467,7 @@ def main() -> None:
     state = load_state()
     state = prune_state(state)
 
-    # Filter to signals not sent since the last 6 AM MT reset
+    # Filter to signals not emailed within ALERT_COOLDOWN_HOURS
     new_signals = []
     suppressed  = []
     for s in all_signals:
@@ -474,19 +479,22 @@ def main() -> None:
 
     if suppressed:
         logger.info(
-            f"{len(suppressed)} signal(s) suppressed (already sent since 6 AM MT reset): "
+            f"{len(suppressed)} signal(s) suppressed (already sent within {ALERT_COOLDOWN_HOURS}h): "
             + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed)
         )
 
     if not new_signals:
-        logger.info(f"No new signals since last 6 AM MT reset — skipping.")
+        logger.info(f"No new signals outside {ALERT_COOLDOWN_HOURS}h cooldown — skipping.")
         return
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
     for s in new_signals:
         logger.info(f"  {s['direction']:7s} | {s['ticker']:10s} | {s['strategy']:30s} | conf={s['confidence']:.0f}")
 
-    subject, html = build_alert_email(new_signals, all_signals)
+    dispatch_seq = int(state.get("send_count", 0)) + 1
+    state["send_count"] = dispatch_seq
+
+    subject, html = build_alert_email(new_signals, all_signals, dispatch_seq=dispatch_seq)
     send_email(subject, html)
 
     # Record timestamp for each fired signal
@@ -499,6 +507,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-# ─── Expose MIN_CONFIDENCE so email template can reference it ─────────────────
-MIN_CONFIDENCE = 52.0

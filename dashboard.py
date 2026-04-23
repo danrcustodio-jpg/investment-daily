@@ -430,9 +430,9 @@ def market_page():
 @app.route("/logs")
 def logs_page():
     log_files = {
-        "Newsletter": os.path.join(SCRIPT_DIR, "investment_daily.log"),
-        "Alerts":     os.path.join(SCRIPT_DIR, "alert_system.log"),
-        "Dashboard":  os.path.join(SCRIPT_DIR, "dashboard.log"),
+        "Newsletter": os.path.join(SCRIPT_DIR, "logs", "investment_daily.log"),
+        "Alerts":     os.path.join(SCRIPT_DIR, "logs", "alert_system.log"),
+        "Dashboard":  os.path.join(SCRIPT_DIR, "logs", "dashboard.log"),
     }
     sections = ""
     for label, path in log_files.items():
@@ -462,8 +462,9 @@ def logs_page():
 
 def _run_script(script_name: str) -> Dict:
     """Run a script in a subprocess, return status dict."""
+    import sys
     script_path = os.path.join(SCRIPT_DIR, script_name)
-    python_exe  = "python"
+    python_exe  = sys.executable
     try:
         result = subprocess.run(
             [python_exe, script_path],
@@ -496,15 +497,23 @@ def run_alerts():
         from strategy_engine import run_full_scan
         from alert_system import (
             build_alert_email, send_email, load_state,
-            save_state, make_state_key, MIN_CONFIDENCE
+            save_state, MIN_CONFIDENCE, mark_fired, make_state_key,
         )
         import logging as lg
         lg.info("Dashboard: manual alert scan triggered")
         signals     = run_full_scan()
         new_signals = [s for s in signals if s.get("confidence", 0) >= MIN_CONFIDENCE]
         if new_signals:
-            subject, html = build_alert_email(new_signals, signals)
+            state = load_state()
+            dispatch_seq = int(state.get("send_count", 0)) + 1
+            state["send_count"] = dispatch_seq
+            subject, html = build_alert_email(
+                new_signals, signals, dispatch_seq=dispatch_seq
+            )
             send_email(subject, html)
+            for s in new_signals:
+                mark_fired(state, make_state_key(s))
+            save_state(state)
     threading.Thread(target=_do, daemon=True).start()
     return jsonify({"ok": True, "message": f"Scan running — email on its way if signals found!"})
 
@@ -539,7 +548,7 @@ if __name__ == "__main__":
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
         handlers=[
-            logging.FileHandler(os.path.join(SCRIPT_DIR, "dashboard.log"), encoding="utf-8"),
+            logging.FileHandler(os.path.join(SCRIPT_DIR, "logs", "dashboard.log"), encoding="utf-8"),
             logging.StreamHandler(),
         ],
     )

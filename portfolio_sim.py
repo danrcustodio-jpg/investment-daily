@@ -33,7 +33,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler(os.path.join(SCRIPT_DIR, "portfolio_sim.log"), encoding="utf-8"),
+        logging.FileHandler(os.path.join(SCRIPT_DIR, "logs", "portfolio_sim.log"), encoding="utf-8"),
         logging.StreamHandler(),
     ],
 )
@@ -46,6 +46,14 @@ STATE_FILE      = os.path.join(SCRIPT_DIR, "sim_portfolio.json")
 
 TOTAL_CAPITAL   = 194_000.00
 CASH_APY        = 0.045   # ~4.5% annual yield on T-Bills / money market
+
+# ─── Tax & Trading Cost Assumptions ──────────────────────────────────────────
+# Short-term gains (< 1 year) taxed as ordinary income; long-term at cap gains rate.
+# Slippage covers bid/ask spread and market impact (no explicit broker commission assumed).
+TAX_SHORT_TERM_RATE = 0.32    # 32% — ordinary income bracket for active trader
+TAX_LONG_TERM_RATE  = 0.15    # 15% — long-term capital gains rate
+SLIPPAGE_RATE       = 0.001   # 0.10% per trade (entry + exit = 0.20% round-trip)
+MIN_EVAL_CONFIDENCE = 55      # minimum signal confidence to surface as new opportunity
 
 # ─── Initial Portfolio (locked in 2026-04-20) ─────────────────────────────────
 
@@ -130,8 +138,11 @@ BENCHMARK = {"ticker": "SPY", "entry_price": 707.79}
 
 def load_state() -> Dict:
     if os.path.exists(STATE_FILE):
-        with open(STATE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(f"Could not load state file ({e}), starting fresh.")
     return {}
 
 
@@ -296,7 +307,7 @@ def compute_benchmark_pnl(state: Dict, current_prices: Dict) -> Dict:
 
 # ─── Snapshot ────────────────────────────────────────────────────────────────
 
-def take_snapshot(state: Dict) -> Dict:
+def take_snapshot(state: Dict, recommendations: Optional[List[Dict]] = None) -> Dict:
     """Record today's portfolio value for charting the weekly equity curve."""
     tickers = [k for k in state["positions"] if k != "CASH"]
     prices  = get_current_prices(tickers + [state["benchmark"]["ticker"]])
@@ -320,9 +331,285 @@ def take_snapshot(state: Dict) -> Dict:
     existing.append(snap)
     state["snapshots"] = existing
 
+    if recommendations is not None:
+        # Strip exit_cost dicts (too large for JSON state); keep the text fields
+        state["recommendations"] = [
+            {k: v for k, v in r.items() if k != "exit_cost"}
+            for r in recommendations
+        ]
+        state["recommendations_updated"] = datetime.now().isoformat()
+
     save_state(state)
     logger.info(f"Snapshot saved: portfolio {portfolio_pnl_pct:+.2f}% | SPY {bm['pnl_pct']:+.2f}%")
     return state, rows, bm
+
+
+# ─── Market Evaluation Engine ────────────────────────────────────────────────
+
+def _holding_days(pos: Dict, state: Dict) -> int:
+    """Days since position was entered (or sim init date for day-1 market orders)."""
+    if pos.get("triggered_date"):
+        start = date.fromisoformat(pos["triggered_date"])
+    elif pos.get("status") == "open" and pos.get("type") == "market":
+        start = date.fromisoformat(state.get("init_date", date.today().isoformat()))
+    else:
+        start = date.today()
+    return max(0, (date.today() - start).days)
+
+
+def _tax_rate(pos: Dict, state: Dict) -> float:
+    """Return applicable capital gains rate based on how long the position has been held."""
+    return TAX_LONG_TERM_RATE if _holding_days(pos, state) >= 365 else TAX_SHORT_TERM_RATE
+
+
+def _exit_cost(pos: Dict, current_price: float, state: Dict) -> Dict:
+    """
+    Full cost of liquidating an open equity position.
+    Gains are taxed; losses produce a tax benefit. Slippage is always a cost.
+    Returns a dict with gross_gain, tax_cost/benefit, slippage, net_proceeds, net_gain_after_costs.
+    """
+    alloc   = pos["allocation"]
+    shares  = pos.get("shares") or 0
+    entry   = pos.get("entry_price") or 0
+
+    current_value = (shares * current_price) if (shares and current_price) else alloc
+    gross_gain    = current_value - alloc
+
+    if gross_gain >= 0:
+        tax_cost    = gross_gain * _tax_rate(pos, state)
+        tax_benefit = 0.0
+    else:
+        tax_cost    = 0.0
+        tax_benefit = abs(gross_gain) * TAX_SHORT_TERM_RATE  # loss offsets ordinary income
+
+    slippage     = current_value * SLIPPAGE_RATE
+    net_proceeds = current_value - tax_cost + tax_benefit - slippage
+
+    return {
+        "gross_gain":           round(gross_gain, 2),
+        "tax_cost":             round(tax_cost, 2),
+        "tax_benefit":          round(tax_benefit, 2),
+        "slippage":             round(slippage, 2),
+        "net_proceeds":         round(net_proceeds, 2),
+        "net_gain_after_costs": round(net_proceeds - alloc, 2),
+        "holding_days":         _holding_days(pos, state),
+        "tax_rate_pct":         round(_tax_rate(pos, state) * 100, 0),
+        "term":                 "long" if _holding_days(pos, state) >= 365 else "short",
+    }
+
+
+def _score_signal(sig: Dict) -> float:
+    """
+    Composite quality score for one signal.
+    Higher = better risk/reward.  Used to compare bull vs bear signal weight.
+    """
+    d5      = sig.get("backtest", {}).get("5d", {})
+    wr      = (d5.get("win_rate") or 50) / 100
+    sharpe  = min(abs(d5.get("sharpe") or 1.0), 4.0)
+    conf    = (sig.get("confidence") or 50) / 100
+    dd_raw  = d5.get("max_drawdown")
+    dd      = abs(dd_raw if dd_raw is not None else -10) / 100
+    return conf * wr * (1 + sharpe / 10) * (1 - dd * 0.25)
+
+
+def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[Dict]:
+    """
+    Evaluate every position against live signals. Factor in taxes and slippage.
+    Returns a list of recommendation dicts, sorted by priority (high → low).
+
+    Recommendations surface three action types:
+      HOLD            — current position, thesis intact
+      REVIEW_EXIT     — net bearish signal environment; shows full exit cost
+      HOLD_LIMIT      — pending limit order, still valid
+      CANCEL_LIMIT    — pending limit, but bearish signals now dominate
+      NEW_OPPORTUNITY — bullish signal not yet in portfolio, capital is deployable
+    """
+    positions  = state["positions"]
+    recs: List[Dict] = []
+
+    # Build per-ticker signal map from the full scan
+    sig_map: Dict[str, Dict[str, List]] = {}
+    for s in signals:
+        t   = s["ticker"]
+        dir = s["direction"].upper()
+        if t not in sig_map:
+            sig_map[t] = {"bullish": [], "bearish": []}
+        sig_map[t]["bullish" if dir == "BULLISH" else "bearish"].append(s)
+
+    avail_cash     = 0.0
+    exit_proceeds  = 0.0  # capital that would be freed by any REVIEW_EXIT
+
+    # ── Evaluate existing positions ───────────────────────────────────────────
+    for ticker, pos in positions.items():
+        if pos["type"] == "cash":
+            avail_cash = pos["allocation"]
+            continue
+
+        cp   = prices.get(ticker)
+        sigs = sig_map.get(ticker, {"bullish": [], "bearish": []})
+        bull = sigs["bullish"]
+        bear = sigs["bearish"]
+
+        bull_score = sum(_score_signal(s) for s in bull)
+        bear_score = sum(_score_signal(s) for s in bear)
+        net_score  = bull_score - bear_score  # positive = net bullish
+
+        if pos["status"] == "pending":
+            # Pending limit — should we cancel?
+            if bear_score > bull_score * 1.4 and bear:
+                top_bear = max(bear, key=lambda s: s["confidence"])
+                recs.append({
+                    "action":   "CANCEL_LIMIT",
+                    "ticker":   ticker,
+                    "priority": "medium",
+                    "reason": (
+                        f"{len(bear)} bearish signal(s) now outweigh {len(bull)} bullish. "
+                        f"Strongest: {top_bear['strategy']} at confidence {top_bear['confidence']}. "
+                        f"Limit at ${pos['limit_price']:.2f} may never fill profitably."
+                    ),
+                    "tax_note": "No tax impact — order not yet filled.",
+                    "exit_cost": None,
+                })
+            else:
+                near_gap = ""
+                if cp and pos.get("limit_price"):
+                    gap = (cp - pos["limit_price"]) / cp * 100
+                    near_gap = f" Current price ${cp:.2f} is {gap:.1f}% above limit."
+                recs.append({
+                    "action":   "HOLD_LIMIT",
+                    "ticker":   ticker,
+                    "priority": "low",
+                    "reason": (
+                        f"Thesis intact: {len(bull)} bullish vs {len(bear)} bearish signals.{near_gap} "
+                        f"Keep limit order at ${pos['limit_price']:.2f}."
+                    ),
+                    "tax_note": "No tax impact until order fills.",
+                    "exit_cost": None,
+                })
+            continue
+
+        # Open position — should we exit?
+        if pos["status"] == "open" and cp:
+            ec = _exit_cost(pos, cp, state)
+
+            if net_score < -0.15:  # net bearish after weighting
+                top_bear = max(bear, key=lambda s: s["confidence"]) if bear else None
+                priority = "high" if bear_score > bull_score * 1.5 else "medium"
+                bear_desc = (
+                    f"Strongest bearish: {top_bear['strategy']} "
+                    f"(confidence {top_bear['confidence']})."
+                    if top_bear else "Multiple bearish signals present."
+                )
+                tax_str = (
+                    f"${ec['tax_cost']:,.0f} tax owed ({ec['tax_rate_pct']:.0f}% {ec['term']}-term)"
+                    if ec["tax_cost"] > 0
+                    else f"${ec['tax_benefit']:,.0f} tax benefit (loss deduction)"
+                )
+                exit_proceeds += ec["net_proceeds"]
+                recs.append({
+                    "action":   "REVIEW_EXIT",
+                    "ticker":   ticker,
+                    "priority": priority,
+                    "reason": (
+                        f"Signal environment turned net bearish "
+                        f"({len(bear)} bear score {bear_score:.2f} vs {len(bull)} bull score {bull_score:.2f}). "
+                        f"{bear_desc} "
+                        f"Gross P&L: ${ec['gross_gain']:+,.0f}."
+                    ),
+                    "tax_note": (
+                        f"Held {ec['holding_days']} days ({ec['term']}-term rate). "
+                        f"{tax_str} + ${ec['slippage']:,.0f} slippage. "
+                        f"Net proceeds if sold: ${ec['net_proceeds']:,.0f}."
+                    ),
+                    "exit_cost": ec,
+                })
+            else:
+                pnl_str = f"${ec['gross_gain']:+,.0f}" if ec["gross_gain"] != 0 else "$0"
+                recs.append({
+                    "action":   "HOLD",
+                    "ticker":   ticker,
+                    "priority": "low",
+                    "reason": (
+                        f"Signal still net bullish "
+                        f"({len(bull)} bull score {bull_score:.2f} vs {len(bear)} bear score {bear_score:.2f}). "
+                        f"Gross P&L: {pnl_str}. Holding avoids ${ec['tax_cost']:,.0f} in taxes."
+                    ),
+                    "tax_note": (
+                        f"Held {ec['holding_days']} days ({ec['term']}-term). "
+                        f"Exiting now costs ${ec['tax_cost']:,.0f} tax "
+                        f"+ ${ec['slippage']:,.0f} slippage = "
+                        f"${ec['tax_cost'] + ec['slippage']:,.0f} total friction."
+                    ),
+                    "exit_cost": ec,
+                })
+
+    # ── Identify new opportunities not already in the portfolio ───────────────
+    in_portfolio  = set(positions.keys())
+    deployable    = avail_cash + exit_proceeds
+
+    if deployable >= 5_000:
+        candidates = []
+        for ticker, sigs in sig_map.items():
+            if ticker in in_portfolio:
+                continue
+            bull = sigs["bullish"]
+            bear = sigs["bearish"]
+            if not bull:
+                continue
+
+            top_bull      = max(bull, key=lambda s: s["confidence"])
+            if top_bull["confidence"] < MIN_EVAL_CONFIDENCE:
+                continue
+
+            top_bear_conf = max((s["confidence"] for s in bear), default=0)
+            if top_bear_conf >= 78:
+                continue  # skip when a very high-confidence bear signal exists
+
+            d5    = top_bull.get("backtest", {}).get("5d", {})
+            score = _score_signal(top_bull) - sum(_score_signal(s) for s in bear) * 0.5
+            candidates.append({
+                "ticker":       ticker,
+                "signal":       top_bull["strategy"],
+                "confidence":   top_bull["confidence"],
+                "win_rate":     d5.get("win_rate", "?"),
+                "avg_return":   d5.get("avg_return", "?"),
+                "max_drawdown": d5.get("max_drawdown", "?"),
+                "sharpe":       d5.get("sharpe", "?"),
+                "score":        score,
+                "bear_count":   len(bear),
+                "top_bear_conf": top_bear_conf,
+            })
+
+        candidates.sort(key=lambda x: x["score"], reverse=True)
+        for c in candidates[:3]:
+            suggested_alloc = round(min(deployable * 0.35, 30_000) / 1000) * 1000
+            conflict_note = (
+                "No conflicting bearish signals."
+                if c["bear_count"] == 0
+                else f"{c['bear_count']} minor bearish signal(s), max confidence {c['top_bear_conf']}."
+            )
+            recs.append({
+                "action":   "NEW_OPPORTUNITY",
+                "ticker":   c["ticker"],
+                "priority": "high" if c["confidence"] >= 70 else "medium",
+                "reason": (
+                    f"{c['signal']} — Confidence {c['confidence']}, "
+                    f"Win Rate {c['win_rate']}%, Avg 5d Return {c['avg_return']}%, "
+                    f"Max Drawdown {c['max_drawdown']}%, Sharpe {c['sharpe']}. {conflict_note}"
+                ),
+                "tax_note": (
+                    f"New position — no tax on entry. "
+                    f"Suggested allocation: ~${suggested_alloc:,.0f} of "
+                    f"${deployable:,.0f} deployable. "
+                    f"Entry slippage est. ${suggested_alloc * SLIPPAGE_RATE:,.0f}."
+                ),
+                "exit_cost": None,
+            })
+
+    # Sort: high first, then by ticker name
+    priority_order = {"high": 0, "medium": 1, "low": 2}
+    recs.sort(key=lambda r: (priority_order.get(r["priority"], 9), r["ticker"]))
+    return recs
 
 
 # ─── Console Report ──────────────────────────────────────────────────────────
@@ -381,6 +668,23 @@ def print_report(rows: List[Dict], bm: Dict, state: Dict) -> None:
             print(f"  {s['date']:<12} {s['portfolio_pnl']:>+11.2f}%  {s['benchmark_pnl']:>+9.2f}%  {alpha_d:>+7.2f}%")
 
     print("="*72 + "\n")
+
+    # Show cached advisor output if available
+    recs = state.get("recommendations", [])
+    if recs:
+        action_icons = {
+            "HOLD": "[OK]", "HOLD_LIMIT": "[OK]", "REVIEW_EXIT": "[!!]",
+            "CANCEL_LIMIT": "[!!]", "NEW_OPPORTUNITY": "[>>]",
+        }
+        print("  STRATEGY ADVISOR  (taxes & fees included)")
+        print("-"*72)
+        for r in recs:
+            icon = action_icons.get(r["action"], "•")
+            print(f"  {icon} [{r['action']}] {r['ticker']}")
+            print(f"     {r['reason']}")
+            print(f"     Tax/Fee: {r['tax_note']}")
+            print()
+        print("="*72 + "\n")
 
 
 # ─── HTML Report ─────────────────────────────────────────────────────────────
@@ -584,7 +888,6 @@ def main():
     if "--email" in args:
         html = build_html_report(rows, bm, state, weekly=False)
         total_pct = (sum(r.get("current_value", r["allocation"]) for r in rows) - TOTAL_CAPITAL) / TOTAL_CAPITAL * 100
-        arrow = "+" if total_pct >= 0 else ""
         send_email(
             f"Portfolio Simulation — Day {(date.today() - date.fromisoformat(state['init_date'])).days} | {total_pct:+.2f}% vs SPY {bm['pnl_pct']:+.2f}%",
             html,
