@@ -31,7 +31,7 @@ a Windows PC (C:\Users\Owner\InvestmentDaily\). It emails dan.r.custodio@gmail.c
 | `strategy_engine.py` | All trading strategy logic: indicators (pandas-ta), backtesting, signal detection |
 | `dashboard.py` | Flask web dashboard for phone access |
 | `.env` | Email credentials (Gmail sender + App Password) |
-| `alert_state.json` | Tracks which alerts fired today (prevents duplicates) |
+| `alert_state.json` | Tracks alert send times (12h cooldown per ticker+strategy) |
 | `requirements.txt` | Python dependencies |
 | `schedule_alerts.ps1` | Registers intraday alert task in Windows Task Scheduler |
 | `schedule_daily.ps1` | Registers daily newsletter task in Windows Task Scheduler |
@@ -99,7 +99,7 @@ TQQQ, UPRO, SOXL, BTC-USD, ETH-USD, SOL-USD, GC=F, CL=F
 
 - Only runs Mon–Fri 9:30 AM – 4:00 PM ET (exits immediately otherwise)
 - Runs strategy scan → filters by confidence >= 52
-- State file (alert_state.json) prevents repeat alerts for same strategy+ticker same day
+- State file (alert_state.json) prevents repeat alerts for same strategy+ticker within 12 hours
 - Alert email shows: strategy signal cards with full backtest table (Sharpe, Sortino, etc.)
 - "Learn More" links → Investopedia for each strategy
 

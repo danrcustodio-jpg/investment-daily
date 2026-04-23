@@ -156,5 +156,57 @@
         "SPY": 715.1699829101562
       }
     }
-  ]
+  ],
+  "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "MRVL",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Confidence 80.0, Win Rate 100.0%, Avg 5d Return 14.73%, Max Drawdown 0.0%, Sharpe 25.81. 3 minor bearish signal(s), max confidence 58.7.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "SMH",
+      "priority": "high",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Confidence 80.3, Win Rate 68.6%, Avg 5d Return 1.46%, Max Drawdown -35.45%, Sharpe 2.7. 2 minor bearish signal(s), max confidence 70.8.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
+    },
+    {
+      "action": "REVIEW_EXIT",
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "Signal environment turned net bearish (1 bear score 0.28 vs 0 bull score 0.00). Strongest bearish: ADX Strong Trend \u2014 Bearish (confidence 47.0). Gross P&L: $+723.",
+      "tax_note": "Held 2 days (short-term rate). $232 tax owed (32% short-term) + $36 slippage. Net proceeds if sold: $35,456."
+    },
+    {
+      "action": "CANCEL_LIMIT",
+      "ticker": "MSFT",
+      "priority": "medium",
+      "reason": "2 bearish signal(s) now outweigh 1 bullish. Strongest: RSI Overbought at confidence 69.9. Limit at $399.00 may never fill profitably.",
+      "tax_note": "No tax impact \u2014 order not yet filled."
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XLK",
+      "priority": "medium",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Confidence 66.4, Win Rate 64.1%, Avg 5d Return 0.68%, Max Drawdown -24.1%, Sharpe 1.7. 1 minor bearish signal(s), max confidence 67.7.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
+    },
+    {
+      "action": "HOLD",
+      "ticker": "CL=F",
+      "priority": "low",
+      "reason": "Signal still net bullish (1 bull score 0.21 vs 0 bear score 0.00). Gross P&L: $+1,081. Holding avoids $346 in taxes.",
+      "tax_note": "Held 2 days (short-term). Exiting now costs $346 tax + $16 slippage = $362 total friction."
+    },
+    {
+      "action": "HOLD_LIMIT",
+      "ticker": "GOOGL",
+      "priority": "low",
+      "reason": "Thesis intact: 1 bullish vs 0 bearish signals. Current price $339.32 is 5.0% above limit. Keep limit order at $322.22.",
+      "tax_note": "No tax impact until order fills."
+    }
+  ],
+  "recommendations_updated": "2026-04-22T19:40:31.799343"
 }

@@ -39,7 +39,12 @@ def _dir_badge(direction: str) -> str:
 def generate_alerts_report() -> None:
     print("Generating reports/ALERTS.md ...")
     from strategy_engine import run_full_scan
-    from alert_system import load_state, make_state_key, already_fired_recently
+    from alert_system import (
+        load_state,
+        make_state_key,
+        already_fired_recently,
+        ALERT_COOLDOWN_HOURS,
+    )
 
     signals  = run_full_scan()
     state    = load_state()
@@ -62,7 +67,7 @@ def generate_alerts_report() -> None:
         f"| 🟢 Bullish | {len(bullish)} |",
         f"| 🔴 Bearish | {len(bearish)} |",
         f"| ✅ New alerts fired this window | {len(new_sigs)} |",
-        f"| ⏸ Suppressed (already sent today) | {len(fired)} |",
+        f"| ⏸ Suppressed (already sent within {ALERT_COOLDOWN_HOURS}h) | {len(fired)} |",
         "",
     ]
 
@@ -84,7 +89,12 @@ def generate_alerts_report() -> None:
             )
         lines.append("")
     else:
-        lines += ["## ✅ New Signals", "", "_No new signals this window — all already sent today._", ""]
+        lines += [
+            "## ✅ New Signals",
+            "",
+            f"_No new signals this window — all still inside {ALERT_COOLDOWN_HOURS}h cooldown._",
+            "",
+        ]
 
     lines += [
         "## All Active Signals",
@@ -112,6 +122,7 @@ def generate_alerts_report() -> None:
 def generate_simulation_report() -> None:
     print("Generating reports/SIMULATION.md ...")
     import portfolio_sim as sim
+    from strategy_engine import run_full_scan
 
     state = sim.load_state()
     if not state:
@@ -123,6 +134,18 @@ def generate_simulation_report() -> None:
     state   = sim.check_limit_orders(state, state["init_date"])
     rows    = sim.compute_pnl(state, prices)
     bm      = sim.compute_benchmark_pnl(state, prices)
+
+    # ── Run live signal scan and evaluate the portfolio ───────────────────────
+    print("  Running strategy scan for portfolio evaluation...")
+    signals = run_full_scan()
+    recs    = sim.evaluate_portfolio(state, prices, signals)
+    # Persist recommendations (without large exit_cost dicts) into state
+    state["recommendations"] = [
+        {k: v for k, v in r.items() if k != "exit_cost"}
+        for r in recs
+    ]
+    state["recommendations_updated"] = datetime.now().isoformat()
+    sim.save_state(state)
 
     init_date   = state.get("init_date", "?")
     days        = (date.today() - date.fromisoformat(init_date)).days
@@ -190,8 +213,52 @@ def generate_simulation_report() -> None:
                 f"| {s['benchmark_pnl']:+.2f}% | {a_icon} {a:+.2f}% |"
             )
 
+    # ── Strategy Advisor section ──────────────────────────────────────────────
+    if recs:
+        action_labels = {
+            "HOLD":            "✅ HOLD",
+            "HOLD_LIMIT":      "✅ HOLD LIMIT",
+            "REVIEW_EXIT":     "⚠️ REVIEW EXIT",
+            "CANCEL_LIMIT":    "⚠️ CANCEL LIMIT",
+            "NEW_OPPORTUNITY": "🔍 NEW OPPORTUNITY",
+        }
+        priority_labels = {"high": "🔴 HIGH", "medium": "🟡 MEDIUM", "low": "🟢 LOW"}
+
+        lines += [
+            "",
+            "## Strategy Advisor",
+            "",
+            f"_Evaluated {now.strftime('%b %d %Y %I:%M %p')} · "
+            f"Tax rates: {int(sim.TAX_SHORT_TERM_RATE*100)}% short-term / "
+            f"{int(sim.TAX_LONG_TERM_RATE*100)}% long-term · "
+            f"Slippage: {sim.SLIPPAGE_RATE*100:.1f}% per trade_",
+            "",
+            "| Priority | Action | Ticker | Summary |",
+            "|---|---|---|---|",
+        ]
+        for r in recs:
+            action_lbl   = action_labels.get(r["action"], r["action"])
+            priority_lbl = priority_labels.get(r["priority"], r["priority"])
+            # Keep table rows short; truncate reason at ~90 chars
+            summary = r["reason"][:90] + "…" if len(r["reason"]) > 90 else r["reason"]
+            lines.append(
+                f"| {priority_lbl} | {action_lbl} | **{r['ticker']}** | {summary} |"
+            )
+
+        lines += [""]
+        for r in recs:
+            action_lbl = action_labels.get(r["action"], r["action"])
+            lines += [
+                f"### {action_lbl} — {r['ticker']}",
+                "",
+                f"**Signal Analysis:** {r['reason']}",
+                "",
+                f"**Tax & Cost:** {r['tax_note']}",
+                "",
+            ]
+
     # Rationale for each position
-    lines += ["", "## Position Rationale", ""]
+    lines += ["## Position Rationale", ""]
     for r in rows:
         if r["type"] == "cash":
             lines += [
@@ -210,7 +277,6 @@ def generate_simulation_report() -> None:
             ]
 
     lines += ["---", "*Simulated portfolio for educational purposes. Not financial advice.*"]
-    sim.save_state(state)
     _write("SIMULATION.md", lines)
 
 
@@ -228,11 +294,12 @@ def generate_newsletter_report() -> None:
     signals   = run_full_scan()
 
     # Flatten market items and get top movers
+    # get_market_data() returns Dict[str, Dict[str, Dict]] — category → {display_name → {symbol, price, change, pct_change}}
     all_items = []
-    for items in market.values():
-        if isinstance(items, list):
-            all_items.extend(items)
-    movers = sorted(all_items, key=lambda x: abs(x.get("change_pct", 0)), reverse=True)[:10]
+    for cat_dict in market.values():
+        for name, d in cat_dict.items():
+            all_items.append({**d, "name": name})
+    movers = sorted(all_items, key=lambda x: abs(x.get("pct_change", 0)), reverse=True)[:10]
 
     bullish = [s for s in signals if s["direction"] == "BULLISH"]
     bearish = [s for s in signals if s["direction"] == "BEARISH"]
@@ -241,7 +308,7 @@ def generate_newsletter_report() -> None:
         f"# Daily Newsletter — {now.strftime('%A, %B %d, %Y')}",
         f"Generated at {now.strftime('%I:%M %p')}",
         "",
-        f"## Market Sentiment: {sentiment.get('label', 'Neutral')}",
+        f"## Market Sentiment: {sentiment.get('overall', 'Neutral').capitalize()}",
         "",
         f"**Strategy Signals:** {len(signals)} total &nbsp;·&nbsp; "
         f"🟢 {len(bullish)} Bullish &nbsp;·&nbsp; 🔴 {len(bearish)} Bearish",
@@ -253,10 +320,10 @@ def generate_newsletter_report() -> None:
     ]
 
     for item in movers:
-        chg   = item.get("change_pct", 0)
+        chg   = item.get("pct_change", 0)
         icon  = _pct_arrow(chg)
         lines.append(
-            f"| **{item.get('ticker','')}** | {item.get('name','')} "
+            f"| **{item.get('symbol','')}** | {item.get('name','')} "
             f"| ${item.get('price', 0):.2f} | {icon} {chg:+.2f}% |"
         )
 
@@ -290,6 +357,7 @@ def generate_newsletter_report() -> None:
 
 def update_readme() -> None:
     print("Updating README.md ...")
+    from alert_system import ALERT_COOLDOWN_HOURS
     import portfolio_sim as sim
 
     state       = sim.load_state()
@@ -347,7 +415,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 |---|---|
 | Daily Newsletter | 7:30 AM ET every day |
 | Strategy Alerts | Every 30 min, Mon–Fri, 9:30 AM – 4:00 PM ET |
-| Alert cooldown | Resets daily at 6:00 AM MT |
+| Alert cooldown | Same ticker+strategy: at most once per {ALERT_COOLDOWN_HOURS} hours |
 | Signals tracked | 28 tickers × 9 strategies |
 
 ## Docs

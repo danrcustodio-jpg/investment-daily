@@ -51,11 +51,11 @@ Three independent runtimes + one shared library:
 
 ```
 1. is_market_open()         → check NYSE hours (ET timezone, Mon-Fri)
-2. load_state()             → read alert_state.json (deduplicate today's alerts)
+2. load_state()             → read alert_state.json (12h cooldown per ticker+strategy)
 3. strategy_engine.run_full_scan()  → same scan as newsletter
 4. filter signals           → confidence >= MIN_CONFIDENCE (52.0)
-5. filter already-sent      → skip if strategy+ticker already fired today
-6. build_alert_email()      → HTML with signal cards
+5. filter already-sent      → skip if strategy+ticker emailed within last 12 hours
+6. build_alert_email()      → HTML with signal cards (includes monotonic dispatch # in subject/body)
 7. send_email()             → Gmail SMTP
 8. save_state()             → write alert_state.json
 ```
@@ -64,13 +64,14 @@ Three independent runtimes + one shared library:
 
 ```json
 {
-  "2024-01-15": {
-    "NVDA|RSI Oversold": true,
-    "TSLA|MACD Bullish Crossover": true
+  "send_count": 47,
+  "fired": {
+    "NVDA::RSI Oversold": "2026-04-22T14:30:00-06:00",
+    "TSLA::MACD Bullish Crossover": "2026-04-22T10:00:00-06:00"
   }
 }
 ```
-Key format: `"TICKER|Strategy Name"` under today's date string (`YYYY-MM-DD`).  
+Key format: `"TICKER::Strategy Name"` with ISO timestamp of last email. The same key will not trigger another email until **12 hours** have passed (`ALERT_COOLDOWN_HOURS` in `alert_system.py`).  
 State file is at `C:\Users\Owner\InvestmentDaily\alert_state.json`.
 
 ---
@@ -193,11 +194,11 @@ Reuters Business, CNBC Markets, MarketWatch, Yahoo Finance, Seeking Alpha, Inves
 | Function | What it does |
 |---|---|
 | `is_market_open()` | Returns bool — NYSE hours, ET timezone |
-| `load_state()` | Reads `alert_state.json`, returns `{date_str: {key: True, ...}}` |
+| `load_state()` | Reads `alert_state.json`, returns `{ "fired": { key: iso_timestamp, ... } }` |
 | `save_state(state)` | Writes `alert_state.json` |
-| `make_state_key(signal)` | Returns `"TICKER|Strategy Name"` |
+| `make_state_key(signal)` | Returns `"TICKER::Strategy Name"` |
 | `build_signal_card(signal)` | Returns HTML card for one signal |
-| `build_alert_email(signals, all_signals)` | Returns HTML email body |
+| `build_alert_email(new, all, dispatch_seq=…)` | Returns `(subject, html)`; `dispatch_seq` labels each send |
 | `main()` | Full orchestration: scan → filter → deduplicate → email → save state |
 
 **`MIN_CONFIDENCE = 52.0`** — only send alerts for signals above this score.
@@ -235,7 +236,7 @@ Task Name: InvestmentDailyNewsletter
   Registered by: schedule_daily.ps1
 
 Task Name: InvestmentDailyAlerts
-  Trigger: Every 30 minutes, starting 9:00 AM
+  Trigger: Every 30 minutes, starting 9:30 AM
   Action:  python C:\Users\Owner\InvestmentDaily\alert_system.py
   Registered by: schedule_alerts.ps1
   Note: alert_system.py self-guards via is_market_open() — does nothing outside NYSE hours
