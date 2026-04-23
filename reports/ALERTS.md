@@ -1,21 +1,19 @@
 # Strategy Alerts
-**Last scan:** Wednesday April 22, 2026 at 10:09 PM
+**Last scan:** Thursday April 23, 2026 at 03:09 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 51 |
-| 🟢 Bullish | 16 |
-| 🔴 Bearish | 35 |
-| ✅ New alerts fired this window | 1 |
-| ⏸ Suppressed (already sent today) | 50 |
+| Total signals (confidence ≥ 45) | 47 |
+| 🟢 Bullish | 17 |
+| 🔴 Bearish | 30 |
+| ✅ New alerts fired this window | 0 |
+| ⏸ Suppressed (already sent today) | 47 |
 
-## ✅ New Signals This Window
+## ✅ New Signals
 
-| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
-|---|---|---|---|---|---|---|
-| 🔴 BEARISH | **NVDA** | Stochastic RSI Overbought | 49.6 | 55.5% | 1.1% | 1.01 |
+_No new signals this window — all already sent today._
 
 ## All Active Signals
 
@@ -23,55 +21,51 @@
 |---|---|---|---|---|---|---|
 | 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 80.3 | 68.6% | -35.45% | ⏸ Suppressed |
 | 🟢 BULLISH | **MRVL** | 52-Week Breakout | 80.0 | 100.0% | 0.0% | ⏸ Suppressed |
-| 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 70.9 | 68.0% | -31.09% | ⏸ Suppressed |
-| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 68.4 | 63.9% | -4.88% | ⏸ Suppressed |
+| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 72.6 | 64.9% | -4.88% | ⏸ Suppressed |
+| 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 71.0 | 68.3% | -31.09% | ⏸ Suppressed |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 67.4 | 65.4% | -73.89% | ⏸ Suppressed |
 | 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 66.4 | 64.1% | -24.1% | ⏸ Suppressed |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 64.7 | 65.0% | -73.89% | ⏸ Suppressed |
-| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 63.6 | 60.0% | -24.25% | ⏸ Suppressed |
-| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 62.5 | 52.9% | -46.02% | ⏸ Suppressed |
-| 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 57.9 | 56.5% | -62.04% | ⏸ Suppressed |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 56.7 | 52.1% | -88.79% | ⏸ Suppressed |
-| 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 53.5 | 58.2% | -23.62% | ⏸ Suppressed |
-| 🟢 BULLISH | **XLK** | 52-Week Breakout | 51.1 | 61.1% | -9.95% | ⏸ Suppressed |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 50.1 | 54.5% | -65.32% | ⏸ Suppressed |
-| 🟢 BULLISH | **UPRO** | ADX Strong Trend — Bullish | 48.5 | 55.2% | -45.69% | ⏸ Suppressed |
-| 🟢 BULLISH | **SMH** | 52-Week Breakout | 48.4 | 60.0% | -28.6% | ⏸ Suppressed |
-| 🟢 BULLISH | **AVGO** | ADX Strong Trend — Bullish | 47.8 | 53.6% | -67.61% | ⏸ Suppressed |
-| 🔴 BEARISH | **SPY** | VWAP Deviation — Overbought | 87.8 | 69.6% | -5.94% | ⏸ Suppressed |
-| 🔴 BEARISH | **ARM** | RSI Overbought | 80.1 | 63.3% | -51.2% | ⏸ Suppressed |
-| 🔴 BEARISH | **RKLB** | RSI Overbought | 77.6 | 59.1% | -48.44% | ⏸ Suppressed |
-| 🔴 BEARISH | **RKLB** | Stochastic RSI Overbought | 77.4 | 57.1% | -41.11% | ⏸ Suppressed |
-| 🔴 BEARISH | **NVDA** | RSI Overbought | 76.5 | 68.3% | -28.35% | ⏸ Suppressed |
-| 🔴 BEARISH | **QQQ** | VWAP Deviation — Overbought | 75.2 | 53.8% | -15.25% | ⏸ Suppressed |
-| 🔴 BEARISH | **APP** | VWAP Deviation — Overbought | 74.9 | 67.5% | -85.5% | ⏸ Suppressed |
-| 🔴 BEARISH | **SOXL** | RSI Overbought | 74.4 | 61.9% | -58.77% | ⏸ Suppressed |
-| 🔴 BEARISH | **IONQ** | RSI Overbought | 73.1 | 63.4% | -45.97% | ⏸ Suppressed |
-| 🔴 BEARISH | **RKLB** | VWAP Deviation — Overbought | 72.9 | 55.1% | -76.79% | ⏸ Suppressed |
-| 🔴 BEARISH | **SMH** | RSI Overbought | 70.8 | 62.1% | -30.94% | ⏸ Suppressed |
-| 🔴 BEARISH | **MSFT** | RSI Overbought | 69.9 | 72.2% | -20.79% | ⏸ Suppressed |
-| 🔴 BEARISH | **IONQ** | Stochastic RSI Overbought | 69.5 | 58.6% | -55.07% | ⏸ Suppressed |
-| 🔴 BEARISH | **XLK** | RSI Overbought | 67.7 | 64.2% | -15.26% | ⏸ Suppressed |
-| 🔴 BEARISH | **APP** | Stochastic RSI Overbought | 67.1 | 63.9% | -76.87% | ⏸ Suppressed |
+| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 65.1 | 60.5% | -24.25% | ⏸ Suppressed |
+| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 62.7 | 53.2% | -46.02% | ⏸ Suppressed |
+| 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 59.7 | 57.1% | -62.04% | ⏸ Suppressed |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 56.7 | 52.4% | -88.79% | ⏸ Suppressed |
+| 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 54.5 | 58.5% | -23.62% | ⏸ Suppressed |
+| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 52.4 | 54.9% | -65.32% | ⏸ Suppressed |
+| 🟢 BULLISH | **SMH** | 52-Week Breakout | 51.9 | 60.8% | -28.6% | ⏸ Suppressed |
+| 🟢 BULLISH | **SOXL** | 52-Week Breakout | 51.7 | 58.3% | -57.43% | ⏸ Suppressed |
+| 🟢 BULLISH | **CL=F** | ADX Strong Trend — Bullish | 50.6 | 50.0% | -61.82% | ⏸ Suppressed |
+| 🟢 BULLISH | **UPRO** | ADX Strong Trend — Bullish | 49.8 | 55.7% | -45.69% | ⏸ Suppressed |
+| 🟢 BULLISH | **AVGO** | ADX Strong Trend — Bullish | 48.5 | 53.9% | -67.61% | ⏸ Suppressed |
+| 🔴 BEARISH | **SPY** | VWAP Deviation — Overbought | 88.3 | 70.8% | -5.94% | ⏸ Suppressed |
+| 🔴 BEARISH | **ARM** | RSI Overbought | 80.2 | 63.3% | -51.2% | ⏸ Suppressed |
+| 🔴 BEARISH | **RKLB** | Stochastic RSI Overbought | 77.6 | 57.5% | -41.11% | ⏸ Suppressed |
+| 🔴 BEARISH | **NVDA** | RSI Overbought | 77.1 | 68.8% | -28.35% | ⏸ Suppressed |
+| 🔴 BEARISH | **QQQ** | VWAP Deviation — Overbought | 76.7 | 55.0% | -15.25% | ⏸ Suppressed |
+| 🔴 BEARISH | **SOXL** | RSI Overbought | 76.1 | 62.4% | -58.77% | ⏸ Suppressed |
+| 🔴 BEARISH | **APP** | VWAP Deviation — Overbought | 74.7 | 67.2% | -85.5% | ⏸ Suppressed |
+| 🔴 BEARISH | **RKLB** | VWAP Deviation — Overbought | 73.0 | 55.3% | -76.79% | ⏸ Suppressed |
+| 🔴 BEARISH | **SMH** | RSI Overbought | 73.0 | 62.5% | -30.94% | ⏸ Suppressed |
+| 🔴 BEARISH | **IONQ** | Stochastic RSI Overbought | 69.7 | 59.0% | -55.07% | ⏸ Suppressed |
+| 🔴 BEARISH | **XLK** | RSI Overbought | 69.4 | 64.6% | -15.26% | ⏸ Suppressed |
+| 🔴 BEARISH | **QQQ** | RSI Overbought | 65.2 | 59.8% | -14.95% | ⏸ Suppressed |
 | 🔴 BEARISH | **PLTR** | Stochastic RSI Overbought | 64.7 | 62.3% | -59.97% | ⏸ Suppressed |
-| 🔴 BEARISH | **QQQ** | RSI Overbought | 63.6 | 59.4% | -14.95% | ⏸ Suppressed |
-| 🔴 BEARISH | **MSFT** | VWAP Deviation — Overbought | 61.4 | 65.5% | -28.79% | ⏸ Suppressed |
+| 🔴 BEARISH | **MRVL** | RSI Overbought | 62.9 | 55.7% | -65.28% | ⏸ Suppressed |
+| 🔴 BEARISH | **MSFT** | VWAP Deviation — Overbought | 61.6 | 66.1% | -28.79% | ⏸ Suppressed |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 60.8 | 60.7% | -83.22% | ⏸ Suppressed |
-| 🔴 BEARISH | **AMD** | Stochastic RSI Overbought | 59.6 | 57.6% | -66.8% | ⏸ Suppressed |
-| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 58.8 | 54.5% | -95.42% | ⏸ Suppressed |
-| 🔴 BEARISH | **MRVL** | RSI Overbought | 58.7 | 55.0% | -65.28% | ⏸ Suppressed |
-| 🔴 BEARISH | **AMD** | RSI Overbought | 57.8 | 56.7% | -35.24% | ⏸ Suppressed |
-| 🔴 BEARISH | **AMD** | VWAP Deviation — Overbought | 57.1 | 60.6% | -72.5% | ⏸ Suppressed |
-| 🔴 BEARISH | **TQQQ** | RSI Overbought | 55.3 | 55.8% | -47.2% | ⏸ Suppressed |
-| 🔴 BEARISH | **NVDA** | VWAP Deviation — Overbought | 54.3 | 61.6% | -83.64% | ⏸ Suppressed |
-| 🔴 BEARISH | **CL=F** | ADX Strong Trend — Bearish | 52.9 | 57.6% | -34.02% | ⏸ Suppressed |
-| 🔴 BEARISH | **ARKK** | Stochastic RSI Overbought | 49.7 | 56.7% | -55.95% | ⏸ Suppressed |
-| 🔴 BEARISH | **NVDA** | Stochastic RSI Overbought | 49.6 | 55.5% | -69.51% | ✅ New |
-| 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 49.6 | 56.0% | -59.34% | ⏸ Suppressed |
-| 🔴 BEARISH | **TSLA** | VWAP Deviation — Overbought | 48.8 | 48.4% | -67.35% | ⏸ Suppressed |
-| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 47.5 | 55.8% | -67.25% | ⏸ Suppressed |
-| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 47.4 | 53.8% | -71.13% | ⏸ Suppressed |
-| 🔴 BEARISH | **XLE** | ADX Strong Trend — Bearish | 47.0 | 61.5% | -22.13% | ⏸ Suppressed |
-| 🔴 BEARISH | **SMH** | VWAP Deviation — Overbought | 46.7 | 56.3% | -75.64% | ⏸ Suppressed |
+| 🔴 BEARISH | **AMD** | Stochastic RSI Overbought | 60.5 | 57.9% | -66.8% | ⏸ Suppressed |
+| 🔴 BEARISH | **AMD** | RSI Overbought | 60.3 | 57.4% | -35.24% | ⏸ Suppressed |
+| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 58.9 | 54.7% | -95.42% | ⏸ Suppressed |
+| 🔴 BEARISH | **AMD** | VWAP Deviation — Overbought | 58.1 | 60.9% | -72.5% | ⏸ Suppressed |
+| 🔴 BEARISH | **TQQQ** | RSI Overbought | 57.1 | 56.4% | -47.2% | ⏸ Suppressed |
+| 🔴 BEARISH | **NVDA** | VWAP Deviation — Overbought | 54.4 | 61.8% | -83.64% | ⏸ Suppressed |
+| 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 50.2 | 56.3% | -59.34% | ⏸ Suppressed |
+| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 50.1 | 56.2% | -67.25% | ⏸ Suppressed |
+| 🔴 BEARISH | **NVDA** | Stochastic RSI Overbought | 49.9 | 55.8% | -69.51% | ⏸ Suppressed |
+| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 49.2 | 54.1% | -71.13% | ⏸ Suppressed |
+| 🔴 BEARISH | **SMH** | VWAP Deviation — Overbought | 47.8 | 56.6% | -75.64% | ⏸ Suppressed |
+| 🔴 BEARISH | **SMH** | Stochastic RSI Overbought | 46.1 | 55.9% | -72.53% | ⏸ Suppressed |
+| 🔴 BEARISH | **IWM** | Stochastic RSI Overbought | 45.5 | 53.2% | -47.88% | ⏸ Suppressed |
+| 🔴 BEARISH | **SPY** | Stochastic RSI Overbought | 45.2 | 51.0% | -32.98% | ⏸ Suppressed |
 
 ---
 *Not financial advice. Backtests use historical data.*
