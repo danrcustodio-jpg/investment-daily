@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-04-20 &nbsp;·&nbsp; **Day 4** &nbsp;·&nbsp; Updated: Apr 24 2026 08:37 PM
+**Started:** 2026-04-20 &nbsp;·&nbsp; **Day 4** &nbsp;·&nbsp; Updated: Apr 24 2026 09:40 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.24%** &nbsp; ($+2,397) |
+| Portfolio P&L | **+1.19%** &nbsp; ($+2,303) |
 | SPY Benchmark | +0.87% &nbsp; ($+1,686 if 100% SPY) |
-| Alpha vs SPY | **+0.37%** &nbsp; ✅ Outperforming |
+| Alpha vs SPY | **+0.32%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,397 |
+| Current Value | $196,303 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $56.87 | $+932 | +2.66% |
-| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | $95.43 | $+1,406 | +9.38% |
+| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | $94.88 | $+1,312 | +8.75% |
 | **GOOGL** | Alphabet (GOOGL) | ⏳ PENDING (needs -6.4% → $322.22) | $15,000 | $344.40 | — | — |
 | **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -6.0% → $399.00) | $9,000 | $424.62 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $120,000 | — | $+59 | +0.05% |
@@ -29,7 +29,7 @@
 | 2026-04-21 | 📈 +0.43% | -0.52% | ✅ +0.95% |
 | 2026-04-22 | 📈 +0.89% | +0.48% | ✅ +0.40% |
 | 2026-04-23 | 📈 +1.40% | +0.09% | ✅ +1.31% |
-| 2026-04-24 | 📈 +1.24% | +0.87% | ✅ +0.37% |
+| 2026-04-24 | 📈 +1.19% | +0.87% | ✅ +0.32% |
 
 ## Position Rationale
 
