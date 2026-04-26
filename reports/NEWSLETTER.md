@@ -1,9 +1,9 @@
-# Daily Newsletter — Saturday, April 25, 2026
-Generated at 01:44 PM
+# Daily Newsletter — Sunday, April 26, 2026
+Generated at 01:47 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 53 total &nbsp;·&nbsp; 🟢 21 Bullish &nbsp;·&nbsp; 🔴 32 Bearish
+**Strategy Signals:** 54 total &nbsp;·&nbsp; 🟢 22 Bullish &nbsp;·&nbsp; 🔴 32 Bearish
 
 ## Top Movers
 
@@ -29,16 +29,16 @@ Generated at 01:44 PM
 
 ## Latest News
 
-- [Senate banking committee vote on Warsh set for April 29](https://seekingalpha.com/news/4579714-senate-banking-committee-vote-warsh-set-april-29?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Littelfuse Annual Meeting: Directors Reelected, Say-on-Pay Approved, Deloitte Ratified as Auditor](https://finance.yahoo.com/markets/stocks/articles/littelfuse-annual-meeting-directors-reelected-133105962.html) — *Yahoo Finance*
-- [Earnings Scoreboard: 82% of S&P 500 early reporters top EPS estimates ahead of big tech wave](https://seekingalpha.com/news/4579185-earnings-scoreboard-82-of-sp-500-early-reporters-top-eps-estimates-ahead-of-big-tech-wave?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Forget SpaceX: These 4 Space ETFs Pay Off Without the IPO Wait](https://finance.yahoo.com/markets/stocks/articles/forget-spacex-4-space-etfs-133036599.html) — *Yahoo Finance*
-- [As mass layoffs threaten jobs, here are 4 smart moves to protect yourself](https://www.marketwatch.com/story/as-mass-layoffs-threaten-jobs-here-are-4-smart-moves-to-protect-yourself-2b7544a2?mod=mw_rss_topstories) — *MarketWatch*
-- [Republicans retool midterm strategy: Trump’s policies, but less Trump](https://www.investing.com/news/politics-news/republicans-retool-midterm-strategy-trumps-policies-but-less-trump-4637345) — *Investing.com*
-- [‘We are not close’: My brother says our mother left no estate when she died. How on earth can I trust him?](https://www.marketwatch.com/story/we-are-not-close-my-brother-says-our-mother-left-no-estate-when-she-died-how-on-earth-can-i-trust-him-0e4b46d9?mod=mw_rss_topstories) — *MarketWatch*
-- [Iran says it won’t accept ’maximalist demands’ as Islamabad hosts peace push](https://www.investing.com/news/world-news/us-negotiators-to-go-to-islamabad-but-iran-says-no-direct-talks-4637304) — *Investing.com*
-- [Goldman expects 100 IPOs totalling $160 billion will come to market in 2026](https://www.investing.com/news/stock-market-news/goldman-expects-100-ipos-totalling-160-billion-will-come-to-market-in-2026-4637356) — *Investing.com*
-- [Software's comeback bid is fading as chip stocks smash records: Chart of the Day](https://finance.yahoo.com/markets/article/softwares-comeback-bid-is-fading-as-chip-stocks-smash-records-chart-of-the-day-130005707.html) — *Yahoo Finance*
+- [I’ve studied over 200 kids—parents who have the closest relationships with their adult kids never do 6 things](https://www.cnbc.com/2026/04/26/psychologist-parents-who-have-close-bonds-with-their-adult-kids-never-do-6-things.html) — *CNBC Markets*
+- [All eyes on Noble earnings as drilling market tests recovery](https://www.investing.com/news/earnings/all-eyes-on-noble-earnings-as-drilling-market-tests-recovery-93CH-4637478) — *Investing.com*
+- [Quant snapshot: AXT, Chevron lead top-rated names as CBIZ, Grid Dynamics lag](https://seekingalpha.com/news/4578719-quant-snapshot-axt-chevron-lead-top-rated-names-as-cbiz-grid-dynamics-lag?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [White House dinner shooting suspect identified as Caltech graduate, 'teacher of the month'](https://seekingalpha.com/news/4579723-white-house-dinner-shooting-suspect-identified-as-caltech-graduate-teacher-of-the-month?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Israel’s president says he wants a deal reached in Netanyahu case before pardon decision](https://www.investing.com/news/world-news/israels-president-says-he-wants-a-deal-reached-in-netanyahu-case-before-pardon-decision-4637476) — *Investing.com*
+- [Alleged Trump shooter was targeting US officials, authorities say](https://www.ft.com/content/2f922f3f-8232-4541-bfeb-66697b1d8790) — *Financial Times*
+- [Gunman likely targeted Trump administration, acting US attorney general says](https://www.investing.com/news/economy-news/trump-removed-from-white--house-correspondents-dinner-after-security-alarm-4637415) — *Investing.com*
+- [Near-term odds of U.S.-Iran peace deal dip after a U-turn on Pakistan trip](https://seekingalpha.com/news/4579719-near-term-odds-of-u-s-iran-peace-deal-dip-after-u-turn-on-pakistan-trip?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Iran conflict sends pistachio prices soaring as global supply tightens](https://seekingalpha.com/news/4579721-iran-conflict-sends-pistachio-prices-soaring-as-global-supply-tightens?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Soaring US stocks face pivotal week of tech-led earnings, Fed meeting](https://www.investing.com/news/economy-news/soaring-us-stocks-face-pivotal-week-of-techled-earnings-fed-meeting-4637463) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
