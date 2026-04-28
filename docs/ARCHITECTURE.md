@@ -42,7 +42,7 @@ Three independent runtimes + one shared library:
 2. get_news_feeds()         → feedparser: 9 RSS feeds, max 40 articles
 3. get_polymarket_data()    → requests: Gamma API, filter by FINANCE_KEYWORDS
 4. analyze_sentiment()      → keyword scoring against market returns
-5. strategy_engine.run_full_scan()  → 28 tickers × 9 strategies
+5. strategy_engine.run_full_scan()  → 28 tickers × 30 strategy detectors
 6. build_email()            → combine all into HTML
 7. send_email()             → Gmail SMTP, port 587, STARTTLS
 ```
@@ -71,7 +71,7 @@ Three independent runtimes + one shared library:
   }
 }
 ```
-Key format: `"TICKER::Strategy Name"` with ISO timestamp of last email. The same key will not trigger another email until **12 hours** have passed (`ALERT_COOLDOWN_HOURS` in `alert_system.py`).  
+Key format: `"TICKER::Strategy Name"` with ISO timestamp of last email. The same key will not trigger another email until **12 hours** have passed (`ALERT_COOLDOWN_HOURS` in `alert_system.py`).
 State file is at `C:\Users\Owner\InvestmentDaily\alert_state.json`.
 
 ---
@@ -241,6 +241,25 @@ Task Name: InvestmentDailyAlerts
   Registered by: schedule_alerts.ps1
   Note: alert_system.py self-guards via is_market_open() — does nothing outside NYSE hours
 ```
+
+---
+
+## Local Release Gate Flow
+
+Use one command to run the full local validation cycle before changing schedules or thresholds:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_full_cycle.ps1
+```
+
+This performs:
+1. smoke tests (`tests/test_strategy.py`, `tests/test_run.py`, `tests/test_alerts.py`)
+2. QA scenarios (`tests/qa_scenarios.py`)
+3. report refresh (`generate_reports.py --alerts` and `--newsletter`)
+4. eval snapshot write (`evals/runs/run_*.json`)
+5. gate check (`scripts/check_eval_gates.py`) — compares snapshot metrics to `evals/gates.local.json`; exits non-zero on failure (CI-friendly)
+
+`evals/gates.local.json` stores baseline thresholds for quick pass/fail checks. Use `-SkipGateCheck` on `run_full_cycle.ps1` when you intentionally skip thresholds (for example an empty `evals/runs/` on a fresh machine).
 
 ---
 

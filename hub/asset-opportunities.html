@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Opportunity Finder</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --panel-2: #0f1728;
+      --text: #e8eefc;
+      --muted: #9aa7c7;
+      --stroke: #25324d;
+      --ok: #7ee787;
+      --warn: #ffd166;
+      --accent: #7aa2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    .sub { margin: 0 0 18px; color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--stroke);
+      border-radius: 12px;
+      padding: 14px;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .stat {
+      background: var(--panel-2);
+      border: 1px solid var(--stroke);
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .stat .k { color: var(--muted); font-size: 12px; }
+    .stat .v { font-size: 20px; font-weight: 700; margin-top: 4px; }
+    .section-title { margin: 0 0 10px; font-size: 16px; }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    label {
+      font-size: 12px;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 4px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid var(--stroke);
+      background: #0d1524;
+      color: var(--text);
+    }
+    .checks { display: grid; gap: 8px; margin-top: 8px; }
+    .check-row { display: flex; gap: 8px; align-items: center; }
+    .check-row label { margin: 0; color: var(--text); font-size: 13px; }
+    .pillbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .pill {
+      border: 1px solid var(--stroke);
+      background: #0d1524;
+      color: var(--text);
+      padding: 6px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .pill.active { border-color: var(--accent); color: var(--accent); }
+    .opp {
+      border: 1px solid var(--stroke);
+      background: var(--panel-2);
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .opp-head { display: flex; justify-content: space-between; gap: 8px; }
+    .opp-title { font-weight: 700; font-size: 14px; }
+    .prio { font-size: 11px; border-radius: 999px; padding: 2px 8px; border: 1px solid var(--stroke); }
+    .prio.high { color: var(--ok); border-color: #2a5f34; }
+    .prio.medium { color: var(--warn); border-color: #6f5724; }
+    .opp-desc { font-size: 12px; color: var(--muted); margin: 8px 0; line-height: 1.4; }
+    .opp-value { font-size: 12px; color: var(--accent); font-weight: 600; }
+    .hint { color: var(--muted); font-size: 12px; }
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Asset Opportunity Finder</h1>
+    <p class="sub">Enter your profile and discover tax, retirement, and local opportunities you may qualify for.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="k">Total Assets</div><div class="v" id="s-assets">—</div></div>
+      <div class="stat"><div class="k">Total Liabilities</div><div class="v" id="s-liab">—</div></div>
+      <div class="stat"><div class="k">Net Worth</div><div class="v" id="s-net">—</div></div>
+      <div class="stat"><div class="k">High Priority</div><div class="v" id="s-high">—</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2 class="section-title">Profile Inputs</h2>
+        <div class="form-grid">
+          <div><label>State</label><select id="state"></select></div>
+          <div><label>Age</label><input id="age" type="number" placeholder="42"></div>
+          <div><label>Filing Status</label>
+            <select id="filing">
+              <option value="single">Single</option>
+              <option value="married">Married Filing Jointly</option>
+              <option value="hoh">Head of Household</option>
+              <option value="mfs">Married Filing Separately</option>
+            </select>
+          </div>
+          <div><label>Dependents</label><input id="dependents" type="number" min="0" max="8" value="0"></div>
+          <div><label>Your Income ($)</label><input id="income" type="number" placeholder="95000"></div>
+          <div><label>Spouse Income ($)</label><input id="spouseIncome" type="number" placeholder="0"></div>
+          <div><label>Home Value ($)</label><input id="homeValue" type="number" placeholder="550000"></div>
+          <div><label>Mortgage Balance ($)</label><input id="mortgageBalance" type="number" placeholder="325000"></div>
+          <div><label>401(k) / 403(b) ($)</label><input id="k401Balance" type="number"></div>
+          <div><label>IRA + Roth ($)</label><input id="iraTotal" type="number"></div>
+          <div><label>HSA Balance ($)</label><input id="hsaBalance" type="number"></div>
+          <div><label>Brokerage ($)</label><input id="brokerageBalance" type="number"></div>
+          <div><label>Cash ($)</label><input id="cashBalance" type="number"></div>
+          <div><label>Other Assets ($)</label><input id="otherAssets" type="number"></div>
+          <div><label>Student Loans ($)</label><input id="studentLoans" type="number"></div>
+          <div><label>Credit Card Debt ($)</label><input id="creditCardDebt" type="number"></div>
+          <div><label>Other Debt ($)</label><input id="otherDebt" type="number"></div>
+        </div>
+        <div class="checks">
+          <div class="check-row"><input id="selfEmployed" type="checkbox"><label for="selfEmployed">Self-employed / business owner</label></div>
+          <div class="check-row"><input id="hasHDHP" type="checkbox"><label for="hasHDHP">Have HDHP (for HSA eligibility)</label></div>
+          <div class="check-row"><input id="hasSolar" type="checkbox"><label for="hasSolar">Already have solar panels</label></div>
+          <div class="check-row"><input id="hasBattery" type="checkbox"><label for="hasBattery">Already have home battery</label></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="section-title">Opportunities</h2>
+        <div class="pillbar" id="filter-bar"></div>
+        <div id="opps"></div>
+        <p class="hint">Educational only. Confirm eligibility with a CPA or advisor before acting.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const num = (v) => Number(v || 0);
+    const money = (v) => v >= 1000000 ? `$${(v/1000000).toFixed(1)}M` : v >= 1000 ? `$${Math.round(v/1000)}K` : `$${Math.round(v)}`;
+
+    const states = ["","AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC"];
+    const stateSel = document.getElementById("state");
+    states.forEach(s => {
+      const o = document.createElement("option");
+      o.value = s;
+      o.textContent = s || "Select state...";
+      stateSel.appendChild(o);
+    });
+
+    const opps = [
+      {cat:"retirement", prio:"high", title:"Max 401(k) / 403(b)", value:"Up to $23,500 deduction", desc:"Reduce taxable income and capture employer match.", ok:(p,t)=>t>0},
+      {cat:"retirement", prio:"high", title:"Roth IRA Contribution", value:"$7,000/year tax-free growth", desc:"Direct Roth contributions under income limits.", ok:(p,t)=>t>0 && t < (p.filing==="married"?240000:161000)},
+      {cat:"retirement", prio:"high", title:"Backdoor Roth IRA", value:"$7,000/year tax-free growth", desc:"Alternative Roth path above income limits.", ok:(p,t)=>t >= (p.filing==="married"?240000:161000)},
+      {cat:"retirement", prio:"high", title:"Catch-up Contributions (50+)", value:"+$8,500/year tax-advantaged", desc:"Higher annual contribution limits at 50+.", ok:(p,t)=>num(p.age)>=50 && t>0},
+      {cat:"tax", prio:"high", title:"HSA Triple Tax Advantage", value:"Up to $8,550 tax-advantaged", desc:"Deductible in, tax-free growth, tax-free medical withdrawals.", ok:(p)=>p.hasHDHP},
+      {cat:"tax", prio:"high", title:"Child Tax Credit", value:"$2,000 per qualifying child", desc:"Major federal credit if within phase-out thresholds.", ok:(p,t)=>num(p.dependents)>0 && t<(p.filing==="married"?400000:200000)},
+      {cat:"government", prio:"high", title:"Earned Income Tax Credit", value:"Up to $7,830 refundable", desc:"Refundable support for lower-to-moderate income households.", ok:(p,t)=>t>0 && t<60000 && num(p.age)>=25},
+      {cat:"tax", prio:"high", title:"Qualified Business Income Deduction", value:"Up to 20% of business income", desc:"Large deduction for many pass-through businesses.", ok:(p)=>p.selfEmployed},
+      {cat:"tax", prio:"medium", title:"Home Office Deduction", value:"Up to $1,500+ deduction", desc:"Deduct eligible home office expenses if self-employed.", ok:(p)=>p.selfEmployed},
+      {cat:"investment", prio:"high", title:"0% Long-Term Capital Gains Bracket", value:"0% tax on gains", desc:"Tax-efficient gain harvesting below threshold.", ok:(p,t)=>num(p.brokerageBalance)>0 && t < (p.filing==="married"?96700:48350)},
+      {cat:"investment", prio:"medium", title:"Tax-Loss Harvesting", value:"Up to $3,000 income offset/year", desc:"Offset gains and some ordinary income with losses.", ok:(p)=>num(p.brokerageBalance)>5000},
+      {cat:"real-estate", prio:"high", title:"Solar 30% Federal Credit", value:"30% of install cost", desc:"Residential clean energy credit remains strong.", ok:(p)=>num(p.homeValue)>0 && !p.hasSolar},
+      {cat:"real-estate", prio:"high", title:"Battery 30% Federal Credit", value:"30% of battery install", desc:"Standalone battery systems can qualify for the federal credit.", ok:(p)=>p.hasSolar && !p.hasBattery},
+      {cat:"real-estate", prio:"high", title:"Homestead Property Tax Exemption", value:"Hundreds to thousands/year", desc:"Many counties reduce taxable value of primary homes.", ok:(p)=>num(p.homeValue)>0},
+      {cat:"tax", prio:"medium", title:"Student Loan Interest Deduction", value:"Up to $2,500 deduction", desc:"Above-the-line deduction if income is within range.", ok:(p,t)=>num(p.studentLoans)>0 && t < (p.filing==="married"?185000:90000)},
+      {cat:"local", prio:"high", title:"Colorado TABOR Refund", value:"$200-$800 typical", desc:"Colorado excess revenue refunds via state return.", ok:(p,t)=>p.state==="CO" && t>0},
+      {cat:"local", prio:"high", title:"Xcel Net Metering Credits (CO)", value:"Ongoing bill reduction", desc:"Confirm enrollment and bill-credit application with Xcel.", ok:(p)=>p.state==="CO" && p.hasSolar},
+      {cat:"local", prio:"medium", title:"CO Utility / Efficiency Rebates", value:"$100-$2,000+ stackable", desc:"State + utility rebates can stack with federal credits.", ok:(p)=>p.state==="CO" && num(p.homeValue)>0}
+    ];
+
+    const categories = ["all", "local", "tax", "retirement", "government", "real-estate", "investment"];
+    let activeCategory = "all";
+
+    const ids = ["state","age","filing","dependents","income","spouseIncome","homeValue","mortgageBalance","k401Balance","iraTotal","hsaBalance","brokerageBalance","cashBalance","otherAssets","studentLoans","creditCardDebt","otherDebt","selfEmployed","hasHDHP","hasSolar","hasBattery"];
+    const getProfile = () => {
+      const p = {};
+      ids.forEach(id => {
+        const el = document.getElementById(id);
+        p[id] = el.type === "checkbox" ? el.checked : el.value;
+      });
+      return p;
+    };
+
+    function render() {
+      const p = getProfile();
+      const totalIncome = num(p.income) + num(p.spouseIncome);
+      const totalAssets = num(p.homeValue)+num(p.k401Balance)+num(p.iraTotal)+num(p.hsaBalance)+num(p.brokerageBalance)+num(p.cashBalance)+num(p.otherAssets);
+      const totalLiab = num(p.mortgageBalance)+num(p.studentLoans)+num(p.creditCardDebt)+num(p.otherDebt);
+      const net = totalAssets-totalLiab;
+
+      document.getElementById("s-assets").textContent = totalAssets ? money(totalAssets) : "—";
+      document.getElementById("s-liab").textContent = totalLiab ? money(totalLiab) : "—";
+      document.getElementById("s-net").textContent = (totalAssets || totalLiab) ? money(Math.abs(net)) : "—";
+
+      const eligible = opps.filter(o => o.ok(p, totalIncome));
+      const shown = activeCategory === "all" ? eligible : eligible.filter(o => o.cat === activeCategory);
+      const high = eligible.filter(o => o.prio === "high").length;
+      document.getElementById("s-high").textContent = eligible.length ? String(high) : "—";
+
+      const bar = document.getElementById("filter-bar");
+      bar.innerHTML = "";
+      categories.forEach(cat => {
+        const b = document.createElement("button");
+        b.className = "pill" + (cat === activeCategory ? " active" : "");
+        b.textContent = cat === "all" ? `all (${eligible.length})` : cat;
+        b.onclick = () => { activeCategory = cat; render(); };
+        bar.appendChild(b);
+      });
+
+      const box = document.getElementById("opps");
+      if (!totalIncome && !totalAssets && !totalLiab) {
+        box.innerHTML = '<p class="hint">Enter income or asset details to see matches.</p>';
+        return;
+      }
+      if (!shown.length) {
+        box.innerHTML = '<p class="hint">No matching opportunities in this category.</p>';
+        return;
+      }
+
+      shown.sort((a,b) => ({high:0,medium:1,low:2}[a.prio]-({high:0,medium:1,low:2}[b.prio])));
+      box.innerHTML = shown.map(o => `
+        <div class="opp">
+          <div class="opp-head">
+            <div class="opp-title">${o.title}</div>
+            <span class="prio ${o.prio}">${o.prio}</span>
+          </div>
+          <div class="opp-desc">${o.desc}</div>
+          <div class="opp-value">${o.value}</div>
+        </div>`).join("");
+    }
+
+    ids.forEach(id => document.getElementById(id).addEventListener("input", render));
+    ids.filter(id => ["selfEmployed","hasHDHP","hasSolar","hasBattery"].includes(id))
+      .forEach(id => document.getElementById(id).addEventListener("change", render));
+    render();
+  </script>
+</body>
+</html>

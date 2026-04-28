@@ -416,7 +416,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 | Daily Newsletter | 7:30 AM ET every day |
 | Strategy Alerts | Every 30 min, Mon–Fri, 9:30 AM – 4:00 PM ET |
 | Alert cooldown | Same ticker+strategy: at most once per {ALERT_COOLDOWN_HOURS} hours |
-| Signals tracked | 28 tickers × 9 strategies |
+| Signals tracked | 28 tickers × 30 strategy detectors |
 
 ## Docs
 

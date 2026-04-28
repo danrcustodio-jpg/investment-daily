@@ -1,6 +1,8 @@
 # Portfolio Simulation 📈
 **Started:** 2026-04-20 &nbsp;·&nbsp; **Day 7** &nbsp;·&nbsp; Updated: Apr 27 2026 09:47 PM
 
+[Open Dashboard Hub](http://127.0.0.1:5050/hub)
+
 ## Performance Summary
 
 | Metric | Value |

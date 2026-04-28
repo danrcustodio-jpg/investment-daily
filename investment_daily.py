@@ -19,6 +19,8 @@ import feedparser
 import requests
 from dotenv import load_dotenv
 
+from strategy_engine import methodology_newsletter_html
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 
@@ -547,7 +549,7 @@ def build_strategy_section(signals: List[Dict]) -> str:
         return ""
 
     rows = ""
-    for s in signals[:12]:
+    for s in signals[:24]:
         direction = s["direction"]
         is_bull   = direction == "BULLISH"
         dc        = "#22c55e" if is_bull else "#ef4444"
@@ -646,6 +648,7 @@ def build_email(
     news_html    = build_news_html(articles)
     poly_html    = build_polymarket_html(polymarket)
     detail_str   = " &nbsp;·&nbsp; ".join(sentiment["details"][:4])
+    method_html    = methodology_newsletter_html()
 
     poly_section = f"""
     <div style="margin-bottom:24px">
@@ -769,6 +772,8 @@ def build_email(
       claim is opposite to what the market actually did today.
     </p>
   </div>
+
+  {method_html}
 
   <!-- Strategy Signals -->
   {build_strategy_section(strategy_signals or [])}

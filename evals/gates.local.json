@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "description": "Local release gates for Investment Daily signal health.",
+  "min_total_signals": 8,
+  "min_avg_confidence": 55.0,
+  "min_new_alert_candidates": 1
+}

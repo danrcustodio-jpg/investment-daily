@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Tools Hub</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --text: #e8eefc;
+      --muted: #9aa7c7;
+      --accent: #6ea8fe;
+      --ok: #7ee787;
+      --warn: #ffd166;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top, #16213b 0%, var(--bg) 55%);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    .wrap {
+      width: min(900px, 100%);
+      background: rgba(18, 26, 43, 0.9);
+      border: 1px solid #25324d;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      letter-spacing: 0.2px;
+    }
+    p {
+      margin: 0 0 20px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-bottom: 20px;
+    }
+    .tile {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: #0f1728;
+      border: 1px solid #22304c;
+      border-radius: 12px;
+      padding: 16px;
+      transition: transform 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease;
+    }
+    .tile:hover {
+      transform: translateY(-2px);
+      border-color: #3d5a8c;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 4px 10px;
+      border: 1px solid transparent;
+    }
+    .live {
+      color: var(--ok);
+      border-color: #2a5f34;
+      background: rgba(42, 95, 52, 0.15);
+    }
+    .warming {
+      color: var(--warn);
+      border-color: #6f5724;
+      background: rgba(111, 87, 36, 0.15);
+    }
+    .offline {
+      color: #ff9b9b;
+      border-color: #7a2f2f;
+      background: rgba(122, 47, 47, 0.15);
+    }
+    .config {
+      color: var(--warn);
+      border-color: #6f5724;
+      background: rgba(111, 87, 36, 0.15);
+    }
+    .footer {
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid #24314d;
+      padding-top: 16px;
+      line-height: 1.5;
+    }
+    code {
+      color: var(--accent);
+      background: rgba(110, 168, 254, 0.1);
+      border: 1px solid rgba(110, 168, 254, 0.35);
+      border-radius: 6px;
+      padding: 1px 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Daily Tools Hub</h1>
+    <p>One page for your daily apps. Bookmark <code>http://127.0.0.1:5050/hub</code> and launch it with <code>open_daily_hub.cmd</code>.</p>
+
+    <section class="grid">
+      <a class="tile" href="http://127.0.0.1:5050" target="_blank" rel="noopener noreferrer">
+        <div class="title">Investment Dashboard</div>
+        <div class="desc">Local Flask dashboard for signals, market view, and actions.</div>
+        <span class="badge warming" id="dashboard-status">Checking status...</span>
+      </a>
+
+      <a class="tile" href="http://localhost:5173" target="_blank" rel="noopener noreferrer">
+        <div class="title">Meal Planner</div>
+        <div class="desc">Local meal-planner app (Vite frontend).</div>
+        <span class="badge live">Configured local app</span>
+      </a>
+
+      <a class="tile" href="http://127.0.0.1:5050/asset-opportunities" target="_blank" rel="noopener noreferrer">
+        <div class="title">Asset Opportunity Finder</div>
+        <div class="desc">Local profile-based tax and savings opportunity finder.</div>
+        <span class="badge live">Configured local app</span>
+      </a>
+    </section>
+
+    <div class="footer">
+      Tip: update the two placeholder links directly in this file whenever your tool URLs change.
+    </div>
+  </main>
+  <script>
+    async function refreshDashboardStatus() {
+      const badge = document.getElementById("dashboard-status");
+      if (!badge) {
+        return;
+      }
+
+      try {
+        const response = await fetch("http://127.0.0.1:5050/api/status", { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("Dashboard unavailable");
+        }
+
+        const status = await response.json();
+        if (status.loading) {
+          badge.className = "badge warming";
+          badge.textContent = "Warming up...";
+        } else if ((status.signal_count || 0) > 0) {
+          badge.className = "badge live";
+          badge.textContent = "Live (" + status.signal_count + " signals)";
+        } else {
+          badge.className = "badge warming";
+          badge.textContent = "Live, loading data...";
+        }
+      } catch (error) {
+        badge.className = "badge offline";
+        badge.textContent = "Offline - run launcher";
+      }
+    }
+
+    refreshDashboardStatus();
+    setInterval(refreshDashboardStatus, 10000);
+  </script>
+</body>
+</html>

@@ -25,14 +25,30 @@ from datetime import datetime
 from functools import lru_cache
 from typing import Dict, List
 
-from flask import Flask, jsonify, redirect, render_template_string, request, url_for
+from flask import Flask, jsonify, redirect, render_template_string, request, send_from_directory, url_for
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
+LOG_DIR = os.path.join(SCRIPT_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
 
 app = Flask(__name__)
 log = logging.getLogger("dashboard")
+
+
+@app.after_request
+def add_local_cors_headers(response):
+    """Allow the local hub page to read dashboard API status."""
+    allowed_origins = {"http://127.0.0.1:5051", "http://localhost:5051"}
+    request_origin = request.headers.get("Origin")
+    if request_origin in allowed_origins:
+        response.headers["Access-Control-Allow-Origin"] = request_origin
+    else:
+        response.headers["Access-Control-Allow-Origin"] = "http://127.0.0.1:5051"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    return response
 
 # ─── Simple in-memory cache ───────────────────────────────────────────────────
 
@@ -367,7 +383,7 @@ def signals_page():
     <div style="padding:14px 14px 4px">
       <h2>Strategy Signals <span style="color:#64748b;font-weight:400;font-size:14px">({len(signals)} total)</span></h2>
       <p style="font-size:12px;color:#64748b;margin-bottom:4px">
-        Ranked by confidence · Powered by pandas-ta · 9 strategies · 28 tickers
+        Ranked by confidence · Powered by pandas-ta · 30 strategy detectors · 28 tickers
       </p>
     </div>
     {rows if rows else '<div class="card" style="color:#64748b">No signals yet — tap Refresh on the home screen.</div>'}"""
@@ -539,6 +555,18 @@ def api_status():
         "sentiment":   sent.get("overall", "unknown"),
     })
 
+
+@app.route("/hub")
+def hub_page():
+    """Serve the local tools hub from the dashboard service."""
+    return send_from_directory(os.path.join(SCRIPT_DIR, "hub"), "index.html")
+
+
+@app.route("/asset-opportunities")
+def asset_opportunities_page():
+    """Serve the standalone asset opportunity finder page."""
+    return send_from_directory(os.path.join(SCRIPT_DIR, "hub"), "asset-opportunities.html")
+
 # ─── Start ────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -548,7 +576,7 @@ if __name__ == "__main__":
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s",
         handlers=[
-            logging.FileHandler(os.path.join(SCRIPT_DIR, "logs", "dashboard.log"), encoding="utf-8"),
+            logging.FileHandler(os.path.join(LOG_DIR, "dashboard.log"), encoding="utf-8"),
             logging.StreamHandler(),
         ],
     )
@@ -564,12 +592,14 @@ if __name__ == "__main__":
     except Exception:
         local_ip = "127.0.0.1"
 
+    port = int(os.getenv("PORT", "5050"))
+
     print(f"\n{'='*55}")
     print(f"  Investment Daily Dashboard")
     print(f"{'='*55}")
-    print(f"  Local (same WiFi): http://{local_ip}:5050")
-    print(f"  Localhost:         http://127.0.0.1:5050")
+    print(f"  Local (same WiFi): http://{local_ip}:{port}")
+    print(f"  Localhost:         http://127.0.0.1:{port}")
     print(f"  For outside WiFi:  run start_dashboard.ps1 (ngrok)")
     print(f"{'='*55}\n")
 
-    app.run(host="0.0.0.0", port=5050, debug=False, threaded=True)
+    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)

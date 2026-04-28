@@ -53,7 +53,7 @@ a Windows PC (C:\Users\Owner\InvestmentDaily\). It emails dan.r.custodio@gmail.c
 
 ## Strategy engine (strategy_engine.py)
 
-**9 strategies scanned across 28 tickers:**
+**30 strategy detectors scanned across 28 tickers:**
 
 | Strategy | Signal | Library |
 |---|---|---|
@@ -159,7 +159,7 @@ schtasks /query /tn "InvestmentDailyAlerts" /fo list
 
 ```
 EMAIL_SENDER=your_gmail@gmail.com
-EMAIL_PASSWORD=xxxx xxxx xxxx xxxx   # Gmail App Password (16 chars)
+EMAIL_PASSWORD: xxxx xxxx xxxx xxxx   # Gmail App Password (16 chars)
 ```
 
 ---

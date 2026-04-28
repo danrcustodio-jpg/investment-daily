@@ -11,6 +11,7 @@ import os
 import json
 import smtplib
 import logging
+import sys
 import zoneinfo
 from datetime import datetime, date, timedelta
 from email.mime.multipart import MIMEMultipart
@@ -19,7 +20,7 @@ from typing import Dict, List
 
 from dotenv import load_dotenv
 
-from strategy_engine import run_full_scan, format_backtest_summary, SCAN_TICKERS, strategy_learn_link
+from strategy_engine import run_full_scan, format_backtest_summary, SCAN_TICKERS, DEX_TICKERS, strategy_learn_link
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
@@ -39,6 +40,19 @@ logger = logging.getLogger(__name__)
 EMAIL_SENDER    = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")
 EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+SMS_GATEWAY     = os.getenv("SMS_GATEWAY")   # e.g. 5551234567@vtext.com
+# Optional: SMS_ENABLE=0/false to turn off SMS while keeping SMS_GATEWAY in .env
+_SMS_EN = (os.getenv("SMS_ENABLE") or "1").strip().lower()
+SMS_ENABLED     = _SMS_EN in ("1", "true", "yes", "on", "")
+# Min hours between *any* two SMS (carriers often throttle email-to-SMS; 0 = no limit)
+def _parse_sms_cooldown() -> float:
+    raw = (os.getenv("SMS_COOLDOWN_HOURS") or "4").strip()
+    try:
+        return max(0.0, float(raw))
+    except ValueError:
+        return 4.0
+SMS_COOLDOWN_HOURS = _parse_sms_cooldown()
+SMS_BODY_MAX = 200  # keep single-segment; gateway line length varies
 
 STATE_FILE      = os.path.join(SCRIPT_DIR, "alert_state.json")
 ET_ZONE         = zoneinfo.ZoneInfo("America/New_York")
@@ -120,6 +134,24 @@ def prune_state(state: Dict) -> Dict:
 
     state["fired"] = {k: v for k, v in state["fired"].items() if _ts(v) > cutoff}
     return state
+
+
+def sms_may_send(state: Dict) -> bool:
+    """True if email-to-SMS is configured, enabled, and outside global cooldown window."""
+    if not SMS_ENABLED or not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
+        return False
+    if SMS_COOLDOWN_HOURS <= 0:
+        return True
+    last = state.get("last_sms_at")
+    if not last:
+        return True
+    try:
+        t = datetime.fromisoformat(last)
+        if t.tzinfo is None:
+            t = t.astimezone()
+    except (TypeError, ValueError):
+        return True
+    return datetime.now().astimezone() >= t + timedelta(hours=SMS_COOLDOWN_HOURS)
 
 # ─── Email Builder ────────────────────────────────────────────────────────────
 
@@ -432,6 +464,39 @@ def build_alert_email(
 
     return subject, html
 
+# ─── SMS Sender ───────────────────────────────────────────────────────────────
+
+def send_sms(signals: List[Dict]) -> None:
+    """Send a concise plain-text SMS summary via email-to-SMS gateway."""
+    if not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
+        return
+    try:
+        top = signals[0]
+        direction = "BUY" if top["direction"] == "BULLISH" else "SELL"
+        body = (
+            f"{direction}: {top['ticker']} | {top['strategy']}\n"
+            f"Conf: {top['confidence']:.0f}/100\n"
+            f"{top.get('indicator', '')}"
+        )
+        if len(signals) > 1:
+            body += f"\n+{len(signals) - 1} more"
+        if len(body) > SMS_BODY_MAX:
+            body = body[: SMS_BODY_MAX - 3] + "..."
+
+        from email.mime.text import MIMEText as _MIMEText
+        msg         = _MIMEText(body, _charset="utf-8")
+        msg["From"] = EMAIL_SENDER
+        msg["To"]   = SMS_GATEWAY
+        # Omitted Subject: many gateways count it against length / duplicate the alert line.
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(EMAIL_SENDER, EMAIL_PASSWORD)
+            server.sendmail(EMAIL_SENDER, SMS_GATEWAY, msg.as_string())
+        logger.info(f"SMS alert sent -> {SMS_GATEWAY}")
+    except Exception as exc:
+        logger.warning(f"SMS send failed: {exc}")
+
+
 # ─── Email Sender ─────────────────────────────────────────────────────────────
 
 def send_email(subject: str, html: str) -> None:
@@ -449,16 +514,21 @@ def send_email(subject: str, html: str) -> None:
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
-def main() -> None:
-    logger.info("=== Strategy alert check starting ===")
+def main(crypto_only: bool = False) -> None:
+    mode_label = "crypto 24/7" if crypto_only else "equities + crypto"
+    logger.info(f"=== Strategy alert check starting ({mode_label}) ===")
 
-    if not is_market_open():
+    if not crypto_only and not is_market_open():
         logger.info(f"Market closed ({market_status_str()}) — skipping.")
         return
 
-    logger.info(f"Market open ({market_status_str()}) — running strategy scan ...")
+    logger.info(f"Running scan ({market_status_str()}) ...")
 
-    all_signals = run_full_scan(SCAN_TICKERS)
+    if crypto_only:
+        scan_tickers = {k: v for k, v in SCAN_TICKERS.items() if k.endswith("-USD")}
+        all_signals = run_full_scan(scan_tickers, dex_tickers=DEX_TICKERS)
+    else:
+        all_signals = run_full_scan(SCAN_TICKERS)
 
     if not all_signals:
         logger.info("No signals above confidence threshold — no alert sent.")
@@ -496,6 +566,13 @@ def main() -> None:
 
     subject, html = build_alert_email(new_signals, all_signals, dispatch_seq=dispatch_seq)
     send_email(subject, html)
+    if sms_may_send(state):
+        send_sms(new_signals)
+        state["last_sms_at"] = datetime.now().astimezone().isoformat()
+    elif SMS_ENABLED and SMS_GATEWAY and EMAIL_SENDER and EMAIL_PASSWORD:
+        logger.info(
+            f"SMS skipped: global gateway cooldown ({SMS_COOLDOWN_HOURS}h since last SMS) — email sent."
+        )
 
     # Record timestamp for each fired signal
     for s in new_signals:
@@ -506,4 +583,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(crypto_only="--crypto" in sys.argv)
