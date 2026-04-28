@@ -161,7 +161,7 @@ def main():
     cap = data.get("included_minutes", FREE_TIER_MINUTES)
     pct = used / cap * 100 if cap else 0
 
-    print(f"\n  This billing cycle:")
+    print("\n  This billing cycle:")
     print(f"    Minutes used    : {used:>6,} / {cap:,}")
     print(f"    Minutes remaining: {max(free_remaining, 0):>5,}")
     print(f"    Paid overage    : {paid:>6,} min")

@@ -14,7 +14,6 @@ Usage (called by GitHub Actions after each run):
 
 import os
 import sys
-import json
 from datetime import datetime, date
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))

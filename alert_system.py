@@ -13,14 +13,13 @@ import smtplib
 import logging
 import sys
 import zoneinfo
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from typing import Dict, List
 
 from dotenv import load_dotenv
 
-from strategy_engine import run_full_scan, format_backtest_summary, SCAN_TICKERS, DEX_TICKERS, strategy_learn_link
+from strategy_engine import run_full_scan, SCAN_TICKERS, DEX_TICKERS, strategy_learn_link
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
@@ -81,26 +80,26 @@ def market_status_str() -> str:
 ALERT_COOLDOWN_HOURS = 12
 
 
-def load_state() -> Dict:
+def load_state() -> dict:
     if os.path.exists(STATE_FILE):
         try:
-            with open(STATE_FILE, "r") as f:
+            with open(STATE_FILE) as f:
                 return json.load(f)
         except Exception:
             pass
     return {"fired": {}}
 
 
-def save_state(state: Dict) -> None:
+def save_state(state: dict) -> None:
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
 
-def make_state_key(signal: Dict) -> str:
+def make_state_key(signal: dict) -> str:
     return f"{signal['ticker']}::{signal['strategy']}"
 
 
-def already_fired_recently(state: Dict, key: str) -> bool:
+def already_fired_recently(state: dict, key: str) -> bool:
     """
     Return True if this signal was already emailed within the last ALERT_COOLDOWN_HOURS.
     """
@@ -117,12 +116,12 @@ def already_fired_recently(state: Dict, key: str) -> bool:
         return False
 
 
-def mark_fired(state: Dict, key: str) -> None:
+def mark_fired(state: dict, key: str) -> None:
     """Record the current timestamp (with timezone) for this signal key."""
     state["fired"][key] = datetime.now().astimezone().isoformat()
 
 
-def prune_state(state: Dict) -> Dict:
+def prune_state(state: dict) -> dict:
     """Remove entries older than 48 hours to keep the state file lean."""
     cutoff = datetime.now().timestamp() - 48 * 3600
 
@@ -136,7 +135,7 @@ def prune_state(state: Dict) -> Dict:
     return state
 
 
-def sms_may_send(state: Dict) -> bool:
+def sms_may_send(state: dict) -> bool:
     """True if email-to-SMS is configured, enabled, and outside global cooldown window."""
     if not SMS_ENABLED or not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
         return False
@@ -166,7 +165,7 @@ def _win_bar(win_rate: float) -> str:
     )
 
 
-def build_signal_card(signal: Dict) -> str:
+def build_signal_card(signal: dict) -> str:
     direction  = signal["direction"]
     is_bullish = direction == "BULLISH"
     accent     = "#22c55e" if is_bullish else "#ef4444"
@@ -176,7 +175,6 @@ def build_signal_card(signal: Dict) -> str:
 
     bt    = signal.get("backtest", {})
     d5    = bt.get("5d", {})
-    d20   = bt.get("20d", {})
     count = bt.get("count", 0)
     conf  = signal.get("confidence", 0)
 
@@ -323,8 +321,8 @@ def build_signal_card(signal: Dict) -> str:
 
 
 def build_alert_email(
-    new_signals: List[Dict],
-    all_signals: List[Dict],
+    new_signals: list[dict],
+    all_signals: list[dict],
     *,
     dispatch_seq: int,
 ) -> tuple:
@@ -339,7 +337,6 @@ def build_alert_email(
     bearish_n = sum(1 for s in new_signals if s["direction"] == "BEARISH")
 
     top = new_signals[0]
-    top_dir = "BUY" if top["direction"] == "BULLISH" else "SELL"
     top_conf = top.get("confidence", 0)
 
     subject = (
@@ -466,7 +463,7 @@ def build_alert_email(
 
 # ─── SMS Sender ───────────────────────────────────────────────────────────────
 
-def send_sms(signals: List[Dict]) -> None:
+def send_sms(signals: list[dict]) -> None:
     """Send a concise plain-text SMS summary via email-to-SMS gateway."""
     if not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
         return

@@ -16,16 +16,13 @@ Routes:
 """
 
 import os
-import json
 import subprocess
 import threading
 import time
 import logging
 from datetime import datetime
-from functools import lru_cache
-from typing import Dict, List
 
-from flask import Flask, jsonify, redirect, render_template_string, request, send_from_directory, url_for
+from flask import Flask, jsonify, request, send_from_directory
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -52,7 +49,7 @@ def add_local_cors_headers(response):
 
 # ─── Simple in-memory cache ───────────────────────────────────────────────────
 
-_cache: Dict = {
+_cache: dict = {
     "market":    None,
     "signals":   None,
     "sentiment": None,
@@ -455,7 +452,7 @@ def logs_page():
         if not os.path.exists(path):
             content = "No log file yet."
         else:
-            with open(path, "r", encoding="utf-8", errors="replace") as f:
+            with open(path, encoding="utf-8", errors="replace") as f:
                 lines = f.readlines()
             last = lines[-40:] if len(lines) > 40 else lines
             content = "".join(reversed(last)).strip() or "(empty)"
@@ -476,7 +473,7 @@ def logs_page():
 
 # ─── Action endpoints ─────────────────────────────────────────────────────────
 
-def _run_script(script_name: str) -> Dict:
+def _run_script(script_name: str) -> dict:
     """Run a script in a subprocess, return status dict."""
     import sys
     script_path = os.path.join(SCRIPT_DIR, script_name)
@@ -531,7 +528,7 @@ def run_alerts():
                 mark_fired(state, make_state_key(s))
             save_state(state)
     threading.Thread(target=_do, daemon=True).start()
-    return jsonify({"ok": True, "message": f"Scan running — email on its way if signals found!"})
+    return jsonify({"ok": True, "message": "Scan running — email on its way if signals found!"})
 
 
 @app.route("/refresh", methods=["POST"])
@@ -595,11 +592,11 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", "5050"))
 
     print(f"\n{'='*55}")
-    print(f"  Investment Daily Dashboard")
+    print("  Investment Daily Dashboard")
     print(f"{'='*55}")
     print(f"  Local (same WiFi): http://{local_ip}:{port}")
     print(f"  Localhost:         http://127.0.0.1:{port}")
-    print(f"  For outside WiFi:  run start_dashboard.ps1 (ngrok)")
+    print("  For outside WiFi:  run start_dashboard.ps1 (ngrok)")
     print(f"{'='*55}\n")
 
     app.run(host="0.0.0.0", port=port, debug=False, threaded=True)

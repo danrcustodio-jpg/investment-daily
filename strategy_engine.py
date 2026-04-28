@@ -13,11 +13,9 @@ import json
 import logging
 import urllib.request
 import warnings
-from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
-import pandas_ta as ta          # pip install pandas-ta
 import yfinance as yf
 
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -27,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 # ─── Strategy educational links ───────────────────────────────────────────────
 
-STRATEGY_LINKS: Dict[str, str] = {
+STRATEGY_LINKS: dict[str, str] = {
     "RSI Oversold":
         "https://www.investopedia.com/terms/r/rsi.asp",
     "RSI Overbought":
@@ -202,7 +200,7 @@ def methodology_newsletter_html() -> str:
 
 # ─── Tickers to scan ─────────────────────────────────────────────────────────
 
-SCAN_TICKERS: Dict[str, str] = {
+SCAN_TICKERS: dict[str, str] = {
     "NVDA":    "NVIDIA",
     "META":    "Meta",
     "TSLA":    "Tesla",
@@ -246,7 +244,7 @@ SCAN_TICKERS: Dict[str, str] = {
 
 # DEX tokens not on yfinance — keyed by display symbol, value is contract address.
 # Data is fetched via DexScreener + GeckoTerminal (no API key required).
-DEX_TICKERS: Dict[str, str] = {
+DEX_TICKERS: dict[str, str] = {
     "SKI": "0x768be13e1680b5ebe0024c42c896e3db59ec0149",   # Ski Mask Dog (Base chain)
 }
 
@@ -258,21 +256,24 @@ RISK_FREE_RATE_DAILY = 0.05 / 252   # ~5% annual risk-free rate
 def backtest_signal(
     closes: pd.Series,
     signal_mask: pd.Series,
-    forward_days: List[int] = [5, 20],
-) -> Dict:
+    forward_days: list[int] | None = None,
+) -> dict:
     """
     Given a boolean mask of signal dates, compute forward return statistics
     including Sharpe Ratio, Max Drawdown, Sortino Ratio, and Profit Factor.
     All metrics are computed from the population of individual trade returns.
     """
-    signal_dates = signal_mask[signal_mask == True].index
+    if forward_days is None:
+        forward_days = [5, 20]
+
+    signal_dates = signal_mask[signal_mask].index
     if len(signal_dates) < 4:
         return {"count": int(len(signal_dates)), "insufficient_data": True}
 
-    results: Dict = {"count": int(len(signal_dates))}
+    results: dict = {"count": int(len(signal_dates))}
 
     for fwd in forward_days:
-        trade_returns: List[float] = []
+        trade_returns: list[float] = []
         for dt in signal_dates:
             try:
                 idx     = closes.index.get_loc(dt)
@@ -334,7 +335,7 @@ def backtest_signal(
     return results
 
 
-def confidence_score(bt: Dict) -> float:
+def confidence_score(bt: dict) -> float:
     """
     Composite 0-100 score.  Weights:
       40% → 5-day win rate
@@ -360,7 +361,7 @@ def confidence_score(bt: Dict) -> float:
 
 def _make_signal(
     symbol, name, strategy, direction, indicator, detail, implication, bt
-) -> Dict:
+) -> dict:
     return {
         "strategy":    strategy,
         "direction":   direction,
@@ -410,7 +411,7 @@ def apply_comprehensive_ta(df: pd.DataFrame) -> None:
         logger.warning(f"  pandas-ta comprehensive stack: {exc}")
 
 
-def detect_rsi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_rsi(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     rsi_col = "RSI_14"
     if rsi_col not in df.columns or df[rsi_col].isna().iloc[-1]:
@@ -447,14 +448,13 @@ def detect_rsi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_stoch_rsi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_stoch_rsi(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """
     Stochastic RSI — faster and more sensitive than plain RSI.
     Uses the STOCHRSIk_14_14_3_3 column from pandas-ta.
     """
     signals = []
     k_col = "STOCHRSIk_14_14_3_3"
-    d_col = "STOCHRSId_14_14_3_3"
     if k_col not in df.columns or df[k_col].isna().iloc[-1]:
         return signals
 
@@ -493,7 +493,7 @@ def detect_stoch_rsi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_macd(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_macd(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     macd_col = "MACD_12_26_9"
     sig_col  = "MACDs_12_26_9"
@@ -512,9 +512,9 @@ def detect_macd(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "MACD Bullish Crossover", "BULLISH",
             f"MACD {float(macd.iloc[-1]):.3f} crossed above Signal {float(sig.iloc[-1]):.3f}",
-            f"The MACD line (12-day EMA minus 26-day EMA) crossed above its "
-            f"9-day signal line today. This crossover indicates that short-term "
-            f"momentum is accelerating faster than the recent trend.",
+            "The MACD line (12-day EMA minus 26-day EMA) crossed above its "
+            "9-day signal line today. This crossover indicates that short-term "
+            "momentum is accelerating faster than the recent trend.",
             "Momentum shifting upward — often signals the start of a short-to-medium term rally.",
             bt,
         ))
@@ -525,16 +525,16 @@ def detect_macd(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "MACD Bearish Crossover", "BEARISH",
             f"MACD {float(macd.iloc[-1]):.3f} crossed below Signal {float(sig.iloc[-1]):.3f}",
-            f"The MACD line crossed below its signal line today — upward momentum "
-            f"is weakening relative to the recent trend. A common signal that "
-            f"selling pressure is building.",
+            "The MACD line crossed below its signal line today — upward momentum "
+            "is weakening relative to the recent trend. A common signal that "
+            "selling pressure is building.",
             "Consider reducing exposure. Watch for price to break below recent support.",
             bt,
         ))
     return signals
 
 
-def detect_ma_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_ma_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     sma50_col  = "SMA_50"
     sma200_col = "SMA_200"
@@ -554,9 +554,9 @@ def detect_ma_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Golden Cross", "BULLISH",
             f"50-day SMA {float(ma50.iloc[-1]):.2f} crossed above 200-day SMA {float(ma200.iloc[-1]):.2f}",
-            f"The Golden Cross — one of the most widely followed signals in "
-            f"technical analysis. The 50-day simple moving average crossed above "
-            f"the 200-day, confirming a long-term trend reversal to bullish.",
+            "The Golden Cross — one of the most widely followed signals in "
+            "technical analysis. The 50-day simple moving average crossed above "
+            "the 200-day, confirming a long-term trend reversal to bullish.",
             "Institutional algorithms often trigger buy orders on this signal. Strong long-term setup.",
             bt,
         ))
@@ -567,16 +567,16 @@ def detect_ma_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Death Cross", "BEARISH",
             f"50-day SMA {float(ma50.iloc[-1]):.2f} crossed below 200-day SMA {float(ma200.iloc[-1]):.2f}",
-            f"The Death Cross — the bearish counterpart to the Golden Cross. "
-            f"The 50-day SMA has crossed below the 200-day, signaling a "
-            f"long-term shift toward downward momentum.",
+            "The Death Cross — the bearish counterpart to the Golden Cross. "
+            "The 50-day SMA has crossed below the 200-day, signaling a "
+            "long-term shift toward downward momentum.",
             "Long-term trend turning bearish. Consider reducing long positions.",
             bt,
         ))
     return signals
 
 
-def detect_bollinger(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_bollinger(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     lower_col = "BBL_20_2.0"
     upper_col = "BBU_20_2.0"
@@ -619,7 +619,7 @@ def detect_bollinger(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_adx(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_adx(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """
     NEW — ADX (Average Directional Index)
     Measures trend STRENGTH rather than direction.
@@ -670,7 +670,7 @@ def detect_adx(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_vwap(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_vwap(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """
     NEW — VWAP Deviation
     VWAP (Volume-Weighted Average Price) is the institutional benchmark price.
@@ -725,7 +725,7 @@ def detect_vwap(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_breakout(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_breakout(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     closes = df["Close"]
     if len(closes) < 253:
@@ -751,7 +751,7 @@ def detect_breakout(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_volume_spike(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_volume_spike(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     signals = []
     if "Volume" not in df.columns or len(df) < 22:
         return signals
@@ -785,9 +785,9 @@ def detect_volume_spike(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
     return signals
 
 
-def detect_williams_r(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_williams_r(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Williams %R — range -100 to 0; extreme oversold / overbought."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "WILLR_14"
     if col not in df.columns or df[col].isna().iloc[-1]:
         return signals
@@ -811,17 +811,17 @@ def detect_williams_r(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Williams %R — Overbought", "BEARISH",
             f"Williams %%R = {cur:.1f}  (overbought > -20)",
-            f"Williams %%R above -20 means closes are hugging the top of the 14-day range — "
-            f"short-term overextension.",
+            "Williams %%R above -20 means closes are hugging the top of the 14-day range — "
+            "short-term overextension.",
             "Tighten risk; look for a pullback or consolidation.",
             bt,
         ))
     return signals
 
 
-def detect_cci(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_cci(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Commodity Channel Index — extreme readings vs 20-day mean price."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "CCI_20_0.015"
     if col not in df.columns or df[col].isna().iloc[-1]:
         return signals
@@ -834,8 +834,8 @@ def detect_cci(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "CCI — Extreme Oversold", "BULLISH",
             f"CCI = {cur:.0f}  (below -100)",
-            f"CCI measures deviation from the 20-day average price. Below -100, "
-            f"the market is extremely stretched to the downside vs its recent mean.",
+            "CCI measures deviation from the 20-day average price. Below -100, "
+            "the market is extremely stretched to the downside vs its recent mean.",
             "Common bounce zone; use price action to confirm a reversal.",
             bt,
         ))
@@ -845,16 +845,16 @@ def detect_cci(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "CCI — Extreme Overbought", "BEARISH",
             f"CCI = {cur:.0f}  (above +100)",
-            f"Above +100, price is anomalously high vs its 20-day average — a statistical overextension.",
+            "Above +100, price is anomalously high vs its 20-day average — a statistical overextension.",
             "Fade or de-risk; mean reversion often follows.",
             bt,
         ))
     return signals
 
 
-def detect_mfi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_mfi(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Money Flow Index — volume-weighted RSI-style oscillator."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "MFI_14"
     if col not in df.columns or df[col].isna().iloc[-1]:
         return signals
@@ -867,7 +867,7 @@ def detect_mfi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "MFI — Oversold", "BULLISH",
             f"MFI = {cur:.0f}  (oversold < 20)",
-            f"MFI combines price and volume. Below 20, selling pressure (by volume) has dominated.",
+            "MFI combines price and volume. Below 20, selling pressure (by volume) has dominated.",
             "Potential accumulation zone if fundamentals support a bounce.",
             bt,
         ))
@@ -877,16 +877,16 @@ def detect_mfi(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "MFI — Overbought", "BEARISH",
             f"MFI = {cur:.0f}  (overbought > 80)",
-            f"Above 80, buying pressure has been extreme — risk of a snapback.",
+            "Above 80, buying pressure has been extreme — risk of a snapback.",
             "Consider taking partial profits on extended runs.",
             bt,
         ))
     return signals
 
 
-def detect_cmf(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_cmf(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Chaikin Money Flow — 20-day money-flow accumulation / distribution."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "CMF_20"
     if col not in df.columns or "Volume" not in df.columns or df[col].isna().iloc[-1]:
         return signals
@@ -900,7 +900,7 @@ def detect_cmf(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Chaikin Money Flow — Bullish", "BULLISH",
             f"CMF = {cur:+.2f}  (strong inflow > +0.1)",
-            f"Chaikin Money Flow is strongly positive: buying pressure has been sustained over 20 days.",
+            "Chaikin Money Flow is strongly positive: buying pressure has been sustained over 20 days.",
             "Institutional accumulation often coincides; trend continuation possible.",
             bt,
         ))
@@ -911,16 +911,16 @@ def detect_cmf(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Chaikin Money Flow — Bearish", "BEARISH",
             f"CMF = {cur:+.2f}  (outflow < -0.1)",
-            f"Sustained net selling pressure over 20 days — distribution in the name.",
+            "Sustained net selling pressure over 20 days — distribution in the name.",
             "Avoid catch-the-fall unless thesis changes.",
             bt,
         ))
     return signals
 
 
-def detect_aroon(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_aroon(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Aroon — time since 25-day high/low; strong when one leg dominates."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     uc, dc = "AROONU_25", "AROOND_25"
     if uc not in df.columns or df[uc].isna().iloc[-1]:
         return signals
@@ -933,8 +933,8 @@ def detect_aroon(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Aroon — Strong Uptrend", "BULLISH",
             f"Aroon Up {cu:.0f}  vs  Down {cd:.0f}  (Up > 70 & leads)",
-            f"Aroon Up is high: a new 25-day high was recent; Up is above Down — "
-            f"momentum favors buyers.",
+            "Aroon Up is high: a new 25-day high was recent; Up is above Down — "
+            "momentum favors buyers.",
             "Trend-following: strength until Down catches up or Up rolls over.",
             bt,
         ))
@@ -945,16 +945,16 @@ def detect_aroon(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Aroon — Strong Downtrend", "BEARISH",
             f"Aroon Down {cd:.0f}  vs  Up {cu:.0f}  (Down > 70 & leads)",
-            f"Aroon Down dominates — new lows are fresh; structural weakness vs highs.",
+            "Aroon Down dominates — new lows are fresh; structural weakness vs highs.",
             "Avoid premature longs; wait for Up to recover or Down to fade.",
             bt,
         ))
     return signals
 
 
-def detect_ema_fast_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_ema_fast_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """9 EMA vs 21 EMA — short-term trend shifts."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     e9c, e21c = "EMA_9", "EMA_21"
     if e9c not in df.columns or e21c not in df.columns or df[e9c].isna().iloc[-1]:
         return signals
@@ -966,8 +966,8 @@ def detect_ema_fast_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
             symbol, name,
             "EMA 9/21 — Bullish Cross", "BULLISH",
             f"9-EMA {float(e9.iloc[-1]):.2f} crossed above 21-EMA {float(e21.iloc[-1]):.2f}",
-            f"The faster average crossed the slower to the upside — short-term "
-            f"momentum is accelerating vs the 3-4 week trend.",
+            "The faster average crossed the slower to the upside — short-term "
+            "momentum is accelerating vs the 3-4 week trend.",
             "Often used for swing entries; size smaller than a Golden Cross (50/200).",
             bt,
         ))
@@ -978,16 +978,16 @@ def detect_ema_fast_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
             symbol, name,
             "EMA 9/21 — Bearish Cross", "BEARISH",
             f"9-EMA {float(e9.iloc[-1]):.2f} crossed below 21-EMA {float(e21.iloc[-1]):.2f}",
-            f"Short-term trend rolling over vs the medium band — first line of risk management.",
+            "Short-term trend rolling over vs the medium band — first line of risk management.",
             "Use as a stop or reduce signal alongside structure.",
             bt,
         ))
     return signals
 
 
-def detect_trix(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_trix(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """TRIX / signal line — triple-smoothed rate of change, crossover signals."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     tc, sc = "TRIX_15_9", "TRIXs_15_9"
     if tc not in df.columns or sc not in df.columns or df[tc].isna().iloc[-1]:
         return signals
@@ -999,7 +999,7 @@ def detect_trix(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "TRIX — Bullish Cross", "BULLISH",
             f"TRIX {float(t.iloc[-1]):.4f} crossed above signal {float(ts.iloc[-1]):.4f}",
-            f"TRIX is triple-smoothed momentum; crossing its signal line filters noise vs raw MACD.",
+            "TRIX is triple-smoothed momentum; crossing its signal line filters noise vs raw MACD.",
             "Momentum build — confirm with price above a recent swing high.",
             bt,
         ))
@@ -1010,16 +1010,16 @@ def detect_trix(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "TRIX — Bearish Cross", "BEARISH",
             f"TRIX {float(t.iloc[-1]):.4f} crossed below signal {float(ts.iloc[-1]):.4f}",
-            f"Smoothed momentum is rolling over — early warning of deceleration.",
+            "Smoothed momentum is rolling over — early warning of deceleration.",
             "Tighten stops on longs; consider hedges in bear regimes.",
             bt,
         ))
     return signals
 
 
-def detect_obv_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_obv_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """On-balance volume vs its 20-day average — flow confirmation."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     if "OBV" not in df.columns or len(df) < 25 or df["OBV"].isna().iloc[-1]:
         return signals
     obv = df["OBV"]
@@ -1033,9 +1033,9 @@ def detect_obv_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
         signals.append(_make_signal(
             symbol, name,
             "OBV — Accumulation", "BULLISH",
-            f"OBV crossed above 20-day OBV average  (flow turning positive vs recent norm)",
-            f"On-balance volume adds volume to the up/down day count; crossing its average "
-            f"often precedes price catch-up.",
+            "OBV crossed above 20-day OBV average  (flow turning positive vs recent norm)",
+            "On-balance volume adds volume to the up/down day count; crossing its average "
+            "often precedes price catch-up.",
             "Volume leaders institutions watch — potential continuation.",
             bt,
         ))
@@ -1045,17 +1045,17 @@ def detect_obv_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
         signals.append(_make_signal(
             symbol, name,
             "OBV — Distribution", "BEARISH",
-            f"OBV crossed below 20-day OBV average  (flow deteriorating)",
-            f"Net volume pressure turning negative even if price is flat — distribution warning.",
+            "OBV crossed below 20-day OBV average  (flow deteriorating)",
+            "Net volume pressure turning negative even if price is flat — distribution warning.",
             "Price may follow; reduce size into weak OBV unless catalyzed.",
             bt,
         ))
     return signals
 
 
-def detect_psar_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_psar_flip(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Parabolic SAR trend flips (price vs SAR)."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     pl_col, ps_col = "PSARl_0.02_0.2", "PSARs_0.02_0.2"
     if pl_col not in df.columns or len(df) < 3:
         return signals
@@ -1071,7 +1071,7 @@ def detect_psar_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Parabolic SAR — Bullish", "BULLISH",
             f"Price {c:.2f} crossed above Parabolic SAR {s:.2f}  (stop-and-reverse up)",
-            f"SAR flipped under price — the default trend following system is now long.",
+            "SAR flipped under price — the default trend following system is now long.",
             "Use SAR as a trailing stop; not for choppy, range-bound names.",
             bt,
         ))
@@ -1082,16 +1082,16 @@ def detect_psar_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Parabolic SAR — Bearish", "BEARISH",
             f"Price {c:.2f} crossed below Parabolic SAR {s:.2f}  (stop-and-reverse down)",
-            f"The SAR is now capping price from below — short-term structure turned defensive.",
+            "The SAR is now capping price from below — short-term structure turned defensive.",
             "Often used to lock gains or add hedges in downtrends.",
             bt,
         ))
     return signals
 
 
-def detect_stoch_full(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_stoch_full(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Classic Stochastic (14,3) — independent of Stochastic RSI."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     k_col = "STOCHk_14_3_3"
     if k_col not in df.columns or df[k_col].isna().iloc[-1]:
         return signals
@@ -1105,8 +1105,8 @@ def detect_stoch_full(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Stochastic (Full) — Oversold", "BULLISH",
             f"%%K = {cur_k:.0f}  (oversold < 20, turning)",
-            f"Full stochastic compares the close to the 14-day range. Deep oversold with an upturn "
-            f"often front-runs a bounce vs slower oscillators.",
+            "Full stochastic compares the close to the 14-day range. Deep oversold with an upturn "
+            "often front-runs a bounce vs slower oscillators.",
             "Confirm with a cross of %%K above %%D for entries.",
             bt,
         ))
@@ -1117,16 +1117,16 @@ def detect_stoch_full(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Stochastic (Full) — Overbought", "BEARISH",
             f"%%K = {cur_k:.0f}  (overbought > 80, rolling over)",
-            f"Classic stochastic in the upper band — range traders often fade here.",
+            "Classic stochastic in the upper band — range traders often fade here.",
             "Watch for %%K to cross below %%D to validate a short-term pullback.",
             bt,
         ))
     return signals
 
 
-def detect_keltner(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_keltner(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Keltner channels (ATR-based) — price at envelope vs Bollinger (volatility)."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     lc, uc = "KCLe_20_2", "KCUe_20_2"
     if lc not in df.columns or df[lc].isna().iloc[-1]:
         return signals
@@ -1139,8 +1139,8 @@ def detect_keltner(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Keltner — Lower Channel Touch", "BULLISH",
             f"Close {cur:.2f} at/inside lower Keltner {l0:.2f}",
-            f"Keltner uses ATR for channel width. At the lower band, price is "
-            f"stretched vs the 20-day EMA midline in a volatility-aware way (distinct from Bollinger).",
+            "Keltner uses ATR for channel width. At the lower band, price is "
+            "stretched vs the 20-day EMA midline in a volatility-aware way (distinct from Bollinger).",
             "Mean-reversion or dip-buying context; confirm with volume.",
             bt,
         ))
@@ -1151,16 +1151,16 @@ def detect_keltner(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Keltner — Upper Channel Touch", "BEARISH",
             f"Close {cur:.2f} at/above upper Keltner {h0:.2f}",
-            f"Price is pressing the upper volatility envelope; risk of giveback toward the EMA center.",
+            "Price is pressing the upper volatility envelope; risk of giveback toward the EMA center.",
             "Consider trimming into strength; trend-follow with a tight plan.",
             bt,
         ))
     return signals
 
 
-def detect_donchian(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_donchian(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """N-period Donchian breakouts (shorter horizon than 52-week)."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     ll, uu = "DCL_20_20", "DCU_20_20"
     if uu not in df.columns or len(df) < 25 or df[uu].isna().iloc[-1]:
         return signals
@@ -1173,8 +1173,8 @@ def detect_donchian(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Donchian — 20D High Breakout", "BULLISH",
             f"Close {cur:.2f} at/above 20-day Donchian high {h0:.2f}",
-            f"A 20-day channel breakout: short-term range expansion; useful for "
-            f"momentum systems independent of 52-week lookback.",
+            "A 20-day channel breakout: short-term range expansion; useful for "
+            "momentum systems independent of 52-week lookback.",
             "Trend-follow: invalid if price fails back into the range.",
             bt,
         ))
@@ -1185,15 +1185,15 @@ def detect_donchian(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Donchian — 20D Low Breakdown", "BEARISH",
             f"Close {cur:.2f} at/under 20-day Donchian low {l0:.2f}",
-            f"Short-term support shelf gave way — path of least resistance may stay lower near-term.",
+            "Short-term support shelf gave way — path of least resistance may stay lower near-term.",
             "Avoid premature counter-trend buys until structure improves.",
             bt,
         ))
     return signals
 
 
-def detect_supertrend_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
-    signals: List[Dict] = []
+def detect_supertrend_flip(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
+    signals: list[dict] = []
     col = "SUPERTd_10_3"
     if col not in df.columns or len(df) < 3 or df[col].isna().iloc[-1]:
         return signals
@@ -1205,8 +1205,8 @@ def detect_supertrend_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dic
         signals.append(_make_signal(
             symbol, name,
             "Supertrend — Bullish Flip", "BULLISH",
-            f"Supertrend direction flipped to bullish (10/3 params)",
-            f"The Supertrend stop switched under price — default trend state is long until the next flip.",
+            "Supertrend direction flipped to bullish (10/3 params)",
+            "The Supertrend stop switched under price — default trend state is long until the next flip.",
             "Works best in clean trends; choppy markets produce whipsaw.",
             bt,
         ))
@@ -1216,17 +1216,17 @@ def detect_supertrend_flip(symbol: str, name: str, df: pd.DataFrame) -> List[Dic
         signals.append(_make_signal(
             symbol, name,
             "Supertrend — Bearish Flip", "BEARISH",
-            f"Supertrend direction flipped to bearish (10/3 params)",
-            f"The stop/anchor moved above price — system suggests defensive positioning.",
+            "Supertrend direction flipped to bearish (10/3 params)",
+            "The stop/anchor moved above price — system suggests defensive positioning.",
             "Often used for exits or to trail shorts in downtrends.",
             bt,
         ))
     return signals
 
 
-def detect_ppo(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_ppo(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Percentage Price Oscillator — scale-free cousin of MACD."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     pc, sc = "PPO_12_26_9", "PPOs_12_26_9"
     if pc not in df.columns or df[pc].isna().iloc[-1]:
         return signals
@@ -1238,7 +1238,7 @@ def detect_ppo(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "PPO — Bullish Cross", "BULLISH",
             f"PPO {float(ppo.iloc[-1]):.3f} crossed above signal {float(psig.iloc[-1]):.3f}",
-            f"PPO is MACD as a percentage — comparable across different-priced names.",
+            "PPO is MACD as a percentage — comparable across different-priced names.",
             "Confirm with price; combine with longer trend filters in volatile tape.",
             bt,
         ))
@@ -1249,15 +1249,15 @@ def detect_ppo(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "PPO — Bearish Cross", "BEARISH",
             f"PPO {float(ppo.iloc[-1]):.3f} crossed below signal {float(psig.iloc[-1]):.3f}",
-            f"Short-term momentum is lagging the signal line — waning impulsive strength.",
+            "Short-term momentum is lagging the signal line — waning impulsive strength.",
             "Risk management signal for longs; watch support.",
             bt,
         ))
     return signals
 
 
-def detect_awesome_osc(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
-    signals: List[Dict] = []
+def detect_awesome_osc(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
+    signals: list[dict] = []
     col = "AO_5_34"
     if col not in df.columns or len(df) < 3 or df[col].isna().iloc[-1]:
         return signals
@@ -1269,7 +1269,7 @@ def detect_awesome_osc(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Awesome Oscillator — Bullish Zero Line", "BULLISH",
             f"AO = {float(ao.iloc[-1]):.3f} crossed above zero",
-            f"Bill Williams' AO uses 5 vs 34 median prices — quick read on short-term vs medium momentum.",
+            "Bill Williams' AO uses 5 vs 34 median prices — quick read on short-term vs medium momentum.",
             "Often used with confirmation from trend or volume.",
             bt,
         ))
@@ -1280,17 +1280,17 @@ def detect_awesome_osc(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Awesome Oscillator — Bearish Zero Line", "BEARISH",
             f"AO = {float(ao.iloc[-1]):.3f} crossed below zero",
-            f"Short-term pressure has turned negative relative to the 34-period baseline.",
+            "Short-term pressure has turned negative relative to the 34-period baseline.",
             "Watch for follow-through; not a stand-alone short signal in isolation.",
             bt,
         ))
     return signals
 
 
-def detect_efi_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_efi_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     if "Volume" not in df.columns or df["Volume"].isna().all():
         return []
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "EFI_13"
     if col not in df.columns or len(df) < 3 or df[col].isna().iloc[-1]:
         return signals
@@ -1301,8 +1301,8 @@ def detect_efi_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
         signals.append(_make_signal(
             symbol, name,
             "Elder Force — Bullish", "BULLISH",
-            f"Elder Force Index crossed above zero  (13-day)",
-            f"Elder Force marries price change and volume — a pulse on power behind the move.",
+            "Elder Force Index crossed above zero  (13-day)",
+            "Elder Force marries price change and volume — a pulse on power behind the move.",
             "Bulls want rising EFI with an uptrend.",
             bt,
         ))
@@ -1312,16 +1312,16 @@ def detect_efi_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
         signals.append(_make_signal(
             symbol, name,
             "Elder Force — Bearish", "BEARISH",
-            f"Elder Force Index crossed below zero  (13-day)",
-            f"Sellers' volume power is now dominating on this definition.",
+            "Elder Force Index crossed below zero  (13-day)",
+            "Sellers' volume power is now dominating on this definition.",
             "Aligns with risk-off or profit-taking in existing longs.",
             bt,
         ))
     return signals
 
 
-def detect_dpo_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
-    signals: List[Dict] = []
+def detect_dpo_extreme(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
+    signals: list[dict] = []
     col = "DPO_20"
     if col not in df.columns or len(df) < 30 or df[col].isna().iloc[-1]:
         return signals
@@ -1334,7 +1334,7 @@ def detect_dpo_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "DPO — Extreme Low", "BULLISH",
             f"DPO = {cur:.1f}  (deeply below 20-day detrended mean)",
-            f"The Detrended Price Oscillator strips trend to highlight cycles — deep lows are cycle trough candidates.",
+            "The Detrended Price Oscillator strips trend to highlight cycles — deep lows are cycle trough candidates.",
             "Pair with trend filter; mean reversion, not a guaranteed bottom.",
             bt,
         ))
@@ -1345,16 +1345,16 @@ def detect_dpo_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "DPO — Extreme High", "BEARISH",
             f"DPO = {cur:.1f}  (stretched above 20-day detrended mean)",
-            f"Price is anomalously high vs its detrended baseline — late-cycle feel within the window.",
+            "Price is anomalously high vs its detrended baseline — late-cycle feel within the window.",
             "Consider trimming or waiting for a reset.",
             bt,
         ))
     return signals
 
 
-def detect_vortex_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_vortex_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """VMI: positive vortex > negative — trend init."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     vp, vm = "VTXP_14", "VTXM_14"
     if vp not in df.columns or len(df) < 3 or df[vp].isna().iloc[-1]:
         return signals
@@ -1366,7 +1366,7 @@ def detect_vortex_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Vortex — Bullish", "BULLISH",
             f"VI+ {float(p.iloc[-1]):.2f} crossed above VI- {float(m.iloc[-1]):.2f}",
-            f"The Vortex Indicator separates directional from random movement — a fresh VI+ lead.",
+            "The Vortex Indicator separates directional from random movement — a fresh VI+ lead.",
             "Use like other cross systems: best with broader trend agreement.",
             bt,
         ))
@@ -1377,16 +1377,16 @@ def detect_vortex_cross(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "Vortex — Bearish", "BEARISH",
             f"VI- {float(m.iloc[-1]):.2f} crossed above VI+ {float(p.iloc[-1]):.2f}",
-            f"Down-move definition now dominates the Vortex pair on this horizon.",
+            "Down-move definition now dominates the Vortex pair on this horizon.",
             "Defensive bias until leadership returns to VI+.",
             bt,
         ))
     return signals
 
 
-def detect_atr_surge(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_atr_surge(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """ATR% vs its rolling median — only fires on genuine vol expansion with directional day."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "ATRr_14"
     if col not in df.columns or len(df) < 40 or df[col].isna().iloc[-1]:
         return signals
@@ -1405,7 +1405,7 @@ def detect_atr_surge(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "ATR — Volatility Surge (Up)", "BULLISH",
             f"ATR% = {r:.2f} vs 20d median {m0:.2f}  |  day {r1:+.1f}%",
-            f"True range is in the top tier vs recent history while price is green — an expansion day with a bid.",
+            "True range is in the top tier vs recent history while price is green — an expansion day with a bid.",
             "Breakout/continuation or news tail-risk; size for volatility.",
             bt,
         ))
@@ -1417,16 +1417,16 @@ def detect_atr_surge(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
             symbol, name,
             "ATR — Volatility Surge (Down)", "BEARISH",
             f"ATR% = {r:.2f} vs 20d median {m0:.2f}  |  day {r1:+.1f}%",
-            f"Range expansion with a down close — either liquidation or a regime shift.",
+            "Range expansion with a down close — either liquidation or a regime shift.",
             "Reduce position size; wait for vol to compress before aggressive entries.",
             bt,
         ))
     return signals
 
 
-def detect_ulcer_elevated(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
+def detect_ulcer_elevated(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """Ulcer Index — drawdown pain; elevated = stress regime."""
-    signals: List[Dict] = []
+    signals: list[dict] = []
     col = "UI_14"
     if col not in df.columns or len(df) < 30 or df[col].isna().iloc[-1]:
         return signals
@@ -1440,16 +1440,16 @@ def detect_ulcer_elevated(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
             symbol, name,
             "Ulcer Index — Elevated", "BEARISH",
             f"UI = {base:.2f}  (>1.4× 20d average {m20:.2f})",
-            f"The Ulcer Index punishes both depth and duration of drawdowns — spiking means "
-            f"pain is worse than a normal pull-in.",
+            "The Ulcer Index punishes both depth and duration of drawdowns — spiking means "
+            "pain is worse than a normal pull-in.",
             "Risk management: wider stops do not help if path is jagged. Prefer smaller size.",
             bt,
         ))
     return signals
 
 
-def detect_fisher_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict]:
-    signals: List[Dict] = []
+def detect_fisher_extreme(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
+    signals: list[dict] = []
     col = "FISHERT_9_1"
     if col not in df.columns or df[col].isna().iloc[-1]:
         return signals
@@ -1462,7 +1462,7 @@ def detect_fisher_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
             symbol, name,
             "Fisher Transform — Low Extreme", "BULLISH",
             f"Fisher = {cur:.2f}  (deep negative)",
-            f"The Fisher transform compresses price near extremes; deep lows are statistical outliers that often revert.",
+            "The Fisher transform compresses price near extremes; deep lows are statistical outliers that often revert.",
             "Counter-trend bounce candidate — confirm on structure.",
             bt,
         ))
@@ -1473,7 +1473,7 @@ def detect_fisher_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
             symbol, name,
             "Fisher Transform — High Extreme", "BEARISH",
             f"Fisher = {cur:.2f}  (deep positive)",
-            f"Stretched to the high side in transformed space — more prone to giveback or stall.",
+            "Stretched to the high side in transformed space — more prone to giveback or stall.",
             "Take profits into euphoric extensions.",
             bt,
         ))
@@ -1482,7 +1482,7 @@ def detect_fisher_extreme(symbol: str, name: str, df: pd.DataFrame) -> List[Dict
 
 # ─── DEX Token Data Fetcher ───────────────────────────────────────────────────
 
-def fetch_dex_df(contract_address: str, days: int = 365) -> Optional[pd.DataFrame]:
+def fetch_dex_df(contract_address: str, days: int = 365) -> pd.DataFrame | None:
     """
     Fetches daily OHLCV candles for a DEX token via DexScreener + GeckoTerminal.
     Returns a DataFrame with Open/High/Low/Close/Volume columns, or None on failure.
@@ -1532,7 +1532,7 @@ def fetch_dex_df(contract_address: str, days: int = 365) -> Optional[pd.DataFram
         return None
 
 
-def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> List[Dict]:
+def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]:
     """Fetch DEX token OHLCV via DexScreener/GeckoTerminal and run all strategy scans."""
     df = fetch_dex_df(contract_address, days=365)
     if df is None or len(df) < 30:
@@ -1552,7 +1552,7 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> List[Dict]
     apply_extended_ta(df)
     apply_comprehensive_ta(df)
 
-    signals: List[Dict] = []
+    signals: list[dict] = []
     signals += detect_rsi(symbol, name, df)
     signals += detect_stoch_rsi(symbol, name, df)
     signals += detect_macd(symbol, name, df)
@@ -1588,7 +1588,7 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> List[Dict]
 
 # ─── Main Scanner ─────────────────────────────────────────────────────────────
 
-def scan_ticker(symbol: str, name: str) -> List[Dict]:
+def scan_ticker(symbol: str, name: str) -> list[dict]:
     """Fetch 2 years of data, compute all pandas-ta indicators, run all strategies."""
     try:
         raw = yf.Ticker(symbol).history(period="2y")
@@ -1614,7 +1614,7 @@ def scan_ticker(symbol: str, name: str) -> List[Dict]:
     apply_extended_ta(df)
     apply_comprehensive_ta(df)
 
-    signals: List[Dict] = []
+    signals: list[dict] = []
     signals += detect_rsi(symbol, name, df)
     signals += detect_stoch_rsi(symbol, name, df)
     signals += detect_macd(symbol, name, df)
@@ -1650,9 +1650,9 @@ def scan_ticker(symbol: str, name: str) -> List[Dict]:
 
 
 def run_full_scan(
-    tickers: Optional[Dict[str, str]] = None,
-    dex_tickers: Optional[Dict[str, str]] = None,
-) -> List[Dict]:
+    tickers: dict[str, str] | None = None,
+    dex_tickers: dict[str, str] | None = None,
+) -> list[dict]:
     """
     Scan all tickers. Returns signals sorted by confidence (highest first),
     filtered to confidence >= 45.
@@ -1667,7 +1667,7 @@ def run_full_scan(
         f"Scanning {len(tickers)} tickers + {len(dex_tickers)} DEX tokens "
         f"across 30 strategy detectors (pandas-ta) ..."
     )
-    all_signals: List[Dict] = []
+    all_signals: list[dict] = []
 
     for symbol, name in tickers.items():
         try:
@@ -1697,7 +1697,7 @@ def run_full_scan(
     return filtered
 
 
-def format_backtest_summary(bt: Dict) -> str:
+def format_backtest_summary(bt: dict) -> str:
     if bt.get("insufficient_data") or "5d" not in bt:
         return f"Insufficient history ({bt.get('count', 0)} signals)"
     d5 = bt["5d"]

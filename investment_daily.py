@@ -12,7 +12,7 @@ import logging
 from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from typing import List, Dict, Any, Optional
+from typing import Any
 
 import yfinance as yf
 import feedparser
@@ -52,7 +52,7 @@ RSS_FEEDS = [
     ("WSJ Markets",        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"),
 ]
 
-MARKET_TICKERS: Dict[str, Dict[str, str]] = {
+MARKET_TICKERS: dict[str, dict[str, str]] = {
     "Major Indices": {
         "^GSPC":    "S&P 500",
         "^IXIC":    "NASDAQ",
@@ -93,7 +93,7 @@ MARKET_TICKERS: Dict[str, Dict[str, str]] = {
 }
 
 # Maps keywords in headlines → yfinance symbol for fact-checking
-KEYWORD_TO_SYMBOL: Dict[str, str] = {
+KEYWORD_TO_SYMBOL: dict[str, str] = {
     "nasdaq":       "^IXIC",
     "s&p":          "^GSPC",
     "s&p 500":      "^GSPC",
@@ -136,9 +136,9 @@ BEARISH_WORDS = [
 
 # ─── Market Data ─────────────────────────────────────────────────────────────
 
-def get_market_data() -> Dict[str, Dict[str, Any]]:
+def get_market_data() -> dict[str, dict[str, Any]]:
     """Pull daily OHLCV for all tracked tickers and compute day-over-day change."""
-    result: Dict[str, Dict[str, Any]] = {}
+    result: dict[str, dict[str, Any]] = {}
 
     for category, tickers in MARKET_TICKERS.items():
         result[category] = {}
@@ -170,21 +170,21 @@ def get_market_data() -> Dict[str, Dict[str, Any]]:
     return result
 
 
-def flat_symbol_lookup(market_data: Dict) -> Dict[str, Dict]:
+def flat_symbol_lookup(market_data: dict) -> dict[str, dict]:
     """Build a flat {symbol: data} dict for quick fact-check lookups."""
-    lookup: Dict[str, Dict] = {}
+    lookup: dict[str, dict] = {}
     for cat_data in market_data.values():
-        for name, data in cat_data.items():
+        for _name, data in cat_data.items():
             sym = data.get("symbol", "")
             lookup[sym] = data
     return lookup
 
 # ─── News ─────────────────────────────────────────────────────────────────────
 
-def get_news(hours: int = 24) -> List[Dict]:
+def get_news(hours: int = 24) -> list[dict]:
     """Fetch and deduplicate articles from all RSS feeds published within `hours`."""
     cutoff   = datetime.utcnow() - timedelta(hours=hours)
-    articles: List[Dict] = []
+    articles: list[dict] = []
     seen     = set()
 
     for source, url in RSS_FEEDS:
@@ -196,7 +196,7 @@ def get_news(hours: int = 24) -> List[Dict]:
                     continue
                 seen.add(title)
 
-                pub: Optional[datetime] = None
+                pub: datetime | None = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     try:
                         pub = datetime(*entry.published_parsed[:6])
@@ -226,7 +226,7 @@ def get_news(hours: int = 24) -> List[Dict]:
 
 # ─── Polymarket ───────────────────────────────────────────────────────────────
 
-def get_polymarket_data() -> List[Dict]:
+def get_polymarket_data() -> list[dict]:
     """
     Pull active financial/economic prediction markets from the Polymarket Gamma API.
     Fetches a broad set and filters client-side for finance-relevant topics.
@@ -240,7 +240,7 @@ def get_polymarket_data() -> List[Dict]:
         "powell", "trump", "congress", "budget", "tax", "ipo",
     ]
 
-    markets: List[Dict] = []
+    markets: list[dict] = []
     seen_ids: set = set()
     headers = {"User-Agent": "InvestmentDaily/1.0"}
 
@@ -272,7 +272,7 @@ def get_polymarket_data() -> List[Dict]:
 
                 seen_ids.add(mid)
 
-                prob: Optional[float] = None
+                prob: float | None = None
                 try:
                     prices = json.loads(m.get("outcomePrices", "[]") or "[]")
                     if prices:
@@ -308,10 +308,10 @@ def get_polymarket_data() -> List[Dict]:
 
 # ─── Sentiment & Fact-Checking ────────────────────────────────────────────────
 
-def analyze_sentiment(market_data: Dict) -> Dict:
+def analyze_sentiment(market_data: dict) -> dict:
     """Derive overall market sentiment from index performance."""
-    scores: List[float] = []
-    details: List[str]  = []
+    scores: list[float] = []
+    details: list[str]  = []
 
     indices = market_data.get("Major Indices", {})
     for name, data in indices.items():
@@ -333,17 +333,17 @@ def analyze_sentiment(market_data: Dict) -> Dict:
 
 
 def fact_check_articles(
-    articles: List[Dict],
-    market_data: Dict,
-    sentiment: Dict,
-) -> List[Dict]:
+    articles: list[dict],
+    market_data: dict,
+    sentiment: dict,
+) -> list[dict]:
     """
     For each article, determine if its directional claim (bullish/bearish) is
     consistent with same-day market data for the referenced asset.
     """
     sym_lookup = flat_symbol_lookup(market_data)
 
-    checked: List[Dict] = []
+    checked: list[dict] = []
     for art in articles:
         title_lc = art["title"].lower()
 
@@ -351,8 +351,8 @@ def fact_check_articles(
         is_bearish = any(w in title_lc for w in BEARISH_WORDS)
 
         # Try to find a related market ticker
-        matched_sym: Optional[str]   = None
-        matched_pct: Optional[float] = None
+        matched_sym: str | None   = None
+        matched_pct: float | None = None
         for kw, sym in KEYWORD_TO_SYMBOL.items():
             if kw in title_lc and sym in sym_lookup:
                 matched_sym = sym
@@ -417,7 +417,7 @@ def _price_fmt(price: float, symbol: str) -> str:
     return f"${price:.6f}"
 
 
-def build_market_rows(market_data: Dict) -> str:
+def build_market_rows(market_data: dict) -> str:
     rows = ""
     for category, tickers in market_data.items():
         if not tickers:
@@ -446,7 +446,7 @@ def build_market_rows(market_data: Dict) -> str:
     return rows
 
 
-def build_news_html(articles: List[Dict]) -> str:
+def build_news_html(articles: list[dict]) -> str:
     html = ""
     for art in articles[:22]:
         verdict = art.get("verdict", "")
@@ -506,7 +506,7 @@ def build_news_html(articles: List[Dict]) -> str:
     return html
 
 
-def build_polymarket_html(markets: List[Dict]) -> str:
+def build_polymarket_html(markets: list[dict]) -> str:
     html = ""
     for m in markets:
         prob = m.get("probability")
@@ -542,7 +542,7 @@ def build_polymarket_html(markets: List[Dict]) -> str:
     return html
 
 
-def build_strategy_section(signals: List[Dict]) -> str:
+def build_strategy_section(signals: list[dict]) -> str:
     """Compact strategy signals table for the daily newsletter."""
     from strategy_engine import strategy_learn_link
     if not signals:
@@ -627,11 +627,11 @@ def build_strategy_section(signals: List[Dict]) -> str:
 
 
 def build_email(
-    market_data: Dict,
-    articles: List[Dict],
-    polymarket: List[Dict],
-    sentiment: Dict,
-    strategy_signals: Optional[List[Dict]] = None,
+    market_data: dict,
+    articles: list[dict],
+    polymarket: list[dict],
+    sentiment: dict,
+    strategy_signals: list[dict] | None = None,
 ) -> str:
     today  = datetime.now().strftime("%A, %B %d, %Y")
     sc_map = {"bullish": "#22c55e", "bearish": "#ef4444", "neutral": "#f59e0b"}
