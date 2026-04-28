@@ -123,33 +123,73 @@
 <body>
   <main class="wrap">
     <h1>Daily Tools Hub</h1>
-    <p>One page for your daily apps. Bookmark <code>http://127.0.0.1:5050/hub</code> and launch it with <code>open_daily_hub.cmd</code>.</p>
+    <p>One page for your daily apps. Bookmark <code>/hub</code> from your active deployment URL.</p>
 
     <section class="grid">
-      <a class="tile" href="http://127.0.0.1:5050" target="_blank" rel="noopener noreferrer">
+      <a class="tile" href="/" target="_blank" rel="noopener noreferrer">
         <div class="title">Investment Dashboard</div>
         <div class="desc">Local Flask dashboard for signals, market view, and actions.</div>
         <span class="badge warming" id="dashboard-status">Checking status...</span>
       </a>
 
-      <a class="tile" href="http://localhost:5173" target="_blank" rel="noopener noreferrer">
+      <a class="tile" id="meal-planner-link" href="http://localhost:5173" target="_blank" rel="noopener noreferrer">
         <div class="title">Meal Planner</div>
-        <div class="desc">Local meal-planner app (Vite frontend).</div>
-        <span class="badge live">Configured local app</span>
+        <div class="desc">Meal-planner app (local by default, or cloud URL if configured).</div>
+        <span class="badge config" id="meal-planner-status">Local default (localhost:5173)</span>
       </a>
 
-      <a class="tile" href="http://127.0.0.1:5050/asset-opportunities" target="_blank" rel="noopener noreferrer">
+      <a class="tile" href="/asset-opportunities" target="_blank" rel="noopener noreferrer">
         <div class="title">Asset Opportunity Finder</div>
-        <div class="desc">Local profile-based tax and savings opportunity finder.</div>
+        <div class="desc">Profile-based tax and savings opportunity finder.</div>
         <span class="badge live">Configured local app</span>
       </a>
     </section>
 
     <div class="footer">
-      Tip: update the two placeholder links directly in this file whenever your tool URLs change.
+      Tip: to set a cloud meal-planner URL, open this page once with
+      <code>?mealPlannerUrl=https://your-meal-planner-url</code>.
     </div>
   </main>
   <script>
+    function configureMealPlannerLink() {
+      const link = document.getElementById("meal-planner-link");
+      const badge = document.getElementById("meal-planner-status");
+      if (!link || !badge) {
+        return;
+      }
+
+      const params = new URLSearchParams(window.location.search);
+      const queryUrl = params.get("mealPlannerUrl");
+      if (queryUrl) {
+        localStorage.setItem("mealPlannerUrl", queryUrl);
+      }
+
+      const configuredUrl = localStorage.getItem("mealPlannerUrl");
+      const isLocalHost = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost";
+
+      if (configuredUrl) {
+        link.href = configuredUrl;
+        badge.className = "badge live";
+        badge.textContent = "Configured cloud app";
+        return;
+      }
+
+      if (isLocalHost) {
+        link.href = "http://localhost:5173";
+        badge.className = "badge live";
+        badge.textContent = "Configured local app";
+        return;
+      }
+
+      link.href = "#";
+      badge.className = "badge config";
+      badge.textContent = "Cloud URL not set";
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("Meal Planner URL not configured. Add ?mealPlannerUrl=https://your-url to this page once.");
+      });
+    }
+
     async function refreshDashboardStatus() {
       const badge = document.getElementById("dashboard-status");
       if (!badge) {
@@ -157,7 +197,7 @@
       }
 
       try {
-        const response = await fetch("http://127.0.0.1:5050/api/status", { cache: "no-store" });
+        const response = await fetch("/api/status", { cache: "no-store" });
         if (!response.ok) {
           throw new Error("Dashboard unavailable");
         }
@@ -175,10 +215,11 @@
         }
       } catch (error) {
         badge.className = "badge offline";
-        badge.textContent = "Offline - run launcher";
+        badge.textContent = "Offline";
       }
     }
 
+    configureMealPlannerLink();
     refreshDashboardStatus();
     setInterval(refreshDashboardStatus, 10000);
   </script>
