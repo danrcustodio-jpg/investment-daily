@@ -544,12 +544,21 @@ def build_polymarket_html(markets: list[dict]) -> str:
 
 def build_strategy_section(signals: list[dict]) -> str:
     """Compact strategy signals table for the daily newsletter."""
-    from strategy_engine import strategy_learn_link
+    from strategy_engine import (
+        confidence_breakdown,
+        group_signals_primary_secondary,
+        holdout_backtest_score,
+        strategy_learn_link,
+    )
     if not signals:
         return ""
 
+    groups = group_signals_primary_secondary(signals)[:24]
+
     rows = ""
-    for s in signals[:24]:
+    for g in groups:
+        s         = g["primary"]
+        sec       = g.get("secondary")
         direction = s["direction"]
         is_bull   = direction == "BULLISH"
         dc        = "#22c55e" if is_bull else "#ef4444"
@@ -561,25 +570,87 @@ def build_strategy_section(signals: list[dict]) -> str:
         wr_s      = f"{d5['win_rate']}% ({d5['avg_return']:+.1f}%)" if d5 else "N/A"
         wr_c      = "#22c55e" if d5 and d5["avg_return"] > 0 else "#ef4444"
         learn     = strategy_learn_link(s["strategy"], style="badge")
+        n_line    = ""
+        if d5 and d5.get("count") is not None:
+            n_line = (
+                f'<div style="font-size:10px;color:#64748b;margin-top:4px">'
+                f'n={d5["count"]} fills (5d fwd)</div>'
+            )
+
+        bd          = confidence_breakdown(bt)
+        bd_line     = ""
+        if bd:
+            wr20_bit = f'{bd["wr20_pts"]}' if bd["has_20d"] else "0"
+            bd_line = (
+                f'<div style="font-size:9px;color:#64748b;line-height:1.45;margin-top:5px;'
+                f'max-width:178px;margin-left:auto;text-align:right">'
+                f'Pts: 5dWR {bd["wr5_pts"]} + Sh {bd["sharpe_pts"]} + '
+                f'20dWR {wr20_bit} + PF {bd["pf_pts"]}'
+                f'</div>'
+            )
+
+        ho_sc, ho_n = holdout_backtest_score(bt)
+        ho_line       = ""
+        if ho_sc is not None and ho_n:
+            hcc = "#22c55e" if ho_sc >= 65 else ("#f59e0b" if ho_sc >= 52 else "#94a3b8")
+            ho_line = (
+                f'<div style="font-size:10px;color:#475569;margin-top:6px;line-height:1.35">'
+                f'Recent slice: <span style="color:{hcc};font-weight:800">{ho_sc:.0f}</span> '
+                f'(n={ho_n})</div>'
+            )
+
+        agree_html = ""
+        if g.get("agreement_count", 1) > 1:
+            agree_html = (
+                f'<div style="font-size:10px;color:#a78bfa;margin-top:4px;font-weight:600">'
+                f'{g["agreement_count"]} rules · same direction</div>'
+            )
+        reg_html = (
+            f'<div style="font-size:10px;color:#475569;margin-top:3px">{s.get("regime", "—")}</div>'
+        )
+
+        runner_html = ""
+        if sec:
+            s_conf = sec.get("confidence", 0)
+            s_cc   = "#22c55e" if s_conf >= 65 else ("#f59e0b" if s_conf >= 52 else "#94a3b8")
+            run_ln = strategy_learn_link(sec["strategy"], style="badge")
+            runner_html = (
+                f'<div style="margin-top:8px;padding-top:8px;border-top:1px solid #1e293b">'
+                f'<div style="color:#64748b;font-size:10px;font-weight:700;'
+                f'text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">'
+                f'Runner-up (same direction)</div>'
+                f'<div style="color:#94a3b8;font-size:11px;margin-bottom:4px">{sec["strategy"]}</div>'
+                f'<div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap">'
+                f'<span style="font-size:13px;font-weight:800;color:{s_cc}">{s_conf:.0f}</span>'
+                f'<span style="font-size:10px;color:#475569">score</span>'
+                f'{run_ln}</div></div>'
+            )
 
         rows += (
             f'<tr style="border-bottom:1px solid #0f172a">'
-            f'<td style="padding:8px 12px;color:{dc};font-size:15px;font-weight:900">{arrow}</td>'
-            f'<td style="padding:8px 12px">'
+            f'<td style="padding:8px 12px;color:{dc};font-size:15px;font-weight:900;vertical-align:top">{arrow}</td>'
+            f'<td style="padding:8px 12px;vertical-align:top">'
             f'  <div style="color:#e2e8f0;font-size:13px;font-weight:700">{s["ticker"]}</div>'
             f'  <div style="color:#64748b;font-size:11px">{s["name"]}</div>'
+            f'  {reg_html}'
+            f'  {agree_html}'
             f'</td>'
-            f'<td style="padding:8px 12px">'
+            f'<td style="padding:8px 12px;vertical-align:top">'
+            f'  <div style="color:#cbd5e1;font-size:11px;font-weight:700;margin-bottom:4px">Top rule</div>'
             f'  <div style="color:#94a3b8;font-size:12px;margin-bottom:4px">{s["strategy"]}</div>'
             f'  {learn}'
+            f'  {runner_html}'
             f'</td>'
-            f'<td style="padding:8px 12px;text-align:right">'
+            f'<td style="padding:8px 12px;text-align:right;vertical-align:top">'
             f'  <div style="font-size:13px;color:{wr_c};font-weight:700">{wr_s}</div>'
             f'  <div style="font-size:10px;color:#475569">5-day win | avg</div>'
+            f'  {n_line}'
             f'</td>'
-            f'<td style="padding:8px 12px;text-align:right">'
+            f'<td style="padding:8px 12px;text-align:right;vertical-align:top">'
             f'  <div style="font-size:16px;font-weight:900;color:{cc}">{conf:.0f}</div>'
-            f'  <div style="font-size:10px;color:#475569">conf</div>'
+            f'  <div style="font-size:10px;color:#475569">backtest score</div>'
+            f'  {bd_line}'
+            f'  {ho_line}'
             f'</td>'
             f'</tr>'
         )
@@ -596,8 +667,8 @@ def build_strategy_section(signals: list[dict]) -> str:
           Strategy Signals Today
         </h2>
         <div style="font-size:12px;color:#64748b">
-          {bullish_n} bullish &nbsp;·&nbsp; {bearish_n} bearish &nbsp;·&nbsp;
-          Ranked by 2-year backtest confidence &nbsp;·&nbsp;
+          {bullish_n} bullish &nbsp;·&nbsp; {bearish_n} bearish rule hits &nbsp;·&nbsp;
+          Rows group by asset &amp; direction (top rule + runner-up) &nbsp;·&nbsp;
           <span style="color:#818cf8">Intraday alerts sent automatically when these fire</span>
         </div>
       </div>
@@ -612,15 +683,18 @@ def build_strategy_section(signals: list[dict]) -> str:
           <th style="padding:6px 12px;color:#475569;font-size:10px;text-align:right;
                      font-weight:600;text-transform:uppercase">5-Day History</th>
           <th style="padding:6px 12px;color:#475569;font-size:10px;text-align:right;
-                     font-weight:600;text-transform:uppercase">Conf</th>
+                     font-weight:600;text-transform:uppercase">Score</th>
         </tr>
         {rows}
       </table>
       <div style="padding:10px 14px;border-top:1px solid #1e293b">
-        <p style="color:#475569;font-size:11px;margin:0">
-          Confidence 0-100 combines 5-day and 20-day forward win rates.
-          Win rate and avg return shown for the 5-day forward window.
-          Not financial advice.
+        <p style="color:#475569;font-size:11px;margin:0;line-height:1.55">
+          <strong style="color:#64748b">Backtest score</strong> measures how this <em>rule</em> behaved
+          in history (weighted 5d/20d win rates, Sharpe, profit factor)—not tomorrow&apos;s probability.
+          <strong>Pts</strong> show how those pieces add up; <strong>n</strong> is trade count in the 5d stats.
+          <strong>Recent slice</strong> recomputes the same score on only the latest 20% of signal dates (time-ordered)
+          as a rough out-of-sample check. <strong>Regime</strong> is price vs a long MA for context.
+          Runner-up = next-best rule when several align. Not financial advice.
         </p>
       </div>
     </div>"""

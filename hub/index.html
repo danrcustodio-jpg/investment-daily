@@ -128,8 +128,14 @@
     <section class="grid">
       <a class="tile" href="/" target="_blank" rel="noopener noreferrer">
         <div class="title">Investment Dashboard</div>
-        <div class="desc">Local Flask dashboard for signals, market view, and actions.</div>
+        <div class="desc">Signals, market snapshot, logs, and paper portfolio simulation.</div>
         <span class="badge warming" id="dashboard-status">Checking status...</span>
+      </a>
+
+      <a class="tile" href="/simulation" target="_blank" rel="noopener noreferrer">
+        <div class="title">Portfolio Simulation</div>
+        <div class="desc">Paper portfolio vs SPY — P&amp;L, equity curve, strategy advisor (same as CLI).</div>
+        <span class="badge warming" id="simulation-tile-status">Checking…</span>
       </a>
 
       <a class="tile" id="meal-planner-link" href="http://localhost:5173" target="_blank" rel="noopener noreferrer">
@@ -206,16 +212,32 @@
         if (status.loading) {
           badge.className = "badge warming";
           badge.textContent = "Warming up...";
-        } else if ((status.signal_count || 0) > 0) {
+        } else         if ((status.signal_count || 0) > 0) {
           badge.className = "badge live";
           badge.textContent = "Live (" + status.signal_count + " signals)";
         } else {
           badge.className = "badge warming";
           badge.textContent = "Live, loading data...";
         }
+
+        const simBadge = document.getElementById("simulation-tile-status");
+        if (simBadge) {
+          if (status.simulation_ready) {
+            simBadge.className = "badge live";
+            simBadge.textContent = "sim_portfolio.json OK";
+          } else {
+            simBadge.className = "badge config";
+            simBadge.textContent = "Init state on server";
+          }
+        }
       } catch (error) {
         badge.className = "badge offline";
         badge.textContent = "Offline";
+        const simBadge = document.getElementById("simulation-tile-status");
+        if (simBadge) {
+          simBadge.className = "badge offline";
+          simBadge.textContent = "Unavailable";
+        }
       }
     }
 

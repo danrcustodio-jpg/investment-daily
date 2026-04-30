@@ -17,13 +17,11 @@ import sys
 import json
 import smtplib
 import logging
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from typing import Dict, List, Optional
 
 import yfinance as yf
-import numpy as np
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -53,7 +51,7 @@ CASH_APY        = 0.045   # ~4.5% annual yield on T-Bills / money market
 TAX_SHORT_TERM_RATE = 0.32    # 32% — ordinary income bracket for active trader
 TAX_LONG_TERM_RATE  = 0.15    # 15% — long-term capital gains rate
 SLIPPAGE_RATE       = 0.001   # 0.10% per trade (entry + exit = 0.20% round-trip)
-MIN_EVAL_CONFIDENCE = 55      # minimum signal confidence to surface as new opportunity
+MIN_EVAL_CONFIDENCE = 55      # minimum backtest score to surface as new opportunity
 
 # ─── Initial Portfolio (locked in 2026-04-20) ─────────────────────────────────
 
@@ -136,22 +134,22 @@ BENCHMARK = {"ticker": "SPY", "entry_price": 707.79}
 
 # ─── State Management ─────────────────────────────────────────────────────────
 
-def load_state() -> Dict:
+def load_state() -> dict:
     if os.path.exists(STATE_FILE):
         try:
-            with open(STATE_FILE, "r", encoding="utf-8") as f:
+            with open(STATE_FILE, encoding="utf-8") as f:
                 return json.load(f)
         except (json.JSONDecodeError, OSError) as e:
             logger.warning(f"Could not load state file ({e}), starting fresh.")
     return {}
 
 
-def save_state(state: Dict) -> None:
+def save_state(state: dict) -> None:
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, default=str)
 
 
-def init_simulation() -> Dict:
+def init_simulation() -> dict:
     logger.info("Initializing simulation...")
     state = {
         "initialized":    datetime.now().isoformat(),
@@ -168,7 +166,7 @@ def init_simulation() -> Dict:
 
 # ─── Price Fetching ───────────────────────────────────────────────────────────
 
-def get_current_prices(tickers: List[str]) -> Dict[str, float]:
+def get_current_prices(tickers: list[str]) -> dict[str, float]:
     prices = {}
     for t in tickers:
         try:
@@ -180,9 +178,8 @@ def get_current_prices(tickers: List[str]) -> Dict[str, float]:
     return prices
 
 
-def get_price_history_since(ticker: str, since_date: str) -> "pd.DataFrame":
+def get_price_history_since(ticker: str, since_date: str):
     """Return daily OHLCV since a given date string (YYYY-MM-DD)."""
-    import pandas as pd
     try:
         hist = yf.Ticker(ticker).history(start=since_date)
         return hist
@@ -193,7 +190,7 @@ def get_price_history_since(ticker: str, since_date: str) -> "pd.DataFrame":
 
 # ─── Limit Order Check ────────────────────────────────────────────────────────
 
-def check_limit_orders(state: Dict, since_date: str) -> Dict:
+def check_limit_orders(state: dict, since_date: str) -> dict:
     """
     Check if any pending limit orders have been triggered since init_date.
     Uses daily Low prices to determine if limit was ever hit.
@@ -234,7 +231,7 @@ def check_limit_orders(state: Dict, since_date: str) -> Dict:
 
 # ─── P&L Calculation ─────────────────────────────────────────────────────────
 
-def compute_pnl(state: Dict, current_prices: Dict) -> List[Dict]:
+def compute_pnl(state: dict, current_prices: dict) -> list[dict]:
     """
     Returns list of position dicts with current P&L attached.
     """
@@ -286,7 +283,7 @@ def compute_pnl(state: Dict, current_prices: Dict) -> List[Dict]:
     return results
 
 
-def compute_benchmark_pnl(state: Dict, current_prices: Dict) -> Dict:
+def compute_benchmark_pnl(state: dict, current_prices: dict) -> dict:
     bm    = state["benchmark"]
     cp    = current_prices.get(bm["ticker"])
     if cp:
@@ -307,7 +304,7 @@ def compute_benchmark_pnl(state: Dict, current_prices: Dict) -> Dict:
 
 # ─── Snapshot ────────────────────────────────────────────────────────────────
 
-def take_snapshot(state: Dict, recommendations: Optional[List[Dict]] = None) -> Dict:
+def take_snapshot(state: dict, recommendations: list[dict] | None = None) -> dict:
     """Record today's portfolio value for charting the weekly equity curve."""
     tickers = [k for k in state["positions"] if k != "CASH"]
     prices  = get_current_prices(tickers + [state["benchmark"]["ticker"]])
@@ -346,7 +343,7 @@ def take_snapshot(state: Dict, recommendations: Optional[List[Dict]] = None) -> 
 
 # ─── Market Evaluation Engine ────────────────────────────────────────────────
 
-def _holding_days(pos: Dict, state: Dict) -> int:
+def _holding_days(pos: dict, state: dict) -> int:
     """Days since position was entered (or sim init date for day-1 market orders)."""
     if pos.get("triggered_date"):
         start = date.fromisoformat(pos["triggered_date"])
@@ -357,12 +354,12 @@ def _holding_days(pos: Dict, state: Dict) -> int:
     return max(0, (date.today() - start).days)
 
 
-def _tax_rate(pos: Dict, state: Dict) -> float:
+def _tax_rate(pos: dict, state: dict) -> float:
     """Return applicable capital gains rate based on how long the position has been held."""
     return TAX_LONG_TERM_RATE if _holding_days(pos, state) >= 365 else TAX_SHORT_TERM_RATE
 
 
-def _exit_cost(pos: Dict, current_price: float, state: Dict) -> Dict:
+def _exit_cost(pos: dict, current_price: float, state: dict) -> dict:
     """
     Full cost of liquidating an open equity position.
     Gains are taxed; losses produce a tax benefit. Slippage is always a cost.
@@ -370,8 +367,6 @@ def _exit_cost(pos: Dict, current_price: float, state: Dict) -> Dict:
     """
     alloc   = pos["allocation"]
     shares  = pos.get("shares") or 0
-    entry   = pos.get("entry_price") or 0
-
     current_value = (shares * current_price) if (shares and current_price) else alloc
     gross_gain    = current_value - alloc
 
@@ -398,7 +393,7 @@ def _exit_cost(pos: Dict, current_price: float, state: Dict) -> Dict:
     }
 
 
-def _score_signal(sig: Dict) -> float:
+def _score_signal(sig: dict) -> float:
     """
     Composite quality score for one signal.
     Higher = better risk/reward.  Used to compare bull vs bear signal weight.
@@ -412,7 +407,7 @@ def _score_signal(sig: Dict) -> float:
     return conf * wr * (1 + sharpe / 10) * (1 - dd * 0.25)
 
 
-def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[Dict]:
+def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[dict]:
     """
     Evaluate every position against live signals. Factor in taxes and slippage.
     Returns a list of recommendation dicts, sorted by priority (high → low).
@@ -425,10 +420,10 @@ def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[D
       NEW_OPPORTUNITY — bullish signal not yet in portfolio, capital is deployable
     """
     positions  = state["positions"]
-    recs: List[Dict] = []
+    recs: list[dict] = []
 
     # Build per-ticker signal map from the full scan
-    sig_map: Dict[str, Dict[str, List]] = {}
+    sig_map: dict[str, dict[str, list]] = {}
     for s in signals:
         t   = s["ticker"]
         dir = s["direction"].upper()
@@ -464,7 +459,7 @@ def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[D
                     "priority": "medium",
                     "reason": (
                         f"{len(bear)} bearish signal(s) now outweigh {len(bull)} bullish. "
-                        f"Strongest: {top_bear['strategy']} at confidence {top_bear['confidence']}. "
+                        f"Strongest: {top_bear['strategy']} at score {top_bear['confidence']}. "
                         f"Limit at ${pos['limit_price']:.2f} may never fill profitably."
                     ),
                     "tax_note": "No tax impact — order not yet filled.",
@@ -497,7 +492,7 @@ def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[D
                 priority = "high" if bear_score > bull_score * 1.5 else "medium"
                 bear_desc = (
                     f"Strongest bearish: {top_bear['strategy']} "
-                    f"(confidence {top_bear['confidence']})."
+                    f"(score {top_bear['confidence']})."
                     if top_bear else "Multiple bearish signals present."
                 )
                 tax_str = (
@@ -593,7 +588,7 @@ def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[D
                 "ticker":   c["ticker"],
                 "priority": "high" if c["confidence"] >= 70 else "medium",
                 "reason": (
-                    f"{c['signal']} — Confidence {c['confidence']}, "
+                    f"{c['signal']} — Score {c['confidence']}, "
                     f"Win Rate {c['win_rate']}%, Avg 5d Return {c['avg_return']}%, "
                     f"Max Drawdown {c['max_drawdown']}%, Sharpe {c['sharpe']}. {conflict_note}"
                 ),
@@ -614,7 +609,7 @@ def evaluate_portfolio(state: Dict, prices: Dict, signals: List[Dict]) -> List[D
 
 # ─── Console Report ──────────────────────────────────────────────────────────
 
-def print_report(rows: List[Dict], bm: Dict, state: Dict) -> None:
+def print_report(rows: list[dict], bm: dict, state: dict) -> None:
     init_date   = state.get("init_date", "?")
     days        = (date.today() - date.fromisoformat(init_date)).days
     total_value = sum(r.get("current_value", r["allocation"]) for r in rows)
@@ -639,7 +634,6 @@ def print_report(rows: List[Dict], bm: Dict, state: Dict) -> None:
         print(f"  {r['ticker']:<10} {r['name']:<28} {status_str:<10} ${r['allocation']:>8,.0f} {pnl_str:>10} {pct_str:>8}")
 
     print("-"*72)
-    pnl_arrow = "+" if total_pnl >= 0 else ""
     print(f"  {'TOTAL':<10} {'':28} {'':10} ${TOTAL_CAPITAL:>8,.0f} ${total_pnl:>+9,.2f} {total_pct:>+7.2f}%")
     print()
     print(f"  BENCHMARK (SPY)  entry ${bm['entry_price']:.2f}  ->  current ${bm['current_price']:.2f}  {bm['pnl_pct']:+.2f}%  (${bm['pnl_dollars']:+,.0f} if 100% SPY)")
@@ -689,7 +683,7 @@ def print_report(rows: List[Dict], bm: Dict, state: Dict) -> None:
 
 # ─── HTML Report ─────────────────────────────────────────────────────────────
 
-def build_html_report(rows: List[Dict], bm: Dict, state: Dict, weekly: bool = False) -> str:
+def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = False) -> str:
     init_date   = state.get("init_date", "?")
     days        = (date.today() - date.fromisoformat(init_date)).days
     total_value = sum(r.get("current_value", r["allocation"]) for r in rows)
@@ -772,7 +766,7 @@ def build_html_report(rows: List[Dict], bm: Dict, state: Dict, weekly: bool = Fa
             detail_html += f"""
             <div style='background:#1e293b;border-radius:8px;padding:16px;margin:10px 0;border-left:3px solid {pc}'>
               <div style='font-weight:700;color:#e2e8f0;font-size:15px'>{r['ticker']} — {r['name']}</div>
-              <div style='color:#94a3b8;font-size:13px;margin-top:4px'>Signal: {r['signal']}  |  Confidence: {r['confidence']}  |  Win Rate: {r['win_rate']}%</div>
+              <div style='color:#94a3b8;font-size:13px;margin-top:4px'>Signal: {r['signal']}  |  Score: {r['confidence']}  |  Win Rate: {r['win_rate']}%</div>
               <div style='color:#94a3b8;font-size:13px;margin-top:4px'>Entry: {ep}  →  Current: {cp}</div>
               <div style='color:{pc};font-weight:700;font-size:14px;margin-top:6px'>P&L: {pnl_disp}</div>
               <div style='color:#64748b;font-size:12px;margin-top:6px;font-style:italic'>{r['rationale']}</div>

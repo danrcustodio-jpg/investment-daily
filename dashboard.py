@@ -7,6 +7,7 @@ Access from anywhere via ngrok tunnel (see start_dashboard.ps1).
 Routes:
   GET  /              Home — sentiment, top signals, quick actions
   GET  /signals       Full strategy signal list
+  GET  /simulation    Portfolio paper-trade simulation vs SPY (portfolio_sim)
   GET  /market        Full market snapshot
   GET  /logs          Recent log lines
   POST /run/newsletter  Trigger manual newsletter send
@@ -15,14 +16,16 @@ Routes:
   GET  /api/status    JSON health check
 """
 
+import json
 import os
+import re
 import subprocess
 import threading
 import time
 import logging
 from datetime import datetime
 
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, Response
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -109,10 +112,11 @@ def bg_refresh() -> None:
 
 def shell(title: str, body: str, active: str = "") -> str:
     nav_items = [
-        ("Home",    "/",         "home"),
-        ("Signals", "/signals",  "signals"),
-        ("Market",  "/market",   "market"),
-        ("Logs",    "/logs",     "logs"),
+        ("Home",    "/",             "home"),
+        ("Signals", "/signals",      "signals"),
+        ("Sim",     "/simulation",   "simulation"),
+        ("Market",  "/market",       "market"),
+        ("Logs",    "/logs",         "logs"),
     ]
     nav_html = ""
     for label, href, key in nav_items:
@@ -216,9 +220,14 @@ def home():
     bullish_n  = sum(1 for s in signals if s["direction"] == "BULLISH")
     bearish_n  = sum(1 for s in signals if s["direction"] == "BEARISH")
 
-    # Top 5 signals preview
+    # Top 5 grouped rows (top rule + runner-up when present)
+    from strategy_engine import group_signals_primary_secondary
+
+    groups    = group_signals_primary_secondary(signals)[:5]
     top_rows = ""
-    for s in signals[:5]:
+    for g in groups:
+        s       = g["primary"]
+        sec     = g.get("secondary")
         is_bull = s["direction"] == "BULLISH"
         dc      = "#22c55e" if is_bull else "#ef4444"
         arrow   = "▲" if is_bull else "▼"
@@ -227,13 +236,31 @@ def home():
         bt      = s.get("backtest", {})
         d5      = bt.get("5d", {})
         wr      = f"{d5['win_rate']:.0f}%" if d5 else "—"
+        n_sub   = ""
+        if d5 and d5.get("count") is not None:
+            n_sub = f'<span style="font-size:9px;color:#475569"> · n={d5["count"]}</span>'
+        sub     = ""
+        if sec:
+            sub = (
+                f'<div style="font-size:10px;color:#475569;margin-top:3px">'
+                f'Runner-up: {sec["strategy"]} ({sec.get("confidence", 0):.0f})</div>'
+            )
+        reg_l = ""
+        if s.get("regime"):
+            reg_l = f'<div style="font-size:9px;color:#475569;margin-top:2px">{s["regime"]}</div>'
+        agree_l = ""
+        if g.get("agreement_count", 1) > 1:
+            agree_l = (
+                f'<div style="font-size:9px;color:#a78bfa;margin-top:2px">'
+                f'{g["agreement_count"]} rules agree</div>'
+            )
         top_rows += (
             f'<tr>'
             f'<td style="color:{dc};font-size:16px">{arrow}</td>'
             f'<td><div style="font-weight:700;color:#e2e8f0">{s["ticker"]}</div>'
-            f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div></td>'
+            f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div>{reg_l}{agree_l}{sub}</td>'
             f'<td style="text-align:right;color:{cc};font-weight:700;font-size:16px">{conf:.0f}</td>'
-            f'<td style="text-align:right;color:#94a3b8">{wr}</td>'
+            f'<td style="text-align:right;color:#94a3b8">{wr}{n_sub}</td>'
             f'</tr>'
         )
 
@@ -287,6 +314,10 @@ def home():
         onclick="runAction('/refresh','Refresh')">
         &#8635; Refresh Data
       </button>
+      <a href="/simulation" class="btn btn-gray"
+        style="text-decoration:none;display:block;margin-bottom:0">
+        &#128202; Portfolio simulation (paper vs SPY)
+      </a>
     </div>
 
     <!-- Top signals -->
@@ -299,7 +330,7 @@ def home():
       <table>
         <tr style="border-bottom:1px solid #1e293b">
           <th></th><th>Asset / Strategy</th>
-          <th style="text-align:right">Conf</th>
+          <th style="text-align:right">Score</th>
           <th style="text-align:right">5d Win</th>
         </tr>
         {top_rows if top_rows else '<tr><td colspan="4" style="color:#475569;padding:14px">No signals — data loading or market closed</td></tr>'}
@@ -317,10 +348,19 @@ def home():
 @app.route("/signals")
 def signals_page():
     refresh_cache()
+    from strategy_engine import (
+        group_signals_primary_secondary,
+        confidence_breakdown,
+        holdout_backtest_score,
+    )
+
     signals = _cache.get("signals") or []
+    groups  = group_signals_primary_secondary(signals)
 
     rows = ""
-    for s in signals:
+    for g in groups:
+        s   = g["primary"]
+        sec = g.get("secondary")
         is_bull = s["direction"] == "BULLISH"
         dc      = "#22c55e" if is_bull else "#ef4444"
         arrow   = "▲" if is_bull else "▼"
@@ -333,6 +373,36 @@ def signals_page():
         sh      = f"{d5['sharpe']:.2f}" if d5 else "—"
         dd      = f"{d5['max_drawdown']:.1f}%" if d5 else "—"
 
+        reg_html = ""
+        if s.get("regime"):
+            reg_html = (
+                f'<div style="font-size:11px;color:#475569;margin-top:4px">{s["regime"]}</div>'
+            )
+        agr_html = ""
+        if g.get("agreement_count", 1) > 1:
+            agr_html = (
+                f'<div style="font-size:10px;color:#a78bfa;margin-top:4px;font-weight:600">'
+                f'{g["agreement_count"]} rules · same direction</div>'
+            )
+        bd      = confidence_breakdown(bt)
+        bd_html = ""
+        if bd:
+            wr20 = bd["wr20_pts"] if bd["has_20d"] else 0
+            bd_html = (
+                f'<div style="font-size:10px;color:#64748b;margin:6px 0;line-height:1.45">'
+                f'Pts: 5dWR {bd["wr5_pts"]}+Sh {bd["sharpe_pts"]}+20dWR {wr20}+PF {bd["pf_pts"]} '
+                f'· n={bd["n_5d"]}</div>'
+            )
+        hsc, hn = holdout_backtest_score(bt)
+        ho_html = ""
+        if hsc is not None and hn:
+            hcc = "#22c55e" if hsc >= 65 else ("#f59e0b" if hsc >= 52 else "#94a3b8")
+            ho_html = (
+                f'<div style="font-size:10px;color:#475569;margin-bottom:4px">'
+                f'Recent slice score: <span style="color:{hcc};font-weight:800">{hsc:.0f}</span> '
+                f'(n={hn})</div>'
+            )
+
         rows += f"""
         <div style="background:#0f172a;border:1px solid #1e293b;border-radius:10px;
                     padding:14px;margin:0 14px 10px">
@@ -342,13 +412,25 @@ def signals_page():
                 <span style="color:{dc}">{arrow}</span> {s['ticker']}
                 <span style="font-size:13px;color:#64748b;font-weight:400">({s['name']})</span>
               </div>
+              {reg_html}
+              {agr_html}
+              <div style="font-size:11px;color:#64748b;margin-top:2px">Top rule</div>
               <div style="font-size:12px;color:#818cf8;margin-top:3px">{s['strategy']}</div>
             </div>
             <div style="text-align:right">
               <div style="font-size:24px;font-weight:900;color:{cc}">{conf:.0f}</div>
-              <div style="font-size:10px;color:#475569">confidence</div>
+              <div style="font-size:10px;color:#475569">backtest score</div>
             </div>
           </div>
+          {(
+            f'<div style="font-size:11px;color:#64748b;background:#0a1628;border-radius:8px;'
+            f'padding:8px 10px;margin:8px 0;border:1px solid #1e293b">'
+            f'<span style="color:#475569;font-weight:700">Runner-up · </span>'
+            f'{sec["strategy"]} · <span style="color:#94a3b8;font-weight:700">'
+            f'{sec.get("confidence", 0):.0f}</span></div>'
+          ) if sec else ''}
+          {bd_html}
+          {ho_html}
           <div style="font-family:monospace;font-size:11px;color:#6366f1;
                       background:#0a0f1e;padding:6px 8px;border-radius:6px;margin:8px 0">
             {s.get('indicator','')}
@@ -376,11 +458,12 @@ def signals_page():
           </div>
         </div>"""
 
+    n_sig = len(signals)
     body = f"""
     <div style="padding:14px 14px 4px">
-      <h2>Strategy Signals <span style="color:#64748b;font-weight:400;font-size:14px">({len(signals)} total)</span></h2>
+      <h2>Strategy Signals <span style="color:#64748b;font-weight:400;font-size:14px">({len(groups)} rows · {n_sig} rules)</span></h2>
       <p style="font-size:12px;color:#64748b;margin-bottom:4px">
-        Ranked by confidence · Powered by pandas-ta · 30 strategy detectors · 28 tickers
+        Grouped by asset &amp; direction — top rule and runner-up · pandas-ta · 30 detectors
       </p>
     </div>
     {rows if rows else '<div class="card" style="color:#64748b">No signals yet — tap Refresh on the home screen.</div>'}"""
@@ -544,13 +627,95 @@ def force_refresh():
 def api_status():
     signals = _cache.get("signals") or []
     sent    = _cache.get("sentiment") or {}
+    sim_ok  = False
+    try:
+        p = os.path.join(SCRIPT_DIR, "sim_portfolio.json")
+        if os.path.isfile(p) and os.path.getsize(p) > 20:
+            with open(p, encoding="utf-8") as f:
+                sim_ok = bool(json.load(f).get("positions"))
+    except Exception:
+        sim_ok = False
     return jsonify({
-        "ok":          True,
-        "fetched_at":  _cache["fetched_at"].isoformat() if _cache["fetched_at"] else None,
-        "loading":     _cache["loading"],
-        "signal_count": len(signals),
-        "sentiment":   sent.get("overall", "unknown"),
+        "ok":               True,
+        "fetched_at":       _cache["fetched_at"].isoformat() if _cache["fetched_at"] else None,
+        "loading":          _cache["loading"],
+        "signal_count":     len(signals),
+        "sentiment":        sent.get("overall", "unknown"),
+        "simulation_ready": sim_ok,
     })
+
+
+@app.route("/simulation")
+def simulation_page():
+    """
+    Live portfolio simulation view (same engine as portfolio_sim.py / reports/SIMULATION.md).
+    Uses cached strategy signals when available to avoid a duplicate full scan.
+    """
+    import portfolio_sim as sim
+    from strategy_engine import run_full_scan
+
+    refresh_cache()
+    state = sim.load_state()
+    if not state:
+        body = """
+    <div style="padding:16px 14px">
+      <h2 style="color:#f1f5f9;margin-bottom:12px">Portfolio simulation</h2>
+      <div class="card" style="color:#94a3b8;line-height:1.6">
+        <p style="margin:0 0 12px">No simulation state on this server yet.
+        Run <code style="color:#818cf8">python portfolio_sim.py --init</code> locally,
+        then commit and push <code style="color:#818cf8">sim_portfolio.json</code> so Render has data.</p>
+        <p style="margin:0;font-size:12px;color:#64748b">The simulation page was not part of earlier
+        dashboard builds — deploy this repo revision and open <strong>/simulation</strong>.</p>
+      </div>
+      <a href="/" style="color:#818cf8;font-weight:700;display:inline-block;margin-top:16px">← Home</a>
+    </div>"""
+        return shell("Simulation", body, active="simulation")
+
+    try:
+        state = sim.check_limit_orders(state, state["init_date"])
+        tickers = [k for k in state["positions"] if k != "CASH"]
+        prices = sim.get_current_prices(tickers + [state["benchmark"]["ticker"]])
+        rows = sim.compute_pnl(state, prices)
+        bm = sim.compute_benchmark_pnl(state, prices)
+
+        signals = _cache.get("signals") or []
+        if not signals:
+            log.info("Dashboard: simulation using fresh full scan (signal cache empty)")
+            signals = run_full_scan()
+
+        recs = sim.evaluate_portfolio(state, prices, signals)
+        state["recommendations"] = [
+            {k: v for k, v in r.items() if k != "exit_cost"}
+            for r in recs
+        ]
+        state["recommendations_updated"] = datetime.now().isoformat()
+        sim.save_state(state)
+
+        html_doc = sim.build_html_report(rows, bm, state, weekly=False)
+    except Exception as exc:
+        log.exception("Simulation page failed")
+        body = f"""
+    <div style="padding:16px 14px">
+      <h2 style="color:#f1f5f9">Portfolio simulation</h2>
+      <div class="card" style="color:#fca5a5">{exc}</div>
+      <a href="/" style="color:#818cf8;font-weight:700;display:inline-block;margin-top:16px">← Home</a>
+    </div>"""
+        return shell("Simulation", body, active="simulation")
+
+    bar = (
+        '<div style="position:sticky;top:0;z-index:200;background:#0f172a;'
+        'border-bottom:1px solid #334155;padding:12px 16px;display:flex;'
+        'justify-content:space-between;align-items:center">'
+        '<a href="/" style="color:#818cf8;font-weight:800;text-decoration:none;font-size:14px">'
+        "&#8592; Dashboard</a>"
+        '<span style="color:#64748b;font-size:12px">Paper portfolio &middot; vs SPY</span>'
+        "</div>"
+    )
+    m = re.search(r"<body[^>]*>", html_doc)
+    if m:
+        html_doc = html_doc[: m.end()] + bar + html_doc[m.end() :]
+
+    return Response(html_doc, mimetype="text/html; charset=utf-8")
 
 
 @app.route("/hub")
@@ -596,6 +761,7 @@ if __name__ == "__main__":
     print(f"{'='*55}")
     print(f"  Local (same WiFi): http://{local_ip}:{port}")
     print(f"  Localhost:         http://127.0.0.1:{port}")
+    print(f"  Simulation:        http://127.0.0.1:{port}/simulation")
     print("  For outside WiFi:  run start_dashboard.ps1 (ngrok)")
     print(f"{'='*55}\n")
 

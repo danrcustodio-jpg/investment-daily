@@ -16,6 +16,7 @@ import warnings
 
 import numpy as np
 import pandas as pd
+import pandas_ta as ta  # noqa: F401 - importing registers the DataFrame .ta accessor
 import yfinance as yf
 
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -178,12 +179,18 @@ def methodology_newsletter_html() -> str:
         Technical coverage
       </h2>
       <p style="color:#94a3b8;font-size:12px;margin:0 0 12px">
-        Each rule below is scored using <strong style="color:#e2e8f0">5-day and 20-day
-        forward returns</strong> over two years of history (Sharpe, drawdown, win rate).
-        <strong style="color:#e2e8f0">{m} strategy detectors</strong> run on
-        <strong style="color:#e2e8f0">{n} tickers</strong> (plus DEX when configured),
-        from pandas-ta. <strong>Intraday email alerts</strong> use confidence ≥&nbsp;52;
-        the newsletter signal table below uses ≥&nbsp;45 (same 2-year backtest scoring).
+        Each rule is scored from <strong style="color:#e2e8f0">5-day and 20-day forward returns</strong>
+        over ~two years (Sharpe, drawdown, win rate). The headline
+        <strong style="color:#e2e8f0">backtest score</strong> (0–100) combines those stats with fixed weights;
+        the email shows the point breakdown (5d win %, Sharpe, 20d win %, profit factor), trade count
+        <em>n</em>, how many rules agree on direction, and price vs the 200-day MA (50-day when history is short)
+        as <strong style="color:#e2e8f0">regime context</strong> only.
+        A <strong style="color:#e2e8f0">recent slice</strong> rescores using only the latest 20% of signal dates by time
+        (a simple holdout-style check — not a full walk-forward engine).
+        <strong style="color:#e2e8f0">{m} strategy detectors</strong> on
+        <strong style="color:#e2e8f0">{n} tickers</strong> (plus DEX when configured), pandas-ta.
+        Rows group by asset and direction (top rule + runner-up when multiple rules align).
+        <strong>Intraday alerts</strong> use score ≥&nbsp;52; the table below uses ≥&nbsp;45.
       </p>
       <ul style="margin:0;padding:0 0 0 18px;color:#cbd5e1;font-size:12px">
         <li><strong style="color:#f1f5f9">Trend &amp; structure:</strong> ADX+DI, 50/200 SMA,
@@ -252,19 +259,87 @@ DEX_TICKERS: dict[str, str] = {
 
 RISK_FREE_RATE_DAILY = 0.05 / 252   # ~5% annual risk-free rate
 
+# Recent-slice validation: stats computed only on the latest fraction of signal dates (by time).
+BACKTEST_HOLDOUT_FRAC = 0.20
+
+
+def _forward_period_stats(closes: pd.Series, signal_dates, fwd: int) -> dict | None:
+    """Trade statistics for one forward window; dates evaluated in chronological order."""
+    ordered = sorted(signal_dates)
+    trade_returns: list[float] = []
+    for dt in ordered:
+        try:
+            idx     = closes.index.get_loc(dt)
+            fwd_idx = idx + fwd
+            if fwd_idx < len(closes):
+                r = (float(closes.iloc[fwd_idx]) / float(closes.iloc[idx]) - 1) * 100
+                trade_returns.append(r)
+        except Exception:
+            continue
+
+    n = len(trade_returns)
+    if n < 3:
+        return None
+
+    arr       = np.array(trade_returns)
+    wins      = arr[arr > 0]
+    losses    = arr[arr < 0]
+    mean_r    = float(np.mean(arr))
+    std_r     = float(np.std(arr, ddof=1)) if n > 1 else 0.0
+    rf        = RISK_FREE_RATE_DAILY * fwd * 100
+
+    periods_per_year = 252 / fwd
+    sharpe = (
+        (mean_r - rf) / std_r * np.sqrt(periods_per_year)
+        if std_r > 0 else 0.0
+    )
+
+    downside = arr[arr < rf]
+    down_std = float(np.std(downside, ddof=1)) if len(downside) > 1 else 0.0
+    sortino  = (
+        (mean_r - rf) / down_std * np.sqrt(periods_per_year)
+        if down_std > 0 else sharpe
+    )
+
+    gross_win  = float(np.sum(wins))   if len(wins)   > 0 else 0.0
+    gross_loss = float(np.sum(losses)) if len(losses) > 0 else -1e-9
+    profit_factor = gross_win / abs(gross_loss) if gross_loss < 0 else float("inf")
+
+    equity        = np.cumprod(1 + arr / 100)
+    rolling_max   = np.maximum.accumulate(equity)
+    drawdowns     = (equity - rolling_max) / rolling_max * 100
+    max_drawdown  = float(np.min(drawdowns))
+
+    return {
+        "win_rate":      round(len(wins) / n * 100, 1),
+        "avg_return":    round(mean_r, 2),
+        "std_return":    round(std_r, 2),
+        "sharpe":        round(sharpe, 2),
+        "sortino":       round(sortino, 2),
+        "profit_factor": round(min(profit_factor, 99.9), 2),
+        "max_drawdown":  round(max_drawdown, 2),
+        "count":         n,
+    }
+
 
 def backtest_signal(
     closes: pd.Series,
     signal_mask: pd.Series,
     forward_days: list[int] | None = None,
+    holdout_frac: float | None = None,
 ) -> dict:
     """
     Given a boolean mask of signal dates, compute forward return statistics
     including Sharpe Ratio, Max Drawdown, Sortino Ratio, and Profit Factor.
     All metrics are computed from the population of individual trade returns.
+
+    When holdout_frac is set (default BACKTEST_HOLDOUT_FRAC), also computes the same
+    metrics on the most recent fraction of signal dates by time — a simple out-of-sample-style slice.
     """
     if forward_days is None:
         forward_days = [5, 20]
+    if holdout_frac is None:
+        holdout_frac = BACKTEST_HOLDOUT_FRAC
 
     signal_dates = signal_mask[signal_mask].index
     if len(signal_dates) < 4:
@@ -273,64 +348,27 @@ def backtest_signal(
     results: dict = {"count": int(len(signal_dates))}
 
     for fwd in forward_days:
-        trade_returns: list[float] = []
-        for dt in signal_dates:
-            try:
-                idx     = closes.index.get_loc(dt)
-                fwd_idx = idx + fwd
-                if fwd_idx < len(closes):
-                    r = (float(closes.iloc[fwd_idx]) / float(closes.iloc[idx]) - 1) * 100
-                    trade_returns.append(r)
-            except Exception:
-                continue
+        st = _forward_period_stats(closes, signal_dates, fwd)
+        if st:
+            results[f"{fwd}d"] = st
 
-        n = len(trade_returns)
-        if n < 3:
-            continue
-
-        arr       = np.array(trade_returns)
-        wins      = arr[arr > 0]
-        losses    = arr[arr < 0]
-        mean_r    = float(np.mean(arr))
-        std_r     = float(np.std(arr, ddof=1)) if n > 1 else 0.0
-        rf        = RISK_FREE_RATE_DAILY * fwd * 100  # risk-free for the forward period
-
-        # Sharpe (annualised to the forward window)
-        periods_per_year = 252 / fwd
-        sharpe = (
-            (mean_r - rf) / std_r * np.sqrt(periods_per_year)
-            if std_r > 0 else 0.0
-        )
-
-        # Sortino (downside deviation only)
-        downside = arr[arr < rf]
-        down_std = float(np.std(downside, ddof=1)) if len(downside) > 1 else 0.0
-        sortino  = (
-            (mean_r - rf) / down_std * np.sqrt(periods_per_year)
-            if down_std > 0 else sharpe
-        )
-
-        # Profit Factor
-        gross_win  = float(np.sum(wins))   if len(wins)   > 0 else 0.0
-        gross_loss = float(np.sum(losses)) if len(losses) > 0 else -1e-9
-        profit_factor = gross_win / abs(gross_loss) if gross_loss < 0 else float("inf")
-
-        # Max Drawdown (from equity curve of equal-size trades)
-        equity        = np.cumprod(1 + arr / 100)
-        rolling_max   = np.maximum.accumulate(equity)
-        drawdowns     = (equity - rolling_max) / rolling_max * 100
-        max_drawdown  = float(np.min(drawdowns))
-
-        results[f"{fwd}d"] = {
-            "win_rate":      round(len(wins) / n * 100, 1),
-            "avg_return":    round(mean_r, 2),
-            "std_return":    round(std_r, 2),
-            "sharpe":        round(sharpe, 2),
-            "sortino":       round(sortino, 2),
-            "profit_factor": round(min(profit_factor, 99.9), 2),
-            "max_drawdown":  round(max_drawdown, 2),
-            "count":         n,
-        }
+    if holdout_frac > 0 and len(signal_dates) >= 10:
+        sd    = signal_dates.sort_values()
+        start = int(len(sd) * (1 - holdout_frac))
+        ho_idx = sd[start:]
+        if len(ho_idx) >= 3:
+            ho_body: dict = {}
+            for fwd in forward_days:
+                st = _forward_period_stats(closes, ho_idx, fwd)
+                if st:
+                    ho_body[f"{fwd}d"] = st
+            if ho_body:
+                pct_lab = int(round(holdout_frac * 100))
+                results["holdout"] = {
+                    **ho_body,
+                    "signal_count": len(ho_idx),
+                    "span_note": f"last {pct_lab}% of signal dates (by time)",
+                }
 
     return results
 
@@ -356,6 +394,59 @@ def confidence_score(bt: dict) -> float:
     score += min(max(pf - 1.0, 0), 2.0) / 2.0 * 20
 
     return round(score, 1)
+
+
+def confidence_breakdown(bt: dict) -> dict | None:
+    """
+    Point contributions that sum to confidence_score(bt). Used for transparent UI.
+    """
+    if bt.get("insufficient_data") or "5d" not in bt:
+        return None
+    d5  = bt["5d"]
+    d20 = bt.get("20d") or {}
+
+    wr5_pts    = d5["win_rate"] * 0.40
+    sharpe_pts = min(max(d5["sharpe"], 0), 2.0) / 2.0 * 20
+    wr20_pts   = d20["win_rate"] * 0.20 if d20 else 0.0
+    pf         = d5.get("profit_factor", 1.0)
+    pf_pts     = min(max(pf - 1.0, 0), 2.0) / 2.0 * 20
+
+    total = round(wr5_pts + sharpe_pts + wr20_pts + pf_pts, 1)
+    return {
+        "total": total,
+        "wr5_pts": round(wr5_pts, 1),
+        "sharpe_pts": round(sharpe_pts, 1),
+        "wr20_pts": round(wr20_pts, 1),
+        "pf_pts": round(pf_pts, 1),
+        "n_5d": d5.get("count"),
+        "has_20d": bool(d20),
+    }
+
+
+def holdout_backtest_score(bt: dict) -> tuple[float | None, int | None]:
+    """Same scoring formula applied to the recent holdout slice only (if present)."""
+    ho = bt.get("holdout")
+    if not ho or "5d" not in ho:
+        return None, None
+    syn: dict = {"5d": ho["5d"]}
+    if ho.get("20d"):
+        syn["20d"] = ho["20d"]
+    return confidence_score(syn), ho.get("signal_count")
+
+
+def regime_label(df: pd.DataFrame) -> str:
+    """Price vs long moving average — regime context only, not a standalone signal."""
+    n = len(df)
+    if n < 50:
+        return "Thin history"
+    w = 200 if n >= 200 else 50
+    close = float(df["Close"].iloc[-1])
+    ma = float(df["Close"].rolling(w).mean().iloc[-1])
+    if pd.isna(ma):
+        return "—"
+    suf = "" if w == 200 else " · short hist."
+    side = "Above" if close > ma else "Below"
+    return f"{side} {w}d MA{suf}"
 
 # ─── Strategy Detectors (all using pandas-ta) ────────────────────────────────
 
@@ -1583,6 +1674,10 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
     signals += detect_atr_surge(symbol, name, df)
     signals += detect_ulcer_elevated(symbol, name, df)
     signals += detect_fisher_extreme(symbol, name, df)
+
+    reg = regime_label(df)
+    for sig in signals:
+        sig["regime"] = reg
     return signals
 
 
@@ -1646,6 +1741,9 @@ def scan_ticker(symbol: str, name: str) -> list[dict]:
     signals += detect_ulcer_elevated(symbol, name, df)
     signals += detect_fisher_extreme(symbol, name, df)
 
+    reg = regime_label(df)
+    for sig in signals:
+        sig["regime"] = reg
     return signals
 
 
@@ -1695,6 +1793,39 @@ def run_full_scan(
 
     logger.info(f"Scan complete: {len(all_signals)} raw → {len(filtered)} after confidence filter")
     return filtered
+
+
+def group_signals_primary_secondary(signals: list[dict]) -> list[dict]:
+    """
+    Group by (ticker, direction), keep the two highest-confidence rules per group.
+    Returns [{"primary": dict, "secondary": dict | None, "agreement_count": int}, ...]
+    in the same order as run_full_scan: bullish groups first, then by primary score descending.
+    agreement_count is how many raw rules fired for that ticker and direction.
+    """
+    from collections import defaultdict
+
+    buckets: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for s in signals:
+        buckets[(s["ticker"], s["direction"])].append(s)
+
+    out: list[dict] = []
+    for sigs in buckets.values():
+        sigs.sort(key=lambda x: -x.get("confidence", 0))
+        out.append(
+            {
+                "primary": sigs[0],
+                "secondary": sigs[1] if len(sigs) > 1 else None,
+                "agreement_count": len(sigs),
+            }
+        )
+
+    out.sort(
+        key=lambda g: (
+            0 if g["primary"]["direction"] == "BULLISH" else 1,
+            -g["primary"].get("confidence", 0),
+        )
+    )
+    return out
 
 
 def format_backtest_summary(bt: dict) -> str:

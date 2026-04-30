@@ -11,9 +11,6 @@ on:
 permissions:
   contents: write      # needed to commit reports back to repo
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   check-alerts:
     runs-on: ubuntu-latest
@@ -43,6 +40,9 @@ jobs:
         env:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SMS_GATEWAY: ${{ secrets.SMS_GATEWAY }}
+          SMS_ENABLE: ${{ secrets.SMS_ENABLE }}
+          SMS_COOLDOWN_HOURS: ${{ secrets.SMS_COOLDOWN_HOURS }}
         run: python alert_system.py
 
       - name: Take simulation snapshot

@@ -3,7 +3,7 @@
 Intraday Strategy Alert System
 Runs every 30 minutes during NYSE market hours (Mon-Fri 9:30 AM – 4:00 PM ET).
 Scans all watched tickers for technical strategy signals, backtests each signal
-against 2 years of history, then emails ONLY the highest-confidence setups.
+against 2 years of history, then emails ONLY the highest backtest-score setups.
 One alert per strategy+ticker combination per 12 hours (no spam).
 """
 
@@ -19,7 +19,13 @@ from email.mime.text import MIMEText
 
 from dotenv import load_dotenv
 
-from strategy_engine import run_full_scan, SCAN_TICKERS, DEX_TICKERS, strategy_learn_link
+from strategy_engine import (
+    run_full_scan,
+    SCAN_TICKERS,
+    DEX_TICKERS,
+    strategy_learn_link,
+    confidence_breakdown,
+)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
@@ -58,7 +64,7 @@ ET_ZONE         = zoneinfo.ZoneInfo("America/New_York")
 MARKET_OPEN     = (9, 30)
 MARKET_CLOSE    = (16, 0)
 
-# Minimum confidence score to send an alert (0-100)
+# Minimum backtest score (0-100) to send an alert
 MIN_CONFIDENCE  = 52.0
 
 # ─── Market Hours ─────────────────────────────────────────────────────────────
@@ -178,8 +184,18 @@ def build_signal_card(signal: dict) -> str:
     count = bt.get("count", 0)
     conf  = signal.get("confidence", 0)
 
-    # Confidence badge color
+    # Score badge color (same thresholds as before)
     conf_color = "#22c55e" if conf >= 65 else ("#f59e0b" if conf >= 52 else "#ef4444")
+
+    bd = confidence_breakdown(bt)
+    pts_html = ""
+    if bd:
+        wr20 = bd["wr20_pts"] if bd["has_20d"] else 0
+        pts_html = (
+            f'<div style="font-size:10px;color:#64748b;margin-top:6px;line-height:1.45">'
+            f'Pts 5dWR {bd["wr5_pts"]}+Sh {bd["sharpe_pts"]}+20dWR {wr20}+PF {bd["pf_pts"]} '
+            f'· n={bd["n_5d"]}</div>'
+        )
 
     # Backtest rows
     def _metric_color(val: float, good_above: float = 0) -> str:
@@ -201,6 +217,60 @@ def build_signal_card(signal: dict) -> str:
         bt_rows += f"""
         <tr style="{sep}">
           <td style="padding:6px 10px;color:#94a3b8;font-size:12px;font-weight:600">{period_label}</td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:{_metric_color(wr,55)};font-weight:700;font-size:13px">{wr:.0f}%</div>
+            <div style="color:#475569;font-size:10px">win rate</div>
+          </td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:{_metric_color(ar)};font-weight:700;font-size:13px">{ar:+.1f}%</div>
+            <div style="color:#475569;font-size:10px">avg return</div>
+          </td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:{_metric_color(sh,0.5)};font-weight:700;font-size:13px">{sh:.2f}</div>
+            <div style="color:#475569;font-size:10px">Sharpe</div>
+          </td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:{_metric_color(so,0.5)};font-weight:700;font-size:13px">{so:.2f}</div>
+            <div style="color:#475569;font-size:10px">Sortino</div>
+          </td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:{_metric_color(pf,1.2)};font-weight:700;font-size:13px">{pf:.1f}x</div>
+            <div style="color:#475569;font-size:10px">profit factor</div>
+          </td>
+          <td style="padding:6px 10px;text-align:center">
+            <div style="color:#ef4444;font-weight:700;font-size:13px">{dd:.1f}%</div>
+            <div style="color:#475569;font-size:10px">max DD</div>
+          </td>
+          <td style="padding:6px 10px;color:#64748b;font-size:11px;text-align:right">{cnt} trades</td>
+        </tr>"""
+
+    ho = bt.get("holdout")
+    if ho and ho.get("5d"):
+        ho_note = ho.get("span_note", "")
+        note_html = (
+            f'<div style="font-size:9px;color:#64748b;font-weight:400">{ho_note}</div>'
+            if ho_note
+            else ""
+        )
+        first_ho = True
+        for period_key, period_stub in [("5d", "5d"), ("20d", "20d")]:
+            pd_data = ho.get(period_key, {})
+            if not pd_data:
+                continue
+            wr   = pd_data.get("win_rate", 0)
+            ar   = pd_data.get("avg_return", 0)
+            sh   = pd_data.get("sharpe", 0)
+            so   = pd_data.get("sortino", 0)
+            pf   = pd_data.get("profit_factor", 1)
+            dd   = pd_data.get("max_drawdown", 0)
+            cnt  = pd_data.get("count", 0)
+            lab  = f"Recent slice · {period_stub}"
+            sep  = "border-top:1px solid #334155;"
+            cell_extra = note_html if first_ho else ""
+            first_ho = False
+            bt_rows += f"""
+        <tr style="{sep}">
+          <td style="padding:6px 10px;color:#a78bfa;font-size:11px;font-weight:700">{lab}{cell_extra}</td>
           <td style="padding:6px 10px;text-align:center">
             <div style="color:{_metric_color(wr,55)};font-weight:700;font-size:13px">{wr:.0f}%</div>
             <div style="color:#475569;font-size:10px">win rate</div>
@@ -256,10 +326,12 @@ def build_signal_card(signal: dict) -> str:
                 ({signal['ticker']})
               </span>
             </div>
+            <div style="font-size:11px;color:#475569;margin-top:4px">{signal.get('regime', '')}</div>
           </div>
           <div style="text-align:right">
-            <div style="font-size:10px;color:#64748b;margin-bottom:2px">CONFIDENCE</div>
+            <div style="font-size:10px;color:#64748b;margin-bottom:2px">BACKTEST SCORE</div>
             <div style="font-size:22px;font-weight:900;color:{conf_color}">{conf:.0f}</div>
+            {pts_html}
           </div>
         </div>
         <div style="background:#0f172a;border-radius:6px;padding:8px 10px;
@@ -342,7 +414,7 @@ def build_alert_email(
     subject = (
         f"{'📈' if top['direction']=='BULLISH' else '📉'} Strategy Alert: "
         f"{top['strategy']} on {top['name']} "
-        f"({top_conf:.0f}/100 confidence)"
+        f"({top_conf:.0f}/100 score)"
         + (f" + {len(new_signals)-1} more" if len(new_signals) > 1 else "")
         + f" | {time_str}"
         + f" · #{dispatch_seq}"
@@ -388,7 +460,7 @@ def build_alert_email(
     </div>
     <div style="font-size:12px;color:#64748b">
       {date_str} &nbsp;·&nbsp; {time_str}
-      &nbsp;·&nbsp; Ranked by 2-year backtest confidence
+      &nbsp;·&nbsp; Ranked by 2-year backtest score
     </div>
     <div style="font-size:11px;color:#a78bfa;margin-top:10px;font-weight:600;
                 letter-spacing:0.02em;line-height:1.4">
@@ -403,9 +475,9 @@ def build_alert_email(
     <p style="color:#94a3b8;font-size:12px;margin:0;line-height:1.7">
       <strong style="color:#e2e8f0">How to read these alerts:</strong>
       Each signal has been backtested against 2 years of history.
-      <strong style="color:#818cf8">Confidence</strong> (0-100) combines the 5-day and 20-day win rates
-      weighted toward near-term profitability.
-      Signals are only sent when confidence &ge; {MIN_CONFIDENCE:.0f}.
+      <strong style="color:#818cf8">Backtest score</strong> (0-100) combines 5-day and 20-day win rates,
+      Sharpe, and profit factor from the 2-year rule history — not a forecast of profit probability.
+      Alerts fire when score &ge; {MIN_CONFIDENCE:.0f}.
       <strong style="color:#f59e0b">These are not buy/sell recommendations</strong> —
       use as one input alongside your own research.
     </p>
@@ -435,7 +507,7 @@ def build_alert_email(
         <th style="padding:6px 12px;color:#475569;font-size:10px;text-align:left;
                    font-weight:600;text-transform:uppercase">Strategy</th>
         <th style="padding:6px 12px;color:#475569;font-size:10px;text-align:right;
-                   font-weight:600;text-transform:uppercase">Conf</th>
+                   font-weight:600;text-transform:uppercase">Score</th>
       </tr>
       {summary_rows}
     </table>
@@ -463,16 +535,16 @@ def build_alert_email(
 
 # ─── SMS Sender ───────────────────────────────────────────────────────────────
 
-def send_sms(signals: list[dict]) -> None:
+def send_sms(signals: list[dict]) -> bool:
     """Send a concise plain-text SMS summary via email-to-SMS gateway."""
     if not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
-        return
+        return False
     try:
         top = signals[0]
         direction = "BUY" if top["direction"] == "BULLISH" else "SELL"
         body = (
             f"{direction}: {top['ticker']} | {top['strategy']}\n"
-            f"Conf: {top['confidence']:.0f}/100\n"
+            f"Score: {top['confidence']:.0f}/100\n"
             f"{top.get('indicator', '')}"
         )
         if len(signals) > 1:
@@ -490,8 +562,10 @@ def send_sms(signals: list[dict]) -> None:
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
             server.sendmail(EMAIL_SENDER, SMS_GATEWAY, msg.as_string())
         logger.info(f"SMS alert sent -> {SMS_GATEWAY}")
+        return True
     except Exception as exc:
         logger.warning(f"SMS send failed: {exc}")
+        return False
 
 
 # ─── Email Sender ─────────────────────────────────────────────────────────────
@@ -528,7 +602,7 @@ def main(crypto_only: bool = False) -> None:
         all_signals = run_full_scan(SCAN_TICKERS)
 
     if not all_signals:
-        logger.info("No signals above confidence threshold — no alert sent.")
+        logger.info("No signals above score threshold — no alert sent.")
         return
 
     state = load_state()
@@ -556,7 +630,7 @@ def main(crypto_only: bool = False) -> None:
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
     for s in new_signals:
-        logger.info(f"  {s['direction']:7s} | {s['ticker']:10s} | {s['strategy']:30s} | conf={s['confidence']:.0f}")
+        logger.info(f"  {s['direction']:7s} | {s['ticker']:10s} | {s['strategy']:30s} | score={s['confidence']:.0f}")
 
     dispatch_seq = int(state.get("send_count", 0)) + 1
     state["send_count"] = dispatch_seq
@@ -564,8 +638,10 @@ def main(crypto_only: bool = False) -> None:
     subject, html = build_alert_email(new_signals, all_signals, dispatch_seq=dispatch_seq)
     send_email(subject, html)
     if sms_may_send(state):
-        send_sms(new_signals)
-        state["last_sms_at"] = datetime.now().astimezone().isoformat()
+        if send_sms(new_signals):
+            state["last_sms_at"] = datetime.now().astimezone().isoformat()
+        else:
+            logger.warning("SMS failed; cooldown timestamp not updated so next run can retry.")
     elif SMS_ENABLED and SMS_GATEWAY and EMAIL_SENDER and EMAIL_PASSWORD:
         logger.info(
             f"SMS skipped: global gateway cooldown ({SMS_COOLDOWN_HOURS}h since last SMS) — email sent."
