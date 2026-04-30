@@ -314,6 +314,10 @@ def home():
         onclick="runAction('/refresh','Refresh')">
         &#8635; Refresh Data
       </button>
+      <button class="btn btn-gray"
+        onclick="runAction('/run/simulation-init','Simulation init')">
+        &#9881; Initialize Simulation State
+      </button>
       <a href="/simulation" class="btn btn-gray"
         style="text-decoration:none;display:block;margin-bottom:0">
         &#128202; Portfolio simulation (paper vs SPY)
@@ -556,14 +560,15 @@ def logs_page():
 
 # ─── Action endpoints ─────────────────────────────────────────────────────────
 
-def _run_script(script_name: str) -> dict:
+def _run_script(script_name: str, args: list[str] | None = None) -> dict:
     """Run a script in a subprocess, return status dict."""
     import sys
     script_path = os.path.join(SCRIPT_DIR, script_name)
     python_exe  = sys.executable
+    cmd = [python_exe, script_path] + (args or [])
     try:
         result = subprocess.run(
-            [python_exe, script_path],
+            cmd,
             capture_output=True, text=True, timeout=300,
             cwd=SCRIPT_DIR,
         )
@@ -614,6 +619,21 @@ def run_alerts():
     return jsonify({"ok": True, "message": "Scan running — email on its way if signals found!"})
 
 
+@app.route("/run/simulation-init", methods=["POST"])
+def run_simulation_init():
+    def _do():
+        r = _run_script("portfolio_sim.py", ["--init"])
+        if r.get("ok"):
+            # make the new state visible immediately in status checks
+            _cache["fetched_at"] = None
+        log.info(f"Dashboard: simulation init result => {r.get('message')}")
+    threading.Thread(target=_do, daemon=True).start()
+    return jsonify({
+        "ok": True,
+        "message": "Simulation initialization started. Refresh in ~5 seconds.",
+    })
+
+
 @app.route("/refresh", methods=["POST"])
 def force_refresh():
     def _do():
@@ -661,11 +681,16 @@ def simulation_page():
     <div style="padding:16px 14px">
       <h2 style="color:#f1f5f9;margin-bottom:12px">Portfolio simulation</h2>
       <div class="card" style="color:#94a3b8;line-height:1.6">
-        <p style="margin:0 0 12px">No simulation state on this server yet.
-        Run <code style="color:#818cf8">python portfolio_sim.py --init</code> locally,
-        then commit and push <code style="color:#818cf8">sim_portfolio.json</code> so Render has data.</p>
-        <p style="margin:0;font-size:12px;color:#64748b">The simulation page was not part of earlier
-        dashboard builds — deploy this repo revision and open <strong>/simulation</strong>.</p>
+        <p style="margin:0 0 12px">No simulation state on this server yet.</p>
+        <button class="btn btn-primary"
+          onclick="runAction('/run/simulation-init','Simulation init')"
+          style="margin-bottom:10px">
+          &#9881; Initialize simulation now
+        </button>
+        <p style="margin:0 0 10px;font-size:12px;color:#64748b">This creates
+        <code style="color:#818cf8">sim_portfolio.json</code> on the server so this page can render.</p>
+        <p style="margin:0;font-size:12px;color:#64748b">Optional: you can still initialize locally with
+        <code style="color:#818cf8">python portfolio_sim.py --init</code> and push the file for deterministic deploy state.</p>
       </div>
       <a href="/" style="color:#818cf8;font-weight:700;display:inline-block;margin-top:16px">← Home</a>
     </div>"""
