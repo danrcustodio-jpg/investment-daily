@@ -51,11 +51,11 @@ _SMS_EN = (os.getenv("SMS_ENABLE") or "1").strip().lower()
 SMS_ENABLED     = _SMS_EN in ("1", "true", "yes", "on", "")
 # Min hours between *any* two SMS (carriers often throttle email-to-SMS; 0 = no limit)
 def _parse_sms_cooldown() -> float:
-    raw = (os.getenv("SMS_COOLDOWN_HOURS") or "4").strip()
+    raw = (os.getenv("SMS_COOLDOWN_HOURS") or "1").strip()
     try:
         return max(0.0, float(raw))
     except ValueError:
-        return 4.0
+        return 1.0
 SMS_COOLDOWN_HOURS = _parse_sms_cooldown()
 SMS_BODY_MAX = 200  # keep single-segment; gateway line length varies
 
@@ -64,8 +64,33 @@ ET_ZONE         = zoneinfo.ZoneInfo("America/New_York")
 MARKET_OPEN     = (9, 30)
 MARKET_CLOSE    = (16, 0)
 
-# Minimum backtest score (0-100) to send an alert
-MIN_CONFIDENCE  = 52.0
+def _parse_float_env(name: str, default: float, min_value: float = 0.0, max_value: float = 100.0) -> float:
+    raw = (os.getenv(name) or "").strip()
+    if not raw:
+        return default
+    try:
+        value = float(raw)
+    except ValueError:
+        logger.warning(f"Invalid {name}={raw!r}; using default {default}")
+        return default
+    return max(min_value, min(max_value, value))
+
+
+def _parse_int_env(name: str, default: int, min_value: int = 0, max_value: int = 72) -> int:
+    raw = (os.getenv(name) or "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        logger.warning(f"Invalid {name}={raw!r}; using default {default}")
+        return default
+    return max(min_value, min(max_value, value))
+
+
+# Minimum backtest score (0-100) to send an alert.
+# Lowered default to increase alert frequency while still filtering very weak setups.
+MIN_CONFIDENCE  = _parse_float_env("ALERT_MIN_CONFIDENCE", 50.0)
 
 # ─── Market Hours ─────────────────────────────────────────────────────────────
 
@@ -83,17 +108,34 @@ def market_status_str() -> str:
 # ─── State Management ─────────────────────────────────────────────────────────
 
 # Rolling window: same ticker+strategy will not trigger another email within this many hours.
-ALERT_COOLDOWN_HOURS = 12
+# Lowered default to increase intraday cadence.
+ALERT_COOLDOWN_HOURS = _parse_int_env("ALERT_COOLDOWN_HOURS", 6, min_value=0, max_value=72)
 
 
 def load_state() -> dict:
+    def _base_state() -> dict:
+        return {
+            "fired": {},
+            "snoozed_strategies": {},
+            "snoozed_tickers": {},
+            "ticker_cooldowns": {},
+            "email_ticker_last_sent": {},
+            "sms_ticker_last_sent": {},
+        }
+
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE) as f:
-                return json.load(f)
+                state = json.load(f)
+                if not isinstance(state, dict):
+                    return _base_state()
+                for k, v in _base_state().items():
+                    if k not in state or not isinstance(state.get(k), dict):
+                        state[k] = v
+                return state
         except Exception:
             pass
-    return {"fired": {}}
+    return _base_state()
 
 
 def save_state(state: dict) -> None:
@@ -138,7 +180,101 @@ def prune_state(state: dict) -> dict:
             return 0.0
 
     state["fired"] = {k: v for k, v in state["fired"].items() if _ts(v) > cutoff}
+    state["email_ticker_last_sent"] = {
+        k: v for k, v in state.get("email_ticker_last_sent", {}).items() if _ts(v) > cutoff
+    }
+    state["sms_ticker_last_sent"] = {
+        k: v for k, v in state.get("sms_ticker_last_sent", {}).items() if _ts(v) > cutoff
+    }
+    snoozed = state.get("snoozed_strategies", {})
+    if not isinstance(snoozed, dict):
+        snoozed = {}
+    now_ts = datetime.now().astimezone().timestamp()
+    state["snoozed_strategies"] = {
+        strategy: until
+        for strategy, until in snoozed.items()
+        if _ts(until) > now_ts
+    }
+    snoozed_tickers = state.get("snoozed_tickers", {})
+    if not isinstance(snoozed_tickers, dict):
+        snoozed_tickers = {}
+    state["snoozed_tickers"] = {
+        ticker: until
+        for ticker, until in snoozed_tickers.items()
+        if _ts(until) > now_ts
+    }
     return state
+
+
+def is_strategy_snoozed(state: dict, strategy_name: str) -> bool:
+    until = state.get("snoozed_strategies", {}).get(strategy_name)
+    if not until:
+        return False
+    try:
+        dt = datetime.fromisoformat(until)
+    except (TypeError, ValueError):
+        return False
+    if dt.tzinfo is None:
+        dt = dt.astimezone()
+    return datetime.now().astimezone() < dt
+
+
+def is_ticker_snoozed(state: dict, ticker: str) -> bool:
+    until = state.get("snoozed_tickers", {}).get(ticker)
+    if not until:
+        return False
+    try:
+        dt = datetime.fromisoformat(until)
+    except (TypeError, ValueError):
+        return False
+    if dt.tzinfo is None:
+        dt = dt.astimezone()
+    return datetime.now().astimezone() < dt
+
+
+def ticker_cooldown_hours(state: dict, ticker: str, channel: str) -> float:
+    """
+    Return per-ticker cooldown hours for channel ('email' or 'sms').
+    Falls back to channel defaults when override is not configured.
+    """
+    defaults = {
+        "email": float(ALERT_COOLDOWN_HOURS),
+        "sms": float(SMS_COOLDOWN_HOURS),
+    }
+    raw = (state.get("ticker_cooldowns", {}) or {}).get(ticker, {})
+    if not isinstance(raw, dict):
+        return defaults.get(channel, 0.0)
+    key = f"{channel}_hours"
+    val = raw.get(key)
+    if val is None:
+        return defaults.get(channel, 0.0)
+    try:
+        return max(0.0, float(val))
+    except (TypeError, ValueError):
+        return defaults.get(channel, 0.0)
+
+
+def ticker_channel_in_cooldown(state: dict, ticker: str, channel: str) -> bool:
+    mapping = {
+        "email": "email_ticker_last_sent",
+        "sms": "sms_ticker_last_sent",
+    }
+    bucket = mapping.get(channel)
+    if not bucket:
+        return False
+    hours = ticker_cooldown_hours(state, ticker, channel)
+    if hours <= 0:
+        return False
+    last = (state.get(bucket) or {}).get(ticker)
+    if not last:
+        return False
+    try:
+        dt = datetime.fromisoformat(last)
+    except (TypeError, ValueError):
+        return False
+    if dt.tzinfo is None:
+        dt = dt.astimezone()
+    return datetime.now().astimezone() < (dt + timedelta(hours=hours))
 
 
 def sms_may_send(state: dict) -> bool:
@@ -183,9 +319,21 @@ def build_signal_card(signal: dict) -> str:
     d5    = bt.get("5d", {})
     count = bt.get("count", 0)
     conf  = signal.get("confidence", 0)
+    conf_base = signal.get("confidence_base", conf)
+    conf_adj = signal.get("confidence_adj", 0.0)
+    conf_adj_reason = signal.get("confidence_adj_reason", "")
 
     # Score badge color (same thresholds as before)
     conf_color = "#22c55e" if conf >= 65 else ("#f59e0b" if conf >= 52 else "#ef4444")
+    adj_html = ""
+    if abs(conf_adj) > 0:
+        adj_color = "#22c55e" if conf_adj > 0 else "#ef4444"
+        adj_sign = "+" if conf_adj > 0 else ""
+        adj_html = (
+            f'<div style="font-size:10px;color:{adj_color};margin-top:4px">'
+            f'Base {conf_base:.0f} {adj_sign}{conf_adj:.0f} positioning = {conf:.0f}</div>'
+            f'<div style="font-size:9px;color:#64748b;margin-top:2px">{conf_adj_reason}</div>'
+        )
 
     bd = confidence_breakdown(bt)
     pts_html = ""
@@ -331,6 +479,7 @@ def build_signal_card(signal: dict) -> str:
           <div style="text-align:right">
             <div style="font-size:10px;color:#64748b;margin-bottom:2px">BACKTEST SCORE</div>
             <div style="font-size:22px;font-weight:900;color:{conf_color}">{conf:.0f}</div>
+            {adj_html}
             {pts_html}
           </div>
         </div>
@@ -608,20 +757,50 @@ def main(crypto_only: bool = False) -> None:
     state = load_state()
     state = prune_state(state)
 
-    # Filter to signals not emailed within ALERT_COOLDOWN_HOURS
-    new_signals = []
-    suppressed  = []
+    # Filter out strategies/tickers that are remotely snoozed.
+    snoozed = []
+    active_signals = []
     for s in all_signals:
+        if is_strategy_snoozed(state, s["strategy"]) or is_ticker_snoozed(state, s["ticker"]):
+            snoozed.append(s)
+        else:
+            active_signals.append(s)
+
+    if snoozed:
+        logger.info(
+            f"{len(snoozed)} signal(s) suppressed by strategy snooze: "
+            + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in snoozed[:8])
+            + (" ..." if len(snoozed) > 8 else "")
+        )
+
+    if not active_signals:
+        logger.info("All signals are currently snoozed — no alert sent.")
+        return
+
+    # Filter to signals not emailed within global/per-ticker cooldown windows
+    new_signals = []
+    suppressed_signal_cooldown  = []
+    suppressed_ticker_cooldown = []
+    for s in active_signals:
         key = make_state_key(s)
-        if already_fired_recently(state, key):
-            suppressed.append(s)
+        if ticker_channel_in_cooldown(state, s["ticker"], "email"):
+            suppressed_ticker_cooldown.append(s)
+        elif already_fired_recently(state, key):
+            suppressed_signal_cooldown.append(s)
         else:
             new_signals.append(s)
 
-    if suppressed:
+    if suppressed_signal_cooldown:
         logger.info(
-            f"{len(suppressed)} signal(s) suppressed (already sent within {ALERT_COOLDOWN_HOURS}h): "
-            + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed)
+            f"{len(suppressed_signal_cooldown)} signal(s) suppressed (already sent within {ALERT_COOLDOWN_HOURS}h): "
+            + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed_signal_cooldown[:8])
+            + (" ..." if len(suppressed_signal_cooldown) > 8 else "")
+        )
+    if suppressed_ticker_cooldown:
+        logger.info(
+            f"{len(suppressed_ticker_cooldown)} signal(s) suppressed by ticker email cooldown: "
+            + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed_ticker_cooldown[:8])
+            + (" ..." if len(suppressed_ticker_cooldown) > 8 else "")
         )
 
     if not new_signals:
@@ -630,16 +809,31 @@ def main(crypto_only: bool = False) -> None:
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
     for s in new_signals:
-        logger.info(f"  {s['direction']:7s} | {s['ticker']:10s} | {s['strategy']:30s} | score={s['confidence']:.0f}")
+        base = s.get("confidence_base", s["confidence"])
+        adj = s.get("confidence_adj", 0.0)
+        logger.info(
+            f"  {s['direction']:7s} | {s['ticker']:10s} | {s['strategy']:30s} | "
+            f"score={s['confidence']:.0f} (base={base:.0f}, adj={adj:+.0f})"
+        )
 
     dispatch_seq = int(state.get("send_count", 0)) + 1
     state["send_count"] = dispatch_seq
 
     subject, html = build_alert_email(new_signals, all_signals, dispatch_seq=dispatch_seq)
     send_email(subject, html)
-    if sms_may_send(state):
+    top_for_sms = new_signals[0] if new_signals else None
+    sms_ticker_blocked = bool(top_for_sms and ticker_channel_in_cooldown(state, top_for_sms["ticker"], "sms"))
+    if sms_ticker_blocked:
+        logger.info(
+            f"SMS skipped: ticker cooldown for {top_for_sms['ticker']} ({ticker_cooldown_hours(state, top_for_sms['ticker'], 'sms')}h)."
+        )
+    elif sms_may_send(state):
         if send_sms(new_signals):
             state["last_sms_at"] = datetime.now().astimezone().isoformat()
+            if top_for_sms:
+                state.setdefault("sms_ticker_last_sent", {})[top_for_sms["ticker"]] = (
+                    datetime.now().astimezone().isoformat()
+                )
         else:
             logger.warning("SMS failed; cooldown timestamp not updated so next run can retry.")
     elif SMS_ENABLED and SMS_GATEWAY and EMAIL_SENDER and EMAIL_PASSWORD:
@@ -648,8 +842,10 @@ def main(crypto_only: bool = False) -> None:
         )
 
     # Record timestamp for each fired signal
+    now_iso = datetime.now().astimezone().isoformat()
     for s in new_signals:
         mark_fired(state, make_state_key(s))
+        state.setdefault("email_ticker_last_sent", {})[s["ticker"]] = now_iso
     save_state(state)
 
     logger.info("=== Done ===")

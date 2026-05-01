@@ -23,7 +23,7 @@ import subprocess
 import threading
 import time
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from flask import Flask, jsonify, request, send_from_directory, Response
 from dotenv import load_dotenv
@@ -56,6 +56,8 @@ _cache: dict = {
     "market":    None,
     "signals":   None,
     "sentiment": None,
+    "positioning": None,
+    "positioning_diag": None,
     "fetched_at": None,
     "loading":   False,
 }
@@ -84,16 +86,20 @@ def refresh_cache(force: bool = False) -> None:
     _cache["loading"] = True
     try:
         from investment_daily import get_market_data, analyze_sentiment
-        from strategy_engine import run_full_scan
+        from positioning_data import get_cot_positioning_summary
+        from strategy_engine import run_full_scan, positioning_overlay_diagnostics
 
         log.info("Dashboard: refreshing market data + signals ...")
         market    = get_market_data()
         sentiment = analyze_sentiment(market)
         signals   = run_full_scan()
+        positioning = get_cot_positioning_summary()
 
         _cache["market"]    = market
         _cache["sentiment"] = sentiment
         _cache["signals"]   = signals
+        _cache["positioning"] = positioning
+        _cache["positioning_diag"] = positioning_overlay_diagnostics(signals)
         _cache["fetched_at"] = datetime.now()
         log.info(f"Dashboard: cache refreshed — {len(signals)} signals")
     except Exception as exc:
@@ -113,6 +119,7 @@ def bg_refresh() -> None:
 def shell(title: str, body: str, active: str = "") -> str:
     nav_items = [
         ("Home",    "/",             "home"),
+        ("Alerts",  "/alerts",       "alerts"),
         ("Signals", "/signals",      "signals"),
         ("Sim",     "/simulation",   "simulation"),
         ("Market",  "/market",       "market"),
@@ -211,6 +218,8 @@ def home():
     sentiment = _cache.get("sentiment") or {}
     signals   = _cache.get("signals")   or []
     market    = _cache.get("market")    or {}
+    positioning = _cache.get("positioning") or {}
+    positioning_diag = _cache.get("positioning_diag") or {}
 
     overall = sentiment.get("overall", "...")
     score   = sentiment.get("score", 0)
@@ -232,6 +241,8 @@ def home():
         dc      = "#22c55e" if is_bull else "#ef4444"
         arrow   = "▲" if is_bull else "▼"
         conf    = s.get("confidence", 0)
+        conf_base = s.get("confidence_base", conf)
+        conf_adj = s.get("confidence_adj", 0.0)
         cc      = "#22c55e" if conf >= 65 else ("#f59e0b" if conf >= 52 else "#94a3b8")
         bt      = s.get("backtest", {})
         d5      = bt.get("5d", {})
@@ -254,12 +265,20 @@ def home():
                 f'<div style="font-size:9px;color:#a78bfa;margin-top:2px">'
                 f'{g["agreement_count"]} rules agree</div>'
             )
+        adj_l = ""
+        if abs(conf_adj) > 0:
+            adj_c = "#22c55e" if conf_adj > 0 else "#ef4444"
+            adj_sign = "+" if conf_adj > 0 else ""
+            adj_l = (
+                f'<div style="font-size:9px;color:{adj_c};margin-top:2px">'
+                f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f}</div>'
+            )
         top_rows += (
             f'<tr>'
             f'<td style="color:{dc};font-size:16px">{arrow}</td>'
             f'<td><div style="font-weight:700;color:#e2e8f0">{s["ticker"]}</div>'
             f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div>{reg_l}{agree_l}{sub}</td>'
-            f'<td style="text-align:right;color:{cc};font-weight:700;font-size:16px">{conf:.0f}</td>'
+            f'<td style="text-align:right;color:{cc};font-weight:700;font-size:16px">{conf:.0f}{adj_l}</td>'
             f'<td style="text-align:right;color:#94a3b8">{wr}{n_sub}</td>'
             f'</tr>'
         )
@@ -278,6 +297,93 @@ def home():
             f'<div class="metric-lbl">{short}</div>'
             f'</div>'
         )
+
+    # Positioning summary card
+    p_status = positioning.get("status", "unavailable")
+    p_regime = positioning.get("regime", "Unknown")
+    p_as_of = positioning.get("report_as_of", "")
+    p_items = positioning.get("items", []) or []
+    if p_status == "ok" and p_items:
+        p_rows = ""
+        for item in p_items[:4]:
+            side = item.get("crowded_side", "flat")
+            crowd = item.get("crowding", "unknown")
+            net_oi = item.get("net_pct_open_interest")
+            tone = "#22c55e" if side == "long" else ("#ef4444" if side == "short" else "#94a3b8")
+            metric = "n/a" if net_oi is None else f"{net_oi:+.1f}% OI"
+            p_rows += (
+                f'<tr>'
+                f'<td style="color:#e2e8f0">{item.get("proxy", "")}</td>'
+                f'<td style="color:{tone};text-transform:uppercase;font-weight:700">{side}</td>'
+                f'<td style="color:#94a3b8;text-transform:uppercase">{crowd}</td>'
+                f'<td style="text-align:right;color:#64748b">{metric}</td>'
+                f"</tr>"
+            )
+        positioning_block = f"""
+    <div class="card">
+      <h2>Positioning Regime</h2>
+      <div style="font-size:12px;color:#94a3b8;margin-bottom:8px">{p_regime}</div>
+      <div style="font-size:11px;color:#475569;margin-bottom:10px">CFTC COT {'· as of ' + p_as_of if p_as_of else ''}</div>
+      <table>
+        <tr style="border-bottom:1px solid #1e293b">
+          <th>Proxy</th><th>Net side</th><th>Crowding</th><th style="text-align:right">Net/OI</th>
+        </tr>
+        {p_rows}
+      </table>
+    </div>"""
+    else:
+        positioning_block = """
+    <div class="card">
+      <h2>Positioning Regime</h2>
+      <div style="font-size:12px;color:#94a3b8">COT data unavailable. System will retry on next refresh.</div>
+    </div>"""
+
+    # Positioning overlay diagnostics card
+    d_total = int(positioning_diag.get("total", len(signals) or 0))
+    d_adj = int(positioning_diag.get("adjusted", 0))
+    d_boost = int(positioning_diag.get("boosted", 0))
+    d_pen = int(positioning_diag.get("penalized", 0))
+    d_rate = f"{(100.0 * d_adj / d_total):.1f}%" if d_total else "0.0%"
+    d_rows = ""
+    by_ticker = positioning_diag.get("by_ticker") or {}
+    top_diag = sorted(by_ticker.items(), key=lambda kv: kv[1].get("adjusted", 0), reverse=True)[:5]
+    for ticker, vals in top_diag:
+        d_rows += (
+            f'<tr style="border-bottom:1px solid #0f172a">'
+            f'<td style="padding:6px 10px;color:#e2e8f0">{ticker}</td>'
+            f'<td style="padding:6px 10px;color:#94a3b8;text-align:right">{vals.get("adjusted", 0)}</td>'
+            f'<td style="padding:6px 10px;color:#22c55e;text-align:right">{vals.get("boosted", 0)}</td>'
+            f'<td style="padding:6px 10px;color:#ef4444;text-align:right">{vals.get("penalized", 0)}</td>'
+            f"</tr>"
+        )
+    diag_block = f"""
+    <div class="card">
+      <h2>Overlay Diagnostics</h2>
+      <div style="font-size:12px;color:#94a3b8;margin-bottom:8px">
+        Positioning overlay adjusted <span style="color:#e2e8f0;font-weight:700">{d_adj}/{d_total}</span> signals ({d_rate})
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px">
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;font-weight:800;color:#94a3b8">{d_adj}</div>
+          <div style="font-size:10px;color:#475569">Adjusted</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;font-weight:800;color:#22c55e">{d_boost}</div>
+          <div style="font-size:10px;color:#475569">Boosted</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;font-weight:800;color:#ef4444">{d_pen}</div>
+          <div style="font-size:10px;color:#475569">Penalized</div>
+        </div>
+      </div>
+      {f'''
+      <table>
+        <tr style="border-bottom:1px solid #1e293b">
+          <th>Ticker</th><th style="text-align:right">Adj</th><th style="text-align:right">+</th><th style="text-align:right">-</th>
+        </tr>
+        {d_rows}
+      </table>''' if d_rows else '<div style="font-size:11px;color:#64748b">No active adjustments this run.</div>'}
+    </div>"""
 
     body = f"""
     <!-- Sentiment banner -->
@@ -314,6 +420,10 @@ def home():
         onclick="runAction('/refresh','Refresh')">
         &#8635; Refresh Data
       </button>
+      <a href="/alerts" class="btn btn-gray"
+        style="text-decoration:none;display:block">
+        &#128276; Manage Alerts
+      </a>
       <button class="btn btn-gray"
         onclick="runAction('/run/simulation-init','Simulation init')">
         &#9881; Initialize Simulation State
@@ -343,7 +453,10 @@ def home():
          color:#818cf8;font-size:13px;font-weight:600;text-decoration:none">
         View all {len(signals)} signals &#8594;
       </a>
-    </div>"""
+    </div>
+
+    {positioning_block}
+    {diag_block}"""
 
     return shell("Home", body, active="home")
 
@@ -369,6 +482,8 @@ def signals_page():
         dc      = "#22c55e" if is_bull else "#ef4444"
         arrow   = "▲" if is_bull else "▼"
         conf    = s.get("confidence", 0)
+        conf_base = s.get("confidence_base", conf)
+        conf_adj = s.get("confidence_adj", 0.0)
         cc      = "#22c55e" if conf >= 65 else ("#f59e0b" if conf >= 52 else "#94a3b8")
         bt      = s.get("backtest", {})
         d5      = bt.get("5d", {})
@@ -406,6 +521,14 @@ def signals_page():
                 f'Recent slice score: <span style="color:{hcc};font-weight:800">{hsc:.0f}</span> '
                 f'(n={hn})</div>'
             )
+        adj_html = ""
+        if abs(conf_adj) > 0:
+            adj_c = "#22c55e" if conf_adj > 0 else "#ef4444"
+            adj_sign = "+" if conf_adj > 0 else ""
+            adj_html = (
+                f'<div style="font-size:10px;color:{adj_c};margin-top:2px">'
+                f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f} positioning</div>'
+            )
 
         rows += f"""
         <div style="background:#0f172a;border:1px solid #1e293b;border-radius:10px;
@@ -424,6 +547,7 @@ def signals_page():
             <div style="text-align:right">
               <div style="font-size:24px;font-weight:900;color:{cc}">{conf:.0f}</div>
               <div style="font-size:10px;color:#475569">backtest score</div>
+              {adj_html}
             </div>
           </div>
           {(
@@ -643,10 +767,317 @@ def force_refresh():
     return jsonify({"ok": True, "message": "Refreshing data... pull down to reload in 15 sec."})
 
 
+@app.route("/alerts")
+def alerts_page():
+    refresh_cache()
+    signals = _cache.get("signals") or []
+    from strategy_engine import SCAN_TICKERS
+
+    tickers = sorted(set(SCAN_TICKERS.keys()) | {s.get("ticker", "") for s in signals if s.get("ticker")})
+    ticker_options = "".join(f'<option value="{t}">{t}</option>' for t in tickers if t)
+    strategy_names = sorted({s.get("strategy", "") for s in signals if s.get("strategy")})
+    strategy_options = "".join(f'<option value="{name}">{name}</option>' for name in strategy_names)
+
+    strategy_snoozes_html = '<div style="font-size:11px;color:#64748b">No active strategy snoozes.</div>'
+    ticker_snoozes_html = '<div style="font-size:11px;color:#64748b">No active ticker snoozes.</div>'
+    ticker_cooldowns_rows = ""
+
+    try:
+        from alert_system import load_state, prune_state, ALERT_COOLDOWN_HOURS, SMS_COOLDOWN_HOURS
+        state = prune_state(load_state())
+        now = datetime.now().astimezone()
+
+        strategy_rows = []
+        for strategy, until in (state.get("snoozed_strategies") or {}).items():
+            try:
+                dt = datetime.fromisoformat(until)
+                if dt.tzinfo is None:
+                    dt = dt.astimezone()
+                if dt > now:
+                    strategy_rows.append((strategy, dt))
+            except Exception:
+                continue
+        strategy_rows.sort(key=lambda x: x[1])
+        if strategy_rows:
+            strategy_snoozes_html = "".join(
+                f'<div style="padding:7px 10px;border:1px solid #334155;border-radius:8px;background:#0a0f1e;'
+                f'color:#94a3b8;font-size:11px;margin-bottom:6px"><span style="color:#e2e8f0;font-weight:700">{name}</span>'
+                f' until {dt.strftime("%I:%M %p")}</div>'
+                for name, dt in strategy_rows[:10]
+            )
+
+        ticker_rows = []
+        for ticker, until in (state.get("snoozed_tickers") or {}).items():
+            try:
+                dt = datetime.fromisoformat(until)
+                if dt.tzinfo is None:
+                    dt = dt.astimezone()
+                if dt > now:
+                    ticker_rows.append((ticker, dt))
+            except Exception:
+                continue
+        ticker_rows.sort(key=lambda x: x[1])
+        if ticker_rows:
+            ticker_snoozes_html = "".join(
+                f'<div style="padding:7px 10px;border:1px solid #334155;border-radius:8px;background:#0a0f1e;'
+                f'color:#94a3b8;font-size:11px;margin-bottom:6px"><span style="color:#e2e8f0;font-weight:700">{ticker}</span>'
+                f' until {dt.strftime("%I:%M %p")}</div>'
+                for ticker, dt in ticker_rows[:10]
+            )
+
+        overrides = state.get("ticker_cooldowns") or {}
+        if isinstance(overrides, dict):
+            for ticker in sorted(overrides.keys())[:100]:
+                cfg = overrides.get(ticker, {})
+                if not isinstance(cfg, dict):
+                    continue
+                email_h = cfg.get("email_hours")
+                sms_h = cfg.get("sms_hours")
+                email_show = str(email_h if email_h is not None else ALERT_COOLDOWN_HOURS)
+                sms_show = str(sms_h if sms_h is not None else SMS_COOLDOWN_HOURS)
+                ticker_cooldowns_rows += (
+                    "<tr>"
+                    f"<td style='color:#e2e8f0'>{ticker}</td>"
+                    f"<td style='text-align:right;color:#94a3b8'>{email_show}</td>"
+                    f"<td style='text-align:right;color:#94a3b8'>{sms_show}</td>"
+                    "</tr>"
+                )
+    except Exception as exc:
+        ticker_cooldowns_rows = (
+            f"<tr><td colspan='3' style='color:#fca5a5'>Failed to load state: {exc}</td></tr>"
+        )
+
+    body = f"""
+    <div style="padding:14px 14px 4px">
+      <h2>Alert Controls</h2>
+      <p style="font-size:12px;color:#64748b">Manage strategy/ticker snoozes and per-ticker email/SMS cooldowns.</p>
+    </div>
+
+    <div class="card">
+      <h3>Snooze By Strategy</h3>
+      <select id="strategyName" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+        background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:8px">
+        <option value="">Select strategy...</option>
+        {strategy_options}
+      </select>
+      <select id="strategyHours" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+        background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:10px">
+        <option value="1">1 hour</option><option value="2">2 hours</option><option value="4" selected>4 hours</option>
+        <option value="8">8 hours</option><option value="12">12 hours</option><option value="24">24 hours</option>
+      </select>
+      <button class="btn btn-red" onclick="snoozeStrategy()" style="margin-bottom:10px">&#128263; Snooze Strategy</button>
+      {strategy_snoozes_html}
+    </div>
+
+    <div class="card">
+      <h3>Snooze By Ticker</h3>
+      <select id="tickerName" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+        background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:8px">
+        <option value="">Select ticker...</option>
+        {ticker_options}
+      </select>
+      <select id="tickerSnoozeHours" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+        background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:10px">
+        <option value="1">1 hour</option><option value="2">2 hours</option><option value="4" selected>4 hours</option>
+        <option value="8">8 hours</option><option value="12">12 hours</option><option value="24">24 hours</option>
+      </select>
+      <button class="btn btn-red" onclick="snoozeTicker()" style="margin-bottom:10px">&#128263; Snooze Ticker</button>
+      {ticker_snoozes_html}
+    </div>
+
+    <div class="card">
+      <h3>Per-Ticker Cooldowns</h3>
+      <div style="font-size:11px;color:#64748b;margin-bottom:10px">
+        Set cooldown hours by ticker and channel. 0 disables cooldown for that channel+ticker.
+      </div>
+      <select id="cooldownTicker" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+        background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:8px">
+        <option value="">Select ticker...</option>
+        {ticker_options}
+      </select>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px">
+        <input id="emailCooldown" type="number" min="0" max="72" step="1" placeholder="Email hours"
+          style="padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px" />
+        <input id="smsCooldown" type="number" min="0" max="72" step="1" placeholder="SMS hours"
+          style="padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px" />
+      </div>
+      <button class="btn btn-primary" onclick="setTickerCooldowns()" style="margin-bottom:8px">&#9881; Save Ticker Cooldowns</button>
+      <button class="btn btn-gray" onclick="resetTickerCooldowns()" style="margin-bottom:10px">&#8635; Reset Selected Ticker</button>
+      <button class="btn btn-gray" onclick="clearAllAlertMutes()" style="margin-bottom:0">&#9989; Clear All Ticker/Strategy Snoozes</button>
+      <div style="margin-top:12px;background:#0a0f1e;border:1px solid #1e293b;border-radius:10px;overflow:hidden">
+        <table>
+          <tr style="border-bottom:1px solid #1e293b"><th>Ticker</th><th style="text-align:right">Email h</th><th style="text-align:right">SMS h</th></tr>
+          {ticker_cooldowns_rows if ticker_cooldowns_rows else "<tr><td colspan='3' style='color:#64748b'>No ticker overrides yet.</td></tr>"}
+        </table>
+      </div>
+    </div>
+
+    <script>
+      async function apiPost(url, payload) {{
+        const r = await fetch(url, {{
+          method: 'POST',
+          headers: {{'Content-Type': 'application/json'}},
+          body: JSON.stringify(payload || {{}})
+        }});
+        return r.json();
+      }}
+      async function snoozeStrategy() {{
+        const strategy = document.getElementById('strategyName').value;
+        const hours = parseInt(document.getElementById('strategyHours').value || '0', 10);
+        if (!strategy) return showToast('Pick a strategy');
+        const d = await apiPost('/alerts/snooze-strategy', {{strategy, hours}});
+        showToast(d.message || 'Updated'); if (d.ok) setTimeout(() => window.location.reload(), 700);
+      }}
+      async function snoozeTicker() {{
+        const ticker = document.getElementById('tickerName').value;
+        const hours = parseInt(document.getElementById('tickerSnoozeHours').value || '0', 10);
+        if (!ticker) return showToast('Pick a ticker');
+        const d = await apiPost('/alerts/snooze-ticker', {{ticker, hours}});
+        showToast(d.message || 'Updated'); if (d.ok) setTimeout(() => window.location.reload(), 700);
+      }}
+      async function setTickerCooldowns() {{
+        const ticker = document.getElementById('cooldownTicker').value;
+        const emailHours = parseFloat(document.getElementById('emailCooldown').value);
+        const smsHours = parseFloat(document.getElementById('smsCooldown').value);
+        if (!ticker) return showToast('Pick a ticker');
+        if (Number.isNaN(emailHours) || Number.isNaN(smsHours)) return showToast('Enter both cooldown values');
+        const d = await apiPost('/alerts/set-ticker-cooldown', {{ticker, email_hours: emailHours, sms_hours: smsHours}});
+        showToast(d.message || 'Saved'); if (d.ok) setTimeout(() => window.location.reload(), 700);
+      }}
+      async function resetTickerCooldowns() {{
+        const ticker = document.getElementById('cooldownTicker').value;
+        if (!ticker) return showToast('Pick a ticker');
+        const d = await apiPost('/alerts/reset-ticker-cooldown', {{ticker}});
+        showToast(d.message || 'Reset'); if (d.ok) setTimeout(() => window.location.reload(), 700);
+      }}
+      async function clearAllAlertMutes() {{
+        const d = await apiPost('/alerts/clear-snoozes', {{}});
+        showToast(d.message || 'Cleared'); if (d.ok) setTimeout(() => window.location.reload(), 700);
+      }}
+    </script>
+    """
+    return shell("Alerts", body, active="alerts")
+
+
+@app.route("/alerts/snooze-strategy", methods=["POST"])
+def alerts_snooze_strategy():
+    payload = request.get_json(silent=True) or {}
+    strategy = str(payload.get("strategy", "")).strip()
+    hours_raw = payload.get("hours", 4)
+    if not strategy:
+        return jsonify({"ok": False, "message": "Strategy is required."}), 400
+    try:
+        hours = int(hours_raw)
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "message": "Hours must be an integer."}), 400
+    if hours <= 0 or hours > 72:
+        return jsonify({"ok": False, "message": "Hours must be between 1 and 72."}), 400
+
+    try:
+        from alert_system import load_state, save_state, prune_state
+        state = prune_state(load_state())
+        snoozed = state.setdefault("snoozed_strategies", {})
+        until = datetime.now().astimezone() + timedelta(hours=hours)
+        snoozed[strategy] = until.isoformat()
+        save_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed to snooze strategy")
+        return jsonify({"ok": False, "message": f"Failed to save snooze: {exc}"}), 500
+
+    return jsonify({"ok": True, "message": f"Snoozed '{strategy}' for {hours}h."})
+
+
+@app.route("/alerts/snooze-ticker", methods=["POST"])
+def alerts_snooze_ticker():
+    payload = request.get_json(silent=True) or {}
+    ticker = str(payload.get("ticker", "")).strip().upper()
+    hours_raw = payload.get("hours", 4)
+    if not ticker:
+        return jsonify({"ok": False, "message": "Ticker is required."}), 400
+    try:
+        hours = int(hours_raw)
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "message": "Hours must be an integer."}), 400
+    if hours <= 0 or hours > 72:
+        return jsonify({"ok": False, "message": "Hours must be between 1 and 72."}), 400
+
+    try:
+        from alert_system import load_state, save_state, prune_state
+        state = prune_state(load_state())
+        snoozed = state.setdefault("snoozed_tickers", {})
+        until = datetime.now().astimezone() + timedelta(hours=hours)
+        snoozed[ticker] = until.isoformat()
+        save_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed to snooze ticker")
+        return jsonify({"ok": False, "message": f"Failed to save ticker snooze: {exc}"}), 500
+
+    return jsonify({"ok": True, "message": f"Snoozed '{ticker}' for {hours}h."})
+
+
+@app.route("/alerts/set-ticker-cooldown", methods=["POST"])
+def alerts_set_ticker_cooldown():
+    payload = request.get_json(silent=True) or {}
+    ticker = str(payload.get("ticker", "")).strip().upper()
+    if not ticker:
+        return jsonify({"ok": False, "message": "Ticker is required."}), 400
+    try:
+        email_hours = float(payload.get("email_hours"))
+        sms_hours = float(payload.get("sms_hours"))
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "message": "Email and SMS cooldowns must be numbers."}), 400
+    if email_hours < 0 or email_hours > 72 or sms_hours < 0 or sms_hours > 72:
+        return jsonify({"ok": False, "message": "Cooldowns must be between 0 and 72 hours."}), 400
+
+    try:
+        from alert_system import load_state, save_state, prune_state
+        state = prune_state(load_state())
+        tcfg = state.setdefault("ticker_cooldowns", {})
+        tcfg[ticker] = {"email_hours": float(email_hours), "sms_hours": float(sms_hours)}
+        save_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed setting ticker cooldown")
+        return jsonify({"ok": False, "message": f"Failed to save ticker cooldown: {exc}"}), 500
+    return jsonify({"ok": True, "message": f"Saved cooldowns for {ticker}."})
+
+
+@app.route("/alerts/reset-ticker-cooldown", methods=["POST"])
+def alerts_reset_ticker_cooldown():
+    payload = request.get_json(silent=True) or {}
+    ticker = str(payload.get("ticker", "")).strip().upper()
+    if not ticker:
+        return jsonify({"ok": False, "message": "Ticker is required."}), 400
+    try:
+        from alert_system import load_state, save_state, prune_state
+        state = prune_state(load_state())
+        tcfg = state.setdefault("ticker_cooldowns", {})
+        tcfg.pop(ticker, None)
+        save_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed resetting ticker cooldown")
+        return jsonify({"ok": False, "message": f"Failed to reset ticker cooldown: {exc}"}), 500
+    return jsonify({"ok": True, "message": f"Reset cooldowns for {ticker}."})
+
+
+@app.route("/alerts/clear-snoozes", methods=["POST"])
+def alerts_clear_snoozes():
+    try:
+        from alert_system import load_state, save_state
+        state = load_state()
+        state["snoozed_strategies"] = {}
+        state["snoozed_tickers"] = {}
+        save_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed to clear snoozes")
+        return jsonify({"ok": False, "message": f"Failed to clear snoozes: {exc}"}), 500
+    return jsonify({"ok": True, "message": "All strategy/ticker snoozes cleared."})
+
+
 @app.route("/api/status")
 def api_status():
     signals = _cache.get("signals") or []
     sent    = _cache.get("sentiment") or {}
+    diag    = _cache.get("positioning_diag") or {}
     sim_ok  = False
     try:
         p = os.path.join(SCRIPT_DIR, "sim_portfolio.json")
@@ -661,6 +1092,8 @@ def api_status():
         "loading":          _cache["loading"],
         "signal_count":     len(signals),
         "sentiment":        sent.get("overall", "unknown"),
+        "positioning_regime": (_cache.get("positioning") or {}).get("regime", "unknown"),
+        "positioning_adjusted_count": int(diag.get("adjusted", 0)),
         "simulation_ready": sim_ok,
     })
 
