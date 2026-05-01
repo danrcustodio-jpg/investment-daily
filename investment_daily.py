@@ -140,9 +140,33 @@ def get_market_data() -> dict[str, dict[str, Any]]:
     """Pull daily OHLCV for all tracked tickers and compute day-over-day change."""
     result: dict[str, dict[str, Any]] = {}
 
+    # Try Schwab batch quotes first for supported symbols
+    schwab_quotes: dict[str, dict[str, Any]] = {}
+    try:
+        import schwab_client
+        all_symbols = [s for tickers in MARKET_TICKERS.values() for s in tickers]
+        sq = schwab_client.get_quotes(all_symbols)
+        if sq:
+            schwab_quotes = sq
+            logger.info(f"Schwab: pre-fetched {len(schwab_quotes)} quotes for market snapshot")
+    except Exception as exc:
+        logger.debug(f"Schwab quotes unavailable: {exc}")
+
     for category, tickers in MARKET_TICKERS.items():
         result[category] = {}
         for symbol, name in tickers.items():
+            # Use Schwab data if available for this symbol
+            if symbol in schwab_quotes:
+                sq = schwab_quotes[symbol]
+                result[category][name] = {
+                    "symbol":     symbol,
+                    "price":      sq["price"],
+                    "change":     sq["change"],
+                    "pct_change": sq["pct_change"],
+                }
+                continue
+
+            # Fall back to yfinance
             try:
                 hist = yf.Ticker(symbol).history(period="5d")
                 if hist.empty:

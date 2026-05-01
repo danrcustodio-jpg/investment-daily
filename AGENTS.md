@@ -11,7 +11,7 @@ Investment Daily is a single-service Python 3.12 application providing:
 - **Alert System** (`alert_system.py`) — intraday strategy alerts
 - **Portfolio Simulation** (`portfolio_sim.py`) — paper trading vs SPY
 
-No database, no Docker, no monorepo. All data comes from live external APIs (Yahoo Finance, RSS feeds, Polymarket).
+No database, no Docker, no monorepo. All data comes from live external APIs (Yahoo Finance, Schwab API, RSS feeds, Polymarket).
 
 ### Running services
 
@@ -35,3 +35,9 @@ No database, no Docker, no monorepo. All data comes from live external APIs (Yah
 - `ruff` is not in `requirements.txt` — install it separately (`pip install ruff`).
 - The pre-commit hook script at `scripts/pre_commit_check.py` runs ruff and other checks. It is not auto-installed; see `.git/hooks/` if you want to enable it.
 - Architecture and change recipes are documented in `docs/ARCHITECTURE.md` and `docs/AGENT_GUIDE.md`.
+
+### Schwab API integration
+
+`schwab_client.py` provides an optional supplemental data source via Schwab's Trader API. When configured, it provides batch quotes (for `get_market_data()`) and daily OHLCV price history (for `scan_ticker()`). All callers fall back to yfinance automatically when Schwab credentials are missing, the token has expired, or the symbol is unsupported (crypto, futures, forex, indices).
+
+**Setup:** Requires `SCHWAB_API_KEY` and `SCHWAB_APP_SECRET` in `.env`, plus a token file created via `schwab-generate-token.py`. Tokens expire after 7 days and must be regenerated. See [schwab-py docs](https://schwab-py.readthedocs.io/en/latest/auth.html) for the OAuth flow. The app works fully without Schwab credentials — yfinance serves as the universal fallback.
