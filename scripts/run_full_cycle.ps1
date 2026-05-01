@@ -21,13 +21,22 @@ function Invoke-Step {
         [string[]]$Args
     )
 
+    $startedAt = Get-Date
     Write-Host ""
-    Write-Host "=== $Name ===" -ForegroundColor Cyan
+    Write-Host ("=== {0} === [{1}]" -f $Name, $startedAt.ToString("HH:mm:ss")) -ForegroundColor Cyan
     & $PythonExe @Args
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Step failed: $Name (exit code $LASTEXITCODE)"
         exit $LASTEXITCODE
     }
+    $endedAt = Get-Date
+    $elapsed = New-TimeSpan -Start $startedAt -End $endedAt
+    Write-Host (
+        "Done: {0} [{1}] ({2:mm\:ss})" -f
+        $Name,
+        $endedAt.ToString("HH:mm:ss"),
+        $elapsed
+    ) -ForegroundColor DarkGray
 }
 
 Push-Location $ScriptDir

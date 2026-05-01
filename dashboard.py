@@ -27,6 +27,8 @@ from datetime import datetime, timedelta
 
 from flask import Flask, jsonify, request, send_from_directory, Response
 from dotenv import load_dotenv
+import yfinance as yf
+import pandas as pd
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
@@ -117,8 +119,19 @@ def bg_refresh() -> None:
 # ─── Shared HTML shell ────────────────────────────────────────────────────────
 
 def shell(title: str, body: str, active: str = "") -> str:
+    ticker_options = ""
+    ticker_pairs: dict[str, str] = {}
+    for s in (_cache.get("signals") or []):
+        t = str(s.get("ticker", "")).strip()
+        n = str(s.get("name", t)).strip()
+        if t and t not in ticker_pairs:
+            ticker_pairs[t] = n
+    for t in sorted(ticker_pairs.keys()):
+        ticker_options += f'<option value="{t}">{t} - {ticker_pairs[t]}</option>'
+
     nav_items = [
         ("Home",    "/",             "home"),
+        ("Chart",   "/chart",        "chart"),
         ("Alerts",  "/alerts",       "alerts"),
         ("Signals", "/signals",      "signals"),
         ("Sim",     "/simulation",   "simulation"),
@@ -181,7 +194,14 @@ def shell(title: str, body: str, active: str = "") -> str:
               padding:12px 16px;display:flex;justify-content:space-between;
               align-items:center;position:sticky;top:0;z-index:100">
     <div style="font-size:13px;font-weight:800;color:#818cf8">&#9889; Investment Daily</div>
-    <div style="font-size:11px;color:#475569">Updated {age}{spin}</div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <select id="globalTickerJump" onchange="goToTickerChart(this.value)"
+        style="max-width:180px;padding:6px 8px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:11px">
+        <option value="">Chart ticker...</option>
+        {ticker_options}
+      </select>
+      <div style="font-size:11px;color:#475569">Updated {age}{spin}</div>
+    </div>
   </div>
 
   {body}
@@ -206,6 +226,10 @@ def shell(title: str, body: str, active: str = "") -> str:
     const r = await fetch(url, {{method:'POST'}});
     const d = await r.json();
     showToast(d.message || 'Done');
+  }}
+  function goToTickerChart(ticker) {{
+    if (!ticker) return;
+    window.location.href = '/chart?ticker=' + encodeURIComponent(ticker);
   }}
   </script>
 </body></html>"""
@@ -273,10 +297,20 @@ def home():
                 f'<div style="font-size:9px;color:{adj_c};margin-top:2px">'
                 f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f}</div>'
             )
+        search_blob = " ".join(
+            [
+                str(s.get("ticker", "")),
+                str(s.get("name", "")),
+                str(s.get("strategy", "")),
+                str(s.get("direction", "")),
+                str(sec.get("strategy", "")) if sec else "",
+            ]
+        ).lower().replace('"', "&quot;")
         top_rows += (
-            f'<tr>'
+            f'<tr class="home-signal-row" data-search="{search_blob}">'
             f'<td style="color:{dc};font-size:16px">{arrow}</td>'
-            f'<td><div style="font-weight:700;color:#e2e8f0">{s["ticker"]}</div>'
+            f'<td><div style="font-weight:700;color:#e2e8f0"><a href="/chart?ticker={s["ticker"]}" '
+            f'style="color:#e2e8f0;text-decoration:none">{s["ticker"]}</a></div>'
             f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div>{reg_l}{agree_l}{sub}</td>'
             f'<td style="text-align:right;color:{cc};font-weight:700;font-size:16px">{conf:.0f}{adj_l}</td>'
             f'<td style="text-align:right;color:#94a3b8">{wr}{n_sub}</td>'
@@ -441,6 +475,9 @@ def home():
           {bullish_n} buy · {bearish_n} sell
         </span>
       </h2>
+      <input id="homeSignalSearch" type="text" placeholder="Search top signals (ticker/strategy)..."
+        oninput="filterHomeSignals()"
+        style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-bottom:10px" />
       <table>
         <tr style="border-bottom:1px solid #1e293b">
           <th></th><th>Asset / Strategy</th>
@@ -449,6 +486,9 @@ def home():
         </tr>
         {top_rows if top_rows else '<tr><td colspan="4" style="color:#475569;padding:14px">No signals — data loading or market closed</td></tr>'}
       </table>
+      <div id="homeSignalEmpty" style="display:none;color:#64748b;font-size:12px;margin-top:8px">
+        No top signals match your search.
+      </div>
       <a href="/signals" style="display:block;text-align:center;margin-top:12px;
          color:#818cf8;font-size:13px;font-weight:600;text-decoration:none">
         View all {len(signals)} signals &#8594;
@@ -456,7 +496,22 @@ def home():
     </div>
 
     {positioning_block}
-    {diag_block}"""
+    {diag_block}
+    <script>
+      function filterHomeSignals() {{
+        const q = (document.getElementById('homeSignalSearch')?.value || '').toLowerCase().trim();
+        const rows = document.querySelectorAll('.home-signal-row');
+        let shown = 0;
+        rows.forEach((row) => {{
+          const txt = (row.getAttribute('data-search') || '').toLowerCase();
+          const ok = !q || txt.includes(q);
+          row.style.display = ok ? '' : 'none';
+          if (ok) shown += 1;
+        }});
+        const empty = document.getElementById('homeSignalEmpty');
+        if (empty) empty.style.display = shown ? 'none' : 'block';
+      }}
+    </script>"""
 
     return shell("Home", body, active="home")
 
@@ -529,14 +584,25 @@ def signals_page():
                 f'<div style="font-size:10px;color:{adj_c};margin-top:2px">'
                 f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f} positioning</div>'
             )
+        search_blob = " ".join(
+            [
+                str(s.get("ticker", "")),
+                str(s.get("name", "")),
+                str(s.get("strategy", "")),
+                str(s.get("direction", "")),
+                str(s.get("indicator", "")),
+                str(s.get("implication", "")),
+            ]
+        ).lower().replace('"', "&quot;")
 
         rows += f"""
-        <div style="background:#0f172a;border:1px solid #1e293b;border-radius:10px;
+        <div class="signal-card" data-search="{search_blob}"
+             style="background:#0f172a;border:1px solid #1e293b;border-radius:10px;
                     padding:14px;margin:0 14px 10px">
           <div style="display:flex;justify-content:space-between;align-items:flex-start">
             <div>
               <div style="font-size:18px;font-weight:800;color:#f1f5f9">
-                <span style="color:{dc}">{arrow}</span> {s['ticker']}
+                <span style="color:{dc}">{arrow}</span> <a href="/chart?ticker={s['ticker']}" style="color:#f1f5f9;text-decoration:none">{s['ticker']}</a>
                 <span style="font-size:13px;color:#64748b;font-weight:400">({s['name']})</span>
               </div>
               {reg_html}
@@ -593,8 +659,30 @@ def signals_page():
       <p style="font-size:12px;color:#64748b;margin-bottom:4px">
         Grouped by asset &amp; direction — top rule and runner-up · pandas-ta · 30 detectors
       </p>
+      <input id="signalsSearch" type="text" placeholder="Search signals (ticker, strategy, indicator)..."
+        oninput="filterSignalsPage()"
+        style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-top:8px" />
+      <div style="margin-top:8px;font-size:11px;color:#64748b">Tip: click any ticker to open its candle chart.</div>
     </div>
-    {rows if rows else '<div class="card" style="color:#64748b">No signals yet — tap Refresh on the home screen.</div>'}"""
+    {rows if rows else '<div class="card" style="color:#64748b">No signals yet — tap Refresh on the home screen.</div>'}
+    <div id="signalsEmpty" class="card" style="display:none;color:#64748b">
+      No signals match your search.
+    </div>
+    <script>
+      function filterSignalsPage() {{
+        const q = (document.getElementById('signalsSearch')?.value || '').toLowerCase().trim();
+        const cards = document.querySelectorAll('.signal-card');
+        let shown = 0;
+        cards.forEach((card) => {{
+          const txt = (card.getAttribute('data-search') || '').toLowerCase();
+          const ok = !q || txt.includes(q);
+          card.style.display = ok ? '' : 'none';
+          if (ok) shown += 1;
+        }});
+        const empty = document.getElementById('signalsEmpty');
+        if (empty) empty.style.display = shown ? 'none' : 'block';
+      }}
+    </script>"""
 
     return shell("Signals", body, active="signals")
 
@@ -611,6 +699,7 @@ def market_page():
         for name, d in tickers.items():
             pct   = d.get("pct_change", 0)
             price = d.get("price", 0)
+            ticker = d.get("ticker", "")
             pc    = "#22c55e" if pct >= 0 else "#ef4444"
             arrow = "▲" if pct >= 0 else "▼"
             if price > 1000:
@@ -619,14 +708,17 @@ def market_page():
                 price_s = f"${price:.2f}"
             else:
                 price_s = f"${price:.4f}"
+            search_blob = f"{category} {name} {ticker}".lower().replace('"', "&quot;")
             rows += (
-                f'<tr><td style="color:#e2e8f0">{name}</td>'
+                f'<tr class="market-row" data-search="{search_blob}"><td style="color:#e2e8f0">'
+                f'<a href="/chart?ticker={ticker or name}" style="color:#e2e8f0;text-decoration:none">{name}</a>'
+                f'<div style="font-size:10px;color:#64748b">{ticker}</div></td>'
                 f'<td style="text-align:right;color:#94a3b8">{price_s}</td>'
                 f'<td style="text-align:right;color:{pc};font-weight:700">'
                 f'{arrow}{abs(pct):.2f}%</td></tr>'
             )
         sections += f"""
-        <div class="card" style="padding:0;overflow:hidden">
+        <div class="card market-card" style="padding:0;overflow:hidden">
           <div style="background:#1e293b;padding:10px 14px;font-size:11px;
                       font-weight:700;color:#94a3b8;text-transform:uppercase;
                       letter-spacing:1px">{category}</div>
@@ -644,10 +736,420 @@ def market_page():
     <div style="padding:14px 14px 4px">
       <h2>Live Market Snapshot</h2>
       <p style="font-size:12px;color:#64748b">Updated {cache_age_str()}</p>
+      <input id="marketSearch" type="text" placeholder="Search market (name, category, ticker)..."
+        oninput="filterMarketPage()"
+        style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px;margin-top:8px" />
     </div>
-    {sections if sections else '<div class="card" style="color:#64748b">Loading market data...</div>'}"""
+    {sections if sections else '<div class="card" style="color:#64748b">Loading market data...</div>'}
+    <div id="marketEmpty" class="card" style="display:none;color:#64748b">
+      No market rows match your search.
+    </div>
+    <script>
+      function filterMarketPage() {{
+        const q = (document.getElementById('marketSearch')?.value || '').toLowerCase().trim();
+        const rows = document.querySelectorAll('.market-row');
+        let shownRows = 0;
+        rows.forEach((row) => {{
+          const txt = (row.getAttribute('data-search') || '').toLowerCase();
+          const ok = !q || txt.includes(q);
+          row.style.display = ok ? '' : 'none';
+          if (ok) shownRows += 1;
+        }});
+        document.querySelectorAll('.market-card').forEach((card) => {{
+          const visibleInCard = card.querySelectorAll('.market-row:not([style*="display: none"])').length;
+          card.style.display = visibleInCard ? '' : 'none';
+        }});
+        const empty = document.getElementById('marketEmpty');
+        if (empty) empty.style.display = shownRows ? 'none' : 'block';
+      }}
+    </script>"""
 
     return shell("Market", body, active="market")
+
+
+def _default_period_for_interval(interval: str) -> str:
+    # yfinance limits very fine intervals to short periods.
+    return {
+        "1m": "7d",
+        "2m": "14d",
+        "5m": "30d",
+        "15m": "60d",
+        "30m": "60d",
+        "60m": "730d",
+        "1d": "5y",
+        "1wk": "10y",
+    }.get(interval, "1y")
+
+
+def _series_json(series: pd.Series) -> list[float | None]:
+    out: list[float | None] = []
+    for v in series.tolist():
+        try:
+            fv = float(v)
+            if pd.isna(fv):
+                out.append(None)
+            else:
+                out.append(fv)
+        except Exception:
+            out.append(None)
+    return out
+
+
+@app.route("/chart")
+def chart_page():
+    refresh_cache()
+    signals = _cache.get("signals") or []
+    ticker = (request.args.get("ticker") or "BTC-USD").strip().upper()
+    options = ""
+    seen: dict[str, str] = {}
+    for s in signals:
+        t = str(s.get("ticker", "")).strip()
+        if t and t not in seen:
+            seen[t] = str(s.get("name", t))
+    for t in sorted(seen.keys()):
+        sel = " selected" if t == ticker else ""
+        options += f'<option value="{t}"{sel}>{t} - {seen[t]}</option>'
+
+    body = f"""
+    <div style="padding:14px 14px 4px">
+      <h2>Candle Chart & Indicator Context</h2>
+      <p style="font-size:12px;color:#64748b">View multi-timeframe candles and highest-confidence strategy indicators for a ticker.</p>
+    </div>
+    <div class="card">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <select id="chartTicker" onchange="reloadChartPage()"
+          style="padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px">
+          <option value="BTC-USD">BTC-USD - Bitcoin</option>
+          {options}
+        </select>
+        <select id="chartInterval" onchange="loadChartData()"
+          style="padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px">
+          <option value="15m">15m</option>
+          <option value="30m">30m</option>
+          <option value="60m">1h</option>
+          <option value="1d" selected>1D</option>
+          <option value="1wk">1W</option>
+        </select>
+      </div>
+      <div id="indicatorToggles" style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px"></div>
+      <div id="chartStatus" style="font-size:11px;color:#64748b;margin-top:10px">Loading chart...</div>
+      <div id="candleChart" style="height:420px;margin-top:8px"></div>
+    </div>
+    <div class="card">
+      <h3>High Confidence Recommended Indicators</h3>
+      <div id="indicatorCards" style="font-size:12px;color:#94a3b8">Loading indicators...</div>
+    </div>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script>
+      const INDICATOR_OPTIONS = [
+        {{ key: 'ema9', label: 'EMA 9', group: 'price' }},
+        {{ key: 'ema21', label: 'EMA 21', group: 'price' }},
+        {{ key: 'sma20', label: 'SMA 20', group: 'price' }},
+        {{ key: 'sma50', label: 'SMA 50', group: 'price' }},
+        {{ key: 'bb_upper', label: 'BB Upper', group: 'price' }},
+        {{ key: 'bb_lower', label: 'BB Lower', group: 'price' }},
+        {{ key: 'vwap', label: 'VWAP', group: 'price' }},
+        {{ key: 'rsi14', label: 'RSI 14', group: 'osc' }},
+        {{ key: 'macd', label: 'MACD', group: 'osc' }},
+        {{ key: 'macd_signal', label: 'MACD Signal', group: 'osc' }},
+        {{ key: 'macd_hist', label: 'MACD Hist', group: 'osc' }},
+      ];
+      let recommendedKeys = [];
+
+      function strategyToIndicatorKeys(name) {{
+        const s = (name || '').toLowerCase();
+        if (s.includes('macd')) return ['ema9', 'ema21', 'macd', 'macd_signal', 'macd_hist'];
+        if (s.includes('rsi')) return ['rsi14'];
+        if (s.includes('bollinger')) return ['sma20', 'bb_upper', 'bb_lower'];
+        if (s.includes('vwap')) return ['vwap'];
+        if (s.includes('golden cross') || s.includes('death cross') || s.includes('sma')) return ['sma20', 'sma50'];
+        if (s.includes('ema')) return ['ema9', 'ema21'];
+        if (s.includes('breakout') || s.includes('aroon') || s.includes('adx')) return ['ema21', 'sma20'];
+        return [];
+      }}
+
+      function selectedIndicatorKeys() {{
+        return Array.from(document.querySelectorAll('.indicator-check:checked')).map(x => x.value);
+      }}
+
+      function renderIndicatorToggles() {{
+        const host = document.getElementById('indicatorToggles');
+        const defaults = new Set(recommendedKeys.length ? recommendedKeys : ['ema9', 'ema21', 'rsi14']);
+        host.innerHTML = INDICATOR_OPTIONS.map(opt => `
+          <label style="display:flex;align-items:center;gap:6px;background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:8px 10px;font-size:11px;color:#cbd5e1">
+            <input class="indicator-check" type="checkbox" value="${{opt.key}}" ${{defaults.has(opt.key) ? 'checked' : ''}} onchange="loadChartData()" />
+            <span>${{opt.label}}</span>
+          </label>
+        `).join('');
+      }}
+
+      async function loadChartData() {{
+        const ticker = (document.getElementById('chartTicker').value || '').trim();
+        const interval = (document.getElementById('chartInterval').value || '1d').trim();
+        const status = document.getElementById('chartStatus');
+        status.textContent = 'Loading candles...';
+        try {{
+          const r = await fetch('/api/candles?ticker=' + encodeURIComponent(ticker) + '&interval=' + encodeURIComponent(interval));
+          const d = await r.json();
+          if (!d.ok || !d.candles || !d.candles.length) {{
+            status.textContent = d.message || 'No candle data returned.';
+            document.getElementById('candleChart').innerHTML = '';
+            return;
+          }}
+          const c = d.candles;
+          const indicators = d.indicators || {{}};
+          const selected = selectedIndicatorKeys();
+          const upper = [];
+          const lower = [];
+          const priceTrace = {{
+            x: c.map(x => x.t),
+            open: c.map(x => x.o),
+            high: c.map(x => x.h),
+            low: c.map(x => x.l),
+            close: c.map(x => x.c),
+            type: 'candlestick',
+            increasing: {{line: {{color: '#22c55e'}}}},
+            decreasing: {{line: {{color: '#ef4444'}}}},
+            name: ticker
+          }};
+          upper.push(priceTrace);
+
+          function maybeLine(key, color, width=1.3) {{
+            if (!selected.includes(key) || !indicators[key]) return;
+            upper.push({{
+              x: c.map(x => x.t),
+              y: indicators[key],
+              type: 'scatter',
+              mode: 'lines',
+              line: {{color: color, width: width}},
+              name: key.toUpperCase(),
+            }});
+          }}
+          maybeLine('ema9', '#60a5fa');
+          maybeLine('ema21', '#818cf8');
+          maybeLine('sma20', '#f59e0b');
+          maybeLine('sma50', '#f97316');
+          maybeLine('bb_upper', '#64748b', 1.0);
+          maybeLine('bb_lower', '#64748b', 1.0);
+          maybeLine('vwap', '#22c55e', 1.2);
+
+          if (selected.includes('rsi14') && indicators.rsi14) {{
+            lower.push({{
+              x: c.map(x => x.t), y: indicators.rsi14, type: 'scatter', mode: 'lines',
+              line: {{color: '#a78bfa', width: 1.2}}, name: 'RSI 14', xaxis: 'x2', yaxis: 'y2'
+            }});
+          }}
+          if (selected.includes('macd') && indicators.macd) {{
+            lower.push({{
+              x: c.map(x => x.t), y: indicators.macd, type: 'scatter', mode: 'lines',
+              line: {{color: '#22c55e', width: 1.1}}, name: 'MACD', xaxis: 'x2', yaxis: 'y2'
+            }});
+          }}
+          if (selected.includes('macd_signal') && indicators.macd_signal) {{
+            lower.push({{
+              x: c.map(x => x.t), y: indicators.macd_signal, type: 'scatter', mode: 'lines',
+              line: {{color: '#ef4444', width: 1.1}}, name: 'MACD Signal', xaxis: 'x2', yaxis: 'y2'
+            }});
+          }}
+          if (selected.includes('macd_hist') && indicators.macd_hist) {{
+            lower.push({{
+              x: c.map(x => x.t), y: indicators.macd_hist, type: 'bar',
+              marker: {{color: '#334155'}}, name: 'MACD Hist', xaxis: 'x2', yaxis: 'y2'
+            }});
+          }}
+
+          const showLower = lower.length > 0;
+          const traces = showLower ? upper.concat(lower) : upper;
+          const layout = {{
+            paper_bgcolor: '#0f172a',
+            plot_bgcolor: '#0f172a',
+            font: {{color: '#cbd5e1'}},
+            margin: {{l: 36, r: 8, t: 10, b: 30}},
+            xaxis: {{gridcolor: '#1e293b', rangeslider: {{visible: false}}, domain: [0, 1], anchor: 'y'}},
+            yaxis: {{gridcolor: '#1e293b', domain: showLower ? [0.34, 1.0] : [0, 1]}},
+            showlegend: true,
+            legend: {{orientation: 'h', y: 1.06, x: 0}}
+          }};
+          if (showLower) {{
+            layout.xaxis2 = {{gridcolor: '#1e293b', domain: [0, 1], anchor: 'y2', matches: 'x'}};
+            layout.yaxis2 = {{gridcolor: '#1e293b', domain: [0, 0.26], zerolinecolor: '#334155'}};
+          }}
+          Plotly.newPlot('candleChart', traces, layout, {{displayModeBar: false, responsive: true}});
+          status.textContent = ticker + ' · ' + interval + ' · ' + c.length + ' candles';
+        }} catch (e) {{
+          status.textContent = 'Chart load failed: ' + e;
+          document.getElementById('candleChart').innerHTML = '';
+        }}
+      }}
+
+      async function loadIndicatorCards() {{
+        const ticker = (document.getElementById('chartTicker').value || '').trim();
+        const host = document.getElementById('indicatorCards');
+        host.textContent = 'Loading indicators...';
+        try {{
+          const r = await fetch('/api/ticker-signals?ticker=' + encodeURIComponent(ticker));
+          const d = await r.json();
+          if (!d.ok || !d.signals || !d.signals.length) {{
+            host.innerHTML = '<div style="color:#64748b">No high-confidence signals found for this ticker right now.</div>';
+            recommendedKeys = ['ema9', 'ema21', 'rsi14'];
+            renderIndicatorToggles();
+            loadChartData();
+            return;
+          }}
+          const rec = new Set();
+          d.signals.forEach(s => strategyToIndicatorKeys(s.strategy).forEach(k => rec.add(k)));
+          recommendedKeys = Array.from(rec);
+          renderIndicatorToggles();
+          host.innerHTML = d.signals.map(s => {{
+            const col = s.direction === 'BULLISH' ? '#22c55e' : '#ef4444';
+            return `
+              <div style="background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:10px;margin-bottom:8px">
+                <div style="font-size:12px;color:${{col}};font-weight:700">${{s.direction}} · ${{s.strategy}} · score ${{s.confidence}}</div>
+                <div style="font-size:12px;color:#818cf8;margin-top:6px;font-family:monospace">${{s.indicator || ''}}</div>
+                <div style="font-size:12px;color:#94a3b8;margin-top:6px;line-height:1.45">${{s.implication || ''}}</div>
+              </div>
+            `;
+          }}).join('');
+          loadChartData();
+        }} catch (e) {{
+          host.innerHTML = '<div style="color:#fca5a5">Failed to load indicator cards: ' + e + '</div>';
+          recommendedKeys = ['ema9', 'ema21', 'rsi14'];
+          renderIndicatorToggles();
+          loadChartData();
+        }}
+      }}
+
+      function reloadChartPage() {{
+        const ticker = (document.getElementById('chartTicker').value || '').trim();
+        window.location.href = '/chart?ticker=' + encodeURIComponent(ticker);
+      }}
+
+      renderIndicatorToggles();
+      loadIndicatorCards();
+    </script>
+    """
+    return shell("Chart", body, active="chart")
+
+
+@app.route("/api/candles")
+def api_candles():
+    ticker = (request.args.get("ticker") or "").strip().upper()
+    interval = (request.args.get("interval") or "1d").strip()
+    if not ticker:
+        return jsonify({"ok": False, "message": "Ticker is required."}), 400
+
+    allowed = {"1m", "2m", "5m", "15m", "30m", "60m", "1d", "1wk"}
+    if interval not in allowed:
+        return jsonify({"ok": False, "message": "Unsupported interval."}), 400
+
+    period = _default_period_for_interval(interval)
+    try:
+        df = yf.Ticker(ticker).history(period=period, interval=interval, auto_adjust=False)
+        if df is None or df.empty:
+            return jsonify({"ok": False, "message": f"No candle data for {ticker} ({interval}).", "candles": []})
+        df = df.tail(600).copy()
+        close = df["Close"]
+        high = df["High"]
+        low = df["Low"]
+        vol = df["Volume"].fillna(0)
+
+        sma20 = close.rolling(20).mean()
+        sma50 = close.rolling(50).mean()
+        ema9 = close.ewm(span=9, adjust=False).mean()
+        ema21 = close.ewm(span=21, adjust=False).mean()
+        std20 = close.rolling(20).std()
+        bb_upper = sma20 + 2 * std20
+        bb_lower = sma20 - 2 * std20
+        tp = (high + low + close) / 3.0
+        cum_vol = vol.cumsum().replace(0, pd.NA)
+        vwap = (tp * vol).cumsum() / cum_vol
+
+        delta = close.diff()
+        gain = delta.clip(lower=0)
+        loss = (-delta.clip(upper=0))
+        avg_gain = gain.ewm(alpha=(1 / 14), adjust=False, min_periods=14).mean()
+        avg_loss = loss.ewm(alpha=(1 / 14), adjust=False, min_periods=14).mean()
+        rs = avg_gain / avg_loss.replace(0, pd.NA)
+        rsi14 = 100 - (100 / (1 + rs))
+
+        ema12 = close.ewm(span=12, adjust=False).mean()
+        ema26 = close.ewm(span=26, adjust=False).mean()
+        macd = ema12 - ema26
+        macd_signal = macd.ewm(span=9, adjust=False).mean()
+        macd_hist = macd - macd_signal
+
+        rows = []
+        for idx, row in df.iterrows():
+            rows.append(
+                {
+                    "t": idx.isoformat() if hasattr(idx, "isoformat") else str(idx),
+                    "o": float(row.get("Open", 0.0)),
+                    "h": float(row.get("High", 0.0)),
+                    "l": float(row.get("Low", 0.0)),
+                    "c": float(row.get("Close", 0.0)),
+                    "v": float(row.get("Volume", 0.0)),
+                }
+            )
+        indicators = {
+            "sma20": _series_json(sma20),
+            "sma50": _series_json(sma50),
+            "ema9": _series_json(ema9),
+            "ema21": _series_json(ema21),
+            "bb_upper": _series_json(bb_upper),
+            "bb_lower": _series_json(bb_lower),
+            "vwap": _series_json(vwap),
+            "rsi14": _series_json(rsi14),
+            "macd": _series_json(macd),
+            "macd_signal": _series_json(macd_signal),
+            "macd_hist": _series_json(macd_hist),
+        }
+        return jsonify(
+            {
+                "ok": True,
+                "ticker": ticker,
+                "interval": interval,
+                "period": period,
+                "candles": rows,
+                "indicators": indicators,
+            }
+        )
+    except Exception as exc:
+        return jsonify({"ok": False, "message": f"Candle fetch failed: {exc}", "candles": []}), 500
+
+
+@app.route("/api/ticker-signals")
+def api_ticker_signals():
+    refresh_cache()
+    ticker = (request.args.get("ticker") or "").strip().upper()
+    if not ticker:
+        return jsonify({"ok": False, "message": "Ticker is required.", "signals": []}), 400
+    all_signals = [s for s in (_cache.get("signals") or []) if str(s.get("ticker", "")).upper() == ticker]
+    if not all_signals:
+        return jsonify({"ok": True, "ticker": ticker, "signals": []})
+    top = sorted(all_signals, key=lambda s: float(s.get("confidence", 0.0)), reverse=True)[:8]
+    recommended = [
+        {
+            "strategy": s.get("strategy", ""),
+            "direction": s.get("direction", ""),
+            "confidence": round(float(s.get("confidence", 0.0)), 1),
+            "indicator": s.get("indicator", ""),
+            "implication": s.get("implication", ""),
+        }
+        for s in top
+        if float(s.get("confidence", 0.0)) >= 60
+    ]
+    if not recommended:
+        recommended = [
+            {
+                "strategy": s.get("strategy", ""),
+                "direction": s.get("direction", ""),
+                "confidence": round(float(s.get("confidence", 0.0)), 1),
+                "indicator": s.get("indicator", ""),
+                "implication": s.get("implication", ""),
+            }
+            for s in top[:3]
+        ]
+    return jsonify({"ok": True, "ticker": ticker, "signals": recommended})
 
 # ─── Logs page ────────────────────────────────────────────────────────────────
 
