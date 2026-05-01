@@ -52,6 +52,8 @@ TAX_SHORT_TERM_RATE = 0.32    # 32% — ordinary income bracket for active trade
 TAX_LONG_TERM_RATE  = 0.15    # 15% — long-term capital gains rate
 SLIPPAGE_RATE       = 0.001   # 0.10% per trade (entry + exit = 0.20% round-trip)
 MIN_EVAL_CONFIDENCE = 55      # minimum backtest score to surface as new opportunity
+MAX_NEW_IDEAS       = 3       # max fresh entries on each evaluation cycle
+MIN_TRADE_SIZE      = 2_500   # do not open tiny positions that cannot overcome fees
 
 # ─── Initial Portfolio (locked in 2026-04-20) ─────────────────────────────────
 
@@ -573,11 +575,26 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
                 "score":        score,
                 "bear_count":   len(bear),
                 "top_bear_conf": top_bear_conf,
+                "is_crypto":    ticker.endswith("-USD"),
             })
 
         candidates.sort(key=lambda x: x["score"], reverse=True)
-        for c in candidates[:3]:
+        selected: list[dict] = []
+        # Ensure crypto is represented when a valid crypto setup exists.
+        best_crypto = next((c for c in candidates if c["is_crypto"]), None)
+        if best_crypto:
+            selected.append(best_crypto)
+        for c in candidates:
+            if c in selected:
+                continue
+            selected.append(c)
+            if len(selected) >= MAX_NEW_IDEAS:
+                break
+
+        for c in selected[:MAX_NEW_IDEAS]:
             suggested_alloc = round(min(deployable * 0.35, 30_000) / 1000) * 1000
+            if c["is_crypto"]:
+                suggested_alloc = round(min(deployable * 0.25, 25_000) / 1000) * 1000
             conflict_note = (
                 "No conflicting bearish signals."
                 if c["bear_count"] == 0
@@ -598,6 +615,8 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
                     f"${deployable:,.0f} deployable. "
                     f"Entry slippage est. ${suggested_alloc * SLIPPAGE_RATE:,.0f}."
                 ),
+                "suggested_allocation": suggested_alloc,
+                "is_crypto": c["is_crypto"],
                 "exit_cost": None,
             })
 
@@ -605,6 +624,134 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
     priority_order = {"high": 0, "medium": 1, "low": 2}
     recs.sort(key=lambda r: (priority_order.get(r["priority"], 9), r["ticker"]))
     return recs
+
+
+def _append_move(state: dict, move: dict) -> None:
+    log = state.setdefault("trade_log", [])
+    move["timestamp"] = datetime.now().isoformat()
+    log.append(move)
+    state["trade_log"] = log[-250:]  # cap growth
+
+
+def apply_mock_trades(state: dict, recs: list[dict], prices: dict) -> tuple[dict, list[dict]]:
+    """
+    Paper-execute recommendation actions and record explanations for each move.
+    Returns updated state and list of executed move dicts.
+    """
+    positions = state["positions"]
+    executed: list[dict] = []
+    cash_pos = positions.get("CASH")
+    if not cash_pos:
+        cash_pos = {
+            "name": "Cash / Money Market",
+            "allocation": 0.0,
+            "type": "cash",
+            "annual_rate": CASH_APY,
+            "rationale": "Auto-created cash sleeve for simulation accounting.",
+            "status": "open",
+            "triggered_date": None,
+        }
+        positions["CASH"] = cash_pos
+
+    for r in recs:
+        action = r.get("action")
+        ticker = r.get("ticker")
+        if not ticker:
+            continue
+
+        if action == "REVIEW_EXIT":
+            pos = positions.get(ticker)
+            cp = prices.get(ticker)
+            if not pos or pos.get("status") != "open" or cp is None:
+                continue
+            ec = _exit_cost(pos, cp, state)
+            del positions[ticker]
+            cash_pos["allocation"] += ec["net_proceeds"]
+            move = {
+                "action": "SELL",
+                "ticker": ticker,
+                "gross_gain": ec["gross_gain"],
+                "net_proceeds": ec["net_proceeds"],
+                "tax_cost": ec["tax_cost"],
+                "slippage": ec["slippage"],
+                "explanation": f"{r['reason']} {r['tax_note']}",
+            }
+            _append_move(state, move)
+            executed.append(move)
+            continue
+
+        if action == "CANCEL_LIMIT":
+            pos = positions.get(ticker)
+            if not pos or pos.get("status") != "pending":
+                continue
+            freed = float(pos.get("allocation", 0.0))
+            del positions[ticker]
+            cash_pos["allocation"] += freed
+            move = {
+                "action": "CANCEL_LIMIT",
+                "ticker": ticker,
+                "freed_cash": round(freed, 2),
+                "explanation": f"{r['reason']} {r['tax_note']}",
+            }
+            _append_move(state, move)
+            executed.append(move)
+            continue
+
+        if action == "NEW_OPPORTUNITY":
+            if ticker in positions:
+                continue
+            cp = prices.get(ticker)
+            if cp is None or cp <= 0:
+                continue
+            avail_cash = float(cash_pos.get("allocation", 0.0))
+            if avail_cash < MIN_TRADE_SIZE:
+                continue
+
+            suggested = float(r.get("suggested_allocation") or 0.0)
+            alloc = suggested if suggested > 0 else round(min(avail_cash * 0.35, 30_000) / 1000) * 1000
+            alloc = max(MIN_TRADE_SIZE, min(alloc, avail_cash))
+
+            # Keep fees explicit: entry slippage is paid from cash in addition to allocation.
+            entry_fee = alloc * SLIPPAGE_RATE
+            total_needed = alloc + entry_fee
+            if total_needed > avail_cash:
+                alloc = max(0.0, round((avail_cash / (1 + SLIPPAGE_RATE)) / 100) * 100)
+                entry_fee = alloc * SLIPPAGE_RATE
+                total_needed = alloc + entry_fee
+            if alloc < MIN_TRADE_SIZE or total_needed > avail_cash:
+                continue
+
+            shares = round(alloc / cp, 6)
+            positions[ticker] = {
+                "name": ticker,
+                "allocation": round(alloc, 2),
+                "type": "market",
+                "entry_price": cp,
+                "shares": shares,
+                "signal": r.get("signal", "Strategy signal"),
+                "confidence": r.get("confidence"),
+                "win_rate": None,
+                "sharpe": None,
+                "rationale": r.get("reason", ""),
+                "status": "open",
+                "triggered_date": date.today().isoformat(),
+            }
+            cash_pos["allocation"] = round(avail_cash - total_needed, 2)
+            move = {
+                "action": "BUY",
+                "ticker": ticker,
+                "allocation": round(alloc, 2),
+                "entry_price": round(cp, 4),
+                "shares": shares,
+                "entry_fee": round(entry_fee, 2),
+                "is_crypto": bool(r.get("is_crypto")),
+                "explanation": f"{r['reason']} {r['tax_note']}",
+            }
+            _append_move(state, move)
+            executed.append(move)
+
+    state["positions"] = positions
+    return state, executed
 
 
 # ─── Console Report ──────────────────────────────────────────────────────────
@@ -680,6 +827,16 @@ def print_report(rows: list[dict], bm: dict, state: dict) -> None:
             print()
         print("="*72 + "\n")
 
+    moves = state.get("trade_log", [])
+    if moves:
+        print("  LAST PAPER MOVES")
+        print("-"*72)
+        for m in moves[-6:]:
+            stamp = m.get("timestamp", "")[:19].replace("T", " ")
+            print(f"  [{stamp}] {m.get('action')} {m.get('ticker')}")
+            print(f"     {m.get('explanation', '')}")
+        print("="*72 + "\n")
+
 
 # ─── HTML Report ─────────────────────────────────────────────────────────────
 
@@ -691,6 +848,7 @@ def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = Fa
     total_pct   = total_pnl / TOTAL_CAPITAL * 100
     alpha       = total_pct - bm["pnl_pct"]
     snaps       = sorted(state.get("snapshots", []), key=lambda x: x["date"])
+    moves       = state.get("trade_log", [])
 
     color = "#22c55e" if total_pnl >= 0 else "#ef4444"
     bm_color = "#22c55e" if bm["pnl_pct"] >= 0 else "#ef4444"
@@ -772,6 +930,25 @@ def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = Fa
               <div style='color:#64748b;font-size:12px;margin-top:6px;font-style:italic'>{r['rationale']}</div>
             </div>"""
 
+    move_html = ""
+    if moves:
+        move_cards = ""
+        for m in moves[-8:]:
+            ts = (m.get("timestamp", "") or "")[:19].replace("T", " ")
+            action = m.get("action", "MOVE")
+            ticker = m.get("ticker", "?")
+            explanation = m.get("explanation", "")
+            move_cards += f"""
+            <div style='background:#1e293b;border-radius:8px;padding:12px;margin:10px 0;border-left:3px solid #60a5fa'>
+              <div style='font-weight:700;color:#e2e8f0'>{action} — {ticker}</div>
+              <div style='color:#94a3b8;font-size:12px;margin-top:4px'>{ts}</div>
+              <div style='color:#cbd5e1;font-size:13px;margin-top:8px'>{explanation}</div>
+            </div>"""
+        move_html = f"""
+        <h3 style='color:#e2e8f0;margin:28px 0 12px'>Recent Paper Trade Moves</h3>
+        {move_cards}
+        """
+
     title = "Weekly Review" if weekly else "Daily Status"
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -824,6 +1001,7 @@ def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = Fa
   </table>
 
   {curve_html}
+  {move_html}
   {detail_html}
 
   <p style='color:#334155;font-size:11px;margin-top:24px'>
@@ -855,6 +1033,7 @@ def send_email(subject: str, html: str) -> None:
 
 def main():
     args = sys.argv[1:]
+    run_mock_trading = "--no-trade" not in args
 
     if "--init" in args:
         state = init_simulation()
@@ -870,14 +1049,32 @@ def main():
     state    = check_limit_orders(state, state["init_date"])
     tickers  = [k for k in state["positions"] if k != "CASH"]
     prices   = get_current_prices(tickers + [state["benchmark"]["ticker"]])
-    rows     = compute_pnl(state, prices)
-    bm       = compute_benchmark_pnl(state, prices)
+    recs = []
+
+    if run_mock_trading:
+        try:
+            from strategy_engine import run_full_scan
+            signals = run_full_scan()
+            recs = evaluate_portfolio(state, prices, signals)
+            state, executed = apply_mock_trades(state, recs, prices)
+            if executed:
+                logger.info(f"Applied {len(executed)} mock trade move(s).")
+            state["recommendations"] = [{k: v for k, v in r.items() if k != "exit_cost"} for r in recs]
+            state["recommendations_updated"] = datetime.now().isoformat()
+            # Refresh price set in case we opened new symbols (e.g., crypto).
+            tickers = [k for k in state["positions"] if k != "CASH"]
+            prices = get_current_prices(tickers + [state["benchmark"]["ticker"]])
+        except Exception as e:
+            logger.warning(f"Auto mock-trading skipped: {e}")
+
+    rows = compute_pnl(state, prices)
+    bm = compute_benchmark_pnl(state, prices)
 
     # Always print to console
     print_report(rows, bm, state)
 
     if "--snapshot" in args or "--email" in args or "--weekly" in args:
-        state, rows, bm = take_snapshot(state)
+        state, rows, bm = take_snapshot(state, recs if recs else None)
 
     if "--email" in args:
         html = build_html_report(rows, bm, state, weekly=False)

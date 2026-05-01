@@ -32,3 +32,6 @@ desktop.ini
 
 # NOTE: alert_state.json and sim_portfolio.json are intentionally tracked
 # by git so state persists between GitHub Actions runs.
+
+# Runtime cache files
+data/cot_positioning_cache.json

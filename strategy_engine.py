@@ -18,11 +18,29 @@ import numpy as np
 import pandas as pd
 import pandas_ta as ta  # noqa: F401 - importing registers the DataFrame .ta accessor
 import yfinance as yf
+from positioning_data import get_cot_positioning_summary
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 logger = logging.getLogger(__name__)
+
+# Positioning-based score overlay (small and bounded so core backtest score remains primary).
+POSITIONING_ADJ_MAX = 6.0
+POSITIONING_ADJ_BY_CROWDING = {
+    "crowded": {"follow": -4.0, "fade": 3.0},
+    "extreme": {"follow": -6.0, "fade": 5.0},
+}
+POSITIONING_PROXY_MAP: dict[str, str] = {
+    "SPY": "spx",
+    "UPRO": "spx",
+    "QQQ": "spx",
+    "TQQQ": "spx",
+    "IWM": "spx",
+    "GC=F": "gold",
+    "CL=F": "crude",
+    "XLE": "crude",
+}
 
 # ─── Strategy educational links ───────────────────────────────────────────────
 
@@ -453,6 +471,7 @@ def regime_label(df: pd.DataFrame) -> str:
 def _make_signal(
     symbol, name, strategy, direction, indicator, detail, implication, bt
 ) -> dict:
+    base = confidence_score(bt)
     return {
         "strategy":    strategy,
         "direction":   direction,
@@ -462,8 +481,90 @@ def _make_signal(
         "detail":      detail,
         "implication": implication,
         "backtest":    bt,
-        "confidence":  confidence_score(bt),
+        "confidence":  base,
+        "confidence_base": base,
+        "confidence_adj": 0.0,
+        "confidence_adj_reason": "",
     }
+
+
+def _positioning_adjustment_for_signal(signal: dict, cot_summary: dict | None) -> tuple[float, str]:
+    """Small score modifier based on weekly COT crowding context."""
+    if not cot_summary or cot_summary.get("status") != "ok":
+        return 0.0, ""
+
+    ticker = signal.get("ticker", "")
+    asset_key = POSITIONING_PROXY_MAP.get(ticker)
+    if not asset_key:
+        return 0.0, ""
+
+    items = cot_summary.get("items") or []
+    item = next((x for x in items if x.get("asset_key") == asset_key), None)
+    if not item:
+        return 0.0, ""
+
+    crowding = str(item.get("crowding") or "unknown")
+    side = str(item.get("crowded_side") or "flat")
+    if crowding not in POSITIONING_ADJ_BY_CROWDING or side not in ("long", "short"):
+        return 0.0, ""
+
+    direction = signal.get("direction")
+    signal_side = "long" if direction == "BULLISH" else ("short" if direction == "BEARISH" else "flat")
+    if signal_side == "flat":
+        return 0.0, ""
+
+    profile = POSITIONING_ADJ_BY_CROWDING[crowding]
+    if signal_side == side:
+        points = profile["follow"]
+        reason = f"COT {crowding} {side}: follow-crowd penalty"
+    else:
+        points = profile["fade"]
+        reason = f"COT {crowding} {side}: contrarian boost"
+    return points, reason
+
+
+def _apply_positioning_overlay(signals: list[dict], cot_summary: dict | None) -> None:
+    """Mutates signal confidence fields in-place."""
+    for s in signals:
+        base = float(s.get("confidence_base", s.get("confidence", 0.0)))
+        points, reason = _positioning_adjustment_for_signal(s, cot_summary)
+        points = max(-POSITIONING_ADJ_MAX, min(POSITIONING_ADJ_MAX, points))
+        adj = round(base + points, 1)
+        s["confidence_base"] = round(base, 1)
+        s["confidence_adj"] = round(points, 1)
+        s["confidence_adj_reason"] = reason
+        s["confidence"] = max(0.0, min(100.0, adj))
+
+
+def positioning_overlay_diagnostics(signals: list[dict]) -> dict:
+    """Summarize how many signals received positioning adjustments."""
+    diag = {
+        "total": len(signals),
+        "adjusted": 0,
+        "boosted": 0,
+        "penalized": 0,
+        "by_ticker": {},
+    }
+    by_ticker: dict[str, dict] = {}
+    for s in signals:
+        adj = float(s.get("confidence_adj", 0.0) or 0.0)
+        if abs(adj) <= 0:
+            continue
+        ticker = s.get("ticker", "?")
+        bucket = by_ticker.setdefault(
+            ticker,
+            {"adjusted": 0, "boosted": 0, "penalized": 0},
+        )
+        diag["adjusted"] += 1
+        bucket["adjusted"] += 1
+        if adj > 0:
+            diag["boosted"] += 1
+            bucket["boosted"] += 1
+        else:
+            diag["penalized"] += 1
+            bucket["penalized"] += 1
+    diag["by_ticker"] = by_ticker
+    return diag
 
 
 def apply_extended_ta(df: pd.DataFrame) -> None:
@@ -1784,6 +1885,33 @@ def run_full_scan(
             all_signals.extend(sigs)
         except Exception as exc:
             logger.warning(f"  DEX scan error {symbol}: {exc}")
+
+    cot_summary = get_cot_positioning_summary()
+    _apply_positioning_overlay(all_signals, cot_summary)
+    diag = positioning_overlay_diagnostics(all_signals)
+    if diag["adjusted"]:
+        top = sorted(
+            diag["by_ticker"].items(),
+            key=lambda kv: kv[1]["adjusted"],
+            reverse=True,
+        )[:5]
+        top_str = ", ".join(
+            f"{ticker}:{vals['adjusted']}" for ticker, vals in top
+        )
+        logger.info(
+            "COT overlay active | adjusted=%s boosted=%s penalized=%s | top=%s | regime=%s",
+            diag["adjusted"],
+            diag["boosted"],
+            diag["penalized"],
+            top_str,
+            cot_summary.get("regime", "Unknown"),
+        )
+    else:
+        logger.info(
+            "COT overlay inactive | adjusted=0/%s | regime=%s",
+            diag["total"],
+            cot_summary.get("regime", "Unknown"),
+        )
 
     filtered = [s for s in all_signals if s.get("confidence", 0) >= 45]
     filtered.sort(key=lambda s: (

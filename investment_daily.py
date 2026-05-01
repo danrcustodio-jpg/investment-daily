@@ -19,6 +19,7 @@ import feedparser
 import requests
 from dotenv import load_dotenv
 
+from positioning_data import get_cot_positioning_summary
 from strategy_engine import methodology_newsletter_html
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -564,6 +565,8 @@ def build_strategy_section(signals: list[dict]) -> str:
         dc        = "#22c55e" if is_bull else "#ef4444"
         arrow     = "&#9650;" if is_bull else "&#9660;"
         conf      = s.get("confidence", 0)
+        conf_base = s.get("confidence_base", conf)
+        conf_adj  = s.get("confidence_adj", 0.0)
         cc        = "#22c55e" if conf >= 65 else ("#f59e0b" if conf >= 52 else "#94a3b8")
         bt        = s.get("backtest", {})
         d5        = bt.get("5d", {})
@@ -597,6 +600,15 @@ def build_strategy_section(signals: list[dict]) -> str:
                 f'<div style="font-size:10px;color:#475569;margin-top:6px;line-height:1.35">'
                 f'Recent slice: <span style="color:{hcc};font-weight:800">{ho_sc:.0f}</span> '
                 f'(n={ho_n})</div>'
+            )
+
+        adj_line = ""
+        if abs(conf_adj) > 0:
+            adj_c = "#22c55e" if conf_adj > 0 else "#ef4444"
+            adj_sign = "+" if conf_adj > 0 else ""
+            adj_line = (
+                f'<div style="font-size:9px;color:{adj_c};margin-top:4px">'
+                f'Base {conf_base:.0f} {adj_sign}{conf_adj:.0f} pos.</div>'
             )
 
         agree_html = ""
@@ -649,6 +661,7 @@ def build_strategy_section(signals: list[dict]) -> str:
             f'<td style="padding:8px 12px;text-align:right;vertical-align:top">'
             f'  <div style="font-size:16px;font-weight:900;color:{cc}">{conf:.0f}</div>'
             f'  <div style="font-size:10px;color:#475569">backtest score</div>'
+            f'  {adj_line}'
             f'  {bd_line}'
             f'  {ho_line}'
             f'</td>'
@@ -700,11 +713,90 @@ def build_strategy_section(signals: list[dict]) -> str:
     </div>"""
 
 
+def build_positioning_section(positioning: dict[str, Any] | None) -> str:
+    """Render a compact weekly COT positioning block."""
+    if not positioning:
+        return ""
+
+    status = positioning.get("status", "unavailable")
+    regime = positioning.get("regime", "Unknown")
+    as_of = positioning.get("report_as_of", "")
+    source = positioning.get("source", "CFTC COT")
+    note = positioning.get("note", "")
+    items = positioning.get("items", []) or []
+
+    if status != "ok":
+        return f"""
+    <div style="background:#0f172a;border-radius:10px;overflow:hidden;
+                margin-bottom:20px;border:1px solid #1e293b">
+      <div style="background:#1e293b;padding:14px 16px">
+        <h2 style="color:#f1f5f9;margin:0;font-size:16px;font-weight:700">
+          🧭 Positioning Regime (COT)
+        </h2>
+      </div>
+      <div style="padding:14px 16px;color:#94a3b8;font-size:13px;line-height:1.6">
+        Positioning data unavailable this run. The system will retry automatically.
+        <div style="margin-top:8px;color:#64748b;font-size:11px">
+          Source: {source}
+        </div>
+      </div>
+    </div>"""
+
+    rows = ""
+    for item in items:
+        crowding = item.get("crowding", "unknown")
+        side = item.get("crowded_side", "flat")
+        net_pct = item.get("net_pct_open_interest")
+        proxy = item.get("proxy", "")
+        label = item.get("asset_label", "")
+        if net_pct is None:
+            metric = "n/a"
+        else:
+            metric = f"{net_pct:+.1f}% OI"
+        color = "#22c55e" if side == "long" else ("#ef4444" if side == "short" else "#94a3b8")
+        rows += (
+            f'<tr style="border-bottom:1px solid #0f172a">'
+            f'<td style="padding:8px 12px;color:#e2e8f0">{label}</td>'
+            f'<td style="padding:8px 12px;color:#64748b">{proxy}</td>'
+            f'<td style="padding:8px 12px;color:{color};font-weight:700;text-transform:uppercase">{side}</td>'
+            f'<td style="padding:8px 12px;color:#94a3b8;text-transform:uppercase">{crowding}</td>'
+            f'<td style="padding:8px 12px;color:#94a3b8;text-align:right">{metric}</td>'
+            f"</tr>"
+        )
+
+    return f"""
+    <div style="background:#0f172a;border-radius:10px;overflow:hidden;
+                margin-bottom:20px;border:1px solid #1e293b">
+      <div style="background:linear-gradient(90deg,#0f172a,#1e293b);padding:14px 16px;border-bottom:1px solid #1e293b">
+        <h2 style="color:#f1f5f9;margin:0 0 4px;font-size:16px;font-weight:700">
+          🧭 Positioning Regime (COT)
+        </h2>
+        <div style="font-size:12px;color:#94a3b8">
+          {regime} {'· As of ' + as_of if as_of else ''}
+        </div>
+      </div>
+      <table style="width:100%;border-collapse:collapse">
+        <tr style="background:#0a0f1e">
+          <th style="padding:8px 12px;color:#475569;font-size:10px;text-align:left;font-weight:600;text-transform:uppercase">Contract</th>
+          <th style="padding:8px 12px;color:#475569;font-size:10px;text-align:left;font-weight:600;text-transform:uppercase">Proxy</th>
+          <th style="padding:8px 12px;color:#475569;font-size:10px;text-align:left;font-weight:600;text-transform:uppercase">Net side</th>
+          <th style="padding:8px 12px;color:#475569;font-size:10px;text-align:left;font-weight:600;text-transform:uppercase">Crowding</th>
+          <th style="padding:8px 12px;color:#475569;font-size:10px;text-align:right;font-weight:600;text-transform:uppercase">Net / OI</th>
+        </tr>
+        {rows}
+      </table>
+      <div style="padding:10px 14px;color:#64748b;font-size:11px;line-height:1.5">
+        Source: {source}. {note}
+      </div>
+    </div>"""
+
+
 def build_email(
     market_data: dict,
     articles: list[dict],
     polymarket: list[dict],
     sentiment: dict,
+    positioning: dict[str, Any] | None = None,
     strategy_signals: list[dict] | None = None,
 ) -> str:
     today  = datetime.now().strftime("%A, %B %d, %Y")
@@ -847,6 +939,8 @@ def build_email(
     </p>
   </div>
 
+  {build_positioning_section(positioning)}
+
   {method_html}
 
   <!-- Strategy Signals -->
@@ -930,9 +1024,13 @@ def main() -> None:
     sentiment = analyze_sentiment(market_data)
     logger.info(f"  Sentiment: {sentiment['overall']} ({sentiment['score']:+.2f}%)")
 
+    logger.info("Fetching weekly COT positioning ...")
+    positioning = get_cot_positioning_summary()
+    logger.info("  Positioning regime: %s", positioning.get("regime", "Unknown"))
+
     articles = fact_check_articles(articles, market_data, sentiment)
 
-    html    = build_email(market_data, articles, polymarket, sentiment, strategy_signals)
+    html    = build_email(market_data, articles, polymarket, sentiment, positioning, strategy_signals)
     emoji   = {"bullish": "UP", "bearish": "DOWN", "neutral": "FLAT"}.get(sentiment["overall"], "")
     today   = datetime.now().strftime("%b %d, %Y")
     subject = (
