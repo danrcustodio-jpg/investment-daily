@@ -116,6 +116,229 @@ def bg_refresh() -> None:
         refresh_cache()
         time.sleep(CACHE_TTL_MINUTES * 60)
 
+
+def _safe_float(v, default=0.0) -> float:
+    try:
+        return float(v)
+    except Exception:
+        return float(default)
+
+
+def compute_macro_tilt_snapshot() -> dict:
+    """
+    Leadership concentration model:
+      - Trigger: RSP/SPY < SMA30 and SMA30 slope down
+      - Confirm: SPY near 20d high while ratio at 20d low
+      - Leadership: at least 2/3 of NVDA, ORCL, PLTR above SMA30
+      - De-risk: ratio > SMA30 for 3 straight sessions
+    """
+    out = {
+        "ok": False,
+        "message": "",
+        "ratio": None,
+        "ratio_sma30": None,
+        "sma30_slope_down": False,
+        "trigger_on": False,
+        "spy_near_20d_high": False,
+        "ratio_20d_low": False,
+        "confirmation_on": False,
+        "leaders_above_sma30": 0,
+        "leaders_total": 3,
+        "leadership_on": False,
+        "riskoff_flip": False,
+        "tilt_pct": 0,
+        "tilt_label": "No tilt",
+        "leaders": {},
+        "as_of": None,
+    }
+    try:
+        px = yf.download(
+            ["RSP", "SPY", "NVDA", "ORCL", "PLTR"],
+            period="9mo",
+            interval="1d",
+            auto_adjust=False,
+            progress=False,
+            group_by="ticker",
+            threads=False,
+        )
+        if px is None or px.empty:
+            out["message"] = "No price data returned."
+            return out
+
+        close = pd.DataFrame({
+            "RSP": px["RSP"]["Close"],
+            "SPY": px["SPY"]["Close"],
+            "NVDA": px["NVDA"]["Close"],
+            "ORCL": px["ORCL"]["Close"],
+            "PLTR": px["PLTR"]["Close"],
+        }).dropna(how="all")
+        if len(close) < 40:
+            out["message"] = "Insufficient history for SMA30 model."
+            return out
+
+        ratio = (close["RSP"] / close["SPY"]).dropna()
+        if len(ratio) < 35:
+            out["message"] = "Insufficient RSP/SPY ratio history."
+            return out
+        ratio_sma30 = ratio.rolling(30).mean()
+
+        r_now = _safe_float(ratio.iloc[-1], None)
+        rs_now = _safe_float(ratio_sma30.iloc[-1], None)
+        if r_now is None or rs_now is None:
+            out["message"] = "Unable to compute current ratio/SMA30."
+            return out
+        slope_down = bool(ratio_sma30.iloc[-1] < ratio_sma30.iloc[-2])
+        trigger_on = bool(r_now < rs_now and slope_down)
+
+        spy = close["SPY"].dropna()
+        spy_20h = spy.rolling(20).max().iloc[-1]
+        spy_near_20d_high = bool(spy.iloc[-1] >= spy_20h * 0.98)
+        ratio_20d_low = bool(r_now <= ratio.tail(20).min())
+        confirmation_on = bool(spy_near_20d_high and ratio_20d_low)
+
+        leaders = {}
+        leaders_above = 0
+        for t in ("NVDA", "ORCL", "PLTR"):
+            s = close[t].dropna()
+            sma30 = s.rolling(30).mean()
+            if len(s) < 35 or pd.isna(sma30.iloc[-1]):
+                leaders[t] = {"above_sma30": False}
+                continue
+            above = bool(s.iloc[-1] > sma30.iloc[-1])
+            leaders[t] = {"above_sma30": above}
+            if above:
+                leaders_above += 1
+        leadership_on = leaders_above >= 2
+
+        riskoff_flip = bool((ratio.tail(3) > ratio_sma30.tail(3)).all())
+
+        tilt_pct = 0
+        if trigger_on:
+            tilt_pct += 10
+            if confirmation_on:
+                tilt_pct += 5
+            if leadership_on:
+                tilt_pct += 5
+        tilt_pct = min(20, tilt_pct)
+        if riskoff_flip:
+            tilt_pct = 0
+
+        if tilt_pct >= 20:
+            tilt_label = "Max concentration tilt"
+        elif tilt_pct > 0:
+            tilt_label = "Partial concentration tilt"
+        else:
+            tilt_label = "Neutral / broad exposure"
+
+        out.update(
+            {
+                "ok": True,
+                "ratio": r_now,
+                "ratio_sma30": rs_now,
+                "sma30_slope_down": slope_down,
+                "trigger_on": trigger_on,
+                "spy_near_20d_high": spy_near_20d_high,
+                "ratio_20d_low": ratio_20d_low,
+                "confirmation_on": confirmation_on,
+                "leaders_above_sma30": leaders_above,
+                "leadership_on": leadership_on,
+                "riskoff_flip": riskoff_flip,
+                "tilt_pct": tilt_pct,
+                "tilt_label": tilt_label,
+                "leaders": leaders,
+                "as_of": str(ratio.index[-1].date()) if hasattr(ratio.index[-1], "date") else str(ratio.index[-1]),
+            }
+        )
+        return out
+    except Exception as exc:
+        out["message"] = f"Macro tilt calc failed: {exc}"
+        return out
+
+
+BEGINNER_STRATEGY_GUIDE = {
+    "RSI Oversold": (
+        "RSI measures momentum. 'Oversold' means price has fallen fast and may be stretched down.",
+        "This can signal a bounce setup, but only if price stabilizes and volume confirms.",
+    ),
+    "RSI Overbought": (
+        "RSI measures momentum. 'Overbought' means price has run up quickly and may be stretched up.",
+        "This can warn of pullback risk if momentum starts fading.",
+    ),
+    "MACD Bullish Crossover": (
+        "MACD compares short and medium trend momentum. Bullish crossover means momentum is improving.",
+        "Often used as an early trend continuation signal when price also holds key moving averages.",
+    ),
+    "MACD Bearish Crossover": (
+        "MACD bearish crossover means short-term momentum is weakening versus the recent trend.",
+        "Often an early warning to reduce risk or tighten stops.",
+    ),
+    "Golden Cross": (
+        "Golden Cross is when the 50-day moving average rises above the 200-day moving average.",
+        "This is a long-term trend-strength signal many institutions watch.",
+    ),
+    "Death Cross": (
+        "Death Cross is when the 50-day moving average falls below the 200-day moving average.",
+        "This warns that long-term trend structure is weakening.",
+    ),
+    "SMA 30 — Bullish Reclaim": (
+        "Price moved back above its 30-day average, a medium-term trend line.",
+        "This can mark a trend reset if price can stay above that level.",
+    ),
+    "SMA 30 — Bearish Loss": (
+        "Price fell below its 30-day average, a medium-term trend line.",
+        "This is often a risk-management warning before bigger trend breaks.",
+    ),
+    "EMA 9/21 — Bullish Cross": (
+        "The fast average (9 EMA) crossed above the slower average (21 EMA).",
+        "This suggests short-term momentum is accelerating upward.",
+    ),
+    "EMA 9/21 — Bearish Cross": (
+        "The fast average (9 EMA) crossed below the slower average (21 EMA).",
+        "This suggests short-term momentum is weakening.",
+    ),
+}
+
+
+def _beginner_explainer_for_strategy(strategy_name: str) -> tuple[str, str]:
+    if strategy_name in BEGINNER_STRATEGY_GUIDE:
+        return BEGINNER_STRATEGY_GUIDE[strategy_name]
+
+    s = (strategy_name or "").lower()
+    if "breakout" in s:
+        return (
+            "A breakout means price moved above a recent range or high.",
+            "Breakouts can start strong trends when volume and follow-through are present.",
+        )
+    if "bollinger" in s:
+        return (
+            "Bollinger Bands show how far price is from its recent average volatility range.",
+            "Touches can signal either mean-reversion opportunities or strong trend extension.",
+        )
+    if "vwap" in s:
+        return (
+            "VWAP is the average traded price weighted by volume.",
+            "Trading above VWAP often means buyers are controlling the session; below means sellers.",
+        )
+    if "adx" in s:
+        return (
+            "ADX measures trend strength, not direction.",
+            "Higher ADX means trend conditions are stronger and pullbacks can be shallower.",
+        )
+    if "stoch" in s:
+        return (
+            "Stochastic-style indicators compare current price to its recent range.",
+            "Extremes can mark momentum turning points when confirmed by price action.",
+        )
+    if "atr" in s or "ulcer" in s:
+        return (
+            "This is a volatility or drawdown stress signal.",
+            "Use it to size positions smaller when market movement risk is elevated.",
+        )
+    return (
+        "This is a rule-based technical signal from the strategy engine.",
+        "Use it with trend context, risk limits, and confirmation instead of trading it in isolation.",
+    )
+
 # ─── Shared HTML shell ────────────────────────────────────────────────────────
 
 def shell(title: str, body: str, active: str = "") -> str:
@@ -252,9 +475,10 @@ def home():
 
     bullish_n  = sum(1 for s in signals if s["direction"] == "BULLISH")
     bearish_n  = sum(1 for s in signals if s["direction"] == "BEARISH")
+    macro = compute_macro_tilt_snapshot()
 
     # Top 5 grouped rows (top rule + runner-up when present)
-    from strategy_engine import group_signals_primary_secondary
+    from strategy_engine import group_signals_primary_secondary, strategy_learn_link
 
     groups    = group_signals_primary_secondary(signals)[:5]
     top_rows = ""
@@ -297,6 +521,11 @@ def home():
                 f'<div style="font-size:9px;color:{adj_c};margin-top:2px">'
                 f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f}</div>'
             )
+        learn_badge = strategy_learn_link(s.get("strategy", ""), style="badge")
+        strat_html = (
+            f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div>'
+            + (f'<div style="margin-top:4px">{learn_badge}</div>' if learn_badge else "")
+        )
         search_blob = " ".join(
             [
                 str(s.get("ticker", "")),
@@ -311,7 +540,7 @@ def home():
             f'<td style="color:{dc};font-size:16px">{arrow}</td>'
             f'<td><div style="font-weight:700;color:#e2e8f0"><a href="/chart?ticker={s["ticker"]}" '
             f'style="color:#e2e8f0;text-decoration:none">{s["ticker"]}</a></div>'
-            f'<div style="font-size:11px;color:#64748b">{s["strategy"]}</div>{reg_l}{agree_l}{sub}</td>'
+            f'{strat_html}{reg_l}{agree_l}{sub}</td>'
             f'<td style="text-align:right;color:{cc};font-weight:700;font-size:16px">{conf:.0f}{adj_l}</td>'
             f'<td style="text-align:right;color:#94a3b8">{wr}{n_sub}</td>'
             f'</tr>'
@@ -419,6 +648,91 @@ def home():
       </table>''' if d_rows else '<div style="font-size:11px;color:#64748b">No active adjustments this run.</div>'}
     </div>"""
 
+    if macro.get("ok"):
+        tilt_pct = int(macro.get("tilt_pct", 0))
+        tilt_c = "#22c55e" if tilt_pct >= 15 else ("#f59e0b" if tilt_pct > 0 else "#94a3b8")
+        trg = "ON" if macro.get("trigger_on") else "OFF"
+        trg_c = "#22c55e" if macro.get("trigger_on") else "#64748b"
+        conf = "ON" if macro.get("confirmation_on") else "OFF"
+        conf_c = "#22c55e" if macro.get("confirmation_on") else "#64748b"
+        lead = f"{macro.get('leaders_above_sma30', 0)}/{macro.get('leaders_total', 3)}"
+        lead_c = "#22c55e" if macro.get("leadership_on") else "#64748b"
+        risk = "YES" if macro.get("riskoff_flip") else "NO"
+        risk_c = "#ef4444" if macro.get("riskoff_flip") else "#64748b"
+        macro_block = f"""
+    <div class="card">
+      <h2>Macro Tilt (RSP/SPY)</h2>
+      <div style="font-size:12px;color:#94a3b8;margin-bottom:8px">
+        {macro.get("tilt_label", "Neutral")} · as of {macro.get("as_of", "n/a")}
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px">
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:13px;font-weight:800;color:#e2e8f0">{macro.get("ratio", 0):.4f}</div>
+          <div style="font-size:10px;color:#475569">RSP/SPY</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:13px;font-weight:800;color:#e2e8f0">{macro.get("ratio_sma30", 0):.4f}</div>
+          <div style="font-size:10px;color:#475569">SMA 30</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:18px;font-weight:900;color:{tilt_c}">{tilt_pct}%</div>
+          <div style="font-size:10px;color:#475569">Recommended Tilt</div>
+        </div>
+      </div>
+      <table>
+        <tr><td style="color:#94a3b8">Trigger (ratio &lt; SMA30 + slope down)</td><td style="text-align:right;color:{trg_c};font-weight:700">{trg}</td></tr>
+        <tr><td style="color:#94a3b8">Confirmation (SPY near 20d high + ratio 20d low)</td><td style="text-align:right;color:{conf_c};font-weight:700">{conf}</td></tr>
+        <tr><td style="color:#94a3b8">Leadership above SMA30 (NVDA/ORCL/PLTR)</td><td style="text-align:right;color:{lead_c};font-weight:700">{lead}</td></tr>
+        <tr><td style="color:#94a3b8">Risk-off flip (ratio above SMA30 3 days)</td><td style="text-align:right;color:{risk_c};font-weight:700">{risk}</td></tr>
+      </table>
+      <div style="font-size:11px;color:#64748b;margin-top:8px">
+        Rule set: +10% base tilt on trigger, +5% on confirmation, +5% on leadership; capped at 20%.
+      </div>
+    </div>"""
+    else:
+        macro_block = f"""
+    <div class="card">
+      <h2>Macro Tilt (RSP/SPY)</h2>
+      <div style="font-size:12px;color:#94a3b8">Unavailable right now: {macro.get("message", "Data fetch error")}</div>
+    </div>"""
+
+    # Beginner mode: plain-English strategy explanations for today's active playbook.
+    guide_rows = ""
+    seen = set()
+    shown = 0
+    for s in signals:
+        strategy_name = str(s.get("strategy", "")).strip()
+        if not strategy_name or strategy_name in seen:
+            continue
+        seen.add(strategy_name)
+        what_is, why_matters = _beginner_explainer_for_strategy(strategy_name)
+        direction = str(s.get("direction", "")).upper()
+        d_color = "#22c55e" if direction == "BULLISH" else "#ef4444"
+        guide_rows += (
+            f'<div style="background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:10px;margin-bottom:8px">'
+            f'<div style="font-size:12px;color:#e2e8f0;font-weight:700">{strategy_name}</div>'
+            f'<div style="font-size:10px;color:{d_color};font-weight:700;margin-top:3px">{direction}</div>'
+            f'<div style="font-size:12px;color:#94a3b8;margin-top:6px;line-height:1.45"><strong style="color:#cbd5e1">What it is:</strong> {what_is}</div>'
+            f'<div style="font-size:12px;color:#94a3b8;margin-top:6px;line-height:1.45"><strong style="color:#cbd5e1">Why it matters:</strong> {why_matters}</div>'
+            f'</div>'
+        )
+        shown += 1
+        if shown >= 5:
+            break
+    if not guide_rows:
+        guide_rows = '<div style="font-size:12px;color:#94a3b8">No active signals yet. Tap Refresh to generate today&apos;s strategy list.</div>'
+    beginner_block = f"""
+    <div class="card">
+      <h2>Beginner Mode: Read Today&apos;s Signals</h2>
+      <div style="font-size:12px;color:#64748b;margin-bottom:8px">
+        Plain-English definitions for the active strategies in this run.
+      </div>
+      {guide_rows}
+      <div style="font-size:11px;color:#64748b">
+        Starter rule: never trade a signal without position size, stop level, and invalidation plan.
+      </div>
+    </div>"""
+
     body = f"""
     <!-- Sentiment banner -->
     <div style="background:{s_bg};border-bottom:2px solid {s_color}30;
@@ -438,6 +752,9 @@ def home():
                 background:#0a0f1e;border-bottom:1px solid #1e293b">
       {idx_html}
     </div>
+
+    {macro_block}
+    {beginner_block}
 
     <!-- Quick actions -->
     <div class="card">
@@ -524,6 +841,7 @@ def signals_page():
         group_signals_primary_secondary,
         confidence_breakdown,
         holdout_backtest_score,
+        strategy_learn_link,
     )
 
     signals = _cache.get("signals") or []
@@ -584,6 +902,7 @@ def signals_page():
                 f'<div style="font-size:10px;color:{adj_c};margin-top:2px">'
                 f'base {conf_base:.0f} {adj_sign}{conf_adj:.0f} positioning</div>'
             )
+        learn_badge = strategy_learn_link(s.get("strategy", ""), style="badge")
         search_blob = " ".join(
             [
                 str(s.get("ticker", "")),
@@ -609,6 +928,7 @@ def signals_page():
               {agr_html}
               <div style="font-size:11px;color:#64748b;margin-top:2px">Top rule</div>
               <div style="font-size:12px;color:#818cf8;margin-top:3px">{s['strategy']}</div>
+              {f'<div style="margin-top:6px">{learn_badge}</div>' if learn_badge else ''}
             </div>
             <div style="text-align:right">
               <div style="font-size:24px;font-weight:900;color:{cc}">{conf:.0f}</div>
@@ -845,6 +1165,7 @@ def chart_page():
         {{ key: 'ema9', label: 'EMA 9', group: 'price' }},
         {{ key: 'ema21', label: 'EMA 21', group: 'price' }},
         {{ key: 'sma20', label: 'SMA 20', group: 'price' }},
+        {{ key: 'sma30', label: 'SMA 30', group: 'price' }},
         {{ key: 'sma50', label: 'SMA 50', group: 'price' }},
         {{ key: 'bb_upper', label: 'BB Upper', group: 'price' }},
         {{ key: 'bb_lower', label: 'BB Lower', group: 'price' }},
@@ -862,7 +1183,9 @@ def chart_page():
         if (s.includes('rsi')) return ['rsi14'];
         if (s.includes('bollinger')) return ['sma20', 'bb_upper', 'bb_lower'];
         if (s.includes('vwap')) return ['vwap'];
-        if (s.includes('golden cross') || s.includes('death cross') || s.includes('sma')) return ['sma20', 'sma50'];
+        if (s.includes('golden cross') || s.includes('death cross')) return ['sma30', 'sma50'];
+        if (s.includes('sma 30')) return ['sma30'];
+        if (s.includes('sma')) return ['sma20', 'sma30', 'sma50'];
         if (s.includes('ema')) return ['ema9', 'ema21'];
         if (s.includes('breakout') || s.includes('aroon') || s.includes('adx')) return ['ema21', 'sma20'];
         return [];
@@ -928,6 +1251,7 @@ def chart_page():
           maybeLine('ema9', '#60a5fa');
           maybeLine('ema21', '#818cf8');
           maybeLine('sma20', '#f59e0b');
+          maybeLine('sma30', '#fb7185');
           maybeLine('sma50', '#f97316');
           maybeLine('bb_upper', '#64748b', 1.0);
           maybeLine('bb_lower', '#64748b', 1.0);
@@ -1005,6 +1329,7 @@ def chart_page():
             return `
               <div style="background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:10px;margin-bottom:8px">
                 <div style="font-size:12px;color:${{col}};font-weight:700">${{s.direction}} · ${{s.strategy}} · score ${{s.confidence}}</div>
+                ${{s.learn_html ? `<div style="margin-top:6px">${{s.learn_html}}</div>` : ''}}
                 <div style="font-size:12px;color:#818cf8;margin-top:6px;font-family:monospace">${{s.indicator || ''}}</div>
                 <div style="font-size:12px;color:#94a3b8;margin-top:6px;line-height:1.45">${{s.implication || ''}}</div>
               </div>
@@ -1054,6 +1379,7 @@ def api_candles():
         vol = df["Volume"].fillna(0)
 
         sma20 = close.rolling(20).mean()
+        sma30 = close.rolling(30).mean()
         sma50 = close.rolling(50).mean()
         ema9 = close.ewm(span=9, adjust=False).mean()
         ema21 = close.ewm(span=21, adjust=False).mean()
@@ -1092,6 +1418,7 @@ def api_candles():
             )
         indicators = {
             "sma20": _series_json(sma20),
+            "sma30": _series_json(sma30),
             "sma50": _series_json(sma50),
             "ema9": _series_json(ema9),
             "ema21": _series_json(ema21),
@@ -1120,6 +1447,7 @@ def api_candles():
 @app.route("/api/ticker-signals")
 def api_ticker_signals():
     refresh_cache()
+    from strategy_engine import strategy_learn_link
     ticker = (request.args.get("ticker") or "").strip().upper()
     if not ticker:
         return jsonify({"ok": False, "message": "Ticker is required.", "signals": []}), 400
@@ -1134,6 +1462,7 @@ def api_ticker_signals():
             "confidence": round(float(s.get("confidence", 0.0)), 1),
             "indicator": s.get("indicator", ""),
             "implication": s.get("implication", ""),
+            "learn_html": strategy_learn_link(s.get("strategy", ""), style="badge"),
         }
         for s in top
         if float(s.get("confidence", 0.0)) >= 60
@@ -1146,10 +1475,17 @@ def api_ticker_signals():
                 "confidence": round(float(s.get("confidence", 0.0)), 1),
                 "indicator": s.get("indicator", ""),
                 "implication": s.get("implication", ""),
+                "learn_html": strategy_learn_link(s.get("strategy", ""), style="badge"),
             }
             for s in top[:3]
         ]
     return jsonify({"ok": True, "ticker": ticker, "signals": recommended})
+
+
+@app.route("/api/macro-tilt")
+def api_macro_tilt():
+    snap = compute_macro_tilt_snapshot()
+    return jsonify(snap), (200 if snap.get("ok") else 503)
 
 # ─── Logs page ────────────────────────────────────────────────────────────────
 

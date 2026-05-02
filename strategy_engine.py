@@ -99,6 +99,10 @@ STRATEGY_LINKS: dict[str, str] = {
         "https://www.investopedia.com/terms/m/movingaverage.asp",
     "EMA 9/21 — Bearish Cross":
         "https://www.investopedia.com/terms/m/movingaverage.asp",
+    "SMA 30 — Bullish Reclaim":
+        "https://www.investopedia.com/terms/m/movingaverage.asp",
+    "SMA 30 — Bearish Loss":
+        "https://www.investopedia.com/terms/m/movingaverage.asp",
     "TRIX — Bullish Cross":
         "https://www.investopedia.com/terms/t/trix.asp",
     "TRIX — Bearish Cross":
@@ -188,7 +192,7 @@ def methodology_newsletter_html() -> str:
     Rich summary of what the engine evaluates — embedded in the daily HTML newsletter.
     """
     n = len(SCAN_TICKERS)
-    m = 30
+    m = 31
     return f"""
     <div style="background:#0a1628;border-radius:10px;padding:16px 18px;margin-bottom:20px;
                 border:1px solid #1e3a5f;line-height:1.65">
@@ -212,7 +216,7 @@ def methodology_newsletter_html() -> str:
       </p>
       <ul style="margin:0;padding:0 0 0 18px;color:#cbd5e1;font-size:12px">
         <li><strong style="color:#f1f5f9">Trend &amp; structure:</strong> ADX+DI, 50/200 SMA,
-            9/21 EMA, Supertrend, Vortex, Parabolic SAR, 52-week &amp; Donchian breakouts, Aroon</li>
+            close-vs-30 SMA regime, 9/21 EMA, Supertrend, Vortex, Parabolic SAR, 52-week &amp; Donchian breakouts, Aroon</li>
         <li><strong style="color:#f1f5f9">Momentum:</strong> RSI, Stoch RSI, full Stochastic,
             MACD, PPO, TRIX, Williams %R, CCI, MFI, Awesome Oscillator, Elder Force, DPO, Fisher</li>
         <li><strong style="color:#f1f5f9">Volatility &amp; bands:</strong> Bollinger, Keltner channels,
@@ -1177,6 +1181,43 @@ def detect_ema_fast_cross(symbol: str, name: str, df: pd.DataFrame) -> list[dict
     return signals
 
 
+def detect_sma30_regime(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
+    """Close vs 30-SMA cross — medium-term trend regime filter."""
+    signals: list[dict] = []
+    col = "SMA_30"
+    if col not in df.columns or len(df) < 31 or df[col].isna().iloc[-1]:
+        return signals
+
+    sma30 = df[col]
+    price = df["Close"]
+
+    if price.iloc[-1] > sma30.iloc[-1] and price.iloc[-2] <= sma30.iloc[-2]:
+        mask = (price > sma30) & (price.shift(1) <= sma30.shift(1))
+        bt = backtest_signal(price, mask)
+        signals.append(_make_signal(
+            symbol, name,
+            "SMA 30 — Bullish Reclaim", "BULLISH",
+            f"Close {float(price.iloc[-1]):.2f} reclaimed SMA 30 {float(sma30.iloc[-1]):.2f}",
+            "Price reclaimed its 30-day simple moving average, a practical medium-term trend marker "
+            "between short EMA swings and slower 50/200 structure.",
+            "Bias shifts constructive while closes hold above the 30-day baseline.",
+            bt,
+        ))
+    elif price.iloc[-1] < sma30.iloc[-1] and price.iloc[-2] >= sma30.iloc[-2]:
+        mask = (price < sma30) & (price.shift(1) >= sma30.shift(1))
+        bt = backtest_signal(price, mask)
+        signals.append(_make_signal(
+            symbol, name,
+            "SMA 30 — Bearish Loss", "BEARISH",
+            f"Close {float(price.iloc[-1]):.2f} lost SMA 30 {float(sma30.iloc[-1]):.2f}",
+            "Price lost the 30-day simple moving average, often an early warning that momentum "
+            "is degrading before slower long-term crosses react.",
+            "Treat as risk-management signal until price can reclaim and hold the 30-day baseline.",
+            bt,
+        ))
+    return signals
+
+
 def detect_trix(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     """TRIX / signal line — triple-smoothed rate of change, crossover signals."""
     signals: list[dict] = []
@@ -1735,6 +1776,7 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
         df.ta.rsi(length=14, append=True)
         df.ta.stochrsi(length=14, append=True)
         df.ta.macd(fast=12, slow=26, signal=9, append=True)
+        df.ta.sma(length=30,  append=True)
         df.ta.sma(length=50,  append=True)
         df.ta.sma(length=200, append=True)
         df.ta.bbands(length=20, std=2.0, append=True)
@@ -1760,6 +1802,7 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
     signals += detect_cmf(symbol, name, df)
     signals += detect_aroon(symbol, name, df)
     signals += detect_ema_fast_cross(symbol, name, df)
+    signals += detect_sma30_regime(symbol, name, df)
     signals += detect_trix(symbol, name, df)
     signals += detect_obv_cross(symbol, name, df)
     signals += detect_psar_flip(symbol, name, df)
@@ -1801,6 +1844,7 @@ def scan_ticker(symbol: str, name: str) -> list[dict]:
         df.ta.rsi(length=14, append=True)
         df.ta.stochrsi(length=14, append=True)
         df.ta.macd(fast=12, slow=26, signal=9, append=True)
+        df.ta.sma(length=30,  append=True)
         df.ta.sma(length=50,  append=True)
         df.ta.sma(length=200, append=True)
         df.ta.bbands(length=20, std=2.0, append=True)
@@ -1826,6 +1870,7 @@ def scan_ticker(symbol: str, name: str) -> list[dict]:
     signals += detect_cmf(symbol, name, df)
     signals += detect_aroon(symbol, name, df)
     signals += detect_ema_fast_cross(symbol, name, df)
+    signals += detect_sma30_regime(symbol, name, df)
     signals += detect_trix(symbol, name, df)
     signals += detect_obv_cross(symbol, name, df)
     signals += detect_psar_flip(symbol, name, df)
@@ -1864,7 +1909,7 @@ def run_full_scan(
 
     logger.info(
         f"Scanning {len(tickers)} tickers + {len(dex_tickers)} DEX tokens "
-        f"across 30 strategy detectors (pandas-ta) ..."
+        f"across 31 strategy detectors (pandas-ta) ..."
     )
     all_signals: list[dict] = []
 
