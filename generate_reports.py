@@ -256,6 +256,19 @@ def generate_simulation_report() -> None:
                 "",
             ]
 
+    du = state.get("simulation_daily_update")
+    if du and isinstance(du, dict):
+        lines += [
+            "",
+            "## Daily update — top 10 bullish signals",
+            "",
+            str(du.get("intro", "")),
+            "",
+        ]
+        for i, b in enumerate(du.get("bullets") or [], start=1):
+            lines.append(f"{i}. {b}")
+        lines += ["", str(du.get("summary", "")), ""]
+
     # Rationale for each position
     lines += ["## Position Rationale", ""]
     for r in rows:

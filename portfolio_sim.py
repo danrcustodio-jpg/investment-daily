@@ -15,6 +15,7 @@ Usage:
 import os
 import sys
 import json
+import html
 import smtplib
 import logging
 from datetime import datetime, date
@@ -409,6 +410,269 @@ def _score_signal(sig: dict) -> float:
     return conf * wr * (1 + sharpe / 10) * (1 - dd * 0.25)
 
 
+def build_sig_map(signals: list[dict]) -> dict[str, dict[str, list]]:
+    """Group scan signals by ticker and direction (BULLISH / BEARISH lists)."""
+    sig_map: dict[str, dict[str, list]] = {}
+    for s in signals:
+        t = s["ticker"]
+        direction = s["direction"].upper()
+        if t not in sig_map:
+            sig_map[t] = {"bullish": [], "bearish": []}
+        sig_map[t]["bullish" if direction == "BULLISH" else "bearish"].append(s)
+    return sig_map
+
+
+def gather_ranked_new_candidates(
+    sig_map: dict[str, dict[str, list]], in_portfolio: set[str]
+) -> list[dict]:
+    """
+    All symbols that could become NEW_OPPORTUNITY, sorted by composite score (best first).
+    Mirrors the filters in evaluate_portfolio (min confidence, bear conflict, etc.).
+    """
+    candidates: list[dict] = []
+    for ticker, sigs in sig_map.items():
+        if ticker in in_portfolio:
+            continue
+        bull = sigs["bullish"]
+        bear = sigs["bearish"]
+        if not bull:
+            continue
+
+        top_bull = max(bull, key=lambda x: x["confidence"])
+        if top_bull["confidence"] < MIN_EVAL_CONFIDENCE:
+            continue
+
+        top_bear_conf = max((s["confidence"] for s in bear), default=0)
+        if top_bear_conf >= 78:
+            continue
+
+        d5 = top_bull.get("backtest", {}).get("5d", {})
+        score = _score_signal(top_bull) - sum(_score_signal(s) for s in bear) * 0.5
+        candidates.append(
+            {
+                "ticker": ticker,
+                "signal": top_bull["strategy"],
+                "confidence": top_bull["confidence"],
+                "win_rate": d5.get("win_rate", "?"),
+                "avg_return": d5.get("avg_return", "?"),
+                "max_drawdown": d5.get("max_drawdown", "?"),
+                "sharpe": d5.get("sharpe", "?"),
+                "score": score,
+                "bear_count": len(bear),
+                "top_bear_conf": top_bear_conf,
+                "is_crypto": ticker.endswith("-USD"),
+            }
+        )
+
+    candidates.sort(key=lambda x: x["score"], reverse=True)
+    return candidates
+
+
+def select_new_opportunity_candidates(candidates: list[dict]) -> list[dict]:
+    """Pick up to MAX_NEW_IDEAS names with the same crypto-first rule as evaluate_portfolio."""
+    selected: list[dict] = []
+    best_crypto = next((c for c in candidates if c["is_crypto"]), None)
+    if best_crypto:
+        selected.append(best_crypto)
+    for c in candidates:
+        if c in selected:
+            continue
+        selected.append(c)
+        if len(selected) >= MAX_NEW_IDEAS:
+            break
+    return selected[:MAX_NEW_IDEAS]
+
+
+def simulation_daily_update(
+    state: dict,
+    signals: list[dict],
+    recs: list[dict],
+    deployable: float,
+    candidates: list[dict],
+    selected_candidates: list[dict],
+) -> dict:
+    """
+    Human-readable daily note: why the book did or did not move, grounded in the
+    top 10 bullish scan rows (by confidence) and the same rules as the advisor.
+    """
+    positions = state.get("positions") or {}
+    sig_map = build_sig_map(signals)
+
+    bullish = [s for s in signals if str(s.get("direction", "")).upper() == "BULLISH"]
+    bullish.sort(key=lambda s: float(s.get("confidence") or 0), reverse=True)
+    top10 = bullish[:10]
+
+    rec_by_ticker = {r["ticker"]: r for r in recs if r.get("ticker")}
+    selected_tickers = {c["ticker"] for c in selected_candidates}
+    rank_by_ticker = {c["ticker"]: i + 1 for i, c in enumerate(candidates)}
+
+    bullets: list[str] = []
+    for s in top10:
+        t = s.get("ticker", "?")
+        strat = s.get("strategy", "?")
+        conf = float(s.get("confidence") or 0)
+        pos = positions.get(t)
+
+        if pos and pos.get("type") == "cash":
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                "Cash sleeve; not opened as an equity trade from this signal."
+            )
+            continue
+
+        if pos:
+            r = rec_by_ticker.get(t)
+            act = r.get("action", "—") if r else "—"
+            if pos.get("status") == "pending":
+                if r:
+                    reason = r.get("reason", "") or ""
+                    tail = reason[:160] + ("…" if len(reason) > 160 else "")
+                else:
+                    tail = ""
+                bullets.append(
+                    f"{t} ({strat}, score {conf:.0f}) — "
+                    f"Already have a pending limit on this name. Advisor: {act}. {tail}"
+                )
+            else:
+                bullets.append(
+                    f"{t} ({strat}, score {conf:.0f}) — "
+                    f"Already in the portfolio. Advisor: {act}."
+                )
+            continue
+
+        bull = sig_map.get(t, {}).get("bullish", [])
+        bear = sig_map.get(t, {}).get("bearish", [])
+        top_bull = max(bull, key=lambda x: float(x.get("confidence") or 0)) if bull else None
+        if not top_bull:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                "No bullish bucket for this symbol after grouping (unusual)."
+            )
+            continue
+
+        same_line = (
+            top_bull.get("strategy") == s.get("strategy")
+            and float(top_bull.get("confidence") or 0) == conf
+        )
+        if not same_line:
+            tb_conf = float(top_bull.get("confidence") or 0)
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                "New-entry logic keys off the strongest bullish on this ticker: "
+                f"{top_bull.get('strategy', '?')} at {tb_conf:.0f}. "
+                "This scan row is informational only for allocation."
+            )
+            continue
+
+        if top_bull["confidence"] < MIN_EVAL_CONFIDENCE:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                f"Below the simulation minimum for new ideas (confidence < {MIN_EVAL_CONFIDENCE})."
+            )
+            continue
+
+        max_bear = max((float(x.get("confidence") or 0) for x in bear), default=0.0)
+        if max_bear >= 78:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                f"Blocked by the bearish conflict guard (a bearish rule on this ticker scores {max_bear:.0f}, ≥ 78)."
+            )
+            continue
+
+        if deployable < 5_000:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                f"Would be evaluated for new entries, but deployable capital "
+                f"(${deployable:,.0f}) is under the $5,000 threshold."
+            )
+            continue
+
+        rank = rank_by_ticker.get(t)
+        if rank is None:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                "Did not make the ranked new-entry list after the composite score "
+                "(confidence, win rate, Sharpe, drawdown, and bearish penalty)."
+            )
+            continue
+
+        if t in selected_tickers:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                f"Qualified and selected as a top-{MAX_NEW_IDEAS} new opportunity "
+                f"(composite rank #{rank}). See Strategy Advisor for sizing."
+            )
+        else:
+            bullets.append(
+                f"{t} ({strat}, score {conf:.0f}) — "
+                f"Qualified at composite rank #{rank}, but only the top {MAX_NEW_IDEAS} "
+                "new ideas are published each cycle (crypto may reserve one slot)."
+            )
+
+    new_ops = [r for r in recs if r.get("action") == "NEW_OPPORTUNITY"]
+    exits = [r for r in recs if r.get("action") == "REVIEW_EXIT"]
+    cancels = [r for r in recs if r.get("action") == "CANCEL_LIMIT"]
+
+    intro = (
+        f"Deployable capital (cash plus modeled proceeds from any REVIEW_EXIT rows): "
+        f"${deployable:,.0f}. "
+        f"Advisor flags: {len(new_ops)} new opportunity(ies), {len(exits)} exit review(s), "
+        f"{len(cancels)} limit cancel(s). "
+        "The list below walks the ten highest-confidence bullish scan rows and ties each "
+        "to why the simulation did or did not act on that theme today."
+    )
+
+    moves = state.get("trade_log") or []
+    today = date.today().isoformat()
+    today_moves = [m for m in moves if str(m.get("timestamp", "")).startswith(today)]
+    if today_moves:
+        parts = []
+        for m in today_moves[-4:]:
+            parts.append(f"{m.get('action', '?')} {m.get('ticker', '?')}")
+        move_summary = "Today's paper moves: " + "; ".join(parts) + "."
+    elif moves:
+        last = moves[-1]
+        move_summary = (
+            "No paper trades stamped today yet; last logged move: "
+            f"{last.get('action', '?')} {last.get('ticker', '?')}."
+        )
+    else:
+        move_summary = "No paper trade log entries yet."
+
+    summary = (
+        f"{move_summary} "
+        "Open or pending names are governed by per-ticker bull vs bear weights; "
+        "fresh tickers must pass minimum score, pass the bearish ≥78 guard, "
+        f"and place in the top {MAX_NEW_IDEAS} composite ranks (crypto may take one slot)."
+    )
+
+    return {
+        "date": today,
+        "intro": intro,
+        "bullets": bullets,
+        "summary": summary,
+    }
+
+
+def format_simulation_daily_update_html(block: dict | None) -> str:
+    """Render simulation_daily_update dict as an HTML fragment (safe escaped)."""
+    if not block:
+        return ""
+    intro = html.escape(str(block.get("intro", "")))
+    summary = html.escape(str(block.get("summary", "")))
+    items = "".join(
+        f"<li style='margin:8px 0;color:#cbd5e1;line-height:1.45'>{html.escape(b)}</li>"
+        for b in block.get("bullets") or []
+    )
+    return f"""
+    <h3 style='color:#e2e8f0;margin:28px 0 12px'>Daily update — top 10 bullish signals</h3>
+    <div style='background:#1e293b;border-radius:8px;padding:16px 18px;border-left:3px solid #818cf8'>
+      <p style='margin:0 0 14px;color:#cbd5e1;font-size:14px;line-height:1.55'>{intro}</p>
+      <ol style='margin:0;padding-left:20px;color:#94a3b8;font-size:13px'>{items}</ol>
+      <p style='margin:14px 0 0;color:#94a3b8;font-size:12px;line-height:1.5'>{summary}</p>
+    </div>"""
+
+
 def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[dict]:
     """
     Evaluate every position against live signals. Factor in taxes and slippage.
@@ -424,14 +688,7 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
     positions  = state["positions"]
     recs: list[dict] = []
 
-    # Build per-ticker signal map from the full scan
-    sig_map: dict[str, dict[str, list]] = {}
-    for s in signals:
-        t   = s["ticker"]
-        dir = s["direction"].upper()
-        if t not in sig_map:
-            sig_map[t] = {"bullish": [], "bearish": []}
-        sig_map[t]["bullish" if dir == "BULLISH" else "bearish"].append(s)
+    sig_map = build_sig_map(signals)
 
     avail_cash     = 0.0
     exit_proceeds  = 0.0  # capital that would be freed by any REVIEW_EXIT
@@ -543,55 +800,13 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
     # ── Identify new opportunities not already in the portfolio ───────────────
     in_portfolio  = set(positions.keys())
     deployable    = avail_cash + exit_proceeds
+    candidates    = gather_ranked_new_candidates(sig_map, in_portfolio)
+    selected: list[dict] = []
 
     if deployable >= 5_000:
-        candidates = []
-        for ticker, sigs in sig_map.items():
-            if ticker in in_portfolio:
-                continue
-            bull = sigs["bullish"]
-            bear = sigs["bearish"]
-            if not bull:
-                continue
+        selected = select_new_opportunity_candidates(candidates)
 
-            top_bull      = max(bull, key=lambda s: s["confidence"])
-            if top_bull["confidence"] < MIN_EVAL_CONFIDENCE:
-                continue
-
-            top_bear_conf = max((s["confidence"] for s in bear), default=0)
-            if top_bear_conf >= 78:
-                continue  # skip when a very high-confidence bear signal exists
-
-            d5    = top_bull.get("backtest", {}).get("5d", {})
-            score = _score_signal(top_bull) - sum(_score_signal(s) for s in bear) * 0.5
-            candidates.append({
-                "ticker":       ticker,
-                "signal":       top_bull["strategy"],
-                "confidence":   top_bull["confidence"],
-                "win_rate":     d5.get("win_rate", "?"),
-                "avg_return":   d5.get("avg_return", "?"),
-                "max_drawdown": d5.get("max_drawdown", "?"),
-                "sharpe":       d5.get("sharpe", "?"),
-                "score":        score,
-                "bear_count":   len(bear),
-                "top_bear_conf": top_bear_conf,
-                "is_crypto":    ticker.endswith("-USD"),
-            })
-
-        candidates.sort(key=lambda x: x["score"], reverse=True)
-        selected: list[dict] = []
-        # Ensure crypto is represented when a valid crypto setup exists.
-        best_crypto = next((c for c in candidates if c["is_crypto"]), None)
-        if best_crypto:
-            selected.append(best_crypto)
-        for c in candidates:
-            if c in selected:
-                continue
-            selected.append(c)
-            if len(selected) >= MAX_NEW_IDEAS:
-                break
-
-        for c in selected[:MAX_NEW_IDEAS]:
+        for c in selected:
             suggested_alloc = round(min(deployable * 0.35, 30_000) / 1000) * 1000
             if c["is_crypto"]:
                 suggested_alloc = round(min(deployable * 0.25, 25_000) / 1000) * 1000
@@ -623,6 +838,10 @@ def evaluate_portfolio(state: dict, prices: dict, signals: list[dict]) -> list[d
     # Sort: high first, then by ticker name
     priority_order = {"high": 0, "medium": 1, "low": 2}
     recs.sort(key=lambda r: (priority_order.get(r["priority"], 9), r["ticker"]))
+
+    state["simulation_daily_update"] = simulation_daily_update(
+        state, signals, recs, deployable, candidates, selected
+    )
     return recs
 
 
@@ -999,6 +1218,8 @@ def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = Fa
       </tr>
     </tfoot>
   </table>
+
+  {format_simulation_daily_update_html(state.get("simulation_daily_update"))}
 
   {curve_html}
   {move_html}
