@@ -1,0 +1,76 @@
+{
+  "initialized": "2026-05-04T12:31:45.865613",
+  "init_date": "2026-05-04",
+  "total_capital": 5000.0,
+  "cash": 826.79,
+  "positions": {
+    "NVDA": {
+      "ticker": "NVDA",
+      "type": "spot",
+      "allocation": 2250.0,
+      "entry_price": 197.962997,
+      "signal": "Williams %R \u2014 Oversold",
+      "confidence": 86.1,
+      "opened": "2026-05-04",
+      "shares": 11.36576042
+    },
+    "GC=F": {
+      "ticker": "GC=F",
+      "type": "spot",
+      "allocation": 1234.97,
+      "entry_price": 4524.600098,
+      "signal": "Keltner \u2014 Lower Channel Touch",
+      "confidence": 91.4,
+      "opened": "2026-05-04",
+      "shares": 0.27294567
+    },
+    "COIN": {
+      "ticker": "COIN",
+      "type": "spot",
+      "allocation": 677.84,
+      "entry_price": 203.559998,
+      "signal": "MACD Bullish Crossover",
+      "confidence": 74.0,
+      "opened": "2026-05-04",
+      "shares": 3.32992733
+    }
+  },
+  "fees_paid": 10.4,
+  "trade_log": [
+    {
+      "action": "BUY",
+      "ticker": "NVDA",
+      "allocation": 2250.0,
+      "entry_price": 197.963,
+      "fee": 5.62,
+      "cash_after": 2744.38,
+      "reason": "Williams %R \u2014 Oversold (86.1)",
+      "timestamp": "2026-05-04T12:36:09.245103"
+    },
+    {
+      "action": "BUY",
+      "ticker": "GC=F",
+      "allocation": 1234.97,
+      "entry_price": 4524.6001,
+      "fee": 3.09,
+      "cash_after": 1506.32,
+      "reason": "Keltner \u2014 Lower Channel Touch (91.4)",
+      "timestamp": "2026-05-04T12:36:09.246372"
+    },
+    {
+      "action": "BUY",
+      "ticker": "COIN",
+      "allocation": 677.84,
+      "entry_price": 203.56,
+      "fee": 1.69,
+      "cash_after": 826.79,
+      "reason": "MACD Bullish Crossover (74.0)",
+      "timestamp": "2026-05-04T12:36:09.246372"
+    }
+  ],
+  "snapshots": [],
+  "benchmark": {
+    "ticker": "BTC-USD",
+    "entry_price": null
+  }
+}

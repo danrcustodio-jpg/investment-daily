@@ -6,6 +6,7 @@ Access from anywhere via ngrok tunnel (see start_dashboard.ps1).
 
 Routes:
   GET  /              Home — sentiment, top signals, quick actions
+  GET  /learning      Self-paced investing learning plan
   GET  /signals       Full strategy signal list
   GET  /simulation    Portfolio paper-trade simulation vs SPY (portfolio_sim)
   GET  /market        Full market snapshot
@@ -34,6 +35,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 LOG_DIR = os.path.join(SCRIPT_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
+LEARNING_PLAN_FILE = os.path.join(SCRIPT_DIR, "learning_plan.json")
 
 app = Flask(__name__)
 log = logging.getLogger("dashboard")
@@ -339,6 +341,115 @@ def _beginner_explainer_for_strategy(strategy_name: str) -> tuple[str, str]:
         "Use it with trend context, risk limits, and confirmation instead of trading it in isolation.",
     )
 
+
+def default_learning_plan_state() -> dict:
+    modules = [
+        {
+            "id": "foundations",
+            "title": "Investing Foundations (Accounts, Risk, Asset Types)",
+            "est_hours": 4,
+            "why": "Build confidence with the language behind your Schwab, IRA, and custodial decisions.",
+            "links": [
+                {"label": "Schwab Investing Basics Collection", "url": "https://www.schwab.com/learn/collection/investing-basics"},
+                {"label": "Investopedia Investing Basics", "url": "https://www.investopedia.com/investing-essentials-4689754"},
+            ],
+        },
+        {
+            "id": "portfolio",
+            "title": "Portfolio Design for Capital Preservation",
+            "est_hours": 4,
+            "why": "Match your bear-market posture: preserve capital while keeping upside optionality.",
+            "links": [
+                {"label": "Schwab Asset Allocation and Diversification", "url": "https://www.schwab.com/learn"},
+                {"label": "Investopedia Risk Management", "url": "https://www.investopedia.com/terms/r/riskmanagement.asp"},
+            ],
+        },
+        {
+            "id": "technical",
+            "title": "Technical Analysis with SMA 30 + Trend Context",
+            "est_hours": 5,
+            "why": "Formalize what is already working for you in RIOT, MARA, ARKB, MSTR, and ETF trend setups.",
+            "links": [
+                {"label": "Schwab Technical Analysis Basics", "url": "https://www.schwab.com/learn"},
+                {"label": "Investopedia Moving Averages", "url": "https://www.investopedia.com/terms/m/movingaverage.asp"},
+            ],
+        },
+        {
+            "id": "crypto_ai",
+            "title": "BTC and AI Exposure Framework (Focus without Overload)",
+            "est_hours": 4,
+            "why": "Define when to lean in versus stay defensive when the opportunity set feels too broad.",
+            "links": [
+                {"label": "Coinbase Learn", "url": "https://www.coinbase.com/learn"},
+                {"label": "Investopedia Cryptocurrency", "url": "https://www.investopedia.com/cryptocurrency-4427699"},
+            ],
+        },
+        {
+            "id": "execution",
+            "title": "Execution Playbook and Journal Routine",
+            "est_hours": 3,
+            "why": "Turn strategy into repeatable execution: setup, size, stop, review.",
+            "links": [
+                {"label": "Schwab Trading Education", "url": "https://www.schwab.com/learn"},
+                {"label": "Investopedia Trading Basic Education", "url": "https://www.investopedia.com/trading-basic-education-4689651"},
+            ],
+        },
+    ]
+    return {
+        "profile": {
+            "brokerages": ["Schwab", "Coinbase", "Robinhood"],
+            "accounts": ["PCRA trust retirement", "401(k)", "Roth IRA", "custodial accounts"],
+            "focus": ["Capital preservation", "BTC", "AI", "SMA 30 trend signals"],
+        },
+        "pace": {
+            "weekly_hours": 3,
+            "notes": "Start slow and stack consistency over intensity.",
+        },
+        "modules": [
+            {
+                **m,
+                "completed": False,
+                "confidence": 1,
+                "notes": "",
+                "updated_at": None,
+            }
+            for m in modules
+        ],
+    }
+
+
+def load_learning_plan_state() -> dict:
+    state = default_learning_plan_state()
+    if not os.path.exists(LEARNING_PLAN_FILE):
+        return state
+    try:
+        with open(LEARNING_PLAN_FILE, encoding="utf-8") as f:
+            raw = json.load(f)
+        if not isinstance(raw, dict):
+            return state
+        if isinstance(raw.get("pace"), dict):
+            state["pace"].update(raw["pace"])
+        if isinstance(raw.get("profile"), dict):
+            state["profile"].update(raw["profile"])
+
+        by_id = {m["id"]: m for m in state["modules"]}
+        for m in raw.get("modules", []):
+            mid = str(m.get("id", "")).strip()
+            if mid in by_id and isinstance(m, dict):
+                by_id[mid]["completed"] = bool(m.get("completed", False))
+                by_id[mid]["confidence"] = int(m.get("confidence", 1) or 1)
+                by_id[mid]["notes"] = str(m.get("notes", ""))
+                by_id[mid]["updated_at"] = m.get("updated_at")
+        return state
+    except Exception as exc:
+        log.warning(f"Dashboard: failed loading learning plan ({exc})")
+        return state
+
+
+def save_learning_plan_state(state: dict) -> None:
+    with open(LEARNING_PLAN_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
 # ─── Shared HTML shell ────────────────────────────────────────────────────────
 
 def shell(title: str, body: str, active: str = "") -> str:
@@ -354,10 +465,12 @@ def shell(title: str, body: str, active: str = "") -> str:
 
     nav_items = [
         ("Home",    "/",             "home"),
+        ("Learn",   "/learning",     "learning"),
         ("Chart",   "/chart",        "chart"),
         ("Alerts",  "/alerts",       "alerts"),
         ("Signals", "/signals",      "signals"),
         ("Sim",     "/simulation",   "simulation"),
+        ("Agg Sim", "/aggressive-simulation", "aggressive_simulation"),
         ("Market",  "/market",       "market"),
         ("Logs",    "/logs",         "logs"),
     ]
@@ -782,6 +895,14 @@ def home():
       <a href="/simulation" class="btn btn-gray"
         style="text-decoration:none;display:block;margin-bottom:0">
         &#128202; Portfolio simulation (paper vs SPY)
+      </a>
+      <button class="btn btn-gray"
+        onclick="runAction('/run/aggressive-simulation-init','Aggressive simulation init')">
+        &#9881; Initialize Aggressive Simulation
+      </button>
+      <a href="/aggressive-simulation" class="btn btn-gray"
+        style="text-decoration:none;display:block;margin-bottom:0">
+        &#128640; Aggressive simulation ($5k high-risk)
       </a>
     </div>
 
@@ -1487,6 +1608,210 @@ def api_macro_tilt():
     snap = compute_macro_tilt_snapshot()
     return jsonify(snap), (200 if snap.get("ok") else 503)
 
+
+@app.route("/learning")
+def learning_page():
+    state = load_learning_plan_state()
+    modules = state.get("modules", [])
+    completed = sum(1 for m in modules if m.get("completed"))
+    total = len(modules) or 1
+    pct = int(round(100 * completed / total))
+    weekly_hours = int(state.get("pace", {}).get("weekly_hours", 3) or 3)
+    pace_note = str(state.get("pace", {}).get("notes", "")).strip()
+
+    profile = state.get("profile", {})
+    bro = ", ".join(profile.get("brokerages", []))
+    accts = ", ".join(profile.get("accounts", []))
+    focus = ", ".join(profile.get("focus", []))
+
+    rows = ""
+    for m in modules:
+        mid = m.get("id", "")
+        done = bool(m.get("completed"))
+        chk = "checked" if done else ""
+        card_border = "#166534" if done else "#1e293b"
+        conf = int(m.get("confidence", 1) or 1)
+        notes = str(m.get("notes", "")).replace('"', "&quot;")
+        links = "".join(
+            f'<a href="{lnk.get("url","")}" target="_blank" rel="noopener" '
+            f'style="color:#60a5fa;text-decoration:none;font-size:12px;display:block;margin-top:5px">'
+            f'- {lnk.get("label","Resource")} -></a>'
+            for lnk in (m.get("links") or [])
+        )
+        rows += f"""
+      <div style="background:#0a0f1e;border:1px solid {card_border};border-radius:10px;padding:12px;margin-bottom:10px">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+          <div>
+            <div style="font-size:13px;color:#e2e8f0;font-weight:700">{m.get("title","Module")}</div>
+            <div style="font-size:11px;color:#64748b;margin-top:4px">Estimated {int(m.get("est_hours", 2) or 2)}h</div>
+          </div>
+          <label style="font-size:11px;color:#94a3b8;display:flex;align-items:center;gap:6px">
+            <input type="checkbox" {chk}
+              onchange="updateLearningModule('{mid}', {{completed: this.checked}})" />
+            done
+          </label>
+        </div>
+        <div style="font-size:12px;color:#94a3b8;line-height:1.45;margin-top:8px">{m.get("why","")}</div>
+        <div style="margin-top:8px">{links}</div>
+        <div style="display:grid;grid-template-columns:120px 1fr;gap:8px;margin-top:10px;align-items:center">
+          <div style="font-size:11px;color:#64748b">Confidence (1-5)</div>
+          <select onchange="updateLearningModule('{mid}', {{confidence: parseInt(this.value || '1', 10)}})"
+            style="padding:8px;border-radius:8px;border:1px solid #334155;background:#020617;color:#e2e8f0;font-size:12px">
+            <option value="1" {"selected" if conf == 1 else ""}>1 - new</option>
+            <option value="2" {"selected" if conf == 2 else ""}>2 - basic</option>
+            <option value="3" {"selected" if conf == 3 else ""}>3 - comfortable</option>
+            <option value="4" {"selected" if conf == 4 else ""}>4 - strong</option>
+            <option value="5" {"selected" if conf == 5 else ""}>5 - can teach</option>
+          </select>
+        </div>
+        <textarea id="note-{mid}" placeholder="Notes (optional)..."
+          style="width:100%;margin-top:8px;min-height:62px;padding:8px;border-radius:8px;border:1px solid #334155;background:#020617;color:#e2e8f0;font-size:12px">{notes}</textarea>
+        <div style="display:flex;justify-content:flex-end;margin-top:8px">
+          <button class="btn btn-gray" style="width:auto;padding:8px 12px;margin:0"
+            onclick="saveModuleNotes('{mid}')">Save Notes</button>
+        </div>
+      </div>"""
+
+    body = f"""
+    <div style="padding:14px 14px 4px">
+      <h2>Self-Paced Learning Plan</h2>
+      <p style="font-size:12px;color:#64748b">Personalized for your current setup: capital preservation first, then selective BTC/AI execution.</p>
+    </div>
+    <div class="card">
+      <h3>Profile Context</h3>
+      <div style="font-size:12px;color:#94a3b8;line-height:1.6">
+        <div><span style="color:#64748b">Brokerages:</span> {bro}</div>
+        <div><span style="color:#64748b">Accounts:</span> {accts}</div>
+        <div><span style="color:#64748b">Focus:</span> {focus}</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Progress</h3>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px">
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;color:#e2e8f0;font-weight:800">{completed}/{total}</div>
+          <div style="font-size:10px;color:#64748b">Modules done</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;color:#22c55e;font-weight:800">{pct}%</div>
+          <div style="font-size:10px;color:#64748b">Completion</div>
+        </div>
+        <div style="background:#0a0f1e;border-radius:8px;padding:8px;text-align:center">
+          <div style="font-size:16px;color:#818cf8;font-weight:800">{weekly_hours}h</div>
+          <div style="font-size:10px;color:#64748b">Weekly pace</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 2fr;gap:8px;align-items:center">
+        <select id="learningWeeklyHours"
+          style="padding:10px;border-radius:8px;border:1px solid #334155;background:#020617;color:#e2e8f0;font-size:12px">
+          <option value="2" {"selected" if weekly_hours == 2 else ""}>2 hrs/week</option>
+          <option value="3" {"selected" if weekly_hours == 3 else ""}>3 hrs/week</option>
+          <option value="4" {"selected" if weekly_hours == 4 else ""}>4 hrs/week</option>
+          <option value="5" {"selected" if weekly_hours == 5 else ""}>5 hrs/week</option>
+          <option value="6" {"selected" if weekly_hours == 6 else ""}>6 hrs/week</option>
+        </select>
+        <button class="btn btn-primary" style="margin:0;padding:10px"
+          onclick="saveLearningPace()">Save pace</button>
+      </div>
+      <textarea id="learningPaceNotes" placeholder="Pace notes (optional)..."
+        style="width:100%;margin-top:8px;min-height:56px;padding:8px;border-radius:8px;border:1px solid #334155;background:#020617;color:#e2e8f0;font-size:12px">{pace_note}</textarea>
+    </div>
+    <div class="card">
+      <h3>Curriculum</h3>
+      {rows}
+    </div>
+    <script>
+      async function apiPost(url, payload) {{
+        const r = await fetch(url, {{
+          method: 'POST',
+          headers: {{'Content-Type': 'application/json'}},
+          body: JSON.stringify(payload || {{}})
+        }});
+        return await r.json();
+      }}
+      async function updateLearningModule(moduleId, fields) {{
+        const d = await apiPost('/learning/update-module', {{module_id: moduleId, ...fields}});
+        showToast(d.message || (d.ok ? 'Saved' : 'Failed'));
+        if (d.ok) setTimeout(() => window.location.reload(), 300);
+      }}
+      async function saveModuleNotes(moduleId) {{
+        const el = document.getElementById('note-' + moduleId);
+        const notes = (el && el.value) ? el.value : '';
+        const d = await apiPost('/learning/update-module', {{module_id: moduleId, notes}});
+        showToast(d.message || (d.ok ? 'Saved' : 'Failed'));
+      }}
+      async function saveLearningPace() {{
+        const weekly = parseInt(document.getElementById('learningWeeklyHours').value || '3', 10);
+        const notes = document.getElementById('learningPaceNotes').value || '';
+        const d = await apiPost('/learning/update-pace', {{weekly_hours: weekly, notes}});
+        showToast(d.message || (d.ok ? 'Saved' : 'Failed'));
+        if (d.ok) setTimeout(() => window.location.reload(), 300);
+      }}
+    </script>
+    """
+    return shell("Learning Plan", body, active="learning")
+
+
+@app.route("/learning/update-module", methods=["POST"])
+def learning_update_module():
+    payload = request.get_json(silent=True) or {}
+    module_id = str(payload.get("module_id", "")).strip()
+    if not module_id:
+        return jsonify({"ok": False, "message": "module_id is required."}), 400
+
+    try:
+        state = load_learning_plan_state()
+        target = None
+        for m in state.get("modules", []):
+            if m.get("id") == module_id:
+                target = m
+                break
+        if target is None:
+            return jsonify({"ok": False, "message": "Unknown module."}), 404
+
+        if "completed" in payload:
+            target["completed"] = bool(payload.get("completed"))
+        if "confidence" in payload:
+            try:
+                c = int(payload.get("confidence"))
+            except (TypeError, ValueError):
+                return jsonify({"ok": False, "message": "confidence must be an integer 1-5."}), 400
+            if c < 1 or c > 5:
+                return jsonify({"ok": False, "message": "confidence must be between 1 and 5."}), 400
+            target["confidence"] = c
+        if "notes" in payload:
+            target["notes"] = str(payload.get("notes", "")).strip()[:3000]
+        target["updated_at"] = datetime.now().isoformat()
+        save_learning_plan_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed updating learning module")
+        return jsonify({"ok": False, "message": f"Failed to save learning module: {exc}"}), 500
+
+    return jsonify({"ok": True, "message": "Learning module updated."})
+
+
+@app.route("/learning/update-pace", methods=["POST"])
+def learning_update_pace():
+    payload = request.get_json(silent=True) or {}
+    try:
+        weekly = int(payload.get("weekly_hours", 3))
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "message": "weekly_hours must be an integer."}), 400
+    if weekly < 1 or weekly > 20:
+        return jsonify({"ok": False, "message": "weekly_hours must be between 1 and 20."}), 400
+
+    try:
+        state = load_learning_plan_state()
+        pace = state.setdefault("pace", {})
+        pace["weekly_hours"] = weekly
+        pace["notes"] = str(payload.get("notes", "")).strip()[:3000]
+        save_learning_plan_state(state)
+    except Exception as exc:
+        log.exception("Dashboard: failed updating learning pace")
+        return jsonify({"ok": False, "message": f"Failed to save pace: {exc}"}), 500
+
+    return jsonify({"ok": True, "message": "Learning pace updated."})
+
 # ─── Logs page ────────────────────────────────────────────────────────────────
 
 @app.route("/logs")
@@ -1593,6 +1918,20 @@ def run_simulation_init():
     return jsonify({
         "ok": True,
         "message": "Simulation initialization started. Refresh in ~5 seconds.",
+    })
+
+
+@app.route("/run/aggressive-simulation-init", methods=["POST"])
+def run_aggressive_simulation_init():
+    def _do():
+        r = _run_script("aggressive_sim.py", ["--init"])
+        if r.get("ok"):
+            _cache["fetched_at"] = None
+        log.info(f"Dashboard: aggressive simulation init result => {r.get('message')}")
+    threading.Thread(target=_do, daemon=True).start()
+    return jsonify({
+        "ok": True,
+        "message": "Aggressive simulation initialization started. Refresh in ~5 seconds.",
     })
 
 
@@ -2010,6 +2349,145 @@ def simulation_page():
     m = re.search(r"<body[^>]*>", html_doc)
     if m:
         html_doc = html_doc[: m.end()] + bar + html_doc[m.end() :]
+
+    return Response(html_doc, mimetype="text/html; charset=utf-8")
+
+
+@app.route("/aggressive-simulation")
+def aggressive_simulation_page():
+    """
+    Live aggressive simulation view backed by aggressive_sim.py.
+    Uses $5k high-risk sleeve with explicit fee tracking, including crypto options.
+    """
+    import aggressive_sim as sim
+    from strategy_engine import run_full_scan
+
+    refresh_cache()
+    state = sim.load_state()
+    if not state:
+        body = """
+    <div style="padding:16px 14px">
+      <h2 style="color:#f1f5f9;margin-bottom:12px">Aggressive simulation</h2>
+      <div class="card" style="color:#94a3b8;line-height:1.6">
+        <p style="margin:0 0 12px">No aggressive simulation state on this server yet.</p>
+        <button class="btn btn-primary"
+          onclick="runAction('/run/aggressive-simulation-init','Aggressive simulation init')"
+          style="margin-bottom:10px">
+          &#9881; Initialize aggressive simulation now
+        </button>
+        <p style="margin:0;font-size:12px;color:#64748b">This creates
+        <code style="color:#818cf8">sim_portfolio_aggressive.json</code> for this page.</p>
+      </div>
+      <a href="/" style="color:#818cf8;font-weight:700;display:inline-block;margin-top:16px">← Home</a>
+    </div>"""
+        return shell("Aggressive Simulation", body, active="aggressive_simulation")
+
+    try:
+        signals = _cache.get("signals") or []
+        if not signals:
+            log.info("Dashboard: aggressive simulation using fresh full scan (signal cache empty)")
+            signals = run_full_scan()
+
+        tickers = list((state.get("positions") or {}).keys())
+        prices = sim.get_current_prices(tickers + ["BTC-USD", "ETH-USD", "SOL-USD"])
+        for s in signals:
+            t = str(s.get("ticker", "")).strip()
+            if t and t not in prices:
+                p = sim.get_price(t)
+                if p:
+                    prices[t] = p
+
+        state = sim.rebalance_aggressive(state, prices, signals)
+        rows, total_value = sim.mark_to_market(state, prices)
+        bm = sim.compute_benchmark(state, total_value)
+        sim.save_snapshot(state, total_value, bm)
+        sim.save_state(state)
+    except Exception as exc:
+        log.exception("Aggressive simulation page failed")
+        body = f"""
+    <div style="padding:16px 14px">
+      <h2 style="color:#f1f5f9">Aggressive simulation</h2>
+      <div class="card" style="color:#fca5a5">{exc}</div>
+      <a href="/" style="color:#818cf8;font-weight:700;display:inline-block;margin-top:16px">← Home</a>
+    </div>"""
+        return shell("Aggressive Simulation", body, active="aggressive_simulation")
+
+    init_cap = float(state.get("total_capital", 5000.0))
+    pnl = total_value - init_cap
+    pnl_pct = (pnl / init_cap * 100) if init_cap else 0.0
+    alpha = pnl_pct - float(bm.get("pnl_pct") or 0.0)
+    fees = float(state.get("fees_paid") or 0.0)
+
+    rows_html = ""
+    for r in rows:
+        color = "#22c55e" if r["pnl"] >= 0 else "#ef4444"
+        rows_html += f"""
+        <tr>
+          <td style='padding:10px 12px;color:#e2e8f0;font-weight:700'>{r['ticker']}</td>
+          <td style='padding:10px 12px;color:#94a3b8'>{r['type']}</td>
+          <td style='padding:10px 12px;color:#94a3b8;text-align:right'>${r['allocation']:,.0f}</td>
+          <td style='padding:10px 12px;color:#94a3b8;text-align:right'>{f"${r['current_price']:.2f}" if r['current_price'] else "N/A"}</td>
+          <td style='padding:10px 12px;color:#94a3b8;text-align:right'>${r['value']:,.0f}</td>
+          <td style='padding:10px 12px;color:{color};text-align:right;font-weight:700'>${r['pnl']:+,.0f}</td>
+          <td style='padding:10px 12px;color:{color};text-align:right;font-weight:700'>{r['pnl_pct']:+.2f}%</td>
+        </tr>"""
+    if not rows_html:
+        rows_html = (
+            "<tr><td colspan='7' style='padding:12px;color:#64748b'>"
+            "No open positions right now. Strategy will open new trades when signals qualify."
+            "</td></tr>"
+        )
+
+    moves_html = ""
+    for m in (state.get("trade_log") or [])[-8:]:
+        ts = (m.get("timestamp", "") or "")[:19].replace("T", " ")
+        moves_html += (
+            f"<div style='background:#1e293b;border-radius:8px;padding:10px;margin-bottom:8px;'>"
+            f"<div style='color:#e2e8f0;font-weight:700'>{m.get('action')} {m.get('ticker')}</div>"
+            f"<div style='color:#64748b;font-size:12px'>{ts} | Fee ${float(m.get('fee') or 0):.2f}</div>"
+            f"<div style='color:#94a3b8;font-size:13px;margin-top:4px'>{m.get('reason','')}</div>"
+            "</div>"
+        )
+    if not moves_html:
+        moves_html = "<div style='color:#64748b;font-size:12px'>No trades logged yet.</div>"
+
+    html_doc = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aggressive Simulation</title></head>
+<body style='background:#0f172a;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;margin:0;padding:20px'>
+<div style='max-width:760px;margin:0 auto'>
+  <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px'>
+    <a href="/" style='color:#818cf8;text-decoration:none;font-weight:700'>← Dashboard</a>
+    <span style='color:#64748b;font-size:12px'>Aggressive $5k sleeve</span>
+  </div>
+  <h2 style='color:#f8fafc;margin:8px 0 6px'>Aggressive Simulator</h2>
+  <p style='color:#94a3b8;margin:0 0 14px'>High-risk simulation for max-upside behavior. Includes explicit spot and crypto-option fees.</p>
+  <div style='display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px'>
+    <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Portfolio P&L</div><div style='font-size:22px;font-weight:800;color:{'#22c55e' if pnl >= 0 else '#ef4444'}'>{pnl_pct:+.2f}%</div><div style='color:{'#22c55e' if pnl >= 0 else '#ef4444'}'>${pnl:+,.2f}</div></div>
+    <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Total Equity</div><div style='font-size:22px;font-weight:800'>${total_value:,.2f}</div><div style='color:#94a3b8'>Cash ${float(state.get('cash') or 0):,.2f}</div></div>
+    <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Fees Paid</div><div style='font-size:22px;font-weight:800;color:#f59e0b'>${fees:,.2f}</div><div style='color:#94a3b8'>Spot + options friction</div></div>
+    <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Alpha vs {bm.get('ticker','BTC-USD')}</div><div style='font-size:22px;font-weight:800;color:{'#22c55e' if alpha >= 0 else '#ef4444'}'>{alpha:+.2f}%</div><div style='color:#94a3b8'>Benchmark {float(bm.get('pnl_pct') or 0):+.2f}%</div></div>
+  </div>
+
+  <h3 style='margin:0 0 8px'>Open Positions</h3>
+  <table width='100%' style='border-collapse:collapse;background:#1e293b;border-radius:8px;overflow:hidden'>
+    <thead>
+      <tr style='background:#0f172a'>
+        <th style='padding:10px 12px;color:#64748b;text-align:left;font-size:12px'>Ticker</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:left;font-size:12px'>Type</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:right;font-size:12px'>Alloc</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:right;font-size:12px'>Price</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:right;font-size:12px'>Value</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:right;font-size:12px'>P&L $</th>
+        <th style='padding:10px 12px;color:#64748b;text-align:right;font-size:12px'>P&L %</th>
+      </tr>
+    </thead>
+    <tbody>{rows_html}</tbody>
+  </table>
+
+  <h3 style='margin:16px 0 8px'>Recent Trades</h3>
+  {moves_html}
+</div></body></html>"""
 
     return Response(html_doc, mimetype="text/html; charset=utf-8")
 
