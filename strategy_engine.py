@@ -1829,13 +1829,25 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
 
 def scan_ticker(symbol: str, name: str) -> list[dict]:
     """Fetch 2 years of data, compute all pandas-ta indicators, run all strategies."""
+    raw = None
+
     try:
-        raw = yf.Ticker(symbol).history(period="2y")
-        if raw.empty or len(raw) < 50:
-            return []
+        import schwab_client
+        schwab_df = schwab_client.get_price_history(symbol, period_years=2)
+        if schwab_df is not None and len(schwab_df) >= 50:
+            raw = schwab_df
+            logger.debug(f"  {symbol}: using Schwab data ({len(raw)} bars)")
     except Exception as exc:
-        logger.warning(f"  Could not fetch {symbol}: {exc}")
-        return []
+        logger.debug(f"  {symbol}: Schwab unavailable ({exc}), trying yfinance")
+
+    if raw is None:
+        try:
+            raw = yf.Ticker(symbol).history(period="2y")
+            if raw.empty or len(raw) < 50:
+                return []
+        except Exception as exc:
+            logger.warning(f"  Could not fetch {symbol}: {exc}")
+            return []
 
     df = raw.copy()
 
