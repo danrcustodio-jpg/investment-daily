@@ -25,6 +25,7 @@ import yfinance as yf
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(SCRIPT_DIR, "logs"), exist_ok=True)
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 
 logging.basicConfig(
