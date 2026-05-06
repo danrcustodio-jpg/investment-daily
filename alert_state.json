@@ -145,9 +145,15 @@
     "BTC-USD::Keltner \u2014 Upper Channel Touch": "2026-05-06T14:57:30.008863+00:00",
     "UPRO::Williams %R \u2014 Overbought": "2026-05-06T14:57:30.008867+00:00",
     "TQQQ::Williams %R \u2014 Overbought": "2026-05-06T14:57:30.008872+00:00",
-    "QQQ::Stochastic (Full) \u2014 Overbought": "2026-05-06T14:57:30.008876+00:00"
+    "QQQ::Stochastic (Full) \u2014 Overbought": "2026-05-06T14:57:30.008876+00:00",
+    "SOL-USD::Parabolic SAR \u2014 Bullish": "2026-05-06T16:59:51.490133+00:00",
+    "SMCI::Volume Spike + Surge": "2026-05-06T16:59:51.490148+00:00",
+    "SOL-USD::MACD Bullish Crossover": "2026-05-06T16:59:51.490159+00:00",
+    "XRP-USD::Parabolic SAR \u2014 Bullish": "2026-05-06T16:59:51.490168+00:00",
+    "SOL-USD::EMA 9/21 \u2014 Bullish Cross": "2026-05-06T16:59:51.490177+00:00",
+    "TSLA::VWAP Deviation \u2014 Overbought": "2026-05-06T16:59:51.490188+00:00"
   },
-  "send_count": 2,
+  "send_count": 3,
   "last_sms_at": "2026-04-29T20:40:08.712622-06:00",
   "snoozed_strategies": {},
   "snoozed_tickers": {},
@@ -181,7 +187,11 @@
     "MARA": "2026-05-06T14:57:30.007841+00:00",
     "ARM": "2026-05-06T14:57:30.007841+00:00",
     "CL=F": "2026-05-06T14:57:30.007841+00:00",
-    "BTC-USD": "2026-05-06T14:57:30.007841+00:00"
+    "BTC-USD": "2026-05-06T14:57:30.007841+00:00",
+    "SOL-USD": "2026-05-06T16:59:51.490099+00:00",
+    "SMCI": "2026-05-06T16:59:51.490099+00:00",
+    "XRP-USD": "2026-05-06T16:59:51.490099+00:00",
+    "TSLA": "2026-05-06T16:59:51.490099+00:00"
   },
   "sms_ticker_last_sent": {}
 }
