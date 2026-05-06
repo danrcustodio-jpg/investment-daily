@@ -140,29 +140,63 @@
   ],
   "recommendations": [
     {
+<<<<<<< Updated upstream
+=======
+      "action": "REVIEW_EXIT",
+      "ticker": "CL=F",
+      "priority": "high",
+      "reason": "Signal environment turned net bearish (1 bear score 0.42 vs 0 bull score 0.00). Strongest bearish: MACD Bearish Crossover (score 65.7). Gross P&L: $+1,327.",
+      "tax_note": "Held 16 days (short-term rate). $425 tax owed (32% short-term) + $16 slippage. Net proceeds if sold: $15,886."
+    },
+    {
+>>>>>>> Stashed changes
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
       "reason": "Stochastic RSI Oversold \u2014 Score 81.4, Win Rate 70.7%, Avg 5d Return 3.23%, Max Drawdown -35.41%, Sharpe 3.47. 1 minor bearish signal(s), max confidence 69.4.",
+<<<<<<< Updated upstream
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $150,886 deployable. Entry slippage est. $30.",
+=======
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $135,886 deployable. Entry slippage est. $30.",
+>>>>>>> Stashed changes
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
+<<<<<<< Updated upstream
       "ticker": "AMZN",
       "priority": "medium",
       "reason": "52-Week Breakout \u2014 Score 58.0, Win Rate 75.0%, Avg 5d Return 0.62%, Max Drawdown -2.2%, Sharpe 1.67. 1 minor bearish signal(s), max confidence 49.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $150,886 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+=======
+      "ticker": "SOL-USD",
+      "priority": "high",
+      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 74.3, Win Rate 60.7%, Avg 5d Return 4.57%, Max Drawdown -17.22%, Sharpe 3.67. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $135,886 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
+      "action": "CANCEL_LIMIT",
+      "ticker": "GOOGL",
+      "priority": "medium",
+      "reason": "8 bearish signal(s) now outweigh 5 bullish. Strongest: MFI \u2014 Overbought at score 78.0. Limit at $322.22 may never fill profitably.",
+      "tax_note": "No tax impact \u2014 order not yet filled."
+>>>>>>> Stashed changes
     },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "medium",
       "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 65.8, Win Rate 60.2%, Avg 5d Return 3.34%, Max Drawdown -65.43%, Sharpe 1.85. No conflicting bearish signals.",
+<<<<<<< Updated upstream
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $150,886 deployable. Entry slippage est. $30.",
+=======
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $135,886 deployable. Entry slippage est. $30.",
+>>>>>>> Stashed changes
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -170,8 +204,13 @@
       "action": "HOLD",
       "ticker": "MSFT",
       "priority": "low",
+<<<<<<< Updated upstream
       "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+356. Holding avoids $114 in taxes.",
       "tax_note": "Held 6 days (short-term). Exiting now costs $114 tax + $9 slippage = $123 total friction."
+=======
+      "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+357. Holding avoids $114 in taxes.",
+      "tax_note": "Held 6 days (short-term). Exiting now costs $114 tax + $9 slippage = $124 total friction."
+>>>>>>> Stashed changes
     },
     {
       "action": "HOLD",
@@ -181,6 +220,7 @@
       "tax_note": "Held 16 days (short-term). Exiting now costs $379 tax + $36 slippage = $415 total friction."
     }
   ],
+<<<<<<< Updated upstream
   "recommendations_updated": "2026-05-06T14:58:03.799465",
   "trade_log": [
     {
@@ -201,4 +241,7 @@
       "timestamp": "2026-05-06T14:57:42.623343"
     }
   ]
+=======
+  "recommendations_updated": "2026-05-06T14:57:52.718579"
+>>>>>>> Stashed changes
 }

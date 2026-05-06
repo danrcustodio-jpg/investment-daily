@@ -17,7 +17,11 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 
 ## Portfolio Simulation
 
+<<<<<<< Updated upstream
 Day 16 &nbsp;·&nbsp; Portfolio **+1.40%** vs SPY +3.43% &nbsp;·&nbsp; Alpha ❌ **-2.02%**
+=======
+Day 16 &nbsp;·&nbsp; Portfolio **+1.61%** vs SPY +3.42% &nbsp;·&nbsp; Alpha ❌ **-1.80%**
+>>>>>>> Stashed changes
 
 [Full details with equity curve →](reports/SIMULATION.md)
 
