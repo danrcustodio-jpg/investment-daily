@@ -170,6 +170,7 @@
         localStorage.setItem("mealPlannerUrl", queryUrl);
       }
 
+      const defaultMealPlannerUrl = "https://meal-planner-paz0.onrender.com";
       const configuredUrl = localStorage.getItem("mealPlannerUrl");
       const isLocalHost = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost";
 
@@ -187,13 +188,9 @@
         return;
       }
 
-      link.href = "#";
-      badge.className = "badge config";
-      badge.textContent = "Cloud URL not set";
-      link.addEventListener("click", function (event) {
-        event.preventDefault();
-        alert("Meal Planner URL not configured. Add ?mealPlannerUrl=https://your-url to this page once.");
-      });
+      link.href = defaultMealPlannerUrl;
+      badge.className = "badge live";
+      badge.textContent = "Configured default cloud app";
     }
 
     async function refreshDashboardStatus() {
