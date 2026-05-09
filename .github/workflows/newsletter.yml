@@ -19,6 +19,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: US/Eastern calendar date (OHLCV snapshot cache key)
+        run: echo "OHLCV_DAY=$(TZ=America/New_York date +%F)" >> $GITHUB_ENV
+
+      - name: Restore strategy OHLCV daily snapshot cache
+        uses: actions/cache@v4
+        with:
+          path: data/strategy_ohlcv_cache
+          key: ohlcv-snapshot-${{ env.OHLCV_DAY }}
+
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
