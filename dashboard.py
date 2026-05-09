@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Investment Daily — Mobile Web Dashboard
-Access from your phone browser on the same WiFi:  http://<your-PC-IP>:5050
-Access from anywhere via ngrok tunnel (see start_dashboard.ps1).
+Default: localhost only (http://127.0.0.1:5050).
+Set DASHBOARD_REMOTE_ACCESS=1 to allow LAN/ngrok access.
 
 Routes:
   GET  /              Home — sentiment, top signals, quick actions
@@ -24,6 +24,7 @@ import subprocess
 import threading
 import time
 import logging
+from functools import wraps
 from datetime import datetime, timedelta
 
 from flask import Flask, jsonify, request, send_from_directory, Response
@@ -39,6 +40,30 @@ LEARNING_PLAN_FILE = os.path.join(SCRIPT_DIR, "learning_plan.json")
 
 app = Flask(__name__)
 log = logging.getLogger("dashboard")
+ADMIN_TOKEN = (os.getenv("DASHBOARD_ADMIN_TOKEN") or "").strip()
+
+
+def _is_truthy(raw: str | None) -> bool:
+    return (raw or "").strip().lower() in {"1", "true", "yes", "on"}
+
+
+REMOTE_ACCESS_ENABLED = _is_truthy(os.getenv("DASHBOARD_REMOTE_ACCESS"))
+
+
+def require_admin_token(fn):
+    @wraps(fn)
+    def _wrapped(*args, **kwargs):
+        if not ADMIN_TOKEN:
+            return fn(*args, **kwargs)
+        provided = (
+            request.headers.get("X-Admin-Token")
+            or request.headers.get("Authorization", "").removeprefix("Bearer ").strip()
+        )
+        if provided != ADMIN_TOKEN:
+            return jsonify({"ok": False, "message": "Unauthorized: missing or invalid admin token."}), 401
+        return fn(*args, **kwargs)
+
+    return _wrapped
 
 
 @app.after_request
@@ -51,7 +76,7 @@ def add_local_cors_headers(response):
     else:
         response.headers["Access-Control-Allow-Origin"] = "http://127.0.0.1:5051"
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
-    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type, X-Admin-Token, Authorization"
     return response
 
 # ─── Simple in-memory cache ───────────────────────────────────────────────────
@@ -1926,6 +1951,7 @@ def _run_script(script_name: str, args: list[str] | None = None) -> dict:
 
 
 @app.route("/run/newsletter", methods=["POST"])
+@require_admin_token
 def run_newsletter():
     def _do():
         _run_script("investment_daily.py")
@@ -1934,34 +1960,44 @@ def run_newsletter():
 
 
 @app.route("/run/alerts", methods=["POST"])
+@require_admin_token
 def run_alerts():
     def _do():
-        # Force run even outside market hours by patching the check
+        # Force run even outside market hours while preserving shared eligibility rules.
         from strategy_engine import run_full_scan
         from alert_system import (
             build_alert_email, send_email, load_state,
-            save_state, MIN_CONFIDENCE, mark_fired, make_state_key,
+            save_state, prune_state, filter_eligible_alert_signals,
+            mark_fired, make_state_key,
         )
         import logging as lg
         lg.info("Dashboard: manual alert scan triggered")
-        signals     = run_full_scan()
-        new_signals = [s for s in signals if s.get("confidence", 0) >= MIN_CONFIDENCE]
+        signals = run_full_scan()
+        state = prune_state(load_state())
+        eligibility = filter_eligible_alert_signals(signals, state)
+        new_signals = eligibility["new_signals"]
         if new_signals:
-            state = load_state()
             dispatch_seq = int(state.get("send_count", 0)) + 1
             state["send_count"] = dispatch_seq
             subject, html = build_alert_email(
                 new_signals, signals, dispatch_seq=dispatch_seq
             )
             send_email(subject, html)
+            now_iso = datetime.now().astimezone().isoformat()
             for s in new_signals:
                 mark_fired(state, make_state_key(s))
+                state.setdefault("email_ticker_last_sent", {})[s["ticker"]] = now_iso
             save_state(state)
+            lg.info("Dashboard: sent %d eligible alert(s)", len(new_signals))
+        else:
+            save_state(state)
+            lg.info("Dashboard: no eligible alerts after dedup/cooldown filtering")
     threading.Thread(target=_do, daemon=True).start()
     return jsonify({"ok": True, "message": "Scan running — email on its way if signals found!"})
 
 
 @app.route("/run/simulation-init", methods=["POST"])
+@require_admin_token
 def run_simulation_init():
     def _do():
         r = _run_script("portfolio_sim.py", ["--init"])
@@ -1977,6 +2013,7 @@ def run_simulation_init():
 
 
 @app.route("/run/aggressive-simulation-init", methods=["POST"])
+@require_admin_token
 def run_aggressive_simulation_init():
     def _do():
         r = _run_script("aggressive_sim.py", ["--init"])
@@ -1991,6 +2028,7 @@ def run_aggressive_simulation_init():
 
 
 @app.route("/refresh", methods=["POST"])
+@require_admin_token
 def force_refresh():
     def _do():
         _cache["fetched_at"] = None   # force expiry
@@ -2146,9 +2184,12 @@ def alerts_page():
 
     <script>
       async function apiPost(url, payload) {{
+        const headers = {{'Content-Type': 'application/json'}};
+        const token = (window.localStorage && window.localStorage.getItem('dashboardAdminToken')) || '';
+        if (token) headers['X-Admin-Token'] = token;
         const r = await fetch(url, {{
           method: 'POST',
-          headers: {{'Content-Type': 'application/json'}},
+          headers,
           body: JSON.stringify(payload || {{}})
         }});
         return r.json();
@@ -2192,6 +2233,7 @@ def alerts_page():
 
 
 @app.route("/alerts/snooze-strategy", methods=["POST"])
+@require_admin_token
 def alerts_snooze_strategy():
     payload = request.get_json(silent=True) or {}
     strategy = str(payload.get("strategy", "")).strip()
@@ -2220,6 +2262,7 @@ def alerts_snooze_strategy():
 
 
 @app.route("/alerts/snooze-ticker", methods=["POST"])
+@require_admin_token
 def alerts_snooze_ticker():
     payload = request.get_json(silent=True) or {}
     ticker = str(payload.get("ticker", "")).strip().upper()
@@ -2248,6 +2291,7 @@ def alerts_snooze_ticker():
 
 
 @app.route("/alerts/set-ticker-cooldown", methods=["POST"])
+@require_admin_token
 def alerts_set_ticker_cooldown():
     payload = request.get_json(silent=True) or {}
     ticker = str(payload.get("ticker", "")).strip().upper()
@@ -2274,6 +2318,7 @@ def alerts_set_ticker_cooldown():
 
 
 @app.route("/alerts/reset-ticker-cooldown", methods=["POST"])
+@require_admin_token
 def alerts_reset_ticker_cooldown():
     payload = request.get_json(silent=True) or {}
     ticker = str(payload.get("ticker", "")).strip().upper()
@@ -2292,6 +2337,7 @@ def alerts_reset_ticker_cooldown():
 
 
 @app.route("/alerts/clear-snoozes", methods=["POST"])
+@require_admin_token
 def alerts_clear_snoozes():
     try:
         from alert_system import load_state, save_state
@@ -2714,4 +2760,10 @@ if __name__ == "__main__":
     print("  For outside WiFi:  run start_dashboard.ps1 (ngrok)")
     print(f"{'='*55}\n")
 
-    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
+    host = "0.0.0.0" if REMOTE_ACCESS_ENABLED else "127.0.0.1"
+    if REMOTE_ACCESS_ENABLED:
+        print("  Remote access:     ENABLED (set DASHBOARD_REMOTE_ACCESS=0 to disable)")
+    else:
+        print("  Remote access:     disabled (localhost only)")
+        print("  To enable remote:  set DASHBOARD_REMOTE_ACCESS=1")
+    app.run(host=host, port=port, debug=False, threaded=True)

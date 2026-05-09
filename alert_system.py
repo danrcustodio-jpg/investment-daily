@@ -47,7 +47,23 @@ logger = logging.getLogger(__name__)
 
 EMAIL_SENDER    = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")
-EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+DEFAULT_EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+
+
+def _parse_recipients(raw: str | None) -> list[str]:
+    if not raw:
+        return []
+    return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+EMAIL_RECIPIENTS = _parse_recipients(os.getenv("EMAIL_RECIPIENTS"))
+if not EMAIL_RECIPIENTS:
+    EMAIL_RECIPIENTS = [DEFAULT_EMAIL_RECIPIENT]
+    logger.warning(
+        "EMAIL_RECIPIENTS not set; using default recipient %s. "
+        "Set EMAIL_RECIPIENTS in .env to override.",
+        DEFAULT_EMAIL_RECIPIENT,
+    )
 SMS_GATEWAY     = os.getenv("SMS_GATEWAY")   # e.g. 5551234567@vtext.com
 # Optional: SMS_ENABLE=0/false to turn off SMS while keeping SMS_GATEWAY in .env
 _SMS_EN = (os.getenv("SMS_ENABLE") or "1").strip().lower()
@@ -426,6 +442,57 @@ def ticker_channel_in_cooldown(state: dict, ticker: str, channel: str) -> bool:
     if dt.tzinfo is None:
         dt = dt.astimezone()
     return datetime.now().astimezone() < (dt + timedelta(hours=hours))
+
+
+def filter_eligible_alert_signals(all_signals: list[dict], state: dict) -> dict:
+    """
+    Shared alert eligibility filtering for CLI and dashboard flows.
+    Keeps orchestration separate while enforcing one eligibility policy.
+    """
+    active_signals = []
+    snoozed_signals = []
+    below_threshold = []
+    suppressed_signal_cooldown = []
+    suppressed_ticker_cooldown = []
+    bypassed_signal_cooldown = []
+    new_signals = []
+    price_cache: dict[str, float | None] = {}
+
+    for signal in all_signals:
+        if signal.get("confidence", 0) < MIN_CONFIDENCE:
+            below_threshold.append(signal)
+            continue
+        if is_strategy_snoozed(state, signal["strategy"]) or is_ticker_snoozed(state, signal["ticker"]):
+            snoozed_signals.append(signal)
+            continue
+        active_signals.append(signal)
+
+        key = make_state_key(signal)
+        if ticker_channel_in_cooldown(state, signal["ticker"], "email"):
+            suppressed_ticker_cooldown.append(signal)
+            continue
+
+        if already_fired_recently(state, key):
+            move_pct = _signal_move_pct_since_last_notify(state, signal, price_cache)
+            if move_pct is not None and abs(move_pct) > COOLDOWN_BYPASS_MOVE_PCT:
+                new_signals.append(signal)
+                bypassed_signal_cooldown.append((signal, move_pct))
+            else:
+                suppressed_signal_cooldown.append(signal)
+            continue
+
+        new_signals.append(signal)
+
+    return {
+        "active_signals": active_signals,
+        "new_signals": new_signals,
+        "snoozed_signals": snoozed_signals,
+        "below_threshold": below_threshold,
+        "suppressed_signal_cooldown": suppressed_signal_cooldown,
+        "suppressed_ticker_cooldown": suppressed_ticker_cooldown,
+        "bypassed_signal_cooldown": bypassed_signal_cooldown,
+        "price_cache": price_cache,
+    }
 
 
 def sms_may_send(state: dict) -> bool:
@@ -879,12 +946,12 @@ def send_email(subject: str, html: str) -> None:
     msg            = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = EMAIL_SENDER
-    msg["To"]      = EMAIL_RECIPIENT
+    msg["To"]      = ", ".join(EMAIL_RECIPIENTS)
     msg.attach(MIMEText(html, "html"))
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENT, msg.as_string())
-    logger.info(f"Alert email sent -> {EMAIL_RECIPIENT}")
+        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENTS, msg.as_string())
+    logger.info("Alert email sent -> %s", ", ".join(EMAIL_RECIPIENTS))
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -911,14 +978,14 @@ def main(crypto_only: bool = False) -> None:
     state = load_state()
     state = prune_state(state)
 
-    # Filter out strategies/tickers that are remotely snoozed.
-    snoozed = []
-    active_signals = []
-    for s in all_signals:
-        if is_strategy_snoozed(state, s["strategy"]) or is_ticker_snoozed(state, s["ticker"]):
-            snoozed.append(s)
-        else:
-            active_signals.append(s)
+    eligibility = filter_eligible_alert_signals(all_signals, state)
+    active_signals = eligibility["active_signals"]
+    new_signals = eligibility["new_signals"]
+    snoozed = eligibility["snoozed_signals"]
+    suppressed_signal_cooldown = eligibility["suppressed_signal_cooldown"]
+    suppressed_ticker_cooldown = eligibility["suppressed_ticker_cooldown"]
+    bypassed_signal_cooldown = eligibility["bypassed_signal_cooldown"]
+    price_cache = eligibility["price_cache"]
 
     if snoozed:
         logger.info(
@@ -937,26 +1004,6 @@ def main(crypto_only: bool = False) -> None:
         if s.get("confidence", 0) >= HIGH_CONFIDENCE_15M_THRESHOLD
     }
     _progressive_tracking_update(state, hi_tickers)
-
-    # Filter to signals not emailed within global/per-ticker cooldown windows
-    new_signals = []
-    suppressed_signal_cooldown  = []
-    suppressed_ticker_cooldown = []
-    bypassed_signal_cooldown = []
-    price_cache: dict[str, float | None] = {}
-    for s in active_signals:
-        key = make_state_key(s)
-        if ticker_channel_in_cooldown(state, s["ticker"], "email"):
-            suppressed_ticker_cooldown.append(s)
-        elif already_fired_recently(state, key):
-            move_pct = _signal_move_pct_since_last_notify(state, s, price_cache)
-            if move_pct is not None and abs(move_pct) > COOLDOWN_BYPASS_MOVE_PCT:
-                new_signals.append(s)
-                bypassed_signal_cooldown.append((s, move_pct))
-            else:
-                suppressed_signal_cooldown.append(s)
-        else:
-            new_signals.append(s)
 
     if suppressed_signal_cooldown:
         logger.info(

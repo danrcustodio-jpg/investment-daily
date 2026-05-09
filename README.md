@@ -34,8 +34,8 @@ _Simulation not initialized_
 
 ## Docs
 
-- [Architecture & Data Flow](ARCHITECTURE.md)
-- [Agent Guide — Change Recipes](AGENT_GUIDE.md)
+- [Architecture & Data Flow](docs/ARCHITECTURE.md)
+- [Agent Guide — Change Recipes](docs/AGENT_GUIDE.md)
 
 ---
 *This repo is auto-updated by GitHub Actions. Reports commit after every run.*
