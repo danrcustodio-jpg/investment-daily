@@ -3,7 +3,7 @@
 Automated investment newsletter, intraday strategy alerts, and portfolio simulation.
 Powered by GitHub Actions — runs 24/7 with no PC required.
 
-**Last updated:** May 08, 2026 at 09:52 PM
+**Last updated:** May 09, 2026 at 02:00 PM
 
 ---
 
@@ -17,7 +17,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 
 ## Portfolio Simulation
 
-_Simulation not initialized_
+Day 1 &nbsp;·&nbsp; Portfolio **+0.83%** vs SPY +4.21% &nbsp;·&nbsp; Alpha ❌ **-3.38%**
 
 [Full details with equity curve →](reports/SIMULATION.md)
 
@@ -34,8 +34,8 @@ _Simulation not initialized_
 
 ## Docs
 
-- [Architecture & Data Flow](docs/ARCHITECTURE.md)
-- [Agent Guide — Change Recipes](docs/AGENT_GUIDE.md)
+- [Architecture & Data Flow](ARCHITECTURE.md)
+- [Agent Guide — Change Recipes](AGENT_GUIDE.md)
 
 ---
 *This repo is auto-updated by GitHub Actions. Reports commit after every run.*
