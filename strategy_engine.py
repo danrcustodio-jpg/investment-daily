@@ -11,8 +11,11 @@ modules, 2-year backtest per rule). The daily email includes methodology_newslet
 import datetime
 import json
 import logging
+import os
+import pickle
 import urllib.request
 import warnings
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
@@ -24,6 +27,115 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 logger = logging.getLogger(__name__)
+
+# ─── OHLCV snapshot cache (2y daily pulled once per US/Eastern calendar day) ───
+# Each intraday scan merges fresh daily bars (~120d) so today's partial candle updates
+# without re-downloading two years of history. Set STRATEGY_DISABLE_OHLCV_CACHE=1 to
+# always fetch period="2y" on every scan (legacy behavior).
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OHLCV_SNAPSHOT_TZ = ZoneInfo("America/New_York")
+OHLCV_CACHE_ROOT = os.path.join(SCRIPT_DIR, "data", "strategy_ohlcv_cache")
+
+
+def _merge_lookback_days() -> int:
+    try:
+        v = int((os.getenv("STRATEGY_OHLCV_MERGE_DAYS") or "120").strip())
+    except ValueError:
+        return 120
+    return max(30, min(v, 800))
+
+
+OHLCV_MERGE_LOOKBACK_DAYS = _merge_lookback_days()
+
+
+def _ohlcv_cache_disabled() -> bool:
+    v = (os.getenv("STRATEGY_DISABLE_OHLCV_CACHE") or "").strip().lower()
+    return v in ("1", "true", "yes", "on")
+
+
+def _et_calendar_date_iso() -> str:
+    return datetime.datetime.now(OHLCV_SNAPSHOT_TZ).date().isoformat()
+
+
+def _normalize_daily_index(df: pd.DataFrame) -> pd.DataFrame:
+    """Naive midnight timestamps in America/New_York for stable daily merges."""
+    if df is None or df.empty:
+        return df
+    out = df.sort_index().copy()
+    idx = pd.DatetimeIndex(pd.to_datetime(out.index, errors="coerce"))
+    if idx.tz is not None:
+        idx = idx.tz_convert(OHLCV_SNAPSHOT_TZ).tz_localize(None)
+    out.index = idx.normalize()
+    return out[~out.index.duplicated(keep="last")]
+
+
+def merge_recent_daily_bars(base: pd.DataFrame, symbol: str, merge_days: int | None = None) -> pd.DataFrame:
+    """
+    Overlay the latest Yahoo daily OHLCV onto the cached frame so intraday scans
+    see an updated session bar (close/volume) without a full 2y refetch.
+    """
+    if base is None or base.empty:
+        return base
+    days = merge_days if merge_days is not None else OHLCV_MERGE_LOOKBACK_DAYS
+    days = max(30, min(days, 800))
+    try:
+        recent = yf.Ticker(symbol).history(period=f"{days}d", interval="1d", auto_adjust=False)
+    except Exception as exc:
+        logger.debug(f"merge_recent_daily_bars({symbol}): {exc}")
+        return base
+    if recent is None or recent.empty:
+        return base
+    b = _normalize_daily_index(base)
+    r = _normalize_daily_index(recent)
+    cols = [c for c in ("Open", "High", "Low", "Close", "Volume", "Adj Close") if c in r.columns]
+    if not cols:
+        return base
+    r = r[cols]
+    merged = pd.concat([b, r]).groupby(level=0).last().sort_index()
+    return merged
+
+
+def _fetch_two_year_daily(symbol: str) -> pd.DataFrame | None:
+    raw = yf.Ticker(symbol).history(period="2y", auto_adjust=False)
+    if raw is None or raw.empty or len(raw) < 50:
+        return None
+    return raw
+
+
+def get_ohlcv_for_strategy_scan(symbol: str) -> pd.DataFrame | None:
+    """
+    Return ~2y of daily OHLCV: one full Yahoo pull per ET calendar day (pickled),
+    then merge the trailing daily window on every call so prices stay current.
+    """
+    if _ohlcv_cache_disabled():
+        return _fetch_two_year_daily(symbol)
+
+    day = _et_calendar_date_iso()
+    cache_dir = os.path.join(OHLCV_CACHE_ROOT, day)
+    cache_path = os.path.join(cache_dir, f"{symbol}.pkl")
+
+    base: pd.DataFrame | None = None
+    if os.path.isfile(cache_path):
+        try:
+            with open(cache_path, "rb") as f:
+                base = pickle.load(f)
+        except Exception as exc:
+            logger.warning(f"  {symbol}: corrupt OHLCV cache ({exc}) — refetching 2y")
+            base = None
+
+    if base is None or base.empty:
+        base = _fetch_two_year_daily(symbol)
+        if base is None:
+            return None
+        try:
+            os.makedirs(cache_dir, exist_ok=True)
+            with open(cache_path, "wb") as f:
+                pickle.dump(base, f, protocol=pickle.HIGHEST_PROTOCOL)
+        except Exception as exc:
+            logger.warning(f"  {symbol}: could not write OHLCV cache ({exc})")
+
+    return merge_recent_daily_bars(base, symbol)
+
 
 # Positioning-based score overlay (small and bounded so core backtest score remains primary).
 POSITIONING_ADJ_MAX = 6.0
@@ -1828,10 +1940,13 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
 # ─── Main Scanner ─────────────────────────────────────────────────────────────
 
 def scan_ticker(symbol: str, name: str) -> list[dict]:
-    """Fetch 2 years of data, compute all pandas-ta indicators, run all strategies."""
+    """
+    Build ~2y daily OHLCV (cached once per ET day + merged recent daily on each call),
+    compute pandas-ta indicators, and run all strategy detectors.
+    """
     try:
-        raw = yf.Ticker(symbol).history(period="2y")
-        if raw.empty or len(raw) < 50:
+        raw = get_ohlcv_for_strategy_scan(symbol)
+        if raw is None or raw.empty or len(raw) < 50:
             return []
     except Exception as exc:
         logger.warning(f"  Could not fetch {symbol}: {exc}")
@@ -1907,6 +2022,12 @@ def run_full_scan(
     if dex_tickers is None:
         dex_tickers = {}
 
+    logger.info(
+        "OHLCV data: %s",
+        "full 2y Yahoo pull each scan (STRATEGY_DISABLE_OHLCV_CACHE)"
+        if _ohlcv_cache_disabled()
+        else "daily snapshot cache (ET) + merged daily window each scan",
+    )
     logger.info(
         f"Scanning {len(tickers)} tickers + {len(dex_tickers)} DEX tokens "
         f"across 31 strategy detectors (pandas-ta) ..."

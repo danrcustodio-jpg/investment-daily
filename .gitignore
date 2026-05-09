@@ -35,3 +35,4 @@ desktop.ini
 
 # Runtime cache files
 data/cot_positioning_cache.json
+data/strategy_ohlcv_cache/

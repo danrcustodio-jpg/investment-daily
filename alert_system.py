@@ -2,8 +2,10 @@
 """
 Intraday Strategy Alert System
 Runs every 30 minutes during NYSE market hours (Mon-Fri 9:30 AM – 4:00 PM ET).
-Scans all watched tickers for technical strategy signals, backtests each signal
-against 2 years of history, then emails ONLY the highest backtest-score setups.
+Uses strategy_engine's daily OHLCV snapshot (one full ~2y Yahoo pull per ET calendar day,
+plus a merged trailing daily window each run) so scans stay current without refetching
+two years of history every pass. Scans all watched tickers for technical strategy signals,
+backtests each signal against 2 years of history, then emails ONLY the highest backtest-score setups.
 One alert per strategy+ticker combination per 12 hours (no spam).
 """
 
