@@ -49,3 +49,20 @@ def test_merge_recent_daily_prefers_recent_values(monkeypatch):
     row = merged.loc[merged.index[0]]
     assert float(row["Close"]) == 15.0
     assert float(row["Volume"]) == 999.0
+
+
+def test_reset_signal_overlay_for_reapply():
+    from strategy_engine import _reset_signal_overlay_for_reapply
+
+    s = {
+        "ticker": "X",
+        "confidence": 75.0,
+        "confidence_base": 60.0,
+        "confidence_adj": 15.0,
+        "confidence_adj_reason": "COT boost",
+    }
+    _reset_signal_overlay_for_reapply([s])
+    assert s["confidence"] == 60.0
+    assert s["confidence_base"] == 60.0
+    assert s["confidence_adj"] == 0.0
+    assert s["confidence_adj_reason"] == ""

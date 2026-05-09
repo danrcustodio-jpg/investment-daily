@@ -137,6 +137,16 @@ def get_ohlcv_for_strategy_scan(symbol: str) -> pd.DataFrame | None:
     return merge_recent_daily_bars(base, symbol)
 
 
+def _ohlcv_for_analysis(symbol: str, *, force_full_two_year: bool) -> pd.DataFrame | None:
+    """OHLCV frame for detectors: cached path, or a fresh 2y Yahoo pull + merged daily tail."""
+    if force_full_two_year:
+        base = _fetch_two_year_daily(symbol)
+        if base is None:
+            return None
+        return merge_recent_daily_bars(base, symbol)
+    return get_ohlcv_for_strategy_scan(symbol)
+
+
 # Positioning-based score overlay (small and bounded so core backtest score remains primary).
 POSITIONING_ADJ_MAX = 6.0
 POSITIONING_ADJ_BY_CROWDING = {
@@ -650,6 +660,38 @@ def _apply_positioning_overlay(signals: list[dict], cot_summary: dict | None) ->
         s["confidence_adj"] = round(points, 1)
         s["confidence_adj_reason"] = reason
         s["confidence"] = max(0.0, min(100.0, adj))
+
+
+def _reset_signal_overlay_for_reapply(signals: list[dict]) -> None:
+    """Strip COT overlay so _apply_positioning_overlay can run again (e.g. after full-2y rescan)."""
+    for s in signals:
+        try:
+            base = float(s.get("confidence_base", s.get("confidence", 0.0)))
+        except (TypeError, ValueError):
+            base = 0.0
+        base = round(max(0.0, min(100.0, base)), 1)
+        s["confidence"] = base
+        s["confidence_base"] = base
+        s["confidence_adj"] = 0.0
+        s["confidence_adj_reason"] = ""
+
+
+def _full_2y_refresh_min_confidence() -> float:
+    """
+    After the normal scan + COT overlay, any ticker whose *final* confidence is at or
+    above this threshold gets a fresh Yahoo ~2y pull (plus merged daily tail) and a full
+    rescan. Set STRATEGY_FULL_2Y_REFRESH_MIN_CONFIDENCE=0 to disable.
+    """
+    raw = (os.getenv("STRATEGY_FULL_2Y_REFRESH_MIN_CONFIDENCE") or "70").strip()
+    try:
+        return float(raw)
+    except ValueError:
+        return 70.0
+
+
+def _disable_full_2y_refresh() -> bool:
+    v = (os.getenv("STRATEGY_DISABLE_FULL_2Y_REFRESH") or "").strip().lower()
+    return v in ("1", "true", "yes", "on")
 
 
 def positioning_overlay_diagnostics(signals: list[dict]) -> dict:
@@ -1939,18 +1981,22 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
 
 # ─── Main Scanner ─────────────────────────────────────────────────────────────
 
-def scan_ticker(symbol: str, name: str) -> list[dict]:
+def scan_ticker(symbol: str, name: str, *, force_full_two_year: bool = False) -> list[dict]:
     """
-    Build ~2y daily OHLCV (cached once per ET day + merged recent daily on each call),
-    compute pandas-ta indicators, and run all strategy detectors.
+    Build ~2y daily OHLCV (cached once per ET day + merged recent daily on each call,
+    unless force_full_two_year requests a fresh Yahoo ~2y pull), compute pandas-ta
+    indicators, and run all strategy detectors.
     """
     try:
-        raw = get_ohlcv_for_strategy_scan(symbol)
+        raw = _ohlcv_for_analysis(symbol, force_full_two_year=force_full_two_year)
         if raw is None or raw.empty or len(raw) < 50:
             return []
     except Exception as exc:
         logger.warning(f"  Could not fetch {symbol}: {exc}")
         return []
+
+    if force_full_two_year:
+        logger.info(f"  {symbol}: full 2y OHLCV refresh + indicator stack")
 
     df = raw.copy()
 
@@ -2016,6 +2062,11 @@ def run_full_scan(
     Scan all tickers. Returns signals sorted by confidence (highest first),
     filtered to confidence >= 45.
     dex_tickers: symbol -> contract_address mapping for DEX tokens (optional).
+
+    Uses cached daily OHLCV plus merged daily prices for the bulk scan; any symbol
+    whose post-COT confidence reaches STRATEGY_FULL_2Y_REFRESH_MIN_CONFIDENCE (default 70)
+    is rescanned once with a fresh Yahoo ~2y history pull so alerts rest on a full book.
+    Set STRATEGY_FULL_2Y_REFRESH_MIN_CONFIDENCE=0 to skip that pass.
     """
     if tickers is None:
         tickers = SCAN_TICKERS
@@ -2078,6 +2129,38 @@ def run_full_scan(
             diag["total"],
             cot_summary.get("regime", "Unknown"),
         )
+
+    thr = _full_2y_refresh_min_confidence()
+    if not _disable_full_2y_refresh() and thr > 0:
+        hot = {
+            s["ticker"]
+            for s in all_signals
+            if float(s.get("confidence", 0) or 0) >= thr and s.get("ticker") in tickers
+        }
+        if hot:
+            logger.info(
+                "Full 2y OHLCV rescan for %s symbol(s) (post-overlay confidence ≥ %.0f): %s",
+                len(hot),
+                thr,
+                ", ".join(sorted(hot)),
+            )
+            for sym in sorted(hot):
+                nm = tickers[sym]
+                try:
+                    fresh = scan_ticker(sym, nm, force_full_two_year=True)
+                except Exception as exc:
+                    logger.warning("  Full-2y rescan error %s: %s", sym, exc)
+                    continue
+                all_signals = [s for s in all_signals if s.get("ticker") != sym] + fresh
+            _reset_signal_overlay_for_reapply(all_signals)
+            _apply_positioning_overlay(all_signals, cot_summary)
+            diag2 = positioning_overlay_diagnostics(all_signals)
+            logger.info(
+                "COT overlay reapplied after full-2y refresh | adjusted=%s boosted=%s penalized=%s",
+                diag2["adjusted"],
+                diag2["boosted"],
+                diag2["penalized"],
+            )
 
     filtered = [s for s in all_signals if s.get("confidence", 0) >= 45]
     filtered.sort(key=lambda s: (
