@@ -271,6 +271,17 @@ SCAN_TICKERS: dict[str, str] = {
     "RIOT":    "Riot Platforms",
     "MARA":    "Marathon Digital",
     "XRP-USD": "XRP",
+    "AERO-USD": "Aerodrome Finance",
+    "ADA-USD": "Cardano",
+    "DOGE-USD": "Dogecoin",
+    "AVAX-USD": "Avalanche",
+    "LINK-USD": "Chainlink",
+    "DOT-USD": "Polkadot",
+    "MATIC-USD": "Polygon",
+    "ATOM-USD": "Cosmos",
+    "LTC-USD": "Litecoin",
+    "BCH-USD": "Bitcoin Cash",
+    "NEAR-USD": "NEAR Protocol",
 }
 
 # DEX tokens not on yfinance — keyed by display symbol, value is contract address.

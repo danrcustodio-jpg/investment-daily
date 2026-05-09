@@ -64,8 +64,16 @@ _cache: dict = {
     "positioning_diag": None,
     "fetched_at": None,
     "loading":   False,
+    "loading_percent": 0,
+    "loading_stage": "",
+    "loading_started_at": None,
 }
 CACHE_TTL_MINUTES = 30   # auto-refresh data every 30 min
+
+
+def _set_cache_loading(percent: int, stage: str) -> None:
+    _cache["loading_percent"] = max(0, min(100, int(percent)))
+    _cache["loading_stage"] = stage
 
 
 def cache_age_str() -> str:
@@ -88,16 +96,23 @@ def refresh_cache(force: bool = False) -> None:
             return
 
     _cache["loading"] = True
+    _cache["loading_started_at"] = datetime.now()
+    _set_cache_loading(2, "Starting refresh")
     try:
         from investment_daily import get_market_data, analyze_sentiment
         from positioning_data import get_cot_positioning_summary
         from strategy_engine import run_full_scan, positioning_overlay_diagnostics
 
         log.info("Dashboard: refreshing market data + signals ...")
+        _set_cache_loading(15, "Fetching market data")
         market    = get_market_data()
+        _set_cache_loading(35, "Analyzing sentiment")
         sentiment = analyze_sentiment(market)
+        _set_cache_loading(55, "Scanning strategy signals")
         signals   = run_full_scan()
+        _set_cache_loading(82, "Loading positioning context")
         positioning = get_cot_positioning_summary()
+        _set_cache_loading(92, "Calculating overlays")
 
         _cache["market"]    = market
         _cache["sentiment"] = sentiment
@@ -105,8 +120,10 @@ def refresh_cache(force: bool = False) -> None:
         _cache["positioning"] = positioning
         _cache["positioning_diag"] = positioning_overlay_diagnostics(signals)
         _cache["fetched_at"] = datetime.now()
+        _set_cache_loading(100, "Refresh complete")
         log.info(f"Dashboard: cache refreshed — {len(signals)} signals")
     except Exception as exc:
+        _set_cache_loading(100, "Refresh failed")
         log.error(f"Dashboard cache refresh error: {exc}")
     finally:
         _cache["loading"] = False
@@ -540,6 +557,16 @@ def shell(title: str, body: str, active: str = "") -> str:
     </div>
   </div>
 
+  <div id="loadWrap" style="display:none;position:sticky;top:49px;z-index:95;padding:8px 14px;background:#0b1220;border-bottom:1px solid #1e293b">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+      <div id="loadText" style="font-size:11px;color:#93c5fd">Loading data...</div>
+      <div id="loadPct" style="font-size:11px;color:#64748b">0%</div>
+    </div>
+    <div style="height:8px;background:#1e293b;border-radius:999px;overflow:hidden">
+      <div id="loadBar" style="height:8px;width:0%;background:linear-gradient(90deg,#2563eb,#22d3ee);transition:width .25s ease"></div>
+    </div>
+  </div>
+
   {body}
 
   <!-- Bottom nav -->
@@ -562,11 +589,39 @@ def shell(title: str, body: str, active: str = "") -> str:
     const r = await fetch(url, {{method:'POST'}});
     const d = await r.json();
     showToast(d.message || 'Done');
+    setTimeout(updateLoadingStatus, 400);
+  }}
+  function updateLoadingDom(stage, percent, loading) {{
+    const wrap = document.getElementById('loadWrap');
+    const bar = document.getElementById('loadBar');
+    const pct = document.getElementById('loadPct');
+    const txt = document.getElementById('loadText');
+    if (!wrap || !bar || !pct || !txt) return;
+    if (loading) {{
+      wrap.style.display = 'block';
+      bar.style.width = Math.max(0, Math.min(100, percent || 0)) + '%';
+      pct.textContent = Math.max(0, Math.min(100, percent || 0)) + '%';
+      txt.textContent = stage || 'Loading data...';
+    }} else {{
+      wrap.style.display = 'none';
+    }}
+  }}
+  async function updateLoadingStatus() {{
+    try {{
+      const r = await fetch('/api/status', {{cache:'no-store'}});
+      if (!r.ok) return;
+      const d = await r.json();
+      updateLoadingDom(d.loading_stage, d.loading_percent, !!d.loading);
+    }} catch (_e) {{
+      // keep UI quiet on transient polling errors
+    }}
   }}
   function goToTickerChart(ticker) {{
     if (!ticker) return;
     window.location.href = '/chart?ticker=' + encodeURIComponent(ticker);
   }}
+  updateLoadingStatus();
+  setInterval(updateLoadingStatus, 2000);
   </script>
 </body></html>"""
 
@@ -2267,6 +2322,13 @@ def api_status():
         "ok":               True,
         "fetched_at":       _cache["fetched_at"].isoformat() if _cache["fetched_at"] else None,
         "loading":          _cache["loading"],
+        "loading_percent":  int(_cache.get("loading_percent", 0) or 0),
+        "loading_stage":    str(_cache.get("loading_stage") or ""),
+        "loading_started_at": (
+            _cache.get("loading_started_at").isoformat()
+            if _cache.get("loading_started_at")
+            else None
+        ),
         "signal_count":     len(signals),
         "sentiment":        sent.get("overall", "unknown"),
         "positioning_regime": (_cache.get("positioning") or {}).get("regime", "unknown"),
@@ -2348,7 +2410,48 @@ def simulation_page():
     )
     m = re.search(r"<body[^>]*>", html_doc)
     if m:
-        html_doc = html_doc[: m.end()] + bar + html_doc[m.end() :]
+        load_widget = (
+            '<div id="simLoadWrap" style="display:none;position:sticky;top:54px;z-index:190;'
+            'padding:8px 16px;background:#0b1220;border-bottom:1px solid #1e293b">'
+            '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'
+            '<div id="simLoadText" style="font-size:11px;color:#93c5fd">Loading data...</div>'
+            '<div id="simLoadPct" style="font-size:11px;color:#64748b">0%</div>'
+            '</div>'
+            '<div style="height:8px;background:#1e293b;border-radius:999px;overflow:hidden">'
+            '<div id="simLoadBar" style="height:8px;width:0%;background:linear-gradient(90deg,#2563eb,#22d3ee);transition:width .25s ease"></div>'
+            '</div></div>'
+        )
+        html_doc = html_doc[: m.end()] + bar + load_widget + html_doc[m.end() :]
+
+    poll_script = """
+<script>
+async function pollLoadStatus(){
+  try {
+    const r = await fetch('/api/status', {cache:'no-store'});
+    if (!r.ok) return;
+    const d = await r.json();
+    const wrap = document.getElementById('simLoadWrap');
+    const bar = document.getElementById('simLoadBar');
+    const pct = document.getElementById('simLoadPct');
+    const txt = document.getElementById('simLoadText');
+    if (!wrap || !bar || !pct || !txt) return;
+    if (d.loading) {
+      wrap.style.display = 'block';
+      const p = Math.max(0, Math.min(100, d.loading_percent || 0));
+      bar.style.width = p + '%';
+      pct.textContent = p + '%';
+      txt.textContent = d.loading_stage || 'Loading data...';
+    } else {
+      wrap.style.display = 'none';
+    }
+  } catch (_e) {}
+}
+pollLoadStatus();
+setInterval(pollLoadStatus, 2000);
+</script>
+"""
+    if "</body>" in html_doc:
+        html_doc = html_doc.replace("</body>", poll_script + "</body>")
 
     return Response(html_doc, mimetype="text/html; charset=utf-8")
 
