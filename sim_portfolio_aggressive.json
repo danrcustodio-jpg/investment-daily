@@ -68,7 +68,15 @@
       "timestamp": "2026-05-04T12:36:09.246372"
     }
   ],
-  "snapshots": [],
+  "snapshots": [
+    {
+      "date": "2026-05-08",
+      "total_value": 5231.86,
+      "portfolio_pnl_pct": 4.637,
+      "benchmark_pnl_pct": 0.0,
+      "fees_paid": 10.4
+    }
+  ],
   "benchmark": {
     "ticker": "BTC-USD",
     "entry_price": null
