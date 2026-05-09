@@ -337,6 +337,13 @@ notepad .env
 # EMAIL_SENDER=your_gmail@gmail.com
 # EMAIL_PASSWORD=xxxx xxxx xxxx xxxx
 
+# Optional — Schwab Market Data for strategy scans (equities/ETFs only; crypto/futures stay on yfinance):
+# SCHWAB_MARKET_DATA=1
+# SCHWAB_CLIENT_ID=...
+# SCHWAB_CLIENT_SECRET=...
+# SCHWAB_CALLBACK_URL=https://127.0.0.1:8182
+# Then once: python scripts/schwab_login.py
+
 # Register scheduled tasks
 powershell -ExecutionPolicy Bypass -File schedule_daily.ps1
 powershell -ExecutionPolicy Bypass -File schedule_alerts.ps1

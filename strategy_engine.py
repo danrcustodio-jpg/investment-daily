@@ -18,6 +18,8 @@ import numpy as np
 import pandas as pd
 import pandas_ta as ta  # noqa: F401 - importing registers the DataFrame .ta accessor
 import yfinance as yf
+
+import schwab_market_data
 from positioning_data import get_cot_positioning_summary
 
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -1829,8 +1831,18 @@ def scan_ticker_dex(symbol: str, name: str, contract_address: str) -> list[dict]
 
 def scan_ticker(symbol: str, name: str) -> list[dict]:
     """Fetch 2 years of data, compute all pandas-ta indicators, run all strategies."""
+    raw = None
     try:
-        raw = yf.Ticker(symbol).history(period="2y")
+        if schwab_market_data.use_schwab_for_symbol(symbol):
+            schwab_client = schwab_market_data.get_client()
+            if schwab_client is not None:
+                schwab_df = schwab_market_data.fetch_daily_history(
+                    symbol, schwab_client
+                )
+                if schwab_df is not None and len(schwab_df) >= 50:
+                    raw = schwab_df
+        if raw is None:
+            raw = yf.Ticker(symbol).history(period="2y")
         if raw.empty or len(raw) < 50:
             return []
     except Exception as exc:
@@ -1891,6 +1903,114 @@ def scan_ticker(symbol: str, name: str) -> list[dict]:
     for sig in signals:
         sig["regime"] = reg
     return signals
+
+
+# ─── 15-minute context for high-confidence alert tickers ─────────────────────
+
+
+def fetch_15m_bars(symbol: str) -> pd.DataFrame | None:
+    """
+    Recent 15m OHLCV: Schwab when enabled for the symbol, else yfinance (~59d cap).
+    """
+    if schwab_market_data.use_schwab_for_symbol(symbol):
+        client = schwab_market_data.get_client()
+        if client is not None:
+            df = schwab_market_data.fetch_fifteen_minute_history(symbol, client)
+            if df is not None and len(df) >= 20:
+                return df
+    try:
+        raw = yf.Ticker(symbol).history(
+            period="59d", interval="15m", auto_adjust=False
+        )
+        if raw is None or raw.empty or len(raw) < 20:
+            return None
+        need = ["Open", "High", "Low", "Close", "Volume"]
+        if not all(c in raw.columns for c in need):
+            return None
+        out = raw[need].copy()
+        if out.index.tz is None:
+            out.index = pd.DatetimeIndex(out.index).tz_localize(
+                "America/New_York",
+                ambiguous="infer",
+                nonexistent="shift_forward",
+            )
+        else:
+            out = out.tz_convert("America/New_York")
+        return out
+    except Exception as exc:
+        logger.warning("  15m fetch failed for %s: %s", symbol, exc)
+        return None
+
+
+def format_intraday_15m_alert_html(
+    symbol: str, display_name: str, df: pd.DataFrame
+) -> str:
+    """Single-ticker HTML fragment: 15m session stats + RSI(14) on 15m closes."""
+    import datetime
+    import zoneinfo
+
+    et = zoneinfo.ZoneInfo("America/New_York")
+    now_et = datetime.datetime.now(et)
+    today = now_et.date()
+    mask = [ts.date() == today for ts in df.index]
+    session = df[mask]
+    session_label = "today (ET)"
+    if len(session) < 4:
+        session = df.tail(26)
+        session_label = "recent session (~1d of 15m bars)"
+
+    d = df.copy()
+    try:
+        d.ta.rsi(length=14, append=True)
+    except Exception:
+        pass
+    rsi_col = "RSI_14"
+    last = d.iloc[-1]
+    last_ts = d.index[-1].strftime("%I:%M %p %Z")
+    rsi_txt = ""
+    if rsi_col in d.columns and pd.notna(last[rsi_col]):
+        rsi_txt = f"{float(last[rsi_col]):.1f}"
+
+    o0 = float(session["Open"].iloc[0])
+    hi = float(session["High"].max())
+    lo = float(session["Low"].min())
+    cl = float(session["Close"].iloc[-1])
+    chg_pct = (cl / o0 - 1.0) * 100.0 if o0 else 0.0
+
+    return f"""
+    <div style="background:#0a1628;border-radius:10px;padding:14px 16px;margin-bottom:12px;
+                border:1px solid #334155">
+      <div style="font-size:13px;font-weight:800;color:#e2e8f0;margin-bottom:8px">
+        {display_name} <span style="color:#64748b;font-weight:600">({symbol})</span>
+        <span style="font-size:10px;color:#64748b;font-weight:600;margin-left:8px">
+          15-minute bars · {session_label}
+        </span>
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px;color:#94a3b8">
+        <tr>
+          <td style="padding:4px 8px 4px 0">Last bar</td>
+          <td style="padding:4px 0;color:#f1f5f9;font-weight:600">{last_ts}</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0">Last close</td>
+          <td style="padding:4px 0;color:#f1f5f9;font-weight:600">{cl:.4g}</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0">Session range</td>
+          <td style="padding:4px 0">{lo:.4g} – {hi:.4g}</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0">Vs session open</td>
+          <td style="padding:4px 0;color:{'#22c55e' if chg_pct >= 0 else '#ef4444'};font-weight:700">
+            {chg_pct:+.2f}%
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0">RSI (14) on 15m</td>
+          <td style="padding:4px 0;color:#a78bfa;font-weight:700">{rsi_txt or "—"}</td>
+        </tr>
+      </table>
+    </div>"""
 
 
 def run_full_scan(

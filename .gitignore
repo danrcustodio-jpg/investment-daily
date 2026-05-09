@@ -1,6 +1,7 @@
 # Credentials — never commit these
 .env
 *.env
+schwab_token.json
 
 # Python
 __pycache__/
