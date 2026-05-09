@@ -23,7 +23,7 @@ TOTAL_CAPITAL = 5_000.00
 BENCHMARK = {"ticker": "BTC-USD", "entry_price": None}
 
 # Aggressive assumptions (explicitly riskier than portfolio_sim.py)
-MAX_POSITIONS = 3
+MAX_POSITIONS = 10  # default; can be overridden via state["config"]["max_positions"]
 MIN_TRADE_SIZE = 400.0
 MAX_SINGLE_ALLOC_PCT = 0.70
 
@@ -79,6 +79,7 @@ def init_simulation() -> dict:
         "fees_paid": 0.0,
         "trade_log": [],
         "snapshots": [],
+        "config": {"max_positions": MAX_POSITIONS},
         "benchmark": {
             "ticker": "BTC-USD",
             "entry_price": btc_price if btc_price > 0 else None,
@@ -233,6 +234,18 @@ def _close_position(state: dict, ticker: str, px: float, reason: str) -> None:
     )
 
 
+def get_max_positions(state: dict) -> int:
+    cfg = state.get("config", {})
+    if not isinstance(cfg, dict):
+        return MAX_POSITIONS
+    raw = cfg.get("max_positions", MAX_POSITIONS)
+    try:
+        v = int(raw)
+    except (TypeError, ValueError):
+        return MAX_POSITIONS
+    return max(1, min(25, v))
+
+
 def rebalance_aggressive(state: dict, prices: dict[str, float], signals: list[dict]) -> dict:
     sig_map = _signal_map(signals)
     held = set(state["positions"].keys())
@@ -273,7 +286,7 @@ def rebalance_aggressive(state: dict, prices: dict[str, float], signals: list[di
 
     # Entries: aggressively deploy most free cash into strongest setups.
     held = set(state["positions"].keys())
-    slots_left = max(0, MAX_POSITIONS - len(held))
+    slots_left = max(0, get_max_positions(state) - len(held))
     if slots_left <= 0 or state["cash"] < MIN_TRADE_SIZE:
         return state
 

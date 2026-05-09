@@ -2520,6 +2520,7 @@ def aggressive_simulation_page():
     pnl_pct = (pnl / init_cap * 100) if init_cap else 0.0
     alpha = pnl_pct - float(bm.get("pnl_pct") or 0.0)
     fees = float(state.get("fees_paid") or 0.0)
+    max_positions = int(state.get("config", {}).get("max_positions", 10))
 
     rows_html = ""
     for r in rows:
@@ -2565,6 +2566,18 @@ def aggressive_simulation_page():
   </div>
   <h2 style='color:#f8fafc;margin:8px 0 6px'>Aggressive Simulator</h2>
   <p style='color:#94a3b8;margin:0 0 14px'>High-risk simulation for max-upside behavior. Includes explicit spot and crypto-option fees.</p>
+  <div style='background:#1e293b;border-radius:8px;padding:12px;margin-bottom:14px'>
+    <div style='color:#64748b;font-size:11px;margin-bottom:8px'>Max positions</div>
+    <div style='display:flex;gap:8px;align-items:center'>
+      <input id='maxPositionsInput' type='number' min='1' max='25' value='{max_positions}'
+             style='width:110px;padding:8px 10px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#e2e8f0'>
+      <button onclick='setAggressiveMaxPositions()'
+              style='padding:8px 12px;border:none;border-radius:8px;background:#6366f1;color:#fff;font-weight:700;cursor:pointer'>
+        Save
+      </button>
+      <span id='maxPosMsg' style='color:#94a3b8;font-size:12px'>Current: {max_positions}</span>
+    </div>
+  </div>
   <div style='display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px'>
     <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Portfolio P&L</div><div style='font-size:22px;font-weight:800;color:{'#22c55e' if pnl >= 0 else '#ef4444'}'>{pnl_pct:+.2f}%</div><div style='color:{'#22c55e' if pnl >= 0 else '#ef4444'}'>${pnl:+,.2f}</div></div>
     <div style='background:#1e293b;border-radius:8px;padding:12px'><div style='color:#64748b;font-size:11px'>Total Equity</div><div style='font-size:22px;font-weight:800'>${total_value:,.2f}</div><div style='color:#94a3b8'>Cash ${float(state.get('cash') or 0):,.2f}</div></div>
@@ -2590,9 +2603,68 @@ def aggressive_simulation_page():
 
   <h3 style='margin:16px 0 8px'>Recent Trades</h3>
   {moves_html}
-</div></body></html>"""
+</div>
+<script>
+async function setAggressiveMaxPositions() {{
+  const input = document.getElementById('maxPositionsInput');
+  const msg = document.getElementById('maxPosMsg');
+  if (!input || !msg) return;
+  const val = parseInt(input.value || '0', 10);
+  if (!Number.isFinite(val) || val < 1 || val > 25) {{
+    msg.textContent = 'Enter a value from 1 to 25.';
+    msg.style.color = '#fca5a5';
+    return;
+  }}
+  msg.textContent = 'Saving...';
+  msg.style.color = '#93c5fd';
+  try {{
+    const r = await fetch('/aggressive-simulation/config', {{
+      method: 'POST',
+      headers: {{'Content-Type': 'application/json'}},
+      body: JSON.stringify({{max_positions: val}})
+    }});
+    const d = await r.json();
+    if (!r.ok || !d.ok) throw new Error(d.message || 'Save failed');
+    msg.textContent = d.message || ('Saved: ' + val);
+    msg.style.color = '#86efac';
+    setTimeout(() => window.location.reload(), 700);
+  }} catch (e) {{
+    msg.textContent = e.message || 'Save failed';
+    msg.style.color = '#fca5a5';
+  }}
+}}
+</script>
+</body></html>"""
 
     return Response(html_doc, mimetype="text/html; charset=utf-8")
+
+
+@app.route("/aggressive-simulation/config", methods=["POST"])
+def aggressive_simulation_config():
+    import aggressive_sim as sim
+
+    state = sim.load_state()
+    if not state:
+        return jsonify({
+            "ok": False,
+            "message": "Initialize aggressive simulation first.",
+        }), 400
+
+    payload = request.get_json(silent=True) or {}
+    raw = payload.get("max_positions")
+    try:
+        max_positions = int(raw)
+    except (TypeError, ValueError):
+        return jsonify({"ok": False, "message": "max_positions must be an integer."}), 400
+    max_positions = max(1, min(25, max_positions))
+
+    cfg = state.get("config")
+    if not isinstance(cfg, dict):
+        cfg = {}
+    cfg["max_positions"] = max_positions
+    state["config"] = cfg
+    sim.save_state(state)
+    return jsonify({"ok": True, "message": f"Max positions set to {max_positions}."})
 
 
 @app.route("/hub")
