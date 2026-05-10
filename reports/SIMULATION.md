@@ -1,29 +1,29 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 1** &nbsp;·&nbsp; Updated: May 09 2026 01:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 2** &nbsp;·&nbsp; Updated: May 10 2026 02:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+0.83%** &nbsp; ($+1,612) |
+| Portfolio P&L | **+0.11%** &nbsp; ($+222) |
 | SPY Benchmark | +4.21% &nbsp; ($+8,176 if 100% SPY) |
-| Alpha vs SPY | **-3.38%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-4.10%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $195,612 |
+| Current Value | $194,222 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $55.70 | $+193 | +0.55% |
-| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | $95.42 | $+1,405 | +9.36% |
+| **CL=F** | Crude Oil (CL=F) | ✅ OPEN | $15,000 | — | — | — |
 | **GOOGL** | Alphabet (GOOGL) | ⏳ PENDING (needs -19.6% → $322.22) | $15,000 | $400.80 | — | — |
 | **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -3.9% → $399.00) | $9,000 | $415.12 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $120,000 | — | $+15 | +0.01% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $120,000 | — | $+30 | +0.02% |
 
 ## Strategy Advisor
 
-_Evaluated May 09 2026 01:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 10 2026 02:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -33,7 +33,6 @@ _Evaluated May 09 2026 01:59 PM · Tax rates: 32% short-term / 15% long-term · 
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 60.0, Win Rate 64.3%, Avg 5d Return 0.53%, Max Drawdown -4.95%, S… |
 | 🟡 MEDIUM | ⚠️ CANCEL LIMIT | **GOOGL** | 8 bearish signal(s) now outweigh 5 bullish. Strongest: MFI — Overbought at score 79.0. Lim… |
 | 🟡 MEDIUM | ⚠️ CANCEL LIMIT | **MSFT** | 1 bearish signal(s) now outweigh 0 bullish. Strongest: TRIX — Bearish Cross at score 50.7.… |
-| 🟢 LOW | ✅ HOLD | **CL=F** | Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,405. Hol… |
 
 ### 🔍 NEW OPPORTUNITY — COIN
 
@@ -51,7 +50,7 @@ _Evaluated May 09 2026 01:59 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Signal Analysis:** Signal environment turned net bearish (1 bear score 0.60 vs 1 bull score 0.28). Strongest bearish: EMA 9/21 — Bearish Cross (score 73.9). Gross P&L: $+193.
 
-**Tax & Cost:** Held 1 days (short-term rate). $62 tax owed (32% short-term) + $35 slippage. Net proceeds if sold: $35,096.
+**Tax & Cost:** Held 2 days (short-term rate). $62 tax owed (32% short-term) + $35 slippage. Net proceeds if sold: $35,096.
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
@@ -70,12 +69,6 @@ _Evaluated May 09 2026 01:59 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** 1 bearish signal(s) now outweigh 0 bullish. Strongest: TRIX — Bearish Cross at score 50.7. Limit at $399.00 may never fill profitably.
 
 **Tax & Cost:** No tax impact — order not yet filled.
-
-### ✅ HOLD — CL=F
-
-**Signal Analysis:** Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,405. Holding avoids $449 in taxes.
-
-**Tax & Cost:** Held 1 days (short-term). Exiting now costs $449 tax + $16 slippage = $466 total friction.
 
 ## Position Rationale
 

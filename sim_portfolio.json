@@ -102,7 +102,7 @@
       "ticker": "XLE",
       "priority": "high",
       "reason": "Signal environment turned net bearish (1 bear score 0.60 vs 1 bull score 0.28). Strongest bearish: EMA 9/21 \u2014 Bearish Cross (score 73.9). Gross P&L: $+193.",
-      "tax_note": "Held 1 days (short-term rate). $62 tax owed (32% short-term) + $35 slippage. Net proceeds if sold: $35,096."
+      "tax_note": "Held 2 days (short-term rate). $62 tax owed (32% short-term) + $35 slippage. Net proceeds if sold: $35,096."
     },
     {
       "action": "NEW_OPPORTUNITY",
@@ -126,14 +126,7 @@
       "priority": "medium",
       "reason": "1 bearish signal(s) now outweigh 0 bullish. Strongest: TRIX \u2014 Bearish Cross at score 50.7. Limit at $399.00 may never fill profitably.",
       "tax_note": "No tax impact \u2014 order not yet filled."
-    },
-    {
-      "action": "HOLD",
-      "ticker": "CL=F",
-      "priority": "low",
-      "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,405. Holding avoids $449 in taxes.",
-      "tax_note": "Held 1 days (short-term). Exiting now costs $449 tax + $16 slippage = $466 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-09T13:59:52.705712"
+  "recommendations_updated": "2026-05-10T14:01:23.301013"
 }
