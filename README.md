@@ -14,6 +14,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 | Strategy Alerts | Latest signal scan with confidence scores | [View →](reports/ALERTS.md) |
 | Newsletter Summary | Daily market overview and top movers | [View →](reports/NEWSLETTER.md) |
 | Portfolio Simulation | $194k paper portfolio vs SPY | [View →](reports/SIMULATION.md) |
+| Hawaii Trip Dashboard | Oahu Jul 2026 plan (phones; GitHub Pages) | [Setup & public URL →](hawaii-trip-dashboard/README.md) |
 
 ## Portfolio Simulation
 
