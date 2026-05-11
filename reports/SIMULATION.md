@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 3** &nbsp;·&nbsp; Updated: May 11 2026 09:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 3** &nbsp;·&nbsp; Updated: May 11 2026 10:11 PM
 
 ## Performance Summary
 
@@ -27,15 +27,21 @@
 
 ## Strategy Advisor
 
-_Evaluated May 11 2026 09:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 11 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 83.3, Win Rate 83.3%, Avg 5d Return 39.51%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 80.1, Win Rate 65.3%, Avg 5d Return 2.88%, Max Drawdown -4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **META** | Fisher Transform — Low Extreme — Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 73.2, Win Rate 62.1%, Avg 5d Return 3.46%, Max Drawdo… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.66 is 3.3% above limit. … |
 | 🟢 LOW | ✅ HOLD | **XLE** | Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,121. Hol… |
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** Donchian — 20D High Breakout — Score 83.3, Win Rate 83.3%, Avg 5d Return 39.51%, Max Drawdown -32.69%, Sharpe 5.28. 1 minor bearish signal(s), max confidence 76.7.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — AVGO
 
@@ -46,12 +52,6 @@ _Evaluated May 11 2026 09:01 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — META
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Drawdown -10.65%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 70.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 73.2, Win Rate 62.1%, Avg 5d Return 3.46%, Max Drawdown -61.12%, Sharpe 2.14. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.
 
