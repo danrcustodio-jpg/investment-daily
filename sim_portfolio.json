@@ -50,60 +50,60 @@
   "snapshots": [
     {
       "date": "2026-05-11",
-      "total_value": 196309.13,
-      "portfolio_pnl": 1.19,
-      "benchmark_pnl": 4.613,
+      "total_value": 196346.98,
+      "portfolio_pnl": 1.21,
+      "benchmark_pnl": 4.342,
       "prices": {
-        "XLE": 57.080101013183594,
-        "MSFT": 411.0899963378906,
-        "SPY": 740.4400024414062
+        "XLE": 57.13999938964844,
+        "MSFT": 411.4800109863281,
+        "SPY": 738.52001953125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "AVGO",
       "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 83.3, Win Rate 83.3%, Avg 5d Return 39.51%, Max Drawdown -32.69%, Sharpe 5.28. 1 minor bearish signal(s), max confidence 76.7.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
-      "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 83.3, Win Rate 75.0%, Avg 5d Return 2.31%, Max Drawdown -9.39%, Sharpe 3.84. 1 minor bearish signal(s), max confidence 45.6.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 80.1, Win Rate 65.3%, Avg 5d Return 2.88%, Max Drawdown -47.04%, Sharpe 2.95. 1 minor bearish signal(s), max confidence 47.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SOL-USD",
+      "ticker": "META",
       "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 80.0, Win Rate 80.0%, Avg 5d Return 5.46%, Max Drawdown -8.25%, Sharpe 4.56. 1 minor bearish signal(s), max confidence 46.1.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Drawdown -10.65%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 70.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "RIOT",
+      "priority": "high",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 73.2, Win Rate 62.1%, Avg 5d Return 3.46%, Max Drawdown -61.12%, Sharpe 2.14. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $411.06 is 2.9% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $411.59 is 3.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     },
     {
       "action": "HOLD",
       "ticker": "XLE",
       "priority": "low",
-      "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,065. Holding avoids $341 in taxes.",
-      "tax_note": "Held 3 days (short-term). Exiting now costs $341 tax + $36 slippage = $377 total friction."
+      "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,099. Holding avoids $352 in taxes.",
+      "tax_note": "Held 3 days (short-term). Exiting now costs $352 tax + $36 slippage = $388 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-11T17:51:28.168443",
+  "recommendations_updated": "2026-05-11T19:30:03.749268",
   "trade_log": [
     {
       "action": "SELL",

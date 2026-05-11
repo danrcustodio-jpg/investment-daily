@@ -258,9 +258,9 @@
       "last_change_at": "2026-05-11T15:53:01.327533+00:00"
     },
     "PLTR": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-05-11T17:50:45.836614+00:00",
-      "last_change_at": "2026-05-11T15:53:01.327596+00:00"
+      "last_change_at": "2026-05-11T19:29:11.543921+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -308,19 +308,23 @@
       "last_change_at": "2026-05-11T15:53:01.328180+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-11T17:50:47.599514+00:00",
-      "last_change_at": "2026-05-11T17:50:43.431050+00:00"
+      "last_change_at": "2026-05-11T19:29:11.544072+00:00"
     },
     "ARKK": {
-      "cadence_min": 15,
-      "last_change_at": "2026-05-11T17:50:43.430870+00:00",
-      "last_fetch_at": "2026-05-11T17:50:44.414033+00:00"
+      "cadence_min": 30,
+      "last_fetch_at": "2026-05-11T17:50:44.414033+00:00",
+      "last_change_at": "2026-05-11T19:29:11.543746+00:00"
     },
     "SOL-USD": {
+      "cadence_min": 30,
+      "last_fetch_at": "2026-05-11T17:50:46.601460+00:00",
+      "last_change_at": "2026-05-11T19:29:11.544000+00:00"
+    },
+    "AVGO": {
       "cadence_min": 15,
-      "last_change_at": "2026-05-11T17:50:43.430966+00:00",
-      "last_fetch_at": "2026-05-11T17:50:46.601460+00:00"
+      "last_change_at": "2026-05-11T19:29:11.543837+00:00"
     }
   },
   "signal_last_notified_price": {
