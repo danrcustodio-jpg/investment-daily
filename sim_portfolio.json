@@ -80,11 +80,27 @@
   "snapshots": [],
   "recommendations": [
     {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "COIN",
+      "action": "REVIEW_EXIT",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 74.0, Win Rate 60.0%, Avg 5d Return 4.13%, Max Drawdown -23.94%, Sharpe 2.66. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,096 deployable. Entry slippage est. $30.",
+      "reason": "Signal environment turned net bearish (2 bear score 0.87 vs 1 bull score 0.49). Strongest bearish: TRIX \u2014 Bearish Cross (score 73.4). Gross P&L: $+1,735.",
+      "tax_note": "Held 3 days (short-term rate). $555 tax owed (32% short-term) + $17 slippage. Net proceeds if sold: $16,163."
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "META",
+      "priority": "high",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Drawdown -10.65%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 70.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $136,163 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "PLTR",
+      "priority": "high",
+      "reason": "Stochastic RSI Oversold \u2014 Score 74.0, Win Rate 60.3%, Avg 5d Return 3.2%, Max Drawdown -51.94%, Sharpe 2.15. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $136,163 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -92,24 +108,8 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 73.1, Win Rate 62.1%, Avg 5d Return 3.46%, Max Drawdown -61.12%, Sharpe 2.14. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,096 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "REVIEW_EXIT",
-      "ticker": "XLE",
-      "priority": "high",
-      "reason": "Signal environment turned net bearish (1 bear score 0.60 vs 1 bull score 0.28). Strongest bearish: EMA 9/21 \u2014 Bearish Cross (score 73.9). Gross P&L: $+193.",
-      "tax_note": "Held 2 days (short-term rate). $62 tax owed (32% short-term) + $35 slippage. Net proceeds if sold: $35,096."
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "AAPL",
-      "priority": "medium",
-      "reason": "52-Week Breakout \u2014 Score 60.0, Win Rate 64.3%, Avg 5d Return 0.53%, Max Drawdown -4.95%, Sharpe 1.42. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,096 deployable. Entry slippage est. $30.",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 73.2, Win Rate 62.1%, Avg 5d Return 3.46%, Max Drawdown -61.12%, Sharpe 2.14. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $136,163 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -117,16 +117,23 @@
       "action": "CANCEL_LIMIT",
       "ticker": "GOOGL",
       "priority": "medium",
-      "reason": "8 bearish signal(s) now outweigh 5 bullish. Strongest: MFI \u2014 Overbought at score 79.0. Limit at $322.22 may never fill profitably.",
+      "reason": "8 bearish signal(s) now outweigh 4 bullish. Strongest: MFI \u2014 Overbought at score 79.4. Limit at $322.22 may never fill profitably.",
       "tax_note": "No tax impact \u2014 order not yet filled."
     },
     {
-      "action": "CANCEL_LIMIT",
+      "action": "HOLD_LIMIT",
       "ticker": "MSFT",
-      "priority": "medium",
-      "reason": "1 bearish signal(s) now outweigh 0 bullish. Strongest: TRIX \u2014 Bearish Cross at score 50.7. Limit at $399.00 may never fill profitably.",
-      "tax_note": "No tax impact \u2014 order not yet filled."
+      "priority": "low",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $410.75 is 2.9% above limit. Keep limit order at $399.00.",
+      "tax_note": "No tax impact until order fills."
+    },
+    {
+      "action": "HOLD",
+      "ticker": "XLE",
+      "priority": "low",
+      "reason": "Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+859. Holding avoids $275 in taxes.",
+      "tax_note": "Held 3 days (short-term). Exiting now costs $275 tax + $36 slippage = $311 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-10T14:01:23.301013"
+  "recommendations_updated": "2026-05-11T15:46:05.496545"
 }
