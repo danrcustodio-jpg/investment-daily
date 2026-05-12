@@ -58,6 +58,17 @@
         "MSFT": 412.6600036621094,
         "SPY": 739.2999877929688
       }
+    },
+    {
+      "date": "2026-05-12",
+      "total_value": 196533.05,
+      "portfolio_pnl": 1.306,
+      "benchmark_pnl": 3.567,
+      "prices": {
+        "XLE": 57.404998779296875,
+        "MSFT": 407.8800048828125,
+        "SPY": 733.0399780273438
+      }
     }
   ],
   "recommendations": [
@@ -92,18 +103,18 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.40 is 2.3% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $407.63 is 2.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     },
     {
       "action": "HOLD",
       "ticker": "XLE",
       "priority": "low",
-      "reason": "Signal still net bullish (1 bull score 0.46 vs 0 bear score 0.00). Gross P&L: $+1,245. Holding avoids $398 in taxes.",
-      "tax_note": "Held 4 days (short-term). Exiting now costs $398 tax + $36 slippage = $435 total friction."
+      "reason": "Signal still net bullish (1 bull score 0.46 vs 0 bear score 0.00). Gross P&L: $+1,270. Holding avoids $406 in taxes.",
+      "tax_note": "Held 4 days (short-term). Exiting now costs $406 tax + $36 slippage = $443 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-12T15:22:40.941418",
+  "recommendations_updated": "2026-05-12T15:38:05.956122",
   "trade_log": [
     {
       "action": "SELL",
