@@ -61,13 +61,13 @@
     },
     {
       "date": "2026-05-12",
-      "total_value": 196706.8,
-      "portfolio_pnl": 1.395,
-      "benchmark_pnl": 4.125,
+      "total_value": 196637.3,
+      "portfolio_pnl": 1.359,
+      "benchmark_pnl": 4.294,
       "prices": {
-        "XLE": 57.68000030517578,
-        "MSFT": 408.8999938964844,
-        "SPY": 736.9849853515625
+        "XLE": 57.56999969482422,
+        "MSFT": 407.7699890136719,
+        "SPY": 738.1799926757812
       }
     }
   ],
@@ -92,29 +92,29 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "AAPL",
       "priority": "medium",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdown -9.61%, Sharpe 2.39. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "52-Week Breakout \u2014 Score 60.0, Win Rate 64.3%, Avg 5d Return 0.53%, Max Drawdown -4.95%, Sharpe 1.42. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.95 is 2.4% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $407.77 is 2.2% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     },
     {
       "action": "HOLD",
       "ticker": "XLE",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.78 vs 0 bear score 0.00). Gross P&L: $+1,460. Holding avoids $467 in taxes.",
-      "tax_note": "Held 4 days (short-term). Exiting now costs $467 tax + $36 slippage = $504 total friction."
+      "reason": "Signal still net bullish (1 bull score 0.46 vs 0 bear score 0.00). Gross P&L: $+1,374. Holding avoids $440 in taxes.",
+      "tax_note": "Held 4 days (short-term). Exiting now costs $440 tax + $36 slippage = $476 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-12T19:30:04.864396",
+  "recommendations_updated": "2026-05-12T21:00:21.242242",
   "trade_log": [
     {
       "action": "SELL",
