@@ -1,23 +1,23 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 3** &nbsp;·&nbsp; Updated: May 11 2026 10:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 4** &nbsp;·&nbsp; Updated: May 12 2026 03:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.22%** &nbsp; ($+2,366) |
-| SPY Benchmark | +4.45% &nbsp; ($+8,637 if 100% SPY) |
-| Alpha vs SPY | **-3.23%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.29%** &nbsp; ($+2,508) |
+| SPY Benchmark | +3.52% &nbsp; ($+6,833 if 100% SPY) |
+| Alpha vs SPY | **-2.23%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,366 |
+| Current Value | $196,508 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $57.17 | $+1,121 | +3.20% |
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -3.3% → $399.00) | $9,000 | $412.66 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $151,189 | — | $+56 | +0.04% |
+| **XLE** | Energy ETF (XLE) | ✅ OPEN | $35,000 | $57.37 | $+1,245 | +3.56% |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -2.3% → $399.00) | $9,000 | $408.40 | — | — |
+| **CASH** | Cash / Money Market | ✅ OPEN | $151,189 | — | $+75 | +0.05% |
 
 ## Daily Equity Curve
 
@@ -27,25 +27,19 @@
 
 ## Strategy Advisor
 
-_Evaluated May 11 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 12 2026 03:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 83.3, Win Rate 83.3%, Avg 5d Return 39.51%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 80.1, Win Rate 65.3%, Avg 5d Return 2.88%, Max Drawdown -4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **META** | Fisher Transform — Low Extreme — Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Draw… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.66 is 3.3% above limit. … |
-| 🟢 LOW | ✅ HOLD | **XLE** | Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,121. Hol… |
-
-### 🔍 NEW OPPORTUNITY — AERO-USD
-
-**Signal Analysis:** Donchian — 20D High Breakout — Score 83.3, Win Rate 83.3%, Avg 5d Return 39.51%, Max Drawdown -32.69%, Sharpe 5.28. 1 minor bearish signal(s), max confidence 76.7.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Stochastic RSI Oversold — Score 74.0, Win Rate 60.3%, Avg 5d Return 3.2%, Max Drawdown -51… |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.40 is 2.3% above limit. … |
+| 🟢 LOW | ✅ HOLD | **XLE** | Signal still net bullish (1 bull score 0.46 vs 0 bear score 0.00). Gross P&L: $+1,245. Hol… |
 
 ### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 80.1, Win Rate 65.3%, Avg 5d Return 2.88%, Max Drawdown -47.04%, Sharpe 2.95. 1 minor bearish signal(s), max confidence 47.3.
+**Signal Analysis:** Stochastic RSI Oversold — Score 80.1, Win Rate 65.3%, Avg 5d Return 2.88%, Max Drawdown -47.04%, Sharpe 2.95. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.
 
@@ -55,17 +49,23 @@ _Evaluated May 11 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — PLTR
+
+**Signal Analysis:** Stochastic RSI Oversold — Score 74.0, Win Rate 60.3%, Avg 5d Return 3.2%, Max Drawdown -51.94%, Sharpe 2.15. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.
+
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.66 is 3.3% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.40 is 2.3% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 
 ### ✅ HOLD — XLE
 
-**Signal Analysis:** Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+1,121. Holding avoids $359 in taxes.
+**Signal Analysis:** Signal still net bullish (1 bull score 0.46 vs 0 bear score 0.00). Gross P&L: $+1,245. Holding avoids $398 in taxes.
 
-**Tax & Cost:** Held 3 days (short-term). Exiting now costs $359 tax + $36 slippage = $395 total friction.
+**Tax & Cost:** Held 4 days (short-term). Exiting now costs $398 tax + $36 slippage = $435 total friction.
 
 ## Position Rationale
 

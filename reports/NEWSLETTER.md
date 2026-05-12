@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, May 11, 2026
-Generated at 03:46 PM
+# Daily Newsletter — Tuesday, May 12, 2026
+Generated at 03:22 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 185 total &nbsp;·&nbsp; 🟢 90 Bullish &nbsp;·&nbsp; 🔴 95 Bearish
+**Strategy Signals:** 155 total &nbsp;·&nbsp; 🟢 82 Bullish &nbsp;·&nbsp; 🔴 73 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $86.38 | 📈 +7.44% |
-| **NG=F** | Natural Gas | $2.91 | 📈 +5.59% |
-| **^VIX** | VIX (Fear Index) | $17.91 | 📈 +4.19% |
-| **CL=F** | Crude Oil | $97.45 | 📈 +2.13% |
-| **XLE** | Energy (XLE) | $56.74 | 📈 +1.88% |
-| **ETH-USD** | Ethereum | $2326.68 | 📉 -1.79% |
-| **XLK** | Tech (XLK) | $177.60 | 📈 +1.19% |
-| **BTC-USD** | Bitcoin | $81224.84 | 📉 -1.11% |
-| **XLI** | Industrials (XLI) | $174.60 | 📈 +0.81% |
-| **^RUT** | Russell 2000 | $2881.87 | 📈 +0.72% |
+| **CL=F** | Crude Oil | $101.60 | 📈 +3.60% |
+| **SOL-USD** | Solana | $94.16 | 📉 -3.28% |
+| **ETH-USD** | Ethereum | $2264.51 | 📉 -3.20% |
+| **XLK** | Tech (XLK) | $172.74 | 📉 -2.89% |
+| **NG=F** | Natural Gas | $2.83 | 📉 -2.68% |
+| **^VIX** | VIX (Fear Index) | $18.87 | 📈 +2.67% |
+| **^RUT** | Russell 2000 | $2813.36 | 📉 -2.00% |
+| **XLV** | Healthcare (XLV) | $145.52 | 📈 +1.73% |
+| **BTC-USD** | Bitcoin | $80410.02 | 📉 -1.61% |
+| **^IXIC** | NASDAQ | $25867.70 | 📉 -1.55% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 94.3 | 85.7% |
-| 🟢 BULLISH | **TQQQ** | Donchian — 20D High Breakout | 90.0 | 75.0% |
-| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 83.9 | 69.8% |
 | 🟢 BULLISH | **GC=F** | MFI — Oversold | 83.3 | 69.4% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 82.6 | 69.1% |
-| 🟢 BULLISH | **XLK** | 52-Week Breakout | 82.6 | 68.9% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 82.8 | 69.4% |
 | 🟢 BULLISH | **GC=F** | TRIX — Bullish Cross | 82.5 | 75.0% |
-| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 81.6 | 73.1% |
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 80.3 | 68.4% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 80.1 | 65.3% |
 | 🟢 BULLISH | **META** | Fisher Transform — Low Extreme | 79.3 | 67.7% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.0 | 65.0% |
-| 🟢 BULLISH | **RKLB** | TRIX — Bullish Cross | 76.9 | 61.5% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.3 | 65.2% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 76.9 | 68.8% |
+| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 74.1 | 59.8% |
+| 🟢 BULLISH | **PLTR** | Stochastic RSI Oversold | 74.0 | 60.3% |
+| 🟢 BULLISH | **GOOGL** | Chaikin Money Flow — Bullish | 73.8 | 61.7% |
+| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 73.8 | 63.6% |
+| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 73.2 | 62.1% |
 
 ## Latest News
 
-- [IRS may owe millions of taxpayers refunds for pandemic-era penalty relief. How to file a claim](https://www.cnbc.com/2026/05/11/kwong-v-united-states-tax-refund-deadline.html) — *CNBC Markets*
-- [Nearly half of women are cheating themselves out of free money](https://www.marketwatch.com/story/how-nearly-half-of-women-cheat-themselves-out-of-free-money-c9afaf67?mod=mw_rss_topstories) — *MarketWatch*
-- [Tapestry's AI platform Mira granted U.S. patent](https://seekingalpha.com/news/4590622-tapestrys-ai-platform-mira-granted-us-patent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [White House Advisor Hassett discusses corporate earnings, inflation, the Fed, and AI](https://seekingalpha.com/news/4590472-white-house-advisor-hassett-discusses-corporate-earnings-inflation-the-fed-and-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump says he wants temporary gas tax suspension to blunt surging pump prices](https://seekingalpha.com/news/4590625-trump-says-he-wants-temporary-gas-tax-suspension-to-blunt-surging-pump-prices?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Poland stocks higher at close of trade; WIG30 up 1.37%](https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-137-4677247) — *Investing.com*
-- ['The S&P 500 is not a diversified index anymore,' Apollo’s Slok says](https://seekingalpha.com/news/4590628-the-s-and-p-500-is-not-a-diversified-index-anymore-apollo-s-slok-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hantavirus cases spark surge in pharma and biotech stocks — here’s why](https://www.cnbc.com/2026/05/11/hantavirus-cases-pharma-stocks-surge-moderna-novavax.html) — *CNBC Markets*
-- [Ies Holdings stock hits all-time high at 690.31 USD](https://www.investing.com/news/company-news/ies-holdings-stock-hits-alltime-high-at-69031-usd-93CH-4677246) — *Investing.com*
-- [Twilio conference signals product innovation, AI leadership: Needham](https://seekingalpha.com/news/4590627-twilio-conference-signals-product-innovation-ai-leadership-needham?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Hims & Hers plummets 13% after first-quarter loss, weak earnings guidance](https://www.cnbc.com/2026/05/12/hims-hers-plummets-16percent-after-first-quarter-loss-weak-guidance-.html) — *CNBC Markets*
+- [Social Security’s COLA could rise in 2027, boosted by Iran war impact and inflation](https://www.marketwatch.com/story/social-securitys-cola-could-rise-in-2027-boosted-by-war-impact-and-inflation-b5db35a6?mod=mw_rss_topstories) — *MarketWatch*
+- [U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal](https://www.cnbc.com/2026/05/12/oil-prices-today-brent-wti-trump-iran-war-hormuz.html) — *CNBC Markets*
+- [Analysis: Iran war hangs over Trump's China trip — and his presidency](https://www.cnbc.com/2026/05/12/trump-china-iran-war-xi-jinping-analysis.html) — *CNBC Markets*
+- [My retirement fund is like an AI version of me. It keeps working when I’m not able to.](https://www.marketwatch.com/story/my-retirement-fund-is-like-an-ai-version-of-me-it-keeps-working-when-im-not-able-to-6d053f9d?mod=mw_rss_topstories) — *MarketWatch*
+- [Exxon shareholders should vote against moving legal home to Texas, ISS says](https://seekingalpha.com/news/4591324-iss-says-shareholders-should-vote-against-exxon-moving-its-registration-to-texas?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SPAR reiterates FY 2026 revenue of $143M-$151M while targeting ~25% gross margin over 18-24 months](https://seekingalpha.com/news/4591330-spar-reiterates-fy-2026-revenue-of-143m-151m-while-targeting-25-percent-gross-margin-over?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [JPMorgan Chase's markets business hits record level - report](https://seekingalpha.com/news/4591311-jpmorgan-chases-markets-business-hits-record-level---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [NeuroOne outlines ISO 13485 certification in latter part of 2026 while targeting drug delivery availability in second half of fiscal 2026](https://seekingalpha.com/news/4591329-neuroone-outlines-iso-13485-certification-in-latter-part-of-2026-while-targeting-drug?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Here's the inflation breakdown for April 2026 — in one chart](https://www.cnbc.com/2026/05/12/inflation-breakdown-for-april-2026-cpi-chart.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
