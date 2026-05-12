@@ -61,26 +61,17 @@
     },
     {
       "date": "2026-05-12",
-      "total_value": 196744.71,
-      "portfolio_pnl": 1.415,
-      "benchmark_pnl": 3.849,
+      "total_value": 196706.8,
+      "portfolio_pnl": 1.395,
+      "benchmark_pnl": 4.125,
       "prices": {
-        "XLE": 57.7400016784668,
-        "MSFT": 408.95001220703125,
-        "SPY": 735.030029296875
+        "XLE": 57.68000030517578,
+        "MSFT": 408.8999938964844,
+        "SPY": 736.9849853515625
       }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
-      "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 72.1, Win Rate 66.5%, Avg 5d Return 3.21%, Max Drawdown -94.84%, Sharpe 1.97. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $151,189 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "AVGO",
@@ -100,21 +91,30 @@
       "is_crypto": false
     },
     {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "ATOM-USD",
+      "priority": "medium",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdown -9.61%, Sharpe 2.39. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $151,189 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.86 is 2.4% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $408.95 is 2.4% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     },
     {
       "action": "HOLD",
       "ticker": "XLE",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.78 vs 0 bear score 0.00). Gross P&L: $+1,486. Holding avoids $475 in taxes.",
-      "tax_note": "Held 4 days (short-term). Exiting now costs $475 tax + $36 slippage = $512 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.78 vs 0 bear score 0.00). Gross P&L: $+1,460. Holding avoids $467 in taxes.",
+      "tax_note": "Held 4 days (short-term). Exiting now costs $467 tax + $36 slippage = $504 total friction."
     }
   ],
-  "recommendations_updated": "2026-05-12T17:54:50.251378",
+  "recommendations_updated": "2026-05-12T19:30:04.864396",
   "trade_log": [
     {
       "action": "SELL",
