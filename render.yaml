@@ -2,6 +2,10 @@ services:
   - type: web
     name: investment-daily-dashboard
     runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python dashboard.py
-    autoDeploy: true
+    plan: free
+    # Keep build simple — aggressive setuptools upgrades can break older wheels.
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    # Use `python -m gunicorn` so we don't rely on a `gunicorn` script on PATH.
+    startCommand: python -m gunicorn dashboard:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 180
+    healthCheckPath: /health
+    autoDeployTrigger: commit
