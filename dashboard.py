@@ -13,6 +13,7 @@ Routes:
   POST /run/newsletter  Trigger manual newsletter send
   POST /run/alerts      Trigger manual alert check
   POST /refresh         Force-refresh cached data
+  GET  /health        Liveness JSON (Render / load balancer probes)
   GET  /api/status    JSON health check
 """
 
@@ -1909,6 +1910,12 @@ def alerts_clear_snoozes():
         log.exception("Dashboard: failed to clear snoozes")
         return jsonify({"ok": False, "message": f"Failed to clear snoozes: {exc}"}), 500
     return jsonify({"ok": True, "message": "All strategy/ticker snoozes cleared."})
+
+
+@app.route("/health")
+def health():
+    """Fast liveness probe for load balancers (e.g. Render health checks ≤ few seconds)."""
+    return jsonify({"status": "ok"}), 200
 
 
 @app.route("/api/status")
