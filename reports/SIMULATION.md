@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 5** &nbsp;·&nbsp; Updated: May 13 2026 05:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 5** &nbsp;·&nbsp; Updated: May 13 2026 07:43 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.01%** &nbsp; ($+1,964) |
-| SPY Benchmark | +4.91% &nbsp; ($+9,530 if 100% SPY) |
-| Alpha vs SPY | **-3.90%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.02% &nbsp; ($+9,741 if 100% SPY) |
+| Alpha vs SPY | **-4.01%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $195,964 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -1.3% → $399.00) | $9,000 | $404.08 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -1.6% → $399.00) | $9,000 | $405.56 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+115 | +0.06% |
 
 ## Daily Equity Curve
@@ -24,28 +24,28 @@
 |---|---|---|---|
 | 2026-05-11 | 📈 +1.22% | +4.45% | ❌ -3.23% |
 | 2026-05-12 | 📈 +1.36% | +4.29% | ❌ -2.93% |
-| 2026-05-13 | 📈 +1.01% | +4.91% | ❌ -3.90% |
+| 2026-05-13 | 📈 +1.01% | +5.02% | ❌ -4.01% |
 
 ## Strategy Advisor
 
-_Evaluated May 13 2026 05:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 13 2026 07:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 72.2, Win Rate 66.7%, Avg 5d Return 0.79%, Max Drawdown -4.95%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Chaikin Money Flow — Bullish — Score 71.9, Win Rate 66.2%, Avg 5d Return 3.19%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 71.8, Win Rate 66.7%, Avg 5d Return 0.77%, Max Drawdown -4.95%, S… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 83.3, Win Rate 69.5%, Avg 5d Return 0.92%, Max Drawdown -27… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Williams %R — Oversold — Score 57.2, Win Rate 58.3%, Avg 5d Return 1.62%, Max Drawdown -48… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $404.08 is 1.3% above limit. … |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $405.56 is 1.6% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** 52-Week Breakout — Score 72.2, Win Rate 66.7%, Avg 5d Return 0.79%, Max Drawdown -4.95%, Sharpe 2.13. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 71.8, Win Rate 66.7%, Avg 5d Return 0.77%, Max Drawdown -4.95%, Sharpe 2.1. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 71.9, Win Rate 66.2%, Avg 5d Return 3.19%, Max Drawdown -94.84%, Sharpe 1.97. No conflicting bearish signals.
+**Signal Analysis:** CCI — Extreme Oversold — Score 83.3, Win Rate 69.5%, Avg 5d Return 0.92%, Max Drawdown -27.37%, Sharpe 2.6. 1 minor bearish signal(s), max confidence 71.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
@@ -57,7 +57,7 @@ _Evaluated May 13 2026 05:56 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $404.08 is 1.3% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $405.56 is 1.6% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 

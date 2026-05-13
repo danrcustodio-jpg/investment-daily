@@ -60,10 +60,10 @@
       "date": "2026-05-13",
       "total_value": 195963.7,
       "portfolio_pnl": 1.012,
-      "benchmark_pnl": 4.908,
+      "benchmark_pnl": 5.02,
       "prices": {
-        "MSFT": 404.0899963378906,
-        "SPY": 742.530029296875
+        "MSFT": 405.4700012207031,
+        "SPY": 743.3200073242188
       }
     }
   ],
@@ -72,16 +72,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 72.2, Win Rate 66.7%, Avg 5d Return 0.79%, Max Drawdown -4.95%, Sharpe 2.13. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 71.8, Win Rate 66.7%, Avg 5d Return 0.77%, Max Drawdown -4.95%, Sharpe 2.1. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "GC=F",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.9, Win Rate 66.2%, Avg 5d Return 3.19%, Max Drawdown -94.84%, Sharpe 1.97. No conflicting bearish signals.",
+      "reason": "CCI \u2014 Extreme Oversold \u2014 Score 83.3, Win Rate 69.5%, Avg 5d Return 0.92%, Max Drawdown -27.37%, Sharpe 2.6. 1 minor bearish signal(s), max confidence 71.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -99,11 +99,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $404.08 is 1.3% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $405.56 is 1.6% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-13T17:56:47.976324",
+  "recommendations_updated": "2026-05-13T19:43:06.950743",
   "trade_log": [
     {
       "action": "SELL",
