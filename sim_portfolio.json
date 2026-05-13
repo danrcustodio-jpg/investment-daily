@@ -60,10 +60,10 @@
       "date": "2026-05-13",
       "total_value": 195963.7,
       "portfolio_pnl": 1.012,
-      "benchmark_pnl": 5.02,
+      "benchmark_pnl": 4.877,
       "prices": {
-        "MSFT": 405.4700012207031,
-        "SPY": 743.3200073242188
+        "MSFT": 405.2099914550781,
+        "SPY": 742.3099975585938
       }
     }
   ],
@@ -72,7 +72,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 71.8, Win Rate 66.7%, Avg 5d Return 0.77%, Max Drawdown -4.95%, Sharpe 2.1. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 71.6, Win Rate 66.7%, Avg 5d Return 0.76%, Max Drawdown -4.95%, Sharpe 2.08. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -99,11 +99,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $405.56 is 1.6% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $405.21 is 1.5% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-13T19:43:06.950743",
+  "recommendations_updated": "2026-05-13T21:20:05.342863",
   "trade_log": [
     {
       "action": "SELL",
