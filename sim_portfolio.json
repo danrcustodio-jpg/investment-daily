@@ -60,10 +60,10 @@
       "date": "2026-05-13",
       "total_value": 195963.7,
       "portfolio_pnl": 1.012,
-      "benchmark_pnl": 4.53,
+      "benchmark_pnl": 4.908,
       "prices": {
-        "MSFT": 404.70001220703125,
-        "SPY": 739.85009765625
+        "MSFT": 404.0899963378906,
+        "SPY": 742.530029296875
       }
     }
   ],
@@ -72,16 +72,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 71.0, Win Rate 66.7%, Avg 5d Return 0.72%, Max Drawdown -4.95%, Sharpe 2.01. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 72.2, Win Rate 66.7%, Avg 5d Return 0.79%, Max Drawdown -4.95%, Sharpe 2.13. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "META",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 79.3, Win Rate 67.7%, Avg 5d Return 2.91%, Max Drawdown -10.65%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 70.3.",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.9, Win Rate 66.2%, Avg 5d Return 3.19%, Max Drawdown -94.84%, Sharpe 1.97. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -99,11 +99,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $404.65 is 1.4% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $404.08 is 1.3% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-13T15:41:55.549451",
+  "recommendations_updated": "2026-05-13T17:56:47.976324",
   "trade_log": [
     {
       "action": "SELL",
