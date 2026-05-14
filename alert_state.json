@@ -68,7 +68,6 @@
     "MRVL::RSI Overbought": "2026-05-14T15:14:05.769916+00:00",
     "MRVL::Ulcer Index \u2014 Elevated": "2026-05-14T15:14:05.499942+00:00",
     "AMD::Williams %R \u2014 Overbought": "2026-05-14T15:14:05.499959+00:00",
-    "AERO-USD::RSI Overbought": "2026-05-12T17:54:07.782871+00:00",
     "QQQ::RSI Overbought": "2026-05-14T15:14:05.500023+00:00",
     "TQQQ::RSI Overbought": "2026-05-14T15:14:05.499947+00:00",
     "GOOGL::Stochastic (Full) \u2014 Overbought": "2026-05-14T15:14:05.499994+00:00",
@@ -183,7 +182,6 @@
     "TQQQ": "2026-05-14T15:14:02.394616+00:00",
     "QQQ": "2026-05-14T15:14:02.394616+00:00",
     "GC=F": "2026-05-14T15:14:02.394616+00:00",
-    "AERO-USD": "2026-05-12T17:54:07.782835+00:00",
     "XLK": "2026-05-14T15:14:02.394616+00:00",
     "META": "2026-05-14T15:14:02.394616+00:00",
     "IONQ": "2026-05-14T15:14:02.394616+00:00",
@@ -317,9 +315,9 @@
       "last_change_at": "2026-05-13T15:40:40.571947+00:00"
     },
     "XBI": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-05-14T17:18:14.353584+00:00",
-      "last_change_at": "2026-05-14T17:18:05.628645+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366468+00:00"
     },
     "XLK": {
       "cadence_min": 15,
@@ -327,9 +325,9 @@
       "last_change_at": "2026-05-11T15:53:01.328180+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-05-14T17:18:14.900908+00:00",
-      "last_change_at": "2026-05-12T19:29:25.815243+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366543+00:00"
     },
     "ARKK": {
       "cadence_min": 1440,
@@ -357,9 +355,9 @@
       "last_change_at": "2026-05-14T15:13:52.082059+00:00"
     },
     "ETH-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-14T17:18:09.091472+00:00",
-      "last_change_at": "2026-05-14T17:18:05.628496+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366372+00:00"
     },
     "IWM": {
       "cadence_min": 15,
@@ -367,19 +365,19 @@
       "last_change_at": "2026-05-14T15:13:52.082313+00:00"
     },
     "ATOM-USD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-05-14T17:18:07.277112+00:00",
-      "last_change_at": "2026-05-14T17:18:05.628301+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366155+00:00"
     },
     "AAPL": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-05-14T17:18:05.915728+00:00",
-      "last_change_at": "2026-05-14T17:18:05.627787+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366039+00:00"
     },
     "CEG": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-05-14T17:18:08.339789+00:00",
-      "last_change_at": "2026-05-14T17:18:05.628407+00:00"
+      "last_change_at": "2026-05-14T19:16:24.366283+00:00"
     }
   },
   "signal_last_notified_price": {
@@ -451,7 +449,6 @@
     "MRVL::RSI Overbought": 185.8699951171875,
     "MRVL::Ulcer Index \u2014 Elevated": 185.8699951171875,
     "AMD::Williams %R \u2014 Overbought": 450.20001220703125,
-    "AERO-USD::RSI Overbought": 7.108303543645889e-05,
     "QQQ::RSI Overbought": 720.5900268554688,
     "TQQQ::RSI Overbought": 79.22370147705078,
     "GOOGL::Stochastic (Full) \u2014 Overbought": 397.3599853515625,
