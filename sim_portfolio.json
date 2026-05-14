@@ -65,14 +65,24 @@
         "MSFT": 405.2099914550781,
         "SPY": 742.3099975585938
       }
+    },
+    {
+      "date": "2026-05-14",
+      "total_value": 195986.74,
+      "portfolio_pnl": 1.024,
+      "benchmark_pnl": 5.674,
+      "prices": {
+        "MSFT": 411.0199890136719,
+        "SPY": 747.9500122070312
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.4, Win Rate 66.2%, Avg 5d Return 3.16%, Max Drawdown -94.84%, Sharpe 1.94. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 71.6, Win Rate 66.7%, Avg 5d Return 0.76%, Max Drawdown -4.95%, Sharpe 2.08. 1 minor bearish signal(s), max confidence 46.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -99,11 +109,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $409.85 is 2.6% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $410.74 is 2.9% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-14T15:07:59.476899",
+  "recommendations_updated": "2026-05-14T15:14:59.658426",
   "trade_log": [
     {
       "action": "SELL",
