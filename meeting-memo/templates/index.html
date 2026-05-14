@@ -54,10 +54,10 @@
 </head>
 <body>
   <h1>Meeting Memo</h1>
-  <p class="sub">Record or upload → Whisper transcript → structured notes (OpenAI key on server).</p>
+  <p class="sub">Local only — tap to start/stop recording, or upload a file. Whisper transcript + notes (OpenAI key on this machine).</p>
 
   <div class="row">
-    <button type="button" id="btnRec">Hold to record</button>
+    <button type="button" id="btnRec">Start recording</button>
     <label class="secondary" style="flex:1;min-width:120px;text-align:center;padding:14px;border-radius:12px;font-weight:700;border:1px solid #334155;cursor:pointer;">
       Upload audio
       <input type="file" id="fileIn" accept="audio/*,.webm,.wav,.mp3,.m4a,.mp4" />
@@ -90,6 +90,12 @@
   let mediaRecorder = null;
   let chunks = [];
   let mimeType = "audio/webm";
+  let activeStream = null;
+
+  function setBusy(b) {
+    btnRec.disabled = b;
+    fileIn.disabled = b;
+  }
 
   function showError(msg) {
     err.hidden = false;
@@ -102,6 +108,7 @@
 
   async function sendBlob(blob, filename) {
     clearError();
+    setBusy(true);
     status.textContent = "Uploading and processing (may take a minute)…";
     out.hidden = true;
     const fd = new FormData();
@@ -112,12 +119,14 @@
     } catch (e) {
       showError("Network error: " + e);
       status.textContent = "Failed";
+      setBusy(false);
       return;
     }
     const data = await res.json().catch(() => ({}));
     if (!res.ok || !data.ok) {
       showError(data.error || "Request failed");
       status.textContent = "Failed";
+      setBusy(false);
       return;
     }
     status.textContent = "Done" + (data.language ? " · lang: " + data.language : "");
@@ -129,6 +138,7 @@
     dlSum.href = URL.createObjectURL(sumBlob);
     dlTr.href = URL.createObjectURL(trBlob);
     out.hidden = false;
+    setBusy(false);
   }
 
   /* ---- MediaRecorder (mobile: prefer webm/opus) ---- */
@@ -142,41 +152,53 @@
 
   async function startRec() {
     clearError();
+    if (mediaRecorder && mediaRecorder.state === "recording") return;
+
     chunks = [];
     mimeType = pickMime();
     let stream;
     try {
       stream = await navigator.mediaDevices.getUserMedia({ audio: true });
     } catch (e) {
-      showError("Microphone blocked or unavailable. Try Upload, or use HTTPS.");
+      showError("Microphone blocked or unavailable. Try Upload instead.");
       return;
     }
+    activeStream = stream;
     mediaRecorder = new MediaRecorder(stream, { mimeType });
     mediaRecorder.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data); };
     mediaRecorder.onstop = () => {
-      stream.getTracks().forEach((t) => t.stop());
+      if (activeStream) {
+        activeStream.getTracks().forEach((t) => t.stop());
+        activeStream = null;
+      }
       const ext = mimeType.includes("webm") ? "webm" : "webm";
       const blob = new Blob(chunks, { type: mimeType });
-      sendBlob(blob, "record-" + Date.now() + "." + ext);
+      mediaRecorder = null;
       btnRec.classList.remove("recording");
-      btnRec.textContent = "Hold to record";
+      btnRec.textContent = "Start recording";
+      sendBlob(blob, "record-" + Date.now() + "." + ext);
     };
-    mediaRecorder.start(100);
+    mediaRecorder.start(250);
     btnRec.classList.add("recording");
-    btnRec.textContent = "Recording… (release to stop)";
-    status.textContent = "Recording…";
+    btnRec.textContent = "Stop recording";
+    status.textContent = "Recording… tap Stop when finished.";
   }
 
   function stopRec() {
     if (mediaRecorder && mediaRecorder.state === "recording") {
+      status.textContent = "Stopping…";
       mediaRecorder.stop();
-      status.textContent = "Processing…";
     }
   }
 
-  btnRec.addEventListener("pointerdown", (e) => { e.preventDefault(); startRec(); });
-  btnRec.addEventListener("pointerup", (e) => { e.preventDefault(); stopRec(); });
-  btnRec.addEventListener("pointerleave", () => stopRec());
+  btnRec.addEventListener("click", () => {
+    if (btnRec.disabled) return;
+    if (mediaRecorder && mediaRecorder.state === "recording") {
+      stopRec();
+    } else {
+      startRec();
+    }
+  });
 
   fileIn.addEventListener("change", () => {
     const f = fileIn.files && fileIn.files[0];
