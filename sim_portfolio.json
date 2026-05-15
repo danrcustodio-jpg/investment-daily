@@ -75,6 +75,16 @@
         "MSFT": 409.42999267578125,
         "SPY": 748.1699829101562
       }
+    },
+    {
+      "date": "2026-05-15",
+      "total_value": 196009.77,
+      "portfolio_pnl": 1.036,
+      "benchmark_pnl": 4.74,
+      "prices": {
+        "MSFT": 424.8999938964844,
+        "SPY": 741.3400268554688
+      }
     }
   ],
   "recommendations": [
@@ -82,16 +92,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 75.8, Win Rate 68.8%, Avg 5d Return 0.89%, Max Drawdown -4.95%, Sharpe 2.51. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 75.9, Win Rate 68.8%, Avg 5d Return 0.9%, Max Drawdown -4.95%, Sharpe 2.52. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "AVGO",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 73.0, Win Rate 61.9%, Avg 5d Return 3.38%, Max Drawdown -61.12%, Sharpe 2.11. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 80.1, Win Rate 64.5%, Avg 5d Return 2.66%, Max Drawdown -47.04%, Sharpe 2.81. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -109,11 +119,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.32 is 6.0% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.30 is 6.0% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-15T15:02:21.124786",
+  "recommendations_updated": "2026-05-15T15:11:28.629171",
   "trade_log": [
     {
       "action": "SELL",
