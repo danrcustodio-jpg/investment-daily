@@ -80,10 +80,10 @@
       "date": "2026-05-15",
       "total_value": 196009.77,
       "portfolio_pnl": 1.036,
-      "benchmark_pnl": 4.754,
+      "benchmark_pnl": 4.712,
       "prices": {
-        "MSFT": 424.17999267578125,
-        "SPY": 741.4400024414062
+        "MSFT": 424.8900146484375,
+        "SPY": 741.1400146484375
       }
     }
   ],
@@ -92,16 +92,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 76.2, Win Rate 68.8%, Avg 5d Return 0.91%, Max Drawdown -4.95%, Sharpe 2.55. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 75.8, Win Rate 68.8%, Avg 5d Return 0.89%, Max Drawdown -4.95%, Sharpe 2.5. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
-      "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 62.5, Win Rate 69.7%, Avg 5d Return 0.64%, Max Drawdown -9.56%, Sharpe 1.44. No conflicting bearish signals.",
+      "ticker": "AVGO",
+      "priority": "high",
+      "reason": "Stochastic RSI Oversold \u2014 Score 80.1, Win Rate 64.5%, Avg 5d Return 2.66%, Max Drawdown -47.04%, Sharpe 2.81. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -119,11 +119,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.36 is 6.0% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.92 is 6.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-15T17:09:03.256595",
+  "recommendations_updated": "2026-05-15T19:03:26.370606",
   "trade_log": [
     {
       "action": "SELL",
