@@ -80,10 +80,10 @@
       "date": "2026-05-15",
       "total_value": 196009.77,
       "portfolio_pnl": 1.036,
-      "benchmark_pnl": 4.712,
+      "benchmark_pnl": 4.434,
       "prices": {
-        "MSFT": 424.8900146484375,
-        "SPY": 741.1400146484375
+        "MSFT": 421.9200134277344,
+        "SPY": 739.1699829101562
       }
     }
   ],
@@ -92,7 +92,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 75.8, Win Rate 68.8%, Avg 5d Return 0.89%, Max Drawdown -4.95%, Sharpe 2.5. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 75.3, Win Rate 68.8%, Avg 5d Return 0.87%, Max Drawdown -4.95%, Sharpe 2.45. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -101,7 +101,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AVGO",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 80.1, Win Rate 64.5%, Avg 5d Return 2.66%, Max Drawdown -47.04%, Sharpe 2.81. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 79.2, Win Rate 63.9%, Avg 5d Return 2.57%, Max Drawdown -47.04%, Sharpe 2.7. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -119,11 +119,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.92 is 6.1% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.92 is 5.4% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-15T19:03:26.370606",
+  "recommendations_updated": "2026-05-15T20:39:44.432931",
   "trade_log": [
     {
       "action": "SELL",
