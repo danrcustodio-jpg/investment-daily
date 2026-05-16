@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 7** &nbsp;·&nbsp; Updated: May 15 2026 09:52 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 8** &nbsp;·&nbsp; Updated: May 16 2026 02:06 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.04%** &nbsp; ($+2,010) |
+| Portfolio P&L | **+1.05%** &nbsp; ($+2,033) |
 | SPY Benchmark | +4.43% &nbsp; ($+8,601 if 100% SPY) |
-| Alpha vs SPY | **-3.40%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.39%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,010 |
+| Current Value | $196,033 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -5.4% → $399.00) | $9,000 | $421.92 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+161 | +0.09% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+184 | +0.10% |
 
 ## Daily Equity Curve
 
@@ -30,13 +30,13 @@
 
 ## Strategy Advisor
 
-_Evaluated May 15 2026 09:52 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 16 2026 02:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 75.3, Win Rate 68.8%, Avg 5d Return 0.87%, Max Drawdown -4.95%, S… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 79.2, Win Rate 63.9%, Avg 5d Return 2.57%, Max Drawdown -4… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 65.6, Win Rate 48.5%, Avg 5d Return 5.25%, Max Drawdown -82… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Keltner — Lower Channel Touch — Score 82.3, Win Rate 75.0%, Avg 5d Return 3.9%, Max Drawdo… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.92 is 5.4% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -51,9 +51,9 @@ _Evaluated May 15 2026 09:52 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 65.6, Win Rate 48.5%, Avg 5d Return 5.25%, Max Drawdown -82.48%, Sharpe 2.07. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 82.3, Win Rate 75.0%, Avg 5d Return 3.9%, Max Drawdown -20.35%, Sharpe 3.49. 1 minor bearish signal(s), max confidence 65.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 

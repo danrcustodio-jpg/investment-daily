@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, May 15, 2026
-Generated at 03:02 PM
+# Daily Newsletter — Saturday, May 16, 2026
+Generated at 02:06 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 169 total &nbsp;·&nbsp; 🟢 91 Bullish &nbsp;·&nbsp; 🔴 78 Bearish
+**Strategy Signals:** 168 total &nbsp;·&nbsp; 🟢 92 Bullish &nbsp;·&nbsp; 🔴 76 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $76.75 | 📉 -9.61% |
-| **^VIX** | VIX (Fear Index) | $18.36 | 📈 +6.37% |
-| **SOL-USD** | Solana | $89.02 | 📉 -3.40% |
-| **ETH-USD** | Ethereum | $2211.49 | 📉 -3.04% |
-| **GC=F** | Gold | $4551.20 | 📉 -2.71% |
-| **^TNX** | 10-Year Treasury Yield | $4.57 | 📈 +2.49% |
-| **BTC-USD** | Bitcoin | $79151.96 | 📉 -2.34% |
-| **NG=F** | Natural Gas | $2.96 | 📈 +2.25% |
-| **^RUT** | Russell 2000 | $2803.76 | 📉 -2.07% |
-| **^TYX** | 30-Year Treasury Yield | $5.11 | 📈 +2.00% |
+| **SI=F** | Silver | $77.16 | 📉 -9.13% |
+| **^VIX** | VIX (Fear Index) | $18.43 | 📈 +6.78% |
+| **CL=F** | Crude Oil | $105.42 | 📈 +4.20% |
+| **SOL-USD** | Solana | $86.13 | 📉 -3.44% |
+| **^TNX** | 10-Year Treasury Yield | $4.59 | 📈 +3.00% |
+| **GC=F** | Gold | $4555.80 | 📉 -2.61% |
+| **^RUT** | Russell 2000 | $2793.30 | 📉 -2.44% |
+| **XLE** | Energy (XLE) | $59.44 | 📈 +2.36% |
+| **^TYX** | 30-Year Treasury Yield | $5.13 | 📈 +2.31% |
+| **NG=F** | Natural Gas | $2.96 | 📈 +2.28% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 90.7 | 79.2% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 85.3 | 73.5% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.1 | 69.3% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 82.8 | 69.4% |
-| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 81.9 | 74.1% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 80.1 | 64.5% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 89.8 | 75.4% |
+| 🟢 BULLISH | **NVDA** | ADX Strong Trend — Bullish | 86.2 | 77.5% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 83.8 | 73.1% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.0 | 69.2% |
+| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 82.7 | 75.4% |
+| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 82.3 | 68.8% |
+| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 82.3 | 75.0% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.2 | 63.9% |
 | 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.0 | 65.8% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 76.2 | 67.5% |
-| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 75.8 | 68.8% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 74.1 | 66.3% |
-| 🟢 BULLISH | **GOOGL** | Chaikin Money Flow — Bullish | 73.8 | 61.9% |
-| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 73.0 | 61.9% |
+| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 75.3 | 68.8% |
+| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 74.5 | 59.6% |
+| 🟢 BULLISH | **GOOGL** | Chaikin Money Flow — Bullish | 74.0 | 62.3% |
 
 ## Latest News
 
-- [Magnum Ice Cream stock soars after report of potential private equity takeover](https://www.cnbc.com/2026/05/15/magnum-ice-cream-takeover-report-blackstone-cdr.html) — *CNBC Markets*
-- [30-year Treasury yield tops 5.1%, highest in nearly a year](https://www.cnbc.com/2026/05/15/treasury-yields-surge-as-inflation-data-points-to-tricky-rates-path.html) — *CNBC Markets*
-- [Ricky Sandler's Eminence Capital adds TSMC, exits DraftKings, among top Q1 trades](https://seekingalpha.com/news/4593931-ricky-sandlers-eminence-capital-adds-tsmc-exits-draftkings-among-top-q1-trades?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [RTDs drive Corby Spirit and Wine to “record” Q3 numbers](https://finance.yahoo.com/markets/stocks/articles/rtds-drive-corby-spirit-wine-145300693.html) — *Yahoo Finance*
-- [Forget the CAPE Ratio. This Other Buffett Indicator Just Crossed a Line](https://finance.yahoo.com/markets/stocks/articles/forget-cape-ratio-other-buffett-145123437.html) — *Yahoo Finance*
-- [Bright Mountain Media GAAP EPS of -$0.01, revenue of $14M](https://seekingalpha.com/news/4593946-bright-mountain-media-gaap-eps-of-0_01-revenue-of-14m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Geopolitical uncertainty reigns, but the AI trade hasn't slowed down](https://seekingalpha.com/news/4593636-geopolitical-uncertainty-reigns-but-the-ai-trade-hasnt-slowed-down?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Sylogist reports Q1 results](https://seekingalpha.com/news/4591292-sylogist-reports-q1-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [United Community Banks shareholders elect directors and approve proposals at annual meeting](https://www.investing.com/news/sec-filings/united-community-banks-shareholders-elect-directors-and-approve-proposals-at-annual-meeting-93CH-4692953) — *Investing.com*
-- [BofA expects new Gemini launch at Google I/O](https://www.investing.com/news/stock-market-news/bofa-expects-new-gemini-launch-at-google-io-93CH-4692952) — *Investing.com*
+- [The bond market is flashing a warning over Iran. A veteran of energy geopolitics explains the risk](https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html) — *CNBC Markets*
+- [Bank of America, Wells Fargo extend losses; Japanese firms in gainers: week's financials wrap](https://seekingalpha.com/news/4594018-bank-of-america-wells-fargo-extend-losses-japanese-firms-in-gainers-weeks-financials-wrap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SA Asks: What are the best dividend stocks right now?](https://seekingalpha.com/news/4594147-sa-asks-what-are-the-best-dividend-stocks-right-now?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [My wife and I retired with 22 times our income. Why don’t more people do what we did?](https://www.marketwatch.com/story/my-retirement-fund-is-like-an-ai-version-of-me-it-keeps-working-when-im-not-able-to-6d053f9d?mod=mw_rss_topstories) — *MarketWatch*
+- [‘I’m already feeling anxious’: My ex-husband offered to give me a $30,000 lump sum for child support. Is there a catch?](https://www.marketwatch.com/story/im-already-feeling-anxious-my-ex-husband-offered-to-give-me-a-30-000-lump-sum-for-child-support-is-there-a-catch-b1a20e20?mod=mw_rss_topstories) — *MarketWatch*
+- [3 Stocks to Buy and Hold for the Next Decade](https://finance.yahoo.com/markets/stocks/articles/3-stocks-buy-hold-next-135200203.html) — *Yahoo Finance*
+- [For better or worse, investors are living through Trump’s stock market. Here's why](https://www.cnbc.com/2026/05/16/for-better-or-worse-investors-are-living-through-trumps-stock-market-heres-why.html) — *CNBC Markets*
+- [$668,603,360,342 — that’s how much people have legally bet on sports since the Supreme Court’s 2018 ruling](https://www.marketwatch.com/story/668-603-360-342-thats-how-much-people-have-legally-bet-on-sports-since-the-supreme-courts-2018-ruling-550e0a08?mod=mw_rss_topstories) — *MarketWatch*
+- [Boeing, GE in focus as China confirms aircraft, jet engine deal post-Trump visit](https://seekingalpha.com/news/4594157-boeing-ge-focus-china-confirms-aircraft-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Tesla raises prices of Model Y cars in the US](https://www.investing.com/news/stock-market-news/tesla-raises-prices-of-model-y-cars-in-the-us-4694459) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
