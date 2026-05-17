@@ -49,7 +49,7 @@ You can host the dashboard for free on [Render](https://render.com/) using the i
 Notes:
 - Free tier web services may sleep when idle (first request can be slow).
 - The service runs with **Gunicorn** and a **`/health`** probe so deploy health checks do not hit `/` (the home page can run a heavy first-time strategy scan).
-- Set **`PYTHON_VERSION`** in the dashboard if you change runtimes; the blueprint pins **3.12.0** by default.
+- Render picks a **supported Python** automatically unless you set `PYTHON_VERSION` in the service **Environment** tab (only pin if you need to match local).
 - Add environment variables in Render dashboard as needed (`EMAIL_SENDER`, `EMAIL_PASSWORD`, etc.).
 - Use `https://<your-render-url>/hub` for the hub page and `https://<your-render-url>/asset-opportunities` for the opportunity page.
 
