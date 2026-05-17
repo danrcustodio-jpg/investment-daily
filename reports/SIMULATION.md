@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 8** &nbsp;·&nbsp; Updated: May 16 2026 02:06 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 9** &nbsp;·&nbsp; Updated: May 17 2026 02:06 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.05%** &nbsp; ($+2,033) |
+| Portfolio P&L | **+1.06%** &nbsp; ($+2,056) |
 | SPY Benchmark | +4.43% &nbsp; ($+8,601 if 100% SPY) |
-| Alpha vs SPY | **-3.39%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,033 |
+| Current Value | $196,056 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -5.4% → $399.00) | $9,000 | $421.92 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+184 | +0.10% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+207 | +0.11% |
 
 ## Daily Equity Curve
 
@@ -30,7 +30,7 @@
 
 ## Strategy Advisor
 
-_Evaluated May 16 2026 02:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 17 2026 02:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
