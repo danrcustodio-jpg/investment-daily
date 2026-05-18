@@ -90,28 +90,28 @@
       "date": "2026-05-18",
       "total_value": 196078.88,
       "portfolio_pnl": 1.072,
-      "benchmark_pnl": 4.171,
+      "benchmark_pnl": 3.792,
       "prices": {
-        "MSFT": 419.42999267578125,
-        "SPY": 737.3099975585938
+        "MSFT": 423.1940002441406,
+        "SPY": 734.6300048828125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AVGO",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 78.5, Win Rate 63.3%, Avg 5d Return 2.53%, Max Drawdown -47.04%, Sharpe 2.66. No conflicting bearish signals.",
+      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 72.3, Win Rate 68.0%, Avg 5d Return 3.82%, Max Drawdown -36.05%, Sharpe 2.26. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "AVGO",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 72.3, Win Rate 61.3%, Avg 5d Return 3.28%, Max Drawdown -61.12%, Sharpe 2.04. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 78.4, Win Rate 63.3%, Avg 5d Return 2.52%, Max Drawdown -47.04%, Sharpe 2.65. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -120,7 +120,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.06%, Sharpe 2.05. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.16%, Sharpe 2.05. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -129,11 +129,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.36 is 4.9% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $423.18 is 5.7% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-18T16:20:18.747376",
+  "recommendations_updated": "2026-05-18T18:18:51.713929",
   "trade_log": [
     {
       "action": "SELL",

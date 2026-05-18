@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 10** &nbsp;·&nbsp; Updated: May 18 2026 04:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 10** &nbsp;·&nbsp; Updated: May 18 2026 06:18 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.07%** &nbsp; ($+2,079) |
-| SPY Benchmark | +4.16% &nbsp; ($+8,075 if 100% SPY) |
-| Alpha vs SPY | **-3.09%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.79% &nbsp; ($+7,353 if 100% SPY) |
+| Alpha vs SPY | **-2.72%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,079 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.9% → $399.00) | $9,000 | $419.36 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -5.7% → $399.00) | $9,000 | $423.18 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+230 | +0.12% |
 
 ## Daily Equity Curve
@@ -27,40 +27,40 @@
 | 2026-05-13 | 📈 +1.01% | +4.88% | ❌ -3.86% |
 | 2026-05-14 | 📈 +1.02% | +5.71% | ❌ -4.68% |
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
-| 2026-05-18 | 📈 +1.07% | +4.17% | ❌ -3.10% |
+| 2026-05-18 | 📈 +1.07% | +3.79% | ❌ -2.72% |
 
 ## Strategy Advisor
 
-_Evaluated May 18 2026 04:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 18 2026 06:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 78.5, Win Rate 63.3%, Avg 5d Return 2.53%, Max Drawdown -4… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 72.3, Win Rate 61.3%, Avg 5d Return 3.28%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Parabolic SAR — Bullish — Score 72.3, Win Rate 68.0%, Avg 5d Return 3.82%, Max Drawdown -3… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 78.4, Win Rate 63.3%, Avg 5d Return 2.52%, Max Drawdown -4… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.36 is 4.9% above limit. … |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $423.18 is 5.7% above limit. … |
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 78.5, Win Rate 63.3%, Avg 5d Return 2.53%, Max Drawdown -47.04%, Sharpe 2.66. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 72.3, Win Rate 68.0%, Avg 5d Return 3.82%, Max Drawdown -36.05%, Sharpe 2.26. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 72.3, Win Rate 61.3%, Avg 5d Return 3.28%, Max Drawdown -61.12%, Sharpe 2.04. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 78.4, Win Rate 63.3%, Avg 5d Return 2.52%, Max Drawdown -47.04%, Sharpe 2.65. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.06%, Sharpe 2.05. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.16%, Sharpe 2.05. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.36 is 4.9% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $423.18 is 5.7% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 
