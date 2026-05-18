@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 10** &nbsp;·&nbsp; Updated: May 18 2026 08:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 10** &nbsp;·&nbsp; Updated: May 18 2026 09:45 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.07%** &nbsp; ($+2,079) |
-| SPY Benchmark | +4.35% &nbsp; ($+8,448 if 100% SPY) |
-| Alpha vs SPY | **-3.28%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.36% &nbsp; ($+8,458 if 100% SPY) |
+| Alpha vs SPY | **-3.29%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,079 |
 
@@ -27,17 +27,17 @@
 | 2026-05-13 | 📈 +1.01% | +4.88% | ❌ -3.86% |
 | 2026-05-14 | 📈 +1.02% | +5.71% | ❌ -4.68% |
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
-| 2026-05-18 | 📈 +1.07% | +4.35% | ❌ -3.28% |
+| 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
 
 ## Strategy Advisor
 
-_Evaluated May 18 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 18 2026 09:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 78.6, Win Rate 63.3%, Avg 5d Return 2.53%, Max Drawdown -4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 72.3, Win Rate 61.3%, Avg 5d Return 3.28%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.21%, Max Drawdown -82… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 65.4, Win Rate 48.2%, Avg 5d Return 5.21%, Max Drawdown -82… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $423.54 is 5.8% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AVGO
@@ -54,7 +54,7 @@ _Evaluated May 18 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.21%, Max Drawdown -82.94%, Sharpe 2.05. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 65.4, Win Rate 48.2%, Avg 5d Return 5.21%, Max Drawdown -82.9%, Sharpe 2.05. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
