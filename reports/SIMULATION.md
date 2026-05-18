@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 9** &nbsp;·&nbsp; Updated: May 17 2026 02:06 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 10** &nbsp;·&nbsp; Updated: May 18 2026 04:03 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.06%** &nbsp; ($+2,056) |
-| SPY Benchmark | +4.43% &nbsp; ($+8,601 if 100% SPY) |
-| Alpha vs SPY | **-3.37%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.07%** &nbsp; ($+2,079) |
+| SPY Benchmark | +3.97% &nbsp; ($+7,710 if 100% SPY) |
+| Alpha vs SPY | **-2.90%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,056 |
+| Current Value | $196,079 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -5.4% → $399.00) | $9,000 | $421.92 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+207 | +0.11% |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.7% → $399.00) | $9,000 | $418.82 | — | — |
+| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+230 | +0.12% |
 
 ## Daily Equity Curve
 
@@ -30,36 +30,36 @@
 
 ## Strategy Advisor
 
-_Evaluated May 17 2026 02:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 18 2026 04:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 75.3, Win Rate 68.8%, Avg 5d Return 0.87%, Max Drawdown -4.95%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 79.2, Win Rate 63.9%, Avg 5d Return 2.57%, Max Drawdown -4… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Keltner — Lower Channel Touch — Score 82.3, Win Rate 75.0%, Avg 5d Return 3.9%, Max Drawdo… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.92 is 5.4% above limit. … |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** 52-Week Breakout — Score 75.3, Win Rate 68.8%, Avg 5d Return 0.87%, Max Drawdown -4.95%, Sharpe 2.45. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 78.4, Win Rate 63.3%, Avg 5d Return 2.52%, Max Drawdown -4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 72.2, Win Rate 61.3%, Avg 5d Return 3.27%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.… |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.82 is 4.7% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 79.2, Win Rate 63.9%, Avg 5d Return 2.57%, Max Drawdown -47.04%, Sharpe 2.7. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 78.4, Win Rate 63.3%, Avg 5d Return 2.52%, Max Drawdown -47.04%, Sharpe 2.65. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — BCH-USD
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 82.3, Win Rate 75.0%, Avg 5d Return 3.9%, Max Drawdown -20.35%, Sharpe 3.49. 1 minor bearish signal(s), max confidence 65.0.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 72.2, Win Rate 61.3%, Avg 5d Return 3.27%, Max Drawdown -61.12%, Sharpe 2.04. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** Aroon — Strong Uptrend — Score 65.3, Win Rate 48.2%, Avg 5d Return 5.2%, Max Drawdown -83.11%, Sharpe 2.05. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.92 is 5.4% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.82 is 4.7% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 

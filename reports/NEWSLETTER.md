@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, May 17, 2026
-Generated at 02:06 PM
+# Daily Newsletter — Monday, May 18, 2026
+Generated at 04:03 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 168 total &nbsp;·&nbsp; 🟢 94 Bullish &nbsp;·&nbsp; 🔴 74 Bearish
+**Strategy Signals:** 163 total &nbsp;·&nbsp; 🟢 92 Bullish &nbsp;·&nbsp; 🔴 71 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $77.55 | 📉 -8.67% |
-| **^VIX** | VIX (Fear Index) | $18.43 | 📈 +6.78% |
-| **^TNX** | 10-Year Treasury Yield | $4.59 | 📈 +3.00% |
-| **GC=F** | Gold | $4561.90 | 📉 -2.48% |
-| **^RUT** | Russell 2000 | $2793.30 | 📉 -2.44% |
-| **XLE** | Energy (XLE) | $59.44 | 📈 +2.36% |
-| **^TYX** | 30-Year Treasury Yield | $5.13 | 📈 +2.31% |
-| **NG=F** | Natural Gas | $2.96 | 📈 +2.28% |
-| **XLK** | Tech (XLK) | $176.26 | 📉 -1.81% |
-| **XLY** | Consumer Disc. (XLY) | $116.53 | 📉 -1.80% |
+| **CL=F** | Crude Oil | $102.78 | 📉 -2.50% |
+| **NG=F** | Natural Gas | $3.02 | 📈 +2.03% |
+| **XLE** | Energy (XLE) | $60.49 | 📈 +1.76% |
+| **XLK** | Tech (XLK) | $173.27 | 📉 -1.70% |
+| **BTC-USD** | Bitcoin | $76304.19 | 📉 -1.45% |
+| **SOL-USD** | Solana | $84.05 | 📉 -1.32% |
+| **^VIX** | VIX (Fear Index) | $18.66 | 📈 +1.25% |
+| **ETH-USD** | Ethereum | $2103.12 | 📉 -1.15% |
+| **XLF** | Financials (XLF) | $51.53 | 📈 +0.84% |
+| **^IXIC** | NASDAQ | $26006.91 | 📉 -0.83% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 89.8 | 75.4% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 87.5 | 78.1% |
-| 🟢 BULLISH | **NVDA** | ADX Strong Trend — Bullish | 86.2 | 77.5% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 83.8 | 73.1% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 82.9 | 69.1% |
-| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 82.7 | 75.4% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 82.3 | 68.8% |
-| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 82.3 | 75.0% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.2 | 63.9% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.0 | 65.8% |
-| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 75.3 | 68.8% |
-| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 74.5 | 59.6% |
+| 🟢 BULLISH | **GC=F** | MFI — Oversold | 87.1 | 77.4% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.0 | 69.3% |
+| 🟢 BULLISH | **GC=F** | PPO — Bullish Cross | 82.4 | 76.5% |
+| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 81.3 | 73.3% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 80.1 | 67.7% |
+| 🟢 BULLISH | **BCH-USD** | RSI Oversold | 78.5 | 66.7% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.4 | 63.3% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.2 | 65.4% |
+| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 76.3 | 63.6% |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 75.3 | 71.3% |
+| 🟢 BULLISH | **BCH-USD** | Fisher Transform — Low Extreme | 74.0 | 66.0% |
+| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 73.8 | 58.1% |
 
 ## Latest News
 
-- [DayOne is said to eye $5B dual listing in Singapore and New York](https://seekingalpha.com/news/4594174-dayone-is-said-to-eye-5b-dual-listing-in-singapore-and-new-york?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nvidia is getting some help as it props up S&P 500 earnings growth](https://www.marketwatch.com/story/nvidia-is-getting-some-help-as-it-props-up-s-p-500-earnings-growth-1f3a8a52?mod=mw_rss_topstories) — *MarketWatch*
-- [Options price in Take-Two event as 'Grand Theft Auto' presale buzz builds](https://seekingalpha.com/news/4594176-options-price-in-take-two-event-as-grand-theft-auto-presale-buzz-builds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Liberty Live earnings on deck as revenue trajectory comes into focus](https://www.investing.com/news/earnings/liberty-live-earnings-on-deck-as-revenue-trajectory-comes-into-focus-93CH-4694540) — *Investing.com*
-- [Liberty Live earnings up next: Profitability test amid Live Nation ties](https://www.investing.com/news/earnings/liberty-live-earnings-up-next-profitability-test-amid-live-nation-ties-93CH-4694539) — *Investing.com*
-- [Investors brace for Xp earnings as estimates cool in Brazil](https://www.investing.com/news/earnings/investors-brace-for-xp-earnings-as-estimates-cool-in-brazil-93CH-4694538) — *Investing.com*
-- [AI-related layoffs a boost for stocks? Not necessarily](https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html) — *CNBC Markets*
-- [VinFast faces earnings test as losses mount amid expansion](https://www.investing.com/news/earnings/vinfast-faces-earnings-test-as-losses-mount-amid-expansion-93CH-4694537) — *Investing.com*
-- [UAE reports drone strike at nuclear power plant as Iran war deadlock endures](https://www.investing.com/news/commodities-news/uae-reports-drone-strike-at-nuclear-power-plant-as-iran-war-deadlock-endures-4694536) — *Investing.com*
-- [Terreno earnings under scrutiny as REIT tests market momentum](https://www.investing.com/news/earnings/terreno-earnings-under-scrutiny-as-reit-tests-market-momentum-93CH-4694535) — *Investing.com*
+- [Home Depot Q1 Preview: What to expect](https://seekingalpha.com/news/4594476-home-depot-q1-preview-what-to-expect?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Invesco BulletShares 2026 Municipal Bond ETF declares monthly distribution of $0.0526](https://seekingalpha.com/news/4594481-invesco-bulletshares-2026-municipal-bond-etf-declares-monthly-distribution-of-00526?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Invesco QQQ Low Volatility ETF declares monthly distribution of $0.0437](https://seekingalpha.com/news/4594480-invesco-qqq-low-volatility-etf-declares-monthly-distribution-of-00437?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [EQT wins mandate to manage EU’s €5 billion technology fund - Bloomberg](https://www.investing.com/news/stock-market-news/eqt-wins-mandate-to-manage-eus-5-billion-technology-fund--bloomberg-93CH-4696466) — *Investing.com*
+- [Invesco QQQ Income Advantage ETF declares monthly distribution of $0.4861](https://seekingalpha.com/news/4594479-invesco-qqq-income-advantage-etf-declares-monthly-distribution-of-04861?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Form 8K Sylvamo Corp For: 18 May](https://www.investing.com/news/filings/form-8k-sylvamo-corp-for-18-may-93CH-4696465) — *Investing.com*
+- [Form 8K Marine Petroleum Trust For: 18 May](https://www.investing.com/news/filings/form-8k-marine-petroleum-trust-for-18-may-93CH-4696464) — *Investing.com*
+- [Form 6K British American Tobacco p.l.c. For: 18 May](https://www.investing.com/news/filings/form-6k-british-american-tobacco-plc-for-18-may-93CH-4696463) — *Investing.com*
+- [Form 8K Mackenzie Realty Capital Inc For: 18 May](https://www.investing.com/news/filings/form-8k-mackenzie-realty-capital-inc-for-18-may-93CH-4696462) — *Investing.com*
+- [Invesco BulletShares 2026 High Yield Corporate Bond ETF declares monthly distribution of $0.1109](https://seekingalpha.com/news/4594478-invesco-bulletshares-2026-high-yield-corporate-bond-etf-declares-monthly-distribution-of-01109?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
