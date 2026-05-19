@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 03:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 04:16 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.08%** &nbsp; ($+2,102) |
-| SPY Benchmark | +3.55% &nbsp; ($+6,882 if 100% SPY) |
-| Alpha vs SPY | **-2.46%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.60% &nbsp; ($+6,992 if 100% SPY) |
+| Alpha vs SPY | **-2.52%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,102 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.9% → $399.00) | $9,000 | $419.40 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.8% → $399.00) | $9,000 | $419.22 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+253 | +0.14% |
 
 ## Daily Equity Curve
@@ -28,17 +28,18 @@
 | 2026-05-14 | 📈 +1.02% | +5.71% | ❌ -4.68% |
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
 | 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
+| 2026-05-19 | 📈 +1.08% | +3.58% | ❌ -2.49% |
 
 ## Strategy Advisor
 
-_Evaluated May 19 2026 03:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 19 2026 04:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 90.3, Win Rate 78.3%, Avg 5d Return 2.12%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | ADX Strong Trend — Bullish — Score 73.6, Win Rate 57.8%, Avg 5d Return 1.42%, Max Drawdown… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Aroon — Strong Uptrend — Score 64.7, Win Rate 47.9%, Avg 5d Return 5.13%, Max Drawdown -84… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.40 is 4.9% above limit. … |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.22 is 4.8% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
@@ -54,13 +55,13 @@ _Evaluated May 19 2026 03:59 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 64.7, Win Rate 47.9%, Avg 5d Return 5.13%, Max Drawdown -84.31%, Sharpe 2.02. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 64.7, Win Rate 47.9%, Avg 5d Return 5.13%, Max Drawdown -84.32%, Sharpe 2.02. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.40 is 4.9% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.22 is 4.8% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 

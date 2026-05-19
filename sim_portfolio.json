@@ -95,6 +95,16 @@
         "MSFT": 423.5400085449219,
         "SPY": 738.6500244140625
       }
+    },
+    {
+      "date": "2026-05-19",
+      "total_value": 196101.92,
+      "portfolio_pnl": 1.083,
+      "benchmark_pnl": 3.577,
+      "prices": {
+        "MSFT": 419.2200012207031,
+        "SPY": 733.1099853515625
+      }
     }
   ],
   "recommendations": [
@@ -120,7 +130,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 64.7, Win Rate 47.9%, Avg 5d Return 5.13%, Max Drawdown -84.31%, Sharpe 2.02. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 64.7, Win Rate 47.9%, Avg 5d Return 5.13%, Max Drawdown -84.32%, Sharpe 2.02. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -129,11 +139,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.40 is 4.9% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.22 is 4.8% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-19T15:59:12.039973",
+  "recommendations_updated": "2026-05-19T16:16:15.120875",
   "trade_log": [
     {
       "action": "SELL",
