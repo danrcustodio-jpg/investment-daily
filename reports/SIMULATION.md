@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 08:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 09:53 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.08%** &nbsp; ($+2,102) |
-| SPY Benchmark | +3.67% &nbsp; ($+7,124 if 100% SPY) |
-| Alpha vs SPY | **-2.59%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.67% &nbsp; ($+7,110 if 100% SPY) |
+| Alpha vs SPY | **-2.58%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,102 |
 
@@ -28,11 +28,11 @@
 | 2026-05-14 | 📈 +1.02% | +5.71% | ❌ -4.68% |
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
 | 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
-| 2026-05-19 | 📈 +1.08% | +3.67% | ❌ -2.59% |
+| 2026-05-19 | 📈 +1.08% | +3.67% | ❌ -2.58% |
 
 ## Strategy Advisor
 
-_Evaluated May 19 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 19 2026 09:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -49,7 +49,7 @@ _Evaluated May 19 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** RSI Oversold — Score 84.2, Win Rate 78.9%, Avg 5d Return 2.62%, Max Drawdown -10.27%, Sharpe 2.88. 1 minor bearish signal(s), max confidence 61.8.
+**Signal Analysis:** RSI Oversold — Score 84.2, Win Rate 78.9%, Avg 5d Return 2.62%, Max Drawdown -10.27%, Sharpe 2.88. 1 minor bearish signal(s), max confidence 61.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 

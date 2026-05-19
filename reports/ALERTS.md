@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday May 19, 2026 at 08:11 PM
+**Last scan:** Tuesday May 19, 2026 at 09:53 PM
 
 ## Scan Summary
 
@@ -87,7 +87,7 @@
 | 🟢 BULLISH | **NVDA** | ADX Strong Trend — Bullish | 65.3 | 68.7% | -45.85% | ⏸ Suppressed |
 | 🟢 BULLISH | **IONQ** | Chaikin Money Flow — Bullish | 65.3 | 55.4% | -86.19% | ⏸ Suppressed |
 | 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 65.2 | 59.9% | -81.32% | ⏸ Suppressed |
-| 🟢 BULLISH | **XRP-USD** | Aroon — Strong Uptrend | 64.7 | 47.9% | -84.38% | ⏸ Suppressed |
+| 🟢 BULLISH | **XRP-USD** | Aroon — Strong Uptrend | 64.7 | 47.9% | -84.37% | ⏸ Suppressed |
 | 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 64.4 | 73.9% | -31.56% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | ADX Strong Trend — Bullish | 64.3 | 56.7% | -62.04% | ⏸ Suppressed |
 | 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 63.6 | 60.3% | -88.76% | ⏸ Suppressed |
@@ -109,14 +109,14 @@
 | 🟢 BULLISH | **TSLA** | Aroon — Strong Uptrend | 55.3 | 49.2% | -70.95% | ⏸ Suppressed |
 | 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 55.1 | 54.3% | -99.35% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | Chaikin Money Flow — Bullish | 55.1 | 60.6% | -74.51% | ⏸ Suppressed |
-| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 54.8 | 57.4% | -44.5% | ⏸ Suppressed |
+| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 54.9 | 57.4% | -44.5% | ⏸ Suppressed |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 54.2 | 59.5% | -83.91% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | Chaikin Money Flow — Bullish | 53.5 | 60.4% | -37.61% | ⏸ Suppressed |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.1 | 60.8% | -56.53% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | Aroon — Strong Uptrend | 52.7 | 60.1% | -85.05% | ⏸ Suppressed |
 | 🟢 BULLISH | **BCH-USD** | VWAP Deviation — Oversold | 52.6 | 57.3% | -76.75% | ⏸ Suppressed |
 | 🟢 BULLISH | **ARKK** | Vortex — Bullish | 52.3 | 54.2% | -13.56% | ⏸ Suppressed |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 51.9 | 58.0% | -45.71% | ⏸ Suppressed |
+| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 51.8 | 58.0% | -45.71% | ⏸ Suppressed |
 | 🟢 BULLISH | **MARA** | Chaikin Money Flow — Bullish | 51.7 | 60.3% | -61.82% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 51.5 | 58.9% | -65.38% | ⏸ Suppressed |
 | 🟢 BULLISH | **AERO-USD** | Williams %R — Oversold | 51.3 | 52.9% | -100.0% | ⏸ Suppressed |
@@ -184,7 +184,7 @@
 | 🔴 BEARISH | **UPRO** | MACD Bearish Crossover | 64.3 | 72.0% | -21.87% | ⏸ Suppressed |
 | 🔴 BEARISH | **SPY** | Ulcer Index — Elevated | 63.5 | 63.6% | -20.89% | ⏸ Suppressed |
 | 🔴 BEARISH | **XLK** | Ulcer Index — Elevated | 63.0 | 62.5% | -27.13% | ⏸ Suppressed |
-| 🔴 BEARISH | **BCH-USD** | Ulcer Index — Elevated | 61.8 | 58.6% | -64.21% | ⏸ Suppressed |
+| 🔴 BEARISH | **BCH-USD** | Ulcer Index — Elevated | 62.0 | 58.6% | -64.21% | ⏸ Suppressed |
 | 🔴 BEARISH | **BTC-USD** | EMA 9/21 — Bearish Cross | 61.0 | 55.6% | -8.13% | ⏸ Suppressed |
 | 🔴 BEARISH | **CL=F** | Vortex — Bearish | 60.8 | 53.8% | -8.85% | ⏸ Suppressed |
 | 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 60.8 | 56.7% | -71.13% | ⏸ Suppressed |
