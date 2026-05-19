@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 06:21 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 11** &nbsp;·&nbsp; Updated: May 19 2026 08:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.08%** &nbsp; ($+2,102) |
-| SPY Benchmark | +4.07% &nbsp; ($+7,888 if 100% SPY) |
-| Alpha vs SPY | **-2.98%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.67% &nbsp; ($+7,124 if 100% SPY) |
+| Alpha vs SPY | **-2.59%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,102 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.8% → $399.00) | $9,000 | $419.12 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.4% → $399.00) | $9,000 | $417.42 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+253 | +0.14% |
 
 ## Daily Equity Curve
@@ -28,18 +28,24 @@
 | 2026-05-14 | 📈 +1.02% | +5.71% | ❌ -4.68% |
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
 | 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
-| 2026-05-19 | 📈 +1.08% | +4.05% | ❌ -2.97% |
+| 2026-05-19 | 📈 +1.08% | +3.67% | ❌ -2.59% |
 
 ## Strategy Advisor
 
-_Evaluated May 19 2026 06:21 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 19 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Chaikin Money Flow — Bullish — Score 71.5, Win Rate 66.0%, Avg 5d Return 3.16%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | RSI Oversold — Score 84.2, Win Rate 78.9%, Avg 5d Return 2.62%, Max Drawdown -10.27%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 90.3, Win Rate 78.3%, Avg 5d Return 2.12%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | ADX Strong Trend — Bullish — Score 74.0, Win Rate 58.4%, Avg 5d Return 1.42%, Max Drawdown… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.12 is 4.8% above limit. … |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.42 is 4.4% above limit. … |
+
+### 🔍 NEW OPPORTUNITY — APP
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 71.5, Win Rate 66.0%, Avg 5d Return 3.16%, Max Drawdown -94.84%, Sharpe 1.95. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
@@ -47,21 +53,15 @@ _Evaluated May 19 2026 06:21 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 90.3, Win Rate 78.3%, Avg 5d Return 2.12%, Max Drawdown -6.53%, Sharpe 5.02. 1 minor bearish signal(s), max confidence 55.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
-
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 74.0, Win Rate 58.4%, Avg 5d Return 1.42%, Max Drawdown -41.7%, Sharpe 2.25. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 74.0, Win Rate 58.4%, Avg 5d Return 1.42%, Max Drawdown -41.7%, Sharpe 2.24. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.12 is 4.8% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.42 is 4.4% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 

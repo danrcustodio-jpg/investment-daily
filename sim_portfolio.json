@@ -100,14 +100,23 @@
       "date": "2026-05-19",
       "total_value": 196101.92,
       "portfolio_pnl": 1.083,
-      "benchmark_pnl": 4.054,
+      "benchmark_pnl": 3.672,
       "prices": {
-        "MSFT": 419.1000061035156,
-        "SPY": 736.4849853515625
+        "MSFT": 417.4200134277344,
+        "SPY": 733.780029296875
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "APP",
+      "priority": "high",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.5, Win Rate 66.0%, Avg 5d Return 3.16%, Max Drawdown -94.84%, Sharpe 1.95. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "BCH-USD",
@@ -119,18 +128,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GC=F",
-      "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 90.3, Win Rate 78.3%, Avg 5d Return 2.12%, Max Drawdown -6.53%, Sharpe 5.02. 1 minor bearish signal(s), max confidence 55.5.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "GOOGL",
       "priority": "high",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 74.0, Win Rate 58.4%, Avg 5d Return 1.42%, Max Drawdown -41.7%, Sharpe 2.25. No conflicting bearish signals.",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 74.0, Win Rate 58.4%, Avg 5d Return 1.42%, Max Drawdown -41.7%, Sharpe 2.24. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -139,11 +139,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $419.12 is 4.8% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.42 is 4.4% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-19T18:21:27.860490",
+  "recommendations_updated": "2026-05-19T20:11:42.139293",
   "trade_log": [
     {
       "action": "SELL",
