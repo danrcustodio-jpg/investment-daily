@@ -110,19 +110,19 @@
       "date": "2026-05-20",
       "total_value": 196124.95,
       "portfolio_pnl": 1.095,
-      "benchmark_pnl": 4.421,
+      "benchmark_pnl": 4.654,
       "prices": {
-        "MSFT": 417.2699890136719,
-        "SPY": 739.0800170898438
+        "MSFT": 420.5150146484375,
+        "SPY": 740.72998046875
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.7, Win Rate 66.2%, Avg 5d Return 3.17%, Max Drawdown -94.84%, Sharpe 1.96. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 79.7, Win Rate 72.2%, Avg 5d Return 0.91%, Max Drawdown -4.95%, Sharpe 2.76. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -140,7 +140,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "MRVL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 93.0, Win Rate 82.4%, Avg 5d Return 9.51%, Max Drawdown -3.22%, Sharpe 8.75. 1 minor bearish signal(s), max confidence 61.1.",
+      "reason": "52-Week Breakout \u2014 Score 93.0, Win Rate 82.4%, Avg 5d Return 9.56%, Max Drawdown -3.22%, Sharpe 8.85. 1 minor bearish signal(s), max confidence 61.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -149,11 +149,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.64 is 4.7% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $420.54 is 5.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-20T16:22:33.314748",
+  "recommendations_updated": "2026-05-20T18:39:44.232994",
   "trade_log": [
     {
       "action": "SELL",
