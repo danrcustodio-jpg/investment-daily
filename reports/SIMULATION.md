@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 12** &nbsp;·&nbsp; Updated: May 20 2026 08:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 12** &nbsp;·&nbsp; Updated: May 20 2026 10:24 PM
 
 ## Performance Summary
 
@@ -33,13 +33,13 @@
 
 ## Strategy Advisor
 
-_Evaluated May 20 2026 08:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 20 2026 10:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 79.7, Win Rate 72.2%, Avg 5d Return 0.91%, Max Drawdown -4.95%, S… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Keltner — Lower Channel Touch — Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 87.1, Win Rate 77.4%, Avg 5d Return 0.96%, Max Drawdown -2.97%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 85.2, Win Rate 77.8%, Avg 5d Return 3.93%, Max Drawdown -8.… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.06 is 5.2% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -50,13 +50,13 @@ _Evaluated May 20 2026 08:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawdown -24.17%, Sharpe 2.86. 1 minor bearish signal(s), max confidence 59.6.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawdown -24.17%, Sharpe 2.86. 1 minor bearish signal(s), max confidence 59.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 87.1, Win Rate 77.4%, Avg 5d Return 0.96%, Max Drawdown -2.97%, Sharpe 4.84. 1 minor bearish signal(s), max confidence 51.4.
+**Signal Analysis:** MACD Bullish Crossover — Score 85.2, Win Rate 77.8%, Avg 5d Return 3.93%, Max Drawdown -8.82%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 69.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
