@@ -110,10 +110,10 @@
       "date": "2026-05-20",
       "total_value": 196124.95,
       "portfolio_pnl": 1.095,
-      "benchmark_pnl": 4.654,
+      "benchmark_pnl": 4.727,
       "prices": {
-        "MSFT": 420.5150146484375,
-        "SPY": 740.72998046875
+        "MSFT": 421.05999755859375,
+        "SPY": 741.25
       }
     }
   ],
@@ -131,16 +131,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "BCH-USD",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawdown -24.17%, Sharpe 2.86. 1 minor bearish signal(s), max confidence 59.4.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawdown -24.17%, Sharpe 2.86. 1 minor bearish signal(s), max confidence 59.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MRVL",
+      "ticker": "GC=F",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 93.0, Win Rate 82.4%, Avg 5d Return 9.56%, Max Drawdown -3.22%, Sharpe 8.85. 1 minor bearish signal(s), max confidence 61.2.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 87.1, Win Rate 77.4%, Avg 5d Return 0.96%, Max Drawdown -2.97%, Sharpe 4.84. 1 minor bearish signal(s), max confidence 51.4.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -149,11 +149,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $420.54 is 5.1% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $421.06 is 5.2% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-20T18:39:44.232994",
+  "recommendations_updated": "2026-05-20T20:58:36.127525",
   "trade_log": [
     {
       "action": "SELL",
