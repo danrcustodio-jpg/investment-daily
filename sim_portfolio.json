@@ -105,6 +105,16 @@
         "MSFT": 417.4200134277344,
         "SPY": 733.72998046875
       }
+    },
+    {
+      "date": "2026-05-20",
+      "total_value": 196124.95,
+      "portfolio_pnl": 1.095,
+      "benchmark_pnl": 4.421,
+      "prices": {
+        "MSFT": 417.2699890136719,
+        "SPY": 739.0800170898438
+      }
     }
   ],
   "recommendations": [
@@ -130,7 +140,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "MRVL",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 93.0, Win Rate 82.4%, Avg 5d Return 9.62%, Max Drawdown -3.22%, Sharpe 8.95. 2 minor bearish signal(s), max confidence 65.6.",
+      "reason": "52-Week Breakout \u2014 Score 93.0, Win Rate 82.4%, Avg 5d Return 9.51%, Max Drawdown -3.22%, Sharpe 8.75. 1 minor bearish signal(s), max confidence 61.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -139,11 +149,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.90 is 4.5% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.64 is 4.7% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-20T16:07:34.913056",
+  "recommendations_updated": "2026-05-20T16:22:33.314748",
   "trade_log": [
     {
       "action": "SELL",

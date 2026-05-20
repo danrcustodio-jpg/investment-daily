@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 12** &nbsp;·&nbsp; Updated: May 20 2026 04:07 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 12** &nbsp;·&nbsp; Updated: May 20 2026 04:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.10%** &nbsp; ($+2,125) |
-| SPY Benchmark | +4.61% &nbsp; ($+8,944 if 100% SPY) |
-| Alpha vs SPY | **-3.51%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.44% &nbsp; ($+8,617 if 100% SPY) |
+| Alpha vs SPY | **-3.35%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,125 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.5% → $399.00) | $9,000 | $417.90 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.7% → $399.00) | $9,000 | $418.64 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+276 | +0.15% |
 
 ## Daily Equity Curve
@@ -29,17 +29,18 @@
 | 2026-05-15 | 📈 +1.04% | +4.43% | ❌ -3.40% |
 | 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
 | 2026-05-19 | 📈 +1.08% | +3.67% | ❌ -2.58% |
+| 2026-05-20 | 📈 +1.09% | +4.42% | ❌ -3.33% |
 
 ## Strategy Advisor
 
-_Evaluated May 20 2026 04:07 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 20 2026 04:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Chaikin Money Flow — Bullish — Score 71.7, Win Rate 66.2%, Avg 5d Return 3.17%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Keltner — Lower Channel Touch — Score 79.6, Win Rate 70.2%, Avg 5d Return 3.28%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | 52-Week Breakout — Score 93.0, Win Rate 82.4%, Avg 5d Return 9.62%, Max Drawdown -3.22%, S… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.90 is 4.5% above limit. … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | 52-Week Breakout — Score 93.0, Win Rate 82.4%, Avg 5d Return 9.51%, Max Drawdown -3.22%, S… |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.64 is 4.7% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -55,13 +56,13 @@ _Evaluated May 20 2026 04:07 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — MRVL
 
-**Signal Analysis:** 52-Week Breakout — Score 93.0, Win Rate 82.4%, Avg 5d Return 9.62%, Max Drawdown -3.22%, Sharpe 8.95. 2 minor bearish signal(s), max confidence 65.6.
+**Signal Analysis:** 52-Week Breakout — Score 93.0, Win Rate 82.4%, Avg 5d Return 9.51%, Max Drawdown -3.22%, Sharpe 8.75. 1 minor bearish signal(s), max confidence 61.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $417.90 is 4.5% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.64 is 4.7% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 
