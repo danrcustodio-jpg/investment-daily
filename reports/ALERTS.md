@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Thursday May 21, 2026 at 08:18 PM
+**Last scan:** Thursday May 21, 2026 at 09:56 PM
 
 ## Scan Summary
 
@@ -128,12 +128,12 @@
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.1 | 60.8% | -56.53% | ⏸ Suppressed |
 | 🟢 BULLISH | **MARA** | Chaikin Money Flow — Bullish | 52.8 | 61.5% | -61.82% | ⏸ Suppressed |
 | 🟢 BULLISH | **AERO-USD** | Williams %R — Oversold | 52.0 | 52.6% | -100.0% | ⏸ Suppressed |
-| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 51.9 | 57.2% | -80.95% | ⏸ Suppressed |
+| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 51.8 | 57.2% | -80.95% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 51.6 | 58.9% | -65.38% | ⏸ Suppressed |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 51.5 | 57.9% | -98.81% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | Aroon — Strong Uptrend | 51.4 | 59.2% | -85.05% | ⏸ Suppressed |
 | 🟢 BULLISH | **TSLA** | Aroon — Strong Uptrend | 51.2 | 48.2% | -73.38% | ⏸ Suppressed |
-| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 51.1 | 56.0% | -54.59% | ⏸ Suppressed |
+| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 51.1 | 56.0% | -54.64% | ⏸ Suppressed |
 | 🟢 BULLISH | **NVDA** | ADX Strong Trend — Bullish | 50.9 | 64.4% | -57.71% | ⏸ Suppressed |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 50.7 | 53.2% | -88.29% | ⏸ Suppressed |
 | 🟢 BULLISH | **BCH-USD** | VWAP Deviation — Oversold | 50.6 | 56.8% | -76.75% | ⏸ Suppressed |
@@ -195,7 +195,7 @@
 | 🔴 BEARISH | **TQQQ** | TRIX — Bearish Cross | 59.7 | 68.8% | -14.25% | ⏸ Suppressed |
 | 🔴 BEARISH | **XLE** | PPO — Bearish Cross | 59.1 | 70.6% | -7.0% | ⏸ Suppressed |
 | 🔴 BEARISH | **SMH** | Keltner — Upper Channel Touch | 58.5 | 59.1% | -49.59% | ✅ New |
-| 🔴 BEARISH | **BCH-USD** | Ulcer Index — Elevated | 57.9 | 57.6% | -64.21% | ⏸ Suppressed |
+| 🔴 BEARISH | **BCH-USD** | Ulcer Index — Elevated | 57.8 | 57.6% | -64.21% | ⏸ Suppressed |
 | 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 57.7 | 58.9% | -59.34% | ⏸ Suppressed |
 | 🔴 BEARISH | **TQQQ** | RSI Overbought | 57.1 | 50.0% | -46.56% | ✅ New |
 | 🔴 BEARISH | **RKLB** | Fisher Transform — High Extreme | 56.8 | 46.9% | -53.13% | ⏸ Suppressed |

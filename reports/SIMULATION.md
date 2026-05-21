@@ -1,12 +1,12 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 13** &nbsp;·&nbsp; Updated: May 21 2026 08:18 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 13** &nbsp;·&nbsp; Updated: May 21 2026 09:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.11%** &nbsp; ($+2,148) |
-| SPY Benchmark | +4.94% &nbsp; ($+9,588 if 100% SPY) |
+| SPY Benchmark | +4.93% &nbsp; ($+9,574 if 100% SPY) |
 | Alpha vs SPY | **-3.83%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,148 |
@@ -30,11 +30,11 @@
 | 2026-05-18 | 📈 +1.07% | +4.36% | ❌ -3.29% |
 | 2026-05-19 | 📈 +1.08% | +3.67% | ❌ -2.58% |
 | 2026-05-20 | 📈 +1.09% | +4.73% | ❌ -3.63% |
-| 2026-05-21 | 📈 +1.11% | +4.94% | ❌ -3.83% |
+| 2026-05-21 | 📈 +1.11% | +4.93% | ❌ -3.83% |
 
 ## Strategy Advisor
 
-_Evaluated May 21 2026 08:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 21 2026 09:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -51,7 +51,7 @@ _Evaluated May 21 2026 08:18 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.8, Win Rate 70.2%, Avg 5d Return 3.24%, Max Drawdown -20.35%, Sharpe 2.8. 1 minor bearish signal(s), max confidence 57.9.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.8, Win Rate 70.2%, Avg 5d Return 3.24%, Max Drawdown -20.35%, Sharpe 2.8. 1 minor bearish signal(s), max confidence 57.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
