@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, May 20, 2026
-Generated at 04:07 PM
+# Daily Newsletter — Thursday, May 21, 2026
+Generated at 03:58 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 164 total &nbsp;·&nbsp; 🟢 109 Bullish &nbsp;·&nbsp; 🔴 55 Bearish
+**Strategy Signals:** 145 total &nbsp;·&nbsp; 🟢 96 Bullish &nbsp;·&nbsp; 🔴 49 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $99.27 | 📉 -7.89% |
-| **NG=F** | Natural Gas | $3.02 | 📉 -2.89% |
-| **SOL-USD** | Solana | $86.22 | 📈 +2.39% |
-| **^VIX** | VIX (Fear Index) | $17.63 | 📉 -2.38% |
-| **^RUT** | Russell 2000 | $2811.05 | 📈 +2.33% |
-| **XLY** | Consumer Disc. (XLY) | $117.49 | 📈 +2.13% |
-| **^TNX** | 10-Year Treasury Yield | $4.57 | 📉 -1.99% |
-| **XLK** | Tech (XLK) | $176.51 | 📈 +1.89% |
-| **XLE** | Energy (XLE) | $60.26 | 📉 -1.68% |
-| **SI=F** | Silver | $76.04 | 📈 +1.62% |
+| **NG=F** | Natural Gas | $3.19 | 📈 +6.16% |
+| **CL=F** | Crude Oil | $101.11 | 📈 +2.90% |
+| **^TNX** | 10-Year Treasury Yield | $4.62 | 📈 +0.94% |
+| **^VIX** | VIX (Fear Index) | $17.28 | 📉 -0.92% |
+| **XLI** | Industrials (XLI) | $169.42 | 📉 -0.77% |
+| **^IRX** | 3-Month T-Bill | $3.58 | 📈 +0.51% |
+| **GC=F** | Gold | $4509.70 | 📉 -0.48% |
+| **SOL-USD** | Solana | $86.37 | 📈 +0.38% |
+| **^IXIC** | NASDAQ | $26172.38 | 📉 -0.37% |
+| **BTC-USD** | Bitcoin | $77168.98 | 📉 -0.37% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 93.0 | 82.4% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 87.1 | 77.4% |
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 80.3 | 68.4% |
-| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 79.6 | 70.2% |
-| 🟢 BULLISH | **UPRO** | Elder Force — Bullish | 78.3 | 74.4% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.2 | 63.1% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 78.2 | 66.3% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 77.4 | 64.7% |
-| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 75.4 | 62.0% |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 75.3 | 71.3% |
-| 🟢 BULLISH | **GC=F** | Stochastic RSI Oversold | 74.4 | 71.4% |
+| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 93.3 | 83.3% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 89.9 | 77.3% |
+| 🟢 BULLISH | **APP** | MACD Bullish Crossover | 83.0 | 75.0% |
+| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 82.3 | 75.0% |
+| 🟢 BULLISH | **IWM** | OBV — Accumulation | 81.8 | 71.1% |
+| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.8 | 76.0% |
+| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 79.8 | 70.2% |
+| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 79.7 | 72.2% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.2 | 63.2% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 77.6 | 64.9% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 75.0 | 64.6% |
 | 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 74.2 | 54.8% |
 
 ## Latest News
 
-- [Eli Lilly accuses church bishops, businessmen of fraud in Trulicity drug rebate scheme](https://www.cnbc.com/2026/05/20/eli-lilly-lawsuit-rebate-fraud-pentecostal-church-leaders.html) — *CNBC Markets*
-- [Want to live a more meaningful life? Write your own obituary.](https://www.marketwatch.com/story/writing-your-own-obituary-can-help-you-live-a-better-life-heres-how-to-get-started-d3076941?mod=mw_rss_topstories) — *MarketWatch*
-- [Endava Q3 2026 Earnings Preview](https://seekingalpha.com/news/4595404-endava-q3-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hovnanian Q2 Earnings Preview](https://seekingalpha.com/news/4595403-hovnanian-q2-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Midday Need to Know: SpaceX IPO, UK food price cap, and more](https://seekingalpha.com/news/4595374-midday-need-to-know-spacex-ipo-uk-food-price-cap-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump's face doesn't belong on U.S. passport, senators tell Rubio](https://www.cnbc.com/2026/05/20/trump-passports-congress-rubio.html) — *CNBC Markets*
-- [UK announces 'historic' trade deal with Gulf states in G7 first](https://www.cnbc.com/2026/05/20/uk-announces-historic-trade-deal-with-gulf-states.html) — *CNBC Markets*
-- [Global oil prices drop below $106 a barrel on hopes that U.S.-Iran war will soon end](https://www.marketwatch.com/story/oil-prices-decline-after-trump-reaffirmed-he-would-end-the-war-in-iran-very-quickly-f5148dd4?mod=mw_rss_topstories) — *MarketWatch*
-- [Mexico rejects Royal Caribbean's Perfect Day water park](https://seekingalpha.com/news/4595391-mexico-rejects-royal-caribbeans-perfect-day-water-park?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Jeff Bezos says bottom half of earners should pay zero in income taxes](https://www.cnbc.com/2026/05/20/jeff-bezos-income-taxes.html) — *CNBC Markets*
+- [Capital Group World Bond Select ETF™ (Canada) declares CAD 0.0683 dividend](https://seekingalpha.com/news/4595942-capital-group-world-bond-select-etf-canada-declares-cad-0_0683-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Capital Group Multi-Sector Income Select ETF™ declares CAD 0.1023 dividend](https://seekingalpha.com/news/4595941-capital-group-multi-sector-income-select-etf-declares-cad-0_1023-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [European space stocks rally after SpaceX IPO filing sparks valuation hopes](https://seekingalpha.com/news/4595933-european-space-stocks-rally-after-spacex-ipo-filing-sparks-valuation-hopes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax Short NVDA Option Income Strategy ETF announces weekly distribution of $0.2697](https://seekingalpha.com/news/4595938-yieldmax-short-nvda-option-income-strategy-etf-announces-weekly-distribution-of-0_2697?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Templeton Emerging Markets Income Fund raises dividend by 13.7% to $0.054](https://seekingalpha.com/news/4595937-templeton-emerging-markets-income-fund-raises-dividend-by-137-to-0054?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax CVNA Option Income Strategy ETF announces weekly distribution of $0.3130](https://seekingalpha.com/news/4595935-yieldmax-cvna-option-income-strategy-etf-announces-weekly-distribution-of-0_3130?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Barnwell reports Q2 results](https://seekingalpha.com/news/4595936-barnwell-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump ballroom, 'slush fund' are flashpoints as Senate takes up DHS funding bill](https://www.cnbc.com/2026/05/21/ballroom-funding-trump-congress-immigration-funding.html) — *CNBC Markets*
+- [The surprising cost of caring for aging parents: divorce](https://www.marketwatch.com/story/the-surprising-cost-of-caring-for-aging-parents-divorce-2ff83fce?mod=mw_rss_topstories) — *MarketWatch*
+- [Dollar Tree shares may move 9.3% on upcoming earnings release](https://www.investing.com/news/stock-market-news/dollar-tree-shares-may-move-93-on-upcoming-earnings-release-93CH-4704577) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
