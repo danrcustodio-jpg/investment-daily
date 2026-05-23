@@ -698,6 +698,16 @@ window.HAWAII_TRIP = {
           ],
         },
         {
+          title: 'Monkeypod Kitchen',
+          menuUrl: 'https://www.monkeypodkitchen.com/',
+          linkLabel: 'monkeypodkitchen.com',
+          summaryLines: [
+            'Merriman group · casual-upscale Hawaiian regional — famous house-made mai tai, kiawe wood–fired plates, poke.',
+            'On Oʻahu: Ko Olina (Kapolei / west resort strip) — good optional dinner if you spend a west-side afternoon; ~35–45+ min from Waikīkī depending on traffic (confirm address & hours on site).',
+            'Other locations (Maui, etc.) listed on monkeypodkitchen.com if your plans change islands.',
+          ],
+        },
+        {
           title: "Haleiwa Joe's — Kaneohe (Haiku Gardens)",
           menuUrl: 'https://www.haleiwajoes.com/kaneohe-menu',
           linkLabel: 'Kaneohe menu & info',
@@ -719,6 +729,7 @@ window.HAWAII_TRIP = {
             "Leonard's Bakery — https://leonardshawaii.com/home/ (malasadas · Kapahulu; Food stops above).",
             'Marugame Udon Waikīkī — https://www.marugameudon.com/locations/waikiki/ (Food stops above).',
             'Musubi Cafe IYASUME — https://iyasumehawaii.com/ (several locations; Food stops above).',
+            'Monkeypod Kitchen — https://www.monkeypodkitchen.com/ (Ko Olina on Oʻahu + other islands; Food stops above).',
           ],
         },
         {
