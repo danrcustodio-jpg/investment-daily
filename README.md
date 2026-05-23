@@ -51,7 +51,7 @@ Notes:
 - The service runs with **Gunicorn** and a **`/health`** probe so deploy health checks do not hit `/` (the home page can run a heavy first-time strategy scan).
 - Render picks a **supported Python** automatically unless you set `PYTHON_VERSION` in the service **Environment** tab (only pin if you need to match local).
 - Add environment variables in Render dashboard as needed (`EMAIL_SENDER`, `EMAIL_PASSWORD`, etc.).
-- Use `https://<your-render-url>/hub` for the hub page and `https://<your-render-url>/asset-opportunities` for the opportunity page.
+- Use `https://<your-render-url>/hub` for the hub page, `https://<your-render-url>/hawaii-trip` for Hawaii trip notes (optional dining, itinerary), and `https://<your-render-url>/asset-opportunities` for the opportunity page.
 
 If a deploy still fails, open the **Render deploy log**: build errors usually mean a dependency or Python version mismatch; runtime crashes often mean **out of memory** on the free tier during the first full `run_full_scan` (wait for wake or upgrade plan).
 

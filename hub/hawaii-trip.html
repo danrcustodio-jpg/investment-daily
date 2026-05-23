@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawaii trip</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --text: #e8eefc;
+      --muted: #9aa7c7;
+      --accent: #6ea8fe;
+      --stroke: #25324d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at top, #16213b 0%, var(--bg) 55%);
+      color: var(--text);
+      padding: 24px;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: rgba(18, 26, 43, 0.92);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+    }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    .sub { margin: 0 0 24px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+    h2 {
+      margin: 24px 0 12px;
+      font-size: 17px;
+      color: var(--accent);
+      border-bottom: 1px solid var(--stroke);
+      padding-bottom: 6px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    ul { margin: 0; padding-left: 1.25rem; color: var(--text); line-height: 1.6; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); }
+    .back {
+      display: inline-block;
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .back:hover { color: var(--accent); }
+    .hint { font-size: 13px; color: var(--muted); margin-top: 20px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="/hub">← Daily Tools Hub</a>
+    <h1>Hawaii trip</h1>
+    <p class="sub">Quick reference for the trip. Edit <code>hub/hawaii-trip.html</code> in the repo and redeploy.</p>
+
+    <h2>Optional food &amp; dining</h2>
+    <ul>
+      <li><a href="https://www.monkeypodkitchen.com/" target="_blank" rel="noopener noreferrer">Monkeypod Kitchen</a> — Hawaiian regional by Peter Merriman; several islands (e.g. Wailea, Kaanapali on Maui). Known for house-made mai tai, poke, and kiawe-wood–fired plates.</li>
+    </ul>
+
+    <h2>Itinerary / reservations</h2>
+    <ul>
+      <li><em>Add dates, confirmation numbers, and booked meals here.</em></li>
+    </ul>
+
+    <p class="hint">This page is static HTML bundled with the dashboard so it travels with your Render deployment at <code>/hawaii-trip</code>.</p>
+  </div>
+</body>
+</html>

@@ -15,6 +15,7 @@ Routes:
   POST /refresh         Force-refresh cached data
   GET  /health        Liveness JSON (Render / load balancer probes)
   GET  /api/status    JSON health check
+  GET  /hawaii-trip   Hawaii trip notes (optional dining, itinerary)
 """
 
 import json
@@ -2031,6 +2032,13 @@ def hub_page():
 def asset_opportunities_page():
     """Serve the standalone asset opportunity finder page."""
     return send_from_directory(os.path.join(SCRIPT_DIR, "hub"), "asset-opportunities.html")
+
+
+@app.route("/hawaii-trip")
+def hawaii_trip_page():
+    """Trip notes (itinerary, optional dining) served from the hub static folder."""
+    return send_from_directory(os.path.join(SCRIPT_DIR, "hub"), "hawaii-trip.html")
+
 
 # ─── Start ────────────────────────────────────────────────────────────────────
 
