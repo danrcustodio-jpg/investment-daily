@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 15** &nbsp;·&nbsp; Updated: May 23 2026 02:10 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 16** &nbsp;·&nbsp; Updated: May 24 2026 02:08 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.13%** &nbsp; ($+2,194) |
+| Portfolio P&L | **+1.14%** &nbsp; ($+2,217) |
 | SPY Benchmark | +5.35% &nbsp; ($+10,374 if 100% SPY) |
-| Alpha vs SPY | **-4.22%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-4.21%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,194 |
+| Current Value | $196,217 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.7% → $399.00) | $9,000 | $418.57 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+346 | +0.18% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+369 | +0.20% |
 
 ## Daily Equity Curve
 
@@ -35,13 +35,13 @@
 
 ## Strategy Advisor
 
-_Evaluated May 23 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 24 2026 02:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.9, Win Rate 73.7%, Avg 5d Return 1.02%, Max Drawdown -4.95%, S… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 89.9, Win Rate 77.3%, Avg 5d Return 2.1%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Keltner — Lower Channel Touch — Score 55.7, Win Rate 64.1%, Avg 5d Return 1.4%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 55.0, Win Rate 64.2%, Avg 5d Return 1.32%, Max Draw… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $418.57 is 4.7% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -58,7 +58,7 @@ _Evaluated May 23 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 55.7, Win Rate 64.1%, Avg 5d Return 1.4%, Max Drawdown -47.38%, Sharpe 1.43. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 55.0, Win Rate 64.2%, Avg 5d Return 1.32%, Max Drawdown -41.61%, Sharpe 1.46. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
