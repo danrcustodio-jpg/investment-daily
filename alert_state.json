@@ -286,9 +286,9 @@
       "last_change_at": "2026-05-18T18:17:58.939730+00:00"
     },
     "ARKK": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-05-25T15:46:39.080533+00:00",
-      "last_change_at": "2026-05-25T15:46:38.120295+00:00"
+      "last_change_at": "2026-05-25T17:28:43.561907+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -306,9 +306,9 @@
       "last_change_at": "2026-05-22T15:45:30.590738+00:00"
     },
     "BCH-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-25T15:46:39.946081+00:00",
-      "last_change_at": "2026-05-25T15:46:38.120368+00:00"
+      "last_change_at": "2026-05-25T17:28:43.561997+00:00"
     },
     "ETH-USD": {
       "cadence_min": 1440,
@@ -331,9 +331,9 @@
       "last_change_at": "2026-05-20T18:38:55.393223+00:00"
     },
     "CEG": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-05-25T15:46:40.089554+00:00",
-      "last_change_at": "2026-05-25T15:46:38.120414+00:00"
+      "last_change_at": "2026-05-25T17:28:43.562074+00:00"
     },
     "MARA": {
       "cadence_min": 15,
@@ -371,9 +371,9 @@
       "last_change_at": "2026-05-22T15:45:30.591526+00:00"
     },
     "CRWD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-25T15:46:40.414997+00:00",
-      "last_change_at": "2026-05-25T15:46:38.120462+00:00"
+      "last_change_at": "2026-05-25T17:28:43.562160+00:00"
     }
   },
   "signal_last_notified_price": {
