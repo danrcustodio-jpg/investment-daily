@@ -135,6 +135,16 @@
         "MSFT": 418.57000732421875,
         "SPY": 745.6400146484375
       }
+    },
+    {
+      "date": "2026-05-25",
+      "total_value": 196240.13,
+      "portfolio_pnl": 1.155,
+      "benchmark_pnl": 5.348,
+      "prices": {
+        "MSFT": 418.57000732421875,
+        "SPY": 745.6400146484375
+      }
     }
   ],
   "recommendations": [
@@ -173,7 +183,7 @@
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-25T15:37:44.327480",
+  "recommendations_updated": "2026-05-25T15:47:13.808618",
   "trade_log": [
     {
       "action": "SELL",
