@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Monday May 25, 2026 at 07:02 PM
+**Last scan:** Monday May 25, 2026 at 08:48 PM
 
 ## Scan Summary
 
@@ -15,7 +15,7 @@
 
 | Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
 |---|---|---|---|---|---|---|
-| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 59.4 | 59.6% | 1.87% | 1.59 |
+| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 59.4 | 59.6% | 1.86% | 1.59 |
 | 🟢 BULLISH | **TSLA** | Aroon — Strong Uptrend | 49.9 | 48.2% | 1.61% | 1.18 |
 | 🟢 BULLISH | **UPRO** | Aroon — Strong Uptrend | 49.8 | 59.4% | 0.59% | 0.81 |
 | 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 49.8 | 58.3% | 2.42% | 1.05 |
@@ -25,21 +25,21 @@
 | 🟢 BULLISH | **BCH-USD** | VWAP Deviation — Oversold | 49.2 | 56.3% | 1.26% | 1.02 |
 | 🟢 BULLISH | **XLK** | Aroon — Strong Uptrend | 48.6 | 59.1% | 0.44% | 0.78 |
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 48.6 | 58.3% | 1.14% | 0.86 |
-| 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.6 | 53.4% | 1.88% | 1.12 |
+| 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.6 | 53.4% | 1.87% | 1.12 |
 | 🟢 BULLISH | **AVGO** | Chaikin Money Flow — Bullish | 48.5 | 52.5% | 0.91% | 0.88 |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 48.1 | 57.7% | 0.73% | 0.81 |
-| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 47.9 | 55.4% | 1.2% | 0.89 |
-| 🟢 BULLISH | **LTC-USD** | Stochastic RSI Oversold | 47.6 | 57.7% | 1.21% | 0.98 |
+| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 48.0 | 55.4% | 1.2% | 0.9 |
+| 🟢 BULLISH | **LTC-USD** | Stochastic RSI Oversold | 47.5 | 57.7% | 1.2% | 0.97 |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.3 | 56.2% | 0.41% | 0.73 |
-| 🟢 BULLISH | **AERO-USD** | Stochastic RSI Oversold | 47.1 | 50.0% | 3.12% | 1.19 |
+| 🟢 BULLISH | **AERO-USD** | Stochastic RSI Oversold | 47.1 | 50.0% | 3.11% | 1.19 |
 | 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 47.0 | 55.8% | 2.07% | 1.18 |
 | 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 46.3 | 58.1% | 0.14% | 0.26 |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 46.3 | 54.3% | 1.72% | 0.93 |
+| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 46.3 | 54.0% | 1.07% | 0.82 |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 46.2 | 56.0% | 0.8% | 0.79 |
 | 🟢 BULLISH | **LTC-USD** | VWAP Deviation — Oversold | 46.1 | 56.7% | 1.11% | 0.94 |
-| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 46.1 | 54.0% | 1.07% | 0.81 |
 | 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 46.0 | 59.1% | 0.41% | 0.66 |
-| 🟢 BULLISH | **AERO-USD** | MFI — Oversold | 45.6 | 47.8% | 4.97% | 0.75 |
+| 🟢 BULLISH | **AERO-USD** | MFI — Oversold | 45.6 | 47.8% | 4.96% | 0.75 |
 | 🟢 BULLISH | **ARM** | Aroon — Strong Uptrend | 45.4 | 50.3% | 1.09% | 0.83 |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 45.3 | 55.8% | 0.42% | 0.65 |
 | 🟢 BULLISH | **AAPL** | CCI — Extreme Oversold | 45.1 | 55.8% | 0.47% | 0.66 |
@@ -68,9 +68,9 @@
 | 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.1 | 63.7% | -47.04% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | Parabolic SAR — Bullish | 79.1 | 73.1% | -5.25% | ⏸ Suppressed |
 | 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.0 | 65.1% | -85.46% | ⏸ Suppressed |
+| 🟢 BULLISH | **UPRO** | Parabolic SAR — Bullish | 77.3 | 74.1% | -14.97% | ⏸ Suppressed |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 77.2 | 66.7% | -6.12% | ⏸ Suppressed |
 | 🟢 BULLISH | **AMD** | 52-Week Breakout | 77.2 | 65.2% | -20.04% | ⏸ Suppressed |
-| 🟢 BULLISH | **UPRO** | Parabolic SAR — Bullish | 76.2 | 74.1% | -14.97% | ⏸ Suppressed |
 | 🟢 BULLISH | **MARA** | MACD Bullish Crossover | 75.7 | 61.9% | -25.18% | ⏸ Suppressed |
 | 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 75.2 | 64.9% | -32.84% | ⏸ Suppressed |
 | 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 74.0 | 54.6% | -82.81% | ⏸ Suppressed |
@@ -92,7 +92,7 @@
 | 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 67.7 | 61.7% | -74.57% | ⏸ Suppressed |
 | 🟢 BULLISH | **RKLB** | Chaikin Money Flow — Bullish | 67.4 | 53.3% | -65.24% | ⏸ Suppressed |
 | 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 66.7 | 60.5% | -81.32% | ⏸ Suppressed |
-| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 66.3 | 63.5% | -32.61% | ⏸ Suppressed |
+| 🟢 BULLISH | **BCH-USD** | Keltner — Lower Channel Touch | 66.4 | 63.5% | -32.48% | ⏸ Suppressed |
 | 🟢 BULLISH | **IONQ** | Chaikin Money Flow — Bullish | 65.9 | 55.6% | -86.19% | ⏸ Suppressed |
 | 🟢 BULLISH | **CRWD** | 52-Week Breakout | 65.9 | 64.7% | -11.74% | ⏸ Suppressed |
 | 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 65.8 | 61.1% | -52.56% | ⏸ Suppressed |
@@ -130,8 +130,8 @@
 | 🟢 BULLISH | **QQQ** | Chaikin Money Flow — Bullish | 54.2 | 60.4% | -37.61% | ⏸ Suppressed |
 | 🟢 BULLISH | **GOOGL** | Stochastic RSI Oversold | 54.1 | 58.0% | -41.23% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | Aroon — Strong Uptrend | 54.1 | 59.4% | -42.77% | ⏸ Suppressed |
+| 🟢 BULLISH | **BCH-USD** | Fisher Transform — Low Extreme | 53.2 | 57.1% | -37.39% | ⏸ Suppressed |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.1 | 60.8% | -56.53% | ⏸ Suppressed |
-| 🟢 BULLISH | **BCH-USD** | Fisher Transform — Low Extreme | 53.1 | 57.1% | -37.51% | ⏸ Suppressed |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 52.0 | 58.1% | -98.81% | ⏸ Suppressed |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 51.7 | 58.9% | -65.38% | ⏸ Suppressed |
 | 🟢 BULLISH | **TQQQ** | Aroon — Strong Uptrend | 51.1 | 59.2% | -85.05% | ⏸ Suppressed |
@@ -148,16 +148,16 @@
 | 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.6 | 53.4% | -80.78% | ✅ New |
 | 🟢 BULLISH | **AVGO** | Chaikin Money Flow — Bullish | 48.5 | 52.5% | -71.06% | ✅ New |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 48.1 | 57.7% | -87.54% | ✅ New |
-| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 47.9 | 55.4% | -80.95% | ✅ New |
-| 🟢 BULLISH | **LTC-USD** | Stochastic RSI Oversold | 47.6 | 57.7% | -78.1% | ✅ New |
+| 🟢 BULLISH | **BCH-USD** | Stochastic RSI Oversold | 48.0 | 55.4% | -80.95% | ✅ New |
+| 🟢 BULLISH | **LTC-USD** | Stochastic RSI Oversold | 47.5 | 57.7% | -78.1% | ✅ New |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.3 | 56.2% | -75.52% | ✅ New |
 | 🟢 BULLISH | **AERO-USD** | Stochastic RSI Oversold | 47.1 | 50.0% | -91.81% | ✅ New |
 | 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 47.0 | 55.8% | -86.43% | ✅ New |
 | 🟢 BULLISH | **SPY** | ADX Strong Trend — Bullish | 46.3 | 58.1% | -24.16% | ✅ New |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 46.3 | 54.3% | -97.27% | ✅ New |
+| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 46.3 | 54.0% | -66.47% | ✅ New |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 46.2 | 56.0% | -85.59% | ✅ New |
 | 🟢 BULLISH | **LTC-USD** | VWAP Deviation — Oversold | 46.1 | 56.7% | -80.98% | ✅ New |
-| 🟢 BULLISH | **BCH-USD** | Stochastic (Full) — Oversold | 46.1 | 54.0% | -66.53% | ✅ New |
 | 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 46.0 | 59.1% | -61.15% | ✅ New |
 | 🟢 BULLISH | **AERO-USD** | MFI — Oversold | 45.6 | 47.8% | -94.94% | ✅ New |
 | 🟢 BULLISH | **ARM** | Aroon — Strong Uptrend | 45.4 | 50.3% | -70.8% | ✅ New |
