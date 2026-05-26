@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 18** &nbsp;·&nbsp; Updated: May 26 2026 04:38 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 18** &nbsp;·&nbsp; Updated: May 26 2026 07:15 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.17%** &nbsp; ($+2,263) |
-| SPY Benchmark | +5.95% &nbsp; ($+11,534 if 100% SPY) |
-| Alpha vs SPY | **-4.78%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.85% &nbsp; ($+11,356 if 100% SPY) |
+| Alpha vs SPY | **-4.69%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,263 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -4.0% → $399.00) | $9,000 | $415.67 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -3.8% → $399.00) | $9,000 | $414.93 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+415 | +0.22% |
 
 ## Daily Equity Curve
@@ -33,24 +33,18 @@
 | 2026-05-21 | 📈 +1.11% | +4.93% | ❌ -3.83% |
 | 2026-05-22 | 📈 +1.12% | +5.35% | ❌ -4.23% |
 | 2026-05-25 | 📈 +1.16% | +5.35% | ❌ -4.19% |
-| 2026-05-26 | 📈 +1.17% | +5.93% | ❌ -4.77% |
+| 2026-05-26 | 📈 +1.17% | +5.85% | ❌ -4.68% |
 
 ## Strategy Advisor
 
-_Evaluated May 26 2026 04:38 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 26 2026 07:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.9, Win Rate 73.7%, Avg 5d Return 1.02%, Max Drawdown -4.95%, S… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 56.2, Win Rate 64.2%, Avg 5d Return 1.36%, Max Draw… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $415.67 is 4.0% above limit. … |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** 52-Week Breakout — Score 80.9, Win Rate 73.7%, Avg 5d Return 1.02%, Max Drawdown -4.95%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 45.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Elder Force — Bullish — Score 78.0, Win Rate 67.9%, Avg 5d Return 1.99%, Max Drawdown -15.… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 55.7, Win Rate 64.2%, Avg 5d Return 1.34%, Max Draw… |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $414.93 is 3.8% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
@@ -58,15 +52,21 @@ _Evaluated May 26 2026 04:38 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — GOOGL
+
+**Signal Analysis:** Elder Force — Bullish — Score 78.0, Win Rate 67.9%, Avg 5d Return 1.99%, Max Drawdown -15.01%, Sharpe 2.56. 1 minor bearish signal(s), max confidence 49.6.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+
 ### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 56.2, Win Rate 64.2%, Avg 5d Return 1.36%, Max Drawdown -42.88%, Sharpe 1.52. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 55.7, Win Rate 64.2%, Avg 5d Return 1.34%, Max Drawdown -43.51%, Sharpe 1.49. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $415.67 is 4.0% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $414.93 is 3.8% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 
