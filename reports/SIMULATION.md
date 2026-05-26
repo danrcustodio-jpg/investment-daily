@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 18** &nbsp;·&nbsp; Updated: May 26 2026 09:09 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 18** &nbsp;·&nbsp; Updated: May 26 2026 10:46 PM
 
 ## Performance Summary
 
@@ -37,13 +37,13 @@
 
 ## Strategy Advisor
 
-_Evaluated May 26 2026 09:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 26 2026 10:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MACD Bullish Crossover — Score 82.6, Win Rate 75.0%, Avg 5d Return 5.29%, Max Drawdown -28… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 55.8, Win Rate 64.2%, Avg 5d Return 1.34%, Max Draw… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 55.9, Win Rate 64.2%, Avg 5d Return 1.34%, Max Draw… |
 | 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $416.03 is 4.1% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — APP
@@ -60,7 +60,7 @@ _Evaluated May 26 2026 09:09 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 55.8, Win Rate 64.2%, Avg 5d Return 1.34%, Max Drawdown -43.27%, Sharpe 1.5. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 55.9, Win Rate 64.2%, Avg 5d Return 1.34%, Max Drawdown -43.25%, Sharpe 1.5. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
