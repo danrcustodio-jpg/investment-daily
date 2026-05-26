@@ -150,14 +150,23 @@
       "date": "2026-05-26",
       "total_value": 196263.17,
       "portfolio_pnl": 1.167,
-      "benchmark_pnl": 5.85,
+      "benchmark_pnl": 6.047,
       "prices": {
-        "MSFT": 414.8775939941406,
-        "SPY": 749.1950073242188
+        "MSFT": 416.0299987792969,
+        "SPY": 750.5900268554688
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "APP",
+      "priority": "high",
+      "reason": "MACD Bullish Crossover \u2014 Score 82.6, Win Rate 75.0%, Avg 5d Return 5.29%, Max Drawdown -28.99%, Sharpe 2.76. 1 minor bearish signal(s), max confidence 73.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "CL=F",
@@ -169,18 +178,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
-      "priority": "high",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 78.0, Win Rate 67.9%, Avg 5d Return 1.99%, Max Drawdown -15.01%, Sharpe 2.56. 1 minor bearish signal(s), max confidence 49.6.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "LTC-USD",
       "priority": "medium",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 55.7, Win Rate 64.2%, Avg 5d Return 1.34%, Max Drawdown -43.51%, Sharpe 1.49. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 55.8, Win Rate 64.2%, Avg 5d Return 1.34%, Max Drawdown -43.27%, Sharpe 1.5. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -189,11 +189,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $414.93 is 3.8% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $416.03 is 4.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-26T19:15:01.816711",
+  "recommendations_updated": "2026-05-26T21:09:13.898972",
   "trade_log": [
     {
       "action": "SELL",
