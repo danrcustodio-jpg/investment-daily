@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 19** &nbsp;·&nbsp; Updated: May 27 2026 04:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 19** &nbsp;·&nbsp; Updated: May 27 2026 04:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.18%** &nbsp; ($+2,286) |
-| SPY Benchmark | +5.92% &nbsp; ($+11,487 if 100% SPY) |
-| Alpha vs SPY | **-4.74%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.95% &nbsp; ($+11,539 if 100% SPY) |
+| Alpha vs SPY | **-4.77%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,286 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -3.4% → $399.00) | $9,000 | $413.06 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -3.4% → $399.00) | $9,000 | $412.84 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+438 | +0.23% |
 
 ## Daily Equity Curve
@@ -34,17 +34,18 @@
 | 2026-05-22 | 📈 +1.12% | +5.35% | ❌ -4.23% |
 | 2026-05-25 | 📈 +1.16% | +5.35% | ❌ -4.19% |
 | 2026-05-26 | 📈 +1.17% | +6.05% | ❌ -4.88% |
+| 2026-05-27 | 📈 +1.18% | +5.95% | ❌ -4.77% |
 
 ## Strategy Advisor
 
-_Evaluated May 27 2026 04:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 27 2026 04:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.9, Win Rate 73.7%, Avg 5d Return 1.02%, Max Drawdown -4.95%, S… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 83.0, Win Rate 72.2%, Avg 5d Return 4.54%, Max Drawdown -11.55%, … |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | Fisher Transform — Low Extreme — Score 59.8, Win Rate 64.2%, Avg 5d Return 1.49%, Max Draw… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $413.06 is 3.4% above limit. … |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.84 is 3.4% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
@@ -60,13 +61,13 @@ _Evaluated May 27 2026 04:24 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 59.8, Win Rate 64.2%, Avg 5d Return 1.49%, Max Drawdown -43.62%, Sharpe 1.72. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 59.8, Win Rate 64.2%, Avg 5d Return 1.49%, Max Drawdown -43.58%, Sharpe 1.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $413.06 is 3.4% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.84 is 3.4% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 
