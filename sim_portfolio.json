@@ -160,10 +160,10 @@
       "date": "2026-05-27",
       "total_value": 196286.21,
       "portfolio_pnl": 1.178,
-      "benchmark_pnl": 6.094,
+      "benchmark_pnl": 6.029,
       "prices": {
-        "MSFT": 412.7749938964844,
-        "SPY": 750.9249877929688
+        "MSFT": 412.6700134277344,
+        "SPY": 750.4600219726562
       }
     }
   ],
@@ -190,7 +190,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "LTC-USD",
       "priority": "medium",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 59.8, Win Rate 64.2%, Avg 5d Return 1.49%, Max Drawdown -43.49%, Sharpe 1.72. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 59.8, Win Rate 64.2%, Avg 5d Return 1.49%, Max Drawdown -43.5%, Sharpe 1.72. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -199,11 +199,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $413.09 is 3.4% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.67 is 3.3% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-27T19:15:48.524587",
+  "recommendations_updated": "2026-05-27T21:22:11.168715",
   "trade_log": [
     {
       "action": "SELL",
