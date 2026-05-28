@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 20** &nbsp;·&nbsp; Updated: May 28 2026 04:49 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 20** &nbsp;·&nbsp; Updated: May 28 2026 07:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.19%** &nbsp; ($+2,309) |
-| SPY Benchmark | +6.59% &nbsp; ($+12,792 if 100% SPY) |
-| Alpha vs SPY | **-5.40%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.66% &nbsp; ($+12,922 if 100% SPY) |
+| Alpha vs SPY | **-5.47%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,309 |
 
@@ -15,7 +15,7 @@
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -6.1% → $399.00) | $9,000 | $424.77 | — | — |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -6.5% → $399.00) | $9,000 | $426.71 | — | — |
 | **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+461 | +0.25% |
 
 ## Daily Equity Curve
@@ -35,24 +35,18 @@
 | 2026-05-25 | 📈 +1.16% | +5.35% | ❌ -4.19% |
 | 2026-05-26 | 📈 +1.17% | +6.05% | ❌ -4.88% |
 | 2026-05-27 | 📈 +1.18% | +6.03% | ❌ -4.85% |
-| 2026-05-28 | 📈 +1.19% | +6.59% | ❌ -5.40% |
+| 2026-05-28 | 📈 +1.19% | +6.65% | ❌ -5.46% |
 
 ## Strategy Advisor
 
-_Evaluated May 28 2026 04:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 28 2026 07:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.77 is 6.1% above limit. … |
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 55.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | PPO — Bullish Cross — Score 91.2, Win Rate 87.5%, Avg 5d Return 5.53%, Max Drawdown -5.49%… |
+| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.71 is 6.5% above limit. … |
 
 ### 🔍 NEW OPPORTUNITY — DOGE-USD
 
@@ -66,9 +60,15 @@ _Evaluated May 28 2026 04:49 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — PLTR
+
+**Signal Analysis:** PPO — Bullish Cross — Score 91.2, Win Rate 87.5%, Avg 5d Return 5.53%, Max Drawdown -5.49%, Sharpe 4.17. 2 minor bearish signal(s), max confidence 64.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+
 ### ✅ HOLD LIMIT — MSFT
 
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.77 is 6.1% above limit. Keep limit order at $399.00.
+**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.71 is 6.5% above limit. Keep limit order at $399.00.
 
 **Tax & Cost:** No tax impact until order fills.
 

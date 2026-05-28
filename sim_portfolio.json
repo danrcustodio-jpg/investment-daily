@@ -170,23 +170,14 @@
       "date": "2026-05-28",
       "total_value": 196309.24,
       "portfolio_pnl": 1.19,
-      "benchmark_pnl": 6.592,
+      "benchmark_pnl": 6.647,
       "prices": {
-        "MSFT": 424.6659851074219,
-        "SPY": 754.4500122070312
+        "MSFT": 426.6300048828125,
+        "SPY": 754.8400268554688
       }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "CL=F",
-      "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 55.8.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "DOGE-USD",
@@ -206,14 +197,23 @@
       "is_crypto": false
     },
     {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "PLTR",
+      "priority": "high",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 91.2, Win Rate 87.5%, Avg 5d Return 5.53%, Max Drawdown -5.49%, Sharpe 4.17. 2 minor bearish signal(s), max confidence 64.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.77 is 6.1% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.71 is 6.5% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-28T16:49:13.432377",
+  "recommendations_updated": "2026-05-28T19:34:32.811572",
   "trade_log": [
     {
       "action": "SELL",
