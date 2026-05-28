@@ -165,6 +165,16 @@
         "MSFT": 412.6700134277344,
         "SPY": 750.4600219726562
       }
+    },
+    {
+      "date": "2026-05-28",
+      "total_value": 196309.24,
+      "portfolio_pnl": 1.19,
+      "benchmark_pnl": 6.592,
+      "prices": {
+        "MSFT": 424.6659851074219,
+        "SPY": 754.4500122070312
+      }
     }
   ],
   "recommendations": [
@@ -199,11 +209,11 @@
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.29 is 6.4% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $424.77 is 6.1% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-28T16:39:11.607534",
+  "recommendations_updated": "2026-05-28T16:49:13.432377",
   "trade_log": [
     {
       "action": "SELL",
