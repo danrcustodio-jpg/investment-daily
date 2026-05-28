@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, May 27, 2026
-Generated at 04:24 PM
+# Daily Newsletter — Thursday, May 28, 2026
+Generated at 04:39 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 181 total &nbsp;·&nbsp; 🟢 101 Bullish &nbsp;·&nbsp; 🔴 80 Bearish
+**Strategy Signals:** 190 total &nbsp;·&nbsp; 🟢 104 Bullish &nbsp;·&nbsp; 🔴 86 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.13 | 📈 +8.02% |
-| **CL=F** | Crude Oil | $90.20 | 📉 -3.93% |
-| **SI=F** | Silver | $74.87 | 📉 -1.88% |
-| **XLY** | Consumer Disc. (XLY) | $121.40 | 📈 +1.63% |
-| **BTC-USD** | Bitcoin | $74931.98 | 📉 -1.18% |
-| **XLE** | Energy (XLE) | $57.28 | 📉 -0.99% |
-| **XLF** | Financials (XLF) | $51.42 | 📉 -0.83% |
-| **GC=F** | Gold | $4471.80 | 📉 -0.64% |
-| **XLK** | Tech (XLK) | $184.08 | 📉 -0.57% |
-| **^VIX** | VIX (Fear Index) | $16.92 | 📉 -0.53% |
+| **NG=F** | Natural Gas | $3.26 | 📈 +7.17% |
+| **^VIX** | VIX (Fear Index) | $15.89 | 📉 -2.46% |
+| **GC=F** | Gold | $4533.30 | 📈 +1.93% |
+| **SI=F** | Silver | $75.96 | 📈 +1.83% |
+| **BTC-USD** | Bitcoin | $73069.61 | 📉 -1.72% |
+| **XLK** | Tech (XLK) | $187.37 | 📈 +1.59% |
+| **XLV** | Healthcare (XLV) | $150.85 | 📈 +1.38% |
+| **ETH-USD** | Ethereum | $1998.94 | 📉 -1.15% |
+| **SOL-USD** | Solana | $81.54 | 📉 -1.01% |
+| **^IXIC** | NASDAQ | $26855.90 | 📈 +0.68% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **APP** | PPO — Bullish Cross | 87.1 | 85.7% |
+| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 91.2 | 87.5% |
+| 🟢 BULLISH | **DOGE-USD** | MFI — Oversold | 90.0 | 100.0% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.5 | 79.6% |
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 86.3 | 70.8% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 86.1 | 76.9% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 85.6 | 67.9% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 84.5 | 71.2% |
-| 🟢 BULLISH | **PLTR** | Vortex — Bullish | 83.0 | 72.2% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 82.2 | 67.8% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 85.8 | 68.3% |
+| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 84.7 | 71.6% |
+| 🟢 BULLISH | **XLK** | 52-Week Breakout | 83.0 | 68.0% |
+| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 82.7 | 65.3% |
+| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 82.6 | 73.1% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 82.5 | 68.3% |
 | 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 81.9 | 69.8% |
-| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 80.9 | 73.7% |
-| 🟢 BULLISH | **IONQ** | TRIX — Bullish Cross | 80.0 | 72.7% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.6 | 63.7% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.2 | 71.3% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.2 | 65.6% |
 
 ## Latest News
 
-- [Alabama asks Supreme Court to allow congressional map that dilutes Black vote](https://www.cnbc.com/2026/05/27/alabama-supreme-court-redistricting-black-vote-midterms.html) — *CNBC Markets*
-- [Lululemon settles proxy battle with founder Chip Wilson, agrees to two board nominees](https://www.cnbc.com/2026/05/27/lululemon-settles-proxy-battle-with-founder-chip-wilson.html) — *CNBC Markets*
-- [Dollar Tree Q1 2027 Earnings Preview](https://seekingalpha.com/news/4597528-dollar-tree-q1-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Asana FY 2027 Earnings Preview](https://seekingalpha.com/news/4597526-asana-fy-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hormel Foods Q1 2026 Earnings Preview](https://seekingalpha.com/news/4597525-hormel-foods-q1-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Kohl's Q4 2027 Earnings Preview](https://seekingalpha.com/news/4597524-kohls-q4-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [U.S. crude trims losses after White House denies Iran state media report about Hormuz opening](https://www.cnbc.com/2026/05/27/oil-price-today-iran-war-strait-hormuz.html) — *CNBC Markets*
-- [Best Buy Q1 2027 Earnings Preview](https://seekingalpha.com/news/4597523-best-buy-q1-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Republicans stare down inflation abyss with midterms fast approaching](https://www.cnbc.com/2026/05/27/election-economy-congress-inflation-republicans.html) — *CNBC Markets*
-- [Li Auto Q1 2026 Earnings Preview](https://seekingalpha.com/news/4597522-li-auto-q1-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual,' ex-agency chief says](https://www.cnbc.com/2026/05/28/gemini-cftc-winklevoss-crypto.html) — *CNBC Markets*
+- [Reklaim Ltd. reports Q1 results](https://seekingalpha.com/news/4598037-reklaim-ltd-reports-q1-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [infinitii ai reports Q3 results](https://seekingalpha.com/news/4598034-infinitii-ai-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Conavi Medical Corp. reports Q2 results](https://seekingalpha.com/news/4598033-conavi-medical-corp-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bank of Canada says financial system is solid, but vulnerabilities have grown](https://www.investing.com/news/economy-news/bank-of-canada-says-financial-system-is-solid-but-vulnerabilities-have-grown-4714772) — *Investing.com*
+- [Carney seeks new US-Canada partnership as world undergoes ’rupture’](https://www.investing.com/news/economy-news/carney-seeks-new-uscanada-partnership-as-world-undergoes-rupture-4715104) — *Investing.com*
+- [Monness raises Snowflake stock price target to $320 on strong results](https://www.investing.com/news/analyst-ratings/monness-raises-snowflake-stock-price-target-to-320-on-strong-results-93CH-4715103) — *Investing.com*
+- [SpaceX IPO could pressure legacy defense contractors, BNP Paribas says](https://seekingalpha.com/news/4598019-spacex-ipo-could-pressure-legacy-defense-contractors-bnp-paribas-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fed’s Musalem says rate hike may be needed if inflation doesn’t ease](https://www.investing.com/news/economy-news/feds-musalem-says-rate-hike-may-be-needed-if-inflation-doesnt-ease-4715084) — *Investing.com*
+- [Mistral considers developing AI chips as it competes with OpenAI and Anthropic](https://seekingalpha.com/news/4598027-mistral-considers-developing-ai-chips-as-it-competes-with-openai-and-anthropic?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

@@ -170,40 +170,40 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AAPL",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 80.9, Win Rate 73.7%, Avg 5d Return 1.02%, Max Drawdown -4.95%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 46.6.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 55.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "DOGE-USD",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 85.0, Win Rate 71.9%, Avg 5d Return 2.04%, Max Drawdown -12.64%, Sharpe 3.16. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "LTC-USD",
-      "priority": "medium",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 59.4, Win Rate 64.2%, Avg 5d Return 1.48%, Max Drawdown -43.98%, Sharpe 1.7. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sharpe 27.13. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "NVDA",
+      "priority": "high",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19.07%, Sharpe 5.27. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
       "action": "HOLD_LIMIT",
       "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $412.67 is 3.3% above limit. Keep limit order at $399.00.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.29 is 6.4% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-05-27T22:55:30.206250",
+  "recommendations_updated": "2026-05-28T16:39:11.607534",
   "trade_log": [
     {
       "action": "SELL",
