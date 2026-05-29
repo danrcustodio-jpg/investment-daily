@@ -115,7 +115,6 @@
     "APP::Williams %R \u2014 Overbought": "2026-05-29T16:37:10.165498+00:00",
     "SOXL::Stochastic (Full) \u2014 Overbought": "2026-05-29T16:37:10.165493+00:00",
     "CEG::Aroon \u2014 Strong Downtrend": "2026-05-29T16:37:10.472363+00:00",
-    "AMZN::OBV \u2014 Accumulation": "2026-05-27T19:15:03.868091+00:00",
     "PLTR::PPO \u2014 Bullish Cross": "2026-05-28T16:48:34.667441+00:00",
     "TQQQ::Donchian \u2014 20D High Breakout": "2026-05-28T16:48:34.693156+00:00",
     "DOGE-USD::MFI \u2014 Oversold": "2026-05-28T16:48:34.720508+00:00",
@@ -245,9 +244,9 @@
       "last_change_at": "2026-05-11T15:53:01.326894+00:00"
     },
     "AMZN": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:02.818439+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229274+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523624+00:00"
     },
     "APP": {
       "cadence_min": 15,
@@ -290,9 +289,9 @@
       "last_change_at": "2026-05-28T16:48:27.206310+00:00"
     },
     "PLTR": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:05.385151+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229638+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523884+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -340,9 +339,9 @@
       "last_change_at": "2026-05-11T15:53:01.328180+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:07.303908+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229775+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523996+00:00"
     },
     "ARKK": {
       "cadence_min": 15,
@@ -365,14 +364,14 @@
       "last_change_at": "2026-05-28T16:48:27.205975+00:00"
     },
     "BCH-USD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-05-29T16:37:03.451275+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229358+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523698+00:00"
     },
     "ETH-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:04.077806+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229524+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523824+00:00"
     },
     "IWM": {
       "cadence_min": 15,
@@ -385,9 +384,9 @@
       "last_change_at": "2026-05-15T15:10:13.096281+00:00"
     },
     "AAPL": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:02.377347+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229176+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523536+00:00"
     },
     "CEG": {
       "cadence_min": 1440,
@@ -400,9 +399,9 @@
       "last_change_at": "2026-05-28T16:48:27.206261+00:00"
     },
     "XLE": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-05-29T16:37:06.826057+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229724+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523945+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 1440,
@@ -410,9 +409,9 @@
       "last_change_at": "2026-05-21T16:12:11.373514+00:00"
     },
     "DOGE-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-05-29T16:37:03.919927+00:00",
-      "last_change_at": "2026-05-29T16:37:02.229475+00:00"
+      "last_change_at": "2026-05-29T19:28:08.523766+00:00"
     },
     "LTC-USD": {
       "cadence_min": 1440,
@@ -551,7 +550,6 @@
     "APP::Williams %R \u2014 Overbought": 606.02001953125,
     "SOXL::Stochastic (Full) \u2014 Overbought": 223.72000122070312,
     "CEG::Aroon \u2014 Strong Downtrend": 287.8599853515625,
-    "AMZN::OBV \u2014 Accumulation": 271.1600036621094,
     "PLTR::PPO \u2014 Bullish Cross": 139.52499389648438,
     "TQQQ::Donchian \u2014 20D High Breakout": 83.84130096435547,
     "DOGE-USD::MFI \u2014 Oversold": 0.09905000030994415,
