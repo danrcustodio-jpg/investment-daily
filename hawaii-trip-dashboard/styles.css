@@ -1,0 +1,278 @@
+/* Hawaii trip — mobile-first dashboard */
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --success: #3fb950;
+  --tap-min: 48px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  background: var(--bg);
+  color: var(--text);
+  padding-bottom: env(safe-area-inset-bottom, 12px);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:active {
+  opacity: 0.85;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 12px 14px 24px;
+}
+
+.banner {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: linear-gradient(
+    180deg,
+    var(--bg) 70%,
+    rgba(13, 17, 23, 0.92) 100%
+  );
+  padding-top: env(safe-area-inset-top, 8px);
+  padding-bottom: 10px;
+  margin: -12px -14px 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+  letter-spacing: -0.02em;
+}
+
+.sub {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 14px 0 18px;
+}
+
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.stat label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.stat span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.panel > summary {
+  list-style: none;
+  min-height: var(--tap-min);
+  padding: 14px 16px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.panel > summary::-webkit-details-marker {
+  display: none;
+}
+
+.panel > summary::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.panel[open] > summary::after {
+  transform: rotate(-135deg);
+  margin-top: 4px;
+}
+
+.panel .body {
+  padding: 0 16px 16px;
+}
+
+.note {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+
+.block-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 14px 0 6px;
+}
+
+.block-title:first-child {
+  margin-top: 0;
+}
+
+.detail-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+.detail-card .kind {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.detail-card h4 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.arrive {
+  font-size: 0.82rem;
+  color: var(--success);
+  margin-bottom: 6px;
+}
+
+.lines p {
+  margin: 0 0 6px;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.lines p:last-child {
+  margin-bottom: 0;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+th {
+  background: var(--bg);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.visit-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.visit-link {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.sec-heading {
+  font-weight: 600;
+  margin: 12px 0 6px;
+  font-size: 0.95rem;
+}
+
+.sec-heading:first-child {
+  margin-top: 0;
+}
+
+hr.sep {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 14px 0;
+}
+
+.parking-venue {
+  margin-bottom: 12px;
+}
+
+.parking-venue strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.parking-venue .ref {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}

@@ -9,10 +9,12 @@ import os
 import json
 import smtplib
 import logging
+import html
 from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import Any
+from urllib.parse import urlparse
 
 import yfinance as yf
 import feedparser
@@ -23,6 +25,7 @@ from positioning_data import get_cot_positioning_summary
 from strategy_engine import methodology_newsletter_html
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(SCRIPT_DIR, "logs"), exist_ok=True)
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 
 logging.basicConfig(
@@ -39,7 +42,23 @@ logger = logging.getLogger(__name__)
 
 EMAIL_SENDER    = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")   # Gmail App Password
-EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+DEFAULT_EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+
+
+def _parse_recipients(raw: str | None) -> list[str]:
+    if not raw:
+        return []
+    return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+EMAIL_RECIPIENTS = _parse_recipients(os.getenv("EMAIL_RECIPIENTS"))
+if not EMAIL_RECIPIENTS:
+    EMAIL_RECIPIENTS = [DEFAULT_EMAIL_RECIPIENT]
+    logger.warning(
+        "EMAIL_RECIPIENTS not set; using default recipient %s. "
+        "Set EMAIL_RECIPIENTS in .env to override.",
+        DEFAULT_EMAIL_RECIPIENT,
+    )
 
 RSS_FEEDS = [
     ("Reuters Business",   "https://feeds.reuters.com/reuters/businessNews"),
@@ -418,6 +437,22 @@ def _price_fmt(price: float, symbol: str) -> str:
     return f"${price:.6f}"
 
 
+def _safe_text(value: Any) -> str:
+    return html.escape(str(value or ""), quote=True)
+
+
+def _safe_href(url: Any) -> str:
+    raw = str(url or "").strip()
+    if not raw:
+        return "#"
+    parsed = urlparse(raw)
+    if parsed.scheme not in ("http", "https"):
+        return "#"
+    if not parsed.netloc:
+        return "#"
+    return html.escape(raw, quote=True)
+
+
 def build_market_rows(market_data: dict) -> str:
     rows = ""
     for category, tickers in market_data.items():
@@ -450,8 +485,8 @@ def build_market_rows(market_data: dict) -> str:
 def build_news_html(articles: list[dict]) -> str:
     html = ""
     for art in articles[:22]:
-        verdict = art.get("verdict", "")
-        detail  = art.get("verdict_detail", "")
+        verdict = _safe_text(art.get("verdict", ""))
+        detail  = _safe_text(art.get("verdict_detail", ""))
 
         if "CONFIRMED" in verdict:
             vbg, vc = "#0f2d1f", "#4ade80"
@@ -463,11 +498,14 @@ def build_news_html(articles: list[dict]) -> str:
             vbg, vc = "#1e293b", "#94a3b8"
 
         date_s = art["date"].strftime("%I:%M %p UTC") if art.get("date") else ""
-        link   = art.get("link") or "#"
+        link = _safe_href(art.get("link"))
+        source = _safe_text(art.get("source", ""))
+        title = _safe_text(art.get("title", ""))
+        summary = _safe_text(art.get("summary", ""))
 
         summary_block = (
             f'<p style="color:#94a3b8;font-size:13px;margin:8px 0 10px;line-height:1.6">'
-            f'{art["summary"]}</p>'
+            f"{summary}</p>"
         ) if art.get("summary") else '<div style="margin-bottom:10px"></div>'
 
         verdict_block = (
@@ -491,13 +529,13 @@ def build_news_html(articles: list[dict]) -> str:
           <div style="padding:14px 16px">
             <div style="margin-bottom:6px;display:flex;justify-content:space-between">
               <span style="font-size:11px;color:#818cf8;font-weight:700;
-                           text-transform:uppercase">{art.get('source','')}</span>
+                           text-transform:uppercase">{source}</span>
               <span style="font-size:11px;color:#475569">{date_s}</span>
             </div>
             <a href="{link}" target="_blank" rel="noopener"
                style="color:#e2e8f0;font-size:15px;font-weight:600;
                       text-decoration:none;line-height:1.4;display:block;margin-bottom:4px">
-              {art.get('title','')}
+              {title}
             </a>
             {summary_block}
             {read_more}
@@ -522,14 +560,16 @@ def build_polymarket_html(markets: list[dict]) -> str:
         except Exception:
             vol_s = "N/A"
 
-        end_s = f" · Resolves {m['end_date']}" if m.get("end_date") else ""
+        end_s = f" · Resolves {_safe_text(m['end_date'])}" if m.get("end_date") else ""
+        market_url = _safe_href(m.get("url", "#"))
+        question = _safe_text(m.get("question", ""))
 
         html += f"""
         <div style="margin-bottom:12px;background:#0f172a;border-radius:8px;
                     padding:13px 16px;border:1px solid #1e293b">
-          <a href="{m.get('url','#')}"
+          <a href="{market_url}"
              style="color:#e2e8f0;font-size:14px;font-weight:500;
-                    text-decoration:none;line-height:1.4">{m.get('question','')}</a>
+                    text-decoration:none;line-height:1.4">{question}</a>
           <div style="margin-top:9px;display:flex;
                       justify-content:space-between;align-items:center">
             <span style="font-size:12px;color:#64748b">
@@ -986,14 +1026,14 @@ def send_email(html: str, subject: str) -> None:
     msg              = MIMEMultipart("alternative")
     msg["Subject"]   = subject
     msg["From"]      = EMAIL_SENDER
-    msg["To"]        = EMAIL_RECIPIENT
+    msg["To"]        = ", ".join(EMAIL_RECIPIENTS)
     msg.attach(MIMEText(html, "html"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENT, msg.as_string())
+        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENTS, msg.as_string())
 
-    logger.info(f"Email delivered → {EMAIL_RECIPIENT}")
+    logger.info("Email delivered -> %s", ", ".join(EMAIL_RECIPIENTS))
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 

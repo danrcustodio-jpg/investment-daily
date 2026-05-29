@@ -3,7 +3,7 @@
 Automated investment newsletter, intraday strategy alerts, and portfolio simulation.
 Powered by GitHub Actions — runs 24/7 with no PC required.
 
-**Last updated:** April 27, 2026 at 09:47 PM
+**Last updated:** May 28, 2026 at 09:50 PM
 
 ---
 
@@ -17,7 +17,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 
 ## Portfolio Simulation
 
-Day 7 &nbsp;·&nbsp; Portfolio **+1.34%** vs SPY +1.04% &nbsp;·&nbsp; Alpha ✅ **+0.29%**
+Day 20 &nbsp;·&nbsp; Portfolio **+1.19%** vs SPY +6.61% &nbsp;·&nbsp; Alpha ❌ **-5.42%**
 
 [Full details with equity curve →](reports/SIMULATION.md)
 
@@ -29,7 +29,7 @@ Day 7 &nbsp;·&nbsp; Portfolio **+1.34%** vs SPY +1.04% &nbsp;·&nbsp; Alpha ✅
 |---|---|
 | Daily Newsletter | 7:30 AM ET every day |
 | Strategy Alerts | Every 30 min, Mon–Fri, 9:30 AM – 4:00 PM ET |
-| Alert cooldown | Same ticker+strategy: at most once per 12 hours |
+| Alert cooldown | Same ticker+strategy: at most once per 6 hours |
 | Signals tracked | 28 tickers × 30 strategy detectors |
 
 ## Docs

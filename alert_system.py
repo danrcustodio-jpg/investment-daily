@@ -20,14 +20,17 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 
 from strategy_engine import (
-    run_full_scan,
-    SCAN_TICKERS,
     DEX_TICKERS,
-    strategy_learn_link,
+    SCAN_TICKERS,
     confidence_breakdown,
+    fetch_15m_bars,
+    format_intraday_15m_alert_html,
+    run_full_scan,
+    strategy_learn_link,
 )
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(SCRIPT_DIR, "logs"), exist_ok=True)
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 
 logging.basicConfig(
@@ -44,7 +47,23 @@ logger = logging.getLogger(__name__)
 
 EMAIL_SENDER    = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")
-EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+DEFAULT_EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+
+
+def _parse_recipients(raw: str | None) -> list[str]:
+    if not raw:
+        return []
+    return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+EMAIL_RECIPIENTS = _parse_recipients(os.getenv("EMAIL_RECIPIENTS"))
+if not EMAIL_RECIPIENTS:
+    EMAIL_RECIPIENTS = [DEFAULT_EMAIL_RECIPIENT]
+    logger.warning(
+        "EMAIL_RECIPIENTS not set; using default recipient %s. "
+        "Set EMAIL_RECIPIENTS in .env to override.",
+        DEFAULT_EMAIL_RECIPIENT,
+    )
 SMS_GATEWAY     = os.getenv("SMS_GATEWAY")   # e.g. 5551234567@vtext.com
 # Optional: SMS_ENABLE=0/false to turn off SMS while keeping SMS_GATEWAY in .env
 _SMS_EN = (os.getenv("SMS_ENABLE") or "1").strip().lower()
@@ -92,6 +111,11 @@ def _parse_int_env(name: str, default: int, min_value: int = 0, max_value: int =
 # Lowered default to increase alert frequency while still filtering very weak setups.
 MIN_CONFIDENCE  = _parse_float_env("ALERT_MIN_CONFIDENCE", 50.0)
 
+# Signals at or above this score get a 15-minute OHLCV + RSI section in alert emails.
+HIGH_CONFIDENCE_15M_THRESHOLD = _parse_float_env("ALERT_HIGH_CONFIDENCE_15M", 68.0)
+COOLDOWN_BYPASS_MOVE_PCT = _parse_float_env("ALERT_COOLDOWN_BYPASS_MOVE_PCT", 2.0, min_value=0.0, max_value=50.0)
+TRACKING_CADENCE_MINUTES = [15, 30, 60, 120, 240, 1440]
+
 # ─── Market Hours ─────────────────────────────────────────────────────────────
 
 def is_market_open() -> bool:
@@ -121,6 +145,8 @@ def load_state() -> dict:
             "ticker_cooldowns": {},
             "email_ticker_last_sent": {},
             "sms_ticker_last_sent": {},
+            "intraday_tracking": {},
+            "signal_last_notified_price": {},
         }
 
     if os.path.exists(STATE_FILE):
@@ -180,6 +206,13 @@ def prune_state(state: dict) -> dict:
             return 0.0
 
     state["fired"] = {k: v for k, v in state["fired"].items() if _ts(v) > cutoff}
+    prices = state.get("signal_last_notified_price", {})
+    if not isinstance(prices, dict):
+        prices = {}
+    # Keep last notified prices only for still-recent fired keys.
+    state["signal_last_notified_price"] = {
+        k: v for k, v in prices.items() if k in state["fired"]
+    }
     state["email_ticker_last_sent"] = {
         k: v for k, v in state.get("email_ticker_last_sent", {}).items() if _ts(v) > cutoff
     }
@@ -203,7 +236,141 @@ def prune_state(state: dict) -> dict:
         for ticker, until in snoozed_tickers.items()
         if _ts(until) > now_ts
     }
+    tracking = state.get("intraday_tracking", {})
+    if not isinstance(tracking, dict):
+        tracking = {}
+    cleaned: dict[str, dict] = {}
+    for ticker, meta in tracking.items():
+        if not isinstance(meta, dict):
+            continue
+        try:
+            cadence = int(meta.get("cadence_min", 1440))
+        except (TypeError, ValueError):
+            cadence = 1440
+        if cadence not in TRACKING_CADENCE_MINUTES:
+            cadence = 1440
+        out = {"cadence_min": cadence}
+        lf = meta.get("last_fetch_at")
+        if isinstance(lf, str):
+            out["last_fetch_at"] = lf
+        lc = meta.get("last_change_at")
+        if isinstance(lc, str):
+            out["last_change_at"] = lc
+        cleaned[ticker] = out
+    state["intraday_tracking"] = cleaned
     return state
+
+
+def _tracking_bucket(state: dict) -> dict:
+    bucket = state.setdefault("intraday_tracking", {})
+    if not isinstance(bucket, dict):
+        bucket = {}
+        state["intraday_tracking"] = bucket
+    return bucket
+
+
+def _tracking_cadence(state: dict, ticker: str) -> int:
+    meta = _tracking_bucket(state).get(ticker, {})
+    if not isinstance(meta, dict):
+        return 1440
+    try:
+        cadence = int(meta.get("cadence_min", 1440))
+    except (TypeError, ValueError):
+        return 1440
+    return cadence if cadence in TRACKING_CADENCE_MINUTES else 1440
+
+
+def _set_tracking_cadence(state: dict, ticker: str, cadence_min: int) -> None:
+    cadence = cadence_min if cadence_min in TRACKING_CADENCE_MINUTES else 1440
+    bucket = _tracking_bucket(state)
+    meta = bucket.get(ticker, {})
+    if not isinstance(meta, dict):
+        meta = {}
+    meta["cadence_min"] = cadence
+    meta["last_change_at"] = datetime.now().astimezone().isoformat()
+    bucket[ticker] = meta
+
+
+def _mark_tracking_fetch(state: dict, ticker: str) -> None:
+    bucket = _tracking_bucket(state)
+    meta = bucket.get(ticker, {})
+    if not isinstance(meta, dict):
+        meta = {}
+    meta["last_fetch_at"] = datetime.now().astimezone().isoformat()
+    bucket[ticker] = meta
+
+
+def _is_tracking_due(state: dict, ticker: str) -> bool:
+    cadence = _tracking_cadence(state, ticker)
+    # Scheduler currently runs every ~30 minutes, so 15m is "as fast as available".
+    if cadence <= 30:
+        return True
+    meta = _tracking_bucket(state).get(ticker, {})
+    if not isinstance(meta, dict):
+        return True
+    last = meta.get("last_fetch_at")
+    if not isinstance(last, str):
+        return True
+    try:
+        dt = datetime.fromisoformat(last)
+    except (TypeError, ValueError):
+        return True
+    if dt.tzinfo is None:
+        dt = dt.astimezone()
+    return datetime.now().astimezone() >= (dt + timedelta(minutes=cadence))
+
+
+def _progressive_tracking_update(state: dict, high_conf_tickers: set[str]) -> None:
+    bucket = _tracking_bucket(state)
+    tracked = set(bucket.keys()) | set(high_conf_tickers)
+    for ticker in sorted(tracked):
+        cur = _tracking_cadence(state, ticker)
+        if ticker in high_conf_tickers:
+            if cur != 15:
+                _set_tracking_cadence(state, ticker, 15)
+                logger.info("  Tracking cadence %s -> 15m (high confidence active)", ticker)
+            continue
+        try:
+            idx = TRACKING_CADENCE_MINUTES.index(cur)
+        except ValueError:
+            idx = len(TRACKING_CADENCE_MINUTES) - 1
+        nxt = TRACKING_CADENCE_MINUTES[min(idx + 1, len(TRACKING_CADENCE_MINUTES) - 1)]
+        if nxt != cur:
+            _set_tracking_cadence(state, ticker, nxt)
+            label = "Daily" if nxt >= 1440 else f"{nxt}m"
+            logger.info("  Tracking cadence %s -> %s (confidence cooled)", ticker, label)
+
+
+def _latest_price_for_ticker(ticker: str, cache: dict[str, float | None]) -> float | None:
+    if ticker in cache:
+        return cache[ticker]
+    df15 = fetch_15m_bars(ticker)
+    if df15 is None or df15.empty:
+        cache[ticker] = None
+        return None
+    try:
+        px = float(df15["Close"].iloc[-1])
+    except Exception:
+        px = None
+    cache[ticker] = px
+    return px
+
+
+def _signal_move_pct_since_last_notify(
+    state: dict, signal: dict, price_cache: dict[str, float | None]
+) -> float | None:
+    key = make_state_key(signal)
+    raw = (state.get("signal_last_notified_price") or {}).get(key)
+    try:
+        prior = float(raw)
+    except (TypeError, ValueError):
+        return None
+    if prior == 0:
+        return None
+    latest = _latest_price_for_ticker(signal["ticker"], price_cache)
+    if latest is None:
+        return None
+    return ((latest / prior) - 1.0) * 100.0
 
 
 def is_strategy_snoozed(state: dict, strategy_name: str) -> bool:
@@ -275,6 +442,57 @@ def ticker_channel_in_cooldown(state: dict, ticker: str, channel: str) -> bool:
     if dt.tzinfo is None:
         dt = dt.astimezone()
     return datetime.now().astimezone() < (dt + timedelta(hours=hours))
+
+
+def filter_eligible_alert_signals(all_signals: list[dict], state: dict) -> dict:
+    """
+    Shared alert eligibility filtering for CLI and dashboard flows.
+    Keeps orchestration separate while enforcing one eligibility policy.
+    """
+    active_signals = []
+    snoozed_signals = []
+    below_threshold = []
+    suppressed_signal_cooldown = []
+    suppressed_ticker_cooldown = []
+    bypassed_signal_cooldown = []
+    new_signals = []
+    price_cache: dict[str, float | None] = {}
+
+    for signal in all_signals:
+        if signal.get("confidence", 0) < MIN_CONFIDENCE:
+            below_threshold.append(signal)
+            continue
+        if is_strategy_snoozed(state, signal["strategy"]) or is_ticker_snoozed(state, signal["ticker"]):
+            snoozed_signals.append(signal)
+            continue
+        active_signals.append(signal)
+
+        key = make_state_key(signal)
+        if ticker_channel_in_cooldown(state, signal["ticker"], "email"):
+            suppressed_ticker_cooldown.append(signal)
+            continue
+
+        if already_fired_recently(state, key):
+            move_pct = _signal_move_pct_since_last_notify(state, signal, price_cache)
+            if move_pct is not None and abs(move_pct) > COOLDOWN_BYPASS_MOVE_PCT:
+                new_signals.append(signal)
+                bypassed_signal_cooldown.append((signal, move_pct))
+            else:
+                suppressed_signal_cooldown.append(signal)
+            continue
+
+        new_signals.append(signal)
+
+    return {
+        "active_signals": active_signals,
+        "new_signals": new_signals,
+        "snoozed_signals": snoozed_signals,
+        "below_threshold": below_threshold,
+        "suppressed_signal_cooldown": suppressed_signal_cooldown,
+        "suppressed_ticker_cooldown": suppressed_ticker_cooldown,
+        "bypassed_signal_cooldown": bypassed_signal_cooldown,
+        "price_cache": price_cache,
+    }
 
 
 def sms_may_send(state: dict) -> bool:
@@ -546,6 +764,7 @@ def build_alert_email(
     all_signals: list[dict],
     *,
     dispatch_seq: int,
+    intraday_15m_html: str = "",
 ) -> tuple:
     """Returns (subject, html). dispatch_seq increments each send so subjects/bodies stay distinct."""
 
@@ -638,6 +857,8 @@ def build_alert_email(
   </h2>
   {signal_cards}
 
+  {intraday_15m_html}
+
   <!-- Today's Full Scan Summary -->
   {f'''
   <div style="background:#0f172a;border-radius:10px;overflow:hidden;
@@ -725,12 +946,12 @@ def send_email(subject: str, html: str) -> None:
     msg            = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = EMAIL_SENDER
-    msg["To"]      = EMAIL_RECIPIENT
+    msg["To"]      = ", ".join(EMAIL_RECIPIENTS)
     msg.attach(MIMEText(html, "html"))
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENT, msg.as_string())
-    logger.info(f"Alert email sent -> {EMAIL_RECIPIENT}")
+        server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENTS, msg.as_string())
+    logger.info("Alert email sent -> %s", ", ".join(EMAIL_RECIPIENTS))
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -757,14 +978,14 @@ def main(crypto_only: bool = False) -> None:
     state = load_state()
     state = prune_state(state)
 
-    # Filter out strategies/tickers that are remotely snoozed.
-    snoozed = []
-    active_signals = []
-    for s in all_signals:
-        if is_strategy_snoozed(state, s["strategy"]) or is_ticker_snoozed(state, s["ticker"]):
-            snoozed.append(s)
-        else:
-            active_signals.append(s)
+    eligibility = filter_eligible_alert_signals(all_signals, state)
+    active_signals = eligibility["active_signals"]
+    new_signals = eligibility["new_signals"]
+    snoozed = eligibility["snoozed_signals"]
+    suppressed_signal_cooldown = eligibility["suppressed_signal_cooldown"]
+    suppressed_ticker_cooldown = eligibility["suppressed_ticker_cooldown"]
+    bypassed_signal_cooldown = eligibility["bypassed_signal_cooldown"]
+    price_cache = eligibility["price_cache"]
 
     if snoozed:
         logger.info(
@@ -777,18 +998,12 @@ def main(crypto_only: bool = False) -> None:
         logger.info("All signals are currently snoozed — no alert sent.")
         return
 
-    # Filter to signals not emailed within global/per-ticker cooldown windows
-    new_signals = []
-    suppressed_signal_cooldown  = []
-    suppressed_ticker_cooldown = []
-    for s in active_signals:
-        key = make_state_key(s)
-        if ticker_channel_in_cooldown(state, s["ticker"], "email"):
-            suppressed_ticker_cooldown.append(s)
-        elif already_fired_recently(state, key):
-            suppressed_signal_cooldown.append(s)
-        else:
-            new_signals.append(s)
+    hi_tickers = {
+        s["ticker"]
+        for s in active_signals
+        if s.get("confidence", 0) >= HIGH_CONFIDENCE_15M_THRESHOLD
+    }
+    _progressive_tracking_update(state, hi_tickers)
 
     if suppressed_signal_cooldown:
         logger.info(
@@ -802,9 +1017,19 @@ def main(crypto_only: bool = False) -> None:
             + ", ".join(f"{s['ticker']}:{s['strategy']}" for s in suppressed_ticker_cooldown[:8])
             + (" ..." if len(suppressed_ticker_cooldown) > 8 else "")
         )
+    if bypassed_signal_cooldown:
+        logger.info(
+            f"{len(bypassed_signal_cooldown)} signal(s) bypassed cooldown (|move| > {COOLDOWN_BYPASS_MOVE_PCT:.1f}%): "
+            + ", ".join(
+                f"{s['ticker']}:{s['strategy']} ({mv:+.2f}%)"
+                for s, mv in bypassed_signal_cooldown[:8]
+            )
+            + (" ..." if len(bypassed_signal_cooldown) > 8 else "")
+        )
 
     if not new_signals:
         logger.info(f"No new signals outside {ALERT_COOLDOWN_HOURS}h cooldown — skipping.")
+        save_state(state)
         return
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
@@ -819,7 +1044,64 @@ def main(crypto_only: bool = False) -> None:
     dispatch_seq = int(state.get("send_count", 0)) + 1
     state["send_count"] = dispatch_seq
 
-    subject, html = build_alert_email(new_signals, all_signals, dispatch_seq=dispatch_seq)
+    tracked_tickers = set((state.get("intraday_tracking") or {}).keys())
+    intraday_parts: list[str] = []
+    intraday_meta_rows: list[str] = []
+    for t in sorted(tracked_tickers):
+        cadence = _tracking_cadence(state, t)
+        if not _is_tracking_due(state, t):
+            continue
+        display = SCAN_TICKERS.get(t, t)
+        df15 = fetch_15m_bars(t)
+        _mark_tracking_fetch(state, t)
+        if df15 is None:
+            logger.info("  15m context skipped for %s (insufficient data)", t)
+            continue
+        intraday_parts.append(format_intraday_15m_alert_html(t, display, df15))
+        cadence_label = "Daily" if cadence >= 1440 else f"{cadence}m"
+        mode = "high-confidence" if t in hi_tickers else "cooldown tracking"
+        intraday_meta_rows.append(
+            f'<tr style="border-bottom:1px solid #0f172a">'
+            f'<td style="padding:5px 8px;color:#e2e8f0;font-size:11px">{t}</td>'
+            f'<td style="padding:5px 8px;color:#94a3b8;font-size:11px">{mode}</td>'
+            f'<td style="padding:5px 8px;color:#a78bfa;font-size:11px;text-align:right">{cadence_label}</td>'
+            f'</tr>'
+        )
+        logger.info(
+            "  15m context added for %s (%s cadence, %s)",
+            t,
+            cadence_label,
+            mode,
+        )
+
+    intraday_15m_html = ""
+    if intraday_parts:
+        intraday_15m_html = f"""
+  <h2 style="color:#f1f5f9;margin:24px 0 14px;font-size:17px;font-weight:700">
+    Progressive ticker tracking (15m bars)
+  </h2>
+  <p style="color:#94a3b8;font-size:12px;margin:-8px 0 14px;line-height:1.6">
+    Tickers at score ≥ {HIGH_CONFIDENCE_15M_THRESHOLD:.0f} reset to 15m cadence.
+    If confidence cools off, cadence steps back progressively: 30m, 60m, 120m, 240m, then Daily.
+  </p>
+  <table style="width:100%;border-collapse:collapse;background:#0f172a;border:1px solid #1e293b;
+                border-radius:8px;overflow:hidden;margin:0 0 14px">
+    <tr style="background:#111827">
+      <th style="padding:6px 8px;color:#64748b;font-size:10px;text-align:left;text-transform:uppercase">Ticker</th>
+      <th style="padding:6px 8px;color:#64748b;font-size:10px;text-align:left;text-transform:uppercase">Mode</th>
+      <th style="padding:6px 8px;color:#64748b;font-size:10px;text-align:right;text-transform:uppercase">Cadence</th>
+    </tr>
+    {"".join(intraday_meta_rows)}
+  </table>
+  {"".join(intraday_parts)}
+"""
+
+    subject, html = build_alert_email(
+        new_signals,
+        all_signals,
+        dispatch_seq=dispatch_seq,
+        intraday_15m_html=intraday_15m_html,
+    )
     send_email(subject, html)
     top_for_sms = new_signals[0] if new_signals else None
     sms_ticker_blocked = bool(top_for_sms and ticker_channel_in_cooldown(state, top_for_sms["ticker"], "sms"))
@@ -843,9 +1125,17 @@ def main(crypto_only: bool = False) -> None:
 
     # Record timestamp for each fired signal
     now_iso = datetime.now().astimezone().isoformat()
+    last_price_bucket = state.setdefault("signal_last_notified_price", {})
+    if not isinstance(last_price_bucket, dict):
+        last_price_bucket = {}
+        state["signal_last_notified_price"] = last_price_bucket
     for s in new_signals:
-        mark_fired(state, make_state_key(s))
+        key = make_state_key(s)
+        mark_fired(state, key)
         state.setdefault("email_ticker_last_sent", {})[s["ticker"]] = now_iso
+        latest = _latest_price_for_ticker(s["ticker"], price_cache)
+        if latest is not None:
+            last_price_bucket[key] = latest
     save_state(state)
 
     logger.info("=== Done ===")

@@ -16,7 +16,7 @@ Three independent runtimes + one shared library:
 │          strategy_engine.py   ◄── shared core library            │
 │                 │                                                 │
 │                 ▼                                                 │
-│           yfinance API                                            │
+│           yfinance API  (optional: Schwab daily OHLCV when enabled)   │
 │           pandas-ta                                               │
 └─────────────────────────────────────────────────────────────────┘
 
@@ -201,7 +201,9 @@ Reuters Business, CNBC Markets, MarketWatch, Yahoo Finance, Seeking Alpha, Inves
 | `build_alert_email(new, all, dispatch_seq=…)` | Returns `(subject, html)`; `dispatch_seq` labels each send |
 | `main()` | Full orchestration: scan → filter → deduplicate → email → save state |
 
-**`MIN_CONFIDENCE = 52.0`** — only send alerts for signals above this score.
+**`MIN_CONFIDENCE`** — from env `ALERT_MIN_CONFIDENCE` (default 50): only send alerts for signals at or above this score.
+
+**Progressive intraday tracking** — tickers with any **active** signal at or above **`ALERT_HIGH_CONFIDENCE_15M`** (default 68) reset to 15m tracking, then decay when confidence cools: 30m → 60m → 120m → 240m → Daily. Alert emails include due 15m context blocks from this tracker (Schwab 15m when enabled, else yfinance).
 
 ---
 

@@ -1,52 +1,8 @@
 {
-  "initialized": "2026-04-20T10:51:18.786849",
-  "init_date": "2026-04-20",
+  "initialized": "2026-05-08T20:19:48.010394",
+  "init_date": "2026-05-08",
   "total_capital": 194000.0,
   "positions": {
-    "XLE": {
-      "name": "Energy ETF (XLE)",
-      "allocation": 35000,
-      "type": "market",
-      "entry_price": 55.395,
-      "shares": 631.826,
-      "signal": "VWAP Deviation \u2014 Oversold",
-      "confidence": 67.7,
-      "win_rate": 74.1,
-      "sharpe": 1.26,
-      "rationale": "Only clean bullish signal with no conflicting bearish signals. 74.1% win rate historically. Energy sector diverging positively.",
-      "status": "open",
-      "triggered_date": null
-    },
-    "CL=F": {
-      "name": "Crude Oil (CL=F)",
-      "allocation": 15000,
-      "type": "market",
-      "entry_price": 87.25,
-      "shares": 171.9198,
-      "signal": "Stochastic RSI Oversold",
-      "confidence": 60.9,
-      "win_rate": 61.3,
-      "sharpe": 1.63,
-      "rationale": "Confirms the XLE energy trade. Crude oil stochRSI oversold.",
-      "status": "open",
-      "triggered_date": null
-    },
-    "GOOGL": {
-      "name": "Alphabet (GOOGL)",
-      "allocation": 15000,
-      "type": "limit",
-      "ask_at_init": 339.175,
-      "limit_price": 322.22,
-      "entry_price": null,
-      "shares": null,
-      "signal": "ADX Strong Trend \u2014 Bullish",
-      "confidence": 66.9,
-      "win_rate": 55.6,
-      "sharpe": 1.85,
-      "rationale": "ADX trend intact but RSI overbought. Waiting for 5% pullback to $322.22.",
-      "status": "pending",
-      "triggered_date": null
-    },
     "MSFT": {
       "name": "Microsoft (MSFT)",
       "allocation": 9000,
@@ -65,7 +21,7 @@
     },
     "CASH": {
       "name": "Cash / Money Market",
-      "allocation": 120000,
+      "allocation": 186848.52,
       "type": "cash",
       "annual_rate": 0.045,
       "rationale": "SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.",
@@ -79,134 +35,212 @@
   },
   "snapshots": [
     {
-      "date": "2026-04-20",
-      "total_value": 194000.56,
-      "portfolio_pnl": 0.0,
-      "benchmark_pnl": -0.027,
+      "date": "2026-05-11",
+      "total_value": 196365.93,
+      "portfolio_pnl": 1.22,
+      "benchmark_pnl": 4.452,
       "prices": {
-        "XLE": 55.3849983215332,
-        "CL=F": 87.29000091552734,
-        "GOOGL": 338.94000244140625,
-        "MSFT": 419.0400085449219,
-        "SPY": 707.5999755859375
+        "XLE": 57.16999816894531,
+        "MSFT": 412.6600036621094,
+        "SPY": 739.2999877929688
       }
     },
     {
-      "date": "2026-04-21",
-      "total_value": 194825.52,
-      "portfolio_pnl": 0.426,
-      "benchmark_pnl": -0.524,
+      "date": "2026-05-12",
+      "total_value": 196637.3,
+      "portfolio_pnl": 1.359,
+      "benchmark_pnl": 4.294,
       "prices": {
-        "XLE": 55.869998931884766,
-        "CL=F": 90.22000122070312,
-        "GOOGL": 332.2900085449219,
-        "MSFT": 424.1600036621094,
-        "SPY": 704.0800170898438
+        "XLE": 57.56999969482422,
+        "MSFT": 407.7699890136719,
+        "SPY": 738.1799926757812
       }
     },
     {
-      "date": "2026-04-22",
-      "total_value": 195719.22,
-      "portfolio_pnl": 0.886,
-      "benchmark_pnl": 0.483,
+      "date": "2026-05-13",
+      "total_value": 195963.7,
+      "portfolio_pnl": 1.012,
+      "benchmark_pnl": 4.877,
       "prices": {
-        "XLE": 56.540000915527344,
-        "CL=F": 92.87000274658203,
-        "GOOGL": 339.32000732421875,
-        "MSFT": 432.9200134277344,
-        "SPY": 711.2100219726562
+        "MSFT": 405.2099914550781,
+        "SPY": 742.3099975585938
       }
     },
     {
-      "date": "2026-04-23",
-      "total_value": 196722.05,
-      "portfolio_pnl": 1.403,
-      "benchmark_pnl": 0.093,
+      "date": "2026-05-14",
+      "total_value": 195986.74,
+      "portfolio_pnl": 1.024,
+      "benchmark_pnl": 5.705,
       "prices": {
-        "XLE": 56.97999954223633,
-        "CL=F": 97.0,
-        "GOOGL": 338.8900146484375,
-        "MSFT": 415.75,
-        "SPY": 708.4500122070312
+        "MSFT": 409.42999267578125,
+        "SPY": 748.1699829101562
       }
     },
     {
-      "date": "2026-04-24",
-      "total_value": 196302.87,
-      "portfolio_pnl": 1.187,
-      "benchmark_pnl": 0.869,
+      "date": "2026-05-15",
+      "total_value": 196009.77,
+      "portfolio_pnl": 1.036,
+      "benchmark_pnl": 4.434,
       "prices": {
-        "XLE": 56.869998931884766,
-        "CL=F": 94.87999725341797,
-        "GOOGL": 344.3999938964844,
-        "MSFT": 424.6199951171875,
-        "SPY": 713.9400024414062
+        "MSFT": 421.9200134277344,
+        "SPY": 739.1699829101562
       }
     },
     {
-      "date": "2026-04-27",
-      "total_value": 196593.53,
-      "portfolio_pnl": 1.337,
-      "benchmark_pnl": 1.043,
+      "date": "2026-05-18",
+      "total_value": 196078.88,
+      "portfolio_pnl": 1.072,
+      "benchmark_pnl": 4.36,
       "prices": {
-        "XLE": 56.77000045776367,
-        "CL=F": 96.68000030517578,
-        "GOOGL": 350.3399963378906,
-        "MSFT": 424.82000732421875,
-        "SPY": 715.1699829101562
+        "MSFT": 423.5400085449219,
+        "SPY": 738.6500244140625
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "total_value": 196101.92,
+      "portfolio_pnl": 1.083,
+      "benchmark_pnl": 3.665,
+      "prices": {
+        "MSFT": 417.4200134277344,
+        "SPY": 733.72998046875
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "total_value": 196124.95,
+      "portfolio_pnl": 1.095,
+      "benchmark_pnl": 4.727,
+      "prices": {
+        "MSFT": 421.05999755859375,
+        "SPY": 741.25
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "total_value": 196147.99,
+      "portfolio_pnl": 1.107,
+      "benchmark_pnl": 4.935,
+      "prices": {
+        "MSFT": 419.0899963378906,
+        "SPY": 742.719970703125
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "total_value": 196171.03,
+      "portfolio_pnl": 1.119,
+      "benchmark_pnl": 5.348,
+      "prices": {
+        "MSFT": 418.57000732421875,
+        "SPY": 745.6400146484375
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "total_value": 196240.13,
+      "portfolio_pnl": 1.155,
+      "benchmark_pnl": 5.348,
+      "prices": {
+        "MSFT": 418.57000732421875,
+        "SPY": 745.6400146484375
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "total_value": 196263.17,
+      "portfolio_pnl": 1.167,
+      "benchmark_pnl": 6.047,
+      "prices": {
+        "MSFT": 416.0299987792969,
+        "SPY": 750.5900268554688
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "total_value": 196286.21,
+      "portfolio_pnl": 1.178,
+      "benchmark_pnl": 6.029,
+      "prices": {
+        "MSFT": 412.6700134277344,
+        "SPY": 750.4600219726562
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "total_value": 196309.24,
+      "portfolio_pnl": 1.19,
+      "benchmark_pnl": 6.614,
+      "prices": {
+        "MSFT": 426.989990234375,
+        "SPY": 754.5999755859375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MRVL",
+      "ticker": "DOGE-USD",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Confidence 80.0, Win Rate 100.0%, Avg 5d Return 14.73%, Max Drawdown 0.0%, Sharpe 25.81. 3 minor bearish signal(s), max confidence 58.7.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
+      "reason": "MFI \u2014 Oversold \u2014 Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sharpe 27.13. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SMH",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Confidence 80.3, Win Rate 68.6%, Avg 5d Return 1.46%, Max Drawdown -35.45%, Sharpe 2.7. 2 minor bearish signal(s), max confidence 70.8.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
-    },
-    {
-      "action": "REVIEW_EXIT",
-      "ticker": "XLE",
-      "priority": "high",
-      "reason": "Signal environment turned net bearish (1 bear score 0.28 vs 0 bull score 0.00). Strongest bearish: ADX Strong Trend \u2014 Bearish (confidence 47.0). Gross P&L: $+723.",
-      "tax_note": "Held 2 days (short-term rate). $232 tax owed (32% short-term) + $36 slippage. Net proceeds if sold: $35,456."
-    },
-    {
-      "action": "CANCEL_LIMIT",
-      "ticker": "MSFT",
-      "priority": "medium",
-      "reason": "2 bearish signal(s) now outweigh 1 bullish. Strongest: RSI Overbought at confidence 69.9. Limit at $399.00 may never fill profitably.",
-      "tax_note": "No tax impact \u2014 order not yet filled."
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19.07%, Sharpe 5.27. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLK",
-      "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Confidence 66.4, Win Rate 64.1%, Avg 5d Return 0.68%, Max Drawdown -24.1%, Sharpe 1.7. 1 minor bearish signal(s), max confidence 67.7.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $155,456 deployable. Entry slippage est. $30."
-    },
-    {
-      "action": "HOLD",
-      "ticker": "CL=F",
-      "priority": "low",
-      "reason": "Signal still net bullish (1 bull score 0.21 vs 0 bear score 0.00). Gross P&L: $+1,081. Holding avoids $346 in taxes.",
-      "tax_note": "Held 2 days (short-term). Exiting now costs $346 tax + $16 slippage = $362 total friction."
+      "ticker": "PLTR",
+      "priority": "high",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 91.2, Win Rate 87.5%, Avg 5d Return 5.64%, Max Drawdown -5.49%, Sharpe 4.28. 2 minor bearish signal(s), max confidence 64.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "HOLD_LIMIT",
-      "ticker": "GOOGL",
+      "ticker": "MSFT",
       "priority": "low",
-      "reason": "Thesis intact: 1 bullish vs 0 bearish signals. Current price $339.32 is 5.0% above limit. Keep limit order at $322.22.",
+      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.99 is 6.6% above limit. Keep limit order at $399.00.",
       "tax_note": "No tax impact until order fills."
     }
   ],
-  "recommendations_updated": "2026-04-22T19:40:31.799343"
+  "recommendations_updated": "2026-05-28T21:50:48.259095",
+  "trade_log": [
+    {
+      "action": "SELL",
+      "ticker": "CL=F",
+      "gross_gain": 1772.5,
+      "net_proceeds": 16188.52,
+      "tax_cost": 567.2,
+      "slippage": 16.77,
+      "explanation": "Signal environment turned net bearish (2 bear score 0.87 vs 1 bull score 0.49). Strongest bearish: TRIX \u2014 Bearish Cross (score 73.4). Gross P&L: $+1,772. Held 3 days (short-term rate). $567 tax owed (32% short-term) + $17 slippage. Net proceeds if sold: $16,189.",
+      "timestamp": "2026-05-11T15:53:22.826393"
+    },
+    {
+      "action": "CANCEL_LIMIT",
+      "ticker": "GOOGL",
+      "freed_cash": 15000.0,
+      "explanation": "8 bearish signal(s) now outweigh 4 bullish. Strongest: MFI \u2014 Overbought at score 79.4. Limit at $322.22 may never fill profitably. No tax impact \u2014 order not yet filled.",
+      "timestamp": "2026-05-11T15:53:22.826403"
+    },
+    {
+      "action": "SELL",
+      "ticker": "XLE",
+      "gross_gain": 1023.56,
+      "net_proceeds": 35660.0,
+      "tax_cost": 327.54,
+      "slippage": 36.02,
+      "explanation": "Signal environment turned net bearish (1 bear score 0.31 vs 0 bull score 0.00). Strongest bearish: TRIX \u2014 Bearish Cross (score 46.8). Gross P&L: $+1,024. Held 5 days (short-term rate). $328 tax owed (32% short-term) + $36 slippage. Net proceeds if sold: $35,660.",
+      "timestamp": "2026-05-13T15:41:17.901618"
+    }
+  ]
 }

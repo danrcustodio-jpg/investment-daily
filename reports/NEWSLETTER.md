@@ -1,44 +1,54 @@
-# Daily Newsletter — Monday, April 27, 2026
-Generated at 02:35 PM
+# Daily Newsletter — Thursday, May 28, 2026
+Generated at 04:39 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 39 total &nbsp;·&nbsp; 🟢 10 Bullish &nbsp;·&nbsp; 🔴 29 Bearish
+**Strategy Signals:** 190 total &nbsp;·&nbsp; 🟢 104 Bullish &nbsp;·&nbsp; 🔴 86 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
+| **NG=F** | Natural Gas | $3.26 | 📈 +7.17% |
+| **^VIX** | VIX (Fear Index) | $15.89 | 📉 -2.46% |
+| **GC=F** | Gold | $4533.30 | 📈 +1.93% |
+| **SI=F** | Silver | $75.96 | 📈 +1.83% |
+| **BTC-USD** | Bitcoin | $73069.61 | 📉 -1.72% |
+| **XLK** | Tech (XLK) | $187.37 | 📈 +1.59% |
+| **XLV** | Healthcare (XLV) | $150.85 | 📈 +1.38% |
+| **ETH-USD** | Ethereum | $1998.94 | 📉 -1.15% |
+| **SOL-USD** | Solana | $81.54 | 📉 -1.01% |
+| **^IXIC** | NASDAQ | $26855.90 | 📈 +0.68% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 81.5 | 71.0% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 79.8 | 68.0% |
-| 🟢 BULLISH | **GOOGL** | 52-Week Breakout | 78.2 | 64.7% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 71.7 | 66.1% |
-| 🟢 BULLISH | **GOOGL** | ADX Strong Trend — Bullish | 69.5 | 57.2% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 67.6 | 64.6% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 64.1 | 56.5% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 61.3 | 54.9% |
-| 🟢 BULLISH | **NVDA** | 52-Week Breakout | 53.9 | 63.0% |
-| 🟢 BULLISH | **CL=F** | ADX Strong Trend — Bullish | 46.2 | 48.9% |
-| 🔴 BEARISH | **SPY** | VWAP Deviation — Overbought | 89.2 | 73.1% |
-| 🔴 BEARISH | **NVDA** | RSI Overbought | 79.4 | 70.1% |
+| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 91.2 | 87.5% |
+| 🟢 BULLISH | **DOGE-USD** | MFI — Oversold | 90.0 | 100.0% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.5 | 79.6% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 85.8 | 68.3% |
+| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 84.7 | 71.6% |
+| 🟢 BULLISH | **XLK** | 52-Week Breakout | 83.0 | 68.0% |
+| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 82.7 | 65.3% |
+| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 82.6 | 73.1% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 82.5 | 68.3% |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 81.9 | 69.8% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.2 | 71.3% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.2 | 65.6% |
 
 ## Latest News
 
-- [Microsoft falls as OpenAI partnership evolves, says it will no longer pay revenue share](https://seekingalpha.com/news/4579947-microsoft-falls-as-openai-partnership-evolves-says-it-will-no-longer-pay-revenue-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Watsco Q1 2026 Earnings Preview](https://seekingalpha.com/news/4580011-watsco-q1-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Gulf countries facing plunge as conflict disrupts energy markets, Reuters says](https://www.investing.com/news/economy-news/gulf-countries-facing-plunge-as-conflict-disrupts-energy-markets-reuters-says-4639297) — *Investing.com*
-- [Crane earnings up next amid CEO change and acquisition bets](https://www.investing.com/news/earnings/crane-earnings-up-next-amid-ceo-change-and-acquisition-bets-93CH-4639296) — *Investing.com*
-- [Galaxy Digital Q1 2026 Earnings Preview](https://seekingalpha.com/news/4580009-galaxy-digital-q1-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Earnings call transcript: Daiwa Securities Q4 FY2025 reports record profits](https://www.investing.com/news/transcripts/earnings-call-transcript-daiwa-securities-q4-fy2025-reports-record-profits-93CH-4639294) — *Investing.com*
-- [Incyte earnings on deck: Povorcitinib prospects meet Q1 reality](https://www.investing.com/news/earnings/incyte-earnings-on-deck-povorcitinib-prospects-meet-q1-reality-93CH-4639293) — *Investing.com*
-- [WisdomTree Floating Rate Treasury Fund declares monthly distribution of $0.1567](https://seekingalpha.com/news/4580006-wisdomtree-floating-rate-treasury-fund-declares-monthly-distribution-of-01567?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Andersons director Patrick Bowe disposes of $184,544 in stock](https://www.investing.com/news/insider-trading-news/andersons-director-patrick-bowe-disposes-of-184544-in-stock-93CH-4639292) — *Investing.com*
-- [Pentair Q1 2026 Earnings Preview](https://seekingalpha.com/news/4580005-pentair-q1-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [CFTC bid to vacate order against Winklevoss' crypto exchange 'very unusual,' ex-agency chief says](https://www.cnbc.com/2026/05/28/gemini-cftc-winklevoss-crypto.html) — *CNBC Markets*
+- [Reklaim Ltd. reports Q1 results](https://seekingalpha.com/news/4598037-reklaim-ltd-reports-q1-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [infinitii ai reports Q3 results](https://seekingalpha.com/news/4598034-infinitii-ai-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Conavi Medical Corp. reports Q2 results](https://seekingalpha.com/news/4598033-conavi-medical-corp-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bank of Canada says financial system is solid, but vulnerabilities have grown](https://www.investing.com/news/economy-news/bank-of-canada-says-financial-system-is-solid-but-vulnerabilities-have-grown-4714772) — *Investing.com*
+- [Carney seeks new US-Canada partnership as world undergoes ’rupture’](https://www.investing.com/news/economy-news/carney-seeks-new-uscanada-partnership-as-world-undergoes-rupture-4715104) — *Investing.com*
+- [Monness raises Snowflake stock price target to $320 on strong results](https://www.investing.com/news/analyst-ratings/monness-raises-snowflake-stock-price-target-to-320-on-strong-results-93CH-4715103) — *Investing.com*
+- [SpaceX IPO could pressure legacy defense contractors, BNP Paribas says](https://seekingalpha.com/news/4598019-spacex-ipo-could-pressure-legacy-defense-contractors-bnp-paribas-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fed’s Musalem says rate hike may be needed if inflation doesn’t ease](https://www.investing.com/news/economy-news/feds-musalem-says-rate-hike-may-be-needed-if-inflation-doesnt-ease-4715084) — *Investing.com*
+- [Mistral considers developing AI chips as it competes with OpenAI and Anthropic](https://seekingalpha.com/news/4598027-mistral-considers-developing-ai-chips-as-it-competes-with-openai-and-anthropic?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

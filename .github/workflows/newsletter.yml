@@ -9,9 +9,14 @@ on:
 permissions:
   contents: write      # needed to commit reports back to repo
 
+concurrency:
+  group: daily-newsletter-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   send-newsletter:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repo
@@ -32,19 +37,43 @@ jobs:
           restore-keys: ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          for attempt in 1 2 3; do
+            pip install -r requirements.txt && break
+            echo "pip install failed (attempt ${attempt}/3)"
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+            sleep 15
+          done
 
       - name: Send daily newsletter
         env:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        run: python investment_daily.py
+        run: |
+          for attempt in 1 2 3; do
+            python investment_daily.py && break
+            echo "investment_daily.py failed (attempt ${attempt}/3)"
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+            sleep 20
+          done
 
       - name: Generate reports
         env:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        run: python generate_reports.py --newsletter --simulation
+        run: |
+          for attempt in 1 2 3; do
+            python generate_reports.py --newsletter --simulation && break
+            echo "report generation failed (attempt ${attempt}/3)"
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+            sleep 20
+          done
 
       - name: Commit reports to repo
         run: |
@@ -57,4 +86,23 @@ jobs:
           git add reports/ README.md sim_portfolio.json alert_state.json 2>/dev/null || true
           git diff --staged --quiet && echo "Nothing to commit" || \
             git commit -m "Newsletter — $(date -u +'%Y-%m-%d')"
-          git push
+          for attempt in 1 2 3; do
+            git push && break
+            echo "git push failed (attempt ${attempt}/3)"
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+            sleep 10
+          done
+
+      - name: Add failure context to workflow summary
+        if: failure()
+        run: |
+          {
+            echo "## Daily Newsletter Failure"
+            echo ""
+            echo "- Repository: ${{ github.repository }}"
+            echo "- Branch/Ref: ${{ github.ref }}"
+            echo "- Run URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "- Trigger: ${{ github.event_name }}"
+          } >> "$GITHUB_STEP_SUMMARY"

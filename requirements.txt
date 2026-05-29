@@ -1,4 +1,5 @@
 yfinance>=0.2.40
+schwab-py>=1.0.0
 feedparser>=6.0.11
 requests>=2.32.0
 python-dotenv>=1.0.1

@@ -26,6 +26,7 @@ import yfinance as yf
 from dotenv import load_dotenv
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(SCRIPT_DIR, "logs"), exist_ok=True)
 load_dotenv(os.path.join(SCRIPT_DIR, ".env"))
 
 logging.basicConfig(
@@ -40,7 +41,23 @@ logger = logging.getLogger(__name__)
 
 EMAIL_SENDER    = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")
-EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+DEFAULT_EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
+
+
+def _parse_recipients(raw: str | None) -> list[str]:
+    if not raw:
+        return []
+    return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+EMAIL_RECIPIENTS = _parse_recipients(os.getenv("EMAIL_RECIPIENTS"))
+if not EMAIL_RECIPIENTS:
+    EMAIL_RECIPIENTS = [DEFAULT_EMAIL_RECIPIENT]
+    logger.warning(
+        "EMAIL_RECIPIENTS not set; using default recipient %s. "
+        "Set EMAIL_RECIPIENTS in .env to override.",
+        DEFAULT_EMAIL_RECIPIENT,
+    )
 STATE_FILE      = os.path.join(SCRIPT_DIR, "sim_portfolio.json")
 
 TOTAL_CAPITAL   = 194_000.00
@@ -1237,14 +1254,14 @@ def build_html_report(rows: list[dict], bm: dict, state: dict, weekly: bool = Fa
 def send_email(subject: str, html: str) -> None:
     msg = MIMEMultipart("alternative")
     msg["From"]    = EMAIL_SENDER
-    msg["To"]      = EMAIL_RECIPIENT
+    msg["To"]      = ", ".join(EMAIL_RECIPIENTS)
     msg["Subject"] = subject
     msg.attach(MIMEText(html, "html", "utf-8"))
     try:
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
             server.starttls()
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-            server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENT, msg.as_string())
+            server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENTS, msg.as_string())
         logger.info(f"Email sent: {subject}")
     except Exception as e:
         logger.error(f"Email failed: {e}")
