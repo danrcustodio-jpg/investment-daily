@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 07:28 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 09:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.21%** &nbsp; ($+2,356) |
-| SPY Benchmark | +6.92% &nbsp; ($+13,431 if 100% SPY) |
-| Alpha vs SPY | **-5.71%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.88% &nbsp; ($+13,346 if 100% SPY) |
+| Alpha vs SPY | **-5.66%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,356 |
 
@@ -35,17 +35,17 @@
 | 2026-05-26 | 📈 +1.17% | +6.05% | ❌ -4.88% |
 | 2026-05-27 | 📈 +1.18% | +6.03% | ❌ -4.85% |
 | 2026-05-28 | 📈 +1.19% | +6.61% | ❌ -5.42% |
-| 2026-05-29 | 📈 +1.21% | +6.91% | ❌ -5.70% |
+| 2026-05-29 | 📈 +1.21% | +6.88% | ❌ -5.66% |
 
 ## Strategy Advisor
 
-_Evaluated May 29 2026 07:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 29 2026 09:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
@@ -61,7 +61,7 @@ _Evaluated May 29 2026 07:28 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -27.31%, Sharpe 4.14. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19.07%, Sharpe 5.27. 1 minor bearish signal(s), max confidence 65.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
