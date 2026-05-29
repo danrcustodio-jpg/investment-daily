@@ -180,40 +180,40 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "DOGE-USD",
+      "ticker": "AERO-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sharpe 27.13. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawdown -90.48%, Sharpe 1.74. 1 minor bearish signal(s), max confidence 47.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19.07%, Sharpe 5.27. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 91.2, Win Rate 87.5%, Avg 5d Return 5.64%, Max Drawdown -5.49%, Sharpe 4.28. 2 minor bearish signal(s), max confidence 64.3.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -27.31%, Sharpe 4.14. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
-      "action": "HOLD_LIMIT",
+      "action": "CANCEL_LIMIT",
       "ticker": "MSFT",
-      "priority": "low",
-      "reason": "Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.99 is 6.6% above limit. Keep limit order at $399.00.",
-      "tax_note": "No tax impact until order fills."
+      "priority": "medium",
+      "reason": "2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner \u2014 Upper Channel Touch at score 59.3. Limit at $399.00 may never fill profitably.",
+      "tax_note": "No tax impact \u2014 order not yet filled."
     }
   ],
-  "recommendations_updated": "2026-05-28T21:50:48.259095",
+  "recommendations_updated": "2026-05-29T16:24:38.458484",
   "trade_log": [
     {
       "action": "SELL",

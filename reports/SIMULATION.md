@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 20** &nbsp;·&nbsp; Updated: May 28 2026 09:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 04:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.19%** &nbsp; ($+2,309) |
-| SPY Benchmark | +6.61% &nbsp; ($+12,830 if 100% SPY) |
-| Alpha vs SPY | **-5.42%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.20%** &nbsp; ($+2,332) |
+| SPY Benchmark | +6.96% &nbsp; ($+13,507 if 100% SPY) |
+| Alpha vs SPY | **-5.76%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,309 |
+| Current Value | $196,332 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -6.6% → $399.00) | $9,000 | $426.99 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+461 | +0.25% |
+| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -9.9% → $399.00) | $9,000 | $442.74 | — | — |
+| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+484 | +0.26% |
 
 ## Daily Equity Curve
 
@@ -39,38 +39,38 @@
 
 ## Strategy Advisor
 
-_Evaluated May 28 2026 09:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 29 2026 04:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | PPO — Bullish Cross — Score 91.2, Win Rate 87.5%, Avg 5d Return 5.64%, Max Drawdown -5.49%… |
-| 🟢 LOW | ✅ HOLD LIMIT | **MSFT** | Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.99 is 6.6% above limit. … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -2… |
+| 🟡 MEDIUM | ⚠️ CANCEL LIMIT | **MSFT** | 2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner — Upper Channel Touch at sc… |
 
-### 🔍 NEW OPPORTUNITY — DOGE-USD
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 13.94%, Max Drawdown 0.0%, Sharpe 27.13. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawdown -90.48%, Sharpe 1.74. 1 minor bearish signal(s), max confidence 47.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
 
+### 🔍 NEW OPPORTUNITY — CL=F
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19.07%, Sharpe 5.27. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -27.31%, Sharpe 4.14. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### ⚠️ CANCEL LIMIT — MSFT
 
-**Signal Analysis:** PPO — Bullish Cross — Score 91.2, Win Rate 87.5%, Avg 5d Return 5.64%, Max Drawdown -5.49%, Sharpe 4.28. 2 minor bearish signal(s), max confidence 64.3.
+**Signal Analysis:** 2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner — Upper Channel Touch at score 59.3. Limit at $399.00 may never fill profitably.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
-
-### ✅ HOLD LIMIT — MSFT
-
-**Signal Analysis:** Thesis intact: 0 bullish vs 0 bearish signals. Current price $426.99 is 6.6% above limit. Keep limit order at $399.00.
-
-**Tax & Cost:** No tax impact until order fills.
+**Tax & Cost:** No tax impact — order not yet filled.
 
 ## Position Rationale
 
