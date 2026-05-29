@@ -1,22 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 04:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 04:37 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.20%** &nbsp; ($+2,332) |
-| SPY Benchmark | +6.96% &nbsp; ($+13,507 if 100% SPY) |
-| Alpha vs SPY | **-5.76%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.21%** &nbsp; ($+2,356) |
+| SPY Benchmark | +7.01% &nbsp; ($+13,598 if 100% SPY) |
+| Alpha vs SPY | **-5.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,332 |
+| Current Value | $196,356 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **MSFT** | Microsoft (MSFT) | ⏳ PENDING (needs -9.9% → $399.00) | $9,000 | $442.74 | — | — |
-| **CASH** | Cash / Money Market | ✅ OPEN | $186,849 | — | $+484 | +0.26% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+507 | +0.26% |
 
 ## Daily Equity Curve
 
@@ -36,49 +35,39 @@
 | 2026-05-26 | 📈 +1.17% | +6.05% | ❌ -4.88% |
 | 2026-05-27 | 📈 +1.18% | +6.03% | ❌ -4.85% |
 | 2026-05-28 | 📈 +1.19% | +6.61% | ❌ -5.42% |
+| 2026-05-29 | 📈 +1.21% | +7.00% | ❌ -5.79% |
 
 ## Strategy Advisor
 
-_Evaluated May 29 2026 04:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 29 2026 04:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -2… |
-| 🟡 MEDIUM | ⚠️ CANCEL LIMIT | **MSFT** | 2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner — Upper Channel Touch at sc… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
 **Signal Analysis:** Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawdown -90.48%, Sharpe 1.74. 1 minor bearish signal(s), max confidence 47.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $186,849 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
 **Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
 **Signal Analysis:** Stochastic RSI Oversold — Score 82.9, Win Rate 73.7%, Avg 5d Return 3.79%, Max Drawdown -27.31%, Sharpe 4.14. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $186,849 deployable. Entry slippage est. $30.
-
-### ⚠️ CANCEL LIMIT — MSFT
-
-**Signal Analysis:** 2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner — Upper Channel Touch at score 59.3. Limit at $399.00 may never fill profitably.
-
-**Tax & Cost:** No tax impact — order not yet filled.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
-### MSFT — Microsoft (MSFT)
-**Signal:** ADX Strong Trend — Bullish &nbsp; **Confidence:** 67.9 &nbsp; **Win Rate:** 67.8% &nbsp; **Entry:** Limit $399.00 (not yet triggered)
-> RSI at 78.9 — overextended. Waiting for pullback to $399.
-
-### CASH — $186,849 (62%)
+### CASH — $195,849 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
 
 ---
