@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 21** &nbsp;·&nbsp; Updated: May 29 2026 10:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 22** &nbsp;·&nbsp; Updated: May 30 2026 02:14 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.21%** &nbsp; ($+2,356) |
+| Portfolio P&L | **+1.23%** &nbsp; ($+2,380) |
 | SPY Benchmark | +6.88% &nbsp; ($+13,346 if 100% SPY) |
-| Alpha vs SPY | **-5.66%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.65%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,356 |
+| Current Value | $196,380 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+507 | +0.26% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+531 | +0.27% |
 
 ## Daily Equity Curve
 
@@ -39,17 +39,17 @@
 
 ## Strategy Advisor
 
-_Evaluated May 29 2026 10:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 30 2026 02:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 70.4, Win Rate 56.7%, Avg 5d Return 11.8%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 73.6, Win Rate 56.2%, Avg 5d Return 19.9%, Max Drawdown -90.48%, Sharpe 1.74. 1 minor bearish signal(s), max confidence 47.9.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.4, Win Rate 56.7%, Avg 5d Return 11.8%, Max Drawdown -98.36%, Sharpe 1.56. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
