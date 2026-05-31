@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 22** &nbsp;·&nbsp; Updated: May 30 2026 02:14 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 23** &nbsp;·&nbsp; Updated: May 31 2026 02:18 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.23%** &nbsp; ($+2,380) |
+| Portfolio P&L | **+1.24%** &nbsp; ($+2,404) |
 | SPY Benchmark | +6.88% &nbsp; ($+13,346 if 100% SPY) |
-| Alpha vs SPY | **-5.65%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.64%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,380 |
+| Current Value | $196,404 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+531 | +0.27% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+555 | +0.28% |
 
 ## Daily Equity Curve
 
@@ -39,17 +39,17 @@
 
 ## Strategy Advisor
 
-_Evaluated May 30 2026 02:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated May 31 2026 02:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 70.4, Win Rate 56.7%, Avg 5d Return 11.8%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 77.0, Win Rate 58.7%, Avg 5d Return 23.41%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.5, Win Rate 79.6%, Avg 5d Return 4.78%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.4, Win Rate 56.7%, Avg 5d Return 11.8%, Max Drawdown -98.36%, Sharpe 1.56. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.0, Win Rate 58.7%, Avg 5d Return 23.41%, Max Drawdown -33.15%, Sharpe 2.05. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 

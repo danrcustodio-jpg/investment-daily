@@ -1,9 +1,9 @@
-# Daily Newsletter — Saturday, May 30, 2026
-Generated at 02:14 PM
+# Daily Newsletter — Sunday, May 31, 2026
+Generated at 02:18 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 193 total &nbsp;·&nbsp; 🟢 98 Bullish &nbsp;·&nbsp; 🔴 95 Bearish
+**Strategy Signals:** 195 total &nbsp;·&nbsp; 🟢 100 Bullish &nbsp;·&nbsp; 🔴 95 Bearish
 
 ## Top Movers
 
@@ -11,14 +11,14 @@ Generated at 02:14 PM
 |---|---|---|---|
 | **^VIX** | VIX (Fear Index) | $15.32 | 📉 -2.67% |
 | **XLK** | Tech (XLK) | $191.02 | 📈 +2.23% |
+| **GC=F** | Gold | $4593.00 | 📈 +2.08% |
 | **CL=F** | Crude Oil | $87.36 | 📉 -1.73% |
-| **GC=F** | Gold | $4560.50 | 📈 +1.36% |
 | **XLE** | Energy (XLE) | $56.29 | 📉 -1.16% |
 | **XLY** | Consumer Disc. (XLY) | $120.87 | 📉 -0.97% |
 | **XLV** | Healthcare (XLV) | $149.47 | 📉 -0.93% |
+| **SOL-USD** | Solana | $81.95 | 📉 -0.72% |
 | **^DJI** | Dow Jones | $51032.46 | 📈 +0.72% |
-| **BTC-USD** | Bitcoin | $73828.37 | 📈 +0.62% |
-| **XLF** | Financials (XLF) | $51.58 | 📈 +0.60% |
+| **ETH-USD** | Ethereum | $2007.16 | 📉 -0.61% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 02:14 PM
 
 ## Latest News
 
-- [Tiny Guyana poised for big Iran oil gains and growth strains](https://www.investing.com/news/stock-market-news/tiny-guyana-poised-for-big-iran-oil-gains-and-growth-strains-4717768) — *Investing.com*
-- [Notable analyst calls this week: Sandisk, Snowflake and Sensata among top picks](https://seekingalpha.com/news/4598532-notable-analyst-calls-this-week-sandisk-snowflake-and-sensata-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Exelixis presents Cabometyx data for neuroendocrine tumors](https://www.investing.com/news/company-news/exelixis-presents-cabometyx-data-for-neuroendocrine-tumors-93CH-4717767) — *Investing.com*
-- [JPMorgan, Futu in losers; Robinhood, SoFi among gainers: week's financials wrap](https://seekingalpha.com/news/4598539-jpmorgan-futu-in-losers-robinhood-sofi-among-gainers-weeks-financials-wrap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Micron’s ascent to $1T club divides analysts](https://seekingalpha.com/news/4598630-micron-s-ascent-to-1t-club-divides-analysts?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [The ‘Three A’s’ are keeping the economy afloat during Iran war. Is it enough to avoid recession?](https://www.marketwatch.com/story/the-three-as-are-keeping-the-economy-afloat-during-iran-war-is-it-enough-to-avoid-recession-9769e907?mod=mw_rss_topstories) — *MarketWatch*
-- [WHO chief rallies community in Congo’s Ebola response, calls for more funding](https://www.investing.com/news/commodities-news/who-chief-rallies-community-in-congos-ebola-response-calls-for-more-funding-4717763) — *Investing.com*
-- [After Caesars Goes Private, These 3 Casino Stocks Are Next on the Buyout List, Ranked](https://finance.yahoo.com/markets/stocks/articles/caesars-goes-private-3-casino-135007254.html) — *Yahoo Finance*
-- [Looking to Start Making Passive Income? Buy These 3 High-Yield Dividend Stocks First.](https://finance.yahoo.com/markets/stocks/articles/looking-start-making-passive-income-135000616.html) — *Yahoo Finance*
-- [Philippines remains under threat from China despite Trump-Xi summit, minister says](https://www.investing.com/news/world-news/philippines-remains-under-threat-from-china-despite-trumpxi-summit-minister-says-4717757) — *Investing.com*
+- [Can Meta turn AI capacity into a $1 trillion market opportunity?](https://www.investing.com/news/stock-market-news/can-meta-turn-ai-capacity-into-a-1-trillion-market-opportunity-4717918) — *Investing.com*
+- [AI-fueled chip rally sparks fresh debate over market bubble risks](https://seekingalpha.com/news/4598697-ai-fueled-chip-rally-sparks-fresh-debate-over-market-bubble-risks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [In deeply red Oklahoma, minimum wage’s biggest 2026 election cycle fight is about to be decided](https://www.cnbc.com/2026/05/31/oklahoma-minimum-wage-2026-election-vote-economy-inflation.html) — *CNBC Markets*
+- [Here’s how Gap’s yoga-wear maker Athleta went from must-have to ‘generic’](https://www.marketwatch.com/story/heres-how-gaps-yoga-wear-maker-athleta-went-from-must-have-to-generic-3d94b008?mod=mw_rss_topstories) — *MarketWatch*
+- [Market concentration is creating 'fragility': Wall Street weighs 'narrow leadership' as stocks hit all-time high](https://finance.yahoo.com/markets/article/market-concentration-is-creating-fragility-wall-street-weighs-narrow-leadership-as-stocks-hit-all-time-high-135336610.html) — *Yahoo Finance*
+- [Lithium miners in Congo face higher royalties after strategic mineral designation](https://www.investing.com/news/general-news/lithium-miners-in-congo-face-higher-royalties-after-strategic-mineral-designation-93CH-4717916) — *Investing.com*
+- [IAEA reports drone strike damage at Zaporizhzhia nuclear plant](https://www.investing.com/news/general-news/iaea-reports-drone-strike-damage-at-zaporizhzhia-nuclear-plant-93CH-4717915) — *Investing.com*
+- [‘I have no preexisting conditions’: I’m 56, earn $198,000 and want to retire early. Can I afford private healthcare?](https://www.marketwatch.com/story/i-have-no-preexisting-conditions-im-56-earn-198-000-and-want-to-retire-early-can-i-afford-private-healthcare-e80cdd26?mod=mw_rss_topstories) — *MarketWatch*
+- [Fed inflation debate intensifies as alternative gauge signals cooling prices](https://seekingalpha.com/news/4598692-fed-inflation-debate-intensifies-as-alternative-gauge-signals-cooling-prices?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Quant snapshot: Ciena, Tilly’s among top-rated names as Here Group, Oddity Tech lag](https://seekingalpha.com/news/4597998-quant-snapshot-ciena-tillys-among-top-rated-names-as-here-group-oddity-tech-lag?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
