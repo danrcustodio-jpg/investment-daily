@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 24** &nbsp;·&nbsp; Updated: Jun 01 2026 06:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 24** &nbsp;·&nbsp; Updated: Jun 01 2026 09:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.25%** &nbsp; ($+2,428) |
-| SPY Benchmark | +7.34% &nbsp; ($+14,238 if 100% SPY) |
-| Alpha vs SPY | **-6.09%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.17% &nbsp; ($+13,910 if 100% SPY) |
+| Alpha vs SPY | **-5.92%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,428 |
 
@@ -36,21 +36,21 @@
 | 2026-05-27 | 📈 +1.18% | +6.03% | ❌ -4.85% |
 | 2026-05-28 | 📈 +1.19% | +6.61% | ❌ -5.42% |
 | 2026-05-29 | 📈 +1.21% | +6.88% | ❌ -5.66% |
-| 2026-06-01 | 📈 +1.25% | +7.34% | ❌ -6.08% |
+| 2026-06-01 | 📈 +1.25% | +7.17% | ❌ -5.92% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 01 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 01 2026 09:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.05%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.04%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.05%, Max Drawdown -94.94%, Sharpe 1.59. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.04%, Max Drawdown -94.94%, Sharpe 1.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
