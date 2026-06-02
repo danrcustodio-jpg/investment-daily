@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 05:15 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 08:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.26%** &nbsp; ($+2,452) |
-| SPY Benchmark | +7.35% &nbsp; ($+14,265 if 100% SPY) |
-| Alpha vs SPY | **-6.09%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.32% &nbsp; ($+14,193 if 100% SPY) |
+| Alpha vs SPY | **-6.05%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,452 |
 
@@ -37,17 +37,17 @@
 | 2026-05-28 | 📈 +1.19% | +6.61% | ❌ -5.42% |
 | 2026-05-29 | 📈 +1.21% | +6.88% | ❌ -5.66% |
 | 2026-06-01 | 📈 +1.25% | +7.17% | ❌ -5.92% |
-| 2026-06-02 | 📈 +1.26% | +7.36% | ❌ -6.09% |
+| 2026-06-02 | 📈 +1.26% | +7.32% | ❌ -6.05% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 02 2026 05:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 02 2026 08:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.5, Win Rate 72.7%, Avg 5d Return 1.1%, Max Drawdown -4.95%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Keltner — Lower Channel Touch — Score 75.9, Win Rate 58.1%, Avg 5d Return 22.87%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | TRIX — Bullish Cross — Score 88.3, Win Rate 91.7%, Avg 5d Return 3.52%, Max Drawdown -11.7… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 79.7, Win Rate 73.3%, Avg 5d Return 4.01%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
@@ -55,17 +55,17 @@ _Evaluated Jun 02 2026 05:15 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 75.9, Win Rate 58.1%, Avg 5d Return 22.87%, Max Drawdown -33.15%, Sharpe 1.98. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
 ### 🔍 NEW OPPORTUNITY — ARKK
 
 **Signal Analysis:** TRIX — Bullish Cross — Score 88.3, Win Rate 91.7%, Avg 5d Return 3.52%, Max Drawdown -11.71%, Sharpe 3.73. 2 minor bearish signal(s), max confidence 71.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.7, Win Rate 73.3%, Avg 5d Return 4.01%, Max Drawdown -20.56%, Sharpe 3.48. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
