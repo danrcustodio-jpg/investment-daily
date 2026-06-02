@@ -14,6 +14,7 @@ Routes:
   POST /run/newsletter  Trigger manual newsletter send
   POST /run/alerts      Trigger manual alert check
   POST /refresh         Force-refresh cached data
+  GET  /health        Fast liveness probe (Render / load balancers)
   GET  /api/status    JSON health check
 """
 
@@ -47,7 +48,10 @@ def _is_truthy(raw: str | None) -> bool:
     return (raw or "").strip().lower() in {"1", "true", "yes", "on"}
 
 
-REMOTE_ACCESS_ENABLED = _is_truthy(os.getenv("DASHBOARD_REMOTE_ACCESS"))
+# Auto-enable remote access on PaaS hosts (Render, Heroku, Fly, Railway all set PORT;
+# Render also sets RENDER=true). Otherwise honor the explicit env flag.
+_ON_PAAS = bool(os.getenv("RENDER") or os.getenv("DYNO") or os.getenv("FLY_APP_NAME") or os.getenv("RAILWAY_ENVIRONMENT"))
+REMOTE_ACCESS_ENABLED = _ON_PAAS or _is_truthy(os.getenv("DASHBOARD_REMOTE_ACCESS"))
 
 
 def require_admin_token(fn):
@@ -159,6 +163,45 @@ def bg_refresh() -> None:
     while True:
         refresh_cache()
         time.sleep(CACHE_TTL_MINUTES * 60)
+
+
+_startup_lock = threading.Lock()
+_startup_done = False
+
+
+def _ensure_startup() -> None:
+    """Idempotent app startup: configure logging and launch the cache-warm thread.
+
+    Safe to call from `__main__` (direct `python dashboard.py`) and from
+    module import time (under gunicorn / other WSGI servers).
+    """
+    global _startup_done
+    with _startup_lock:
+        if _startup_done:
+            return
+        _startup_done = True
+
+    if not logging.getLogger().handlers:
+        handlers: list[logging.Handler] = [logging.StreamHandler()]
+        try:
+            handlers.append(
+                logging.FileHandler(os.path.join(LOG_DIR, "dashboard.log"), encoding="utf-8")
+            )
+        except OSError:
+            pass
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s [%(levelname)s] %(message)s",
+            handlers=handlers,
+        )
+
+    threading.Thread(target=bg_refresh, daemon=True).start()
+
+
+# When running under a WSGI server (gunicorn, uWSGI, etc.) `__main__` is the
+# server, not this module — so kick off startup at import time on PaaS hosts.
+if _ON_PAAS:
+    _ensure_startup()
 
 
 def _safe_float(v, default=0.0) -> float:
@@ -2351,6 +2394,16 @@ def alerts_clear_snoozes():
     return jsonify({"ok": True, "message": "All strategy/ticker snoozes cleared."})
 
 
+@app.route("/health")
+def health():
+    """Fast liveness probe for Render / load-balancer health checks.
+
+    Returns immediately without touching the (slow) yfinance refresh path,
+    so health probes never time out while the cache is warming.
+    """
+    return jsonify({"status": "ok"}), 200
+
+
 @app.route("/api/status")
 def api_status():
     signals = _cache.get("signals") or []
@@ -2729,18 +2782,7 @@ def asset_opportunities_page():
 if __name__ == "__main__":
     import socket
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        handlers=[
-            logging.FileHandler(os.path.join(LOG_DIR, "dashboard.log"), encoding="utf-8"),
-            logging.StreamHandler(),
-        ],
-    )
-
-    # Start background cache warm-up
-    t = threading.Thread(target=bg_refresh, daemon=True)
-    t.start()
+    _ensure_startup()
 
     # Print local network address for phone access
     hostname = socket.gethostname()
