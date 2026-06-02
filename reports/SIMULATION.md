@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 24** &nbsp;·&nbsp; Updated: Jun 01 2026 09:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 02:01 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.25%** &nbsp; ($+2,428) |
+| Portfolio P&L | **+1.26%** &nbsp; ($+2,452) |
 | SPY Benchmark | +7.17% &nbsp; ($+13,910 if 100% SPY) |
-| Alpha vs SPY | **-5.92%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,428 |
+| Current Value | $196,452 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+579 | +0.30% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+604 | +0.31% |
 
 ## Daily Equity Curve
 
@@ -37,20 +37,21 @@
 | 2026-05-28 | 📈 +1.19% | +6.61% | ❌ -5.42% |
 | 2026-05-29 | 📈 +1.21% | +6.88% | ❌ -5.66% |
 | 2026-06-01 | 📈 +1.25% | +7.17% | ❌ -5.92% |
+| 2026-06-02 | 📈 +1.26% | +7.17% | ❌ -5.91% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 01 2026 09:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 02 2026 02:01 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.04%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 71.5, Win Rate 57.1%, Avg 5d Return 12.51%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.6, Win Rate 56.7%, Avg 5d Return 12.04%, Max Drawdown -94.94%, Sharpe 1.59. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 71.5, Win Rate 57.1%, Avg 5d Return 12.51%, Max Drawdown -90.48%, Sharpe 1.66. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
@@ -62,7 +63,7 @@ _Evaluated Jun 01 2026 09:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sharpe 5.88. 1 minor bearish signal(s), max confidence 47.9.
+**Signal Analysis:** MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sharpe 5.88. 1 minor bearish signal(s), max confidence 47.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
