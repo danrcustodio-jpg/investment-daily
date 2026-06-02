@@ -324,26 +324,48 @@ window.HAWAII_TRIP = {
     {
       dayLabel: 'Day 6',
       dateShort: 'Sunday Jul 26',
-      timelinePlan: 'Flexible island day (suggested)',
-      timeDetail: 'Flexible',
-      refs: 'Open day',
+      timelinePlan: 'Pearl Harbor — Arizona Memorial',
+      timeDetail: '11:15 AM Arizona Memorial Tour · arrive Visitor Center 10:15 AM',
+      refs: 'recreation.gov #0822792530-1 · 4 tickets',
       notes:
-        'Open block — Pearl Harbor, Diamond Head, east-side drive, or extra beach time.',
+        'Booked: Arizona Memorial Tour at Pearl Harbor (recreation.gov) — 4 General Admission tickets, 11:15 AM boat, ticket holder Jessica Custodio. Afternoon is flexible (Diamond Head, east-side drive, Ala Moana Beach, or windward dinner at Haleiwa Joe’s Kaneohe).',
       details: [
         {
-          kind: 'activity',
-          title: 'Ideas (reserve separately if required)',
+          kind: 'reservation',
+          title: 'Arizona Memorial Tour — Pearl Harbor (recreation.gov)',
+          arriveBy:
+            'Jul 26 — Pearl Harbor Visitor Center by 10:15 AM (1 hr early) · Theater Validation Desk by 11:05 AM (10 min before 11:15 AM boat)',
           lines: [
-            'Pearl Harbor Historic Sites — USS Arizona Memorial (often needs advance reservation via recreation.gov).',
-            'Diamond Head State Monument — entry reservation often required (check Hawaii DLNR / official booking site).',
-            'Kualoa Regional Park / east-side scenic drive · Hanauma Bay (closed Mondays; reservations required when open).',
-            'Optional windward dinner: Haleiwa Joe’s Kaneohe (Haiku Gardens) — see Optional stops & ideas section.',
+            'Confirmation #0822792530-1 · 4 tickets · General Admission · Ticket holder: Jessica Custodio.',
+            'Sun Jul 26, 2026 · 11:15 AM boat departure · Program length 45 minutes.',
+            'Operator: Arizona Memorial Tours Pearl Harbor · Reservations non-transferable / non-refundable · Everyone in party (including children) must have a reservation.',
+          ],
+        },
+        {
+          kind: 'activity',
+          title: 'Need to know — Arizona Memorial',
+          lines: [
+            'No bags, purses, or items offering concealment — privately operated bag storage near the visitor center for a fee. OK to bring: cameras, water bottles, wallets, cell phones.',
+            'Only clear water allowed in the theater, on the boats, and at the USS Arizona Memorial — no other food or beverage.',
+            'Site of major loss of life — practice cemetery etiquette: speak quietly, limit phone use, dress respectfully. Wheelchair accessible (wheelchairs not provided). No restrooms on the memorial itself; restrooms at the Visitor Center.',
+            'More info: https://www.nps.gov/pearlharbor',
           ],
         },
         {
           kind: 'location',
-          title: 'Starting point',
-          lines: ['From Waikiki / your hotel — choose one anchor and build the day around drive time.'],
+          title: 'Pearl Harbor Visitor Center',
+          lines: [
+            '1 Arizona Memorial Place, Honolulu, HI 96818 · Parking $7/day via virtual pay system on mobile devices.',
+            'About 25–30 min from Waikiki (no traffic) — leave Waikiki by ~9:30 AM to be safe for 10:15 AM Visitor Center arrival.',
+          ],
+        },
+        {
+          kind: 'activity',
+          title: 'Afternoon — flexible',
+          lines: [
+            'After Pearl Harbor (~noon end): pair with another anchor or take a relaxed afternoon.',
+            'Ideas: Diamond Head State Monument (entry reservation often required via gostateparks.hawaii.gov), east-side scenic drive / Kualoa, Ala Moana Beach Park, or windward dinner at Haleiwa Joe’s Kaneohe (Haiku Gardens) — see parking notes below.',
+          ],
         },
       ],
       dayParking: {
@@ -550,6 +572,15 @@ window.HAWAII_TRIP = {
       summaryLines: [
         'Fri Jul 24, 2026 · 5:30 PM · Party of 4.',
         '226 Lewers St, 2F Unit L215, Honolulu, HI · (808) 913-2003.',
+      ],
+    },
+    {
+      name: 'Arizona Memorial Tour — Pearl Harbor',
+      operator: 'Arizona Memorial Tours (recreation.gov)',
+      summaryLines: [
+        'Sun Jul 26, 2026 · 11:15 AM boat · 45-minute program · Ticket holder Jessica Custodio.',
+        'Confirmation #0822792530-1 · 4 tickets · General Admission · Non-refundable / non-transferable.',
+        'Arrive Visitor Center 10:15 AM (1 hr early) · Check in at theater Validation Desk by 11:05 AM · No bags allowed (paid bag storage nearby).',
       ],
     },
   ],
