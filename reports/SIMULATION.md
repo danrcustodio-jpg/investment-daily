@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 08:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 10:33 PM
 
 ## Performance Summary
 
@@ -41,19 +41,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 02 2026 08:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 02 2026 10:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.5, Win Rate 72.7%, Avg 5d Return 1.1%, Max Drawdown -4.95%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | TRIX — Bullish Cross — Score 88.3, Win Rate 91.7%, Avg 5d Return 3.52%, Max Drawdown -11.7… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 79.7, Win Rate 73.3%, Avg 5d Return 4.01%, Max Drawd… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** 52-Week Breakout — Score 80.5, Win Rate 72.7%, Avg 5d Return 1.1%, Max Drawdown -4.95%, Sharpe 3.46. 1 minor bearish signal(s), max confidence 46.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Keltner — Lower Channel Touch — Score 71.1, Win Rate 69.4%, Avg 5d Return 2.78%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
@@ -61,11 +55,17 @@ _Evaluated Jun 02 2026 08:24 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — DOGE-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.7, Win Rate 73.3%, Avg 5d Return 4.01%, Max Drawdown -20.56%, Sharpe 3.48. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 71.1, Win Rate 69.4%, Avg 5d Return 2.78%, Max Drawdown -53.06%, Sharpe 2.39. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — GC=F
+
+**Signal Analysis:** MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sharpe 5.88. 1 minor bearish signal(s), max confidence 47.7.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
