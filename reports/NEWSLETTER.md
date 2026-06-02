@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, June 01, 2026
-Generated at 06:25 PM
+# Daily Newsletter — Tuesday, June 02, 2026
+Generated at 05:04 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 197 total &nbsp;·&nbsp; 🟢 95 Bullish &nbsp;·&nbsp; 🔴 102 Bearish
+**Strategy Signals:** 190 total &nbsp;·&nbsp; 🟢 98 Bullish &nbsp;·&nbsp; 🔴 92 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $91.90 | 📈 +5.20% |
-| **NG=F** | Natural Gas | $3.17 | 📉 -3.56% |
-| **BTC-USD** | Bitcoin | $71313.87 | 📉 -3.08% |
-| **^VIX** | VIX (Fear Index) | $15.77 | 📈 +2.94% |
-| **XLK** | Tech (XLK) | $196.04 | 📈 +2.63% |
-| **SOL-USD** | Solana | $80.69 | 📉 -1.95% |
-| **XLY** | Consumer Disc. (XLY) | $118.72 | 📉 -1.78% |
-| **XLE** | Energy (XLE) | $57.28 | 📈 +1.76% |
-| **ETH-USD** | Ethereum | $1984.09 | 📉 -1.01% |
-| **XLV** | Healthcare (XLV) | $148.01 | 📉 -0.98% |
+| **BTC-USD** | Bitcoin | $67380.31 | 📉 -5.52% |
+| **SOL-USD** | Solana | $76.65 | 📉 -5.47% |
+| **ETH-USD** | Ethereum | $1920.39 | 📉 -4.13% |
+| **XLE** | Energy (XLE) | $57.97 | 📈 +1.16% |
+| **CL=F** | Crude Oil | $93.20 | 📈 +1.13% |
+| **XLV** | Healthcare (XLV) | $146.20 | 📉 -1.11% |
+| **SI=F** | Silver | $75.77 | 📈 +1.02% |
+| **GC=F** | Gold | $4519.60 | 📈 +0.99% |
+| **XLK** | Tech (XLK) | $197.54 | 📈 +0.91% |
+| **NG=F** | Natural Gas | $3.15 | 📉 -0.85% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 94.3 | 85.7% |
-| 🟢 BULLISH | **ARM** | 52-Week Breakout | 88.6 | 71.4% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 86.7 | 79.2% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 83.5 | 69.8% |
-| 🟢 BULLISH | **XLK** | 52-Week Breakout | 83.3 | 68.6% |
-| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 82.9 | 65.3% |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 81.9 | 69.8% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 80.5 | 70.3% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 80.4 | 68.0% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.5 | 66.0% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 76.7 | 63.9% |
-| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 76.5 | 62.8% |
+| 🟢 BULLISH | **MRVL** | 52-Week Breakout | 94.6 | 86.4% |
+| 🟢 BULLISH | **ARKK** | TRIX — Bullish Cross | 88.3 | 91.7% |
+| 🟢 BULLISH | **XLK** | 52-Week Breakout | 83.7 | 69.2% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 83.6 | 70.1% |
+| 🟢 BULLISH | **QQQ** | 52-Week Breakout | 83.1 | 66.0% |
+| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 82.6 | 73.1% |
+| 🟢 BULLISH | **IWM** | OBV — Accumulation | 82.4 | 71.1% |
+| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 80.6 | 68.3% |
+| 🟢 BULLISH | **AAPL** | 52-Week Breakout | 80.5 | 72.7% |
+| 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 79.7 | 64.1% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.6 | 66.2% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 77.5 | 64.4% |
 
 ## Latest News
 
-- [CN sets monthly grain movement record in May 2026](https://www.investing.com/news/company-news/cn-sets-monthly-grain-movement-record-in-may-2026-93CH-4720040) — *Investing.com*
-- [Tandem Diabetes rises on Wells Fargo upgrade](https://seekingalpha.com/news/4599340-tandem-diabetes-rises-wells-fargo-upgrade?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Georgia Power names Anthony Oni VP of corporate affairs](https://www.investing.com/news/company-news/georgia-power-names-anthony-oni-vp-of-corporate-affairs-93CH-4720039) — *Investing.com*
-- [Form 8K Magnolia Bancorp For: 1 June](https://www.investing.com/news/filings/form-8k-magnolia-bancorp-for-1-june-93CH-4720038) — *Investing.com*
-- [Trump tells CNBC: 'I don't care' if Iran negotiations are over](https://www.cnbc.com/2026/06/01/trump-iran-war-negotiations-oil-israel-interview.html) — *CNBC Markets*
-- [‘I have no preexisting conditions’: I’m 56, earn $198,000 and want to retire early. Can I afford private healthcare?](https://www.marketwatch.com/story/i-have-no-preexisting-conditions-im-56-earn-198-000-and-want-to-retire-early-can-i-afford-private-healthcare-e80cdd26?mod=mw_rss_topstories) — *MarketWatch*
-- [Warrior Met Coal stock hits all-time high at 105.74 USD](https://www.investing.com/news/company-news/warrior-met-coal-stock-hits-alltime-high-at-10574-usd-93CH-4720036) — *Investing.com*
-- [Charter Communications, Comcast lead list of most attractively valued large-cap communications services stocks](https://seekingalpha.com/news/4599354-charter-communications-comcast-lead-list-of-most-attractively-valued-large-cap-communications?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [FS KKR plans to sell at least $400M of junk bonds for high yield - report](https://seekingalpha.com/news/4599343-fs-kkr-plans-to-sell-at-least-400m-of-junk-bonds-for-high-yield---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Lockheed Martin opens missile interceptor facility in Alabama](https://www.investing.com/news/stock-market-news/lockheed-martin-opens-missile-interceptor-facility-in-alabama-93CH-4720035) — *Investing.com*
+- [Medtronic Q4 preview: What to expect](https://seekingalpha.com/news/4599910-medtronic-q4-preview-what-to-expect?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Roche breast cancer drug giredestrant granted FDA priority review](https://seekingalpha.com/news/4599908-roche-breast-cancer-drug-fda-priority-review?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [The S&P 500 has only risen this quickly 4 times since WWII. Once, a historic stock-market crash followed.](https://www.marketwatch.com/story/the-s-p-500-has-only-risen-this-quickly-4-times-since-wwii-once-a-historic-stock-market-crash-followed-ed41ab2d?mod=mw_rss_topstories) — *MarketWatch*
+- [Commodities regulator alleges Winklevosses' Gemini crypto exchange was politically targeted](https://www.cnbc.com/2026/06/02/cftc-chair-alleges-gemini-crypto-exchange-was-politically-targeted.html) — *CNBC Markets*
+- [The CFTC has sparked a potential revolution on Wall Street. Exchange stocks are dropping](https://www.cnbc.com/2026/06/02/the-cftc-has-sparked-a-potential-revolution-on-wall-street-exchange-stocks-are-dropping.html) — *CNBC Markets*
+- [How Jim Cramer would approach Palo Alto's stock heading into earnings](https://www.cnbc.com/2026/06/02/cramer-how-cramer-would-approach-palo-alto-stock-heading-into-earnings.html) — *CNBC Markets*
+- [Nativo Resources schedules AGM, seeks share allotment authority](https://www.investing.com/news/company-news/nativo-resources-schedules-agm-seeks-share-allotment-authority-93CH-4722621) — *Investing.com*
+- [Victoria’s Secret forecasts FY2026 sales of $7.03B-$7.13B and adjusted EPS of $4.35-$4.60 after Q1 momentum](https://seekingalpha.com/news/4599906-victoria-s-secret-forecasts-fy2026-sales-of-7_03b-7_13b-and-adjusted-eps-of-4_35-4_60-after?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Donaldson forecasts 3%-5% organic sales growth as Facet adds $25M-$30M in Q4 sales and $10M annualized benefits target in fiscal 2027](https://seekingalpha.com/news/4599905-donaldson-forecasts-3-percentminus-5-percent-organic-sales-growth-as-facet-adds-25m-30m-in-q4?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [AT&T stock hits 52-week low at $20.86](https://www.investing.com/news/company-news/att-stock-hits-52week-low-at-2086-93CH-4722620) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

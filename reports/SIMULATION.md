@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 02:01 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 25** &nbsp;·&nbsp; Updated: Jun 02 2026 05:04 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.26%** &nbsp; ($+2,452) |
-| SPY Benchmark | +7.17% &nbsp; ($+13,910 if 100% SPY) |
-| Alpha vs SPY | **-5.91%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.36% &nbsp; ($+14,279 if 100% SPY) |
+| Alpha vs SPY | **-6.10%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,452 |
 
@@ -41,31 +41,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 02 2026 02:01 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 02 2026 05:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 71.5, Win Rate 57.1%, Avg 5d Return 12.51%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 80.5, Win Rate 72.7%, Avg 5d Return 1.1%, Max Drawdown -4.95%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | TRIX — Bullish Cross — Score 88.3, Win Rate 91.7%, Avg 5d Return 3.52%, Max Drawdown -11.7… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Keltner — Lower Channel Touch — Score 71.1, Win Rate 69.4%, Avg 5d Return 2.78%, Max Drawd… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 71.5, Win Rate 57.1%, Avg 5d Return 12.51%, Max Drawdown -90.48%, Sharpe 1.66. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 80.5, Win Rate 72.7%, Avg 5d Return 1.1%, Max Drawdown -4.95%, Sharpe 3.46. 1 minor bearish signal(s), max confidence 46.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ARKK
+
+**Signal Analysis:** TRIX — Bullish Cross — Score 88.3, Win Rate 91.7%, Avg 5d Return 3.52%, Max Drawdown -11.71%, Sharpe 3.73. 2 minor bearish signal(s), max confidence 71.6.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 71.1, Win Rate 69.4%, Avg 5d Return 2.78%, Max Drawdown -53.06%, Sharpe 2.39. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 69.8%, Avg 5d Return 1.98%, Max Drawdown -10.34%, Sharpe 3.56. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — GC=F
-
-**Signal Analysis:** MFI — Oversold — Score 86.7, Win Rate 79.2%, Avg 5d Return 1.18%, Max Drawdown -2.65%, Sharpe 5.88. 1 minor bearish signal(s), max confidence 47.6.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
