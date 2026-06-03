@@ -36,3 +36,6 @@ desktop.ini
 
 # Runtime cache files
 data/cot_positioning_cache.json
+
+# Smoke test inspection artifacts (regenerated on each run)
+tests/_smoke_*.out.*

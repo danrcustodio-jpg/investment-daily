@@ -79,6 +79,8 @@ SMS_COOLDOWN_HOURS = _parse_sms_cooldown()
 SMS_BODY_MAX = 200  # keep single-segment; gateway line length varies
 
 STATE_FILE      = os.path.join(SCRIPT_DIR, "alert_state.json")
+# Per-run breakdown so reports can show honest bucket counts without re-scanning.
+LAST_SCAN_FILE  = os.path.join(SCRIPT_DIR, "last_scan.json")
 ET_ZONE         = zoneinfo.ZoneInfo("America/New_York")
 MARKET_OPEN     = (9, 30)
 MARKET_CLOSE    = (16, 0)
@@ -114,6 +116,10 @@ MIN_CONFIDENCE  = _parse_float_env("ALERT_MIN_CONFIDENCE", 50.0)
 # Signals at or above this score get a 15-minute OHLCV + RSI section in alert emails.
 HIGH_CONFIDENCE_15M_THRESHOLD = _parse_float_env("ALERT_HIGH_CONFIDENCE_15M", 68.0)
 COOLDOWN_BYPASS_MOVE_PCT = _parse_float_env("ALERT_COOLDOWN_BYPASS_MOVE_PCT", 2.0, min_value=0.0, max_value=50.0)
+# A ticker is "conflicted" when both a BULLISH and BEARISH signal on it score ≥ this threshold.
+# Conflicted tickers get a ⚠ MIXED prefix in the SMS / email so the headline never hides the
+# opposing side. Set to 0 to disable.
+CONFLICT_MIN_SCORE = _parse_float_env("ALERT_CONFLICT_MIN_SCORE", 65.0)
 TRACKING_CADENCE_MINUTES = [15, 30, 60, 120, 240, 1440]
 
 # ─── Market Hours ─────────────────────────────────────────────────────────────
@@ -167,6 +173,114 @@ def load_state() -> dict:
 def save_state(state: dict) -> None:
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
+
+def _slim_signal_for_snapshot(signal: dict) -> dict:
+    """Drop heavy backtest payloads, keep only what the alerts report renders."""
+    d5 = signal.get("backtest", {}).get("5d", {}) or {}
+    return {
+        "direction": signal.get("direction"),
+        "ticker": signal.get("ticker"),
+        "strategy": signal.get("strategy"),
+        "confidence": signal.get("confidence"),
+        "win_rate": d5.get("win_rate"),
+        "avg_return": d5.get("avg_return"),
+        "sharpe": d5.get("sharpe"),
+        "max_drawdown": d5.get("max_drawdown"),
+    }
+
+
+def _slim_conflicts(conflicts: dict[str, dict]) -> dict:
+    """JSON-safe view of compute_ticker_conflicts() output (strips signal payloads)."""
+    out: dict[str, dict] = {}
+    for ticker, info in conflicts.items():
+        bull_top = info.get("bull_top") or {}
+        bear_top = info.get("bear_top") or {}
+        out[ticker] = {
+            "bull_max": info.get("bull_max"),
+            "bear_max": info.get("bear_max"),
+            "bull_count": info.get("bull_count", 0),
+            "bear_count": info.get("bear_count", 0),
+            "bull_top_strategy": bull_top.get("strategy"),
+            "bear_top_strategy": bear_top.get("strategy"),
+        }
+    return out
+
+
+def write_last_scan_snapshot(
+    *,
+    crypto_only: bool,
+    market_status: str,
+    all_signals: list[dict] | None = None,
+    eligibility: dict | None = None,
+    sms_status: dict | None = None,
+    conflicts: dict[str, dict] | None = None,
+    early_exit_reason: str | None = None,
+) -> None:
+    """Persist a per-run eligibility breakdown for `generate_reports.py` to render.
+
+    Writing this on every run (including early exits) lets the report show truthful
+    bucket labels — "fired this run" vs "skipped by ticker cooldown" vs "suppressed
+    by signal cooldown" — instead of inferring them from `state["fired"]` after the
+    fact, which conflates "we just fired it" with "it was suppressed".
+    """
+    all_signals = all_signals or []
+    eligibility = eligibility or {}
+    sms_status = sms_status or {"sent": False, "reason": None, "top_ticker": None, "more_count": 0}
+
+    fired = eligibility.get("new_signals", []) or []
+    sup_signal = eligibility.get("suppressed_signal_cooldown", []) or []
+    sup_ticker = eligibility.get("suppressed_ticker_cooldown", []) or []
+    snoozed = eligibility.get("snoozed_signals", []) or []
+    below = eligibility.get("below_threshold", []) or []
+    bypassed = eligibility.get("bypassed_signal_cooldown", []) or []
+    bypassed_signals = [pair[0] if isinstance(pair, tuple) else pair for pair in bypassed]
+
+    bullish = [s for s in all_signals if s.get("direction") == "BULLISH"]
+    bearish = [s for s in all_signals if s.get("direction") == "BEARISH"]
+
+    now = datetime.now().astimezone()
+    payload = {
+        "scan_at_iso": now.isoformat(),
+        "scan_human": now.strftime("%A %B %d, %Y at %I:%M %p"),
+        "crypto_only": crypto_only,
+        "market_status": market_status,
+        "early_exit_reason": early_exit_reason,
+        "thresholds": {
+            "min_confidence": MIN_CONFIDENCE,
+            "alert_cooldown_hours": ALERT_COOLDOWN_HOURS,
+            "sms_cooldown_hours": SMS_COOLDOWN_HOURS,
+            "high_confidence_15m_threshold": HIGH_CONFIDENCE_15M_THRESHOLD,
+            "cooldown_bypass_move_pct": COOLDOWN_BYPASS_MOVE_PCT,
+        },
+        "totals": {
+            "scanned": len(all_signals),
+            "above_threshold": len(all_signals) - len(below),
+            "bullish": len(bullish),
+            "bearish": len(bearish),
+            "fired_this_run": len(fired),
+            "suppressed_signal_cooldown": len(sup_signal),
+            "suppressed_ticker_cooldown": len(sup_ticker),
+            "bypassed_signal_cooldown": len(bypassed_signals),
+            "snoozed": len(snoozed),
+            "below_threshold": len(below),
+        },
+        "buckets": {
+            "fired_this_run": [_slim_signal_for_snapshot(s) for s in fired],
+            "suppressed_signal_cooldown": [_slim_signal_for_snapshot(s) for s in sup_signal],
+            "suppressed_ticker_cooldown": [_slim_signal_for_snapshot(s) for s in sup_ticker],
+            "bypassed_signal_cooldown": [_slim_signal_for_snapshot(s) for s in bypassed_signals],
+            "snoozed": [_slim_signal_for_snapshot(s) for s in snoozed],
+        },
+        "sms": sms_status,
+        "conflicts": _slim_conflicts(conflicts or {}),
+        "conflict_threshold": CONFLICT_MIN_SCORE,
+    }
+    try:
+        with open(LAST_SCAN_FILE, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, default=str)
+    except Exception as exc:
+        logger.warning("Failed to write %s: %s", LAST_SCAN_FILE, exc)
 
 
 def make_state_key(signal: dict) -> str:
@@ -493,6 +607,76 @@ def filter_eligible_alert_signals(all_signals: list[dict], state: dict) -> dict:
         "bypassed_signal_cooldown": bypassed_signal_cooldown,
         "price_cache": price_cache,
     }
+
+
+def compute_ticker_conflicts(
+    signals: list[dict],
+    min_score: float | None = None,
+) -> dict[str, dict]:
+    """Identify tickers with simultaneous BULLISH and BEARISH signals above threshold.
+
+    Returns a mapping {ticker: {"bull_max", "bear_max", "bull_top", "bear_top",
+    "bull_count", "bear_count"}} for tickers where both directions cross the
+    threshold. Used so we can mark contested headlines (e.g. an MRVL breakout
+    firing at the same time as RSI Overbought and Fisher Transform High Extreme).
+    """
+    threshold = CONFLICT_MIN_SCORE if min_score is None else float(min_score)
+    if threshold <= 0:
+        return {}
+    by_ticker: dict[str, dict] = {}
+    for s in signals:
+        t = s.get("ticker")
+        d = s.get("direction")
+        try:
+            conf = float(s.get("confidence", 0))
+        except (TypeError, ValueError):
+            continue
+        if not t or d not in ("BULLISH", "BEARISH") or conf < threshold:
+            continue
+        entry = by_ticker.setdefault(
+            t,
+            {
+                "bull_max": 0.0,
+                "bear_max": 0.0,
+                "bull_top": None,
+                "bear_top": None,
+                "bull_count": 0,
+                "bear_count": 0,
+            },
+        )
+        if d == "BULLISH":
+            entry["bull_count"] += 1
+            if conf > entry["bull_max"]:
+                entry["bull_max"] = conf
+                entry["bull_top"] = s
+        else:
+            entry["bear_count"] += 1
+            if conf > entry["bear_max"]:
+                entry["bear_max"] = conf
+                entry["bear_top"] = s
+    return {
+        t: e for t, e in by_ticker.items()
+        if e["bull_max"] >= threshold and e["bear_max"] >= threshold
+    }
+
+
+def select_sms_top_signal(
+    new_signals: list[dict],
+    conflicts: dict[str, dict],
+) -> tuple[dict | None, bool]:
+    """Pick the SMS headline signal, returning (signal, is_conflicted).
+
+    We always pick the highest-confidence eligible signal (so the SMS still
+    highlights the strongest setup), but flag whether its ticker is contested
+    so the SMS body can prefix ⚠ MIXED and show the opposing-side score.
+    """
+    if not new_signals:
+        return None, False
+    ordered = sorted(
+        new_signals, key=lambda s: float(s.get("confidence", 0)), reverse=True
+    )
+    top = ordered[0]
+    return top, top.get("ticker") in conflicts
 
 
 def sms_may_send(state: dict) -> bool:
@@ -905,18 +1089,39 @@ def build_alert_email(
 
 # ─── SMS Sender ───────────────────────────────────────────────────────────────
 
-def send_sms(signals: list[dict]) -> bool:
-    """Send a concise plain-text SMS summary via email-to-SMS gateway."""
+def send_sms(
+    signals: list[dict],
+    *,
+    conflicts: dict[str, dict] | None = None,
+    top_signal: dict | None = None,
+) -> bool:
+    """Send a concise plain-text SMS summary via email-to-SMS gateway.
+
+    If `top_signal` is provided we use that as the headline (caller already ran
+    the conflict-aware selector); otherwise fall back to `signals[0]`. When the
+    headline ticker is in `conflicts`, prefix the body with `⚠ MIXED` and include
+    a one-line opposing-side summary so the lock-screen text never hides a
+    contested setup.
+    """
     if not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
         return False
     try:
-        top = signals[0]
+        top = top_signal or signals[0]
         direction = "BUY" if top["direction"] == "BULLISH" else "SELL"
-        body = (
-            f"{direction}: {top['ticker']} | {top['strategy']}\n"
-            f"Score: {top['confidence']:.0f}/100\n"
-            f"{top.get('indicator', '')}"
-        )
+        conflicts = conflicts or {}
+        conflict_info = conflicts.get(top.get("ticker"))
+
+        if conflict_info:
+            opp_dir = "BEAR" if top["direction"] == "BULLISH" else "BULL"
+            opp_max = conflict_info["bear_max"] if top["direction"] == "BULLISH" else conflict_info["bull_max"]
+            opp_count = conflict_info["bear_count"] if top["direction"] == "BULLISH" else conflict_info["bull_count"]
+            header = f"\u26a0 MIXED {direction}: {top['ticker']} | {top['strategy']}"
+            score_line = f"Score: {top['confidence']:.0f} (vs {opp_dir} top {opp_max:.0f}, n={opp_count})"
+        else:
+            header = f"{direction}: {top['ticker']} | {top['strategy']}"
+            score_line = f"Score: {top['confidence']:.0f}/100"
+
+        body = f"{header}\n{score_line}\n{top.get('indicator', '')}"
         if len(signals) > 1:
             body += f"\n+{len(signals) - 1} more"
         if len(body) > SMS_BODY_MAX:
@@ -971,14 +1176,25 @@ def main(crypto_only: bool = False) -> None:
     else:
         all_signals = run_full_scan(SCAN_TICKERS)
 
+    market_status = market_status_str()
+
     if not all_signals:
         logger.info("No signals above score threshold — no alert sent.")
+        write_last_scan_snapshot(
+            crypto_only=crypto_only,
+            market_status=market_status,
+            all_signals=[],
+            eligibility={},
+            sms_status={"sent": False, "reason": "no_signals", "top_ticker": None, "more_count": 0},
+            early_exit_reason="no_signals_above_threshold",
+        )
         return
 
     state = load_state()
     state = prune_state(state)
 
     eligibility = filter_eligible_alert_signals(all_signals, state)
+    sms_status: dict = {"sent": False, "reason": None, "top_ticker": None, "more_count": 0}
     active_signals = eligibility["active_signals"]
     new_signals = eligibility["new_signals"]
     snoozed = eligibility["snoozed_signals"]
@@ -996,6 +1212,15 @@ def main(crypto_only: bool = False) -> None:
 
     if not active_signals:
         logger.info("All signals are currently snoozed — no alert sent.")
+        sms_status["reason"] = "all_snoozed"
+        write_last_scan_snapshot(
+            crypto_only=crypto_only,
+            market_status=market_status,
+            all_signals=all_signals,
+            eligibility=eligibility,
+            sms_status=sms_status,
+            early_exit_reason="all_snoozed",
+        )
         return
 
     hi_tickers = {
@@ -1030,6 +1255,15 @@ def main(crypto_only: bool = False) -> None:
     if not new_signals:
         logger.info(f"No new signals outside {ALERT_COOLDOWN_HOURS}h cooldown — skipping.")
         save_state(state)
+        sms_status["reason"] = "all_in_cooldown"
+        write_last_scan_snapshot(
+            crypto_only=crypto_only,
+            market_status=market_status,
+            all_signals=all_signals,
+            eligibility=eligibility,
+            sms_status=sms_status,
+            early_exit_reason="all_in_cooldown",
+        )
         return
 
     logger.info(f"{len(new_signals)} new signal(s) to alert on:")
@@ -1103,25 +1337,58 @@ def main(crypto_only: bool = False) -> None:
         intraday_15m_html=intraday_15m_html,
     )
     send_email(subject, html)
-    top_for_sms = new_signals[0] if new_signals else None
+
+    # Conflicts are computed over `active_signals` (everything firing on the ticker right
+    # now, regardless of cooldown) so a contested headline gets flagged even when the
+    # opposing-side signal happens to be in suppression for this run.
+    conflicts = compute_ticker_conflicts(active_signals)
+    if conflicts:
+        logger.info(
+            "Ticker conflicts (BULL+BEAR ≥ %.0f) on %d ticker(s): %s",
+            CONFLICT_MIN_SCORE,
+            len(conflicts),
+            ", ".join(
+                f"{t} (BULL {c['bull_max']:.0f}/{c['bull_count']} vs BEAR {c['bear_max']:.0f}/{c['bear_count']})"
+                for t, c in list(conflicts.items())[:8]
+            ) + (" ..." if len(conflicts) > 8 else ""),
+        )
+    top_for_sms, top_is_conflicted = select_sms_top_signal(new_signals, conflicts)
+    if top_for_sms:
+        sms_status["top_ticker"] = top_for_sms["ticker"]
+        sms_status["more_count"] = max(0, len(new_signals) - 1)
+        sms_status["conflicted"] = top_is_conflicted
+        if top_is_conflicted:
+            c = conflicts[top_for_sms["ticker"]]
+            opp_dir = "BEAR" if top_for_sms["direction"] == "BULLISH" else "BULL"
+            opp_max = c["bear_max"] if top_for_sms["direction"] == "BULLISH" else c["bull_max"]
+            opp_count = c["bear_count"] if top_for_sms["direction"] == "BULLISH" else c["bull_count"]
+            sms_status["conflict_opposing_dir"] = opp_dir
+            sms_status["conflict_opposing_top_score"] = opp_max
+            sms_status["conflict_opposing_count"] = opp_count
     sms_ticker_blocked = bool(top_for_sms and ticker_channel_in_cooldown(state, top_for_sms["ticker"], "sms"))
     if sms_ticker_blocked:
+        sms_status["reason"] = f"ticker_cooldown:{top_for_sms['ticker']}"
         logger.info(
             f"SMS skipped: ticker cooldown for {top_for_sms['ticker']} ({ticker_cooldown_hours(state, top_for_sms['ticker'], 'sms')}h)."
         )
     elif sms_may_send(state):
-        if send_sms(new_signals):
+        if send_sms(new_signals, conflicts=conflicts, top_signal=top_for_sms):
+            sms_status["sent"] = True
             state["last_sms_at"] = datetime.now().astimezone().isoformat()
             if top_for_sms:
                 state.setdefault("sms_ticker_last_sent", {})[top_for_sms["ticker"]] = (
                     datetime.now().astimezone().isoformat()
                 )
         else:
+            sms_status["reason"] = "send_failed"
             logger.warning("SMS failed; cooldown timestamp not updated so next run can retry.")
     elif SMS_ENABLED and SMS_GATEWAY and EMAIL_SENDER and EMAIL_PASSWORD:
+        sms_status["reason"] = "global_cooldown"
         logger.info(
             f"SMS skipped: global gateway cooldown ({SMS_COOLDOWN_HOURS}h since last SMS) — email sent."
         )
+    else:
+        sms_status["reason"] = "not_configured"
 
     # Record timestamp for each fired signal
     now_iso = datetime.now().astimezone().isoformat()
@@ -1137,6 +1404,15 @@ def main(crypto_only: bool = False) -> None:
         if latest is not None:
             last_price_bucket[key] = latest
     save_state(state)
+
+    write_last_scan_snapshot(
+        crypto_only=crypto_only,
+        market_status=market_status,
+        all_signals=all_signals,
+        eligibility=eligibility,
+        sms_status=sms_status,
+        conflicts=conflicts,
+    )
 
     logger.info("=== Done ===")
 

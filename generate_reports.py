@@ -12,6 +12,7 @@ Usage (called by GitHub Actions after each run):
   python generate_reports.py               # all three
 """
 
+import json
 import os
 import sys
 from datetime import datetime, date
@@ -35,8 +36,186 @@ def _dir_badge(direction: str) -> str:
 
 # ─── Alerts Report ────────────────────────────────────────────────────────────
 
-def generate_alerts_report() -> None:
-    print("Generating reports/ALERTS.md ...")
+# A snapshot older than this is treated as stale and ignored in favor of a live re-scan.
+_ALERT_SNAPSHOT_MAX_AGE_HOURS = 2.0
+
+
+def _load_recent_alert_snapshot(max_age_hours: float = _ALERT_SNAPSHOT_MAX_AGE_HOURS) -> dict | None:
+    """Read last_scan.json if present and recent enough; return None to trigger fallback."""
+    try:
+        from alert_system import LAST_SCAN_FILE
+    except Exception:
+        return None
+    if not os.path.exists(LAST_SCAN_FILE):
+        return None
+    try:
+        with open(LAST_SCAN_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as exc:
+        print(f"  Skipping snapshot (failed to read {LAST_SCAN_FILE}): {exc}")
+        return None
+    scan_at = data.get("scan_at_iso")
+    try:
+        ts = datetime.fromisoformat(scan_at)
+    except (TypeError, ValueError):
+        return None
+    age_hours = (datetime.now().astimezone() - ts.astimezone()).total_seconds() / 3600.0
+    if age_hours > max_age_hours:
+        print(f"  Snapshot is {age_hours:.1f}h old (>{max_age_hours}h) — falling back to live scan.")
+        return None
+    return data
+
+
+def _signal_table(rows: list, header: str, intro: str = "") -> list:
+    if not rows:
+        return []
+    out = [f"## {header}", ""]
+    if intro:
+        out += [intro, ""]
+    out += [
+        "| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |",
+        "|---|---|---|---|---|---|---|",
+    ]
+    for s in rows:
+        wr  = s.get("win_rate", "?")
+        avg = s.get("avg_return", "?")
+        sh  = s.get("sharpe", "?")
+        out.append(
+            f"| {_dir_badge(s.get('direction', 'BULLISH'))} | **{s.get('ticker', '?')}** | {s.get('strategy', '?')} "
+            f"| {s.get('confidence', '?')} | {wr}% | {avg}% | {sh} |"
+        )
+    out.append("")
+    return out
+
+
+def _format_alerts_report_from_snapshot(snap: dict) -> list:
+    """Render ALERTS.md from the per-run breakdown written by alert_system.py."""
+    totals = snap.get("totals", {}) or {}
+    buckets = snap.get("buckets", {}) or {}
+    sms = snap.get("sms", {}) or {}
+    thresholds = snap.get("thresholds", {}) or {}
+    scan_human = snap.get("scan_human", "")
+    crypto_only = snap.get("crypto_only", False)
+    early_exit = snap.get("early_exit_reason")
+    min_conf = thresholds.get("min_confidence", 50)
+    alert_h = thresholds.get("alert_cooldown_hours", 6)
+
+    fired = buckets.get("fired_this_run", [])
+    sup_ticker = buckets.get("suppressed_ticker_cooldown", [])
+    sup_signal = buckets.get("suppressed_signal_cooldown", [])
+    bypassed = buckets.get("bypassed_signal_cooldown", [])
+    snoozed = buckets.get("snoozed", [])
+
+    title_suffix = "  _(crypto-only scan)_" if crypto_only else ""
+    lines = [
+        "# Strategy Alerts",
+        f"**Last scan:** {scan_human}{title_suffix}",
+        "",
+        "## Scan Summary",
+        "",
+        "| | Count |",
+        "|---|---|",
+        f"| Total signals scanned (confidence ≥ {min_conf:g}) | {totals.get('above_threshold', 0)} |",
+        f"| 🟢 Bullish | {totals.get('bullish', 0)} |",
+        f"| 🔴 Bearish | {totals.get('bearish', 0)} |",
+        f"| ✅ Fired this run (SMS + email) | {totals.get('fired_this_run', 0)} |",
+        f"| ⏭ Skipped — same ticker notified in last {alert_h}h | {totals.get('suppressed_ticker_cooldown', 0)} |",
+        f"| ⏸ Suppressed — same signal already fired in last {alert_h}h | {totals.get('suppressed_signal_cooldown', 0)} |",
+        f"| 🚀 Bypassed cooldown (large price move) | {totals.get('bypassed_signal_cooldown', 0)} |",
+        f"| 😴 Snoozed by strategy/ticker | {totals.get('snoozed', 0)} |",
+        f"| ⚠ Tickers with conflicting BULL+BEAR signals | {len(snap.get('conflicts') or {})} |",
+        "",
+    ]
+
+    if early_exit:
+        lines += [f"_Run ended early: **{early_exit}** — no email or SMS dispatched._", ""]
+
+    if sms.get("sent"):
+        top = sms.get("top_ticker", "—")
+        more = sms.get("more_count", 0)
+        sms_lines = [
+            "## 📲 SMS sent",
+            "",
+            f"- Top signal in the text: **{top}**",
+            f"- Bundled into the same SMS: **+{more} more**",
+        ]
+        if sms.get("conflicted"):
+            sms_lines.append(
+                f"- ⚠ **Headline ticker was contested** — opposing-side "
+                f"top score **{sms.get('conflict_opposing_top_score', '?')}** "
+                f"({sms.get('conflict_opposing_count', '?')} {sms.get('conflict_opposing_dir', '?')} signals)."
+            )
+        sms_lines.append("")
+        lines += sms_lines
+    elif sms.get("reason"):
+        lines += [
+            "## 📲 SMS not sent",
+            "",
+            f"_Reason: `{sms['reason']}`_",
+            "",
+        ]
+
+    conflicts = snap.get("conflicts") or {}
+    if conflicts:
+        cthr = snap.get("conflict_threshold", 65)
+        lines += [
+            f"## ⚠ Conflicting tickers (both directions ≥ {cthr:g})",
+            "",
+            "Tickers where bullish *and* bearish strategies are firing above the conflict threshold "
+            "at the same time. Treat the headline as one input only.",
+            "",
+            "| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |",
+            "|---|---|---:|---:|---|---:|---:|",
+        ]
+        for ticker in sorted(
+            conflicts.keys(),
+            key=lambda t: max(
+                float(conflicts[t].get("bull_max") or 0),
+                float(conflicts[t].get("bear_max") or 0),
+            ),
+            reverse=True,
+        ):
+            info = conflicts[ticker]
+            lines.append(
+                f"| **{ticker}** "
+                f"| {info.get('bull_top_strategy', '?')} | {info.get('bull_max', '?')} | {info.get('bull_count', 0)} "
+                f"| {info.get('bear_top_strategy', '?')} | {info.get('bear_max', '?')} | {info.get('bear_count', 0)} |"
+            )
+        lines.append("")
+
+    lines += _signal_table(
+        fired,
+        "✅ Fired this run (SMS + email)",
+        intro="Signals that **actually triggered** an SMS / email on this run.",
+    )
+    lines += _signal_table(
+        sup_ticker,
+        "⏭ Skipped — same ticker already notified",
+        intro=f"Above-threshold signals dropped because another strategy on the same ticker fired within the last {alert_h}h ticker-cooldown window.",
+    )
+    lines += _signal_table(
+        sup_signal,
+        "⏸ Suppressed — same signal already fired",
+        intro=f"The exact ticker + strategy pair fired within the last {alert_h}h, and the price did not move enough to bypass the cooldown.",
+    )
+    lines += _signal_table(
+        bypassed,
+        "🚀 Bypassed cooldown (large price move)",
+        intro="Signal would normally be in cooldown, but the price moved enough since the last alert to re-fire.",
+    )
+    lines += _signal_table(snoozed, "😴 Snoozed", intro="Strategy or ticker is currently snoozed.")
+
+    lines += ["---", "*Not financial advice. Backtests use historical data.*"]
+    return lines
+
+
+def _format_alerts_report_from_live_scan() -> list:
+    """Legacy fallback: re-scan the market when no fresh snapshot is available.
+
+    Without the per-run buckets we can only tell whether each signal is currently in
+    `state["fired"]` — we cannot distinguish "fired this run" from "fired earlier today"
+    or from "ticker-cooldown suppressed". The labels below reflect that limitation.
+    """
     from strategy_engine import run_full_scan
     from alert_system import (
         load_state,
@@ -49,14 +228,14 @@ def generate_alerts_report() -> None:
     state    = load_state()
     now      = datetime.now()
 
-    fired    = [s for s in signals if already_fired_recently(state, make_state_key(s))]
-    new_sigs = [s for s in signals if not already_fired_recently(state, make_state_key(s))]
-    bullish  = [s for s in signals if s["direction"] == "BULLISH"]
-    bearish  = [s for s in signals if s["direction"] == "BEARISH"]
+    in_cooldown = [s for s in signals if already_fired_recently(state, make_state_key(s))]
+    available   = [s for s in signals if not already_fired_recently(state, make_state_key(s))]
+    bullish     = [s for s in signals if s["direction"] == "BULLISH"]
+    bearish     = [s for s in signals if s["direction"] == "BEARISH"]
 
     lines = [
         "# Strategy Alerts",
-        f"**Last scan:** {now.strftime('%A %B %d, %Y at %I:%M %p')}",
+        f"**Last scan:** {now.strftime('%A %B %d, %Y at %I:%M %p')}  _(live re-scan; per-run snapshot unavailable)_",
         "",
         "## Scan Summary",
         "",
@@ -65,35 +244,12 @@ def generate_alerts_report() -> None:
         f"| Total signals (confidence ≥ 45) | {len(signals)} |",
         f"| 🟢 Bullish | {len(bullish)} |",
         f"| 🔴 Bearish | {len(bearish)} |",
-        f"| ✅ New alerts fired this window | {len(new_sigs)} |",
-        f"| ⏸ Suppressed (already sent within {ALERT_COOLDOWN_HOURS}h) | {len(fired)} |",
+        f"| 🔵 In cooldown (fired in last {ALERT_COOLDOWN_HOURS}h) | {len(in_cooldown)} |",
+        f"| 🟡 Available to fire (not in cooldown) | {len(available)} |",
+        "",
+        "_Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._",
         "",
     ]
-
-    if new_sigs:
-        lines += [
-            "## ✅ New Signals This Window",
-            "",
-            "| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |",
-            "|---|---|---|---|---|---|---|",
-        ]
-        for s in new_sigs:
-            d5  = s.get("backtest", {}).get("5d", {})
-            wr  = d5.get("win_rate", "?")
-            avg = d5.get("avg_return", "?")
-            sh  = d5.get("sharpe", "?")
-            lines.append(
-                f"| {_dir_badge(s['direction'])} | **{s['ticker']}** | {s['strategy']} "
-                f"| {s['confidence']} | {wr}% | {avg}% | {sh} |"
-            )
-        lines.append("")
-    else:
-        lines += [
-            "## ✅ New Signals",
-            "",
-            f"_No new signals this window — all still inside {ALERT_COOLDOWN_HOURS}h cooldown._",
-            "",
-        ]
 
     lines += [
         "## All Active Signals",
@@ -106,13 +262,24 @@ def generate_alerts_report() -> None:
         d5   = s.get("backtest", {}).get("5d", {})
         wr   = d5.get("win_rate", "?")
         dd   = d5.get("max_drawdown", "?")
-        stat = "⏸ Suppressed" if already_fired_recently(state, key) else "✅ New"
+        stat = f"🔵 In cooldown (≤{ALERT_COOLDOWN_HOURS}h)" if already_fired_recently(state, key) else "🟡 Available"
         lines.append(
             f"| {_dir_badge(s['direction'])} | **{s['ticker']}** | {s['strategy']} "
             f"| {s['confidence']} | {wr}% | {dd}% | {stat} |"
         )
 
     lines += ["", "---", "*Not financial advice. Backtests use historical data.*"]
+    return lines
+
+
+def generate_alerts_report() -> None:
+    print("Generating reports/ALERTS.md ...")
+    snapshot = _load_recent_alert_snapshot()
+    if snapshot is not None:
+        print(f"  Using snapshot from {snapshot.get('scan_human', '?')}.")
+        lines = _format_alerts_report_from_snapshot(snapshot)
+    else:
+        lines = _format_alerts_report_from_live_scan()
     _write("ALERTS.md", lines)
 
 
