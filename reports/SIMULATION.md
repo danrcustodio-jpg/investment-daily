@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 26** &nbsp;·&nbsp; Updated: Jun 03 2026 08:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 26** &nbsp;·&nbsp; Updated: Jun 03 2026 10:59 PM
 
 ## Performance Summary
 
@@ -42,7 +42,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 03 2026 08:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 03 2026 10:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -52,7 +52,7 @@ _Evaluated Jun 03 2026 08:50 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** PPO — Bullish Cross — Score 83.2, Win Rate 73.7%, Avg 5d Return 3.57%, Max Drawdown -12.18%, Sharpe 3.46. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 83.2, Win Rate 73.7%, Avg 5d Return 3.57%, Max Drawdown -12.18%, Sharpe 3.46. 1 minor bearish signal(s), max confidence 53.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
@@ -64,7 +64,7 @@ _Evaluated Jun 03 2026 08:50 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** MFI — Oversold — Score 87.0, Win Rate 80.0%, Avg 5d Return 1.15%, Max Drawdown -2.65%, Sharpe 5.77. 1 minor bearish signal(s), max confidence 46.8.
+**Signal Analysis:** MFI — Oversold — Score 87.0, Win Rate 80.0%, Avg 5d Return 1.15%, Max Drawdown -2.65%, Sharpe 5.79. 1 minor bearish signal(s), max confidence 46.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
