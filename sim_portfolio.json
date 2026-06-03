@@ -186,6 +186,15 @@
       "prices": {
         "SPY": 759.5700073242188
       }
+    },
+    {
+      "date": "2026-06-03",
+      "total_value": 196476.31,
+      "portfolio_pnl": 1.276,
+      "benchmark_pnl": 6.762,
+      "prices": {
+        "SPY": 755.6500244140625
+      }
     }
   ],
   "recommendations": [
@@ -211,13 +220,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 87.0, Win Rate 80.0%, Avg 5d Return 1.16%, Max Drawdown -2.65%, Sharpe 5.83. 1 minor bearish signal(s), max confidence 46.9.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 87.0, Win Rate 80.0%, Avg 5d Return 1.16%, Max Drawdown -2.65%, Sharpe 5.81. 1 minor bearish signal(s), max confidence 46.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-03T17:28:16.075230",
+  "recommendations_updated": "2026-06-03T17:57:52.853855",
   "trade_log": [
     {
       "action": "SELL",
