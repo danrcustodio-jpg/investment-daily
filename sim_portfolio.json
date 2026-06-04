@@ -200,9 +200,9 @@
       "date": "2026-06-04",
       "total_value": 196500.45,
       "portfolio_pnl": 1.289,
-      "benchmark_pnl": 6.883,
+      "benchmark_pnl": 7.049,
       "prices": {
-        "SPY": 756.510009765625
+        "SPY": 757.6799926757812
       }
     }
   ],
@@ -235,7 +235,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-06-04T16:18:17.913442",
+  "recommendations_updated": "2026-06-04T18:33:59.730019",
   "trade_log": [
     {
       "action": "SELL",
