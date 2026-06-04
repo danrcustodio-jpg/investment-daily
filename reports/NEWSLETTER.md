@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, June 03, 2026
-Generated at 05:28 PM
+# Daily Newsletter — Thursday, June 04, 2026
+Generated at 03:59 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 192 total &nbsp;·&nbsp; 🟢 108 Bullish &nbsp;·&nbsp; 🔴 84 Bearish
+**Strategy Signals:** 185 total &nbsp;·&nbsp; 🟢 110 Bullish &nbsp;·&nbsp; 🔴 75 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.28 | 📈 +3.23% |
-| **CL=F** | Crude Oil | $96.24 | 📈 +2.65% |
-| **NG=F** | Natural Gas | $3.24 | 📈 +2.24% |
-| **SI=F** | Silver | $73.71 | 📉 -2.12% |
-| **XLE** | Energy (XLE) | $59.10 | 📈 +1.97% |
-| **ETH-USD** | Ethereum | $1824.26 | 📉 -1.80% |
-| **^RUT** | Russell 2000 | $2891.11 | 📉 -1.39% |
-| **BTC-USD** | Bitcoin | $65810.52 | 📉 -1.34% |
-| **SOL-USD** | Solana | $73.16 | 📉 -1.33% |
-| **XLK** | Tech (XLK) | $195.70 | 📉 -1.27% |
+| **NG=F** | Natural Gas | $3.36 | 📈 +4.57% |
+| **CL=F** | Crude Oil | $93.04 | 📉 -3.10% |
+| **XLV** | Healthcare (XLV) | $151.76 | 📈 +2.85% |
+| **SOL-USD** | Solana | $69.65 | 📉 -2.74% |
+| **XLF** | Financials (XLF) | $52.17 | 📈 +2.56% |
+| **^VIX** | VIX (Fear Index) | $15.69 | 📉 -2.30% |
+| **XLK** | Tech (XLK) | $192.34 | 📉 -1.98% |
+| **ETH-USD** | Ethereum | $1775.93 | 📉 -1.98% |
+| **^DJI** | Dow Jones | $51540.10 | 📈 +1.68% |
+| **GC=F** | Gold | $4502.00 | 📈 +1.47% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **MRVL** | 52-Week Breakout | 94.6 | 86.4% |
-| 🟢 BULLISH | **GC=F** | MFI — Oversold | 87.0 | 80.0% |
-| 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 85.2 | 78.9% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 83.8 | 70.4% |
-| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 80.8 | 68.6% |
+| 🟢 BULLISH | **BTC-USD** | MFI — Oversold | 90.0 | 100.0% |
+| 🟢 BULLISH | **AVAX-USD** | MFI — Oversold | 87.7 | 84.6% |
+| 🟢 BULLISH | **DOGE-USD** | MFI — Oversold | 82.0 | 80.0% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 80.3 | 66.7% |
 | 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 79.9 | 64.1% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.7 | 66.3% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 79.3 | 61.2% |
-| 🟢 BULLISH | **AMD** | 52-Week Breakout | 79.2 | 68.0% |
-| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 79.0 | 64.9% |
-| 🟢 BULLISH | **QQQ** | ADX Strong Trend — Bullish | 77.8 | 63.7% |
-| 🟢 BULLISH | **SOXL** | 52-Week Breakout | 77.5 | 67.6% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.6 | 65.8% |
+| 🟢 BULLISH | **SOXL** | ADX Strong Trend — Bullish | 79.6 | 69.1% |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 78.3 | 68.4% |
+| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 75.2 | 66.0% |
+| 🟢 BULLISH | **XLK** | ADX Strong Trend — Bullish | 75.1 | 66.7% |
+| 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 75.0 | 62.3% |
 
 ## Latest News
 
-- [OKLO, OTTR draw highest short interest in utilities sector; BIP and FRVO see lowest short interest](https://seekingalpha.com/news/4600226-oklo-ottr-draw-highest-short-interest-in-utilities-sector-bip-and-frvo-see-lowest-short?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Oil prices look to end at highest levels in over a week: ‘Oil tanks are getting emptier each week Hormuz stays closed’](https://www.marketwatch.com/story/oil-prices-rally-for-a-third-straight-day-as-peace-deal-hopes-teeter-6a0b1635?mod=mw_rss_topstories) — *MarketWatch*
-- [Lilly cuts Germany investment plan in half over healthcare reforms](https://www.investing.com/news/stock-market-news/lilly-cuts-germany-investment-plan-in-half-over-healthcare-reforms-93CH-4724937) — *Investing.com*
-- [C.H. Robinson says it made a breakthrough with its AI global supply chain tech](https://seekingalpha.com/news/4600366-ch-robinson-says-it-made-a-breakthrough-with-its-ai-global-supply-chain-tech?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [BASF's coatings unit sale to Carlyle approved by European Commission](https://seekingalpha.com/news/4600385-basfs-coatings-unit-sale-to-carlyle-approved-by-european-commission?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Macy’s projects $21.5B-$21.75B in FY2026 net sales while raising adjusted EPS view to $2-$2.20](https://seekingalpha.com/news/4600388-macy-s-projects-21_5b-21_75b-in-fy2026-net-sales-while-raising-adjusted-eps-view-to-2-2_20?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Most and least shorted utilities stocks with market caps up to $2B as of end-May](https://seekingalpha.com/news/4600198-most-and-least-shorted-utilities-stocks-with-market-caps-up-to-2b-as-of-end-may?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [ECB to ask banks for targeted measures to counter AI risk](https://www.investing.com/news/economy-news/ecb-to-ask-banks-for-targeted-measures-to-counter-ai-risk-4723629) — *Investing.com*
-- [OpenAI’s Altman to urge US lawmakers not to require AI model approvals](https://www.investing.com/news/economy-news/openais-altman-to-urge-us-lawmakers-not-to-require-ai-model-approvals-4724935) — *Investing.com*
-- [Air Canada sees ’friction’ in delayed deliveries of A321XLR jets](https://www.investing.com/news/stock-market-news/air-canada-sees-friction-in-delayed-deliveries-of-a321xlr-jets-4724934) — *Investing.com*
+- [Ex-Trump advisor John Bolton agrees to plead guilty to retaining classified information: MS NOW](https://www.cnbc.com/2026/06/04/bolton-guilty-plea-trump-national-security-advisor.html) — *CNBC Markets*
+- [Apple's revamped Siri may run on Nvidia chips from Google: report](https://seekingalpha.com/news/4600761-apples-revamped-siri-may-run-on-nvidia-chips-from-google-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Broker stocks rally as FINRA scraps $25K day-trading rule](https://www.investing.com/news/stock-market-news/broker-stocks-rally-as-finra-scraps-25k-daytrading-rule-4727104) — *Investing.com*
+- [Form 144 Ibotta For: 4 June](https://www.investing.com/news/filings/form-144-ibotta-for-4-june-93CH-4727103) — *Investing.com*
+- [Liftoff shares rise 9.1% in debut after $437 million IPO](https://www.investing.com/news/stock-market-news/liftoff-shares-rise-91-in-debut-after-437-million-ipo-93CH-4727102) — *Investing.com*
+- [CleanTech Lithium proposes stock options for executives](https://www.investing.com/news/company-news/cleantech-lithium-proposes-stock-options-for-executives-93CH-4727101) — *Investing.com*
+- [Goldman Sachs expects SpaceX’s AI revenue to surge 100-fold by 2030, FT reports](https://www.investing.com/news/stock-market-news/goldman-sachs-expects-spacexs-ai-revenue-to-surge-100fold-by-2030-ft-reports-4727070) — *Investing.com*
+- [United Rentals, Grainger among industrials reaching 52-week highs](https://seekingalpha.com/news/4600760-united-rentals-grainger-among-industrials-reaching-52-week-highs?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Form 144 M&T BANK CORP For: 4 June](https://www.investing.com/news/filings/form-144-mt-bank-corp-for-4-june-93CH-4727099) — *Investing.com*
+- [CELH shares fall: Texas AG investigates Celsius over Alani Nu child safety claims](https://www.investing.com/news/stock-market-news/celh-shares-fall-texas-ag-investigates-celsius-over-alani-nu-child-safety-claims-4727097) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

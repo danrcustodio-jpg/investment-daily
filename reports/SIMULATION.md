@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 26** &nbsp;·&nbsp; Updated: Jun 03 2026 10:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 27** &nbsp;·&nbsp; Updated: Jun 04 2026 03:59 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.28%** &nbsp; ($+2,476) |
-| SPY Benchmark | +6.56% &nbsp; ($+12,732 if 100% SPY) |
-| Alpha vs SPY | **-5.29%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.29%** &nbsp; ($+2,500) |
+| SPY Benchmark | +6.72% &nbsp; ($+13,047 if 100% SPY) |
+| Alpha vs SPY | **-5.44%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,476 |
+| Current Value | $196,500 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+628 | +0.32% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+652 | +0.33% |
 
 ## Daily Equity Curve
 
@@ -42,31 +42,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 03 2026 10:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 04 2026 03:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | PPO — Bullish Cross — Score 83.2, Win Rate 73.7%, Avg 5d Return 3.57%, Max Drawdown -12.18… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Keltner — Lower Channel Touch — Score 72.2, Win Rate 70.8%, Avg 5d Return 2.86%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | MFI — Oversold — Score 87.0, Win Rate 80.0%, Avg 5d Return 1.15%, Max Drawdown -2.65%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 87.7, Win Rate 84.6%, Avg 5d Return 9.6%, Max Drawdown -2.79%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 82.0, Win Rate 80.0%, Avg 5d Return 9.78%, Max Drawdown -6.88%, Sha… |
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — AVAX-USD
 
-**Signal Analysis:** PPO — Bullish Cross — Score 83.2, Win Rate 73.7%, Avg 5d Return 3.57%, Max Drawdown -12.18%, Sharpe 3.46. 1 minor bearish signal(s), max confidence 53.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — DOGE-USD
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 72.2, Win Rate 70.8%, Avg 5d Return 2.86%, Max Drawdown -53.06%, Sharpe 2.44. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 87.7, Win Rate 84.6%, Avg 5d Return 9.6%, Max Drawdown -2.79%, Sharpe 8.0. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** MFI — Oversold — Score 87.0, Win Rate 80.0%, Avg 5d Return 1.15%, Max Drawdown -2.65%, Sharpe 5.79. 1 minor bearish signal(s), max confidence 46.9.
+**Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. 1 minor bearish signal(s), max confidence 53.8.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** MFI — Oversold — Score 82.0, Win Rate 80.0%, Avg 5d Return 9.78%, Max Drawdown -6.88%, Sharpe 6.99. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
