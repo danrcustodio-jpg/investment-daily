@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 27** &nbsp;·&nbsp; Updated: Jun 04 2026 10:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 28** &nbsp;·&nbsp; Updated: Jun 05 2026 03:36 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.29%** &nbsp; ($+2,500) |
-| SPY Benchmark | +6.96% &nbsp; ($+13,513 if 100% SPY) |
-| Alpha vs SPY | **-5.68%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.30%** &nbsp; ($+2,525) |
+| SPY Benchmark | +5.64% &nbsp; ($+10,950 if 100% SPY) |
+| Alpha vs SPY | **-4.34%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,500 |
+| Current Value | $196,525 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+652 | +0.33% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+676 | +0.35% |
 
 ## Daily Equity Curve
 
@@ -43,7 +43,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 04 2026 10:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 05 2026 03:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -59,7 +59,7 @@ _Evaluated Jun 04 2026 10:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. 1 minor bearish signal(s), max confidence 53.8.
+**Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. 1 minor bearish signal(s), max confidence 49.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
