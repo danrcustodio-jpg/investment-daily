@@ -20,6 +20,7 @@ logs/
 
 # Sensitive local files
 .ngrok_token
+.ngrok_url
 ngrok.exe
 
 # Windows

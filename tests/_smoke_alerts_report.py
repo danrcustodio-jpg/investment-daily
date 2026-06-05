@@ -226,6 +226,22 @@ def main() -> int:
             )
         finally:
             smtplib.SMTP_SSL = real_smtp_ssl  # type: ignore[assignment]
+
+        # Multi-ticker fan-out: 4 new signals across 3 unique tickers should
+        # produce 3 distinct SMS sends (one per ticker, highest-conf rule wins
+        # per ticker). MRVL appears twice and the higher-conf rule should win.
+        fanout_sigs = [
+            _full("BULLISH", "MRVL", "52-Week Breakout",          95, "MRVL strong"),
+            _full("BULLISH", "MRVL", "ADX Strong Trend — Bullish", 84, "MRVL also"),
+            _full("BULLISH", "ARM",  "52-Week Breakout",          90, "ARM strong"),
+            _full("BEARISH", "QQQ",  "RSI Overbought",            72, "QQQ overbought"),
+        ]
+        top_per_ticker = _als.select_sms_per_ticker_signals(fanout_sigs)
+        assert [s["ticker"] for s in top_per_ticker] == ["MRVL", "ARM", "QQQ"], (
+            f"unexpected per-ticker order: {[s['ticker'] for s in top_per_ticker]}"
+        )
+        assert top_per_ticker[0]["confidence"] == 95, "MRVL should keep its 95-conf rule, not the 84"
+        print("OK: select_sms_per_ticker_signals dedupes by ticker and orders by confidence.")
         return 0
     finally:
         if had_snap:

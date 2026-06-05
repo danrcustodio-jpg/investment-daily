@@ -131,14 +131,24 @@ def _format_alerts_report_from_snapshot(snap: dict) -> list:
         lines += [f"_Run ended early: **{early_exit}** — no email or SMS dispatched._", ""]
 
     if sms.get("sent"):
-        top = sms.get("top_ticker", "—")
-        more = sms.get("more_count", 0)
+        tickers_sent = sms.get("tickers_sent") or [sms.get("top_ticker", "—")]
+        sent_count = sms.get("sent_count", len(tickers_sent))
+        skipped = sms.get("tickers_skipped_cooldown") or []
+        over_cap = sms.get("tickers_over_cap") or []
         sms_lines = [
-            "## 📲 SMS sent",
+            f"## 📲 SMS sent ({sent_count})",
             "",
-            f"- Top signal in the text: **{top}**",
-            f"- Bundled into the same SMS: **+{more} more**",
+            f"- One text per ticker: **{', '.join(tickers_sent)}**",
         ]
+        if skipped:
+            sms_lines.append(
+                f"- Skipped — per-ticker cooldown: **{', '.join(skipped)}**"
+            )
+        if over_cap:
+            sms_lines.append(
+                f"- Skipped — over per-scan cap: **{', '.join(over_cap)}** "
+                f"(visible on dashboard)"
+            )
         if sms.get("conflicted"):
             sms_lines.append(
                 f"- ⚠ **Headline ticker was contested** — opposing-side "

@@ -56,6 +56,7 @@ jobs:
           SMS_GATEWAY: ${{ secrets.SMS_GATEWAY }}
           SMS_ENABLE: ${{ secrets.SMS_ENABLE }}
           SMS_COOLDOWN_HOURS: ${{ secrets.SMS_COOLDOWN_HOURS }}
+          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: |
           for attempt in 1 2 3; do
             python alert_system.py && break

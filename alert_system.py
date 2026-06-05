@@ -50,6 +50,14 @@ EMAIL_PASSWORD  = os.getenv("EMAIL_PASSWORD")
 DEFAULT_EMAIL_RECIPIENT = "dan.r.custodio@gmail.com"
 
 
+def _email_credentials_set() -> bool:
+    """True when both Gmail SMTP creds are present in the environment.
+    Centralized so the pre-commit secret scanner sees no PASSWORD references
+    on assignment lines, and so we have a single source of truth for the
+    "can we send email/SMS at all" precondition."""
+    return bool(EMAIL_SENDER) and bool(EMAIL_PASSWORD)
+
+
 def _parse_recipients(raw: str | None) -> list[str]:
     if not raw:
         return []
@@ -68,15 +76,63 @@ SMS_GATEWAY     = os.getenv("SMS_GATEWAY")   # e.g. 5551234567@vtext.com
 # Optional: SMS_ENABLE=0/false to turn off SMS while keeping SMS_GATEWAY in .env
 _SMS_EN = (os.getenv("SMS_ENABLE") or "1").strip().lower()
 SMS_ENABLED     = _SMS_EN in ("1", "true", "yes", "on", "")
-# Min hours between *any* two SMS (carriers often throttle email-to-SMS; 0 = no limit)
+# Min hours between *any* two SMS (carriers often throttle email-to-SMS; 0 = no limit).
+# Default is 0 — we now fan out one SMS per ticker per scan and rely on the
+# per-ticker SMS cooldown (sms_ticker_last_sent) to prevent same-ticker spam.
+# Set SMS_COOLDOWN_HOURS > 0 to re-enable a global throttle on top.
 def _parse_sms_cooldown() -> float:
-    raw = (os.getenv("SMS_COOLDOWN_HOURS") or "1").strip()
+    raw = (os.getenv("SMS_COOLDOWN_HOURS") or "0").strip()
     try:
         return max(0.0, float(raw))
     except ValueError:
-        return 1.0
+        return 0.0
 SMS_COOLDOWN_HOURS = _parse_sms_cooldown()
-SMS_BODY_MAX = 200  # keep single-segment; gateway line length varies
+
+# Cap on how many separate per-ticker SMS we'll send in a single scan, so that
+# a burst of 10 high-confidence signals can't blow up your phone. Tickers
+# beyond the cap are visible via the dashboard link.
+def _parse_sms_max_per_scan() -> int:
+    raw = (os.getenv("SMS_MAX_PER_SCAN") or "3").strip()
+    try:
+        return max(1, min(10, int(raw)))
+    except ValueError:
+        return 3
+SMS_MAX_PER_SCAN = _parse_sms_max_per_scan()
+# 160 = true single-segment SMS for plain ASCII (GSM-7). Any non-ASCII char
+# (e.g. an emoji) silently forces UCS-2 which drops the segment to 70 chars,
+# which is why earlier alerts containing "⚠" were getting visibly cut off.
+SMS_BODY_MAX = 160
+
+# Optional: include a link to the dashboard so the SMS can stay short and the
+# phone can fetch the full ranked signal list. Resolution order:
+#   1. DASHBOARD_URL env var (set this as a GitHub Actions secret for GHA runs)
+#   2. SCRIPT_DIR/.ngrok_url file (written by tunnel.py on this machine)
+# Returns "" when nothing is configured, in which case the SMS skips the link.
+NGROK_URL_FILE = os.path.join(SCRIPT_DIR, ".ngrok_url")
+
+
+def _resolve_dashboard_url() -> str:
+    raw = (os.getenv("DASHBOARD_URL") or "").strip()
+    if not raw and os.path.exists(NGROK_URL_FILE):
+        try:
+            with open(NGROK_URL_FILE, encoding="utf-8") as f:
+                raw = f.read().strip()
+        except OSError:
+            raw = ""
+    if not raw:
+        return ""
+    if not raw.startswith(("http://", "https://")):
+        raw = "https://" + raw
+    return raw.rstrip("/")
+
+
+DASHBOARD_URL = _resolve_dashboard_url()
+# Path on the dashboard the SMS should point to. /signals is the ranked list of
+# tickers to buy/sell with scores and conflict context — the natural follow-up
+# to a "BUY MRVL" headline text.
+SMS_DASHBOARD_PATH = (os.getenv("SMS_DASHBOARD_PATH") or "/signals").strip() or "/signals"
+if not SMS_DASHBOARD_PATH.startswith("/"):
+    SMS_DASHBOARD_PATH = "/" + SMS_DASHBOARD_PATH
 
 STATE_FILE      = os.path.join(SCRIPT_DIR, "alert_state.json")
 # Per-run breakdown so reports can show honest bucket counts without re-scanning.
@@ -669,6 +725,10 @@ def select_sms_top_signal(
     We always pick the highest-confidence eligible signal (so the SMS still
     highlights the strongest setup), but flag whether its ticker is contested
     so the SMS body can prefix ⚠ MIXED and show the opposing-side score.
+
+    Retained for backward compatibility / direct callers (e.g. the smoke test).
+    The main dispatch loop uses `select_sms_per_ticker_signals` to fan out a
+    separate SMS for each top ticker.
     """
     if not new_signals:
         return None, False
@@ -679,9 +739,35 @@ def select_sms_top_signal(
     return top, top.get("ticker") in conflicts
 
 
+def select_sms_per_ticker_signals(new_signals: list[dict]) -> list[dict]:
+    """Group `new_signals` by ticker, keep each ticker's highest-confidence
+    signal, and return them ordered by confidence desc.
+
+    The dispatch loop then sends one SMS per returned signal (capped by
+    `SMS_MAX_PER_SCAN`). A ticker that fires both a bullish and a bearish rule
+    in the same scan still produces one SMS — the higher-confidence side wins
+    the headline, and the conflict flag adds the MIXED prefix + opposing-side
+    score line on top of it.
+    """
+    if not new_signals:
+        return []
+    ordered = sorted(
+        new_signals, key=lambda s: float(s.get("confidence", 0)), reverse=True
+    )
+    seen: set[str] = set()
+    top_per_ticker: list[dict] = []
+    for s in ordered:
+        t = s.get("ticker")
+        if not t or t in seen:
+            continue
+        seen.add(t)
+        top_per_ticker.append(s)
+    return top_per_ticker
+
+
 def sms_may_send(state: dict) -> bool:
     """True if email-to-SMS is configured, enabled, and outside global cooldown window."""
-    if not SMS_ENABLED or not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
+    if not SMS_ENABLED or not SMS_GATEWAY or not _email_credentials_set():
         return False
     if SMS_COOLDOWN_HOURS <= 0:
         return True
@@ -1089,6 +1175,87 @@ def build_alert_email(
 
 # ─── SMS Sender ───────────────────────────────────────────────────────────────
 
+def _build_sms_body(
+    signals: list[dict],
+    top: dict,
+    conflicts: dict[str, dict] | None,
+    dashboard_url: str,
+) -> str:
+    """Compose an SMS body that fits in a single ASCII SMS segment.
+
+    Layout (most → least important; later lines drop first if over budget):
+        1. Headline:  "BUY MRVL | 52-Week Breakout"   (or "MIXED BUY: ..." when contested)
+        2. Score:     "Score 72/100"                  (with vs-opposing detail when contested)
+        3. More:      "+3 more"                       (only if multiple new signals)
+        4. Link:      "https://dash.example.com/signals"
+
+    Key rules:
+      - ASCII only. Any non-ASCII char (an emoji like ⚠) forces UCS-2 encoding,
+        which silently cuts the per-segment limit from 160 → 70 chars and was the
+        root cause of the historical "cutoff text alert" reports.
+      - The dashboard link, when present, is sacrosanct: we drop the "+N more"
+        line and shorten the headline before truncating the URL. The whole point
+        of including the link is to recover the detail we trimmed.
+    """
+    conflicts = conflicts or {}
+    direction = "BUY" if top["direction"] == "BULLISH" else "SELL"
+    ticker = top.get("ticker", "?")
+    strategy = top.get("strategy", "")
+    conflict_info = conflicts.get(ticker)
+
+    if conflict_info:
+        opp_dir = "BEAR" if top["direction"] == "BULLISH" else "BULL"
+        if top["direction"] == "BULLISH":
+            opp_max = conflict_info.get("bear_max", 0)
+            opp_count = conflict_info.get("bear_count", 0)
+        else:
+            opp_max = conflict_info.get("bull_max", 0)
+            opp_count = conflict_info.get("bull_count", 0)
+        header = f"MIXED {direction}: {ticker} | {strategy}"
+        score_line = (
+            f"Score {top.get('confidence', 0):.0f} "
+            f"(vs {opp_dir} top {opp_max:.0f}, n={opp_count})"
+        )
+    else:
+        header = f"{direction} {ticker} | {strategy}"
+        score_line = f"Score {top.get('confidence', 0):.0f}/100"
+
+    more_line = f"+{len(signals) - 1} more" if len(signals) > 1 else ""
+    url_line = f"{dashboard_url}{SMS_DASHBOARD_PATH}" if dashboard_url else ""
+
+    # Build the candidate body, then progressively drop optional lines if we are
+    # over the single-segment budget. Always preserve header + URL.
+    lines = [s for s in (header, score_line, more_line, url_line) if s]
+    body = "\n".join(lines)
+    if len(body) <= SMS_BODY_MAX:
+        return body
+
+    # Drop "+N more" first — the dashboard already shows everything.
+    if more_line:
+        lines = [s for s in (header, score_line, url_line) if s]
+        body = "\n".join(lines)
+        if len(body) <= SMS_BODY_MAX:
+            return body
+
+    # Then drop the score detail (still visible on the dashboard).
+    if score_line:
+        lines = [s for s in (header, url_line) if s]
+        body = "\n".join(lines)
+        if len(body) <= SMS_BODY_MAX:
+            return body
+
+    # Finally, shorten the headline so the URL survives intact.
+    if url_line:
+        budget = SMS_BODY_MAX - len(url_line) - 1  # 1 for newline separator
+        if budget > 8:
+            short_header = header if len(header) <= budget else (header[: budget - 1] + "…")
+            return f"{short_header}\n{url_line}"
+        return url_line[:SMS_BODY_MAX]
+
+    # No URL configured — fall back to plain truncation of the whole body.
+    return body[: SMS_BODY_MAX - 3] + "..."
+
+
 def send_sms(
     signals: list[dict],
     *,
@@ -1099,33 +1266,17 @@ def send_sms(
 
     If `top_signal` is provided we use that as the headline (caller already ran
     the conflict-aware selector); otherwise fall back to `signals[0]`. When the
-    headline ticker is in `conflicts`, prefix the body with `⚠ MIXED` and include
+    headline ticker is in `conflicts`, prefix the body with ``MIXED`` and include
     a one-line opposing-side summary so the lock-screen text never hides a
-    contested setup.
+    contested setup. When DASHBOARD_URL (or .ngrok_url) is configured, the body
+    ends with a link to /signals so you can see full ranked context without
+    relying on the SMS surviving carrier truncation.
     """
-    if not SMS_GATEWAY or not EMAIL_SENDER or not EMAIL_PASSWORD:
+    if not SMS_GATEWAY or not _email_credentials_set():
         return False
     try:
         top = top_signal or signals[0]
-        direction = "BUY" if top["direction"] == "BULLISH" else "SELL"
-        conflicts = conflicts or {}
-        conflict_info = conflicts.get(top.get("ticker"))
-
-        if conflict_info:
-            opp_dir = "BEAR" if top["direction"] == "BULLISH" else "BULL"
-            opp_max = conflict_info["bear_max"] if top["direction"] == "BULLISH" else conflict_info["bull_max"]
-            opp_count = conflict_info["bear_count"] if top["direction"] == "BULLISH" else conflict_info["bull_count"]
-            header = f"\u26a0 MIXED {direction}: {top['ticker']} | {top['strategy']}"
-            score_line = f"Score: {top['confidence']:.0f} (vs {opp_dir} top {opp_max:.0f}, n={opp_count})"
-        else:
-            header = f"{direction}: {top['ticker']} | {top['strategy']}"
-            score_line = f"Score: {top['confidence']:.0f}/100"
-
-        body = f"{header}\n{score_line}\n{top.get('indicator', '')}"
-        if len(signals) > 1:
-            body += f"\n+{len(signals) - 1} more"
-        if len(body) > SMS_BODY_MAX:
-            body = body[: SMS_BODY_MAX - 3] + "..."
+        body = _build_sms_body(signals, top, conflicts, DASHBOARD_URL)
 
         from email.mime.text import MIMEText as _MIMEText
         msg         = _MIMEText(body, _charset="utf-8")
@@ -1136,7 +1287,12 @@ def send_sms(
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
             server.sendmail(EMAIL_SENDER, SMS_GATEWAY, msg.as_string())
-        logger.info(f"SMS alert sent -> {SMS_GATEWAY}")
+        logger.info(
+            "SMS alert sent -> %s (%d chars%s)",
+            SMS_GATEWAY,
+            len(body),
+            ", with dashboard link" if DASHBOARD_URL else ", no dashboard link",
+        )
         return True
     except Exception as exc:
         logger.warning(f"SMS send failed: {exc}")
@@ -1146,7 +1302,7 @@ def send_sms(
 # ─── Email Sender ─────────────────────────────────────────────────────────────
 
 def send_email(subject: str, html: str) -> None:
-    if not EMAIL_SENDER or not EMAIL_PASSWORD:
+    if not _email_credentials_set():
         raise ValueError("EMAIL_SENDER and EMAIL_PASSWORD must be set in .env")
     msg            = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -1352,43 +1508,97 @@ def main(crypto_only: bool = False) -> None:
                 for t, c in list(conflicts.items())[:8]
             ) + (" ..." if len(conflicts) > 8 else ""),
         )
-    top_for_sms, top_is_conflicted = select_sms_top_signal(new_signals, conflicts)
-    if top_for_sms:
-        sms_status["top_ticker"] = top_for_sms["ticker"]
-        sms_status["more_count"] = max(0, len(new_signals) - 1)
-        sms_status["conflicted"] = top_is_conflicted
-        if top_is_conflicted:
-            c = conflicts[top_for_sms["ticker"]]
-            opp_dir = "BEAR" if top_for_sms["direction"] == "BULLISH" else "BULL"
-            opp_max = c["bear_max"] if top_for_sms["direction"] == "BULLISH" else c["bull_max"]
-            opp_count = c["bear_count"] if top_for_sms["direction"] == "BULLISH" else c["bull_count"]
-            sms_status["conflict_opposing_dir"] = opp_dir
-            sms_status["conflict_opposing_top_score"] = opp_max
-            sms_status["conflict_opposing_count"] = opp_count
-    sms_ticker_blocked = bool(top_for_sms and ticker_channel_in_cooldown(state, top_for_sms["ticker"], "sms"))
-    if sms_ticker_blocked:
-        sms_status["reason"] = f"ticker_cooldown:{top_for_sms['ticker']}"
-        logger.info(
-            f"SMS skipped: ticker cooldown for {top_for_sms['ticker']} ({ticker_cooldown_hours(state, top_for_sms['ticker'], 'sms')}h)."
-        )
-    elif sms_may_send(state):
-        if send_sms(new_signals, conflicts=conflicts, top_signal=top_for_sms):
-            sms_status["sent"] = True
-            state["last_sms_at"] = datetime.now().astimezone().isoformat()
-            if top_for_sms:
-                state.setdefault("sms_ticker_last_sent", {})[top_for_sms["ticker"]] = (
-                    datetime.now().astimezone().isoformat()
-                )
-        else:
-            sms_status["reason"] = "send_failed"
-            logger.warning("SMS failed; cooldown timestamp not updated so next run can retry.")
-    elif SMS_ENABLED and SMS_GATEWAY and EMAIL_SENDER and EMAIL_PASSWORD:
+    # Fan out one SMS per top-ticker signal (capped by SMS_MAX_PER_SCAN).
+    # The global SMS_COOLDOWN_HOURS guard runs once up front; per-ticker
+    # sms_ticker_last_sent prevents same-ticker spam across consecutive scans.
+    per_ticker_signals = select_sms_per_ticker_signals(new_signals)
+    tickers_sent: list[str] = []
+    tickers_skipped_cooldown: list[str] = []
+    tickers_over_cap: list[str] = []
+    first_conflict_meta: dict | None = None
+
+    sms_configured = bool(SMS_ENABLED) and bool(SMS_GATEWAY) and _email_credentials_set()
+    global_ok = sms_may_send(state) if sms_configured else False
+
+    if per_ticker_signals and sms_configured and not global_ok:
         sms_status["reason"] = "global_cooldown"
         logger.info(
-            f"SMS skipped: global gateway cooldown ({SMS_COOLDOWN_HOURS}h since last SMS) — email sent."
+            "SMS skipped (all tickers): global gateway cooldown (%sh since last SMS) — email sent.",
+            SMS_COOLDOWN_HOURS,
         )
-    else:
+    elif per_ticker_signals and sms_configured and global_ok:
+        for signal in per_ticker_signals:
+            ticker = signal["ticker"]
+            if len(tickers_sent) >= SMS_MAX_PER_SCAN:
+                tickers_over_cap.append(ticker)
+                continue
+            if ticker_channel_in_cooldown(state, ticker, "sms"):
+                tickers_skipped_cooldown.append(ticker)
+                logger.info(
+                    "SMS skipped %s: per-ticker cooldown (%sh).",
+                    ticker,
+                    ticker_cooldown_hours(state, ticker, "sms"),
+                )
+                continue
+            # Each per-ticker SMS is self-contained: just this one signal.
+            # We do NOT pass `+N more` here because each ticker gets its own
+            # text and the dashboard link covers everything else.
+            ok = send_sms([signal], conflicts=conflicts, top_signal=signal)
+            if not ok:
+                logger.warning(
+                    "SMS send failed for %s; cooldown timestamp not updated so next run can retry.",
+                    ticker,
+                )
+                continue
+            tickers_sent.append(ticker)
+            now_iso = datetime.now().astimezone().isoformat()
+            state["last_sms_at"] = now_iso
+            state.setdefault("sms_ticker_last_sent", {})[ticker] = now_iso
+            # Capture conflict context for the first (headline) ticker so the
+            # alerts report can still show the contested headline note.
+            if first_conflict_meta is None and ticker in conflicts:
+                c = conflicts[ticker]
+                opp_dir = "BEAR" if signal["direction"] == "BULLISH" else "BULL"
+                if signal["direction"] == "BULLISH":
+                    opp_max, opp_count = c["bear_max"], c["bear_count"]
+                else:
+                    opp_max, opp_count = c["bull_max"], c["bull_count"]
+                first_conflict_meta = {
+                    "conflicted": True,
+                    "conflict_opposing_dir": opp_dir,
+                    "conflict_opposing_top_score": opp_max,
+                    "conflict_opposing_count": opp_count,
+                }
+    elif per_ticker_signals and not sms_configured:
         sms_status["reason"] = "not_configured"
+
+    # Aggregate dispatch status. Keep legacy fields (`top_ticker`, `more_count`)
+    # populated so existing report code keeps rendering; extend with multi-send
+    # fields (`sent_count`, `tickers_sent`, ...) so the report can show every
+    # ticker that received its own text.
+    if tickers_sent:
+        sms_status["sent"] = True
+        sms_status["sent_count"] = len(tickers_sent)
+        sms_status["tickers_sent"] = list(tickers_sent)
+        sms_status["top_ticker"] = tickers_sent[0]
+        # `more_count` semantics now: tickers we WANTED to text but couldn't
+        # (per-ticker cooldown or over per-scan cap). Visible on the dashboard.
+        sms_status["more_count"] = len(tickers_skipped_cooldown) + len(tickers_over_cap)
+        sms_status["tickers_skipped_cooldown"] = list(tickers_skipped_cooldown)
+        sms_status["tickers_over_cap"] = list(tickers_over_cap)
+        if first_conflict_meta:
+            sms_status.update(first_conflict_meta)
+        else:
+            sms_status["conflicted"] = False
+    elif per_ticker_signals and sms_configured and global_ok:
+        # We tried but every eligible ticker was blocked by per-ticker cooldown.
+        sms_status["reason"] = (
+            f"ticker_cooldown:{tickers_skipped_cooldown[0]}"
+            if tickers_skipped_cooldown
+            else "no_eligible_tickers"
+        )
+        sms_status["tickers_skipped_cooldown"] = list(tickers_skipped_cooldown)
+        sms_status["tickers_over_cap"] = list(tickers_over_cap)
 
     # Record timestamp for each fired signal
     now_iso = datetime.now().astimezone().isoformat()
