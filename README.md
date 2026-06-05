@@ -29,8 +29,11 @@ Day 72 &nbsp;·&nbsp; Portfolio **+1.70%** vs SPY +5.02% &nbsp;·&nbsp; Alpha �
 |---|---|
 | Daily Newsletter | 7:30 AM ET every day |
 | Strategy Alerts | Every 30 min, Mon–Fri, 9:30 AM – 4:00 PM ET |
+| Contract Alerts | 7:30 AM ET, Mon–Fri (federal contract awards via USAspending.gov) |
 | Alert cooldown | Same ticker+strategy: at most once per 6 hours |
+| Contract dedup | Same award ID: emailed at most once (state retained 90 days) |
 | Signals tracked | 28 tickers × 30 strategy detectors |
+| Contractors watched | 60 tickers (curated defense/IT/healthcare + SCAN_TICKERS overlap) |
 
 ## Docs
 

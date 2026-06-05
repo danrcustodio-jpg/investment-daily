@@ -302,6 +302,49 @@ atr_val = float(df["ATR_14"].iloc[-1]) if "ATR_14" in df.columns else None
 
 ---
 
+## Recipe 11: Add a New Contractor to the Federal Contract Watchlist
+
+The contract-alert scanner (`contract_alerts.py`) checks the USAspending.gov API for newly-awarded federal contracts to a curated list of publicly-traded companies. To add a new ticker:
+
+**Step 1:** Add it to `WATCHLIST` in `contract_watchlist.py`:
+
+```python
+WATCHLIST: Dict[str, List[str]] = {
+    # ... existing ...
+    "TICKER": [
+        "primary legal entity name",     # how the parent appears on contracts
+        "well-known subsidiary",         # subsidiaries that receive their own awards
+    ],
+}
+```
+
+**Pattern rules:**
+- All lowercase substrings; matching is case-insensitive `pat in recipient_name.lower()`
+- Be specific enough to avoid false positives. `"general"` would match too many companies; `"general dynamics"` is safe.
+- Look up the company on https://www.usaspending.gov/recipient to see how its name is actually recorded.
+- Subsidiary mismatches are okay — a `BA` contract awarded to "Spirit AeroSystems" (a Boeing supplier, not subsidiary) will not match, which is correct behavior for ticker mapping.
+
+**Step 2:** Test it with a dry-run, no email:
+
+```powershell
+python contract_alerts.py --dry-run --ticker TICKER --days 30 --min-amount 1000000
+```
+
+This calls the API once and prints any matched contracts. The smoke test in `tests/test_contracts.py` also validates the resolver — re-run it after editing:
+
+```powershell
+python tests/test_contracts.py
+```
+
+**Step 3 (optional):** If the ticker is also worth tracking technically, add it to `SCAN_TICKERS` in `strategy_engine.py` (see Recipe 1). Any ticker in `SCAN_TICKERS` without a curated `WATCHLIST` entry auto-gets its company name as the sole pattern.
+
+To **remove** a ticker from contract scanning:
+- If it's only in `WATCHLIST`: delete the entry.
+- If it's in `SCAN_TICKERS` and you want to keep it for strategy alerts but stop contract scanning: set `WATCHLIST["TICKER"] = []` (empty list — `scan()` skips empty-pattern tickers explicitly, and an existing key in `WATCHLIST` blocks the SCAN_TICKERS company-name fallback).
+- If you want to opt out everywhere: add it to `_NON_RECIPIENT_TICKERS` in `contract_watchlist.py`.
+
+---
+
 ## Common Errors and Fixes
 
 | Error | Cause | Fix |

@@ -60,6 +60,25 @@ Three independent runtimes + one shared library:
 8. save_state()             → write alert_state.json
 ```
 
+### Federal Contract Alerts (`contract_alerts.py → main()`)
+
+```
+1. resolve_watchlist()       → contract_watchlist.WATCHLIST ∪ SCAN_TICKERS (~60 tickers)
+2. load_state() + prune_state()  → contract_state.json (90d retention)
+3. for ticker in resolved:
+     fetch_contracts_for_ticker()  → POST api.usaspending.gov/api/v2/search/spending_by_award/
+                                      (recipient_search_text=patterns, type A/B/C/D,
+                                       amount >= MIN_AMOUNT, last N days)
+     filter_new_awards()    → drop already-seen generated_internal_id
+                              + defensive re-match against resolved patterns
+4. if new awards:
+     build_contract_email() → HTML, one section per ticker, one card per contract
+     send_email()           → reuses alert_system.send_email (Gmail SMTP)
+     save_state()           → persist new generated_internal_id values
+```
+
+Runs daily at 7:30 AM ET on weekdays via [.github/workflows/contracts.yml](../.github/workflows/contracts.yml). Lookback is 7 days by default so awards reported late on Fri/Sat/Sun (USAspending has a 1-3 day reporting lag) are still caught Monday.
+
 ### Alert Deduplication (`alert_state.json`)
 
 ```json
@@ -207,6 +226,53 @@ Reuters Business, CNBC Markets, MarketWatch, Yahoo Finance, Seeking Alpha, Inves
 
 ---
 
+### `contract_alerts.py` + `contract_watchlist.py`
+
+Daily federal-contract scanner. Polls [USAspending.gov](https://www.usaspending.gov) for newly-awarded contracts to publicly-traded companies on the watchlist and emails a roundup.
+
+**Key functions in `contract_alerts.py`:**
+
+| Function | What it does |
+|---|---|
+| `fetch_contracts_for_ticker(ticker, patterns, ...)` | POST to `spending_by_award/` for one ticker; filters by type A/B/C/D, time period, amount, recipient text |
+| `filter_new_awards(rows, state, resolved, ...)` | Drop already-seen `generated_internal_id`s and rows whose recipient doesn't actually map back to a watched ticker |
+| `normalize_award(raw, ticker)` | Flatten raw API row into stable email-renderable dict |
+| `load_state` / `save_state` / `prune_state` | Read/write `contract_state.json`; prune entries older than 90 days |
+| `build_contract_card(award)` | HTML card for one contract: recipient, amount, agency, description, NAICS, view button |
+| `build_contract_email(by_ticker, ...)` | Returns `(subject, html)` — subject includes top tickers + total $ for inbox preview |
+| `scan(...)` | Full orchestration: resolve watchlist → loop tickers → load/update state → return new-awards dict |
+| `main()` | CLI entrypoint; sends email via `alert_system.send_email` (Gmail SMTP) |
+
+**`contract_watchlist.py`:**
+
+| Symbol | Purpose |
+|---|---|
+| `WATCHLIST` | Curated `{ticker: [recipient_name_pattern, ...]}` dict for ~50 known federal contractors. Patterns are lowercase substrings of the USAspending Recipient Name field. |
+| `resolve_watchlist()` | Returns the effective watchlist: `WATCHLIST ∪ SCAN_TICKERS` (fallback uses company name from `SCAN_TICKERS`). Crypto, futures, and broad-market ETFs are excluded. |
+| `match_ticker(recipient_name, resolved)` | Reverse lookup: returns the ticker whose patterns best match a given recipient name, or `None`. Longest match wins on ambiguity. |
+
+**Config (env vars):**
+
+| Var | Default | Notes |
+|---|---|---|
+| `CONTRACT_MIN_AMOUNT` | `1000000` | Minimum award amount in USD. Smaller contracts ($5k purchase orders) are noise. |
+| `CONTRACT_LOOKBACK_DAYS` | `7` | Days back from "today" to query. 7 covers weekend reporting lag. |
+| `EMAIL_SENDER` / `EMAIL_PASSWORD` / `EMAIL_RECIPIENTS` | (shared) | Same Gmail App Password setup as the other entry points. |
+
+**CLI flags:**
+
+```bash
+python contract_alerts.py --dry-run                    # parse + log, no email, no state write
+python contract_alerts.py --ticker LMT                 # one ticker only (for testing)
+python contract_alerts.py --days 30 --min-amount 5000000
+```
+
+**Dedup key** is `generated_internal_id` from the API (stable per award; modifications won't re-fire). State file is `contract_state.json`, tracked by git.
+
+**Award types filtered** are USAspending codes A (BPA Call), B (Purchase Order), C (Delivery Order), D (Definitive Contract). Grants and loans are intentionally excluded.
+
+---
+
 ### `dashboard.py`
 
 **Flask routes:**
@@ -242,6 +308,16 @@ Task Name: InvestmentDailyAlerts
   Action:  python C:\Users\Owner\InvestmentDaily\alert_system.py
   Registered by: schedule_alerts.ps1
   Note: alert_system.py self-guards via is_market_open() — does nothing outside NYSE hours
+```
+
+Contract alerts run on GitHub Actions only (no Windows Task Scheduler counterpart),
+since they don't need market-hours timing:
+
+```
+GitHub Actions: .github/workflows/contracts.yml
+  Trigger: cron '30 12 * * 1-5' (~7:30 AM ET weekdays)
+  Action:  python contract_alerts.py
+  Commits contract_state.json back to repo so dedup persists between runs.
 ```
 
 ---

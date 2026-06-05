@@ -32,8 +32,8 @@ desktop.ini
 .idea/
 *.swp
 
-# NOTE: alert_state.json and sim_portfolio.json are intentionally tracked
-# by git so state persists between GitHub Actions runs.
+# NOTE: alert_state.json, sim_portfolio.json, and contract_state.json are
+# intentionally tracked by git so state persists between GitHub Actions runs.
 
 # Runtime cache files
 data/cot_positioning_cache.json
