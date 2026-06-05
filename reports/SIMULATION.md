@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 28** &nbsp;·&nbsp; Updated: Jun 05 2026 09:18 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 28** &nbsp;·&nbsp; Updated: Jun 05 2026 10:40 PM
 
 ## Performance Summary
 
@@ -44,23 +44,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 05 2026 09:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 05 2026 10:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 80.8, Win Rate 74.1%, Avg 5d Return 4.5%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 87.7, Win Rate 84.6%, Avg 5d Return 9.6%, Max Drawdown -2.79%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 82.0, Win Rate 80.0%, Avg 5d Return 9.78%, Max Drawdown -6.88%, Sha… |
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 80.8, Win Rate 74.1%, Avg 5d Return 4.5%, Max Drawdown -12.47%, Sharpe 3.86. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — AVAX-USD
 
 **Signal Analysis:** MFI — Oversold — Score 87.7, Win Rate 84.6%, Avg 5d Return 9.6%, Max Drawdown -2.79%, Sharpe 8.0. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — BTC-USD
-
-**Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. 1 minor bearish signal(s), max confidence 50.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
