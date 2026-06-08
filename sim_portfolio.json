@@ -218,9 +218,9 @@
       "date": "2026-06-08",
       "total_value": 196597.04,
       "portfolio_pnl": 1.339,
-      "benchmark_pnl": 4.469,
+      "benchmark_pnl": 4.441,
       "prices": {
-        "SPY": 739.4199829101562
+        "SPY": 739.219970703125
       }
     }
   ],
@@ -236,9 +236,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 81.2, Win Rate 76.0%, Avg 5d Return 6.54%, Max Drawdown -22.65%, Sharpe 3.33. 2 minor bearish signal(s), max confidence 60.8.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown -10.34%, Sharpe 3.73. 1 minor bearish signal(s), max confidence 61.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -253,7 +253,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-08T19:16:58.221742",
+  "recommendations_updated": "2026-06-08T21:24:25.465480",
   "trade_log": [
     {
       "action": "SELL",

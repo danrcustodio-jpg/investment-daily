@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 07:16 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 09:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.34%** &nbsp; ($+2,597) |
-| SPY Benchmark | +4.46% &nbsp; ($+8,646 if 100% SPY) |
-| Alpha vs SPY | **-3.12%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.44% &nbsp; ($+8,615 if 100% SPY) |
+| Alpha vs SPY | **-3.10%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,597 |
 
@@ -41,16 +41,16 @@
 | 2026-06-03 | 📈 +1.28% | +6.56% | ❌ -5.29% |
 | 2026-06-04 | 📈 +1.29% | +6.96% | ❌ -5.68% |
 | 2026-06-05 | 📈 +1.30% | +4.21% | ❌ -2.90% |
-| 2026-06-08 | 📈 +1.34% | +4.47% | ❌ -3.13% |
+| 2026-06-08 | 📈 +1.34% | +4.44% | ❌ -3.10% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 08 2026 07:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 08 2026 09:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 81.2, Win Rate 76.0%, Avg 5d Return 6.54%, Max Drawdown -22.65%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
@@ -59,9 +59,9 @@ _Evaluated Jun 08 2026 07:16 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** OBV — Accumulation — Score 81.2, Win Rate 76.0%, Avg 5d Return 6.54%, Max Drawdown -22.65%, Sharpe 3.33. 2 minor bearish signal(s), max confidence 60.8.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown -10.34%, Sharpe 3.73. 1 minor bearish signal(s), max confidence 61.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
