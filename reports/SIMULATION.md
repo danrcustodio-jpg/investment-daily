@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 09:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 10:55 PM
 
 ## Performance Summary
 
@@ -45,25 +45,25 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 08 2026 09:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 08 2026 10:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19… |
+
+### 🔍 NEW OPPORTUNITY — AVAX-USD
+
+**Signal Analysis:** MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sharpe 11.19. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
 **Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown -10.34%, Sharpe 3.73. 1 minor bearish signal(s), max confidence 61.7.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
