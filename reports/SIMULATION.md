@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 04:44 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 07:16 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.34%** &nbsp; ($+2,597) |
-| SPY Benchmark | +4.84% &nbsp; ($+9,393 if 100% SPY) |
-| Alpha vs SPY | **-3.50%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.46% &nbsp; ($+8,646 if 100% SPY) |
+| Alpha vs SPY | **-3.12%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,597 |
 
@@ -41,35 +41,35 @@
 | 2026-06-03 | 📈 +1.28% | +6.56% | ❌ -5.29% |
 | 2026-06-04 | 📈 +1.29% | +6.96% | ❌ -5.68% |
 | 2026-06-05 | 📈 +1.30% | +4.21% | ❌ -2.90% |
-| 2026-06-08 | 📈 +1.34% | +4.84% | ❌ -3.50% |
+| 2026-06-08 | 📈 +1.34% | +4.47% | ❌ -3.13% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 08 2026 04:44 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 08 2026 07:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 83.2, Win Rate 77.4%, Avg 5d Return 2.1%, Max Drawdown -8.66%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** OBV — Accumulation — Score 83.2, Win Rate 77.4%, Avg 5d Return 2.1%, Max Drawdown -8.66%, Sharpe 4.11. 1 minor bearish signal(s), max confidence 59.1.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — AVAX-USD
-
-**Signal Analysis:** MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sharpe 11.19. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 81.2, Win Rate 76.0%, Avg 5d Return 6.54%, Max Drawdown -22.65%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
 **Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — IONQ
+
+**Signal Analysis:** OBV — Accumulation — Score 81.2, Win Rate 76.0%, Avg 5d Return 6.54%, Max Drawdown -22.65%, Sharpe 3.33. 2 minor bearish signal(s), max confidence 60.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19.07%, Sharpe 5.03. 1 minor bearish signal(s), max confidence 70.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
