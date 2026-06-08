@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 30** &nbsp;·&nbsp; Updated: Jun 07 2026 02:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 31** &nbsp;·&nbsp; Updated: Jun 08 2026 04:36 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.33%** &nbsp; ($+2,573) |
-| SPY Benchmark | +4.21% &nbsp; ($+8,157 if 100% SPY) |
-| Alpha vs SPY | **-2.88%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.34%** &nbsp; ($+2,597) |
+| SPY Benchmark | +4.85% &nbsp; ($+9,417 if 100% SPY) |
+| Alpha vs SPY | **-3.52%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,573 |
+| Current Value | $196,597 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+724 | +0.37% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+749 | +0.38% |
 
 ## Daily Equity Curve
 
@@ -44,29 +44,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 07 2026 02:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 08 2026 04:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 83.2, Win Rate 77.4%, Avg 5d Return 2.1%, Max Drawdown -8.66%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 82.0, Win Rate 70.1%, Avg 5d Return 2.11%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 82.0, Win Rate 80.0%, Avg 5d Return 9.78%, Max Drawdown -6.88%, Sha… |
+
+### 🔍 NEW OPPORTUNITY — AAPL
+
+**Signal Analysis:** OBV — Accumulation — Score 83.2, Win Rate 77.4%, Avg 5d Return 2.1%, Max Drawdown -8.66%, Sharpe 4.11. 1 minor bearish signal(s), max confidence 59.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AVAX-USD
+
+**Signal Analysis:** MFI — Oversold — Score 91.7, Win Rate 91.7%, Avg 5d Return 11.04%, Max Drawdown -2.79%, Sharpe 11.19. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
 **Signal Analysis:** MFI — Oversold — Score 90.0, Win Rate 100.0%, Avg 5d Return 6.28%, Max Drawdown 0.0%, Sharpe 13.72. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 82.0, Win Rate 70.1%, Avg 5d Return 2.11%, Max Drawdown -10.34%, Sharpe 3.81. 1 minor bearish signal(s), max confidence 59.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — DOGE-USD
-
-**Signal Analysis:** MFI — Oversold — Score 82.0, Win Rate 80.0%, Avg 5d Return 9.78%, Max Drawdown -6.88%, Sharpe 6.99. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
