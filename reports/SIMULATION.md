@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 32** &nbsp;·&nbsp; Updated: Jun 09 2026 03:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 32** &nbsp;·&nbsp; Updated: Jun 09 2026 03:51 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.35%** &nbsp; ($+2,621) |
-| SPY Benchmark | +3.34% &nbsp; ($+6,485 if 100% SPY) |
-| Alpha vs SPY | **-1.99%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.33% &nbsp; ($+6,455 if 100% SPY) |
+| Alpha vs SPY | **-1.98%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,621 |
 
@@ -42,15 +42,16 @@
 | 2026-06-04 | 📈 +1.29% | +6.96% | ❌ -5.68% |
 | 2026-06-05 | 📈 +1.30% | +4.21% | ❌ -2.90% |
 | 2026-06-08 | 📈 +1.34% | +4.44% | ❌ -3.10% |
+| 2026-06-09 | 📈 +1.35% | +3.33% | ❌ -1.98% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 09 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 09 2026 03:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 88.8, Win Rate 84.6%, Avg 5d Return 9.05%, Max Drawdown -17.18%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.14%, Max Drawdown -3.98%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.13%, Max Drawdown -4.03%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19… |
 
 ### 🔍 NEW OPPORTUNITY — AVAX-USD
@@ -61,7 +62,7 @@ _Evaluated Jun 09 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.14%, Max Drawdown -3.98%, Sharpe 7.88. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.13%, Max Drawdown -4.03%, Sharpe 7.84. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
