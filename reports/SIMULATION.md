@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 32** &nbsp;·&nbsp; Updated: Jun 09 2026 05:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 32** &nbsp;·&nbsp; Updated: Jun 09 2026 07:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.35%** &nbsp; ($+2,621) |
-| SPY Benchmark | +3.46% &nbsp; ($+6,710 if 100% SPY) |
-| Alpha vs SPY | **-2.11%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.09% &nbsp; ($+7,940 if 100% SPY) |
+| Alpha vs SPY | **-2.74%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,621 |
 
@@ -42,33 +42,33 @@
 | 2026-06-04 | 📈 +1.29% | +6.96% | ❌ -5.68% |
 | 2026-06-05 | 📈 +1.30% | +4.21% | ❌ -2.90% |
 | 2026-06-08 | 📈 +1.34% | +4.44% | ❌ -3.10% |
-| 2026-06-09 | 📈 +1.35% | +3.45% | ❌ -2.10% |
+| 2026-06-09 | 📈 +1.35% | +4.09% | ❌ -2.74% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 09 2026 05:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 09 2026 07:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 88.8, Win Rate 84.6%, Avg 5d Return 9.11%, Max Drawdown -16.42%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.21%, Max Drawdown -3.38%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 88.8, Win Rate 84.6%, Avg 5d Return 9.17%, Max Drawdown -15.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.27%, Max Drawdown -2.81%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | OBV — Accumulation — Score 79.1, Win Rate 69.2%, Avg 5d Return 0.98%, Max Drawdown -8.31%,… |
 
 ### 🔍 NEW OPPORTUNITY — AVAX-USD
 
-**Signal Analysis:** MFI — Oversold — Score 88.8, Win Rate 84.6%, Avg 5d Return 9.11%, Max Drawdown -16.42%, Sharpe 6.65. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 88.8, Win Rate 84.6%, Avg 5d Return 9.17%, Max Drawdown -15.66%, Sharpe 6.81. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.21%, Max Drawdown -3.38%, Sharpe 8.25. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 85.6, Win Rate 88.9%, Avg 5d Return 5.27%, Max Drawdown -2.81%, Sharpe 8.62. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — IWM
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.0, Win Rate 78.2%, Avg 5d Return 4.59%, Max Drawdown -19.07%, Sharpe 5.03. 1 minor bearish signal(s), max confidence 58.8.
+**Signal Analysis:** OBV — Accumulation — Score 79.1, Win Rate 69.2%, Avg 5d Return 0.98%, Max Drawdown -8.31%, Sharpe 2.48. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
