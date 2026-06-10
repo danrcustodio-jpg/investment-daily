@@ -236,9 +236,9 @@
       "date": "2026-06-10",
       "total_value": 196645.33,
       "portfolio_pnl": 1.364,
-      "benchmark_pnl": 3.206,
+      "benchmark_pnl": 2.737,
       "prices": {
-        "SPY": 730.47998046875
+        "SPY": 727.1599731445312
       }
     }
   ],
@@ -247,7 +247,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AVAX-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 85.3, Win Rate 76.9%, Avg 5d Return 8.06%, Max Drawdown -18.27%, Sharpe 5.63. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.3, Win Rate 76.9%, Avg 5d Return 8.03%, Max Drawdown -18.65%, Sharpe 5.58. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "BTC-USD",
+      "priority": "high",
+      "reason": "MFI \u2014 Oversold \u2014 Score 86.0, Win Rate 90.0%, Avg 5d Return 4.82%, Max Drawdown -3.38%, Sharpe 7.75. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -260,18 +269,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
-      "priority": "medium",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 67.9, Win Rate 75.0%, Avg 5d Return 0.77%, Max Drawdown -6.2%, Sharpe 1.73. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-10T16:31:01.820634",
+  "recommendations_updated": "2026-06-10T19:13:21.137546",
   "trade_log": [
     {
       "action": "SELL",
