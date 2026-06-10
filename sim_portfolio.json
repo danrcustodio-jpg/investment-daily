@@ -231,6 +231,15 @@
       "prices": {
         "SPY": 737.0499877929688
       }
+    },
+    {
+      "date": "2026-06-10",
+      "total_value": 196645.33,
+      "portfolio_pnl": 1.364,
+      "benchmark_pnl": 3.206,
+      "prices": {
+        "SPY": 730.47998046875
+      }
     }
   ],
   "recommendations": [
@@ -238,7 +247,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AVAX-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 85.3, Win Rate 76.9%, Avg 5d Return 8.08%, Max Drawdown -18.15%, Sharpe 5.64. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.3, Win Rate 76.9%, Avg 5d Return 8.06%, Max Drawdown -18.27%, Sharpe 5.63. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -262,7 +271,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-10T16:23:18.075388",
+  "recommendations_updated": "2026-06-10T16:31:01.820634",
   "trade_log": [
     {
       "action": "SELL",
