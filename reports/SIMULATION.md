@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 34** &nbsp;·&nbsp; Updated: Jun 11 2026 04:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 34** &nbsp;·&nbsp; Updated: Jun 11 2026 07:29 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.38%** &nbsp; ($+2,669) |
-| SPY Benchmark | +2.87% &nbsp; ($+5,576 if 100% SPY) |
-| Alpha vs SPY | **-1.50%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.26% &nbsp; ($+8,258 if 100% SPY) |
+| Alpha vs SPY | **-2.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,669 |
 
@@ -44,17 +44,23 @@
 | 2026-06-08 | 📈 +1.34% | +4.44% | ❌ -3.10% |
 | 2026-06-09 | 📈 +1.35% | +4.13% | ❌ -2.78% |
 | 2026-06-10 | 📈 +1.36% | +2.49% | ❌ -1.13% |
-| 2026-06-11 | 📈 +1.38% | +2.87% | ❌ -1.50% |
+| 2026-06-11 | 📈 +1.38% | +4.25% | ❌ -2.88% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 11 2026 04:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 11 2026 07:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Dra… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 66.7, Win Rate 55.3%, Avg 5d Return 7.16%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 69.5, Win Rate 59.7%, Avg 5d Return 3.72%, Max Drawdown -65… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 73.6, Win Rate 60.7%, Avg 5d Return 4.1%, Max Drawdown -17… |
+
+### 🔍 NEW OPPORTUNITY — CL=F
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.6, Win Rate 69.1%, Avg 5d Return 2.06%, Max Drawdown -10.34%, Sharpe 3.73. 1 minor bearish signal(s), max confidence 56.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
@@ -62,17 +68,11 @@ _Evaluated Jun 11 2026 04:46 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 66.7, Win Rate 55.3%, Avg 5d Return 7.16%, Max Drawdown -89.45%, Sharpe 1.86. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 73.6, Win Rate 60.7%, Avg 5d Return 4.1%, Max Drawdown -17.22%, Sharpe 3.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 69.5, Win Rate 59.7%, Avg 5d Return 3.72%, Max Drawdown -65.43%, Sharpe 1.99. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
