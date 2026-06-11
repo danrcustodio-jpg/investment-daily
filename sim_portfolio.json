@@ -240,18 +240,18 @@
       "prices": {
         "SPY": 725.4299926757812
       }
+    },
+    {
+      "date": "2026-06-11",
+      "total_value": 196669.47,
+      "portfolio_pnl": 1.376,
+      "benchmark_pnl": 2.874,
+      "prices": {
+        "SPY": 728.135009765625
+      }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "IWM",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 76.3, Win Rate 67.5%, Avg 5d Return 0.9%, Max Drawdown -8.31%, Sharpe 2.25. 1 minor bearish signal(s), max confidence 60.6.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
@@ -265,13 +265,22 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AERO-USD",
       "priority": "medium",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 66.7, Win Rate 55.3%, Avg 5d Return 7.15%, Max Drawdown -89.45%, Sharpe 1.86. No conflicting bearish signals.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 66.7, Win Rate 55.3%, Avg 5d Return 7.16%, Max Drawdown -89.45%, Sharpe 1.86. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "RIOT",
+      "priority": "medium",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 69.5, Win Rate 59.7%, Avg 5d Return 3.72%, Max Drawdown -65.43%, Sharpe 1.99. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-11T16:36:34.978292",
+  "recommendations_updated": "2026-06-11T16:46:32.803386",
   "trade_log": [
     {
       "action": "SELL",
