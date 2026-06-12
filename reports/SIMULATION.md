@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 35** &nbsp;·&nbsp; Updated: Jun 12 2026 03:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 35** &nbsp;·&nbsp; Updated: Jun 12 2026 04:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.39%** &nbsp; ($+2,694) |
-| SPY Benchmark | +4.71% &nbsp; ($+9,138 if 100% SPY) |
-| Alpha vs SPY | **-3.32%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.54% &nbsp; ($+8,798 if 100% SPY) |
+| Alpha vs SPY | **-3.15%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,694 |
 
@@ -45,10 +45,11 @@
 | 2026-06-09 | 📈 +1.35% | +4.13% | ❌ -2.78% |
 | 2026-06-10 | 📈 +1.36% | +2.49% | ❌ -1.13% |
 | 2026-06-11 | 📈 +1.38% | +4.23% | ❌ -2.86% |
+| 2026-06-12 | 📈 +1.39% | +4.53% | ❌ -3.14% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 12 2026 03:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 12 2026 04:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -58,7 +59,7 @@ _Evaluated Jun 12 2026 03:48 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.39. 1 minor bearish signal(s), max confidence 56.5.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.4. 1 minor bearish signal(s), max confidence 56.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 

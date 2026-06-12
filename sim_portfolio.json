@@ -249,6 +249,15 @@
       "prices": {
         "SPY": 737.760009765625
       }
+    },
+    {
+      "date": "2026-06-12",
+      "total_value": 196693.62,
+      "portfolio_pnl": 1.388,
+      "benchmark_pnl": 4.529,
+      "prices": {
+        "SPY": 739.843994140625
+      }
     }
   ],
   "recommendations": [
@@ -256,7 +265,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CL=F",
       "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.39. 1 minor bearish signal(s), max confidence 56.5.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.4. 1 minor bearish signal(s), max confidence 56.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -280,7 +289,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-12T15:48:17.553053",
+  "recommendations_updated": "2026-06-12T16:13:14.885470",
   "trade_log": [
     {
       "action": "SELL",
