@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 35** &nbsp;·&nbsp; Updated: Jun 12 2026 06:23 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 35** &nbsp;·&nbsp; Updated: Jun 12 2026 08:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.39%** &nbsp; ($+2,694) |
-| SPY Benchmark | +4.64% &nbsp; ($+9,009 if 100% SPY) |
-| Alpha vs SPY | **-3.26%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.80% &nbsp; ($+9,308 if 100% SPY) |
+| Alpha vs SPY | **-3.41%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,694 |
 
@@ -45,33 +45,33 @@
 | 2026-06-09 | 📈 +1.35% | +4.13% | ❌ -2.78% |
 | 2026-06-10 | 📈 +1.36% | +2.49% | ❌ -1.13% |
 | 2026-06-11 | 📈 +1.38% | +4.23% | ❌ -2.86% |
-| 2026-06-12 | 📈 +1.39% | +4.64% | ❌ -3.25% |
+| 2026-06-12 | 📈 +1.39% | +4.80% | ❌ -3.41% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 12 2026 06:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 12 2026 08:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Parabolic SAR — Bullish — Score 76.9, Win Rate 56.5%, Avg 5d Return 0.97%, Max Drawdown -3… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.93%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Dra… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 57.9, Win Rate 61.3%, Avg 5d Return 0.94%, Max Drawdown -41… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 56.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — IWM
-
-**Signal Analysis:** Parabolic SAR — Bullish — Score 76.9, Win Rate 56.5%, Avg 5d Return 0.97%, Max Drawdown -3.92%, Sharpe 2.45. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.93%, Max Drawdown -10.34%, Sharpe 3.37. 1 minor bearish signal(s), max confidence 56.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Drawdown 0.0%, Sharpe 13.38. 1 minor bearish signal(s), max confidence 63.9.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Drawdown 0.0%, Sharpe 13.38. 1 minor bearish signal(s), max confidence 64.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AMZN
+
+**Signal Analysis:** Williams %R — Oversold — Score 57.9, Win Rate 61.3%, Avg 5d Return 0.94%, Max Drawdown -41.5%, Sharpe 1.36. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
