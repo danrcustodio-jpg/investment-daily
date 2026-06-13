@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 35** &nbsp;·&nbsp; Updated: Jun 12 2026 10:19 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 36** &nbsp;·&nbsp; Updated: Jun 13 2026 02:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.39%** &nbsp; ($+2,694) |
+| Portfolio P&L | **+1.40%** &nbsp; ($+2,718) |
 | SPY Benchmark | +4.80% &nbsp; ($+9,308 if 100% SPY) |
-| Alpha vs SPY | **-3.41%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.40%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,694 |
+| Current Value | $196,718 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+845 | +0.43% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+869 | +0.44% |
 
 ## Daily Equity Curve
 
@@ -49,17 +49,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 12 2026 10:19 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 13 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.93%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Dra… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 57.9, Win Rate 61.3%, Avg 5d Return 0.94%, Max Drawdown -41… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.93%, Max Drawdown -10.34%, Sharpe 3.37. 1 minor bearish signal(s), max confidence 56.5.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 56.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
