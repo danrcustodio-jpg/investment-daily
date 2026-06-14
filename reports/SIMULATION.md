@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 36** &nbsp;·&nbsp; Updated: Jun 13 2026 02:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 37** &nbsp;·&nbsp; Updated: Jun 14 2026 02:42 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.40%** &nbsp; ($+2,718) |
+| Portfolio P&L | **+1.41%** &nbsp; ($+2,742) |
 | SPY Benchmark | +4.80% &nbsp; ($+9,308 if 100% SPY) |
-| Alpha vs SPY | **-3.40%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,718 |
+| Current Value | $196,742 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+869 | +0.44% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+893 | +0.46% |
 
 ## Daily Equity Curve
 
@@ -49,13 +49,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 13 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 14 2026 02:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 78.0, Win Rate 60.0%, Avg 5d Return 5.87%, Max Drawdown -22.47%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Dra… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 57.9, Win Rate 61.3%, Avg 5d Return 0.94%, Max Drawdown -41… |
+
+### 🔍 NEW OPPORTUNITY — AVAX-USD
+
+**Signal Analysis:** MFI — Oversold — Score 78.0, Win Rate 60.0%, Avg 5d Return 5.87%, Max Drawdown -22.47%, Sharpe 4.06. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
@@ -66,12 +72,6 @@ _Evaluated Jun 13 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Drawdown 0.0%, Sharpe 13.38. 1 minor bearish signal(s), max confidence 64.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — AMZN
-
-**Signal Analysis:** Williams %R — Oversold — Score 57.9, Win Rate 61.3%, Avg 5d Return 0.94%, Max Drawdown -41.5%, Sharpe 1.36. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
