@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 05:49 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 08:47 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.43%** &nbsp; ($+2,766) |
-| SPY Benchmark | +6.78% &nbsp; ($+13,148 if 100% SPY) |
-| Alpha vs SPY | **-5.35%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.65% &nbsp; ($+12,893 if 100% SPY) |
+| Alpha vs SPY | **-5.22%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,766 |
 
@@ -46,27 +46,27 @@
 | 2026-06-10 | 📈 +1.36% | +2.49% | ❌ -1.13% |
 | 2026-06-11 | 📈 +1.38% | +4.23% | ❌ -2.86% |
 | 2026-06-12 | 📈 +1.39% | +4.80% | ❌ -3.41% |
-| 2026-06-15 | 📈 +1.43% | +6.78% | ❌ -5.35% |
+| 2026-06-15 | 📈 +1.43% | +6.65% | ❌ -5.22% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 15 2026 05:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 15 2026 08:47 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 80.6, Win Rate 67.1%, Avg 5d Return 1.74%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Supertrend — Bullish Flip — Score 68.9, Win Rate 55.6%, Avg 5d Return 7.24%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.6, Win Rate 67.1%, Avg 5d Return 1.74%, Max Drawdown -18.31%, Sharpe 2.8. 1 minor bearish signal(s), max confidence 53.0.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown -17.25%, Sharpe 2.87. 1 minor bearish signal(s), max confidence 53.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — UPRO
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 2 minor bearish signal(s), max confidence 62.5.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
