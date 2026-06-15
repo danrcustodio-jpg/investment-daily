@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 08:47 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 10:58 PM
 
 ## Performance Summary
 
@@ -50,17 +50,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 15 2026 08:47 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 15 2026 10:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | OBV — Accumulation — Score 79.9, Win Rate 68.2%, Avg 5d Return 4.77%, Max Drawdown -19.32%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Supertrend — Bullish Flip — Score 68.9, Win Rate 55.6%, Avg 5d Return 7.24%, Max Drawdown … |
+
+### 🔍 NEW OPPORTUNITY — APP
+
+**Signal Analysis:** OBV — Accumulation — Score 79.9, Win Rate 68.2%, Avg 5d Return 4.77%, Max Drawdown -19.32%, Sharpe 1.87. 1 minor bearish signal(s), max confidence 49.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown -17.25%, Sharpe 2.87. 1 minor bearish signal(s), max confidence 53.3.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown -17.21%, Sharpe 2.87. 1 minor bearish signal(s), max confidence 53.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
@@ -69,12 +75,6 @@ _Evaluated Jun 15 2026 08:47 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** Supertrend — Bullish Flip — Score 68.9, Win Rate 55.6%, Avg 5d Return 7.24%, Max Drawdown -18.91%, Sharpe 2.95. 2 minor bearish signal(s), max confidence 59.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
