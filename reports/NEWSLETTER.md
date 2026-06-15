@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, June 14, 2026
-Generated at 02:42 PM
+# Daily Newsletter — Monday, June 15, 2026
+Generated at 05:33 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 139 total &nbsp;·&nbsp; 🟢 91 Bullish &nbsp;·&nbsp; 🔴 48 Bearish
+**Strategy Signals:** 146 total &nbsp;·&nbsp; 🟢 93 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $17.68 | 📉 -9.05% |
-| **SI=F** | Silver | $67.97 | 📈 +6.40% |
-| **GC=F** | Gold | $4238.80 | 📈 +3.63% |
-| **CL=F** | Crude Oil | $84.88 | 📉 -3.23% |
-| **SOL-USD** | Solana | $66.96 | 📉 -2.78% |
-| **ETH-USD** | Ethereum | $1654.57 | 📉 -1.53% |
-| **XLF** | Financials (XLF) | $53.34 | 📈 +1.37% |
-| **NG=F** | Natural Gas | $3.12 | 📈 +1.07% |
-| **XLK** | Tech (XLK) | $184.80 | 📈 +0.87% |
-| **BTC-USD** | Bitcoin | $63880.04 | 📉 -0.84% |
+| **^VIX** | VIX (Fear Index) | $16.09 | 📉 -8.99% |
+| **ETH-USD** | Ethereum | $1825.42 | 📈 +5.85% |
+| **CL=F** | Crude Oil | $80.48 | 📉 -5.18% |
+| **SOL-USD** | Solana | $74.71 | 📈 +4.98% |
+| **XLK** | Tech (XLK) | $191.63 | 📈 +3.70% |
+| **SI=F** | Silver | $70.21 | 📈 +3.46% |
+| **GC=F** | Gold | $4352.20 | 📈 +3.26% |
+| **XLE** | Energy (XLE) | $55.81 | 📉 -3.01% |
+| **^IXIC** | NASDAQ | $26667.98 | 📈 +3.01% |
+| **XLI** | Industrials (XLI) | $179.60 | 📈 +1.94% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 90.9 | 100.0% |
+| 🟢 BULLISH | **UPRO** | EMA 9/21 — Bullish Cross | 95.0 | 87.5% |
 | 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 88.7 | 87.0% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.2 | 78.6% |
-| 🟢 BULLISH | **SMH** | ADX Strong Trend — Bullish | 83.9 | 67.4% |
-| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 83.6 | 71.4% |
-| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 72.7% |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 81.2 | 68.1% |
-| 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 81.0 | 66.7% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.9 | 65.9% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 79.5 | 60.8% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 79.4 | 65.6% |
-| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 78.7 | 65.5% |
+| 🟢 BULLISH | **GC=F** | Parabolic SAR — Bullish | 82.2 | 66.7% |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 80.7 | 67.1% |
+| 🟢 BULLISH | **QQQ** | Parabolic SAR — Bullish | 79.9 | 73.1% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.8 | 66.1% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.6 | 65.1% |
+| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 79.3 | 63.3% |
+| 🟢 BULLISH | **UPRO** | Elder Force — Bullish | 78.5 | 74.4% |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 78.3 | 68.4% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 78.1 | 64.4% |
+| 🟢 BULLISH | **QQQ** | Vortex — Bullish | 78.1 | 75.0% |
 
 ## Latest News
 
-- [States press ahead with AI regulation despite Trump's push for federal control](https://seekingalpha.com/news/4603128-states-press-ahead-with-ai-regulation-despite-trumps-push-for-federal-control?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [We thought we found the perfect luxury retirement community, but it’s millions of dollars in debt. Are we trapped?](https://www.marketwatch.com/story/we-thought-we-found-the-perfect-luxury-retirement-community-but-its-millions-of-dollars-in-debt-are-we-trapped-cde2e8f5?mod=mw_rss_topstories) — *MarketWatch*
-- [Iran questions US commitment to peace moves as Israel strikes Lebanon](https://www.investing.com/news/world-news/us-iran-inch-closer-to-deal-timing-remains-unclear-4741054) — *Investing.com*
-- [Upstream Bio presents positive Phase 2 trial data for verekitug](https://www.investing.com/news/company-news/upstream-bio-presents-positive-phase-2-trial-data-for-verekitug-93CH-4741093) — *Investing.com*
-- [SpaceX's index-fund windfall may already be priced in: WSJ](https://seekingalpha.com/news/4603127-spacexs-index-fund-windfall-may-already-be-priced-in-wsj?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [32-year-old quit teaching and built a fidget-toy business with her dad. It brought in $428,000 last year](https://www.cnbc.com/2026/06/14/32-year-old-quit-teaching-built-fidget-toy-business-with-her-dad-that-brought-in-428k.html) — *CNBC Markets*
-- [EU Commission looking at practical consequences of Anthropic decision, spokesperson says](https://www.investing.com/news/stock-market-news/eu-commission-looking-at-practical-consequences-of-anthropic-decision-spokesperson-says-4741090) — *Investing.com*
-- [Watch the SpaceX Genesis Line -- chartists](https://seekingalpha.com/news/4603125-watch-the-spacex-genesis-line-chartists?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Air Canada reaches tentative labor agreement with more than 11,000 workers](https://seekingalpha.com/news/4603124-air-canada-reaches-tentative-labor-agreement-with-more-than-11000-workers?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Quant snapshot: RF Industries, Vince Holding lead top-rated names as Dave & Buster's, Domo lag](https://seekingalpha.com/news/4602718-quant-snapshot-rf-industries-vince-holding-lead-top-rated-names-as-dave-busters-domo-lag?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Anthropic to meet with Trump administration over Mythos dispute](https://www.cnbc.com/2026/06/15/anthropic-mythos-trump-ai.html) — *CNBC Markets*
+- [iShares Global Comm Services ETF declares semi-annual distribution of $0.8123](https://seekingalpha.com/news/4603671-ishares-global-comm-services-etf-declares-semi-annual-distribution-of-08123?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [iShares Global Tech ETF declares semi-annual distribution of $0.1668](https://seekingalpha.com/news/4603670-ishares-global-tech-etf-declares-semi-annual-distribution-of-01668?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [iShares Global Healthcare ETF declares semi-annual distribution of $0.8461](https://seekingalpha.com/news/4603669-ishares-global-healthcare-etf-declares-semi-annual-distribution-of-08461?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [iShares Global Financials ETF declares semi-annual distribution of $1.7629](https://seekingalpha.com/news/4603668-ishares-global-financials-etf-declares-semi-annual-distribution-of-17629?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [iShares Global Energy ETF declares semi-annual distribution of $0.7242](https://seekingalpha.com/news/4603667-ishares-global-energy-etf-declares-semi-annual-distribution-of-07242?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [iShares Future Metaverse Tech And Communications ETF declares semi-annual distribution of $0.0413](https://seekingalpha.com/news/4603666-ishares-future-metaverse-tech-and-communications-etf-declares-semi-annual-distribution-of-00413?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Social Security’s woes are well known, but Medicare is also facing a fiscal crisis — in just 7 years](https://www.marketwatch.com/story/social-securitys-woes-are-well-known-but-medicare-is-also-facing-a-fiscal-crisis-in-just-7-years-a5915c6d?mod=mw_rss_topstories) — *MarketWatch*
+- [iShares Edge MSCI Intl Value Factor ETF declares semi-annual distribution of $0.7113](https://seekingalpha.com/news/4603665-ishares-edge-msci-intl-value-factor-etf-declares-semi-annual-distribution-of-07113?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Why Costco won't cut gas prices as quickly as rivals](https://finance.yahoo.com/sectors/energy/articles/why-costco-wont-cut-gas-171700329.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*

@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 37** &nbsp;·&nbsp; Updated: Jun 14 2026 02:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 05:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.41%** &nbsp; ($+2,742) |
-| SPY Benchmark | +4.80% &nbsp; ($+9,308 if 100% SPY) |
-| Alpha vs SPY | **-3.38%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.43%** &nbsp; ($+2,766) |
+| SPY Benchmark | +6.80% &nbsp; ($+13,187 if 100% SPY) |
+| Alpha vs SPY | **-5.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,742 |
+| Current Value | $196,766 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+893 | +0.46% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+918 | +0.47% |
 
 ## Daily Equity Curve
 
@@ -49,31 +49,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 14 2026 02:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 15 2026 05:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | MFI — Oversold — Score 78.0, Win Rate 60.0%, Avg 5d Return 5.87%, Max Drawdown -22.47%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Dra… |
-
-### 🔍 NEW OPPORTUNITY — AVAX-USD
-
-**Signal Analysis:** MFI — Oversold — Score 78.0, Win Rate 60.0%, Avg 5d Return 5.87%, Max Drawdown -22.47%, Sharpe 4.06. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 80.7, Win Rate 67.1%, Avg 5d Return 1.75%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Supertrend — Bullish Flip — Score 68.9, Win Rate 55.6%, Avg 5d Return 7.24%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.2, Win Rate 68.1%, Avg 5d Return 1.94%, Max Drawdown -10.34%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 56.5.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 80.7, Win Rate 67.1%, Avg 5d Return 1.75%, Max Drawdown -18.1%, Sharpe 2.82. 1 minor bearish signal(s), max confidence 53.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — UPRO
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 90.9, Win Rate 100.0%, Avg 5d Return 9.45%, Max Drawdown 0.0%, Sharpe 13.38. 1 minor bearish signal(s), max confidence 64.8.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 2 minor bearish signal(s), max confidence 62.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** Supertrend — Bullish Flip — Score 68.9, Win Rate 55.6%, Avg 5d Return 7.24%, Max Drawdown -18.91%, Sharpe 2.95. 2 minor bearish signal(s), max confidence 59.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,849 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
