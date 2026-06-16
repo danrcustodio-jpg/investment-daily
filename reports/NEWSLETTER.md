@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, June 15, 2026
+# Daily Newsletter — Tuesday, June 16, 2026
 Generated at 05:33 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 146 total &nbsp;·&nbsp; 🟢 93 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
+**Strategy Signals:** 119 total &nbsp;·&nbsp; 🟢 74 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.09 | 📉 -8.99% |
-| **ETH-USD** | Ethereum | $1825.42 | 📈 +5.85% |
-| **CL=F** | Crude Oil | $80.48 | 📉 -5.18% |
-| **SOL-USD** | Solana | $74.71 | 📈 +4.98% |
-| **XLK** | Tech (XLK) | $191.63 | 📈 +3.70% |
-| **SI=F** | Silver | $70.21 | 📈 +3.46% |
-| **GC=F** | Gold | $4352.20 | 📈 +3.26% |
-| **XLE** | Energy (XLE) | $55.81 | 📉 -3.01% |
-| **^IXIC** | NASDAQ | $26667.98 | 📈 +3.01% |
-| **XLI** | Industrials (XLI) | $179.60 | 📈 +1.94% |
+| **CL=F** | Crude Oil | $75.07 | 📉 -7.03% |
+| **NG=F** | Natural Gas | $3.24 | 📈 +3.11% |
+| **^VIX** | VIX (Fear Index) | $15.87 | 📉 -2.04% |
+| **XLK** | Tech (XLK) | $188.16 | 📉 -1.89% |
+| **XLF** | Financials (XLF) | $54.33 | 📈 +1.43% |
+| **^TNX** | 10-Year Treasury Yield | $4.43 | 📉 -1.36% |
+| **XLI** | Industrials (XLI) | $180.88 | 📈 +1.23% |
+| **SOL-USD** | Solana | $73.24 | 📉 -1.00% |
+| **^TYX** | 30-Year Treasury Yield | $4.93 | 📉 -0.92% |
+| **BTC-USD** | Bitcoin | $65693.01 | 📉 -0.90% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **UPRO** | EMA 9/21 — Bullish Cross | 95.0 | 87.5% |
-| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 88.7 | 87.0% |
-| 🟢 BULLISH | **GC=F** | Parabolic SAR — Bullish | 82.2 | 66.7% |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 80.7 | 67.1% |
-| 🟢 BULLISH | **QQQ** | Parabolic SAR — Bullish | 79.9 | 73.1% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.8 | 66.1% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.6 | 65.1% |
+| 🟢 BULLISH | **SPY** | Awesome Oscillator — Bullish Zero Line | 85.7 | 71.4% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.4 | 65.5% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.3 | 64.3% |
 | 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 79.3 | 63.3% |
-| 🟢 BULLISH | **UPRO** | Elder Force — Bullish | 78.5 | 74.4% |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 78.3 | 68.4% |
-| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 78.1 | 64.4% |
-| 🟢 BULLISH | **QQQ** | Vortex — Bullish | 78.1 | 75.0% |
+| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 77.4 | 75.8% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 76.6 | 63.3% |
+| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 75.8 | 65.7% |
+| 🟢 BULLISH | **ARKK** | Parabolic SAR — Bullish | 75.7 | 64.0% |
+| 🟢 BULLISH | **CL=F** | RSI Oversold | 75.0 | 75.0% |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 74.5 | 66.2% |
 
 ## Latest News
 
-- [Anthropic to meet with Trump administration over Mythos dispute](https://www.cnbc.com/2026/06/15/anthropic-mythos-trump-ai.html) — *CNBC Markets*
-- [iShares Global Comm Services ETF declares semi-annual distribution of $0.8123](https://seekingalpha.com/news/4603671-ishares-global-comm-services-etf-declares-semi-annual-distribution-of-08123?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [iShares Global Tech ETF declares semi-annual distribution of $0.1668](https://seekingalpha.com/news/4603670-ishares-global-tech-etf-declares-semi-annual-distribution-of-01668?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [iShares Global Healthcare ETF declares semi-annual distribution of $0.8461](https://seekingalpha.com/news/4603669-ishares-global-healthcare-etf-declares-semi-annual-distribution-of-08461?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [iShares Global Financials ETF declares semi-annual distribution of $1.7629](https://seekingalpha.com/news/4603668-ishares-global-financials-etf-declares-semi-annual-distribution-of-17629?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [iShares Global Energy ETF declares semi-annual distribution of $0.7242](https://seekingalpha.com/news/4603667-ishares-global-energy-etf-declares-semi-annual-distribution-of-07242?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [iShares Future Metaverse Tech And Communications ETF declares semi-annual distribution of $0.0413](https://seekingalpha.com/news/4603666-ishares-future-metaverse-tech-and-communications-etf-declares-semi-annual-distribution-of-00413?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Social Security’s woes are well known, but Medicare is also facing a fiscal crisis — in just 7 years](https://www.marketwatch.com/story/social-securitys-woes-are-well-known-but-medicare-is-also-facing-a-fiscal-crisis-in-just-7-years-a5915c6d?mod=mw_rss_topstories) — *MarketWatch*
-- [iShares Edge MSCI Intl Value Factor ETF declares semi-annual distribution of $0.7113](https://seekingalpha.com/news/4603665-ishares-edge-msci-intl-value-factor-etf-declares-semi-annual-distribution-of-07113?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Why Costco won't cut gas prices as quickly as rivals](https://finance.yahoo.com/sectors/energy/articles/why-costco-wont-cut-gas-171700329.html) — *Yahoo Finance*
+- [Trump signals he could send details of Iran deal to Congress](https://www.cnbc.com/2026/06/16/trump-iran-deal-congress.html) — *CNBC Markets*
+- [Chicken tenders are taking over the world, and KFC is rushing to keep up](https://www.marketwatch.com/story/chicken-tenders-are-taking-over-the-world-and-kfc-is-rushing-to-keep-up-3b637c99?mod=mw_rss_topstories) — *MarketWatch*
+- [SanDisk "most overbought stock" warning emerges after hitting an all-time high](https://seekingalpha.com/news/4604090-sandisk-most-overbought-stock-warning-emerges-after-hitting-an-all-time-high?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SpaceX options debut in wild trading as implied volatility rockets](https://seekingalpha.com/news/4604103-spacex-options-debut-in-wild-trading-as-implied-volatility-rockets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Playing It Safe at 63 With $850,000 in Cash and Bonds Is Quietly Costing This Retiree About $34,000 a Year](https://finance.yahoo.com/markets/stocks/articles/playing-safe-63-850-000-172345943.html) — *Yahoo Finance*
+- [Cummins to supply natural gas generators to power large scale data centers in Texas](https://seekingalpha.com/news/4604108-cummins-to-supply-natural-gas-generators-to-power-large-scale-data-centers-in-texas?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SpaceX overtakes Amazon as world’s fifth-largest company and closes in on Microsoft](https://seekingalpha.com/news/4604110-spacex-overtakes-amazon-as-worlds-fifth-largest-company-and-closes-in-on-microsoft?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Buy, Hold, or Sell: IBM Just Shed 16% Is It a Clear Buy at $268?](https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-ibm-just-172217401.html) — *Yahoo Finance*
+- [SpaceX rises 12% to leapfrog Amazon, briefly top Microsoft in market cap](https://www.cnbc.com/2026/06/16/spacex-stock-rally-market-cap.html) — *CNBC Markets*
+- [Rivian laying off hundreds of workers amid R2 launch](https://www.cnbc.com/2026/06/16/rivian-layoffs.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*

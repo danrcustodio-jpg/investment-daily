@@ -272,18 +272,18 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 79.9, Win Rate 68.2%, Avg 5d Return 4.77%, Max Drawdown -19.32%, Sharpe 1.87. 1 minor bearish signal(s), max confidence 49.8.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CL=F",
+      "ticker": "SPY",
       "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown -17.21%, Sharpe 2.87. 1 minor bearish signal(s), max confidence 53.3.",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, Max Drawdown -1.14%, Sharpe 3.14. 1 minor bearish signal(s), max confidence 61.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -292,13 +292,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "UPRO",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-15T22:58:04.428402",
+  "recommendations_updated": "2026-06-16T17:33:11.699471",
   "trade_log": [
     {
       "action": "SELL",

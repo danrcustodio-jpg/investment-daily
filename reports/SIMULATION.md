@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 38** &nbsp;·&nbsp; Updated: Jun 15 2026 10:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 39** &nbsp;·&nbsp; Updated: Jun 16 2026 05:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.43%** &nbsp; ($+2,766) |
-| SPY Benchmark | +6.65% &nbsp; ($+12,893 if 100% SPY) |
-| Alpha vs SPY | **-5.22%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.44%** &nbsp; ($+2,790) |
+| SPY Benchmark | +6.25% &nbsp; ($+12,134 if 100% SPY) |
+| Alpha vs SPY | **-4.82%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,766 |
+| Current Value | $196,790 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+918 | +0.47% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,849 | — | $+942 | +0.48% |
 
 ## Daily Equity Curve
 
@@ -50,29 +50,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 15 2026 10:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 16 2026 05:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | OBV — Accumulation — Score 79.9, Win Rate 68.2%, Avg 5d Return 4.77%, Max Drawdown -19.32%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SPY** | Awesome Oscillator — Bullish Zero Line — Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -… |
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** OBV — Accumulation — Score 79.9, Win Rate 68.2%, Avg 5d Return 4.77%, Max Drawdown -19.32%, Sharpe 1.87. 1 minor bearish signal(s), max confidence 49.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.8, Win Rate 67.1%, Avg 5d Return 1.76%, Max Drawdown -17.21%, Sharpe 2.87. 1 minor bearish signal(s), max confidence 53.3.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — SPY
+
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, Max Drawdown -1.14%, Sharpe 3.14. 1 minor bearish signal(s), max confidence 61.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — UPRO
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.
 
