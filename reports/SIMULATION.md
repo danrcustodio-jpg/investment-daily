@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 39** &nbsp;·&nbsp; Updated: Jun 16 2026 05:57 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 39** &nbsp;·&nbsp; Updated: Jun 16 2026 08:40 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.35%** &nbsp; ($+2,612) |
-| SPY Benchmark | +6.33% &nbsp; ($+12,270 if 100% SPY) |
-| Alpha vs SPY | **-4.98%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.30%** &nbsp; ($+2,524) |
+| SPY Benchmark | +6.01% &nbsp; ($+11,660 if 100% SPY) |
+| Alpha vs SPY | **-4.71%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,612 |
+| Current Value | $196,524 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,819 | — | $+797 | +0.48% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $752.55 | $-4 | -0.01% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $750.33 | $-92 | -0.31% |
 
 ## Daily Equity Curve
 
@@ -48,28 +48,28 @@
 | 2026-06-11 | 📈 +1.38% | +4.23% | ❌ -2.86% |
 | 2026-06-12 | 📈 +1.39% | +4.80% | ❌ -3.41% |
 | 2026-06-15 | 📈 +1.43% | +6.65% | ❌ -5.22% |
-| 2026-06-16 | 📈 +1.35% | +6.33% | ❌ -4.98% |
+| 2026-06-16 | 📈 +1.30% | +6.01% | ❌ -4.71% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 16 2026 05:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 16 2026 08:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.1, Win Rate 62.2%, Avg 5d Return 3.49%, Max Drawdown -72… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Elder Force — Bullish — Score 69.5, Win Rate 64.3%, Avg 5d Return 1.56%, Max Drawdown -15.… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-4. Holding… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-92. Holdin… |
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.3.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 71.1, Win Rate 62.2%, Avg 5d Return 3.49%, Max Drawdown -72.23%, Sharpe 2.38. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — UPRO
+### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
 
@@ -81,7 +81,7 @@ _Evaluated Jun 16 2026 05:57 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-4. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-92. Holding avoids $0 in taxes.
 
 **Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 

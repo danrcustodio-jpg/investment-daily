@@ -284,29 +284,29 @@
     },
     {
       "date": "2026-06-16",
-      "total_value": 196612.82,
-      "portfolio_pnl": 1.347,
-      "benchmark_pnl": 6.327,
+      "total_value": 196523.54,
+      "portfolio_pnl": 1.301,
+      "benchmark_pnl": 6.01,
       "prices": {
-        "SPY": 752.5698852539062
+        "SPY": 750.3300170898438
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CL=F",
+      "ticker": "AMD",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.3.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 71.1, Win Rate 62.2%, Avg 5d Return 3.49%, Max Drawdown -72.23%, Sharpe 2.38. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "UPRO",
+      "ticker": "CL=F",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -324,11 +324,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-4. Holding avoids $0 in taxes.",
+      "reason": "Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-92. Holding avoids $0 in taxes.",
       "tax_note": "Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-06-16T17:57:00.535976",
+  "recommendations_updated": "2026-06-16T20:40:40.308199",
   "trade_log": [
     {
       "action": "SELL",
