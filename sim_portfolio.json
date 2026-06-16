@@ -5,12 +5,26 @@
   "positions": {
     "CASH": {
       "name": "Cash / Money Market",
-      "allocation": 195848.52,
+      "allocation": 165818.52,
       "type": "cash",
       "annual_rate": 0.045,
       "rationale": "SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.",
       "status": "open",
       "triggered_date": null
+    },
+    "SPY": {
+      "name": "SPY",
+      "allocation": 30000.0,
+      "type": "market",
+      "entry_price": 752.64501953125,
+      "shares": 39.859428,
+      "signal": "Strategy signal",
+      "confidence": null,
+      "win_rate": null,
+      "sharpe": null,
+      "rationale": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, Max Drawdown -1.14%, Sharpe 3.14. 1 minor bearish signal(s), max confidence 61.2.",
+      "status": "open",
+      "triggered_date": "2026-06-16"
     }
   },
   "benchmark": {
@@ -267,6 +281,15 @@
       "prices": {
         "SPY": 754.8300170898438
       }
+    },
+    {
+      "date": "2026-06-16",
+      "total_value": 196612.82,
+      "portfolio_pnl": 1.347,
+      "benchmark_pnl": 6.327,
+      "prices": {
+        "SPY": 752.5698852539062
+      }
     }
   ],
   "recommendations": [
@@ -275,16 +298,7 @@
       "ticker": "CL=F",
       "priority": "high",
       "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.3.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "SPY",
-      "priority": "high",
-      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, Max Drawdown -1.14%, Sharpe 3.14. 1 minor bearish signal(s), max confidence 61.2.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -292,13 +306,29 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "UPRO",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.2.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 95.0, Win Rate 87.5%, Avg 5d Return 3.24%, Max Drawdown -2.56%, Sharpe 4.67. 1 minor bearish signal(s), max confidence 62.3.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "GOOGL",
+      "priority": "medium",
+      "reason": "Elder Force \u2014 Bullish \u2014 Score 69.5, Win Rate 64.3%, Avg 5d Return 1.56%, Max Drawdown -15.01%, Sharpe 1.89. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "HOLD",
+      "ticker": "SPY",
+      "priority": "low",
+      "reason": "Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-4. Holding avoids $0 in taxes.",
+      "tax_note": "Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-06-16T17:33:11.699471",
+  "recommendations_updated": "2026-06-16T17:57:00.535976",
   "trade_log": [
     {
       "action": "SELL",
@@ -333,6 +363,17 @@
       "freed_cash": 9000.0,
       "explanation": "2 bearish signal(s) now outweigh 1 bullish. Strongest: Keltner \u2014 Upper Channel Touch at score 59.3. Limit at $399.00 may never fill profitably. No tax impact \u2014 order not yet filled.",
       "timestamp": "2026-05-29T16:37:22.516635"
+    },
+    {
+      "action": "BUY",
+      "ticker": "SPY",
+      "allocation": 30000.0,
+      "entry_price": 752.645,
+      "shares": 39.859428,
+      "entry_fee": 30.0,
+      "is_crypto": false,
+      "explanation": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 85.7, Win Rate 71.4%, Avg 5d Return 0.87%, Max Drawdown -1.14%, Sharpe 3.14. 1 minor bearish signal(s), max confidence 61.2. New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,849 deployable. Entry slippage est. $30.",
+      "timestamp": "2026-06-16T17:56:43.682777"
     }
   ]
 }
