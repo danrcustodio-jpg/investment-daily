@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 09:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 10:56 PM
 
 ## Performance Summary
 
@@ -52,7 +52,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 17 2026 10:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -62,7 +62,7 @@ _Evaluated Jun 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 45.8.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 45.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
@@ -74,7 +74,7 @@ _Evaluated Jun 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 58.0.
+**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 58.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
