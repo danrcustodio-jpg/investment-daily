@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 39** &nbsp;·&nbsp; Updated: Jun 16 2026 10:49 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 04:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.30%** &nbsp; ($+2,524) |
-| SPY Benchmark | +6.01% &nbsp; ($+11,660 if 100% SPY) |
+| Portfolio P&L | **+1.31%** &nbsp; ($+2,548) |
+| SPY Benchmark | +6.03% &nbsp; ($+11,690 if 100% SPY) |
 | Alpha vs SPY | **-4.71%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,524 |
+| Current Value | $196,548 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,819 | — | $+797 | +0.48% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $750.33 | $-92 | -0.31% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,819 | — | $+818 | +0.49% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $750.44 | $-88 | -0.29% |
 
 ## Daily Equity Curve
 
@@ -52,38 +52,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 16 2026 10:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 17 2026 04:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.1, Win Rate 62.2%, Avg 5d Return 3.49%, Max Drawdown -72… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Elder Force — Bullish — Score 69.5, Win Rate 64.3%, Avg 5d Return 1.56%, Max Drawdown -15.… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-92. Holdin… |
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 71.1, Win Rate 62.2%, Avg 5d Return 3.49%, Max Drawdown -72.23%, Sharpe 2.38. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 58.5, Win Rate 62.7%, Avg 5d Return 0.93%, Max Drawdown -41… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-88. Holdin… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 49.6.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Elder Force — Bullish — Score 69.5, Win Rate 64.3%, Avg 5d Return 1.56%, Max Drawdown -15.01%, Sharpe 1.89. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 58.5, Win Rate 62.7%, Avg 5d Return 0.93%, Max Drawdown -41.5%, Sharpe 1.37. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — BTC-USD
+
+**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,819 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 1.10 vs 1 bear score 0.42). Gross P&L: $-92. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-88. Holding avoids $0 in taxes.
 
-**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
+**Tax & Cost:** Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 
