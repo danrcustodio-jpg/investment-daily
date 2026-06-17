@@ -290,6 +290,15 @@
       "prices": {
         "SPY": 750.3300170898438
       }
+    },
+    {
+      "date": "2026-06-17",
+      "total_value": 196545.37,
+      "portfolio_pnl": 1.312,
+      "benchmark_pnl": 6.015,
+      "prices": {
+        "SPY": 750.364990234375
+      }
     }
   ],
   "recommendations": [
@@ -297,7 +306,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CL=F",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.0.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -324,11 +333,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-88. Holding avoids $0 in taxes.",
+      "reason": "Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-91. Holding avoids $0 in taxes.",
       "tax_note": "Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-06-17T16:13:33.501911",
+  "recommendations_updated": "2026-06-17T16:34:23.842644",
   "trade_log": [
     {
       "action": "SELL",

@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 04:13 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 04:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.31%** &nbsp; ($+2,548) |
-| SPY Benchmark | +6.03% &nbsp; ($+11,690 if 100% SPY) |
-| Alpha vs SPY | **-4.71%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.31%** &nbsp; ($+2,545) |
+| SPY Benchmark | +6.01% &nbsp; ($+11,669 if 100% SPY) |
+| Alpha vs SPY | **-4.70%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,548 |
+| Current Value | $196,545 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,819 | — | $+818 | +0.49% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $750.44 | $-88 | -0.29% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $750.36 | $-91 | -0.30% |
 
 ## Daily Equity Curve
 
@@ -49,21 +49,22 @@
 | 2026-06-12 | 📈 +1.39% | +4.80% | ❌ -3.41% |
 | 2026-06-15 | 📈 +1.43% | +6.65% | ❌ -5.22% |
 | 2026-06-16 | 📈 +1.30% | +6.01% | ❌ -4.71% |
+| 2026-06-17 | 📈 +1.31% | +6.01% | ❌ -4.70% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 17 2026 04:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 17 2026 04:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawd… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 58.5, Win Rate 62.7%, Avg 5d Return 0.93%, Max Drawdown -41… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-88. Holdin… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-91. Holdin… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.0.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,819 deployable. Entry slippage est. $30.
 
@@ -81,7 +82,7 @@ _Evaluated Jun 17 2026 04:13 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-88. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (1 bull score 0.30 vs 1 bear score 0.44). Gross P&L: $-91. Holding avoids $0 in taxes.
 
 **Tax & Cost:** Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
