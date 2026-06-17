@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 07:19 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 40** &nbsp;·&nbsp; Updated: Jun 17 2026 09:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.31%** &nbsp; ($+2,533) |
-| SPY Benchmark | +5.17% &nbsp; ($+10,033 if 100% SPY) |
-| Alpha vs SPY | **-3.87%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.69% &nbsp; ($+9,092 if 100% SPY) |
+| Alpha vs SPY | **-3.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,533 |
 
@@ -48,33 +48,33 @@
 | 2026-06-12 | 📈 +1.39% | +4.80% | ❌ -3.41% |
 | 2026-06-15 | 📈 +1.43% | +6.65% | ❌ -5.22% |
 | 2026-06-16 | 📈 +1.30% | +6.01% | ❌ -4.71% |
-| 2026-06-17 | 📈 +1.31% | +5.17% | ❌ -3.86% |
+| 2026-06-17 | 📈 +1.31% | +4.69% | ❌ -3.38% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 17 2026 07:19 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.4, Win Rate 79.3%, Avg 5d Return 4.43%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.4, Win Rate 79.3%, Avg 5d Return 4.42%, Max Drawdown -19… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 46.0.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 79.3, Win Rate 63.3%, Avg 5d Return 1.83%, Max Drawdown -9.32%, Sharpe 2.9. 1 minor bearish signal(s), max confidence 45.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.4, Win Rate 79.3%, Avg 5d Return 4.43%, Max Drawdown -19.07%, Sharpe 4.94. 1 minor bearish signal(s), max confidence 69.5.
+**Signal Analysis:** Williams %R — Oversold — Score 86.4, Win Rate 79.3%, Avg 5d Return 4.42%, Max Drawdown -19.07%, Sharpe 4.94. 2 minor bearish signal(s), max confidence 69.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 58.2.
+**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 58.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
