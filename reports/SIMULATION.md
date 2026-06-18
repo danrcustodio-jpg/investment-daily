@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 41** &nbsp;·&nbsp; Updated: Jun 18 2026 09:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 41** &nbsp;·&nbsp; Updated: Jun 18 2026 11:15 PM
 
 ## Performance Summary
 
@@ -53,7 +53,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 18 2026 09:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 18 2026 11:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -75,7 +75,7 @@ _Evaluated Jun 18 2026 09:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 57.8.
+**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 57.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
