@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 41** &nbsp;·&nbsp; Updated: Jun 18 2026 04:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 41** &nbsp;·&nbsp; Updated: Jun 18 2026 04:23 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.32%** &nbsp; ($+2,557) |
-| SPY Benchmark | +5.45% &nbsp; ($+10,574 if 100% SPY) |
-| Alpha vs SPY | **-4.13%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.50% &nbsp; ($+10,676 if 100% SPY) |
+| Alpha vs SPY | **-4.18%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,557 |
 
@@ -49,16 +49,17 @@
 | 2026-06-15 | 📈 +1.43% | +6.65% | ❌ -5.22% |
 | 2026-06-16 | 📈 +1.30% | +6.01% | ❌ -4.71% |
 | 2026-06-17 | 📈 +1.31% | +4.69% | ❌ -3.38% |
+| 2026-06-18 | 📈 +1.32% | +5.50% | ❌ -4.18% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 18 2026 04:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 18 2026 04:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | RSI Oversold — Score 80.0, Win Rate 80.0%, Avg 5d Return 3.48%, Max Drawdown -0.79%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 68.0, Win Rate 65.9%, Avg 5d Return 2.39%, Max Drawdown -32.17%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
@@ -72,9 +73,9 @@ _Evaluated Jun 18 2026 04:00 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — DOGE-USD
+### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** RSI Oversold — Score 68.0, Win Rate 65.9%, Avg 5d Return 2.39%, Max Drawdown -32.17%, Sharpe 2.33. 1 minor bearish signal(s), max confidence 71.9.
+**Signal Analysis:** TRIX — Bullish Cross — Score 64.8, Win Rate 47.1%, Avg 5d Return 1.34%, Max Drawdown -5.1%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 57.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
