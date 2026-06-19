@@ -317,24 +317,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MSFT",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sharpe 5.56. No conflicting bearish signals.",
+      "ticker": "AVGO",
+      "priority": "medium",
+      "reason": "Stochastic RSI Oversold \u2014 Score 59.0, Win Rate 65.2%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.5.",
+      "ticker": "MRVL",
+      "priority": "medium",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 59.9, Win Rate 62.2%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-19T17:36:29.352088",
+  "recommendations_updated": "2026-06-19T18:35:12.191766",
   "trade_log": [
     {
       "action": "SELL",
