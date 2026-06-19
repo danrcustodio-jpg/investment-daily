@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 42** &nbsp;·&nbsp; Updated: Jun 19 2026 06:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 42** &nbsp;·&nbsp; Updated: Jun 19 2026 07:33 PM
 
 ## Performance Summary
 
@@ -54,13 +54,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 19 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 19 2026 07:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 78.1, Win Rate 67.3%, Avg 5d Return 2.05%, Max Drawdown -2… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 59.0, Win Rate 65.2%, Avg 5d Return nan%, Max Drawdown nan… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MRVL** | ADX Strong Trend — Bullish — Score 59.9, Win Rate 62.2%, Avg 5d Return nan%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
@@ -68,15 +68,15 @@ _Evaluated Jun 19 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — MSFT
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 59.0, Win Rate 65.2%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sharpe 5.56. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — MRVL
+### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.9, Win Rate 62.2%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
