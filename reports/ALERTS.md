@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Friday June 19, 2026 at 03:57 PM
+**Last scan:** Friday June 19, 2026 at 04:51 PM
 
 ## Scan Summary
 
@@ -8,42 +8,22 @@
 | Total signals scanned (confidence ≥ 50) | 96 |
 | 🟢 Bullish | 79 |
 | 🔴 Bearish | 46 |
-| ✅ Fired this run (SMS + email) | 96 |
-| ⏭ Skipped — same ticker notified in last 6h | 0 |
+| ✅ Fired this run (SMS + email) | 0 |
+| ⏭ Skipped — same ticker notified in last 6h | 96 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
-| ⚠ Tickers with conflicting BULL+BEAR signals | 13 |
+| ⚠ Tickers with conflicting BULL+BEAR signals | 0 |
 
-## 📲 SMS sent (3)
+_Run ended early: **all_in_cooldown** — no email or SMS dispatched._
 
-- One text per ticker: **PLTR, XLE, AAPL**
-- Skipped — over per-scan cap: **GC=F, MSFT, SOXL, MRVL, SMH, AVGO, SPY, TQQQ, RKLB, CL=F, AMD, CRWD, XLK, QQQ, ARM, AERO-USD, NVDA, GOOGL, IONQ, CEG, ARKK, UPRO, APP, IWM, ADA-USD, META** (visible on dashboard)
-- ⚠ **Headline ticker was contested** — opposing-side top score **70.5** (2 BEAR signals).
+## 📲 SMS not sent
 
-## ⚠ Conflicting tickers (both directions ≥ 65)
+_Reason: `all_in_cooldown`_
 
-Tickers where bullish *and* bearish strategies are firing above the conflict threshold at the same time. Treat the headline as one input only.
+## ⏭ Skipped — same ticker already notified
 
-| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |
-|---|---|---:|---:|---|---:|---:|
-| **PLTR** | MFI — Oversold | 100.0 | 2 | Aroon — Strong Downtrend | 70.5 | 2 |
-| **XLE** | VWAP Deviation — Oversold | 77.4 | 2 | Aroon — Strong Downtrend | 90.8 | 2 |
-| **AAPL** | OBV — Accumulation | 83.2 | 1 | Chaikin Money Flow — Bearish | 85.5 | 2 |
-| **GC=F** | Keltner — Lower Channel Touch | 70.4 | 2 | MACD Bearish Crossover | 85.0 | 2 |
-| **MRVL** | ADX Strong Trend — Bullish | 80.3 | 2 | Ulcer Index — Elevated | 82.0 | 3 |
-| **SOXL** | Aroon — Strong Uptrend | 69.7 | 1 | Ulcer Index — Elevated | 82.0 | 1 |
-| **SMH** | Aroon — Strong Uptrend | 76.5 | 1 | Ulcer Index — Elevated | 81.5 | 1 |
-| **AVGO** | Stochastic (Full) — Oversold | 78.2 | 1 | Ulcer Index — Elevated | 81.3 | 2 |
-| **TQQQ** | SMA 30 — Bullish Reclaim | 72.9 | 1 | Ulcer Index — Elevated | 78.8 | 1 |
-| **RKLB** | CCI — Extreme Oversold | 69.0 | 1 | Aroon — Strong Downtrend | 78.2 | 1 |
-| **AMD** | Aroon — Strong Uptrend | 71.9 | 2 | VWAP Deviation — Overbought | 76.5 | 2 |
-| **QQQ** | Elder Force — Bullish | 66.2 | 1 | Ulcer Index — Elevated | 75.5 | 1 |
-| **ARM** | 52-Week Breakout | 74.9 | 1 | Ulcer Index — Elevated | 70.4 | 1 |
-
-## ✅ Fired this run (SMS + email)
-
-Signals that **actually triggered** an SMS / email on this run.
+Above-threshold signals dropped because another strategy on the same ticker fired within the last 6h ticker-cooldown window.
 
 | Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
 |---|---|---|---|---|---|---|
@@ -64,7 +44,7 @@ Signals that **actually triggered** an SMS / email on this run.
 | 🟢 BULLISH | **TQQQ** | SMA 30 — Bullish Reclaim | 72.9 | 66.7% | 2.27% | 2.45 |
 | 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 72.7 | 64.5% | 1.24% | 2.37 |
 | 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.9 | 62.6% | 3.58% | 2.44 |
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 70.4 | 55.9% | 1.1% | 2.21 |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 70.5 | 55.9% | 1.1% | 2.21 |
 | 🟢 BULLISH | **SOXL** | Aroon — Strong Uptrend | 69.7 | 61.0% | 4.32% | 2.04 |
 | 🟢 BULLISH | **GOOGL** | Elder Force — Bullish | 69.5 | 64.3% | 1.56% | 1.89 |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 69.0 | 54.3% | 4.02% | 2.07 |
@@ -81,7 +61,7 @@ Signals that **actually triggered** an SMS / email on this run.
 | 🟢 BULLISH | **SMH** | 52-Week Breakout | 59.4 | 61.2% | 0.9% | 1.22 |
 | 🟢 BULLISH | **PLTR** | Williams %R — Oversold | 59.0 | 52.3% | 1.71% | 1.49 |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 58.0 | 59.0% | 1.92% | 1.37 |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 57.4 | 63.5% | 0.96% | 1.17 |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 57.6 | 63.5% | 0.97% | 1.18 |
 | 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 56.9 | 57.5% | 2.29% | 1.49 |
 | 🟢 BULLISH | **APP** | CCI — Extreme Oversold | 56.4 | 58.5% | 2.45% | 1.24 |
 | 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 54.6 | 53.2% | 3.27% | 1.4 |
@@ -91,8 +71,8 @@ Signals that **actually triggered** an SMS / email on this run.
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 53.9 | 60.0% | 0.5% | 0.99 |
 | 🟢 BULLISH | **RKLB** | VWAP Deviation — Oversold | 53.7 | 52.3% | 2.48% | 1.32 |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.5 | 61.2% | 0.37% | 0.87 |
-| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 53.4 | 62.3% | 2.23% | 1.32 |
 | 🟢 BULLISH | **MRVL** | Stochastic RSI Oversold | 53.3 | 64.4% | 1.42% | 1.1 |
+| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 53.3 | 62.3% | 2.23% | 1.32 |
 | 🟢 BULLISH | **PLTR** | Stochastic (Full) — Oversold | 53.0 | 52.6% | 1.34% | 1.2 |
 | 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 52.8 | 56.8% | 1.64% | 1.27 |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 52.7 | 59.1% | 0.63% | 1.03 |
@@ -108,7 +88,7 @@ Signals that **actually triggered** an SMS / email on this run.
 | 🔴 BEARISH | **XLE** | Aroon — Strong Downtrend | 90.8 | 85.7% | 1.89% | 5.44 |
 | 🔴 BEARISH | **AAPL** | Chaikin Money Flow — Bearish | 85.5 | 75.8% | 4.0% | 5.68 |
 | 🔴 BEARISH | **GC=F** | MACD Bearish Crossover | 85.0 | 75.0% | 1.19% | 2.73 |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 83.8 | 72.7% | 1.8% | 4.01 |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 83.8 | 72.7% | 1.81% | 4.02 |
 | 🔴 BEARISH | **XLE** | Chaikin Money Flow — Bearish | 83.4 | 73.0% | 1.33% | 2.66 |
 | 🔴 BEARISH | **SOXL** | Ulcer Index — Elevated | 82.0 | 76.8% | 8.63% | 4.45 |
 | 🔴 BEARISH | **MRVL** | Ulcer Index — Elevated | 82.0 | 75.0% | 3.86% | 4.37 |
