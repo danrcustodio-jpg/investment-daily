@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 42** &nbsp;·&nbsp; Updated: Jun 19 2026 09:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 43** &nbsp;·&nbsp; Updated: Jun 20 2026 01:04 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.33%** &nbsp; ($+2,582) |
+| Portfolio P&L | **+1.34%** &nbsp; ($+2,606) |
 | SPY Benchmark | +5.50% &nbsp; ($+10,676 if 100% SPY) |
-| Alpha vs SPY | **-4.17%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-4.16%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,582 |
+| Current Value | $196,606 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,013 | +0.52% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,037 | +0.53% |
 
 ## Daily Equity Curve
 
@@ -54,19 +54,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 19 2026 09:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 20 2026 01:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 78.1, Win Rate 67.3%, Avg 5d Return 2.05%, Max Drawdown -2… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 78.1, Win Rate 67.3%, Avg 5d Return 2.05%, Max Drawdown -24.06%, Sharpe 2.81. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 62.5, Win Rate 66.7%, Avg 5d Return 2.47%, Max Drawdown -58.92%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — MSFT
 
@@ -79,6 +73,12 @@ _Evaluated Jun 19 2026 09:55 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ADA-USD
+
+**Signal Analysis:** RSI Oversold — Score 62.5, Win Rate 66.7%, Avg 5d Return 2.47%, Max Drawdown -58.92%, Sharpe 1.57. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

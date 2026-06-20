@@ -1,24 +1,24 @@
-# Daily Newsletter — Friday, June 19, 2026
-Generated at 03:49 PM
+# Daily Newsletter — Saturday, June 20, 2026
+Generated at 01:04 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 125 total &nbsp;·&nbsp; 🟢 79 Bullish &nbsp;·&nbsp; 🔴 46 Bearish
+**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 81 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
+| **^VIX** | VIX (Fear Index) | $18.44 | 📈 +12.37% |
 | **XLK** | Tech (XLK) | $191.44 | 📈 +3.04% |
-| **SI=F** | Silver | $64.69 | 📉 -2.36% |
-| **^VIX** | VIX (Fear Index) | $16.78 | 📈 +2.32% |
-| **^RUT** | Russell 2000 | $2979.77 | 📈 +2.12% |
-| **^IXIC** | NASDAQ | $26517.93 | 📈 +1.91% |
+| **XLY** | Consumer Disc. (XLY) | $115.49 | 📉 -2.51% |
+| **SOL-USD** | Solana | $71.46 | 📈 +2.49% |
+| **SI=F** | Silver | $64.91 | 📉 -2.03% |
 | **XLE** | Energy (XLE) | $53.77 | 📉 -1.65% |
-| **XLY** | Consumer Disc. (XLY) | $117.16 | 📈 +1.45% |
-| **GC=F** | Gold | $4166.90 | 📉 -1.35% |
-| **^GSPC** | S&P 500 | $7500.58 | 📈 +1.08% |
-| **XLF** | Financials (XLF) | $53.57 | 📉 -0.89% |
+| **^IXIC** | NASDAQ | $26021.66 | 📉 -1.34% |
+| **^GSPC** | S&P 500 | $7420.10 | 📉 -1.21% |
+| **GC=F** | Gold | $4172.90 | 📉 -1.21% |
+| **NG=F** | Natural Gas | $3.20 | 📉 -1.08% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 03:49 PM
 
 ## Latest News
 
-- [Griffin Mining launches $14m share buyback via bookbuild](https://www.investing.com/news/company-news/griffin-mining-launches-14m-share-buyback-via-bookbuild-93CH-4751532) — *Investing.com*
-- [Stellantis holds 9.5% stake in solid state battery startup Factorial, filing shows](https://www.investing.com/news/stock-market-news/stellantis-holds-95-stake-in-solid-state-battery-startup-factorial-filing-shows-4751525) — *Investing.com*
-- [Earnings call transcript: Tatton Asset Management H2 2026 results lift shares 15%](https://www.investing.com/news/transcripts/earnings-call-transcript-tatton-asset-management-h2-2026-results-lift-shares-15-93CH-4751531) — *Investing.com*
-- [Brent on track for 8% weekly decline as Israel, Hezbollah agree to ceasefire](https://www.investing.com/news/commodities-news/oil-falls-as-supply-starts-moving-through-strait-of-hormuz-4751273) — *Investing.com*
-- [Oil prices rise after U.S.-Iran peace talks in Geneva are abruptly postponed](https://www.cnbc.com/2026/06/19/oil-prices-wti-brent-crude-us-iran-deal-strait-hormuz-shipping-recovery.html) — *CNBC Markets*
-- [RentGuarantor plans £1m share placing at 29 pence](https://www.investing.com/news/company-news/rentguarantor-plans-1m-share-placing-at-29-pence-93CH-4751530) — *Investing.com*
-- [Transport secretary calls on Starmer to go](https://www.ft.com/content/095b3f3d-8c66-46fa-bb2a-1b8186f3f054) — *Financial Times*
-- [Poland stocks higher at close of trade; WIG30 up 0.35%](https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-035-4751529) — *Investing.com*
-- [Turkey stocks lower at close of trade; BIST 100 down 0.63%](https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-063-4751528) — *Investing.com*
-- [Is Titan America SA (TTAM) A Good Stock To Buy Now?](https://finance.yahoo.com/markets/stocks/articles/titan-america-sa-ttam-good-152936112.html) — *Yahoo Finance*
+- [Charles Schwab partnering with Cboe to offer prediction market-like contracts: WSJ](https://seekingalpha.com/news/4605279-charles-schwab-cboe-venturing-prediction-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Each $1 gain in SpaceX stock adds $4.76B to Elon Musk’s net worth. Here’s what $1K, $7K or $15K invested could earn you](https://finance.yahoo.com/markets/stocks/articles/1-gain-spacex-stock-adds-124500506.html) — *Yahoo Finance*
+- [Cerebras vs. SpaceX: Which Is the Better AI IPO Stock to Buy and Hold for the Next 10 Years?](https://finance.yahoo.com/technology/ai/articles/cerebras-vs-spacex-better-ai-124300908.html) — *Yahoo Finance*
+- [Spanish PM’s wife must stand trial on corruption charges, judge rules](https://www.investing.com/news/economy-news/spanish-pms-wife-must-stand-trial-on-corruption-charges-judge-rules-4751617) — *Investing.com*
+- [Hizbollah and Israel clashes threaten reopening of Strait of Hormuz](https://www.ft.com/content/fad77f6e-b1db-460a-a0c8-c2fd132932f5) — *Financial Times*
+- [The Playboy brand lives on long after the magazine died](https://seekingalpha.com/news/4605041-meet-the-new-playboy-not-the-same-as-the-old-playboy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [AI buildout gives tech investors new reasons to watch bond market](https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html) — *CNBC Markets*
+- [SNAP restrictions could change what shoppers buy — and food giants are watching](https://www.cnbc.com/2026/06/20/maha-snap-restrictions-junk-food-spending.html) — *CNBC Markets*
+- [Google shake-up highlights how human brains may be the scarcest AI resource of all](https://www.marketwatch.com/story/google-shake-up-highlights-how-human-brains-may-be-the-scarcest-ai-resource-of-all-1ea41ac7?mod=mw_rss_topstories) — *MarketWatch*
+- [AbbVie said to be nearing a $10.9B deal to buy Apogee Therapeutics](https://seekingalpha.com/news/4605278-abbvie-nearing-109b-deal-buy-apogee-thera?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
