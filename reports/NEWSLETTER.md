@@ -1,23 +1,23 @@
-# Daily Newsletter — Saturday, June 20, 2026
-Generated at 01:04 PM
+# Daily Newsletter — Sunday, June 21, 2026
+Generated at 01:16 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 81 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
+**Strategy Signals:** 127 total &nbsp;·&nbsp; 🟢 80 Bullish &nbsp;·&nbsp; 🔴 47 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $18.44 | 📈 +12.37% |
+| **^VIX** | VIX (Fear Index) | $16.40 | 📉 -11.06% |
 | **XLK** | Tech (XLK) | $191.44 | 📈 +3.04% |
-| **XLY** | Consumer Disc. (XLY) | $115.49 | 📉 -2.51% |
-| **SOL-USD** | Solana | $71.46 | 📈 +2.49% |
+| **^RUT** | Russell 2000 | $2979.77 | 📈 +2.12% |
 | **SI=F** | Silver | $64.91 | 📉 -2.03% |
+| **^IXIC** | NASDAQ | $26517.93 | 📈 +1.91% |
 | **XLE** | Energy (XLE) | $53.77 | 📉 -1.65% |
-| **^IXIC** | NASDAQ | $26021.66 | 📉 -1.34% |
-| **^GSPC** | S&P 500 | $7420.10 | 📉 -1.21% |
+| **XLY** | Consumer Disc. (XLY) | $117.16 | 📈 +1.45% |
 | **GC=F** | Gold | $4172.90 | 📉 -1.21% |
+| **^GSPC** | S&P 500 | $7500.58 | 📈 +1.08% |
 | **NG=F** | Natural Gas | $3.20 | 📉 -1.08% |
 
 ## Top Strategy Signals
@@ -31,24 +31,24 @@ Generated at 01:04 PM
 | 🟢 BULLISH | **SPY** | SMA 30 — Bullish Reclaim | 79.7 | 70.6% |
 | 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 78.9 | 64.1% |
 | 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 78.2 | 64.5% |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 78.1 | 67.3% |
 | 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 77.4 | 75.8% |
 | 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 76.5 | 66.0% |
+| 🟢 BULLISH | **CL=F** | RSI Oversold | 75.0 | 75.0% |
 | 🟢 BULLISH | **ARM** | 52-Week Breakout | 74.9 | 58.3% |
 | 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 74.2 | 61.3% |
 
 ## Latest News
 
-- [Charles Schwab partnering with Cboe to offer prediction market-like contracts: WSJ](https://seekingalpha.com/news/4605279-charles-schwab-cboe-venturing-prediction-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Each $1 gain in SpaceX stock adds $4.76B to Elon Musk’s net worth. Here’s what $1K, $7K or $15K invested could earn you](https://finance.yahoo.com/markets/stocks/articles/1-gain-spacex-stock-adds-124500506.html) — *Yahoo Finance*
-- [Cerebras vs. SpaceX: Which Is the Better AI IPO Stock to Buy and Hold for the Next 10 Years?](https://finance.yahoo.com/technology/ai/articles/cerebras-vs-spacex-better-ai-124300908.html) — *Yahoo Finance*
-- [Spanish PM’s wife must stand trial on corruption charges, judge rules](https://www.investing.com/news/economy-news/spanish-pms-wife-must-stand-trial-on-corruption-charges-judge-rules-4751617) — *Investing.com*
-- [Hizbollah and Israel clashes threaten reopening of Strait of Hormuz](https://www.ft.com/content/fad77f6e-b1db-460a-a0c8-c2fd132932f5) — *Financial Times*
-- [The Playboy brand lives on long after the magazine died](https://seekingalpha.com/news/4605041-meet-the-new-playboy-not-the-same-as-the-old-playboy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [AI buildout gives tech investors new reasons to watch bond market](https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html) — *CNBC Markets*
-- [SNAP restrictions could change what shoppers buy — and food giants are watching](https://www.cnbc.com/2026/06/20/maha-snap-restrictions-junk-food-spending.html) — *CNBC Markets*
-- [Google shake-up highlights how human brains may be the scarcest AI resource of all](https://www.marketwatch.com/story/google-shake-up-highlights-how-human-brains-may-be-the-scarcest-ai-resource-of-all-1ea41ac7?mod=mw_rss_topstories) — *MarketWatch*
-- [AbbVie said to be nearing a $10.9B deal to buy Apogee Therapeutics](https://seekingalpha.com/news/4605278-abbvie-nearing-109b-deal-buy-apogee-thera?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Notable healthcare headlines for the week: Merck, Moderna, and Biogen in focus](https://seekingalpha.com/news/4605264-notable-healthcare-headlines-for-the-week-merck-moderna-and-biogen-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [U.K. Prime Minister Keir Starmer is close to stepping down: FT](https://seekingalpha.com/news/4605298-u-k-prime-minister-keir-starmer-is-close-to-stepping-down-ft?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [This bull market isn’t going to end because of Fed rate hikes under Warsh](https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories) — *MarketWatch*
+- [Why Meloni turned on Trump](https://www.ft.com/content/1adcac1d-d2d3-4a62-855d-7dd56319edbf) — *Financial Times*
+- [SpaceX draws MSCI's lowest ESG rating, matching Russia after Ukraine invasion](https://seekingalpha.com/news/4605296-spacex-draws-mscis-lowest-esg-rating-matching-russia-after-ukraine-invasion?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.40%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-040-4751669) — *Investing.com*
+- [‘We are habitually frugal’: My wife and I have money. How do we help our children without ruining their independence?](https://www.marketwatch.com/story/we-are-habitually-frugal-my-wife-and-i-have-money-how-do-we-help-our-children-without-ruining-their-independence-a1e30cec?mod=mw_rss_topstories) — *MarketWatch*
+- [Here are 3 big things to watch in the stock market this coming week](https://www.cnbc.com/2026/06/21/here-are-3-big-things-to-watch-in-the-stock-market-this-coming-week.html) — *CNBC Markets*
+- [No-fly zone for Iran talks disrupted flights at Zurich airport, authorities say](https://www.investing.com/news/world-news/nofly-zone-for-iran-talks-disrupted-flights-at-zurich-airport-authorities-say-4751668) — *Investing.com*
+- [The best parents and leaders use a 3-step formula to help people handle uncertainty, says Dr. Becky Kennedy](https://www.cnbc.com/2026/06/21/use-a-3-step-formula-to-help-people-handle-uncertainty-dr-becky-kennedy.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
