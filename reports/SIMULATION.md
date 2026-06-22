@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 44** &nbsp;·&nbsp; Updated: Jun 21 2026 01:16 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 45** &nbsp;·&nbsp; Updated: Jun 22 2026 02:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.36%** &nbsp; ($+2,630) |
-| SPY Benchmark | +5.50% &nbsp; ($+10,676 if 100% SPY) |
-| Alpha vs SPY | **-4.15%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.37%** &nbsp; ($+2,654) |
+| SPY Benchmark | +5.75% &nbsp; ($+11,149 if 100% SPY) |
+| Alpha vs SPY | **-4.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,630 |
+| Current Value | $196,654 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,061 | +0.54% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,085 | +0.55% |
 
 ## Daily Equity Curve
 
@@ -54,17 +54,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 21 2026 01:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 22 2026 02:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | RSI Oversold — Score 75.0, Win Rate 75.0%, Avg 5d Return 2.29%, Max Drawdown 0.0%, Sharpe … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | MACD Bullish Crossover — Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — MARA
 
-**Signal Analysis:** RSI Oversold — Score 75.0, Win Rate 75.0%, Avg 5d Return 2.29%, Max Drawdown 0.0%, Sharpe 5.74. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25.18%, Sharpe 3.6. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
@@ -76,7 +76,7 @@ _Evaluated Jun 21 2026 01:16 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.5.
+**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
