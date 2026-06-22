@@ -303,9 +303,27 @@
       "prices": {
         "SPY": 746.739990234375
       }
+    },
+    {
+      "date": "2026-06-22",
+      "total_value": 196653.9,
+      "portfolio_pnl": 1.368,
+      "benchmark_pnl": 5.172,
+      "prices": {
+        "SPY": 744.4000244140625
+      }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "COIN",
+      "priority": "high",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 76.7, Win Rate 66.7%, Avg 5d Return 3.17%, Max Drawdown -9.11%, Sharpe 2.92. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "MARA",
@@ -317,24 +335,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MSFT",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sharpe 5.56. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "PLTR",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 70.0.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-22T14:22:20.723489",
+  "recommendations_updated": "2026-06-22T14:54:10.085209",
   "trade_log": [
     {
       "action": "SELL",
