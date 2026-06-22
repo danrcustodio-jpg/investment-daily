@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 45** &nbsp;·&nbsp; Updated: Jun 22 2026 02:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 45** &nbsp;·&nbsp; Updated: Jun 22 2026 04:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.37%** &nbsp; ($+2,654) |
-| SPY Benchmark | +5.17% &nbsp; ($+10,035 if 100% SPY) |
-| Alpha vs SPY | **-3.80%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.18% &nbsp; ($+10,045 if 100% SPY) |
+| Alpha vs SPY | **-3.81%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,654 |
 
@@ -55,31 +55,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 22 2026 02:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 22 2026 04:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **COIN** | PPO — Bullish Cross — Score 76.7, Win Rate 66.7%, Avg 5d Return 3.17%, Max Drawdown -9.11%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | MACD Bullish Crossover — Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | RSI Oversold — Score 83.8, Win Rate 76.9%, Avg 5d Return 2.8%, Max Drawdown -4.15%, Sharpe… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 61.3, Win Rate 65.6%, Avg 5d Return 2.5%, Max Drawdown -58.92%, Sharp… |
 
-### 🔍 NEW OPPORTUNITY — COIN
+### 🔍 NEW OPPORTUNITY — MSFT
 
-**Signal Analysis:** PPO — Bullish Cross — Score 76.7, Win Rate 66.7%, Avg 5d Return 3.17%, Max Drawdown -9.11%, Sharpe 2.92. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — MARA
-
-**Signal Analysis:** MACD Bullish Crossover — Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25.18%, Sharpe 3.6. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 83.8, Win Rate 76.9%, Avg 5d Return 2.8%, Max Drawdown -4.15%, Sharpe 5.77. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.8.
+**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ADA-USD
+
+**Signal Analysis:** RSI Oversold — Score 61.3, Win Rate 65.6%, Avg 5d Return 2.5%, Max Drawdown -58.92%, Sharpe 1.56. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
