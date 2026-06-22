@@ -147,14 +147,14 @@
   },
   "intraday_tracking": {
     "ADA-USD": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-22T14:53:30.940356+00:00",
-      "last_change_at": "2026-06-22T18:22:47.204677+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597212+00:00"
     },
     "AERO-USD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-22T16:33:21.260783+00:00",
-      "last_change_at": "2026-06-22T18:22:47.204785+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597303+00:00"
     },
     "AMD": {
       "cadence_min": 15,
@@ -202,9 +202,9 @@
       "last_change_at": "2026-06-19T19:32:55.803515+00:00"
     },
     "NVDA": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-22T16:33:23.966178+00:00",
-      "last_change_at": "2026-06-22T18:22:47.205082+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597580+00:00"
     },
     "PLTR": {
       "cadence_min": 15,
@@ -277,9 +277,9 @@
       "last_change_at": "2026-06-19T19:32:55.803185+00:00"
     },
     "ARM": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-22T16:33:21.575503+00:00",
-      "last_change_at": "2026-06-22T18:22:47.204888+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597397+00:00"
     },
     "BCH-USD": {
       "cadence_min": 1440,
@@ -337,9 +337,9 @@
       "last_change_at": "2026-05-21T16:12:11.373630+00:00"
     },
     "SPY": {
-      "cadence_min": 120,
+      "cadence_min": 15,
       "last_fetch_at": "2026-06-22T16:33:25.041036+00:00",
-      "last_change_at": "2026-06-22T18:22:47.205163+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597658+00:00"
     },
     "UPRO": {
       "cadence_min": 15,
@@ -347,9 +347,9 @@
       "last_change_at": "2026-06-22T14:53:30.593731+00:00"
     },
     "CRWD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-22T16:33:22.795419+00:00",
-      "last_change_at": "2026-06-22T18:22:47.204990+00:00"
+      "last_change_at": "2026-06-22T19:40:42.597493+00:00"
     },
     "MSFT": {
       "cadence_min": 15,
