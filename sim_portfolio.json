@@ -308,18 +308,18 @@
       "date": "2026-06-22",
       "total_value": 196653.9,
       "portfolio_pnl": 1.368,
-      "benchmark_pnl": 5.052,
+      "benchmark_pnl": 5.171,
       "prices": {
-        "SPY": 743.5484008789062
+        "SPY": 744.3900146484375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MSFT",
+      "ticker": "MARA",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 83.8, Win Rate 76.9%, Avg 5d Return 2.8%, Max Drawdown -4.15%, Sharpe 5.77. No conflicting bearish signals.",
+      "reason": "MACD Bullish Crossover \u2014 Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25.18%, Sharpe 3.6. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -328,7 +328,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "PLTR",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.6.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -343,7 +343,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-06-22T19:41:07.733190",
+  "recommendations_updated": "2026-06-22T21:00:21.221774",
   "trade_log": [
     {
       "action": "SELL",
