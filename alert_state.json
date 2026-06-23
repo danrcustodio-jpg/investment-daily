@@ -223,9 +223,9 @@
       "last_change_at": "2026-05-11T15:53:01.327216+00:00"
     },
     "GOOGL": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-23T13:51:13.891537+00:00",
-      "last_change_at": "2026-06-23T17:16:33.530183+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752651+00:00"
     },
     "IONQ": {
       "cadence_min": 15,
@@ -233,9 +233,9 @@
       "last_change_at": "2026-06-19T19:32:55.803417+00:00"
     },
     "META": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-06-23T17:16:36.430485+00:00",
-      "last_change_at": "2026-06-16T17:56:03.377189+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752768+00:00"
     },
     "MRVL": {
       "cadence_min": 15,
@@ -303,9 +303,9 @@
       "last_change_at": "2026-06-18T18:40:21.607526+00:00"
     },
     "ARKK": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-06-23T17:16:34.457312+00:00",
-      "last_change_at": "2026-06-19T15:56:47.898112+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752372+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -348,14 +348,14 @@
       "last_change_at": "2026-06-19T19:32:55.802895+00:00"
     },
     "CEG": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-23T13:51:12.972783+00:00",
-      "last_change_at": "2026-06-23T17:16:33.529973+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752515+00:00"
     },
     "MARA": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-23T13:51:14.325554+00:00",
-      "last_change_at": "2026-06-23T17:16:33.530301+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752713+00:00"
     },
     "XLE": {
       "cadence_min": 15,
@@ -383,9 +383,9 @@
       "last_change_at": "2026-06-22T19:40:42.597658+00:00"
     },
     "UPRO": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-06-23T17:16:38.182357+00:00",
-      "last_change_at": "2026-06-23T17:16:33.530393+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752837+00:00"
     },
     "CRWD": {
       "cadence_min": 1440,
@@ -403,9 +403,9 @@
       "last_change_at": "2026-06-15T17:49:06.835734+00:00"
     },
     "COIN": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-23T13:51:13.435708+00:00",
-      "last_change_at": "2026-06-23T17:16:33.530061+00:00"
+      "last_change_at": "2026-06-23T18:10:40.752582+00:00"
     }
   },
   "signal_last_notified_price": {
