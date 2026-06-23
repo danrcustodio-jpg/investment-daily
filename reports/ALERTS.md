@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday June 23, 2026 at 09:08 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday June 23, 2026 at 09:59 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -42,7 +42,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 68.6 | 54.1% | -93.47% | 🟡 Available |
 | 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 66.8 | 60.2% | -78.19% | 🟡 Available |
 | 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 65.2 | 64.0% | -53.06% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 64.9 | 59.4% | -10.2% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 65.0 | 59.4% | -10.2% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 63.3 | 54.9% | -70.4% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | Aroon — Strong Uptrend | 61.0 | 54.4% | -70.8% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 60.9 | 60.8% | -80.37% | 🟡 Available |
@@ -54,8 +54,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **PLTR** | Williams %R — Oversold | 56.7 | 51.5% | -48.42% | 🟡 Available |
 | 🟢 BULLISH | **DOT-USD** | RSI Oversold | 56.6 | 63.0% | -53.52% | 🟡 Available |
 | 🟢 BULLISH | **APP** | CCI — Extreme Oversold | 56.2 | 58.5% | -98.27% | 🟡 Available |
+| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 55.7 | 63.3% | -58.92% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | VWAP Deviation — Oversold | 55.5 | 62.2% | -86.0% | 🟡 Available |
-| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 55.5 | 63.3% | -58.92% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 55.4 | 59.1% | -99.95% | 🟡 Available |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.7 | 57.9% | -77.87% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 54.6 | 60.2% | -65.38% | 🟡 Available |
@@ -82,8 +82,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **PLTR** | Keltner — Lower Channel Touch | 49.1 | 43.8% | -36.8% | 🟡 Available |
 | 🟢 BULLISH | **APP** | VWAP Deviation — Oversold | 48.8 | 56.5% | -79.61% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | Stochastic RSI Oversold | 48.7 | 61.3% | -43.15% | 🟡 Available |
+| 🟢 BULLISH | **ADA-USD** | Keltner — Lower Channel Touch | 48.7 | 59.0% | -62.33% | 🟡 Available |
 | 🟢 BULLISH | **MARA** | Aroon — Strong Uptrend | 48.6 | 53.4% | -80.4% | 🟡 Available |
-| 🟢 BULLISH | **ADA-USD** | Keltner — Lower Channel Touch | 48.5 | 59.0% | -62.33% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | CCI — Extreme Oversold | 48.4 | 54.6% | -94.35% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 47.9 | 60.0% | -39.78% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.8 | 57.4% | -87.54% | 🟡 Available |
@@ -94,7 +94,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 46.3 | 56.2% | -85.59% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Stochastic (Full) — Oversold | 46.3 | 50.8% | -54.48% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 45.9 | 55.8% | -75.52% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Stochastic (Full) — Oversold | 45.9 | 58.8% | -49.27% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Stochastic (Full) — Oversold | 45.9 | 58.8% | -49.26% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 45.5 | 56.2% | -82.42% | 🟡 Available |
 | 🔴 BEARISH | **UPRO** | EMA 9/21 — Bearish Cross | 90.6 | 88.9% | -8.94% | 🟡 Available |
 | 🔴 BEARISH | **XLE** | Aroon — Strong Downtrend | 90.4 | 84.8% | -19.69% | 🟡 Available |
