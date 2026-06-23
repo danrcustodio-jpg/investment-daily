@@ -222,9 +222,9 @@
       "last_change_at": "2026-05-11T15:53:01.327216+00:00"
     },
     "GOOGL": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-23T13:51:13.891537+00:00",
-      "last_change_at": "2026-06-23T13:51:10.566563+00:00"
+      "last_change_at": "2026-06-23T15:00:40.852596+00:00"
     },
     "IONQ": {
       "cadence_min": 15,
@@ -347,14 +347,14 @@
       "last_change_at": "2026-06-19T19:32:55.802895+00:00"
     },
     "CEG": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-23T13:51:12.972783+00:00",
-      "last_change_at": "2026-06-23T13:51:10.566311+00:00"
+      "last_change_at": "2026-06-23T15:00:40.852416+00:00"
     },
     "MARA": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-23T13:51:14.325554+00:00",
-      "last_change_at": "2026-06-23T13:51:10.566646+00:00"
+      "last_change_at": "2026-06-23T15:00:40.852680+00:00"
     },
     "XLE": {
       "cadence_min": 15,
@@ -382,9 +382,9 @@
       "last_change_at": "2026-06-22T19:40:42.597658+00:00"
     },
     "UPRO": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-23T13:51:17.411121+00:00",
-      "last_change_at": "2026-06-23T13:51:10.566795+00:00"
+      "last_change_at": "2026-06-23T15:00:40.852766+00:00"
     },
     "CRWD": {
       "cadence_min": 1440,
@@ -402,9 +402,9 @@
       "last_change_at": "2026-06-15T17:49:06.835734+00:00"
     },
     "COIN": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-23T13:51:13.435708+00:00",
-      "last_change_at": "2026-06-23T13:51:10.566398+00:00"
+      "last_change_at": "2026-06-23T15:00:40.852500+00:00"
     }
   },
   "signal_last_notified_price": {
