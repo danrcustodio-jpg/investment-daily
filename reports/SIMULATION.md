@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 45** &nbsp;·&nbsp; Updated: Jun 22 2026 09:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 46** &nbsp;·&nbsp; Updated: Jun 23 2026 01:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.37%** &nbsp; ($+2,654) |
+| Portfolio P&L | **+1.38%** &nbsp; ($+2,678) |
 | SPY Benchmark | +5.17% &nbsp; ($+10,032 if 100% SPY) |
-| Alpha vs SPY | **-3.80%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,654 |
+| Current Value | $196,678 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,085 | +0.55% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,109 | +0.57% |
 
 ## Daily Equity Curve
 
@@ -55,13 +55,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 22 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 23 2026 01:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.6, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | MACD Bullish Crossover — Score 79.7, Win Rate 66.7%, Avg 5d Return 4.98%, Max Drawdown -25… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 61.3, Win Rate 65.6%, Avg 5d Return 2.5%, Max Drawdown -58.92%, Sharp… |
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** RSI Oversold — Score 72.6, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Sharpe 3.2. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — MARA
 
@@ -74,12 +80,6 @@ _Evaluated Jun 22 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 69.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — ADA-USD
-
-**Signal Analysis:** RSI Oversold — Score 61.3, Win Rate 65.6%, Avg 5d Return 2.5%, Max Drawdown -58.92%, Sharpe 1.56. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
