@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 46** &nbsp;·&nbsp; Updated: Jun 23 2026 03:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 46** &nbsp;·&nbsp; Updated: Jun 23 2026 04:05 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.38%** &nbsp; ($+2,678) |
-| SPY Benchmark | +4.13% &nbsp; ($+8,014 if 100% SPY) |
-| Alpha vs SPY | **-2.75%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.11% &nbsp; ($+7,973 if 100% SPY) |
+| Alpha vs SPY | **-2.73%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,678 |
 
@@ -52,21 +52,21 @@
 | 2026-06-18 | 📈 +1.32% | +5.50% | ❌ -4.19% |
 | 2026-06-19 | 📈 +1.33% | +5.50% | ❌ -4.17% |
 | 2026-06-22 | 📈 +1.37% | +5.17% | ❌ -3.80% |
-| 2026-06-23 | 📈 +1.38% | +4.13% | ❌ -2.75% |
+| 2026-06-23 | 📈 +1.38% | +4.11% | ❌ -2.73% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 23 2026 03:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 23 2026 04:05 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 71.8, Win Rate 55.0%, Avg 5d Return 7.86%, Max Drawdown -82… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.6, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.3, Win Rate 83.3%, Avg 5d Return 1.73%, Max Drawdown -1.33%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 71.8, Win Rate 55.0%, Avg 5d Return 7.86%, Max Drawdown -82.78%, Sharpe 2.2. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 72.6, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Sharpe 3.2. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
