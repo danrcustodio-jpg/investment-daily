@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 47** &nbsp;·&nbsp; Updated: Jun 24 2026 09:31 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 47** &nbsp;·&nbsp; Updated: Jun 24 2026 10:01 PM
 
 ## Performance Summary
 
@@ -57,17 +57,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 24 2026 09:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 24 2026 10:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.6, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.3, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 73.8, Win Rate 65.4%, Avg 5d Return 1.8%, Max Drawdown -24… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 81.6, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawdown -12.47%, Sharpe 4.31. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 72.3, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Sharpe 3.2. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
