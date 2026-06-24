@@ -321,6 +321,15 @@
       "prices": {
         "SPY": 733.5800170898438
       }
+    },
+    {
+      "date": "2026-06-24",
+      "total_value": 196702.12,
+      "portfolio_pnl": 1.393,
+      "benchmark_pnl": 3.837,
+      "prices": {
+        "SPY": 734.9500122070312
+      }
     }
   ],
   "recommendations": [
@@ -346,13 +355,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "PLTR",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 67.9.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 65.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-24T13:19:32.788047",
+  "recommendations_updated": "2026-06-24T13:43:05.420553",
   "trade_log": [
     {
       "action": "SELL",
