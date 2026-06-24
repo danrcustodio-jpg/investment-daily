@@ -326,9 +326,9 @@
       "date": "2026-06-24",
       "total_value": 196702.12,
       "portfolio_pnl": 1.393,
-      "benchmark_pnl": 3.387,
+      "benchmark_pnl": 3.596,
       "prices": {
-        "SPY": 731.760009765625
+        "SPY": 733.239990234375
       }
     }
   ],
@@ -346,7 +346,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CL=F",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 73.8, Win Rate 65.4%, Avg 5d Return 1.8%, Max Drawdown -24.06%, Sharpe 2.38. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 73.8, Win Rate 65.4%, Avg 5d Return 1.8%, Max Drawdown -24.06%, Sharpe 2.37. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -361,7 +361,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-24T19:32:39.846629",
+  "recommendations_updated": "2026-06-24T20:34:14.776573",
   "trade_log": [
     {
       "action": "SELL",
