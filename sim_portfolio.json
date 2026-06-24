@@ -326,9 +326,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 71.8, Win Rate 55.0%, Avg 5d Return 7.86%, Max Drawdown -82.78%, Sharpe 2.2. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 81.6, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawdown -12.47%, Sharpe 4.31. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -352,7 +352,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-23T21:59:44.911978",
+  "recommendations_updated": "2026-06-24T13:19:32.788047",
   "trade_log": [
     {
       "action": "SELL",

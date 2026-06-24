@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, June 23, 2026
-Generated at 01:28 PM
+# Daily Newsletter — Wednesday, June 24, 2026
+Generated at 01:19 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 141 total &nbsp;·&nbsp; 🟢 87 Bullish &nbsp;·&nbsp; 🔴 54 Bearish
+**Strategy Signals:** 135 total &nbsp;·&nbsp; 🟢 83 Bullish &nbsp;·&nbsp; 🔴 52 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $20.15 | 📈 +16.61% |
-| **SI=F** | Silver | $61.96 | 📉 -5.44% |
-| **ETH-USD** | Ethereum | $1647.60 | 📉 -4.57% |
-| **SOL-USD** | Solana | $68.72 | 📉 -4.43% |
-| **BTC-USD** | Bitcoin | $61983.96 | 📉 -3.08% |
-| **CL=F** | Crude Oil | $73.42 | 📉 -1.87% |
-| **XLY** | Consumer Disc. (XLY) | $114.94 | 📉 -1.70% |
-| **GC=F** | Gold | $4125.60 | 📉 -1.35% |
-| **^IXIC** | NASDAQ | $26166.60 | 📉 -1.32% |
-| **XLE** | Energy (XLE) | $54.06 | 📈 +1.26% |
+| **SI=F** | Silver | $58.51 | 📉 -5.66% |
+| **XLK** | Tech (XLK) | $184.19 | 📉 -4.14% |
+| **CL=F** | Crude Oil | $70.52 | 📉 -3.67% |
+| **GC=F** | Gold | $3990.30 | 📉 -3.38% |
+| **^VIX** | VIX (Fear Index) | $19.05 | 📉 -2.26% |
+| **^IXIC** | NASDAQ | $25587.04 | 📉 -2.21% |
+| **NG=F** | Natural Gas | $3.21 | 📈 +2.03% |
+| **XLI** | Industrials (XLI) | $178.15 | 📉 -2.01% |
+| **^GSPC** | S&P 500 | $7365.46 | 📉 -1.44% |
+| **XLV** | Healthcare (XLV) | $152.18 | 📈 +1.41% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **PLTR** | MFI — Oversold | 100.0 | 100.0% |
+| 🟢 BULLISH | **GC=F** | RSI Oversold | 100.0 | 100.0% |
 | 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 87.7 | 79.3% |
-| 🟢 BULLISH | **MSFT** | RSI Oversold | 83.8 | 76.9% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.7 | 80.0% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.7 | 74.7% |
 | 🟢 BULLISH | **MSFT** | MFI — Oversold | 83.3 | 83.3% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 80.3 | 67.1% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 80.3 | 62.6% |
-| 🟢 BULLISH | **MARA** | MACD Bullish Crossover | 79.7 | 66.7% |
-| 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 79.2 | 64.2% |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 77.4 | 75.8% |
-| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 76.9 | 66.1% |
-| 🟢 BULLISH | **COIN** | PPO — Bullish Cross | 76.7 | 66.7% |
-| 🟢 BULLISH | **RIOT** | Aroon — Strong Uptrend | 76.5 | 63.0% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 81.9 | 71.4% |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 81.6 | 76.9% |
+| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 80.2 | 62.2% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.9 | 66.3% |
+| 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 79.3 | 64.2% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 77.3 | 64.1% |
 
 ## Latest News
 
-- [Corton Enhanced Income Fund declares CAD 0.06 dividend](https://seekingalpha.com/news/4606119-corton-enhanced-income-fund-declares-cad-0_06-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [A big battleship to turn: Evercore downgrades Nike to In-Line](https://seekingalpha.com/news/4606065-a-big-battleship-to-turn-evercore-downgrades-nike-to-in-line?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Accenture signs multi-year partnership with NFL team Seattle Seahawks](https://seekingalpha.com/news/4606114-accenture-signs-multi-year-partnership-with-nfl-team-seattle-seahawks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Carnival in charts: Passengers carried reaches 3.4M in FQ2; occupancy at 104%](https://seekingalpha.com/news/4605905-carnival-in-charts-passengers-carried-reaches-34m-in-fq2-occupancy-at-104?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Healthcare Trust 7.125% PFD SER B declares $0.4453 dividend](https://seekingalpha.com/news/4606118-healthcare-trust-7_125-percent-pfd-ser-b-declares-0_4453-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Silver prices today, Tuesday, June 23: Silver prices slipping, struggling more than gold](https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-june-23-silver-prices-slipping-struggling-more-than-gold-132427471.html) — *Yahoo Finance*
-- [Meta announces new smart glasses starting at $299, as Zuckerberg keeps pushing wearables](https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html) — *CNBC Markets*
-- ['I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool](https://www.cnbc.com/2026/06/23/trump-threatens-lawsuits-against-abc-network-for-reporting-on-reflecting-pool.html) — *CNBC Markets*
-- [Builders Capital Mortgage declares CAD 0.20 dividend](https://seekingalpha.com/news/4606113-builders-capital-mortgage-declares-cad-0_20-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [SpaceX stock continues to slide following $400 billion sell-off](https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html) — *CNBC Markets*
+- [Lockheed Martin unveils hypersonic glide body, targets lower-cost production](https://seekingalpha.com/news/4606696-lockheed-martin-unveils-hypersonic-glide-body-targets-lower-cost-production?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Retail spending booms, but these stocks still trade at attractive valuations](https://seekingalpha.com/news/4606690-retail-spending-booms-but-these-stocks-still-trade-at-attractive-valuations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Canaan rises after CEO, CFO buy shares](https://seekingalpha.com/news/4606693-canaan-rises-after-ceo-cfo-buy-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [The Club's top 10 things to watch in the stock market Wednesday](https://www.cnbc.com/2026/06/24/the-clubs-top-10-things-to-watch-in-the-stock-market-wednesday-.html) — *CNBC Markets*
+- [OpenAI unveils first chip as part of Broadcom deal in effort to 'build the full stack'](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html) — *CNBC Markets*
+- [Golden Goose Resources announces private placement to raise $3M to $5M](https://seekingalpha.com/news/4606685-golden-goose-resources-announces-private-placement-to-raise-3m-to-5m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [BlackBerry rises as Stifel sees more upside ahead](https://seekingalpha.com/news/4606692-blackberry-rises-as-stifel-sees-more-upside-ahead?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nvidia in focus as Seaport keeps Sell rating, citing 'growing' balance sheet worries](https://seekingalpha.com/news/4606688-nvidia-in-focus-as-seaport-keeps-sell-rating-citing-growing-balance-sheet-worries?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Saipem-Subsea merger approved by Brazil regulator; Saipem sells Saudi rig business in $285M deal](https://seekingalpha.com/news/4606675-saipem-subsea-merger-approved-by-brazil-regulator-saipem-sells-saudi-rig-business-in-285m-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [B&M European Value Retail CEO purchases shares worth £99,163](https://www.investing.com/news/company-news/bm-european-value-retail-ceo-purchases-shares-worth-99163-93CH-4758240) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
