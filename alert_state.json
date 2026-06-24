@@ -68,7 +68,6 @@
     "SOXL::VWAP Deviation \u2014 Overbought": "2026-06-23T13:51:38.987401+00:00",
     "META::Aroon \u2014 Strong Downtrend": "2026-06-23T13:51:38.987415+00:00",
     "ADA-USD::RSI Oversold": "2026-06-23T13:51:35.772362+00:00",
-    "ADA-USD::Keltner \u2014 Lower Channel Touch": "2026-06-22T16:33:31.149228+00:00",
     "ARKK::OBV \u2014 Distribution": "2026-06-22T18:22:55.448568+00:00",
     "GC=F::VWAP Deviation \u2014 Oversold": "2026-06-24T13:42:36.614363+00:00",
     "NVDA::Williams %R \u2014 Oversold": "2026-06-24T13:42:36.614378+00:00",
@@ -173,7 +172,6 @@
   "sms_ticker_last_sent": {
     "PLTR": "2026-06-24T13:42:33.570565+00:00",
     "XLE": "2026-06-24T13:42:36.558674+00:00",
-    "ADA-USD": "2026-06-22T16:33:30.932005+00:00",
     "ARKK": "2026-06-23T17:16:41.114397+00:00",
     "GC=F": "2026-06-24T13:42:35.301556+00:00",
     "LINK-USD": "2026-06-24T15:46:42.538175+00:00"
@@ -220,9 +218,9 @@
       "last_change_at": "2026-06-23T18:10:40.752651+00:00"
     },
     "IONQ": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-24T15:46:35.957152+00:00",
-      "last_change_at": "2026-06-24T15:46:33.748758+00:00"
+      "last_change_at": "2026-06-24T16:42:49.179536+00:00"
     },
     "META": {
       "cadence_min": 15,
@@ -295,9 +293,9 @@
       "last_change_at": "2026-06-18T18:40:21.607526+00:00"
     },
     "ARKK": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-24T15:46:34.524952+00:00",
-      "last_change_at": "2026-06-24T15:46:33.748594+00:00"
+      "last_change_at": "2026-06-24T16:42:49.179348+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -310,9 +308,9 @@
       "last_change_at": "2026-06-19T19:32:55.803185+00:00"
     },
     "ARM": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-06-24T15:46:34.673926+00:00",
-      "last_change_at": "2026-06-24T15:46:33.748683+00:00"
+      "last_change_at": "2026-06-24T16:42:49.179433+00:00"
     },
     "BCH-USD": {
       "cadence_min": 1440,
@@ -469,7 +467,6 @@
     "SOXL::VWAP Deviation \u2014 Overbought": 242.35000610351562,
     "META::Aroon \u2014 Strong Downtrend": 568.7650146484375,
     "ADA-USD::RSI Oversold": 0.1518000066280365,
-    "ADA-USD::Keltner \u2014 Lower Channel Touch": 0.1590999960899353,
     "ARKK::OBV \u2014 Distribution": 79.25,
     "GC=F::VWAP Deviation \u2014 Oversold": 4007.199951171875,
     "NVDA::Williams %R \u2014 Oversold": 200.49000549316406,
