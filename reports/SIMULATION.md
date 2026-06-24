@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 47** &nbsp;·&nbsp; Updated: Jun 24 2026 01:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 47** &nbsp;·&nbsp; Updated: Jun 24 2026 02:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.39%** &nbsp; ($+2,702) |
-| SPY Benchmark | +3.83% &nbsp; ($+7,432 if 100% SPY) |
-| Alpha vs SPY | **-2.44%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.35% &nbsp; ($+8,439 if 100% SPY) |
+| Alpha vs SPY | **-2.96%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,702 |
 
@@ -53,11 +53,11 @@
 | 2026-06-19 | 📈 +1.33% | +5.50% | ❌ -4.17% |
 | 2026-06-22 | 📈 +1.37% | +5.17% | ❌ -3.80% |
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
-| 2026-06-24 | 📈 +1.39% | +3.84% | ❌ -2.44% |
+| 2026-06-24 | 📈 +1.39% | +4.36% | ❌ -2.97% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 24 2026 01:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 24 2026 02:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
