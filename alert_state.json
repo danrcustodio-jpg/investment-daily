@@ -81,7 +81,6 @@
     "XRP-USD::VWAP Deviation \u2014 Oversold": "2026-06-25T13:42:35.095777+00:00",
     "ARM::Ulcer Index \u2014 Elevated": "2026-06-25T13:42:35.585005+00:00",
     "SMCI::Aroon \u2014 Strong Downtrend": "2026-06-25T13:42:35.585058+00:00",
-    "ARKK::Chaikin Money Flow \u2014 Bullish": "2026-06-23T17:16:41.114459+00:00",
     "GC=F::RSI Oversold": "2026-06-24T13:42:36.584837+00:00",
     "ATOM-USD::Keltner \u2014 Lower Channel Touch": "2026-06-25T13:42:29.706335+00:00",
     "AVGO::Stochastic (Full) \u2014 Oversold": "2026-06-24T13:42:37.270959+00:00",
@@ -180,7 +179,6 @@
   "sms_ticker_last_sent": {
     "PLTR": "2026-06-25T13:42:24.403020+00:00",
     "XLE": "2026-06-25T13:42:26.768846+00:00",
-    "ARKK": "2026-06-23T17:16:41.114397+00:00",
     "GC=F": "2026-06-24T13:42:35.301556+00:00",
     "LINK-USD": "2026-06-25T14:57:52.210666+00:00",
     "SPY": "2026-06-25T13:42:28.813059+00:00"
@@ -212,9 +210,9 @@
       "last_change_at": "2026-06-23T13:51:10.566084+00:00"
     },
     "CL=F": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-25T14:57:44.214145+00:00",
-      "last_change_at": "2026-06-25T16:45:37.631535+00:00"
+      "last_change_at": "2026-06-25T17:51:58.050700+00:00"
     },
     "GC=F": {
       "cadence_min": 15,
@@ -352,9 +350,9 @@
       "last_change_at": "2026-06-23T18:10:40.752515+00:00"
     },
     "MARA": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-06-25T14:57:44.531675+00:00",
-      "last_change_at": "2026-06-25T16:45:37.631628+00:00"
+      "last_change_at": "2026-06-25T17:51:58.050793+00:00"
     },
     "XLE": {
       "cadence_min": 15,
@@ -489,7 +487,6 @@
     "XRP-USD::VWAP Deviation \u2014 Oversold": 1.0583000183105469,
     "ARM::Ulcer Index \u2014 Elevated": 352.45001220703125,
     "SMCI::Aroon \u2014 Strong Downtrend": 32.30500030517578,
-    "ARKK::Chaikin Money Flow \u2014 Bullish": 77.97000122070312,
     "GC=F::RSI Oversold": 4007.199951171875,
     "ATOM-USD::Keltner \u2014 Lower Channel Touch": 1.597000002861023,
     "AVGO::Stochastic (Full) \u2014 Oversold": 382.45001220703125,
