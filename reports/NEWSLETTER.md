@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, June 24, 2026
+# Daily Newsletter — Thursday, June 25, 2026
 Generated at 01:19 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 135 total &nbsp;·&nbsp; 🟢 83 Bullish &nbsp;·&nbsp; 🔴 52 Bearish
+**Strategy Signals:** 140 total &nbsp;·&nbsp; 🟢 95 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $58.51 | 📉 -5.66% |
-| **XLK** | Tech (XLK) | $184.19 | 📉 -4.14% |
-| **CL=F** | Crude Oil | $70.52 | 📉 -3.67% |
-| **GC=F** | Gold | $3990.30 | 📉 -3.38% |
-| **^VIX** | VIX (Fear Index) | $19.05 | 📉 -2.26% |
-| **^IXIC** | NASDAQ | $25587.04 | 📉 -2.21% |
-| **NG=F** | Natural Gas | $3.21 | 📈 +2.03% |
-| **XLI** | Industrials (XLI) | $178.15 | 📉 -2.01% |
-| **^GSPC** | S&P 500 | $7365.46 | 📉 -1.44% |
-| **XLV** | Healthcare (XLV) | $152.18 | 📈 +1.41% |
+| **^VIX** | VIX (Fear Index) | $17.88 | 📉 -4.03% |
+| **NG=F** | Natural Gas | $3.32 | 📈 +2.92% |
+| **^TNX** | 10-Year Treasury Yield | $4.38 | 📉 -1.71% |
+| **XLE** | Energy (XLE) | $53.57 | 📉 -1.63% |
+| **SI=F** | Silver | $58.88 | 📈 +1.43% |
+| **GC=F** | Gold | $4047.20 | 📈 +1.43% |
+| **^TYX** | 30-Year Treasury Yield | $4.83 | 📉 -1.41% |
+| **XLI** | Industrials (XLI) | $180.21 | 📈 +1.16% |
+| **XLY** | Consumer Disc. (XLY) | $115.07 | 📈 +1.15% |
+| **ETH-USD** | Ethereum | $1635.30 | 📈 +0.95% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **PLTR** | MFI — Oversold | 100.0 | 100.0% |
-| 🟢 BULLISH | **GC=F** | RSI Oversold | 100.0 | 100.0% |
-| 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 87.7 | 79.3% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.7 | 80.0% |
 | 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.7 | 74.7% |
 | 🟢 BULLISH | **MSFT** | MFI — Oversold | 83.3 | 83.3% |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 81.9 | 71.4% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 81.6 | 76.9% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 80.2 | 62.2% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.9 | 66.3% |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 81.3 | 76.9% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 80.1 | 66.7% |
 | 🟢 BULLISH | **MRVL** | Aroon — Strong Uptrend | 79.3 | 64.2% |
-| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 77.3 | 64.1% |
+| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 78.4 | 60.9% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 77.7 | 64.6% |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 77.5 | 68.4% |
+| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 76.6 | 66.0% |
 
 ## Latest News
 
-- [Lockheed Martin unveils hypersonic glide body, targets lower-cost production](https://seekingalpha.com/news/4606696-lockheed-martin-unveils-hypersonic-glide-body-targets-lower-cost-production?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Retail spending booms, but these stocks still trade at attractive valuations](https://seekingalpha.com/news/4606690-retail-spending-booms-but-these-stocks-still-trade-at-attractive-valuations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Canaan rises after CEO, CFO buy shares](https://seekingalpha.com/news/4606693-canaan-rises-after-ceo-cfo-buy-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [The Club's top 10 things to watch in the stock market Wednesday](https://www.cnbc.com/2026/06/24/the-clubs-top-10-things-to-watch-in-the-stock-market-wednesday-.html) — *CNBC Markets*
-- [OpenAI unveils first chip as part of Broadcom deal in effort to 'build the full stack'](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html) — *CNBC Markets*
-- [Golden Goose Resources announces private placement to raise $3M to $5M](https://seekingalpha.com/news/4606685-golden-goose-resources-announces-private-placement-to-raise-3m-to-5m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [BlackBerry rises as Stifel sees more upside ahead](https://seekingalpha.com/news/4606692-blackberry-rises-as-stifel-sees-more-upside-ahead?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nvidia in focus as Seaport keeps Sell rating, citing 'growing' balance sheet worries](https://seekingalpha.com/news/4606688-nvidia-in-focus-as-seaport-keeps-sell-rating-citing-growing-balance-sheet-worries?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Saipem-Subsea merger approved by Brazil regulator; Saipem sells Saudi rig business in $285M deal](https://seekingalpha.com/news/4606675-saipem-subsea-merger-approved-by-brazil-regulator-saipem-sells-saudi-rig-business-in-285m-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [B&M European Value Retail CEO purchases shares worth £99,163](https://www.investing.com/news/company-news/bm-european-value-retail-ceo-purchases-shares-worth-99163-93CH-4758240) — *Investing.com*
+- [Ares private credit fund caps withdrawals after surge in redemption requests](https://seekingalpha.com/news/4607254-ares-private-credit-fund-caps-withdrawals-after-surge-in-redemption-requests?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [JPMorgan names Doug Petno and Troy Rohrbaugh co-presidents as longtime exec Marianne Lake exits](https://www.cnbc.com/2026/06/25/jpmorgan-chase-co-presidents-lake-exits.html) — *CNBC Markets*
+- [NorthStar Earth & Space moves toward NYSE listing through SPAC deal](https://seekingalpha.com/news/4607267-northstar-earth-and-space-moves-toward-nyse-listing-through-spac-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Polestar to focus on Europe after U.S. blocks authorization under connected vehicle rule](https://seekingalpha.com/news/4607259-polestar-to-focus-on-europe-after-us-blocks-authorization-under-connected-vehicle-rule?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Tetra Tech wins $49M U.S. Army Corps of Engineers contract](https://seekingalpha.com/news/4607261-tetra-tech-wins-49m-us-army-corps-of-engineers-contract?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Apple ups prices on nearly all products, including MacBook Neo, amid memory shortages](https://seekingalpha.com/news/4607227-apple-ups-prices-on-nearly-all-products-including-macbook-neo-amid-memory-shortages?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [U.S. giving topped $600 billion for the first time last year. Megadonors and bequests are to thank](https://www.cnbc.com/2026/06/25/us-charitable-giving-megadonors.html) — *CNBC Markets*
+- [The world’s top-performing stock market still isn’t a developed market. Here’s why, according to the MSCI chief](https://www.cnbc.com/2026/06/25/south-korea-emerging-market-developed-msci-kospi.html) — *CNBC Markets*
+- [Hertz Global prices 37M share offering at $2.70, shares extend decline](https://seekingalpha.com/news/4607047-hertz-global-prices-37m-share-offering-at-270?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [White River Bancshares declares $0.50 dividend](https://seekingalpha.com/news/4607265-white-river-bancshares-declares-0_50-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

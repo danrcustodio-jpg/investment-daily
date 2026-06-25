@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 47** &nbsp;·&nbsp; Updated: Jun 24 2026 10:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 48** &nbsp;·&nbsp; Updated: Jun 25 2026 01:19 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.39%** &nbsp; ($+2,702) |
+| Portfolio P&L | **+1.41%** &nbsp; ($+2,726) |
 | SPY Benchmark | +3.60% &nbsp; ($+6,976 if 100% SPY) |
-| Alpha vs SPY | **-2.20%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-2.19%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,702 |
+| Current Value | $196,726 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,133 | +0.58% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,157 | +0.59% |
 
 ## Daily Equity Curve
 
@@ -57,23 +57,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 24 2026 10:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 25 2026 01:19 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.3, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 73.8, Win Rate 65.4%, Avg 5d Return 1.8%, Max Drawdown -24… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.3, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.7, Win Rate 80.0%, Avg 5d Return 4.35%, Max Drawdown -19… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** RSI Oversold — Score 72.3, Win Rate 57.1%, Avg 5d Return 6.26%, Max Drawdown -56.68%, Sharpe 3.2. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 81.3, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawdown -12.47%, Sharpe 4.31. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 73.8, Win Rate 65.4%, Avg 5d Return 1.8%, Max Drawdown -24.06%, Sharpe 2.37. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 86.7, Win Rate 80.0%, Avg 5d Return 4.35%, Max Drawdown -19.07%, Sharpe 4.93. 2 minor bearish signal(s), max confidence 70.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
