@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 48** &nbsp;·&nbsp; Updated: Jun 25 2026 06:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 48** &nbsp;·&nbsp; Updated: Jun 25 2026 07:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.41%** &nbsp; ($+2,726) |
-| SPY Benchmark | +3.69% &nbsp; ($+7,148 if 100% SPY) |
-| Alpha vs SPY | **-2.28%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.44% &nbsp; ($+6,663 if 100% SPY) |
+| Alpha vs SPY | **-2.03%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,726 |
 
@@ -54,11 +54,11 @@
 | 2026-06-22 | 📈 +1.37% | +5.17% | ❌ -3.80% |
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
-| 2026-06-25 | 📈 +1.41% | +3.69% | ❌ -2.29% |
+| 2026-06-25 | 📈 +1.41% | +3.44% | ❌ -2.03% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 25 2026 06:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 25 2026 07:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -74,13 +74,13 @@ _Evaluated Jun 25 2026 06:42 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.2%, Max Drawdown -19.07%, Sharpe 4.71. 2 minor bearish signal(s), max confidence 69.3.
+**Signal Analysis:** Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.2%, Max Drawdown -19.07%, Sharpe 4.7. 2 minor bearish signal(s), max confidence 69.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 62.0.
+**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 61.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
