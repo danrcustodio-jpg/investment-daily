@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Thursday June 25, 2026 at 08:38 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday June 25, 2026 at 09:32 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -8,8 +8,8 @@
 | Total signals (confidence ≥ 45) | 141 |
 | 🟢 Bullish | 97 |
 | 🔴 Bearish | 44 |
-| 🔵 In cooldown (fired in last 6h) | 1 |
-| 🟡 Available to fire (not in cooldown) | 140 |
+| 🔵 In cooldown (fired in last 6h) | 0 |
+| 🟡 Available to fire (not in cooldown) | 141 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -53,12 +53,12 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 64.9 | 64.0% | -53.06% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 64.2 | 55.3% | -64.44% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 64.1 | 53.3% | -3.01% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 63.8 | 62.5% | -9.0% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 62.9 | 62.5% | -9.0% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 62.9 | 54.9% | -70.4% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 62.4 | 61.2% | -80.37% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 62.4 | 68.0% | -71.37% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 62.4 | 68.0% | -71.38% | 🟡 Available |
 | 🟢 BULLISH | **DOT-USD** | RSI Oversold | 61.6 | 64.9% | -53.52% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 61.5 | 60.3% | -24.59% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 61.4 | 60.3% | -24.59% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Stochastic RSI Oversold | 59.5 | 54.0% | -62.33% | 🟡 Available |
 | 🟢 BULLISH | **TSLA** | VWAP Deviation — Oversold | 59.4 | 57.9% | -86.12% | 🟡 Available |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 58.9 | 59.4% | -98.81% | 🟡 Available |
@@ -73,16 +73,16 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 54.8 | 57.5% | -96.6% | 🟡 Available |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.7 | 57.9% | -77.87% | 🟡 Available |
 | 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 54.4 | 53.2% | -99.35% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 54.3 | 57.1% | -21.47% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 54.2 | 56.6% | -87.02% | 🟡 Available |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 54.0 | 59.3% | -70.42% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 53.9 | 57.1% | -21.95% | 🟡 Available |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.8 | 61.4% | -56.53% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 53.8 | 56.7% | -78.63% | 🟡 Available |
 | 🟢 BULLISH | **XLK** | SMA 30 — Bullish Reclaim | 52.7 | 50.0% | -6.02% | 🟡 Available |
 | 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 52.7 | 60.7% | -52.26% | 🟡 Available |
 | 🟢 BULLISH | **LTC-USD** | RSI Oversold | 52.7 | 65.9% | -53.89% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | VWAP Deviation — Oversold | 52.2 | 58.9% | -39.72% | 🟡 Available |
-| 🟢 BULLISH | **LINK-USD** | Keltner — Lower Channel Touch | 51.8 | 54.3% | -62.57% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **LINK-USD** | Keltner — Lower Channel Touch | 51.8 | 54.3% | -62.57% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 51.7 | 59.5% | -97.25% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 51.3 | 54.1% | -88.29% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | CCI — Extreme Oversold | 50.4 | 59.7% | -94.04% | 🟡 Available |
@@ -92,13 +92,13 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **META** | Williams %R — Oversold | 49.6 | 55.0% | -40.79% | 🟡 Available |
 | 🟢 BULLISH | **APP** | Stochastic RSI Oversold | 49.5 | 49.2% | -80.63% | 🟡 Available |
 | 🟢 BULLISH | **CEG** | Vortex — Bullish | 49.5 | 57.7% | -21.58% | 🟡 Available |
-| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 49.3 | 59.7% | -59.83% | 🟡 Available |
+| 🟢 BULLISH | **ADA-USD** | RSI Oversold | 49.5 | 59.7% | -59.48% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Keltner — Lower Channel Touch | 49.1 | 43.8% | -36.8% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | CCI — Extreme Oversold | 48.8 | 54.6% | -94.35% | 🟡 Available |
 | 🟢 BULLISH | **MARA** | Aroon — Strong Uptrend | 48.5 | 53.4% | -80.4% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 48.0 | 57.4% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 47.9 | 60.0% | -39.78% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 47.8 | 61.0% | -63.48% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 47.6 | 61.0% | -63.7% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Chaikin Money Flow — Bullish | 47.6 | 54.8% | -97.44% | 🟡 Available |
 | 🟢 BULLISH | **TSLA** | Williams %R — Oversold | 47.4 | 48.2% | -73.44% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Williams %R — Oversold | 47.4 | 50.0% | -48.42% | 🟡 Available |
@@ -126,7 +126,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **MRVL** | Ulcer Index — Elevated | 81.1 | 72.9% | -32.2% | 🟡 Available |
 | 🔴 BEARISH | **AVGO** | Ulcer Index — Elevated | 80.3 | 72.5% | -26.25% | 🟡 Available |
 | 🔴 BEARISH | **MSFT** | Chaikin Money Flow — Bearish | 79.6 | 69.1% | -21.18% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 77.9 | 68.1% | -19.07% | 🟡 Available |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 77.9 | 68.1% | -19.12% | 🟡 Available |
 | 🔴 BEARISH | **AMD** | VWAP Deviation — Overbought | 76.5 | 64.0% | -62.37% | 🟡 Available |
 | 🔴 BEARISH | **TQQQ** | EMA 9/21 — Bearish Cross | 76.0 | 70.0% | -19.04% | 🟡 Available |
 | 🔴 BEARISH | **TQQQ** | Ulcer Index — Elevated | 75.5 | 70.5% | -58.83% | 🟡 Available |
