@@ -1,12 +1,12 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 48** &nbsp;·&nbsp; Updated: Jun 25 2026 01:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 48** &nbsp;·&nbsp; Updated: Jun 25 2026 02:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.41%** &nbsp; ($+2,726) |
-| SPY Benchmark | +3.91% &nbsp; ($+7,591 if 100% SPY) |
+| SPY Benchmark | +3.91% &nbsp; ($+7,590 if 100% SPY) |
 | Alpha vs SPY | **-2.51%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,726 |
@@ -54,16 +54,16 @@
 | 2026-06-22 | 📈 +1.37% | +5.17% | ❌ -3.80% |
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
-| 2026-06-25 | 📈 +1.41% | +3.91% | ❌ -2.51% |
+| 2026-06-25 | 📈 +1.41% | +3.92% | ❌ -2.51% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 25 2026 01:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 25 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.3, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.22%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
@@ -74,13 +74,13 @@ _Evaluated Jun 25 2026 01:43 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.22%, Max Drawdown -19.07%, Sharpe 4.74. 2 minor bearish signal(s), max confidence 69.4.
+**Signal Analysis:** Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 2 minor bearish signal(s), max confidence 69.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 62.1.
+**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 61.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
