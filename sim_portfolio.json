@@ -344,9 +344,9 @@
       "date": "2026-06-26",
       "total_value": 196750.34,
       "portfolio_pnl": 1.418,
-      "benchmark_pnl": 2.896,
+      "benchmark_pnl": 3.493,
       "prices": {
-        "SPY": 728.2899780273438
+        "SPY": 732.510009765625
       }
     }
   ],
@@ -373,13 +373,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "SMH",
       "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.29. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.3. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-26T13:40:26.177748",
+  "recommendations_updated": "2026-06-26T14:53:15.500671",
   "trade_log": [
     {
       "action": "SELL",

@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 01:40 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 02:53 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.42%** &nbsp; ($+2,750) |
-| SPY Benchmark | +2.90% &nbsp; ($+5,635 if 100% SPY) |
-| Alpha vs SPY | **-1.49%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.48% &nbsp; ($+6,754 if 100% SPY) |
+| Alpha vs SPY | **-2.06%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,750 |
 
@@ -55,11 +55,11 @@
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
-| 2026-06-26 | 📈 +1.42% | +2.90% | ❌ -1.48% |
+| 2026-06-26 | 📈 +1.42% | +3.49% | ❌ -2.08% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 26 2026 01:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 26 2026 02:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -81,7 +81,7 @@ _Evaluated Jun 26 2026 01:40 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.29. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.3. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
