@@ -344,13 +344,22 @@
       "date": "2026-06-26",
       "total_value": 196750.34,
       "portfolio_pnl": 1.418,
-      "benchmark_pnl": 3.439,
+      "benchmark_pnl": 2.995,
       "prices": {
-        "SPY": 732.1300048828125
+        "SPY": 728.989990234375
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "AMZN",
+      "priority": "high",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 47.0.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
@@ -362,24 +371,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CRWD",
-      "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 79.6, Win Rate 73.3%, Avg 5d Return 2.75%, Max Drawdown -18.53%, Sharpe 2.59. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.0.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-26T19:32:51.781570",
+  "recommendations_updated": "2026-06-26T20:33:30.163728",
   "trade_log": [
     {
       "action": "SELL",

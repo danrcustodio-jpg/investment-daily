@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 07:32 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 08:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.42%** &nbsp; ($+2,750) |
-| SPY Benchmark | +3.44% &nbsp; ($+6,669 if 100% SPY) |
-| Alpha vs SPY | **-2.02%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.00% &nbsp; ($+5,811 if 100% SPY) |
+| Alpha vs SPY | **-1.58%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,750 |
 
@@ -55,17 +55,23 @@
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
-| 2026-06-26 | 📈 +1.42% | +3.44% | ❌ -2.02% |
+| 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 26 2026 07:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 26 2026 08:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.1, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 79.6, Win Rate 73.3%, Avg 5d Return 2.75%, Max Drawdown -18.53%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
+
+### 🔍 NEW OPPORTUNITY — AMZN
+
+**Signal Analysis:** OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 47.0.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -73,15 +79,9 @@ _Evaluated Jun 26 2026 07:32 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — CRWD
-
-**Signal Analysis:** Vortex — Bullish — Score 79.6, Win Rate 73.3%, Avg 5d Return 2.75%, Max Drawdown -18.53%, Sharpe 2.59. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.0.
+**Signal Analysis:** Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
