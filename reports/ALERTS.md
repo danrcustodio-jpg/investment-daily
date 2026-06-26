@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Friday June 26, 2026 at 08:33 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Friday June 26, 2026 at 09:28 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -25,6 +25,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 72.9% | -13.22% | 🟡 Available |
 | 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 82.0 | 69.0% | -13.68% | 🟡 Available |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 81.9 | 71.4% | -30.86% | 🟡 Available |
+| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 81.7 | 74.2% | -8.66% | 🟡 Available |
 | 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 81.1 | 76.9% | -12.47% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | OBV — Accumulation | 80.7 | 69.7% | -12.64% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | Vortex — Bullish | 79.6 | 73.3% | -18.53% | 🟡 Available |
@@ -48,7 +49,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 69.4 | 59.8% | -42.38% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | VWAP Deviation — Oversold | 69.3 | 62.3% | -60.9% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | Aroon — Strong Uptrend | 69.3 | 60.8% | -77.5% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 69.2 | 55.9% | -14.29% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 67.7 | 63.5% | -43.21% | 🟡 Available |
 | 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 67.1 | 60.4% | -78.19% | 🟡 Available |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 67.0 | 53.9% | -93.47% | 🟡 Available |
@@ -56,11 +56,11 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ATOM-USD** | Fisher Transform — Low Extreme | 66.1 | 62.6% | -72.73% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Stochastic (Full) — Oversold | 64.9 | 56.2% | -89.45% | 🟡 Available |
 | 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 64.7 | 64.0% | -53.06% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 64.3 | 61.5% | -29.38% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 64.5 | 61.5% | -28.66% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 64.1 | 53.3% | -3.01% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 62.6 | 54.9% | -70.4% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 61.8 | 54.8% | -64.44% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 61.8 | 67.7% | -72.41% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 61.8 | 67.7% | -72.28% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 61.7 | 61.0% | -80.37% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | Stochastic RSI Oversold | 61.3 | 57.6% | -76.35% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 60.2 | 65.3% | -97.92% | 🟡 Available |
@@ -84,10 +84,10 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 53.7 | 59.5% | -32.17% | 🟡 Available |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 53.4 | 59.1% | -70.42% | 🟡 Available |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.2 | 61.2% | -56.53% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 52.2 | 60.6% | -14.12% | 🟡 Available |
 | 🟢 BULLISH | **META** | Stochastic (Full) — Oversold | 51.8 | 53.6% | -37.9% | 🟡 Available |
 | 🟢 BULLISH | **AAPL** | Stochastic RSI Oversold | 51.4 | 53.6% | -45.14% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 51.1 | 59.3% | -97.25% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 51.1 | 60.6% | -14.99% | 🟡 Available |
 | 🟢 BULLISH | **LINK-USD** | Fisher Transform — Low Extreme | 51.1 | 57.9% | -84.02% | 🟡 Available |
 | 🟢 BULLISH | **GOOGL** | Stochastic RSI Oversold | 50.8 | 55.6% | -41.23% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 50.5 | 53.9% | -88.29% | 🟡 Available |
@@ -100,19 +100,19 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **MARA** | Aroon — Strong Uptrend | 48.5 | 53.4% | -80.4% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | CCI — Extreme Oversold | 48.3 | 54.6% | -94.35% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 47.9 | 60.0% | -39.78% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 47.9 | 55.6% | -27.98% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.7 | 57.2% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | Williams %R — Oversold | 47.6 | 59.7% | -33.23% | 🟡 Available |
 | 🟢 BULLISH | **APP** | VWAP Deviation — Oversold | 47.6 | 56.4% | -79.61% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Chaikin Money Flow — Bullish | 47.6 | 54.8% | -97.44% | 🟡 Available |
 | 🟢 BULLISH | **TSLA** | Stochastic (Full) — Oversold | 47.5 | 51.4% | -71.84% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 47.5 | 55.1% | -97.27% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 47.3 | 55.6% | -28.71% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 47.1 | 56.4% | -82.42% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 46.4 | 61.0% | -66.51% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 46.3 | 56.0% | -85.59% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 46.3 | 56.0% | -75.52% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | Vortex — Bullish | 46.3 | 55.0% | -35.33% | 🟡 Available |
 | 🟢 BULLISH | **RKLB** | Stochastic RSI Oversold | 46.2 | 42.6% | -95.61% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 46.1 | 61.0% | -66.85% | 🟡 Available |
 | 🟢 BULLISH | **IONQ** | VWAP Deviation — Oversold | 45.9 | 52.7% | -95.08% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | Aroon — Strong Uptrend | 45.9 | 55.0% | -34.63% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Fisher Transform — Low Extreme | 45.6 | 50.0% | -16.02% | 🟡 Available |
@@ -136,7 +136,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **SMH** | OBV — Distribution | 79.2 | 68.2% | -17.13% | 🟡 Available |
 | 🔴 BEARISH | **QQQ** | Awesome Oscillator — Bearish Zero Line | 79.1 | 66.7% | -5.15% | 🟡 Available |
 | 🔴 BEARISH | **AVGO** | Aroon — Strong Downtrend | 77.2 | 64.5% | -36.1% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 75.1 | 66.7% | -22.02% | 🟡 Available |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 75.3 | 66.7% | -21.66% | 🟡 Available |
 | 🔴 BEARISH | **TQQQ** | Ulcer Index — Elevated | 73.8 | 69.9% | -58.83% | 🟡 Available |
 | 🔴 BEARISH | **XLK** | Ulcer Index — Elevated | 72.4 | 65.0% | -19.17% | 🟡 Available |
 | 🔴 BEARISH | **QQQ** | Ulcer Index — Elevated | 71.8 | 66.9% | -24.02% | 🟡 Available |
