@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 03:45 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 04:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.42%** &nbsp; ($+2,750) |
-| SPY Benchmark | +4.00% &nbsp; ($+7,760 if 100% SPY) |
-| Alpha vs SPY | **-2.58%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.78% &nbsp; ($+7,335 if 100% SPY) |
+| Alpha vs SPY | **-2.36%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,750 |
 
@@ -55,17 +55,17 @@
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
-| 2026-06-26 | 📈 +1.42% | +4.00% | ❌ -2.58% |
+| 2026-06-26 | 📈 +1.42% | +3.79% | ❌ -2.37% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 26 2026 03:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 26 2026 04:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.1, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 79.6, Win Rate 73.3%, Avg 5d Return 2.75%, Max Drawdown -18.53%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Aroon — Strong Uptrend — Score 76.1, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -73,15 +73,15 @@ _Evaluated Jun 26 2026 03:45 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.1.
+**Signal Analysis:** Vortex — Bullish — Score 79.6, Win Rate 73.3%, Avg 5d Return 2.75%, Max Drawdown -18.53%, Sharpe 2.59. 1 minor bearish signal(s), max confidence 57.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SMH
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 76.1, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.3. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
