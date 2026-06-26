@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 01:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 01:40 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.42%** &nbsp; ($+2,750) |
-| SPY Benchmark | +3.75% &nbsp; ($+7,266 if 100% SPY) |
-| Alpha vs SPY | **-2.33%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +2.90% &nbsp; ($+5,635 if 100% SPY) |
+| Alpha vs SPY | **-1.49%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,750 |
 
@@ -55,16 +55,17 @@
 | 2026-06-23 | 📈 +1.38% | +3.64% | ❌ -2.26% |
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
+| 2026-06-26 | 📈 +1.42% | +2.90% | ❌ -1.48% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 26 2026 01:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 26 2026 01:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.1, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Keltner — Lower Channel Touch — Score 88.0, Win Rate 80.0%, Avg 5d Return 6.2%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Aroon — Strong Uptrend — Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -74,13 +75,13 @@ _Evaluated Jun 26 2026 01:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.2, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 2 minor bearish signal(s), max confidence 71.1.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 88.0, Win Rate 80.0%, Avg 5d Return 6.2%, Max Drawdown -7.6%, Sharpe 6.28. 1 minor bearish signal(s), max confidence 70.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** MFI — Oversold — Score 100.0, Win Rate 100.0%, Avg 5d Return 7.17%, Max Drawdown 0.0%, Sharpe 29.41. 2 minor bearish signal(s), max confidence 61.9.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 76.0, Win Rate 65.9%, Avg 5d Return 1.58%, Max Drawdown -36.16%, Sharpe 2.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
