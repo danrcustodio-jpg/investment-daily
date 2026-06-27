@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 49** &nbsp;·&nbsp; Updated: Jun 26 2026 09:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 50** &nbsp;·&nbsp; Updated: Jun 27 2026 12:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.42%** &nbsp; ($+2,750) |
+| Portfolio P&L | **+1.43%** &nbsp; ($+2,774) |
 | SPY Benchmark | +3.00% &nbsp; ($+5,811 if 100% SPY) |
-| Alpha vs SPY | **-1.58%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-1.56%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,750 |
+| Current Value | $196,774 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,181 | +0.60% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,206 | +0.62% |
 
 ## Daily Equity Curve
 
@@ -59,25 +59,25 @@
 
 ## Strategy Advisor
 
-_Evaluated Jun 26 2026 09:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 27 2026 12:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 81.1, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | VWAP Deviation — Oversold — Score 86.7, Win Rate 76.7%, Avg 5d Return 2.43%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
-
-### 🔍 NEW OPPORTUNITY — AMZN
-
-**Signal Analysis:** OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 47.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
 **Signal Analysis:** Keltner — Lower Channel Touch — Score 81.1, Win Rate 76.9%, Avg 5d Return 5.22%, Max Drawdown -12.47%, Sharpe 4.31. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — GC=F
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 86.7, Win Rate 76.7%, Avg 5d Return 2.43%, Max Drawdown -13.03%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 75.0.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
