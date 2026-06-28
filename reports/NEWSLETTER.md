@@ -1,34 +1,34 @@
-# Daily Newsletter — Saturday, June 27, 2026
-Generated at 12:56 PM
+# Daily Newsletter — Sunday, June 28, 2026
+Generated at 01:01 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 149 total &nbsp;·&nbsp; 🟢 104 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
+**Strategy Signals:** 151 total &nbsp;·&nbsp; 🟢 104 Bullish &nbsp;·&nbsp; 🔴 47 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
 | **CL=F** | Crude Oil | $69.23 | 📉 -3.74% |
-| **NG=F** | Natural Gas | $3.23 | 📉 -3.35% |
 | **XLV** | Healthcare (XLV) | $160.34 | 📈 +3.03% |
 | **^VIX** | VIX (Fear Index) | $18.41 | 📉 -2.54% |
+| **SI=F** | Silver | $59.67 | 📈 +2.27% |
+| **NG=F** | Natural Gas | $3.28 | 📉 -1.91% |
 | **XLK** | Tech (XLK) | $181.11 | 📉 -1.87% |
+| **GC=F** | Gold | $4096.30 | 📈 +1.63% |
 | **XLI** | Industrials (XLI) | $181.20 | 📉 -1.59% |
-| **SI=F** | Silver | $59.22 | 📈 +1.49% |
-| **GC=F** | Gold | $4078.70 | 📈 +1.20% |
+| **SOL-USD** | Solana | $71.50 | 📈 +1.55% |
 | **XLY** | Consumer Disc. (XLY) | $114.37 | 📈 +0.90% |
-| **BTC-USD** | Bitcoin | $60305.88 | 📈 +0.48% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **AAPL** | Volume Spike + Surge | 90.0 | 83.3% |
-| 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 86.7 | 76.7% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.9 | 78.7% |
 | 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 84.7 | 70.6% |
 | 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.1 | 73.4% |
+| 🟢 BULLISH | **ATOM-USD** | MFI — Oversold | 83.0 | 80.0% |
 | 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.9 | 74.3% |
 | 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 72.9% |
 | 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 82.0 | 69.0% |
@@ -39,16 +39,16 @@ Generated at 12:56 PM
 
 ## Latest News
 
-- [U.S. strikes Iran after Trump accuses Tehran of ceasefire violation in Strait of Hormuz](https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html) — *CNBC Markets*
-- [Bitcoin holds above $60,000 as Strategy’s funding model faces growing scrutiny](https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-60000-as-strategys-funding-model-faces-growing-scrutiny-4763957) — *Investing.com*
-- [SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand](https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100-on-hold-on-hold-on-hold.html) — *CNBC Markets*
-- [Intel vs. Navitas: Which Semiconductor Stock Is a Better Buy in 2026?](https://finance.yahoo.com/markets/stocks/articles/intel-vs-navitas-semiconductor-stock-123201638.html) — *Yahoo Finance*
-- [Big Tech is obsessed with smart glasses. Now it has to convince people to wear them.](https://www.marketwatch.com/story/big-tech-is-obsessed-with-smart-glasses-now-it-has-to-convince-people-to-wear-them-0d5ebd43?mod=mw_rss_topstories) — *MarketWatch*
-- [QuidelOrtho plans to sell testing unit for $1.5B: FT](https://seekingalpha.com/news/4607870-quidelortho-sell-testing-unit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players](https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html) — *CNBC Markets*
-- [Straight women can’t get enough of gay romance stories like ‘Heated Rivalry’ and ‘Red, White & Royal Blue’](https://www.cnbc.com/2026/06/27/heated-rivalry-red-white-royal-blue-rachel-reid-gay-romance-yaoi-mlm.html) — *CNBC Markets*
-- [Trading in these two ETFs suggests inflation fears are overblown](https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html) — *CNBC Markets*
-- [Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh’s early tenure](https://www.investing.com/news/economy-news/supreme-court-ruling-ecb-conference-likely-to-further-frame-fed-chief-warshs-early-tenure-4763969) — *Investing.com*
+- [Trump again threatens Iran with annihilation as Kuwait and Bahrain report attacks](https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html) — *CNBC Markets*
+- [Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.23%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-023-4764134) — *Investing.com*
+- [BIS warns AI spending frenzy could end like railroads, dot-coms, other manias](https://seekingalpha.com/news/4607890-bis-warns-ai-spending-frenzy-could-end-like-railroads-dot-coms-other-manias?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Eleven people killed in plane crash in northeastern France, officials say](https://www.investing.com/news/world-news/eleven-people-killed-in-plane-crash-in-northeastern-france-local-officials-say-4764112) — *Investing.com*
+- [Aramco helicopter reportedly crashes in Ras Tanura, killing 14 people](https://www.investing.com/news/world-news/aramco-helicopter-reportedly-crashes-in-ras-tanura-killing-14-people-4764125) — *Investing.com*
+- [Pope Leo prays for Venezuela quake victims as EU sends emergency aid](https://www.investing.com/news/world-news/pope-leo-prays-for-venezuela-quake-victims-as-eu-sends-emergency-aid-4764111) — *Investing.com*
+- [Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential](https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html) — *CNBC Markets*
+- [How to play breadth with the rotation in 'full bloom' - SocGen](https://seekingalpha.com/news/4607889-how-to-play-breadth-with-the-rotation-in-full-bloom---socgen?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Iran and US step up attacks and threaten to escalate](https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056) — *Investing.com*
+- [Death toll in Venezuela quake tops 1,400 as rescue efforts intensify](https://www.investing.com/news/world-news/venezuela-welcomes-1600-foreign-rescuers-in-urgent-search-for-quake-survivors-4764033) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
