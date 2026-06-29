@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Monday June 29, 2026 at 08:36 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday June 29, 2026 at 09:30 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -41,7 +41,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 71.9 | 68.7% | -31.88% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.7 | 62.2% | -72.23% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **DOGE-USD** | MFI — Oversold | 71.1 | 66.7% | -10.66% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 69.1 | 64.2% | -33.74% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 69.0 | 64.2% | -33.82% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **APP** | Elder Force — Bullish | 68.7 | 64.0% | -33.47% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | Aroon — Strong Uptrend | 68.3 | 60.6% | -77.5% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 67.4 | 54.0% | -93.47% | 🔵 In cooldown (≤6h) |
@@ -54,7 +54,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ARM** | OBV — Accumulation | 64.6 | 56.2% | -37.87% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 62.3 | 61.1% | -80.37% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 61.1 | 54.3% | -64.44% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 59.8 | 61.5% | -53.06% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 59.9 | 61.5% | -53.06% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | Aroon — Strong Uptrend | 59.3 | 59.3% | -54.82% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 58.3 | 59.3% | -98.81% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.1 | 57.1% | -93.94% | 🔵 In cooldown (≤6h) |
@@ -75,10 +75,10 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 51.5 | 57.5% | -32.17% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **DOT-USD** | RSI Oversold | 51.3 | 60.8% | -53.52% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 51.1 | 59.2% | -97.25% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 51.1 | 57.1% | -33.12% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **CL=F** | Keltner — Lower Channel Touch | 51.1 | 57.1% | -33.19% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 50.4 | 54.0% | -88.29% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **UPRO** | CCI — Extreme Oversold | 49.9 | 59.5% | -94.04% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.9 | 55.9% | -87.57% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.8 | 55.9% | -87.57% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **ARM** | CCI — Extreme Oversold | 49.2 | 54.7% | -94.35% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 48.6 | 57.6% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 48.4 | 56.7% | -82.42% | 🟡 Available |
@@ -92,7 +92,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **IWM** | Aroon — Strong Uptrend | 46.4 | 55.5% | -34.33% | 🟡 Available |
 | 🟢 BULLISH | **SMCI** | VWAP Deviation — Oversold | 46.1 | 53.8% | -84.06% | 🟡 Available |
 | 🟢 BULLISH | **AERO-USD** | Chaikin Money Flow — Bullish | 46.1 | 53.4% | -97.44% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 45.7 | 60.5% | -68.9% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 45.7 | 60.5% | -68.93% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Fisher Transform — Low Extreme | 45.6 | 50.0% | -16.02% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Vortex — Bullish | 45.5 | 50.0% | -16.01% | 🟡 Available |
 | 🟢 BULLISH | **IONQ** | VWAP Deviation — Oversold | 45.3 | 52.3% | -95.08% | 🟡 Available |
@@ -110,7 +110,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **AVGO** | Aroon — Strong Downtrend | 76.8 | 63.9% | -36.1% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AMD** | VWAP Deviation — Overbought | 75.9 | 63.3% | -62.37% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **TQQQ** | Ulcer Index — Elevated | 72.9 | 69.4% | -58.83% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 71.6 | 65.3% | -24.93% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 71.6 | 65.3% | -24.94% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | Aroon — Strong Downtrend | 70.4 | 62.2% | -43.81% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **RKLB** | Aroon — Strong Downtrend | 68.1 | 60.8% | -61.15% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **META** | Ulcer Index — Elevated | 67.8 | 62.0% | -51.57% | 🔵 In cooldown (≤6h) |
