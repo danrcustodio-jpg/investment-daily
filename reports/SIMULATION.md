@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 51** &nbsp;·&nbsp; Updated: Jun 28 2026 01:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 52** &nbsp;·&nbsp; Updated: Jun 29 2026 05:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.44%** &nbsp; ($+2,799) |
-| SPY Benchmark | +3.00% &nbsp; ($+5,811 if 100% SPY) |
-| Alpha vs SPY | **-1.55%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.45%** &nbsp; ($+2,823) |
+| SPY Benchmark | +4.63% &nbsp; ($+8,992 if 100% SPY) |
+| Alpha vs SPY | **-3.18%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,799 |
+| Current Value | $196,823 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,230 | +0.63% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,254 | +0.64% |
 
 ## Daily Equity Curve
 
@@ -56,22 +56,17 @@
 | 2026-06-24 | 📈 +1.39% | +3.60% | ❌ -2.20% |
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
 | 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
+| 2026-06-29 | 📈 +1.46% | +4.63% | ❌ -3.18% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 28 2026 01:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 29 2026 05:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19… |
-
-### 🔍 NEW OPPORTUNITY — AMZN
-
-**Signal Analysis:** OBV — Accumulation — Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 47.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | SMA 30 — Bullish Reclaim — Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -79,9 +74,15 @@ _Evaluated Jun 28 2026 01:01 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.6.
+**Signal Analysis:** PPO — Bullish Cross — Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%, Sharpe 4.32. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — QQQ
+
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -4.33%, Sharpe 3.22. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

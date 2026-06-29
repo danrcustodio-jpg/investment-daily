@@ -348,18 +348,18 @@
       "prices": {
         "SPY": 728.989990234375
       }
+    },
+    {
+      "date": "2026-06-29",
+      "total_value": 196822.67,
+      "portfolio_pnl": 1.455,
+      "benchmark_pnl": 4.635,
+      "prices": {
+        "SPY": 740.594970703125
+      }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 80.7, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 47.0.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
@@ -371,15 +371,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.9, Win Rate 78.7%, Avg 5d Return 4.21%, Max Drawdown -19.07%, Sharpe 4.72. 1 minor bearish signal(s), max confidence 70.6.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%, Sharpe 4.32. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "QQQ",
+      "priority": "high",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -4.33%, Sharpe 3.22. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-28T13:01:45.646982",
+  "recommendations_updated": "2026-06-29T17:56:42.139812",
   "trade_log": [
     {
       "action": "SELL",
