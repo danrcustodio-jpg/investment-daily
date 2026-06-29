@@ -143,9 +143,9 @@
       "last_change_at": "2026-06-22T19:40:42.597212+00:00"
     },
     "AERO-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-29T17:55:47.368897+00:00",
-      "last_change_at": "2026-06-29T17:55:46.874081+00:00"
+      "last_change_at": "2026-06-29T18:39:12.916040+00:00"
     },
     "AMD": {
       "cadence_min": 15,
@@ -158,9 +158,9 @@
       "last_change_at": "2026-06-05T15:49:10.657279+00:00"
     },
     "APP": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-06-29T17:55:48.074110+00:00",
-      "last_change_at": "2026-06-29T17:55:46.874174+00:00"
+      "last_change_at": "2026-06-29T18:39:12.916129+00:00"
     },
     "CL=F": {
       "cadence_min": 15,
@@ -198,9 +198,9 @@
       "last_change_at": "2026-06-23T13:51:10.566718+00:00"
     },
     "PLTR": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-29T17:55:52.656733+00:00",
-      "last_change_at": "2026-06-29T17:55:46.874710+00:00"
+      "last_change_at": "2026-06-29T18:39:12.916324+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -338,9 +338,9 @@
       "last_change_at": "2026-06-23T18:10:40.752837+00:00"
     },
     "CRWD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-06-29T17:55:50.006101+00:00",
-      "last_change_at": "2026-06-29T17:55:46.874484+00:00"
+      "last_change_at": "2026-06-29T18:39:12.916241+00:00"
     },
     "MSFT": {
       "cadence_min": 15,
