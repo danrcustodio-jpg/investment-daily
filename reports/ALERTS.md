@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Monday June 29, 2026 at 09:30 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday June 29, 2026 at 10:00 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -54,7 +54,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ARM** | OBV — Accumulation | 64.6 | 56.2% | -37.87% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 62.3 | 61.1% | -80.37% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 61.1 | 54.3% | -64.44% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 59.9 | 61.5% | -53.06% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 59.8 | 61.5% | -53.06% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | Aroon — Strong Uptrend | 59.3 | 59.3% | -54.82% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 58.3 | 59.3% | -98.81% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.1 | 57.1% | -93.94% | 🔵 In cooldown (≤6h) |
