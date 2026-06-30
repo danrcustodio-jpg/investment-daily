@@ -357,17 +357,35 @@
       "prices": {
         "SPY": 741.0
       }
+    },
+    {
+      "date": "2026-06-30",
+      "total_value": 196846.79,
+      "portfolio_pnl": 1.467,
+      "benchmark_pnl": 4.716,
+      "prices": {
+        "SPY": 741.1699829101562
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "ARKK",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%, Sharpe 4.32. No conflicting bearish signals.",
+      "reason": "TRIX \u2014 Bullish Cross \u2014 Score 85.5, Win Rate 84.6%, Avg 5d Return 2.77%, Max Drawdown -11.71%, Sharpe 2.8. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "ATOM-USD",
+      "priority": "high",
+      "reason": "MFI \u2014 Oversold \u2014 Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sharpe 3.19. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
@@ -377,18 +395,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
-      "priority": "high",
-      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -4.33%, Sharpe 3.22. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-06-30T13:14:56.347507",
+  "recommendations_updated": "2026-06-30T13:35:16.297305",
   "trade_log": [
     {
       "action": "SELL",

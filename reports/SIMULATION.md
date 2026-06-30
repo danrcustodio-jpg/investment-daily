@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 53** &nbsp;·&nbsp; Updated: Jun 30 2026 01:14 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 53** &nbsp;·&nbsp; Updated: Jun 30 2026 01:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.47%** &nbsp; ($+2,847) |
-| SPY Benchmark | +4.69% &nbsp; ($+9,103 if 100% SPY) |
-| Alpha vs SPY | **-3.22%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.73% &nbsp; ($+9,174 if 100% SPY) |
+| Alpha vs SPY | **-3.26%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,847 |
 
@@ -57,34 +57,35 @@
 | 2026-06-25 | 📈 +1.41% | +3.75% | ❌ -2.34% |
 | 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
+| 2026-06-30 | 📈 +1.47% | +4.72% | ❌ -3.25% |
 
 ## Strategy Advisor
 
-_Evaluated Jun 30 2026 01:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jun 30 2026 01:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | TRIX — Bullish Cross — Score 85.5, Win Rate 84.6%, Avg 5d Return 2.77%, Max Drawdown -11.7… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | SMA 30 — Bullish Reclaim — Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -… |
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** PPO — Bullish Cross — Score 85.0, Win Rate 87.5%, Avg 5d Return 2.46%, Max Drawdown -8.03%, Sharpe 4.32. No conflicting bearish signals.
+**Signal Analysis:** TRIX — Bullish Cross — Score 85.5, Win Rate 84.6%, Avg 5d Return 2.77%, Max Drawdown -11.71%, Sharpe 2.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sharpe 3.19. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — NEAR-USD
 
 **Signal Analysis:** MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sharpe 4.37. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — QQQ
-
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 84.5, Win Rate 75.0%, Avg 5d Return 1.01%, Max Drawdown -4.33%, Sharpe 3.22. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
