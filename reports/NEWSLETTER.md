@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, June 28, 2026
-Generated at 01:01 PM
+# Daily Newsletter — Tuesday, June 30, 2026
+Generated at 01:14 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 151 total &nbsp;·&nbsp; 🟢 104 Bullish &nbsp;·&nbsp; 🔴 47 Bearish
+**Strategy Signals:** 121 total &nbsp;·&nbsp; 🟢 84 Bullish &nbsp;·&nbsp; 🔴 37 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $69.23 | 📉 -3.74% |
-| **XLV** | Healthcare (XLV) | $160.34 | 📈 +3.03% |
-| **^VIX** | VIX (Fear Index) | $18.41 | 📉 -2.54% |
-| **SI=F** | Silver | $59.67 | 📈 +2.27% |
-| **NG=F** | Natural Gas | $3.28 | 📉 -1.91% |
-| **XLK** | Tech (XLK) | $181.11 | 📉 -1.87% |
-| **GC=F** | Gold | $4096.30 | 📈 +1.63% |
-| **XLI** | Industrials (XLI) | $181.20 | 📉 -1.59% |
-| **SOL-USD** | Solana | $71.50 | 📈 +1.55% |
-| **XLY** | Consumer Disc. (XLY) | $114.37 | 📈 +0.90% |
+| **SOL-USD** | Solana | $72.24 | 📉 -3.61% |
+| **ETH-USD** | Ethereum | $1556.00 | 📉 -3.37% |
+| **BTC-USD** | Bitcoin | $58327.02 | 📉 -3.01% |
+| **NG=F** | Natural Gas | $3.28 | 📈 +2.96% |
+| **XLY** | Consumer Disc. (XLY) | $117.12 | 📈 +2.40% |
+| **XLK** | Tech (XLK) | $185.41 | 📈 +2.37% |
+| **^IXIC** | NASDAQ | $25820.14 | 📈 +2.07% |
+| **^IRX** | 3-Month T-Bill | $3.73 | 📈 +1.88% |
+| **SI=F** | Silver | $59.08 | 📈 +1.55% |
+| **^GSPC** | S&P 500 | $7440.43 | 📈 +1.18% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **AAPL** | Volume Spike + Surge | 90.0 | 83.3% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.9 | 78.7% |
-| 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 84.7 | 70.6% |
-| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.1 | 73.4% |
+| 🟢 BULLISH | **NEAR-USD** | MFI — Oversold | 86.2 | 75.0% |
+| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 85.0 | 87.5% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.7 | 75.3% |
+| 🟢 BULLISH | **QQQ** | SMA 30 — Bullish Reclaim | 84.5 | 75.0% |
+| 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 83.9 | 73.7% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 83.4 | 76.5% |
 | 🟢 BULLISH | **ATOM-USD** | MFI — Oversold | 83.0 | 80.0% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.9 | 74.3% |
-| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 72.9% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.8 | 74.5% |
+| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 82.3 | 67.9% |
+| 🟢 BULLISH | **ATOM-USD** | RSI Oversold | 82.3 | 77.1% |
 | 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 82.0 | 69.0% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 81.9 | 71.4% |
-| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 81.7 | 74.2% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 81.1 | 76.9% |
-| 🟢 BULLISH | **AMZN** | OBV — Accumulation | 80.7 | 69.7% |
+| 🟢 BULLISH | **RKLB** | Parabolic SAR — Bullish | 80.9 | 63.6% |
 
 ## Latest News
 
-- [Trump again threatens Iran with annihilation as Kuwait and Bahrain report attacks](https://www.cnbc.com/2026/06/28/trump-threatens-iran-with-annihilation-kuwait-bahrain-report-attacks.html) — *CNBC Markets*
-- [Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.23%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-023-4764134) — *Investing.com*
-- [BIS warns AI spending frenzy could end like railroads, dot-coms, other manias](https://seekingalpha.com/news/4607890-bis-warns-ai-spending-frenzy-could-end-like-railroads-dot-coms-other-manias?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Eleven people killed in plane crash in northeastern France, officials say](https://www.investing.com/news/world-news/eleven-people-killed-in-plane-crash-in-northeastern-france-local-officials-say-4764112) — *Investing.com*
-- [Aramco helicopter reportedly crashes in Ras Tanura, killing 14 people](https://www.investing.com/news/world-news/aramco-helicopter-reportedly-crashes-in-ras-tanura-killing-14-people-4764125) — *Investing.com*
-- [Pope Leo prays for Venezuela quake victims as EU sends emergency aid](https://www.investing.com/news/world-news/pope-leo-prays-for-venezuela-quake-victims-as-eu-sends-emergency-aid-4764111) — *Investing.com*
-- [Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential](https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html) — *CNBC Markets*
-- [How to play breadth with the rotation in 'full bloom' - SocGen](https://seekingalpha.com/news/4607889-how-to-play-breadth-with-the-rotation-in-full-bloom---socgen?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Iran and US step up attacks and threaten to escalate](https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056) — *Investing.com*
-- [Death toll in Venezuela quake tops 1,400 as rescue efforts intensify](https://www.investing.com/news/world-news/venezuela-welcomes-1600-foreign-rescuers-in-urgent-search-for-quake-survivors-4764033) — *Investing.com*
+- [Buffett delays annual donation to Gates Foundation pending review of Jeffrey Epstein ties: WSJ](https://www.cnbc.com/2026/06/30/warren-buffett-delays-gates-foundation-donation-epstein-review.html) — *CNBC Markets*
+- [Fermi taps Primoris for Texas power plant construction](https://www.investing.com/news/company-news/fermi-taps-primoris-for-texas-power-plant-construction-93CH-4768022) — *Investing.com*
+- [Oil prices set for steep monthly drop as Trump, Iran issue mixed messages on talks in Qatar](https://www.cnbc.com/2026/06/30/oil-prices-brent-wti-crude-trump-iran.html) — *CNBC Markets*
+- [Houlihan Lokey to acquire Intrepid Financial Partners](https://seekingalpha.com/news/4608430-houlihan-lokey-to-acquire-intrepid-financial-partners?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trident Digital Tech positions AI as primary growth engine with IRMA Engine Asia, cybersecurity partnerships](https://seekingalpha.com/news/4608420-trident-digital-tech-positions-ai-as-primary-growth-engine-with-irma-engine-asia-cybersecurity-partnerships?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Canada GDP beats forecasts with 0.5% growth in April](https://www.investing.com/news/economy-news/canada-gdp-beats-forecasts-with-05-growth-in-april-4768020) — *Investing.com*
+- [Form 144 NEUROONE MEDICAL TECHNOLOGIES Corp For: 30 June](https://www.investing.com/news/filings/form-144-neuroone-medical-technologies-corp-for-30-june-93CH-4768019) — *Investing.com*
+- [Form DEF 14A Fidus Investment Corp For: 30 June](https://www.investing.com/news/filings/form-def-14a-fidus-investment-corp-for-30-june-93CH-4768018) — *Investing.com*
+- [Europe shares hit record high at quarter-end; central bank speeches, data in focus](https://www.investing.com/news/stock-market-news/european-shares-rise-at-quarterend-central-bank-speeches-data-in-focus-4766862) — *Investing.com*
+- [Regal Rexnord stock jumps 8% after Kerrisdale discloses position](https://www.investing.com/news/stock-market-news/regal-rexnord-stock-jumps-8-after-kerrisdale-discloses-position-93CH-4768017) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
