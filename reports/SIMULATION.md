@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 02:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 03:55 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.48%** &nbsp; ($+2,871) |
-| SPY Benchmark | +5.47% &nbsp; ($+10,621 if 100% SPY) |
-| Alpha vs SPY | **-4.00%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.75% &nbsp; ($+11,161 if 100% SPY) |
+| Alpha vs SPY | **-4.27%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,871 |
 
@@ -58,11 +58,11 @@
 | 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
-| 2026-07-01 | 📈 +1.48% | +5.47% | ❌ -3.99% |
+| 2026-07-01 | 📈 +1.48% | +5.76% | ❌ -4.28% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 01 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 01 2026 03:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -78,7 +78,7 @@ _Evaluated Jul 01 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — META
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 80.0, Win Rate 71.4%, Avg 5d Return 4.14%, Max Drawdown -2.25%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 46.1.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 80.0, Win Rate 71.4%, Avg 5d Return 4.14%, Max Drawdown -2.25%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 45.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
