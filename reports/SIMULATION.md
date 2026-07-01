@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 07:33 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 08:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.48%** &nbsp; ($+2,871) |
-| SPY Benchmark | +5.56% &nbsp; ($+10,791 if 100% SPY) |
-| Alpha vs SPY | **-4.08%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.37% &nbsp; ($+10,407 if 100% SPY) |
+| Alpha vs SPY | **-3.89%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,871 |
 
@@ -58,16 +58,16 @@
 | 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
-| 2026-07-01 | 📈 +1.48% | +5.56% | ❌ -4.08% |
+| 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 01 2026 07:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 01 2026 08:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | ADX Strong Trend — Bullish — Score 78.8, Win Rate 61.3%, Avg 5d Return 3.73%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
@@ -78,7 +78,7 @@ _Evaluated Jul 01 2026 07:33 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — MRVL
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 78.8, Win Rate 61.3%, Avg 5d Return 3.73%, Max Drawdown -65.32%, Sharpe 2.37. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown -65.32%, Sharpe 2.27. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

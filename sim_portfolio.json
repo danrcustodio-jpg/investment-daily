@@ -371,9 +371,9 @@
       "date": "2026-07-01",
       "total_value": 196870.9,
       "portfolio_pnl": 1.48,
-      "benchmark_pnl": 5.56,
+      "benchmark_pnl": 5.365,
       "prices": {
-        "SPY": 747.1400146484375
+        "SPY": 745.760009765625
       }
     }
   ],
@@ -391,7 +391,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "MRVL",
       "priority": "high",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 78.8, Win Rate 61.3%, Avg 5d Return 3.73%, Max Drawdown -65.32%, Sharpe 2.37. No conflicting bearish signals.",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown -65.32%, Sharpe 2.27. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -406,7 +406,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-01T19:33:21.455802",
+  "recommendations_updated": "2026-07-01T20:34:31.559961",
   "trade_log": [
     {
       "action": "SELL",
