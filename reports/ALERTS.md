@@ -1,46 +1,25 @@
 # Strategy Alerts
-**Last scan:** Wednesday July 01, 2026 at 05:36 PM
+**Last scan:** Wednesday July 01, 2026 at 06:37 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals scanned (confidence ≥ 50) | 88 |
+| Total signals scanned (confidence ≥ 50) | 90 |
 | 🟢 Bullish | 78 |
-| 🔴 Bearish | 39 |
-| ✅ Fired this run (SMS + email) | 1 |
-| ⏭ Skipped — same ticker notified in last 6h | 87 |
+| 🔴 Bearish | 41 |
+| ✅ Fired this run (SMS + email) | 0 |
+| ⏭ Skipped — same ticker notified in last 6h | 90 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
-| ⚠ Tickers with conflicting BULL+BEAR signals | 8 |
+| ⚠ Tickers with conflicting BULL+BEAR signals | 0 |
 
-## 📲 SMS sent (1)
+_Run ended early: **all_in_cooldown** — no email or SMS dispatched._
 
-- One text per ticker: **SOL-USD**
+## 📲 SMS not sent
 
-## ⚠ Conflicting tickers (both directions ≥ 65)
-
-Tickers where bullish *and* bearish strategies are firing above the conflict threshold at the same time. Treat the headline as one input only.
-
-| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |
-|---|---|---:|---:|---|---:|---:|
-| **XLE** | Stochastic (Full) — Oversold | 67.9 | 2 | Aroon — Strong Downtrend | 88.5 | 1 |
-| **GC=F** | Stochastic (Full) — Oversold | 68.2 | 1 | MFI — Overbought | 84.3 | 2 |
-| **APP** | MACD Bullish Crossover | 82.2 | 2 | VWAP Deviation — Overbought | 70.3 | 1 |
-| **AVGO** | VWAP Deviation — Oversold | 79.1 | 2 | Aroon — Strong Downtrend | 76.8 | 1 |
-| **AMD** | ADX Strong Trend — Bullish | 72.9 | 3 | Stochastic (Full) — Overbought | 77.7 | 2 |
-| **SMH** | Aroon — Strong Uptrend | 75.7 | 1 | Elder Force — Bearish | 72.8 | 1 |
-| **RIOT** | Aroon — Strong Uptrend | 75.1 | 2 | Elder Force — Bearish | 67.6 | 1 |
-| **RKLB** | CCI — Extreme Oversold | 67.9 | 1 | Aroon — Strong Downtrend | 70.5 | 1 |
-
-## ✅ Fired this run (SMS + email)
-
-Signals that **actually triggered** an SMS / email on this run.
-
-| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
-|---|---|---|---|---|---|---|
-| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% | 4.64% | 3.43 |
+_Reason: `all_in_cooldown`_
 
 ## ⏭ Skipped — same ticker already notified
 
@@ -54,28 +33,29 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **APP** | MACD Bullish Crossover | 82.2 | 75.0% | 5.47% | 2.83 |
 | 🟢 BULLISH | **META** | Supertrend — Bullish Flip | 80.0 | 71.4% | 4.14% | 6.1 |
 | 🟢 BULLISH | **APP** | Supertrend — Bullish Flip | 80.0 | 71.4% | 4.31% | 3.59 |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.1 | 64.8% | 3.33% | 3.1 |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.1 | 64.8% | 3.33% | 3.11 |
 | 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 78.4 | 60.7% | 3.72% | 2.36 |
-| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 75.7 | 65.9% | 1.56% | 2.27 |
-| 🟢 BULLISH | **RIOT** | Aroon — Strong Uptrend | 75.1 | 62.0% | 4.27% | 2.36 |
-| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 72.9 | 63.6% | 3.45% | 2.39 |
-| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 72.4 | 62.6% | 3.55% | 2.45 |
-| 🟢 BULLISH | **SOXL** | Aroon — Strong Uptrend | 68.4 | 60.5% | 4.2% | 1.96 |
-| 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 68.2 | 66.0% | 1.14% | 1.76 |
+| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 75.7 | 65.9% | 1.56% | 2.26 |
+| 🟢 BULLISH | **RIOT** | Aroon — Strong Uptrend | 75.0 | 62.0% | 4.27% | 2.36 |
+| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 72.8 | 63.6% | 3.45% | 2.39 |
+| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 72.4 | 62.6% | 3.54% | 2.45 |
+| 🟢 BULLISH | **SOXL** | Aroon — Strong Uptrend | 68.3 | 60.5% | 4.19% | 1.96 |
+| 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 68.2 | 66.0% | 1.13% | 1.76 |
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 68.0 | 59.0% | 1.85% | 1.85 |
-| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 67.9 | 54.2% | 3.94% | 2.0 |
-| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 67.9 | 66.7% | 0.73% | 1.54 |
-| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 67.9 | 60.5% | 3.4% | 2.1 |
+| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 67.9 | 60.5% | 3.39% | 2.1 |
+| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 67.8 | 54.2% | 3.93% | 1.99 |
+| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 67.8 | 66.7% | 0.73% | 1.54 |
 | 🟢 BULLISH | **PLTR** | Parabolic SAR — Bullish | 67.7 | 60.9% | 2.24% | 2.13 |
 | 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 67.7 | 60.8% | 4.05% | 2.03 |
 | 🟢 BULLISH | **CEG** | RSI Oversold | 67.2 | 66.7% | 2.01% | 1.74 |
 | 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 66.0 | 63.0% | 1.49% | 1.88 |
 | 🟢 BULLISH | **BCH-USD** | Parabolic SAR — Bullish | 65.6 | 64.5% | 2.32% | 1.76 |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 65.4 | 66.7% | 0.67% | 1.3 |
+| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 65.2 | 66.7% | 0.66% | 1.29 |
 | 🟢 BULLISH | **COIN** | MACD Bullish Crossover | 64.9 | 56.2% | 3.27% | 2.01 |
 | 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 64.1 | 53.3% | 0.59% | 1.67 |
 | 🟢 BULLISH | **AAPL** | Vortex — Bullish | 63.7 | 78.9% | 0.99% | 1.03 |
-| 🟢 BULLISH | **ATOM-USD** | Fisher Transform — Low Extreme | 63.6 | 61.4% | 2.33% | 1.86 |
+| 🟢 BULLISH | **ATOM-USD** | Fisher Transform — Low Extreme | 63.5 | 61.4% | 2.32% | 1.85 |
+| 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 63.4 | 66.2% | 4.25% | 1.71 |
 | 🟢 BULLISH | **META** | MACD Bullish Crossover | 62.5 | 52.6% | 1.88% | 2.02 |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 62.4 | 61.3% | 1.18% | 1.56 |
 | 🟢 BULLISH | **XBI** | Aroon — Strong Uptrend | 61.1 | 59.7% | 0.75% | 1.44 |
@@ -84,10 +64,10 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 58.4 | 59.2% | 1.95% | 1.39 |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.2 | 57.1% | 1.98% | 1.43 |
 | 🟢 BULLISH | **APP** | CCI — Extreme Oversold | 57.3 | 59.3% | 2.57% | 1.3 |
-| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 56.8 | 59.4% | 3.25% | 1.4 |
+| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 56.7 | 59.4% | 3.25% | 1.39 |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 56.6 | 57.1% | 1.37% | 1.38 |
-| 🟢 BULLISH | **ARM** | Stochastic RSI Oversold | 56.3 | 56.6% | 2.57% | 1.51 |
-| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 55.7 | 59.3% | 1.98% | 1.65 |
+| 🟢 BULLISH | **ARM** | Stochastic RSI Oversold | 56.3 | 56.6% | 2.58% | 1.51 |
+| 🟢 BULLISH | **DOGE-USD** | Keltner — Lower Channel Touch | 55.8 | 59.3% | 1.99% | 1.66 |
 | 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 55.6 | 57.8% | 1.79% | 1.4 |
 | 🟢 BULLISH | **AAPL** | Parabolic SAR — Bullish | 55.3 | 60.9% | 0.71% | 1.09 |
 | 🟢 BULLISH | **SPY** | PPO — Bullish Cross | 55.2 | 58.8% | 0.4% | 1.16 |
@@ -108,16 +88,17 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 50.2 | 53.8% | 1.26% | 1.09 |
 | 🟢 BULLISH | **PLTR** | Elder Force — Bullish | 50.0 | 63.0% | 1.43% | 1.03 |
 | 🔴 BEARISH | **SPY** | Chaikin Money Flow — Bearish | 89.7 | 75.7% | 2.12% | 4.46 |
-| 🔴 BEARISH | **UPRO** | Chaikin Money Flow — Bearish | 88.9 | 73.7% | 6.25% | 4.62 |
-| 🔴 BEARISH | **XLE** | Aroon — Strong Downtrend | 88.5 | 80.2% | 1.66% | 4.59 |
+| 🔴 BEARISH | **UPRO** | Chaikin Money Flow — Bearish | 88.9 | 73.7% | 6.24% | 4.61 |
+| 🔴 BEARISH | **XLE** | Aroon — Strong Downtrend | 88.5 | 80.2% | 1.66% | 4.58 |
 | 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.3 | 69.9% | 1.26% | 2.84 |
-| 🔴 BEARISH | **AAPL** | Chaikin Money Flow — Bearish | 84.2 | 73.0% | 3.4% | 4.67 |
+| 🔴 BEARISH | **AAPL** | Chaikin Money Flow — Bearish | 84.2 | 73.0% | 3.41% | 4.68 |
+| 🔴 BEARISH | **XLK** | Elder Force — Bearish | 80.7 | 77.4% | 1.04% | 1.99 |
 | 🔴 BEARISH | **AMD** | Stochastic (Full) — Overbought | 77.7 | 60.5% | 4.11% | 2.73 |
 | 🔴 BEARISH | **AVGO** | Aroon — Strong Downtrend | 76.8 | 63.9% | 3.78% | 3.25 |
 | 🔴 BEARISH | **TQQQ** | SMA 30 — Bearish Loss | 76.3 | 69.2% | 2.29% | 2.37 |
 | 🔴 BEARISH | **AMD** | VWAP Deviation — Overbought | 76.0 | 63.3% | 3.61% | 2.62 |
 | 🔴 BEARISH | **SMH** | Elder Force — Bearish | 72.8 | 62.2% | 1.35% | 2.03 |
-| 🔴 BEARISH | **RKLB** | Aroon — Strong Downtrend | 70.5 | 61.7% | 3.89% | 2.05 |
+| 🔴 BEARISH | **RKLB** | Aroon — Strong Downtrend | 70.4 | 61.7% | 3.88% | 2.04 |
 | 🔴 BEARISH | **APP** | VWAP Deviation — Overbought | 70.3 | 65.4% | 3.66% | 1.92 |
 | 🔴 BEARISH | **NVDA** | Aroon — Strong Downtrend | 70.1 | 61.7% | 2.23% | 2.23 |
 | 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 69.6 | 64.7% | 1.02% | 1.81 |
@@ -126,15 +107,16 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **RIOT** | Elder Force — Bearish | 67.6 | 59.4% | 3.8% | 2.02 |
 | 🔴 BEARISH | **MARA** | PPO — Bearish Cross | 67.6 | 47.1% | 5.64% | 2.28 |
 | 🔴 BEARISH | **ARM** | SMA 30 — Bearish Loss | 63.1 | 64.7% | 1.82% | 1.66 |
+| 🔴 BEARISH | **APP** | Keltner — Upper Channel Touch | 62.9 | 64.8% | 2.76% | 1.59 |
 | 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 62.5 | 60.0% | 1.97% | 1.64 |
 | 🔴 BEARISH | **APP** | Williams %R — Overbought | 61.8 | 62.9% | 2.42% | 1.58 |
+| 🔴 BEARISH | **APP** | Aroon — Strong Downtrend | 60.4 | 64.2% | 2.66% | 1.45 |
 | 🔴 BEARISH | **CL=F** | ADX Strong Trend — Bearish | 60.3 | 53.8% | 1.36% | 1.64 |
-| 🔴 BEARISH | **APP** | Aroon — Strong Downtrend | 60.3 | 64.2% | 2.65% | 1.44 |
 | 🔴 BEARISH | **CRWD** | Williams %R — Overbought | 57.6 | 58.9% | 1.5% | 1.4 |
-| 🔴 BEARISH | **PLTR** | Aroon — Strong Downtrend | 55.9 | 54.1% | 1.83% | 1.38 |
+| 🔴 BEARISH | **PLTR** | Aroon — Strong Downtrend | 55.9 | 54.1% | 1.84% | 1.38 |
 | 🔴 BEARISH | **CRWD** | VWAP Deviation — Overbought | 54.6 | 56.7% | 1.24% | 1.19 |
 | 🔴 BEARISH | **SMCI** | Aroon — Strong Downtrend | 54.2 | 53.7% | 2.88% | 1.28 |
-| 🔴 BEARISH | **XBI** | RSI Overbought | 52.0 | 57.9% | 0.42% | 0.7 |
+| 🔴 BEARISH | **XBI** | RSI Overbought | 51.9 | 57.9% | 0.41% | 0.69 |
 
 ---
 *Not financial advice. Backtests use historical data.*
