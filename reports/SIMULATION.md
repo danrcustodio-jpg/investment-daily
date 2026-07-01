@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 01:26 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 01:47 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.48%** &nbsp; ($+2,871) |
-| SPY Benchmark | +5.51% &nbsp; ($+10,684 if 100% SPY) |
-| Alpha vs SPY | **-4.03%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.10% &nbsp; ($+9,889 if 100% SPY) |
+| Alpha vs SPY | **-3.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,871 |
 
@@ -58,22 +58,17 @@
 | 2026-06-26 | 📈 +1.42% | +3.00% | ❌ -1.58% |
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
+| 2026-07-01 | 📈 +1.48% | +5.08% | ❌ -3.60% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 01 2026 01:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 01 2026 01:47 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | TRIX — Bullish Cross — Score 85.5, Win Rate 84.6%, Avg 5d Return 2.77%, Max Drawdown -11.7… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sha… |
-
-### 🔍 NEW OPPORTUNITY — ARKK
-
-**Signal Analysis:** TRIX — Bullish Cross — Score 85.5, Win Rate 84.6%, Avg 5d Return 2.77%, Max Drawdown -11.71%, Sharpe 2.8. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Aroon — Strong Uptrend — Score 75.8, Win Rate 65.9%, Avg 5d Return 1.57%, Max Drawdown -36… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -86,6 +81,12 @@ _Evaluated Jul 01 2026 01:26 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sharpe 4.37. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — SMH
+
+**Signal Analysis:** Aroon — Strong Uptrend — Score 75.8, Win Rate 65.9%, Avg 5d Return 1.57%, Max Drawdown -36.16%, Sharpe 2.28. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
