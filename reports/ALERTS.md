@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Thursday July 02, 2026 at 08:40 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday July 02, 2026 at 10:00 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -42,11 +42,11 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 64.1 | 53.3% | -3.01% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 63.1 | 61.4% | -80.37% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | VWAP Deviation — Oversold | 63.1 | 64.2% | -86.0% | 🟡 Available |
-| 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 62.8 | 60.7% | -32.95% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 62.8 | 60.7% | -32.99% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **ATOM-USD** | Fisher Transform — Low Extreme | 62.7 | 60.8% | -72.73% | 🟡 Available |
 | 🟢 BULLISH | **GOOGL** | Vortex — Bullish | 62.6 | 60.0% | -14.61% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | Aroon — Strong Uptrend | 61.4 | 59.7% | -54.82% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 60.9 | 59.7% | -41.41% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 60.9 | 59.7% | -41.42% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 60.3 | 67.3% | -74.18% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Vortex — Bullish | 60.1 | 65.2% | -11.4% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | Stochastic RSI Oversold | 59.7 | 57.5% | -76.35% | 🟡 Available |
@@ -82,7 +82,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 48.4 | 55.1% | -97.27% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | Aroon — Strong Uptrend | 46.9 | 55.6% | -34.33% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 46.6 | 56.0% | -85.59% | 🟡 Available |
-| 🟢 BULLISH | **XBI** | Chaikin Money Flow — Bullish | 46.0 | 53.7% | -32.93% | 🟡 Available |
+| 🟢 BULLISH | **XBI** | Chaikin Money Flow — Bullish | 46.0 | 53.7% | -32.94% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | Williams %R — Oversold | 45.6 | 58.2% | -33.23% | 🟡 Available |
 | 🟢 BULLISH | **SMCI** | Williams %R — Oversold | 45.5 | 53.1% | -88.4% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 45.3 | 54.4% | -58.8% | 🟡 Available |

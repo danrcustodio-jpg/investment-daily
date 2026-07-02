@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 08:40 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 10:00 PM
 
 ## Performance Summary
 
@@ -63,13 +63,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 02 2026 08:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 02 2026 10:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.8… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.94%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.99%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -85,7 +85,7 @@ _Evaluated Jul 02 2026 08:40 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — DOGE-USD
 
-**Signal Analysis:** RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.94%, Sharpe 1.98. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.99%, Sharpe 1.98. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 

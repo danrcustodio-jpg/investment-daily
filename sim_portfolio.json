@@ -409,13 +409,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "DOGE-USD",
       "priority": "medium",
-      "reason": "RSI Oversold \u2014 Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.94%, Sharpe 1.98. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.99%, Sharpe 1.98. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-02T20:40:19.418329",
+  "recommendations_updated": "2026-07-02T22:00:55.379592",
   "trade_log": [
     {
       "action": "SELL",
