@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 54** &nbsp;·&nbsp; Updated: Jul 01 2026 09:31 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 01:10 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.48%** &nbsp; ($+2,871) |
+| Portfolio P&L | **+1.49%** &nbsp; ($+2,895) |
 | SPY Benchmark | +5.37% &nbsp; ($+10,407 if 100% SPY) |
-| Alpha vs SPY | **-3.89%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.87%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,871 |
+| Current Value | $196,895 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,302 | +0.67% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,326 | +0.68% |
 
 ## Daily Equity Curve
 
@@ -62,29 +62,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 01 2026 09:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 02 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **COIN** | MACD Bullish Crossover — Score 64.8, Win Rate 56.2%, Avg 5d Return 3.25%, Max Drawdown -23… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.9, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.64%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — MRVL
 
-**Signal Analysis:** MFI — Oversold — Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sharpe 3.19. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown -65.32%, Sharpe 2.27. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NEAR-USD
+### 🔍 NEW OPPORTUNITY — COIN
 
-**Signal Analysis:** MFI — Oversold — Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sharpe 4.37. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 64.8, Win Rate 56.2%, Avg 5d Return 3.25%, Max Drawdown -23.94%, Sharpe 2.0. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — DOGE-USD
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 62.9, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.64%, Sharpe 1.98. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 

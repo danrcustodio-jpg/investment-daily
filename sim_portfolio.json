@@ -380,33 +380,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "MRVL",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 83.0, Win Rate 80.0%, Avg 5d Return 3.79%, Max Drawdown -22.13%, Sharpe 3.19. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown -65.32%, Sharpe 2.27. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NEAR-USD",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 86.2, Win Rate 75.0%, Avg 5d Return 7.4%, Max Drawdown -24.96%, Sharpe 4.37. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "ticker": "COIN",
+      "priority": "medium",
+      "reason": "MACD Bullish Crossover \u2014 Score 64.8, Win Rate 56.2%, Avg 5d Return 3.25%, Max Drawdown -23.94%, Sharpe 2.0. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SOL-USD",
-      "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.",
+      "ticker": "DOGE-USD",
+      "priority": "medium",
+      "reason": "RSI Oversold \u2014 Score 62.9, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.64%, Sharpe 1.98. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-01T21:31:31.985752",
+  "recommendations_updated": "2026-07-02T13:10:05.923206",
   "trade_log": [
     {
       "action": "SELL",
