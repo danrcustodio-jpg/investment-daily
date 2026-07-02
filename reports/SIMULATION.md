@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 07:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 08:40 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.49%** &nbsp; ($+2,895) |
-| SPY Benchmark | +4.80% &nbsp; ($+9,305 if 100% SPY) |
-| Alpha vs SPY | **-3.30%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.23% &nbsp; ($+10,139 if 100% SPY) |
+| Alpha vs SPY | **-3.73%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,895 |
 
@@ -59,35 +59,35 @@
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
 | 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
-| 2026-07-02 | 📈 +1.49% | +4.79% | ❌ -3.30% |
+| 2026-07-02 | 📈 +1.49% | +5.23% | ❌ -3.73% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 02 2026 07:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 02 2026 08:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 78.9, Win Rate 71.4%, Avg 5d Return 4.52%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Fisher Transform — Low Extreme — Score 87.5, Win Rate 84.0%, Avg 5d Return 5.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10… |
-
-### 🔍 NEW OPPORTUNITY — ATOM-USD
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 78.9, Win Rate 71.4%, Avg 5d Return 4.52%, Max Drawdown -17.38%, Sharpe 3.67. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — AVGO
-
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 87.5, Win Rate 84.0%, Avg 5d Return 5.75%, Max Drawdown -7.41%, Sharpe 5.18. 2 minor bearish signal(s), max confidence 76.6.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.8… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.94%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
 **Signal Analysis:** MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10.45%, Sharpe 3.86. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — PLTR
+
+**Signal Analysis:** MACD Bullish Crossover — Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.82%, Sharpe 4.54. 1 minor bearish signal(s), max confidence 54.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** RSI Oversold — Score 62.8, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.94%, Sharpe 1.98. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
