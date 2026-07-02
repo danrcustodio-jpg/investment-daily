@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 01:10 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 01:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.49%** &nbsp; ($+2,895) |
-| SPY Benchmark | +5.37% &nbsp; ($+10,407 if 100% SPY) |
-| Alpha vs SPY | **-3.87%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.71% &nbsp; ($+11,083 if 100% SPY) |
+| Alpha vs SPY | **-4.22%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,895 |
 
@@ -59,32 +59,33 @@
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
 | 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
+| 2026-07-02 | 📈 +1.49% | +5.71% | ❌ -4.21% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 02 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 02 2026 01:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MRVL** | ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **COIN** | MACD Bullish Crossover — Score 64.8, Win Rate 56.2%, Avg 5d Return 3.25%, Max Drawdown -23… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.9, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.64%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Fisher Transform — Low Extreme — Score 62.9, Win Rate 60.8%, Avg 5d Return 2.29%, Max Draw… |
 
-### 🔍 NEW OPPORTUNITY — MRVL
+### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 77.0, Win Rate 60.1%, Avg 5d Return 3.57%, Max Drawdown -65.32%, Sharpe 2.27. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — COIN
-
-**Signal Analysis:** MACD Bullish Crossover — Score 64.8, Win Rate 56.2%, Avg 5d Return 3.25%, Max Drawdown -23.94%, Sharpe 2.0. No conflicting bearish signals.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown -0.71%, Sharpe 5.72. 1 minor bearish signal(s), max confidence 51.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — DOGE-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 62.9, Win Rate 60.7%, Avg 5d Return 2.24%, Max Drawdown -32.64%, Sharpe 1.98. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10.45%, Sharpe 3.86. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 62.9, Win Rate 60.8%, Avg 5d Return 2.29%, Max Drawdown -72.73%, Sharpe 1.83. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
