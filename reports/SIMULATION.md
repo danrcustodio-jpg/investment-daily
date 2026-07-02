@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 05:52 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 55** &nbsp;·&nbsp; Updated: Jul 02 2026 07:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.49%** &nbsp; ($+2,895) |
-| SPY Benchmark | +4.63% &nbsp; ($+8,986 if 100% SPY) |
-| Alpha vs SPY | **-3.14%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.80% &nbsp; ($+9,305 if 100% SPY) |
+| Alpha vs SPY | **-3.30%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,895 |
 
@@ -59,11 +59,11 @@
 | 2026-06-29 | 📈 +1.46% | +4.69% | ❌ -3.24% |
 | 2026-06-30 | 📈 +1.47% | +5.51% | ❌ -4.04% |
 | 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
-| 2026-07-02 | 📈 +1.49% | +4.63% | ❌ -3.13% |
+| 2026-07-02 | 📈 +1.49% | +4.79% | ❌ -3.30% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 02 2026 05:52 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 02 2026 07:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -73,7 +73,7 @@ _Evaluated Jul 02 2026 05:52 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 78.9, Win Rate 71.4%, Avg 5d Return 4.52%, Max Drawdown -17.48%, Sharpe 3.67. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 78.9, Win Rate 71.4%, Avg 5d Return 4.52%, Max Drawdown -17.38%, Sharpe 3.67. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
