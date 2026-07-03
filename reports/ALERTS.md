@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Friday July 03, 2026 at 04:51 PM
+**Last scan:** Friday July 03, 2026 at 06:08 PM
 
 ## Scan Summary
 
@@ -102,7 +102,7 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 76.0 | 68.3% | 8.75% | 3.02 |
 | 🔴 BEARISH | **TSLA** | SMA 30 — Bearish Loss | 73.6 | 70.8% | 1.86% | 2.27 |
 | 🔴 BEARISH | **ARM** | ADX Strong Trend — Bearish | 72.5 | 65.8% | 2.54% | 2.4 |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 72.1 | 66.0% | 1.06% | 1.92 |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 72.2 | 66.0% | 1.07% | 1.93 |
 | 🔴 BEARISH | **APP** | VWAP Deviation — Overbought | 70.3 | 65.4% | 3.66% | 1.92 |
 | 🔴 BEARISH | **RKLB** | Aroon — Strong Downtrend | 70.0 | 61.3% | 3.88% | 2.02 |
 | 🔴 BEARISH | **SPY** | PPO — Bearish Cross | 69.2 | 64.7% | 0.71% | 1.65 |
