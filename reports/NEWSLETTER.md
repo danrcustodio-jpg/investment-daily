@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, July 02, 2026
-Generated at 01:10 PM
+# Daily Newsletter — Friday, July 03, 2026
+Generated at 02:43 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 117 total &nbsp;·&nbsp; 🟢 70 Bullish &nbsp;·&nbsp; 🔴 47 Bearish
+**Strategy Signals:** 123 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 57 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SOL-USD** | Solana | $81.48 | 📈 +5.29% |
-| **ETH-USD** | Ethereum | $1663.76 | 📈 +3.41% |
-| **SI=F** | Silver | $61.92 | 📈 +3.05% |
-| **^VIX** | VIX (Fear Index) | $16.09 | 📉 -3.01% |
-| **BTC-USD** | Bitcoin | $61553.73 | 📈 +2.58% |
-| **XLK** | Tech (XLK) | $185.62 | 📉 -2.57% |
-| **^TYX** | 30-Year Treasury Yield | $4.98 | 📈 +2.43% |
-| **^TNX** | 10-Year Treasury Yield | $4.47 | 📈 +2.22% |
-| **XLF** | Financials (XLF) | $54.78 | 📈 +2.18% |
-| **NG=F** | Natural Gas | $3.16 | 📉 -1.99% |
+| **SI=F** | Silver | $62.72 | 📈 +3.42% |
+| **XLK** | Tech (XLK) | $180.59 | 📉 -2.71% |
+| **XLV** | Healthcare (XLV) | $163.74 | 📈 +2.63% |
+| **ETH-USD** | Ethereum | $1734.20 | 📈 +2.12% |
+| **NG=F** | Natural Gas | $3.25 | 📈 +1.69% |
+| **^VIX** | VIX (Fear Index) | $15.89 | 📉 -1.61% |
+| **GC=F** | Gold | $4177.30 | 📈 +1.57% |
+| **XLF** | Financials (XLF) | $55.62 | 📈 +1.53% |
+| **^DJI** | Dow Jones | $52900.07 | 📈 +1.14% |
+| **SOL-USD** | Solana | $81.46 | 📈 +1.01% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 82.3 | 67.9% |
-| 🟢 BULLISH | **APP** | MACD Bullish Crossover | 82.2 | 75.0% |
-| 🟢 BULLISH | **META** | Supertrend — Bullish Flip | 80.0 | 71.4% |
-| 🟢 BULLISH | **APP** | Supertrend — Bullish Flip | 80.0 | 71.4% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 79.3 | 65.5% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 77.0 | 60.1% |
-| 🟢 BULLISH | **SMH** | Aroon — Strong Uptrend | 75.7 | 65.9% |
-| 🟢 BULLISH | **RIOT** | Aroon — Strong Uptrend | 74.9 | 62.0% |
-| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 72.8 | 63.6% |
-| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 72.3 | 62.6% |
+| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 87.5 | 84.0% |
+| 🟢 BULLISH | **GOOGL** | MACD Bullish Crossover | 85.2 | 78.9% |
+| 🟢 BULLISH | **PLTR** | MACD Bullish Crossover | 84.5 | 77.8% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.2 | 74.4% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 80.9 | 72.2% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 79.4 | 71.1% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 78.7 | 64.4% |
+| 🟢 BULLISH | **AAPL** | SMA 30 — Bullish Reclaim | 77.9 | 68.4% |
+| 🟢 BULLISH | **XBI** | 52-Week Breakout | 77.7 | 63.9% |
+| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 72.0 | 62.3% |
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 69.5 | 59.8% |
-| 🟢 BULLISH | **PLTR** | Parabolic SAR — Bullish | 68.5 | 62.5% |
+| 🟢 BULLISH | **PLTR** | OBV — Accumulation | 68.8 | 57.6% |
 
 ## Latest News
 
-- [Tesla reports 480,126 vehicle deliveries for second quarter, topping expectation](https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html) — *CNBC Markets*
-- [Form 4 Finward Bancorp For: 2 July](https://www.investing.com/news/filings/form-4-finward-bancorp-for-2-july-93CH-4773239) — *Investing.com*
-- [Microsoft launches firm to help companies adopt AI with $2.5 billion](https://www.investing.com/news/stock-market-news/microsoft-launches-firm-to-help-companies-adopt-ai-with-25-billion-4773238) — *Investing.com*
-- [Barclays cuts Dana stock rating on integration concerns](https://www.investing.com/news/analyst-ratings/barclays-cuts-dana-stock-rating-on-integration-concerns-93CH-4773236) — *Investing.com*
-- [D.A. Davidson maintains Buy on BRC stock on packaged coffee gains](https://www.investing.com/news/analyst-ratings/da-davidson-maintains-buy-on-brc-stock-on-packaged-coffee-gains-93CH-4773235) — *Investing.com*
-- [D.A. Davidson maintains Alight stock rating after reverse split](https://www.investing.com/news/analyst-ratings/da-davidson-maintains-alight-stock-rating-after-reverse-split-93CH-4773234) — *Investing.com*
-- [DA Davidson raises MSC Industrial stock price target on volume growth](https://www.investing.com/news/analyst-ratings/da-davidson-raises-msc-industrial-stock-price-target-on-volume-growth-93CH-4773233) — *Investing.com*
-- [Job growth falls short of expectations in June](https://www.investing.com/news/economy-news/job-growth-falls-short-of-expectations-in-june-4773232) — *Investing.com*
-- [JPMorgan ETFs declares dividends across 61 share classes](https://www.investing.com/news/company-news/jpmorgan-etfs-declares-dividends-across-61-share-classes-93CH-4773231) — *Investing.com*
-- [Jaguar Land Rover sales drop 15% amid supply issues](https://www.investing.com/news/company-news/jaguar-land-rover-sales-drop-15-amid-supply-issues-93CH-4773230) — *Investing.com*
+- [Trump defends big crypto gain, says 'there's nothing illegal'](https://seekingalpha.com/news/4609857-trump-defends-big-crypto-gain-says-theres-nothing-illegal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [MV Oil Trust declares $0.5938 dividend](https://seekingalpha.com/news/4609867-mv-oil-trust-declares-05938-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [AXT signs three-year supply agreement with Coherent](https://seekingalpha.com/news/4609866-axt-signs-three-year-supply-agreement-with-coherent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Vltava Fund Exited KLA Corporation Amid Price-Quality Imbalance](https://finance.yahoo.com/markets/stocks/articles/vltava-fund-exited-kla-corporation-142543142.html) — *Yahoo Finance*
+- [NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump](https://www.investing.com/news/world-news/nato-leaders-to-gather-in-ankara-aiming-to-smooth-over-tensions-with-trump-4775040) — *Investing.com*
+- [Quentin Dolan named president and COO of New York Rangers](https://www.investing.com/news/company-news/quentin-dolan-named-president-and-coo-of-new-york-rangers-93CH-4775256) — *Investing.com*
+- [How Greg Abel Is Already Reshaping Berkshire Hathaway's Playbook](https://finance.yahoo.com/markets/stocks/articles/greg-abel-already-reshaping-berkshire-142000630.html) — *Yahoo Finance*
+- [Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval](https://finance.yahoo.com/small-business/articles/vintae-restructuring-plan-bodegas-riojanas-141852366.html) — *Yahoo Finance*
+- [Space startup Katalyst launches orbital rescue mission for aging NASA observatory](https://www.investing.com/news/economy-news/space-startup-katalyst-launches-orbital-rescue-mission-for-aging-nasa-observatory-4775255) — *Investing.com*
+- [Are We Paying Too Much for Applied Materials (AMAT)?](https://finance.yahoo.com/markets/stocks/articles/paying-too-much-applied-materials-141739823.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*
