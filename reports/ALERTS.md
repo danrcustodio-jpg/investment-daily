@@ -1,25 +1,48 @@
 # Strategy Alerts
-**Last scan:** Friday July 03, 2026 at 06:08 PM
+**Last scan:** Friday July 03, 2026 at 07:56 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals scanned (confidence ≥ 50) | 106 |
+| Total signals scanned (confidence ≥ 50) | 107 |
 | 🟢 Bullish | 66 |
-| 🔴 Bearish | 57 |
-| ✅ Fired this run (SMS + email) | 0 |
+| 🔴 Bearish | 58 |
+| ✅ Fired this run (SMS + email) | 1 |
 | ⏭ Skipped — same ticker notified in last 6h | 106 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
-| ⚠ Tickers with conflicting BULL+BEAR signals | 0 |
+| ⚠ Tickers with conflicting BULL+BEAR signals | 10 |
 
-_Run ended early: **all_in_cooldown** — no email or SMS dispatched._
+## 📲 SMS sent (1)
 
-## 📲 SMS not sent
+- One text per ticker: **ADA-USD**
 
-_Reason: `all_in_cooldown`_
+## ⚠ Conflicting tickers (both directions ≥ 65)
+
+Tickers where bullish *and* bearish strategies are firing above the conflict threshold at the same time. Treat the headline as one input only.
+
+| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |
+|---|---|---:|---:|---|---:|---:|
+| **XLE** | Stochastic (Full) — Oversold | 66.0 | 1 | Aroon — Strong Downtrend | 88.1 | 1 |
+| **AVGO** | Fisher Transform — Low Extreme | 87.5 | 3 | Aroon — Strong Downtrend | 76.4 | 1 |
+| **SMH** | Williams %R — Oversold | 79.4 | 1 | SMA 30 — Bearish Loss | 85.9 | 2 |
+| **NVDA** | VWAP Deviation — Oversold | 84.2 | 1 | Aroon — Strong Downtrend | 67.9 | 1 |
+| **TQQQ** | Williams %R — Oversold | 68.4 | 1 | Chaikin Money Flow — Bearish | 83.2 | 1 |
+| **XLK** | Williams %R — Oversold | 80.9 | 1 | Chaikin Money Flow — Bearish | 82.9 | 3 |
+| **RIOT** | Williams %R — Oversold | 67.7 | 1 | Supertrend — Bearish Flip | 78.3 | 1 |
+| **AAPL** | SMA 30 — Bullish Reclaim | 77.9 | 1 | Aroon — Strong Downtrend | 67.1 | 1 |
+| **SOXL** | VWAP Deviation — Oversold | 67.8 | 1 | Chaikin Money Flow — Bearish | 76.0 | 1 |
+| **RKLB** | CCI — Extreme Oversold | 68.4 | 1 | Aroon — Strong Downtrend | 70.0 | 1 |
+
+## ✅ Fired this run (SMS + email)
+
+Signals that **actually triggered** an SMS / email on this run.
+
+| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
+|---|---|---|---|---|---|---|
+| 🔴 BEARISH | **ADA-USD** | Keltner — Upper Channel Touch | 69.5 | 60.3% | 6.15% | 2.74 |
 
 ## ⏭ Skipped — same ticker already notified
 
