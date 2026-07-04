@@ -1,24 +1,24 @@
-# Daily Newsletter — Friday, July 03, 2026
-Generated at 02:43 PM
+# Daily Newsletter — Saturday, July 04, 2026
+Generated at 02:10 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 123 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 57 Bearish
+**Strategy Signals:** 124 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 58 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $62.72 | 📈 +3.42% |
+| **SI=F** | Silver | $62.81 | 📈 +3.58% |
 | **XLK** | Tech (XLK) | $180.59 | 📉 -2.71% |
+| **^VIX** | VIX (Fear Index) | $16.15 | 📉 -2.65% |
 | **XLV** | Healthcare (XLV) | $163.74 | 📈 +2.63% |
-| **ETH-USD** | Ethereum | $1734.20 | 📈 +2.12% |
-| **NG=F** | Natural Gas | $3.25 | 📈 +1.69% |
-| **^VIX** | VIX (Fear Index) | $15.89 | 📉 -1.61% |
-| **GC=F** | Gold | $4177.30 | 📈 +1.57% |
+| **GC=F** | Gold | $4187.30 | 📈 +1.81% |
 | **XLF** | Financials (XLF) | $55.62 | 📈 +1.53% |
+| **NG=F** | Natural Gas | $3.24 | 📈 +1.53% |
 | **^DJI** | Dow Jones | $52900.07 | 📈 +1.14% |
-| **SOL-USD** | Solana | $81.46 | 📈 +1.01% |
+| **XLY** | Consumer Disc. (XLY) | $117.12 | 📉 -0.82% |
+| **SOL-USD** | Solana | $81.62 | 📉 -0.80% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 02:43 PM
 
 ## Latest News
 
-- [Trump defends big crypto gain, says 'there's nothing illegal'](https://seekingalpha.com/news/4609857-trump-defends-big-crypto-gain-says-theres-nothing-illegal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [MV Oil Trust declares $0.5938 dividend](https://seekingalpha.com/news/4609867-mv-oil-trust-declares-05938-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [AXT signs three-year supply agreement with Coherent](https://seekingalpha.com/news/4609866-axt-signs-three-year-supply-agreement-with-coherent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Vltava Fund Exited KLA Corporation Amid Price-Quality Imbalance](https://finance.yahoo.com/markets/stocks/articles/vltava-fund-exited-kla-corporation-142543142.html) — *Yahoo Finance*
-- [NATO leaders to gather in Ankara, aiming to smooth over tensions with Trump](https://www.investing.com/news/world-news/nato-leaders-to-gather-in-ankara-aiming-to-smooth-over-tensions-with-trump-4775040) — *Investing.com*
-- [Quentin Dolan named president and COO of New York Rangers](https://www.investing.com/news/company-news/quentin-dolan-named-president-and-coo-of-new-york-rangers-93CH-4775256) — *Investing.com*
-- [How Greg Abel Is Already Reshaping Berkshire Hathaway's Playbook](https://finance.yahoo.com/markets/stocks/articles/greg-abel-already-reshaping-berkshire-142000630.html) — *Yahoo Finance*
-- [Vintae’s restructuring plan for Bodegas Riojanas receives judicial approval](https://finance.yahoo.com/small-business/articles/vintae-restructuring-plan-bodegas-riojanas-141852366.html) — *Yahoo Finance*
-- [Space startup Katalyst launches orbital rescue mission for aging NASA observatory](https://www.investing.com/news/economy-news/space-startup-katalyst-launches-orbital-rescue-mission-for-aging-nasa-observatory-4775255) — *Investing.com*
-- [Are We Paying Too Much for Applied Materials (AMAT)?](https://finance.yahoo.com/markets/stocks/articles/paying-too-much-applied-materials-141739823.html) — *Yahoo Finance*
+- [Notable analyst calls this week: Palantir, Chevron and Morgan Stanley among top picks](https://seekingalpha.com/news/4609772-notable-analyst-calls-this-week-palantir-chevron-and-morgan-stanley-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Mastercard, Visa, Robinhood in gainers; crypto, big banks among losers: week's financials wrap](https://seekingalpha.com/news/4609742-mastercard-visa-robinhood-in-gainers-crypto-big-banks-among-losers-weeks-financials-wrap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Strong SoC Platforms Demand Assert Ambarella, Inc. (AMBA) as a Top Robotics Stock to Buy According to Short Sellers](https://finance.yahoo.com/technology/ai/articles/strong-soc-platforms-demand-assert-135303563.html) — *Yahoo Finance*
+- [Zebra Technologies Unveils CV70 CXP Camera for High-Speed Machine Vision Applications](https://finance.yahoo.com/technology/articles/zebra-technologies-unveils-cv70-cxp-135250379.html) — *Yahoo Finance*
+- [Rockwell Automation, Inc. (ROK): One of the Best Robotics Stocks to Buy, Helping Manufacturers Move from Fragmented Automation](https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-inc-rok-one-135159666.html) — *Yahoo Finance*
+- [Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?](https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-biggest-winner-first-135000844.html) — *Yahoo Finance*
+- [​Honeywell International Inc. (HON): One of The Best Robotics Stocks to Buy Poised for Manufacturing Automation Opportunities](https://finance.yahoo.com/technology/ai/articles/honeywell-international-inc-hon-one-134808247.html) — *Yahoo Finance*
+- [BofA Boosts Teradyne (TER) Price Target on Industry Growth](https://finance.yahoo.com/markets/stocks/articles/bofa-boosts-teradyne-ter-price-134801547.html) — *Yahoo Finance*
+- [Here’s Why Tesla Inc. (TSLA) is a Top Robotics Stock to Buy Amid Robotaxi and Optimus Developments](https://finance.yahoo.com/technology/ai/articles/why-tesla-inc-tsla-top-134753521.html) — *Yahoo Finance*
+- [Is NVIDIA Corporation (NVDA) The Best Robotics Stock to Buy According to Short Sellers?](https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-best-robotics-134744460.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*
