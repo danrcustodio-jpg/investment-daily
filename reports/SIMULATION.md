@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 57** &nbsp;·&nbsp; Updated: Jul 04 2026 02:10 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 58** &nbsp;·&nbsp; Updated: Jul 05 2026 02:17 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.52%** &nbsp; ($+2,943) |
+| Portfolio P&L | **+1.53%** &nbsp; ($+2,967) |
 | SPY Benchmark | +5.23% &nbsp; ($+10,139 if 100% SPY) |
-| Alpha vs SPY | **-3.71%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.70%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,943 |
+| Current Value | $196,967 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,374 | +0.70% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,398 | +0.72% |
 
 ## Daily Equity Curve
 
@@ -64,19 +64,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 04 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 05 2026 02:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Fisher Transform — Low Extreme — Score 87.5, Win Rate 84.0%, Avg 5d Return 5.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.8… |
-
-### 🔍 NEW OPPORTUNITY — AVGO
-
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 87.5, Win Rate 84.0%, Avg 5d Return 5.75%, Max Drawdown -7.41%, Sharpe 5.18. 2 minor bearish signal(s), max confidence 76.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | Volume Spike + Surge — Score 68.5, Win Rate 64.0%, Avg 5d Return 6.05%, Max Drawdown -66.2… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -89,6 +83,12 @@ _Evaluated Jul 04 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** MACD Bullish Crossover — Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.82%, Sharpe 4.54. 1 minor bearish signal(s), max confidence 54.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ADA-USD
+
+**Signal Analysis:** Volume Spike + Surge — Score 68.5, Win Rate 64.0%, Avg 5d Return 6.05%, Max Drawdown -66.29%, Sharpe 1.94. 1 minor bearish signal(s), max confidence 69.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

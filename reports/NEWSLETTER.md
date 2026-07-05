@@ -1,9 +1,9 @@
-# Daily Newsletter — Saturday, July 04, 2026
-Generated at 02:10 PM
+# Daily Newsletter — Sunday, July 05, 2026
+Generated at 02:17 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 124 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 58 Bearish
+**Strategy Signals:** 125 total &nbsp;·&nbsp; 🟢 67 Bullish &nbsp;·&nbsp; 🔴 58 Bearish
 
 ## Top Movers
 
@@ -16,9 +16,9 @@ Generated at 02:10 PM
 | **GC=F** | Gold | $4187.30 | 📈 +1.81% |
 | **XLF** | Financials (XLF) | $55.62 | 📈 +1.53% |
 | **NG=F** | Natural Gas | $3.24 | 📈 +1.53% |
+| **SOL-USD** | Solana | $81.07 | 📉 -1.47% |
 | **^DJI** | Dow Jones | $52900.07 | 📈 +1.14% |
-| **XLY** | Consumer Disc. (XLY) | $117.12 | 📉 -0.82% |
-| **SOL-USD** | Solana | $81.62 | 📉 -0.80% |
+| **^IRX** | 3-Month T-Bill | $3.67 | 📉 -0.86% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 02:10 PM
 
 ## Latest News
 
-- [Notable analyst calls this week: Palantir, Chevron and Morgan Stanley among top picks](https://seekingalpha.com/news/4609772-notable-analyst-calls-this-week-palantir-chevron-and-morgan-stanley-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Mastercard, Visa, Robinhood in gainers; crypto, big banks among losers: week's financials wrap](https://seekingalpha.com/news/4609742-mastercard-visa-robinhood-in-gainers-crypto-big-banks-among-losers-weeks-financials-wrap?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Strong SoC Platforms Demand Assert Ambarella, Inc. (AMBA) as a Top Robotics Stock to Buy According to Short Sellers](https://finance.yahoo.com/technology/ai/articles/strong-soc-platforms-demand-assert-135303563.html) — *Yahoo Finance*
-- [Zebra Technologies Unveils CV70 CXP Camera for High-Speed Machine Vision Applications](https://finance.yahoo.com/technology/articles/zebra-technologies-unveils-cv70-cxp-135250379.html) — *Yahoo Finance*
-- [Rockwell Automation, Inc. (ROK): One of the Best Robotics Stocks to Buy, Helping Manufacturers Move from Fragmented Automation](https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-inc-rok-one-135159666.html) — *Yahoo Finance*
-- [Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?](https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-biggest-winner-first-135000844.html) — *Yahoo Finance*
-- [​Honeywell International Inc. (HON): One of The Best Robotics Stocks to Buy Poised for Manufacturing Automation Opportunities](https://finance.yahoo.com/technology/ai/articles/honeywell-international-inc-hon-one-134808247.html) — *Yahoo Finance*
-- [BofA Boosts Teradyne (TER) Price Target on Industry Growth](https://finance.yahoo.com/markets/stocks/articles/bofa-boosts-teradyne-ter-price-134801547.html) — *Yahoo Finance*
-- [Here’s Why Tesla Inc. (TSLA) is a Top Robotics Stock to Buy Amid Robotaxi and Optimus Developments](https://finance.yahoo.com/technology/ai/articles/why-tesla-inc-tsla-top-134753521.html) — *Yahoo Finance*
-- [Is NVIDIA Corporation (NVDA) The Best Robotics Stock to Buy According to Short Sellers?](https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-best-robotics-134744460.html) — *Yahoo Finance*
+- [Here are the 3 big things we're watching in the stock market this week](https://www.cnbc.com/2026/07/05/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html) — *CNBC Markets*
+- [SA Asks: Who will be most impacted by Meta's new cloud business?](https://seekingalpha.com/news/4611513-sa-asks-who-will-be-most-impacted-by-metas-new-cloud-business?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Brides are bringing back the one-night-only bachelorette party: 'You just come, have one perfect night and leave'](https://www.cnbc.com/2026/07/05/brides-are-bringing-back-the-one-night-only-bachelorette-party.html) — *CNBC Markets*
+- [I have no kids. Will I cause family drama by leaving different amounts to my nieces and nephews?](https://www.marketwatch.com/story/i-have-no-kids-will-i-cause-family-drama-by-leaving-different-amounts-to-my-nieces-and-nephews-14c0fdda?mod=mw_rss_topstories) — *MarketWatch*
+- [OPEC+ approves another output increase as Hormuz reopening boosts supply outlook](https://seekingalpha.com/news/4611523-opec-approves-another-output-increase-as-hormuz-reopening-boosts-supply-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump Accounts for kids launched July 4: What parents need to know](https://www.cnbc.com/2026/07/01/trump-accounts-launch-july-4.html) — *CNBC Markets*
+- [SpaceX bandwagon gets two new engines this week](https://seekingalpha.com/news/4611522-spacex-bandwagon-gets-two-new-engines-this-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Investors look for Fed clues, earnings signs as tech wobbles](https://www.investing.com/news/economy-news/investors-look-for-fed-clues-earnings-signs-as-tech-wobbles-4775428) — *Investing.com*
+- [Notable healthcare headlines for the week: Abbott, AstraZeneca, and Eli Lilly in focus](https://seekingalpha.com/news/4609901-notable-healthcare-headlines-for-the-week-abbott-astrazeneca-and-eli-lilly-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Hybrids are the breakout star of the U.S. car market as EV demand fades](https://www.marketwatch.com/story/hybrids-are-the-breakout-star-of-the-u-s-car-market-as-ev-demand-fades-96dce1c3?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*
