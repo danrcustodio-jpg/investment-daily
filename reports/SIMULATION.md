@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 04:13 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 06:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.54%** &nbsp; ($+2,991) |
-| SPY Benchmark | +6.10% &nbsp; ($+11,828 if 100% SPY) |
-| Alpha vs SPY | **-4.56%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.17% &nbsp; ($+11,964 if 100% SPY) |
+| Alpha vs SPY | **-4.63%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,991 |
 
@@ -61,33 +61,33 @@
 | 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
 | 2026-07-02 | 📈 +1.49% | +5.23% | ❌ -3.73% |
 | 2026-07-03 | 📈 +1.50% | +5.23% | ❌ -3.72% |
-| 2026-07-06 | 📈 +1.54% | +6.10% | ❌ -4.56% |
+| 2026-07-06 | 📈 +1.54% | +6.17% | ❌ -4.62% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 06 2026 04:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 06 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown … |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **COIN** | SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Chaikin Money Flow — Bullish — Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown -0.71%, Sharpe 5.72. 1 minor bearish signal(s), max confidence 51.7.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown -0.71%, Sharpe 5.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — ETH-USD
-
-**Signal Analysis:** Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown -11.3%, Sharpe 2.22. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — COIN
 
 **Signal Analysis:** SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — GOOGL
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdown -50.23%, Sharpe 1.77. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
