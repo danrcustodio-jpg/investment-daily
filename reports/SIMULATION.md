@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 08:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 09:53 PM
 
 ## Performance Summary
 
@@ -65,13 +65,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 06 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 06 2026 09:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **COIN** | SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -… |
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
@@ -79,15 +79,15 @@ _Evaluated Jul 06 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — ETH-USD
+
+**Signal Analysis:** Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown -11.3%, Sharpe 2.22. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
 **Signal Analysis:** SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -6.59%, Sharpe 5.52. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — COIN
-
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
