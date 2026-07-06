@@ -398,33 +398,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "ARKK",
       "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 85.2, Win Rate 78.9%, Avg 5d Return 2.74%, Max Drawdown -10.45%, Sharpe 3.86. No conflicting bearish signals.",
+      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown -0.71%, Sharpe 5.72. 1 minor bearish signal(s), max confidence 51.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
-      "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 84.5, Win Rate 77.8%, Avg 5d Return 3.8%, Max Drawdown -8.82%, Sharpe 4.54. 1 minor bearish signal(s), max confidence 54.3.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ADA-USD",
+      "ticker": "COIN",
       "priority": "medium",
-      "reason": "Volume Spike + Surge \u2014 Score 68.5, Win Rate 64.0%, Avg 5d Return 6.05%, Max Drawdown -66.29%, Sharpe 1.94. 1 minor bearish signal(s), max confidence 69.5.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "GOOGL",
+      "priority": "medium",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdown -50.23%, Sharpe 1.77. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-05T14:17:14.181474",
+  "recommendations_updated": "2026-07-06T16:01:22.241610",
   "trade_log": [
     {
       "action": "SELL",
