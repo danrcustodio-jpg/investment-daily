@@ -398,9 +398,9 @@
       "date": "2026-07-06",
       "total_value": 196991.45,
       "portfolio_pnl": 1.542,
-      "benchmark_pnl": 6.167,
+      "benchmark_pnl": 6.144,
       "prices": {
-        "SPY": 751.4400024414062
+        "SPY": 751.280029296875
       }
     }
   ],
@@ -416,24 +416,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "COIN",
-      "priority": "medium",
-      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.",
+      "ticker": "GOOGL",
+      "priority": "high",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -6.59%, Sharpe 5.52. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "COIN",
       "priority": "medium",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdown -50.23%, Sharpe 1.77. No conflicting bearish signals.",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-06T18:24:52.039234",
+  "recommendations_updated": "2026-07-06T20:20:41.081618",
   "trade_log": [
     {
       "action": "SELL",

@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 06:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 08:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.54%** &nbsp; ($+2,991) |
-| SPY Benchmark | +6.17% &nbsp; ($+11,964 if 100% SPY) |
-| Alpha vs SPY | **-4.63%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.14% &nbsp; ($+11,920 if 100% SPY) |
+| Alpha vs SPY | **-4.60%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $196,991 |
 
@@ -61,17 +61,17 @@
 | 2026-07-01 | 📈 +1.48% | +5.37% | ❌ -3.89% |
 | 2026-07-02 | 📈 +1.49% | +5.23% | ❌ -3.73% |
 | 2026-07-03 | 📈 +1.50% | +5.23% | ❌ -3.72% |
-| 2026-07-06 | 📈 +1.54% | +6.17% | ❌ -4.62% |
+| 2026-07-06 | 📈 +1.54% | +6.14% | ❌ -4.60% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 06 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 06 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **COIN** | SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Chaikin Money Flow — Bullish — Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
@@ -79,15 +79,15 @@ _Evaluated Jul 06 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — COIN
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -6.59%, Sharpe 5.52. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — COIN
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 65.4, Win Rate 59.0%, Avg 5d Return 1.31%, Max Drawdown -50.23%, Sharpe 1.77. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 69.4, Win Rate 55.6%, Avg 5d Return 5.77%, Max Drawdown -30.2%, Sharpe 2.13. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
