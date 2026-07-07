@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 59** &nbsp;·&nbsp; Updated: Jul 06 2026 09:53 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 60** &nbsp;·&nbsp; Updated: Jul 07 2026 03:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.54%** &nbsp; ($+2,991) |
-| SPY Benchmark | +6.14% &nbsp; ($+11,920 if 100% SPY) |
-| Alpha vs SPY | **-4.60%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.55%** &nbsp; ($+3,016) |
+| SPY Benchmark | +5.38% &nbsp; ($+10,433 if 100% SPY) |
+| Alpha vs SPY | **-3.82%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $196,991 |
+| Current Value | $197,016 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,423 | +0.73% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,447 | +0.74% |
 
 ## Daily Equity Curve
 
@@ -65,29 +65,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 06 2026 09:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 07 2026 03:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.2, Win Rate 79.0%, Avg 5d Return 4.22%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.… |
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 86.7, Win Rate 83.3%, Avg 5d Return 3.37%, Max Drawdown -0.71%, Sharpe 5.72. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%, Sharpe 3.69. 2 minor bearish signal(s), max confidence 70.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ETH-USD
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 73.5, Win Rate 66.7%, Avg 5d Return 3.15%, Max Drawdown -11.3%, Sharpe 2.22. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 85.2, Win Rate 79.0%, Avg 5d Return 4.22%, Max Drawdown -19.07%, Sharpe 4.84. 1 minor bearish signal(s), max confidence 63.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 92.7, Win Rate 90.9%, Avg 5d Return 3.86%, Max Drawdown -6.59%, Sharpe 5.52. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
