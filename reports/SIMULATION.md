@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 60** &nbsp;·&nbsp; Updated: Jul 07 2026 05:53 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 60** &nbsp;·&nbsp; Updated: Jul 07 2026 07:43 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.55%** &nbsp; ($+3,016) |
-| SPY Benchmark | +5.82% &nbsp; ($+11,287 if 100% SPY) |
-| Alpha vs SPY | **-4.26%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.48% &nbsp; ($+10,624 if 100% SPY) |
+| Alpha vs SPY | **-3.92%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,016 |
 
@@ -62,21 +62,21 @@
 | 2026-07-02 | 📈 +1.49% | +5.23% | ❌ -3.73% |
 | 2026-07-03 | 📈 +1.50% | +5.23% | ❌ -3.72% |
 | 2026-07-06 | 📈 +1.54% | +6.14% | ❌ -4.60% |
-| 2026-07-07 | 📈 +1.55% | +5.83% | ❌ -4.27% |
+| 2026-07-07 | 📈 +1.55% | +5.46% | ❌ -3.91% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 07 2026 05:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 07 2026 07:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.9, Win Rate 62.2%, Avg 5d Return 3.48%, Max Drawdown -72… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.8, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 71.1, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 71.9, Win Rate 62.2%, Avg 5d Return 3.48%, Max Drawdown -72.23%, Sharpe 2.42. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 71.8, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72.23%, Sharpe 2.41. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
@@ -88,7 +88,7 @@ _Evaluated Jul 07 2026 05:53 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 71.1, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
