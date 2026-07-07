@@ -407,9 +407,9 @@
       "date": "2026-07-07",
       "total_value": 197015.56,
       "portfolio_pnl": 1.554,
-      "benchmark_pnl": 5.462,
+      "benchmark_pnl": 5.64,
       "prices": {
-        "SPY": 746.447509765625
+        "SPY": 747.7100219726562
       }
     }
   ],
@@ -418,7 +418,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AMD",
       "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 71.8, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72.23%, Sharpe 2.41. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 71.9, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72.23%, Sharpe 2.42. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -442,7 +442,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-07T19:43:38.171329",
+  "recommendations_updated": "2026-07-07T21:16:28.162462",
   "trade_log": [
     {
       "action": "SELL",
