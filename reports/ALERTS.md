@@ -1,13 +1,13 @@
 # Strategy Alerts
-**Last scan:** Wednesday July 08, 2026 at 09:11 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Wednesday July 08, 2026 at 10:31 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
 | Total signals (confidence ≥ 45) | 111 |
-| 🟢 Bullish | 68 |
-| 🔴 Bearish | 43 |
+| 🟢 Bullish | 69 |
+| 🔴 Bearish | 42 |
 | 🔵 In cooldown (fired in last 6h) | 0 |
 | 🟡 Available to fire (not in cooldown) | 111 |
 
@@ -44,6 +44,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **SMCI** | Fisher Transform — Low Extreme | 62.5 | 52.9% | -55.52% | 🟡 Available |
 | 🟢 BULLISH | **DOGE-USD** | RSI Oversold | 62.2 | 60.8% | -32.86% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | Stochastic RSI Oversold | 61.4 | 57.0% | -76.35% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 60.8 | 68.1% | -74.18% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 59.4 | 57.4% | -93.94% | 🟡 Available |
 | 🟢 BULLISH | **APP** | CCI — Extreme Oversold | 58.7 | 59.9% | -98.27% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | Stochastic (Full) — Oversold | 58.7 | 58.9% | -67.08% | 🟡 Available |
@@ -125,7 +126,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **CEG** | Aroon — Strong Downtrend | 47.4 | 58.4% | -72.8% | 🟡 Available |
 | 🔴 BEARISH | **GC=F** | Elder Force — Bearish | 47.3 | 62.5% | -5.62% | 🟡 Available |
 | 🔴 BEARISH | **SPY** | Williams %R — Overbought | 47.2 | 57.5% | -25.49% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | OBV — Distribution | 46.6 | 63.2% | -7.91% | 🟡 Available |
 | 🔴 BEARISH | **SPY** | Stochastic (Full) — Overbought | 45.5 | 57.0% | -23.7% | 🟡 Available |
 | 🔴 BEARISH | **LTC-USD** | SMA 30 — Bearish Loss | 45.3 | 54.1% | -28.41% | 🟡 Available |
 
