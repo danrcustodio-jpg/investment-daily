@@ -416,33 +416,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMD",
-      "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 71.9, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72.23%, Sharpe 2.42. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
-      "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%, Sharpe 3.69. 2 minor bearish signal(s), max confidence 70.2.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "TQQQ",
       "priority": "high",
       "reason": "Williams %R \u2014 Oversold \u2014 Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XLK",
+      "priority": "high",
+      "reason": "Stochastic RSI Oversold \u2014 Score 80.8, Win Rate 68.9%, Avg 5d Return 1.85%, Max Drawdown -29.23%, Sharpe 3.15. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "DOGE-USD",
+      "priority": "medium",
+      "reason": "RSI Oversold \u2014 Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.5.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-07T22:36:33.035248",
+  "recommendations_updated": "2026-07-08T14:56:44.275677",
   "trade_log": [
     {
       "action": "SELL",

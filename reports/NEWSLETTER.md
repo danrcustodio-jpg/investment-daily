@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, July 07, 2026
-Generated at 03:26 PM
+# Daily Newsletter — Wednesday, July 08, 2026
+Generated at 02:56 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 125 total &nbsp;·&nbsp; 🟢 71 Bullish &nbsp;·&nbsp; 🔴 54 Bearish
+**Strategy Signals:** 110 total &nbsp;·&nbsp; 🟢 72 Bullish &nbsp;·&nbsp; 🔴 38 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.34 | 📈 +4.95% |
-| **XLK** | Tech (XLK) | $177.90 | 📉 -3.09% |
-| **CL=F** | Crude Oil | $70.30 | 📈 +2.55% |
-| **XLI** | Industrials (XLI) | $180.87 | 📉 -2.53% |
-| **XLV** | Healthcare (XLV) | $164.88 | 📈 +1.80% |
-| **XLE** | Energy (XLE) | $54.06 | 📈 +1.76% |
-| **^IRX** | 3-Month T-Bill | $3.72 | 📈 +1.55% |
-| **^IXIC** | NASDAQ | $25748.89 | 📉 -1.43% |
-| **SI=F** | Silver | $61.12 | 📉 -1.28% |
-| **NG=F** | Natural Gas | $3.28 | 📈 +1.05% |
+| **^VIX** | VIX (Fear Index) | $17.89 | 📈 +10.91% |
+| **CL=F** | Crude Oil | $75.28 | 📈 +6.87% |
+| **SI=F** | Silver | $58.08 | 📉 -4.68% |
+| **SOL-USD** | Solana | $77.06 | 📉 -4.45% |
+| **GC=F** | Gold | $4047.10 | 📉 -2.37% |
+| **XLY** | Consumer Disc. (XLY) | $114.74 | 📉 -2.26% |
+| **BTC-USD** | Bitcoin | $61886.19 | 📉 -2.23% |
+| **ETH-USD** | Ethereum | $1729.80 | 📉 -2.19% |
+| **XLE** | Energy (XLE) | $55.76 | 📈 +2.05% |
+| **XLF** | Financials (XLF) | $55.02 | 📉 -1.83% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **APP** | PPO — Bullish Cross | 90.0 | 92.9% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.2 | 79.0% |
-| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.0 | 74.7% |
-| 🟢 BULLISH | **APP** | TRIX — Bullish Cross | 83.3 | 75.0% |
+| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 87.5 | 81.2% |
 | 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 83.1 | 78.9% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.8 | 68.9% |
 | 🟢 BULLISH | **XLK** | Williams %R — Oversold | 80.4 | 71.7% |
-| 🟢 BULLISH | **XBI** | 52-Week Breakout | 80.3 | 65.8% |
+| 🟢 BULLISH | **GC=F** | PPO — Bullish Cross | 79.5 | 72.2% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 78.7 | 70.5% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 78.6 | 64.8% |
-| 🟢 BULLISH | **XLE** | Parabolic SAR — Bullish | 74.6 | 66.7% |
+| 🟢 BULLISH | **PLTR** | TRIX — Bullish Cross | 76.8 | 66.7% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 75.6 | 69.2% |
 | 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 74.1 | 66.7% |
-| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 72.8 | 62.3% |
+| 🟢 BULLISH | **QQQ** | Stochastic RSI Oversold | 72.1 | 62.7% |
+| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.3 | 61.9% |
+| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 70.8 | 66.7% |
 
 ## Latest News
 
-- [REX WMT Growth & Income ETF announces weekly distribution of $0.1163](https://seekingalpha.com/news/4612001-rex-wmt-growth-income-etf-announces-weekly-distribution-of-01163?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [REX TSLA Growth & Income ETF announces weekly distribution of $0.1734](https://seekingalpha.com/news/4611999-rex-tsla-growth-income-etf-announces-weekly-distribution-of-01734?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trevi Therapeutics stock hits all-time high at 19.33 USD](https://www.investing.com/news/company-news/trevi-therapeutics-stock-hits-alltime-high-at-1933-usd-93CH-4779710) — *Investing.com*
-- [REX NVDA Growth & Income ETF announces weekly distribution of $0.1857](https://seekingalpha.com/news/4611998-rex-nvda-growth-income-etf-announces-weekly-distribution-of-01857?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Peabody receives DOE funding for rare earth element project](https://www.investing.com/news/company-news/peabody-receives-doe-funding-for-rare-earth-element-project-93CH-4779709) — *Investing.com*
-- [Futura Medical’s European patent for Eroxon revoked](https://www.investing.com/news/company-news/futura-medicals-european-patent-for-eroxon-revoked-93CH-4779708) — *Investing.com*
-- [RTX plans to double global Stinger missile production](https://seekingalpha.com/news/4611995-rtx-plans-to-double-global-stinger-missile-production?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Union Pacific and Norfolk Southern file STB merger responses](https://seekingalpha.com/news/4611996-union-pacifc-norfolk-southern-file-stb-merger-responses?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Exclusive-BOJ dissenter Asada needs demand-driven inflation before backing rate hike](https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695) — *Investing.com*
-- [Form 4 Intrusion Inc For: 7 July](https://www.investing.com/news/filings/form-4-intrusion-inc-for-7-july-93CH-4779707) — *Investing.com*
+- [Insurance giant says it’s turning to AI to replace as many as 1,800 jobs](https://www.marketwatch.com/story/insurance-giant-says-its-turning-to-ai-to-replace-as-many-as-1-800-jobs-13e60de2?mod=mw_rss_topstories) — *MarketWatch*
+- [Bitcoin steadies as ETF inflows absorb Strategy selling, Bitfinex says](https://seekingalpha.com/news/4612305-bitcoin-steadies-as-etf-inflows-absorb-strategy-selling-bitfinex-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Kentucky Gov. Beshear presses McConnell to provide health update as speculation grows](https://www.cnbc.com/2026/07/08/mcconnell-health-update-beshear-hospitalization-kentucky.html) — *CNBC Markets*
+- [Incyte stock hits 52-week high at 118.77 USD](https://www.investing.com/news/company-news/incyte-stock-hits-52week-high-at-11877-usd-93CH-4781968) — *Investing.com*
+- [Top 10 investors bought 75% of Rivian’s $1.2B share offering - report](https://www.investing.com/news/stock-market-news/top-10-investors-bought-75-of-rivians-12b-share-offering--report-93CH-4781967) — *Investing.com*
+- [Prime Medicine stock surges after winning arbitration with Beam](https://www.investing.com/news/stock-market-news/prime-medicine-stock-surges-after-winning-arbitration-with-beam-93CH-4781966) — *Investing.com*
+- [YieldMax BABA Option Income Strategy announces weekly distribution of $0.0600](https://seekingalpha.com/news/4612308-yieldmax-baba-option-income-strategy-announces-weekly-distribution-of-00600?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Greece stocks lower at close of trade; Athens General Composite down 2.14%](https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-214-4781965) — *Investing.com*
+- [Morgan Stanley upgrades Ivanhoe Mines, cuts Alcoa and Vale on metals outlook](https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-ivanhoe-mines-cuts-alcoa-and-vale-on-metals-outlook-4781964) — *Investing.com*
+- [YieldMax AAPL Option Income Strategy ETF announces weekly distribution of $0.0618](https://seekingalpha.com/news/4612307-yieldmax-aapl-option-income-strategy-etf-announces-weekly-distribution-of-00618?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

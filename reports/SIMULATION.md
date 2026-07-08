@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 60** &nbsp;·&nbsp; Updated: Jul 07 2026 10:36 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 61** &nbsp;·&nbsp; Updated: Jul 08 2026 02:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.55%** &nbsp; ($+3,016) |
-| SPY Benchmark | +5.64% &nbsp; ($+10,942 if 100% SPY) |
-| Alpha vs SPY | **-4.09%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.57%** &nbsp; ($+3,040) |
+| SPY Benchmark | +4.92% &nbsp; ($+9,538 if 100% SPY) |
+| Alpha vs SPY | **-3.35%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,016 |
+| Current Value | $197,040 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,447 | +0.74% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,471 | +0.75% |
 
 ## Daily Equity Curve
 
@@ -66,31 +66,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 07 2026 10:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 08 2026 02:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.9, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.… |
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 71.9, Win Rate 62.2%, Avg 5d Return 3.47%, Max Drawdown -72.23%, Sharpe 2.42. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** PPO — Bullish Cross — Score 90.0, Win Rate 92.9%, Avg 5d Return 7.41%, Max Drawdown -22.0%, Sharpe 3.69. 2 minor bearish signal(s), max confidence 70.2.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.8, Win Rate 68.9%, Avg 5d Return 1.85%, Max Drawdown -2… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
 **Signal Analysis:** Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Stochastic RSI Oversold — Score 80.8, Win Rate 68.9%, Avg 5d Return 1.85%, Max Drawdown -29.23%, Sharpe 3.15. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
