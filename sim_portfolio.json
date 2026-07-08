@@ -416,18 +416,27 @@
       "date": "2026-07-08",
       "total_value": 197039.68,
       "portfolio_pnl": 1.567,
-      "benchmark_pnl": 5.187,
+      "benchmark_pnl": 5.302,
       "prices": {
-        "SPY": 744.5
+        "SPY": 745.3198852539062
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SMH",
+      "ticker": "AMD",
       "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 83.1, Win Rate 78.9%, Avg 5d Return 3.71%, Max Drawdown -26.69%, Sharpe 4.0. 1 minor bearish signal(s), max confidence 76.9.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 71.3, Win Rate 61.9%, Avg 5d Return 3.4%, Max Drawdown -72.23%, Sharpe 2.36. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "TQQQ",
+      "priority": "high",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -440,18 +449,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "DOGE-USD",
-      "priority": "medium",
-      "reason": "RSI Oversold \u2014 Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.5.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-08T16:55:33.414022",
+  "recommendations_updated": "2026-07-08T18:14:11.141254",
   "trade_log": [
     {
       "action": "SELL",
