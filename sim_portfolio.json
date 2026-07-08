@@ -416,18 +416,18 @@
       "date": "2026-07-08",
       "total_value": 197039.68,
       "portfolio_pnl": 1.567,
-      "benchmark_pnl": 4.781,
+      "benchmark_pnl": 5.187,
       "prices": {
-        "SPY": 741.6300048828125
+        "SPY": 744.5
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TQQQ",
+      "ticker": "SMH",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 83.1, Win Rate 78.9%, Avg 5d Return 3.71%, Max Drawdown -26.69%, Sharpe 4.0. 1 minor bearish signal(s), max confidence 76.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -451,7 +451,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-08T15:11:22.193481",
+  "recommendations_updated": "2026-07-08T16:55:33.414022",
   "trade_log": [
     {
       "action": "SELL",
