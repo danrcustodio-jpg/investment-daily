@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 61** &nbsp;·&nbsp; Updated: Jul 08 2026 06:14 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 61** &nbsp;·&nbsp; Updated: Jul 08 2026 08:00 PM
 
 ## Performance Summary
 
@@ -67,31 +67,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 08 2026 06:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 08 2026 08:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.3, Win Rate 61.9%, Avg 5d Return 3.4%, Max Drawdown -72.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.8, Win Rate 68.9%, Avg 5d Return 1.85%, Max Drawdown -2… |
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 71.3, Win Rate 61.9%, Avg 5d Return 3.4%, Max Drawdown -72.23%, Sharpe 2.36. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Stochastic RSI Oversold — Score 72.8, Win Rate 65.4%, Avg 5d Return 3.69%, Max Drawdown -6… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.2, Win Rate 69.0%, Avg 5d Return 1.88%, Max Drawdown -2… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 70.8, Win Rate 66.7%, Avg 5d Return 3.3%, Max Drawdown -66.98%, Sharpe 2.04. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 72.8, Win Rate 65.4%, Avg 5d Return 3.69%, Max Drawdown -66.11%, Sharpe 2.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 80.8, Win Rate 68.9%, Avg 5d Return 1.85%, Max Drawdown -29.23%, Sharpe 3.15. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 80.2, Win Rate 69.0%, Avg 5d Return 1.88%, Max Drawdown -29.23%, Sharpe 3.0. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
