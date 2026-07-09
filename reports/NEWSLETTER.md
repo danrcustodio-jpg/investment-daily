@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, July 08, 2026
-Generated at 02:56 PM
+# Daily Newsletter — Thursday, July 09, 2026
+Generated at 03:41 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 110 total &nbsp;·&nbsp; 🟢 72 Bullish &nbsp;·&nbsp; 🔴 38 Bearish
+**Strategy Signals:** 85 total &nbsp;·&nbsp; 🟢 59 Bullish &nbsp;·&nbsp; 🔴 26 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $17.89 | 📈 +10.91% |
-| **CL=F** | Crude Oil | $75.28 | 📈 +6.87% |
-| **SI=F** | Silver | $58.08 | 📉 -4.68% |
-| **SOL-USD** | Solana | $77.06 | 📉 -4.45% |
-| **GC=F** | Gold | $4047.10 | 📉 -2.37% |
-| **XLY** | Consumer Disc. (XLY) | $114.74 | 📉 -2.26% |
-| **BTC-USD** | Bitcoin | $61886.19 | 📉 -2.23% |
-| **ETH-USD** | Ethereum | $1729.80 | 📉 -2.19% |
-| **XLE** | Energy (XLE) | $55.76 | 📈 +2.05% |
-| **XLF** | Financials (XLF) | $55.02 | 📉 -1.83% |
+| **NG=F** | Natural Gas | $3.04 | 📉 -5.51% |
+| **SI=F** | Silver | $60.75 | 📈 +4.45% |
+| **^VIX** | VIX (Fear Index) | $16.21 | 📉 -4.08% |
+| **XLK** | Tech (XLK) | $185.95 | 📈 +2.51% |
+| **CL=F** | Crude Oil | $72.26 | 📉 -1.71% |
+| **GC=F** | Gold | $4137.70 | 📈 +1.64% |
+| **^RUT** | Russell 2000 | $2991.89 | 📈 +1.20% |
+| **BTC-USD** | Bitcoin | $62935.90 | 📈 +1.09% |
+| **XLE** | Energy (XLE) | $54.99 | 📉 -1.09% |
+| **XLF** | Financials (XLF) | $55.56 | 📈 +1.08% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 87.5 | 81.2% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 83.1 | 78.9% |
-| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.8 | 68.9% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 80.4 | 71.7% |
-| 🟢 BULLISH | **GC=F** | PPO — Bullish Cross | 79.5 | 72.2% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 78.7 | 70.5% |
-| 🟢 BULLISH | **PLTR** | TRIX — Bullish Cross | 76.8 | 66.7% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 75.6 | 69.2% |
-| 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 74.1 | 66.7% |
-| 🟢 BULLISH | **QQQ** | Stochastic RSI Oversold | 72.1 | 62.7% |
-| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.3 | 61.9% |
-| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 70.8 | 66.7% |
+| 🟢 BULLISH | **XBI** | 52-Week Breakout | 80.3 | 65.8% |
+| 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 77.1 | 67.3% |
+| 🟢 BULLISH | **QQQ** | Stochastic RSI Oversold | 74.9 | 64.9% |
+| 🟢 BULLISH | **AMD** | SMA 30 — Bullish Reclaim | 73.2 | 60.0% |
+| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.4 | 62.1% |
+| 🟢 BULLISH | **SOXL** | Stochastic RSI Oversold | 71.1 | 66.4% |
+| 🟢 BULLISH | **QQQ** | Vortex — Bullish | 70.6 | 72.0% |
+| 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 69.4 | 66.9% |
+| 🟢 BULLISH | **AMD** | Stochastic RSI Oversold | 68.6 | 61.5% |
+| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 68.3 | 63.1% |
+| 🟢 BULLISH | **SPY** | Vortex — Bullish | 68.0 | 70.0% |
+| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 67.8 | 54.4% |
 
 ## Latest News
 
-- [Insurance giant says it’s turning to AI to replace as many as 1,800 jobs](https://www.marketwatch.com/story/insurance-giant-says-its-turning-to-ai-to-replace-as-many-as-1-800-jobs-13e60de2?mod=mw_rss_topstories) — *MarketWatch*
-- [Bitcoin steadies as ETF inflows absorb Strategy selling, Bitfinex says](https://seekingalpha.com/news/4612305-bitcoin-steadies-as-etf-inflows-absorb-strategy-selling-bitfinex-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Kentucky Gov. Beshear presses McConnell to provide health update as speculation grows](https://www.cnbc.com/2026/07/08/mcconnell-health-update-beshear-hospitalization-kentucky.html) — *CNBC Markets*
-- [Incyte stock hits 52-week high at 118.77 USD](https://www.investing.com/news/company-news/incyte-stock-hits-52week-high-at-11877-usd-93CH-4781968) — *Investing.com*
-- [Top 10 investors bought 75% of Rivian’s $1.2B share offering - report](https://www.investing.com/news/stock-market-news/top-10-investors-bought-75-of-rivians-12b-share-offering--report-93CH-4781967) — *Investing.com*
-- [Prime Medicine stock surges after winning arbitration with Beam](https://www.investing.com/news/stock-market-news/prime-medicine-stock-surges-after-winning-arbitration-with-beam-93CH-4781966) — *Investing.com*
-- [YieldMax BABA Option Income Strategy announces weekly distribution of $0.0600](https://seekingalpha.com/news/4612308-yieldmax-baba-option-income-strategy-announces-weekly-distribution-of-00600?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Greece stocks lower at close of trade; Athens General Composite down 2.14%](https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-214-4781965) — *Investing.com*
-- [Morgan Stanley upgrades Ivanhoe Mines, cuts Alcoa and Vale on metals outlook](https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-ivanhoe-mines-cuts-alcoa-and-vale-on-metals-outlook-4781964) — *Investing.com*
-- [YieldMax AAPL Option Income Strategy ETF announces weekly distribution of $0.0618](https://seekingalpha.com/news/4612307-yieldmax-aapl-option-income-strategy-etf-announces-weekly-distribution-of-00618?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Form 4 Pennant Group Inc For: 9 July](https://www.investing.com/news/filings/form-4-pennant-group-inc-for-9-july-93CH-4784546) — *Investing.com*
+- [Horizon Kinetics Asset Management buys $2,283 of RENN Fund stock](https://www.investing.com/news/insider-trading-news/horizon-kinetics-asset-management-buys-2283-of-renn-fund-stock-93CH-4784545) — *Investing.com*
+- [Larimar Therapeutics stock jumps on insider purchase](https://www.investing.com/news/stock-market-news/larimar-therapeutics-stock-jumps-on-insider-purchase-93CH-4784543) — *Investing.com*
+- [Arch Insurance launches U.S. transactional liability team](https://www.investing.com/news/company-news/arch-insurance-launches-us-transactional-liability-team-93CH-4784542) — *Investing.com*
+- [Pennant group CEO Brent Guerisoli sells $128,214 in company stock](https://www.investing.com/news/insider-trading-news/pennant-group-ceo-brent-guerisoli-sells-128214-in-company-stock-93CH-4784541) — *Investing.com*
+- [PepsiCo warns of higher commodity costs amid faltering North American food sales](https://www.investing.com/news/stock-market-news/pepsico-beats-revenue-estimates-flags-pressure-from-tighter-consumer-budgets-4783403) — *Investing.com*
+- [Poland stocks higher at close of trade; WIG30 up 0.32%](https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-032-4784540) — *Investing.com*
+- [Trump can halt trade with Spain using law behind scrapped tariffs: Greer](https://www.cnbc.com/2026/07/09/trump-spain-trade-greer-ieepa-tariffs-nato.html) — *CNBC Markets*
+- [Form 4 Trio-Tech International For: 9 July](https://www.investing.com/news/filings/form-4-triotech-international-for-9-july-93CH-4784538) — *Investing.com*
+- [SpaceX stock in focus as launch, Starlink business hit new milestones](https://finance.yahoo.com/markets/stocks/article/spacex-stock-in-focus-as-launch-starlink-business-hit-new-milestones-153225745.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*

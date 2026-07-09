@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 61** &nbsp;·&nbsp; Updated: Jul 08 2026 10:31 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 03:41 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.57%** &nbsp; ($+3,040) |
-| SPY Benchmark | +5.31% &nbsp; ($+10,309 if 100% SPY) |
-| Alpha vs SPY | **-3.75%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.58%** &nbsp; ($+3,064) |
+| SPY Benchmark | +5.97% &nbsp; ($+11,586 if 100% SPY) |
+| Alpha vs SPY | **-4.39%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,040 |
+| Current Value | $197,064 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,471 | +0.75% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,495 | +0.76% |
 
 ## Daily Equity Curve
 
@@ -67,31 +67,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 08 2026 10:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 09 2026 03:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Stochastic RSI Oversold — Score 72.8, Win Rate 65.4%, Avg 5d Return 3.69%, Max Drawdown -6… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.2, Win Rate 69.0%, Avg 5d Return 1.88%, Max Drawdown -2… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic RSI Oversold — Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -3… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 63.5, Win Rate 70.7%, Avg 5d Return 1.28%, Max Drawdown -17.… |
 
-### 🔍 NEW OPPORTUNITY — TQQQ
+### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 72.8, Win Rate 65.4%, Avg 5d Return 3.69%, Max Drawdown -66.11%, Sharpe 2.42. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLK
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 80.2, Win Rate 69.0%, Avg 5d Return 1.88%, Max Drawdown -29.23%, Sharpe 3.0. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28.44%, Sharpe 2.35. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — DOGE-USD
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** RSI Oversold — Score 62.2, Win Rate 60.8%, Avg 5d Return 2.23%, Max Drawdown -32.86%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.5.
+**Signal Analysis:** Stochastic RSI Oversold — Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -38.29%, Sharpe 2.77. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — UPRO
+
+**Signal Analysis:** Elder Force — Bullish — Score 63.5, Win Rate 70.7%, Avg 5d Return 1.28%, Max Drawdown -17.45%, Sharpe 1.45. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
