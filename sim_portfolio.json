@@ -425,42 +425,42 @@
       "date": "2026-07-09",
       "total_value": 197063.79,
       "portfolio_pnl": 1.579,
-      "benchmark_pnl": 6.139,
+      "benchmark_pnl": 6.205,
       "prices": {
-        "SPY": 751.239990234375
+        "SPY": 751.7100219726562
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMD",
-      "priority": "high",
-      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 73.2, Win Rate 60.0%, Avg 5d Return 4.23%, Max Drawdown -14.79%, Sharpe 2.27. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
-      "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28.44%, Sharpe 2.35. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "SMH",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -38.29%, Sharpe 2.77. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 76.7, Win Rate 67.4%, Avg 5d Return 2.09%, Max Drawdown -38.29%, Sharpe 2.7. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "UPRO",
+      "priority": "high",
+      "reason": "Elder Force \u2014 Bullish \u2014 Score 76.9, Win Rate 72.5%, Avg 5d Return 1.8%, Max Drawdown -17.45%, Sharpe 2.39. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XLK",
+      "priority": "high",
+      "reason": "Stochastic RSI Oversold \u2014 Score 78.7, Win Rate 67.6%, Avg 5d Return 1.77%, Max Drawdown -29.23%, Sharpe 2.96. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-09T19:24:03.010899",
+  "recommendations_updated": "2026-07-09T21:01:22.001099",
   "trade_log": [
     {
       "action": "SELL",

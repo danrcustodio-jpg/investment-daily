@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 07:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 09:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.58%** &nbsp; ($+3,064) |
-| SPY Benchmark | +6.14% &nbsp; ($+11,909 if 100% SPY) |
-| Alpha vs SPY | **-4.56%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.21% &nbsp; ($+12,038 if 100% SPY) |
+| Alpha vs SPY | **-4.63%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,064 |
 
@@ -64,33 +64,33 @@
 | 2026-07-06 | 📈 +1.54% | +6.14% | ❌ -4.60% |
 | 2026-07-07 | 📈 +1.55% | +5.64% | ❌ -4.09% |
 | 2026-07-08 | 📈 +1.57% | +5.31% | ❌ -3.75% |
-| 2026-07-09 | 📈 +1.58% | +6.14% | ❌ -4.56% |
+| 2026-07-09 | 📈 +1.58% | +6.21% | ❌ -4.63% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 09 2026 07:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 09 2026 09:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | SMA 30 — Bullish Reclaim — Score 73.2, Win Rate 60.0%, Avg 5d Return 4.23%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic RSI Oversold — Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -3… |
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 73.2, Win Rate 60.0%, Avg 5d Return 4.23%, Max Drawdown -14.79%, Sharpe 2.27. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — QQQ
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28.44%, Sharpe 2.35. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic RSI Oversold — Score 76.7, Win Rate 67.4%, Avg 5d Return 2.09%, Max Drawdown -3… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 76.9, Win Rate 72.5%, Avg 5d Return 1.8%, Max Drawdown -17.4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 78.7, Win Rate 67.6%, Avg 5d Return 1.77%, Max Drawdown -2… |
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -38.29%, Sharpe 2.77. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 67.4%, Avg 5d Return 2.09%, Max Drawdown -38.29%, Sharpe 2.7. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — UPRO
+
+**Signal Analysis:** Elder Force — Bullish — Score 76.9, Win Rate 72.5%, Avg 5d Return 1.8%, Max Drawdown -17.45%, Sharpe 2.39. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Stochastic RSI Oversold — Score 78.7, Win Rate 67.6%, Avg 5d Return 1.77%, Max Drawdown -29.23%, Sharpe 2.96. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
