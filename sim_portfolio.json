@@ -425,9 +425,9 @@
       "date": "2026-07-09",
       "total_value": 197063.79,
       "portfolio_pnl": 1.579,
-      "benchmark_pnl": 5.958,
+      "benchmark_pnl": 6.233,
       "prices": {
-        "SPY": 749.9600219726562
+        "SPY": 751.9099731445312
       }
     }
   ],
@@ -436,7 +436,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "QQQ",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28.44%, Sharpe 2.35. No conflicting bearish signals.",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -4.33%, Sharpe 2.79. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -452,15 +452,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "UPRO",
+      "ticker": "AMZN",
       "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 63.5, Win Rate 70.7%, Avg 5d Return 1.28%, Max Drawdown -17.45%, Sharpe 1.45. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 60.1, Win Rate 65.2%, Avg 5d Return 1.16%, Max Drawdown -11.4%, Sharpe 1.43. 1 minor bearish signal(s), max confidence 47.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-09T15:54:13.911042",
+  "recommendations_updated": "2026-07-09T17:49:08.113160",
   "trade_log": [
     {
       "action": "SELL",

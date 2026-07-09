@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 03:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 05:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.58%** &nbsp; ($+3,064) |
-| SPY Benchmark | +5.96% &nbsp; ($+11,562 if 100% SPY) |
-| Alpha vs SPY | **-4.38%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.23% &nbsp; ($+12,093 if 100% SPY) |
+| Alpha vs SPY | **-4.65%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,064 |
 
@@ -64,21 +64,21 @@
 | 2026-07-06 | 📈 +1.54% | +6.14% | ❌ -4.60% |
 | 2026-07-07 | 📈 +1.55% | +5.64% | ❌ -4.09% |
 | 2026-07-08 | 📈 +1.57% | +5.31% | ❌ -3.75% |
-| 2026-07-09 | 📈 +1.58% | +5.96% | ❌ -4.38% |
+| 2026-07-09 | 📈 +1.58% | +6.23% | ❌ -4.65% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 09 2026 03:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 09 2026 05:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | SMA 30 — Bullish Reclaim — Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic RSI Oversold — Score 77.1, Win Rate 67.3%, Avg 5d Return 2.22%, Max Drawdown -3… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 63.5, Win Rate 70.7%, Avg 5d Return 1.28%, Max Drawdown -17.… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMZN** | Vortex — Bullish — Score 60.1, Win Rate 65.2%, Avg 5d Return 1.16%, Max Drawdown -11.4%, S… |
 
 ### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 74.9, Win Rate 64.9%, Avg 5d Return 1.3%, Max Drawdown -28.44%, Sharpe 2.35. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -4.33%, Sharpe 2.79. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
@@ -88,9 +88,9 @@ _Evaluated Jul 09 2026 03:54 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — UPRO
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Elder Force — Bullish — Score 63.5, Win Rate 70.7%, Avg 5d Return 1.28%, Max Drawdown -17.45%, Sharpe 1.45. No conflicting bearish signals.
+**Signal Analysis:** Vortex — Bullish — Score 60.1, Win Rate 65.2%, Avg 5d Return 1.16%, Max Drawdown -11.4%, Sharpe 1.43. 1 minor bearish signal(s), max confidence 47.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
