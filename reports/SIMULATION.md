@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 63** &nbsp;·&nbsp; Updated: Jul 10 2026 03:12 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 63** &nbsp;·&nbsp; Updated: Jul 10 2026 03:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.59%** &nbsp; ($+3,088) |
-| SPY Benchmark | +6.21% &nbsp; ($+12,052 if 100% SPY) |
-| Alpha vs SPY | **-4.62%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.43% &nbsp; ($+12,468 if 100% SPY) |
+| Alpha vs SPY | **-4.84%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,088 |
 
@@ -65,26 +65,27 @@
 | 2026-07-07 | 📈 +1.55% | +5.64% | ❌ -4.09% |
 | 2026-07-08 | 📈 +1.57% | +5.31% | ❌ -3.75% |
 | 2026-07-09 | 📈 +1.58% | +6.21% | ❌ -4.63% |
+| 2026-07-10 | 📈 +1.59% | +6.42% | ❌ -4.83% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 10 2026 03:12 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 10 2026 03:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.6, Win Rate 62.3%, Avg 5d Return 3.4%, Max Drawdown -72.… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | SMA 30 — Bullish Reclaim — Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | TRIX — Bullish Cross — Score 70.9, Win Rate 61.5%, Avg 5d Return 1.64%, Max Drawdown -5.23… |
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 71.6, Win Rate 62.3%, Avg 5d Return 3.4%, Max Drawdown -72.23%, Sharpe 2.37. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
 **Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 48.0.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — QQQ
+
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -4.33%, Sharpe 2.79. 1 minor bearish signal(s), max confidence 71.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
