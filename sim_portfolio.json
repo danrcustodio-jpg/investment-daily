@@ -434,13 +434,22 @@
       "date": "2026-07-10",
       "total_value": 197087.9,
       "portfolio_pnl": 1.592,
-      "benchmark_pnl": 6.421,
+      "benchmark_pnl": 6.513,
       "prices": {
-        "SPY": 753.239990234375
+        "SPY": 753.8900146484375
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "APP",
+      "priority": "high",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 71.5, Win Rate 66.4%, Avg 5d Return 3.33%, Max Drawdown -94.84%, Sharpe 1.94. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "ARM",
@@ -458,18 +467,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "UPRO",
-      "priority": "high",
-      "reason": "TRIX \u2014 Bullish Cross \u2014 Score 70.9, Win Rate 61.5%, Avg 5d Return 1.64%, Max Drawdown -5.23%, Sharpe 2.28. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-10T15:27:32.543777",
+  "recommendations_updated": "2026-07-10T17:16:27.385846",
   "trade_log": [
     {
       "action": "SELL",
