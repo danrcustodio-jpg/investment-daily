@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 63** &nbsp;·&nbsp; Updated: Jul 10 2026 06:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 63** &nbsp;·&nbsp; Updated: Jul 10 2026 08:15 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.59%** &nbsp; ($+3,088) |
-| SPY Benchmark | +6.61% &nbsp; ($+12,828 if 100% SPY) |
-| Alpha vs SPY | **-5.02%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.66% &nbsp; ($+12,924 if 100% SPY) |
+| Alpha vs SPY | **-5.07%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,088 |
 
@@ -65,17 +65,17 @@
 | 2026-07-07 | 📈 +1.55% | +5.64% | ❌ -4.09% |
 | 2026-07-08 | 📈 +1.57% | +5.31% | ❌ -3.75% |
 | 2026-07-09 | 📈 +1.58% | +6.21% | ❌ -4.63% |
-| 2026-07-10 | 📈 +1.59% | +6.61% | ❌ -5.02% |
+| 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 10 2026 06:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 10 2026 08:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | SMA 30 — Bullish Reclaim — Score 82.0, Win Rate 70.8%, Avg 5d Return 0.92%, Max Drawdown -… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Chaikin Money Flow — Bullish — Score 64.6, Win Rate 58.3%, Avg 5d Return 1.29%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 58.3%, Avg 5d Return 1.29%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -91,7 +91,7 @@ _Evaluated Jul 10 2026 06:56 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.6, Win Rate 58.3%, Avg 5d Return 1.29%, Max Drawdown -50.23%, Sharpe 1.73. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.8, Win Rate 58.3%, Avg 5d Return 1.29%, Max Drawdown -50.23%, Sharpe 1.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
