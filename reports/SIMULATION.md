@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 62** &nbsp;·&nbsp; Updated: Jul 09 2026 10:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 63** &nbsp;·&nbsp; Updated: Jul 10 2026 03:12 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.58%** &nbsp; ($+3,064) |
-| SPY Benchmark | +6.21% &nbsp; ($+12,038 if 100% SPY) |
-| Alpha vs SPY | **-4.63%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.59%** &nbsp; ($+3,088) |
+| SPY Benchmark | +6.21% &nbsp; ($+12,052 if 100% SPY) |
+| Alpha vs SPY | **-4.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,064 |
+| Current Value | $197,088 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,495 | +0.76% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,519 | +0.78% |
 
 ## Daily Equity Curve
 
@@ -68,29 +68,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 09 2026 10:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 10 2026 03:12 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic RSI Oversold — Score 76.7, Win Rate 67.4%, Avg 5d Return 2.09%, Max Drawdown -3… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 76.9, Win Rate 72.5%, Avg 5d Return 1.8%, Max Drawdown -17.4… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 78.7, Win Rate 67.6%, Avg 5d Return 1.77%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Aroon — Strong Uptrend — Score 71.6, Win Rate 62.3%, Avg 5d Return 3.4%, Max Drawdown -72.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | TRIX — Bullish Cross — Score 70.9, Win Rate 61.5%, Avg 5d Return 1.64%, Max Drawdown -5.23… |
 
-### 🔍 NEW OPPORTUNITY — SMH
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 67.4%, Avg 5d Return 2.09%, Max Drawdown -38.29%, Sharpe 2.7. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 71.6, Win Rate 62.3%, Avg 5d Return 3.4%, Max Drawdown -72.23%, Sharpe 2.37. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ARM
+
+**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 48.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — UPRO
 
-**Signal Analysis:** Elder Force — Bullish — Score 76.9, Win Rate 72.5%, Avg 5d Return 1.8%, Max Drawdown -17.45%, Sharpe 2.39. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLK
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 78.7, Win Rate 67.6%, Avg 5d Return 1.77%, Max Drawdown -29.23%, Sharpe 2.96. No conflicting bearish signals.
+**Signal Analysis:** TRIX — Bullish Cross — Score 70.9, Win Rate 61.5%, Avg 5d Return 1.64%, Max Drawdown -5.23%, Sharpe 2.28. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
