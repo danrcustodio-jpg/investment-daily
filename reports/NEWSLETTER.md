@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, July 10, 2026
-Generated at 03:12 PM
+# Daily Newsletter — Saturday, July 11, 2026
+Generated at 02:01 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 93 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 33 Bearish
+**Strategy Signals:** 95 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 35 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $2.90 | 📉 -3.78% |
-| **ETH-USD** | Ethereum | $1787.47 | 📈 +2.46% |
-| **BTC-USD** | Bitcoin | $63973.87 | 📈 +1.24% |
-| **SI=F** | Silver | $59.92 | 📉 -0.77% |
-| **XLV** | Healthcare (XLV) | $160.94 | 📉 -0.76% |
-| **^RUT** | Russell 2000 | $2970.09 | 📉 -0.75% |
-| **^VIX** | VIX (Fear Index) | $15.73 | 📉 -0.69% |
-| **GC=F** | Gold | $4106.00 | 📉 -0.60% |
-| **^TNX** | 10-Year Treasury Yield | $4.56 | 📈 +0.53% |
-| **XLK** | Tech (XLK) | $184.43 | 📉 -0.50% |
+| **^VIX** | VIX (Fear Index) | $15.03 | 📉 -5.11% |
+| **NG=F** | Natural Gas | $2.94 | 📉 -2.39% |
+| **SI=F** | Silver | $59.81 | 📉 -0.94% |
+| **CL=F** | Crude Oil | $71.41 | 📉 -0.93% |
+| **XLV** | Healthcare (XLV) | $160.84 | 📉 -0.82% |
+| **^TNX** | 10-Year Treasury Yield | $4.57 | 📈 +0.66% |
+| **GC=F** | Gold | $4104.10 | 📉 -0.64% |
+| **JPYUSD=X** | JPY/USD | $0.01 | 📈 +0.54% |
+| **^RUT** | Russell 2000 | $2977.81 | 📉 -0.49% |
+| **XLE** | Energy (XLE) | $55.08 | 📈 +0.47% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **QQQ** | SMA 30 — Bullish Reclaim | 82.0 | 70.8% |
 | 🟢 BULLISH | **ARM** | MFI — Oversold | 77.1 | 85.7% |
-| 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 76.8 | 67.4% |
+| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 75.6 | 64.8% |
+| 🟢 BULLISH | **QQQ** | OBV — Accumulation | 75.4 | 73.5% |
+| 🟢 BULLISH | **SOXL** | Stochastic RSI Oversold | 75.1 | 68.5% |
 | 🟢 BULLISH | **SPY** | TRIX — Bullish Cross | 74.4 | 57.1% |
-| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.6 | 62.3% |
+| 🟢 BULLISH | **AMD** | Aroon — Strong Uptrend | 71.7 | 62.3% |
 | 🟢 BULLISH | **APP** | Chaikin Money Flow — Bullish | 71.5 | 66.4% |
 | 🟢 BULLISH | **UPRO** | TRIX — Bullish Cross | 70.9 | 61.5% |
-| 🟢 BULLISH | **SOXL** | Stochastic RSI Oversold | 70.2 | 66.0% |
 | 🟢 BULLISH | **META** | Vortex — Bullish | 69.7 | 60.0% |
-| 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 69.1 | 66.9% |
-| 🟢 BULLISH | **IWM** | Stochastic RSI Oversold | 68.4 | 61.7% |
-| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 66.9 | 60.0% |
-| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 66.7 | 54.2% |
+| 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 68.4 | 66.7% |
+| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 67.0 | 60.0% |
 
 ## Latest News
 
-- [Half of small-business owners hope to sell their companies and retire in the next decade. What happens to their workers?](https://www.marketwatch.com/story/half-of-small-business-owners-hope-to-sell-their-companies-and-retire-in-the-next-decade-what-happens-to-their-workers-a03ae979?mod=mw_rss_topstories) — *MarketWatch*
-- [Private chef salaries reach $300,000 as the rich seek their own Michelin stars](https://www.cnbc.com/2026/07/10/private-chef-salaries.html) — *CNBC Markets*
-- [Cosmos Health launches subscription model for health products](https://www.investing.com/news/company-news/cosmos-health-launches-subscription-model-for-health-products-93CH-4786497) — *Investing.com*
-- [German automakers hit by sharp China sales drop in second quarter](https://www.investing.com/news/economy-news/german-automakers-hit-by-sharp-china-sales-drop-in-second-quarter-4786496) — *Investing.com*
-- [Trump agrees to continued Iran talks but declares ceasefire over](https://seekingalpha.com/news/4612950-trump-agrees-to-continued-iran-talks-but-declares-ceasefire-over?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Shopify tells users to remove vapes from online stores](https://www.investing.com/news/stock-market-news/shopify-tells-users-to-remove-vapes-from-online-stores-4786495) — *Investing.com*
-- [Norway stocks lower at close of trade; Oslo OBX down 0.30%](https://www.investing.com/news/stock-market-news/norway-stocks-lower-at-close-of-trade-oslo-obx-down-030-4786491) — *Investing.com*
-- [Can Mrs. Fields and TCBY Grow Again? New Leader Rich Screnci Thinks So](https://finance.yahoo.com/small-business/articles/mrs-fields-tcby-grow-again-145949037.html) — *Yahoo Finance*
-- [Wolfspeed options trading jumps as stock declines](https://www.investing.com/news/stock-market-news/wolfspeed-options-trading-jumps-as-stock-declines-93CH-4786490) — *Investing.com*
-- [Only 5% of U.S. adults can ace this 8-question financial-literacy test. Can you?](https://www.marketwatch.com/story/only-5-of-u-s-adults-can-ace-this-8-question-financial-literacy-test-can-you-93a57cc6?mod=mw_rss_topstories) — *MarketWatch*
+- [While Musk's Neuralink drills into skulls, China's BrainCo bets the future of brain tech is wearable](https://www.cnbc.com/2026/07/11/chinas-brainco-bets-on-wearable-brain-tech.html) — *CNBC Markets*
+- [The S&P 500 Could Jump 18% Over the Next 1 Year. Here Are My Top Growth Stocks to Buy Before That Happens](https://finance.yahoo.com/markets/stocks/articles/p-500-could-jump-18-134300206.html) — *Yahoo Finance*
+- [Prediction: This Magnificent Growth Stock Is Going to Double by 2027, and Here's the Math That Shows How](https://finance.yahoo.com/markets/stocks/articles/prediction-magnificent-growth-stock-going-134200392.html) — *Yahoo Finance*
+- [Gas Vs. Electric: Global EV Sales Are Actually Rising In 2026; Here's Where](https://www.investors.com/news/gas-vs-electric-global-ev-sales-are-actually-rising-in-2026-heres-where/?src=A00220&yptr=yahoo) — *Yahoo Finance*
+- [New housing law targets affordability — what it means for homebuyers and sellers](https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html) — *CNBC Markets*
+- [Earnings Scoreboard: Early S&P 500 reports post perfect revenue growth record despite mixed EPS](https://seekingalpha.com/news/4612823-earnings-scoreboard-early-sp-500-reports-post-perfect-revenue-growth-record-despite-mixed-eps?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Big bank profit engines expected to roar into earnings as Main Street keeps spending](https://finance.yahoo.com/markets/article/big-bank-profit-engines-expected-to-roar-into-earnings-as-main-street-keeps-spending-133238691.html) — *Yahoo Finance*
+- [Dave Ramsey says grab Social Security ASAP — but NBER data shows early claiming costs a median $182,370](https://finance.yahoo.com/economy/policy/articles/dave-ramsey-says-grab-social-133000522.html) — *Yahoo Finance*
+- [Eni CEO warns oil could break above $100 in 2027 if Middle East tensions persist](https://www.investing.com/news/commodities-news/eni-ceo-warns-oil-could-break-above-100-in-2027-if-middle-east-tensions-persist-4787278) — *Investing.com*
+- [Activist investor Elliott builds a large stake in CCC: Bloomberg](https://seekingalpha.com/news/4613045-activist-investor-elliott-builds-stake-ccc?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
