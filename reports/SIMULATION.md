@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 66** &nbsp;·&nbsp; Updated: Jul 13 2026 03:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 66** &nbsp;·&nbsp; Updated: Jul 13 2026 05:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.63%** &nbsp; ($+3,160) |
-| SPY Benchmark | +6.26% &nbsp; ($+12,149 if 100% SPY) |
-| Alpha vs SPY | **-4.63%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.92% &nbsp; ($+11,482 if 100% SPY) |
+| Alpha vs SPY | **-4.29%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,160 |
 
@@ -66,21 +66,21 @@
 | 2026-07-08 | 📈 +1.57% | +5.31% | ❌ -3.75% |
 | 2026-07-09 | 📈 +1.58% | +6.21% | ❌ -4.63% |
 | 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
-| 2026-07-13 | 📈 +1.63% | +6.27% | ❌ -4.64% |
+| 2026-07-13 | 📈 +1.63% | +5.92% | ❌ -4.29% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 13 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 13 2026 05:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 90.0, Win Rate 87.5%, Avg 5d Return 3.54%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.38%, Max Drawdown -11.55%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.31%, Max Drawdown -11.55%, … |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 90.0, Win Rate 87.5%, Avg 5d Return 3.54%, Max Drawdown -3.91%, Sharpe 4.26. 2 minor bearish signal(s), max confidence 51.1.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 90.0, Win Rate 87.5%, Avg 5d Return 3.54%, Max Drawdown -3.91%, Sharpe 4.26. 3 minor bearish signal(s), max confidence 51.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
@@ -92,7 +92,7 @@ _Evaluated Jul 13 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.38%, Max Drawdown -11.55%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 53.8.
+**Signal Analysis:** Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.31%, Max Drawdown -11.55%, Sharpe 3.48. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
