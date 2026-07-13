@@ -438,6 +438,15 @@
       "prices": {
         "SPY": 754.9500122070312
       }
+    },
+    {
+      "date": "2026-07-13",
+      "total_value": 197160.23,
+      "portfolio_pnl": 1.629,
+      "benchmark_pnl": 6.266,
+      "prices": {
+        "SPY": 752.1400146484375
+      }
     }
   ],
   "recommendations": [
@@ -452,24 +461,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
+      "ticker": "ARM",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 81.7, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.52. 1 minor bearish signal(s), max confidence 53.7.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 2 minor bearish signal(s), max confidence 74.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XBI",
+      "ticker": "PLTR",
       "priority": "high",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 78.2, Win Rate 66.1%, Avg 5d Return 1.14%, Max Drawdown -36.35%, Sharpe 2.4. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 81.7, Win Rate 70.0%, Avg 5d Return 4.38%, Max Drawdown -11.55%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 53.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-13T15:22:53.088519",
+  "recommendations_updated": "2026-07-13T15:39:51.686714",
   "trade_log": [
     {
       "action": "SELL",
