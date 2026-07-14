@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 66** &nbsp;·&nbsp; Updated: Jul 13 2026 09:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 67** &nbsp;·&nbsp; Updated: Jul 14 2026 02:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.63%** &nbsp; ($+3,160) |
-| SPY Benchmark | +5.85% &nbsp; ($+11,342 if 100% SPY) |
-| Alpha vs SPY | **-4.22%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.64%** &nbsp; ($+3,184) |
+| SPY Benchmark | +5.99% &nbsp; ($+11,622 if 100% SPY) |
+| Alpha vs SPY | **-4.35%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,160 |
+| Current Value | $197,184 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,591 | +0.81% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,615 | +0.83% |
 
 ## Daily Equity Curve
 
@@ -70,29 +70,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 13 2026 09:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 14 2026 02:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 90.0, Win Rate 87.5%, Avg 5d Return 3.54%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 78.6, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.36%, Max Drawdown -11.55%, … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TQQQ** | OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 90.0, Win Rate 87.5%, Avg 5d Return 3.54%, Max Drawdown -3.91%, Sharpe 4.26. 3 minor bearish signal(s), max confidence 51.1.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 78.6, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. 2 minor bearish signal(s), max confidence 70.4.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 2 minor bearish signal(s), max confidence 74.0.
+**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 2 minor bearish signal(s), max confidence 54.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Vortex — Bullish — Score 81.7, Win Rate 70.0%, Avg 5d Return 4.36%, Max Drawdown -11.55%, Sharpe 3.54. 1 minor bearish signal(s), max confidence 53.7.
+**Signal Analysis:** OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%, Sharpe 1.7. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
