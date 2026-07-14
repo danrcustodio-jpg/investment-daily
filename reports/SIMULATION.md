@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 67** &nbsp;·&nbsp; Updated: Jul 14 2026 02:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 67** &nbsp;·&nbsp; Updated: Jul 14 2026 04:09 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.64%** &nbsp; ($+3,184) |
-| SPY Benchmark | +6.17% &nbsp; ($+11,975 if 100% SPY) |
-| Alpha vs SPY | **-4.53%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.03% &nbsp; ($+11,690 if 100% SPY) |
+| Alpha vs SPY | **-4.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,184 |
 
@@ -67,23 +67,17 @@
 | 2026-07-09 | 📈 +1.58% | +6.21% | ❌ -4.63% |
 | 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
 | 2026-07-13 | 📈 +1.63% | +5.85% | ❌ -4.22% |
-| 2026-07-14 | 📈 +1.64% | +6.16% | ❌ -4.52% |
+| 2026-07-14 | 📈 +1.64% | +6.03% | ❌ -4.39% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 14 2026 02:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 14 2026 04:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 78.6, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TQQQ** | OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%… |
-
-### 🔍 NEW OPPORTUNITY — AERO-USD
-
-**Signal Analysis:** Donchian — 20D High Breakout — Score 78.6, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. 2 minor bearish signal(s), max confidence 70.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 69.3, Win Rate 70.7%, Avg 5d Return 1.44%, Max Drawdown -17.… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -94,6 +88,12 @@ _Evaluated Jul 14 2026 02:43 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
 **Signal Analysis:** OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%, Sharpe 1.7. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — UPRO
+
+**Signal Analysis:** Elder Force — Bullish — Score 69.3, Win Rate 70.7%, Avg 5d Return 1.44%, Max Drawdown -17.45%, Sharpe 1.8. 1 minor bearish signal(s), max confidence 45.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
