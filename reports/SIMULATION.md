@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 02:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 04:14 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.65%** &nbsp; ($+3,208) |
-| SPY Benchmark | +6.37% &nbsp; ($+12,364 if 100% SPY) |
-| Alpha vs SPY | **-4.72%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.18% &nbsp; ($+11,983 if 100% SPY) |
+| Alpha vs SPY | **-4.52%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,208 |
 
@@ -68,27 +68,27 @@
 | 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
 | 2026-07-13 | 📈 +1.63% | +5.85% | ❌ -4.22% |
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
-| 2026-07-15 | 📈 +1.65% | +6.37% | ❌ -4.72% |
+| 2026-07-15 | 📈 +1.65% | +6.18% | ❌ -4.53% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 15 2026 02:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 15 2026 04:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | EMA 9/21 — Bullish Cross — Score 100.0, Win Rate 100.0%, Avg 5d Return 4.86%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.8, Win Rate 76.9%, Avg 5d Return 2.31%, Max Drawdown -23… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdo… |
-
-### 🔍 NEW OPPORTUNITY — ARM
-
-**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 54.9.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -6.59%, Sharpe 4.33. 1 minor bearish signal(s), max confidence 71.0.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 100.0, Win Rate 100.0%, Avg 5d Return 4.86%, Max Drawdown 0.0%, Sharpe 8.4. 2 minor bearish signal(s), max confidence 70.3.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Williams %R — Oversold — Score 84.8, Win Rate 76.9%, Avg 5d Return 2.31%, Max Drawdown -23.33%, Sharpe 3.7. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
