@@ -461,27 +461,27 @@
       "date": "2026-07-15",
       "total_value": 197208.45,
       "portfolio_pnl": 1.654,
-      "benchmark_pnl": 6.185,
+      "benchmark_pnl": 6.437,
       "prices": {
-        "SPY": 751.5650024414062
+        "SPY": 753.3499755859375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "ARM",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 4.86%, Max Drawdown 0.0%, Sharpe 8.4. 2 minor bearish signal(s), max confidence 70.3.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 54.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLK",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.8, Win Rate 76.9%, Avg 5d Return 2.31%, Max Drawdown -23.33%, Sharpe 3.7. No conflicting bearish signals.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 4.86%, Max Drawdown 0.0%, Sharpe 8.4. 2 minor bearish signal(s), max confidence 70.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -496,7 +496,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-15T16:14:25.972319",
+  "recommendations_updated": "2026-07-15T17:44:22.083938",
   "trade_log": [
     {
       "action": "SELL",
