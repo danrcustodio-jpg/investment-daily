@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 02:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 02:43 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.65%** &nbsp; ($+3,208) |
-| SPY Benchmark | +6.64% &nbsp; ($+12,888 if 100% SPY) |
-| Alpha vs SPY | **-4.99%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.37% &nbsp; ($+12,364 if 100% SPY) |
+| Alpha vs SPY | **-4.72%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,208 |
 
@@ -68,10 +68,11 @@
 | 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
 | 2026-07-13 | 📈 +1.63% | +5.85% | ❌ -4.22% |
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
+| 2026-07-15 | 📈 +1.65% | +6.37% | ❌ -4.72% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 15 2026 02:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 15 2026 02:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -87,7 +88,7 @@ _Evaluated Jul 15 2026 02:20 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -6.59%, Sharpe 4.33. 1 minor bearish signal(s), max confidence 70.8.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -6.59%, Sharpe 4.33. 1 minor bearish signal(s), max confidence 71.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
