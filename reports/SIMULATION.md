@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 08:04 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 09:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.65%** &nbsp; ($+3,208) |
-| SPY Benchmark | +6.63% &nbsp; ($+12,870 if 100% SPY) |
-| Alpha vs SPY | **-4.98%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.64% &nbsp; ($+12,888 if 100% SPY) |
+| Alpha vs SPY | **-4.99%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,208 |
 
@@ -68,17 +68,17 @@
 | 2026-07-10 | 📈 +1.59% | +6.66% | ❌ -5.07% |
 | 2026-07-13 | 📈 +1.63% | +5.85% | ❌ -4.22% |
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
-| 2026-07-15 | 📈 +1.65% | +6.63% | ❌ -4.98% |
+| 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 15 2026 08:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 15 2026 09:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | EMA 9/21 — Bullish Cross — Score 100.0, Win Rate 100.0%, Avg 5d Return 4.78%, Max Drawdown… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | OBV — Accumulation — Score 80.8, Win Rate 69.0%, Avg 5d Return 1.01%, Max Drawdown -8.31%,… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -92,11 +92,11 @@ _Evaluated Jul 15 2026 08:04 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — IWM
+### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** OBV — Accumulation — Score 80.8, Win Rate 69.0%, Avg 5d Return 1.01%, Max Drawdown -8.31%, Sharpe 2.62. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdown -93.19%, Sharpe 1.73. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
