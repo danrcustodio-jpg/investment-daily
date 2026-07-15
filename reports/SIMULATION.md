@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 67** &nbsp;·&nbsp; Updated: Jul 14 2026 09:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 02:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.64%** &nbsp; ($+3,184) |
-| SPY Benchmark | +6.22% &nbsp; ($+12,071 if 100% SPY) |
-| Alpha vs SPY | **-4.58%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.65%** &nbsp; ($+3,208) |
+| SPY Benchmark | +6.64% &nbsp; ($+12,888 if 100% SPY) |
+| Alpha vs SPY | **-4.99%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,184 |
+| Current Value | $197,208 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,615 | +0.83% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,640 | +0.84% |
 
 ## Daily Equity Curve
 
@@ -71,31 +71,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 14 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 15 2026 02:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | OBV — Accumulation — Score 75.4, Win Rate 73.5%, Avg 5d Return 0.92%, Max Drawdown -7.39%,… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TQQQ** | OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 2 minor bearish signal(s), max confidence 54.9.
+**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 54.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — QQQ
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** OBV — Accumulation — Score 75.4, Win Rate 73.5%, Avg 5d Return 0.92%, Max Drawdown -7.39%, Sharpe 2.15. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — TQQQ
-
-**Signal Analysis:** OBV — Accumulation — Score 63.7, Win Rate 68.6%, Avg 5d Return 2.17%, Max Drawdown -35.52%, Sharpe 1.7. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 89.7, Win Rate 83.3%, Avg 5d Return 3.22%, Max Drawdown -6.59%, Sharpe 4.33. 1 minor bearish signal(s), max confidence 70.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdown -93.19%, Sharpe 1.73. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
