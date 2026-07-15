@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Wednesday July 15, 2026 at 09:28 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Wednesday July 15, 2026 at 10:29 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 106 |
+| Total signals (confidence ≥ 45) | 105 |
 | 🟢 Bullish | 71 |
-| 🔴 Bearish | 35 |
+| 🔴 Bearish | 34 |
 | 🔵 In cooldown (fired in last 6h) | 0 |
-| 🟡 Available to fire (not in cooldown) | 106 |
+| 🟡 Available to fire (not in cooldown) | 105 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -21,6 +21,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **GOOGL** | SMA 30 — Bullish Reclaim | 89.7 | 83.3% | -6.59% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Awesome Oscillator — Bullish Zero Line | 86.0 | 80.0% | -2.77% | 🟡 Available |
 | 🟢 BULLISH | **AMZN** | Supertrend — Bullish Flip | 85.7 | 71.4% | -2.7% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | Vortex — Bullish | 81.7 | 70.8% | -3.33% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 81.6 | 75.8% | -26.69% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | OBV — Accumulation | 80.8 | 69.0% | -8.31% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 79.2 | 70.6% | -72.51% | 🟡 Available |
@@ -71,7 +72,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 50.8 | 59.1% | -97.25% | 🟡 Available |
 | 🟢 BULLISH | **IONQ** | Keltner — Lower Channel Touch | 50.5 | 55.6% | -46.66% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 50.2 | 57.0% | -82.42% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 50.2 | 53.3% | -3.8% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 50.1 | 53.9% | -88.29% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 49.8 | 57.2% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | SMA 30 — Bullish Reclaim | 49.6 | 52.4% | -16.23% | 🟡 Available |
@@ -90,7 +90,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **NVDA** | Chaikin Money Flow — Bullish | 45.8 | 58.3% | -79.56% | 🟡 Available |
 | 🔴 BEARISH | **XBI** | PPO — Bearish Cross | 85.7 | 72.2% | -7.09% | 🟡 Available |
 | 🔴 BEARISH | **MRVL** | OBV — Distribution | 84.7 | 73.5% | -27.88% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.0 | 69.5% | -21.32% | 🟡 Available |
 | 🔴 BEARISH | **XLK** | OBV — Distribution | 82.5 | 70.8% | -16.57% | 🟡 Available |
 | 🔴 BEARISH | **SOXL** | Ulcer Index — Elevated | 80.8 | 74.4% | -55.66% | 🟡 Available |
 | 🔴 BEARISH | **MRVL** | Ulcer Index — Elevated | 78.5 | 68.9% | -52.03% | 🟡 Available |
