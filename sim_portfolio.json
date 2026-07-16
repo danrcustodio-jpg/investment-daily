@@ -470,9 +470,9 @@
       "date": "2026-07-16",
       "total_value": 197232.57,
       "portfolio_pnl": 1.666,
-      "benchmark_pnl": 6.081,
+      "benchmark_pnl": 6.065,
       "prices": {
-        "SPY": 750.8300170898438
+        "SPY": 750.719970703125
       }
     }
   ],
@@ -481,7 +481,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "ARM",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 53.5.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 52.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -490,7 +490,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLK",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.2, Win Rate 78.4%, Avg 5d Return 2.41%, Max Drawdown -23.33%, Sharpe 3.89. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.0, Win Rate 78.0%, Avg 5d Return 2.45%, Max Drawdown -23.33%, Sharpe 3.93. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -499,13 +499,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "medium",
-      "reason": "52-Week Breakout \u2014 Score 64.7, Win Rate 65.4%, Avg 5d Return 0.82%, Max Drawdown -9.12%, Sharpe 1.85. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 64.7, Win Rate 65.4%, Avg 5d Return 0.81%, Max Drawdown -9.12%, Sharpe 1.85. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-16T20:00:00.184458",
+  "recommendations_updated": "2026-07-16T20:59:57.150130",
   "trade_log": [
     {
       "action": "SELL",
