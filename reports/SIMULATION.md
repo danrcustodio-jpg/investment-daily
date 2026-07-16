@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 69** &nbsp;·&nbsp; Updated: Jul 16 2026 05:44 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 69** &nbsp;·&nbsp; Updated: Jul 16 2026 06:57 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.67%** &nbsp; ($+3,233) |
-| SPY Benchmark | +6.14% &nbsp; ($+11,920 if 100% SPY) |
-| Alpha vs SPY | **-4.48%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.01% &nbsp; ($+11,652 if 100% SPY) |
+| Alpha vs SPY | **-4.34%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,233 |
 
@@ -69,17 +69,17 @@
 | 2026-07-13 | 📈 +1.63% | +5.85% | ❌ -4.22% |
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
-| 2026-07-16 | 📈 +1.67% | +6.14% | ❌ -4.48% |
+| 2026-07-16 | 📈 +1.67% | +6.01% | ❌ -4.34% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 16 2026 05:44 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 16 2026 06:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 85.2, Win Rate 78.4%, Avg 5d Return 2.41%, Max Drawdown -23… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 64.3, Win Rate 65.4%, Avg 5d Return 0.8%, Max Drawdown -9.12%, Sh… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 64.7, Win Rate 65.4%, Avg 5d Return 0.81%, Max Drawdown -9.12%, S… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -95,7 +95,7 @@ _Evaluated Jul 16 2026 05:44 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** 52-Week Breakout — Score 64.3, Win Rate 65.4%, Avg 5d Return 0.8%, Max Drawdown -9.12%, Sharpe 1.83. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 64.7, Win Rate 65.4%, Avg 5d Return 0.81%, Max Drawdown -9.12%, Sharpe 1.85. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
