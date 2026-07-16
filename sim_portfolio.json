@@ -465,6 +465,15 @@
       "prices": {
         "SPY": 754.8099975585938
       }
+    },
+    {
+      "date": "2026-07-16",
+      "total_value": 197232.57,
+      "portfolio_pnl": 1.666,
+      "benchmark_pnl": 6.501,
+      "prices": {
+        "SPY": 753.7999877929688
+      }
     }
   ],
   "recommendations": [
@@ -490,13 +499,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "medium",
-      "reason": "52-Week Breakout \u2014 Score 63.7, Win Rate 65.4%, Avg 5d Return 0.79%, Max Drawdown -9.12%, Sharpe 1.8. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 63.5, Win Rate 65.4%, Avg 5d Return 0.78%, Max Drawdown -9.12%, Sharpe 1.79. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-16T14:34:05.180200",
+  "recommendations_updated": "2026-07-16T14:54:15.582350",
   "trade_log": [
     {
       "action": "SELL",
