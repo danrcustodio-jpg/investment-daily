@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 68** &nbsp;·&nbsp; Updated: Jul 15 2026 10:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 69** &nbsp;·&nbsp; Updated: Jul 16 2026 02:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.65%** &nbsp; ($+3,208) |
-| SPY Benchmark | +6.64% &nbsp; ($+12,888 if 100% SPY) |
-| Alpha vs SPY | **-4.99%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.67%** &nbsp; ($+3,233) |
+| SPY Benchmark | +6.57% &nbsp; ($+12,754 if 100% SPY) |
+| Alpha vs SPY | **-4.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,208 |
+| Current Value | $197,233 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,640 | +0.84% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,664 | +0.85% |
 
 ## Daily Equity Curve
 
@@ -72,13 +72,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 15 2026 10:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 16 2026 02:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | EMA 9/21 — Bullish Cross — Score 100.0, Win Rate 100.0%, Avg 5d Return 4.78%, Max Drawdown… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 85.2, Win Rate 78.4%, Avg 5d Return 2.41%, Max Drawdown -23… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 63.7, Win Rate 65.4%, Avg 5d Return 0.79%, Max Drawdown -9.12%, S… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -86,17 +86,17 @@ _Evaluated Jul 15 2026 10:29 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 100.0, Win Rate 100.0%, Avg 5d Return 4.78%, Max Drawdown 0.0%, Sharpe 8.14. 2 minor bearish signal(s), max confidence 70.3.
+**Signal Analysis:** Williams %R — Oversold — Score 85.2, Win Rate 78.4%, Avg 5d Return 2.41%, Max Drawdown -23.33%, Sharpe 3.89. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 55.3, Win Rate 47.7%, Avg 5d Return 4.96%, Max Drawdown -93.19%, Sharpe 1.73. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 63.7, Win Rate 65.4%, Avg 5d Return 0.79%, Max Drawdown -9.12%, Sharpe 1.8. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
