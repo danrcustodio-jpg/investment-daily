@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 07:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 08:55 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.68%** &nbsp; ($+3,257) |
-| SPY Benchmark | +5.09% &nbsp; ($+9,873 if 100% SPY) |
-| Alpha vs SPY | **-3.41%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.02% &nbsp; ($+9,730 if 100% SPY) |
+| Alpha vs SPY | **-3.34%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,257 |
 
@@ -70,27 +70,27 @@
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
-| 2026-07-17 | 📈 +1.68% | +5.08% | ❌ -3.41% |
+| 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 17 2026 07:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 17 2026 08:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26.67%, Sharpe 2.64. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66.98%, Sharpe 2.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

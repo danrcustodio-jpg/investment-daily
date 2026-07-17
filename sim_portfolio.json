@@ -479,9 +479,9 @@
       "date": "2026-07-17",
       "total_value": 197256.68,
       "portfolio_pnl": 1.679,
-      "benchmark_pnl": 5.085,
+      "benchmark_pnl": 5.016,
       "prices": {
-        "SPY": 743.780029296875
+        "SPY": 743.2899780273438
       }
     }
   ],
@@ -490,7 +490,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "QQQ",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26.67%, Sharpe 2.64. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -499,7 +499,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "TQQQ",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66.98%, Sharpe 2.8. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -514,7 +514,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-17T19:59:38.662237",
+  "recommendations_updated": "2026-07-17T20:55:23.857713",
   "trade_log": [
     {
       "action": "SELL",
