@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 69** &nbsp;·&nbsp; Updated: Jul 16 2026 10:04 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 02:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.67%** &nbsp; ($+3,233) |
-| SPY Benchmark | +6.07% &nbsp; ($+11,767 if 100% SPY) |
-| Alpha vs SPY | **-4.40%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.68%** &nbsp; ($+3,257) |
+| SPY Benchmark | +5.43% &nbsp; ($+10,544 if 100% SPY) |
+| Alpha vs SPY | **-3.76%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,233 |
+| Current Value | $197,257 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,664 | +0.85% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,688 | +0.86% |
 
 ## Daily Equity Curve
 
@@ -73,29 +73,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 16 2026 10:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 17 2026 02:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 85.0, Win Rate 78.0%, Avg 5d Return 2.45%, Max Drawdown -23… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | 52-Week Breakout — Score 64.7, Win Rate 65.4%, Avg 5d Return 0.81%, Max Drawdown -9.12%, S… |
 
-### 🔍 NEW OPPORTUNITY — ARM
+### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** MFI — Oversold — Score 77.1, Win Rate 85.7%, Avg 5d Return 3.48%, Max Drawdown 0.0%, Sharpe 6.1. 1 minor bearish signal(s), max confidence 52.0.
+**Signal Analysis:** Williams %R — Oversold — Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26.67%, Sharpe 2.64. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — TQQQ
+
+**Signal Analysis:** Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.0, Win Rate 78.0%, Avg 5d Return 2.45%, Max Drawdown -23.33%, Sharpe 3.93. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** 52-Week Breakout — Score 64.7, Win Rate 65.4%, Avg 5d Return 0.81%, Max Drawdown -9.12%, Sharpe 1.85. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 85.0, Win Rate 78.0%, Avg 5d Return 2.45%, Max Drawdown -23.33%, Sharpe 3.93. 1 minor bearish signal(s), max confidence 45.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
