@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 05:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 06:32 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.68%** &nbsp; ($+3,257) |
-| SPY Benchmark | +5.55% &nbsp; ($+10,761 if 100% SPY) |
-| Alpha vs SPY | **-3.87%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.12% &nbsp; ($+9,930 if 100% SPY) |
+| Alpha vs SPY | **-3.44%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,257 |
 
@@ -70,17 +70,23 @@
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
-| 2026-07-17 | 📈 +1.68% | +5.55% | ❌ -3.88% |
+| 2026-07-17 | 📈 +1.68% | +5.12% | ❌ -3.44% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 17 2026 05:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 17 2026 06:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | VWAP Deviation — Oversold — Score 64.7, Win Rate 58.5%, Avg 5d Return 1.67%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TQQQ** | VWAP Deviation — Oversold — Score 60.3, Win Rate 64.4%, Avg 5d Return 2.58%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | Williams %R — Oversold — Score 57.7, Win Rate 52.5%, Avg 5d Return 2.25%, Max Drawdown -73… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | VWAP Deviation — Oversold — Score 68.7, Win Rate 61.3%, Avg 5d Return 2.97%, Max Drawdown … |
+
+### 🔍 NEW OPPORTUNITY — TQQQ
+
+**Signal Analysis:** Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
@@ -88,15 +94,9 @@ _Evaluated Jul 17 2026 05:01 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — TQQQ
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 60.3, Win Rate 64.4%, Avg 5d Return 2.58%, Max Drawdown -86.0%, Sharpe 1.5. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
 ### 🔍 NEW OPPORTUNITY — TSLA
 
-**Signal Analysis:** Williams %R — Oversold — Score 57.7, Win Rate 52.5%, Avg 5d Return 2.25%, Max Drawdown -73.44%, Sharpe 1.61. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 68.7, Win Rate 61.3%, Avg 5d Return 2.97%, Max Drawdown -86.12%, Sharpe 2.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

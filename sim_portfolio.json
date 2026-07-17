@@ -479,13 +479,22 @@
       "date": "2026-07-17",
       "total_value": 197256.68,
       "portfolio_pnl": 1.679,
-      "benchmark_pnl": 5.554,
+      "benchmark_pnl": 5.119,
       "prices": {
-        "SPY": 747.0999755859375
+        "SPY": 744.0197143554688
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "TQQQ",
+      "priority": "high",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "AMD",
@@ -497,24 +506,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TQQQ",
-      "priority": "medium",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 60.3, Win Rate 64.4%, Avg 5d Return 2.58%, Max Drawdown -86.0%, Sharpe 1.5. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "TSLA",
       "priority": "medium",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 57.7, Win Rate 52.5%, Avg 5d Return 2.25%, Max Drawdown -73.44%, Sharpe 1.61. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 68.7, Win Rate 61.3%, Avg 5d Return 2.97%, Max Drawdown -86.12%, Sharpe 2.17. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-17T17:01:52.106697",
+  "recommendations_updated": "2026-07-17T18:32:41.134344",
   "trade_log": [
     {
       "action": "SELL",
