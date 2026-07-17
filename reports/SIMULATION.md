@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 03:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 05:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.68%** &nbsp; ($+3,257) |
-| SPY Benchmark | +5.33% &nbsp; ($+10,350 if 100% SPY) |
-| Alpha vs SPY | **-3.66%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.55% &nbsp; ($+10,761 if 100% SPY) |
+| Alpha vs SPY | **-3.87%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,257 |
 
@@ -70,33 +70,33 @@
 | 2026-07-14 | 📈 +1.64% | +6.22% | ❌ -4.58% |
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
-| 2026-07-17 | 📈 +1.68% | +5.34% | ❌ -3.66% |
+| 2026-07-17 | 📈 +1.68% | +5.55% | ❌ -3.88% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 17 2026 03:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 17 2026 05:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 77.3, Win Rate 63.6%, Avg 5d Return 4.13%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | VWAP Deviation — Oversold — Score 64.7, Win Rate 58.5%, Avg 5d Return 1.67%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TQQQ** | VWAP Deviation — Oversold — Score 60.3, Win Rate 64.4%, Avg 5d Return 2.58%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | Williams %R — Oversold — Score 57.7, Win Rate 52.5%, Avg 5d Return 2.25%, Max Drawdown -73… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.3, Win Rate 63.6%, Avg 5d Return 4.13%, Max Drawdown -26.07%, Sharpe 2.93. 1 minor bearish signal(s), max confidence 50.4.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 64.7, Win Rate 58.5%, Avg 5d Return 1.67%, Max Drawdown -29.28%, Sharpe 2.04. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 79.0, Win Rate 71.0%, Avg 5d Return 4.44%, Max Drawdown -66.98%, Sharpe 2.88. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 60.3, Win Rate 64.4%, Avg 5d Return 2.58%, Max Drawdown -86.0%, Sharpe 1.5. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLK
+### 🔍 NEW OPPORTUNITY — TSLA
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown -16.65%, Sharpe 4.27. 1 minor bearish signal(s), max confidence 45.7.
+**Signal Analysis:** Williams %R — Oversold — Score 57.7, Win Rate 52.5%, Avg 5d Return 2.25%, Max Drawdown -73.44%, Sharpe 1.61. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
