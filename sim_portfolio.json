@@ -474,14 +474,23 @@
       "prices": {
         "SPY": 750.719970703125
       }
+    },
+    {
+      "date": "2026-07-17",
+      "total_value": 197256.68,
+      "portfolio_pnl": 1.679,
+      "benchmark_pnl": 5.513,
+      "prices": {
+        "SPY": 746.8099975585938
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 78.7, Win Rate 69.6%, Avg 5d Return 1.45%, Max Drawdown -26.67%, Sharpe 2.64. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 77.3, Win Rate 63.6%, Avg 5d Return 4.13%, Max Drawdown -26.07%, Sharpe 2.93. 1 minor bearish signal(s), max confidence 50.4.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -499,13 +508,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLK",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.0, Win Rate 78.0%, Avg 5d Return 2.45%, Max Drawdown -23.33%, Sharpe 3.93. 1 minor bearish signal(s), max confidence 45.7.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown -16.65%, Sharpe 4.27. 1 minor bearish signal(s), max confidence 45.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-17T14:13:43.315782",
+  "recommendations_updated": "2026-07-17T14:26:56.360708",
   "trade_log": [
     {
       "action": "SELL",
