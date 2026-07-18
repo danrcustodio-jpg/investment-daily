@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 70** &nbsp;·&nbsp; Updated: Jul 17 2026 09:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 71** &nbsp;·&nbsp; Updated: Jul 18 2026 01:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.68%** &nbsp; ($+3,257) |
+| Portfolio P&L | **+1.69%** &nbsp; ($+3,281) |
 | SPY Benchmark | +5.02% &nbsp; ($+9,730 if 100% SPY) |
-| Alpha vs SPY | **-3.34%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.32%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,257 |
+| Current Value | $197,281 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,688 | +0.86% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,712 | +0.88% |
 
 ## Daily Equity Curve
 
@@ -74,23 +74,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 17 2026 09:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 18 2026 01:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.5%, Avg 5d Return 4.18%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Williams %R — Oversold — Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown … |
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.5%, Avg 5d Return 4.18%, Max Drawdown -20.1%, Sharpe 3.43. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — QQQ
 
 **Signal Analysis:** Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — TQQQ
-
-**Signal Analysis:** Williams %R — Oversold — Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66.98%, Sharpe 2.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

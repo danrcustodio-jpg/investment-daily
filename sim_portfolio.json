@@ -488,18 +488,18 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
+      "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 77.2, Win Rate 70.5%, Avg 5d Return 4.18%, Max Drawdown -20.1%, Sharpe 3.43. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TQQQ",
+      "ticker": "QQQ",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 78.0, Win Rate 70.5%, Avg 5d Return 4.34%, Max Drawdown -66.98%, Sharpe 2.8. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -514,7 +514,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-17T21:43:36.727608",
+  "recommendations_updated": "2026-07-18T13:58:46.606019",
   "trade_log": [
     {
       "action": "SELL",
