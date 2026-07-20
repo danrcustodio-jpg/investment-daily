@@ -1,21 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 73** &nbsp;·&nbsp; Updated: Jul 20 2026 06:49 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 73** &nbsp;·&nbsp; Updated: Jul 20 2026 08:16 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.72%** &nbsp; ($+3,329) |
-| SPY Benchmark | +4.96% &nbsp; ($+9,626 if 100% SPY) |
-| Alpha vs SPY | **-3.25%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.56%** &nbsp; ($+3,029) |
+| SPY Benchmark | +4.85% &nbsp; ($+9,401 if 100% SPY) |
+| Alpha vs SPY | **-3.28%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,329 |
+| Current Value | $197,029 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,760 | +0.90% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,539 | — | $+1,490 | +0.90% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $742.09 | $+0 | +0.00% |
 
 ## Daily Equity Curve
 
@@ -71,40 +72,51 @@
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
-| 2026-07-20 | 📈 +1.72% | +4.96% | ❌ -3.25% |
+| 2026-07-20 | 📈 +1.56% | +4.85% | ❌ -3.29% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 20 2026 06:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 20 2026 08:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Williams %R — Oversold — Score 72.3, Win Rate 66.7%, Avg 5d Return 2.78%, Max Drawdown -52… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 76.0, Win Rate 68.5%, Avg 5d Return 1.31%, Max Drawdown -26… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdow… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Fisher Transform — Low Extreme — Score 64.6, Win Rate 62.6%, Avg 5d Return 2.33%, Max Draw… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.33 vs 0 bear score 0.00). Gross P&L: $0. Holding … |
 
-### 🔍 NEW OPPORTUNITY — UPRO
+### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 72.3, Win Rate 66.7%, Avg 5d Return 2.78%, Max Drawdown -52.21%, Sharpe 2.31. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 76.0, Win Rate 68.5%, Avg 5d Return 1.31%, Max Drawdown -26.67%, Sharpe 2.39. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
 **Signal Analysis:** Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdown -25.98%, Sharpe 3.98. 1 minor bearish signal(s), max confidence 45.7.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 64.6, Win Rate 62.6%, Avg 5d Return 2.33%, Max Drawdown -72.73%, Sharpe 1.91. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,539 deployable. Entry slippage est. $25.
+
+### ✅ HOLD — SPY
+
+**Signal Analysis:** Signal still net bullish (3 bull score 1.33 vs 0 bear score 0.00). Gross P&L: $0. Holding avoids $0 in taxes.
+
+**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 
-### CASH — $195,569 (62%)
+### CASH — $165,539 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
+
+### SPY — SPY
+**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $742.09
+> Williams %R — Oversold — Score 76.4, Win Rate 65.9%, Avg 5d Return 1.18%, Max Drawdown -17.23%, Sharpe 2.62. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*
