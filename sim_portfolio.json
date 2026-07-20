@@ -483,18 +483,18 @@
       "prices": {
         "SPY": 743.2899780273438
       }
+    },
+    {
+      "date": "2026-07-20",
+      "total_value": 197329.01,
+      "portfolio_pnl": 1.716,
+      "benchmark_pnl": 5.229,
+      "prices": {
+        "SPY": 744.7999877929688
+      }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
-      "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 79.1, Win Rate 76.1%, Avg 5d Return 4.1%, Max Drawdown -38.75%, Sharpe 3.03. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "GOOGL",
@@ -512,9 +512,18 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "ATOM-USD",
+      "priority": "medium",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 64.6, Win Rate 62.6%, Avg 5d Return 2.33%, Max Drawdown -72.73%, Sharpe 1.91. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-20T14:39:39.114473",
+  "recommendations_updated": "2026-07-20T15:03:32.805302",
   "trade_log": [
     {
       "action": "SELL",

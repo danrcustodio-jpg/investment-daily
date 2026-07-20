@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 73** &nbsp;·&nbsp; Updated: Jul 20 2026 02:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 73** &nbsp;·&nbsp; Updated: Jul 20 2026 03:03 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.72%** &nbsp; ($+3,329) |
-| SPY Benchmark | +5.33% &nbsp; ($+10,336 if 100% SPY) |
-| Alpha vs SPY | **-3.61%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.23% &nbsp; ($+10,147 if 100% SPY) |
+| Alpha vs SPY | **-3.51%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,329 |
 
@@ -71,22 +71,17 @@
 | 2026-07-15 | 📈 +1.65% | +6.64% | ❌ -4.99% |
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
+| 2026-07-20 | 📈 +1.72% | +5.23% | ❌ -3.51% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 20 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 20 2026 03:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 79.1, Win Rate 76.1%, Avg 5d Return 4.1%, Max Drawdown -38.75%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 82.6, Win Rate 71.4%, Avg 5d Return 2.36%, Max Drawdown -10… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdow… |
-
-### 🔍 NEW OPPORTUNITY — ATOM-USD
-
-**Signal Analysis:** RSI Oversold — Score 79.1, Win Rate 76.1%, Avg 5d Return 4.1%, Max Drawdown -38.75%, Sharpe 3.03. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Fisher Transform — Low Extreme — Score 64.6, Win Rate 62.6%, Avg 5d Return 2.33%, Max Draw… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -99,6 +94,12 @@ _Evaluated Jul 20 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdown -25.98%, Sharpe 3.98. 1 minor bearish signal(s), max confidence 45.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 64.6, Win Rate 62.6%, Avg 5d Return 2.33%, Max Drawdown -72.73%, Sharpe 1.91. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
