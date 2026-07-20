@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 72** &nbsp;·&nbsp; Updated: Jul 19 2026 02:03 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 73** &nbsp;·&nbsp; Updated: Jul 20 2026 02:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.70%** &nbsp; ($+3,305) |
-| SPY Benchmark | +5.02% &nbsp; ($+9,730 if 100% SPY) |
-| Alpha vs SPY | **-3.31%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.72%** &nbsp; ($+3,329) |
+| SPY Benchmark | +5.33% &nbsp; ($+10,336 if 100% SPY) |
+| Alpha vs SPY | **-3.61%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,305 |
+| Current Value | $197,329 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,736 | +0.89% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,569 | — | $+1,760 | +0.90% |
 
 ## Daily Equity Curve
 
@@ -74,29 +74,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 19 2026 02:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 20 2026 02:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 77.0, Win Rate 70.0%, Avg 5d Return 4.25%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 79.1, Win Rate 76.1%, Avg 5d Return 4.1%, Max Drawdown -38.75%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 82.6, Win Rate 71.4%, Avg 5d Return 2.36%, Max Drawdown -10… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdow… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.0, Win Rate 70.0%, Avg 5d Return 4.25%, Max Drawdown -20.1%, Sharpe 3.46. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 79.1, Win Rate 76.1%, Avg 5d Return 4.1%, Max Drawdown -38.75%, Sharpe 3.03. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,569 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — QQQ
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Williams %R — Oversold — Score 77.6, Win Rate 69.1%, Avg 5d Return 1.41%, Max Drawdown -26.67%, Sharpe 2.55. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 82.6, Win Rate 71.4%, Avg 5d Return 2.36%, Max Drawdown -10.45%, Sharpe 3.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.0, Win Rate 72.7%, Avg 5d Return 2.92%, Max Drawdown -16.65%, Sharpe 4.27. 1 minor bearish signal(s), max confidence 45.7.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 80.3, Win Rate 73.5%, Avg 5d Return 2.6%, Max Drawdown -25.98%, Sharpe 3.98. 1 minor bearish signal(s), max confidence 45.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.
 

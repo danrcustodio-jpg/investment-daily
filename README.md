@@ -3,7 +3,7 @@
 Automated investment newsletter, intraday strategy alerts, and portfolio simulation.
 Powered by GitHub Actions — runs 24/7 with no PC required.
 
-**Last updated:** July 19, 2026 at 02:03 PM
+**Last updated:** July 20, 2026 at 02:39 PM
 
 ---
 
@@ -17,7 +17,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 
 ## Portfolio Simulation
 
-Day 72 &nbsp;·&nbsp; Portfolio **+1.70%** vs SPY +5.02% &nbsp;·&nbsp; Alpha ❌ **-3.31%**
+Day 73 &nbsp;·&nbsp; Portfolio **+1.72%** vs SPY +5.31% &nbsp;·&nbsp; Alpha ❌ **-3.60%**
 
 [Full details with equity curve →](reports/SIMULATION.md)
 
@@ -29,11 +29,8 @@ Day 72 &nbsp;·&nbsp; Portfolio **+1.70%** vs SPY +5.02% &nbsp;·&nbsp; Alpha �
 |---|---|
 | Daily Newsletter | 7:30 AM ET every day |
 | Strategy Alerts | Every 30 min, Mon–Fri, 9:30 AM – 4:00 PM ET |
-| Contract Alerts | 7:30 AM ET, Mon–Fri (federal contract awards via USAspending.gov) |
 | Alert cooldown | Same ticker+strategy: at most once per 6 hours |
-| Contract dedup | Same award ID: emailed at most once (state retained 90 days) |
 | Signals tracked | 28 tickers × 30 strategy detectors |
-| Contractors watched | 60 tickers (curated defense/IT/healthcare + SCAN_TICKERS overlap) |
 
 ## Docs
 
