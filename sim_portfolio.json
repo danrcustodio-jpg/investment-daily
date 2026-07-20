@@ -488,18 +488,18 @@
       "date": "2026-07-20",
       "total_value": 197329.01,
       "portfolio_pnl": 1.716,
-      "benchmark_pnl": 5.229,
+      "benchmark_pnl": 5.331,
       "prices": {
-        "SPY": 744.7999877929688
+        "SPY": 745.52001953125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "QQQ",
       "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 82.6, Win Rate 71.4%, Avg 5d Return 2.36%, Max Drawdown -10.45%, Sharpe 3.42. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -28.44%, Sharpe 2.26. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -523,7 +523,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-20T15:03:32.805302",
+  "recommendations_updated": "2026-07-20T16:52:30.621151",
   "trade_log": [
     {
       "action": "SELL",
