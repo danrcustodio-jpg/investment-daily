@@ -488,18 +488,18 @@
       "date": "2026-07-20",
       "total_value": 197329.01,
       "portfolio_pnl": 1.716,
-      "benchmark_pnl": 5.331,
+      "benchmark_pnl": 4.962,
       "prices": {
-        "SPY": 745.52001953125
+        "SPY": 742.9099731445312
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
+      "ticker": "UPRO",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -28.44%, Sharpe 2.26. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 72.3, Win Rate 66.7%, Avg 5d Return 2.78%, Max Drawdown -52.21%, Sharpe 2.31. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,569 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -523,7 +523,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-07-20T16:52:30.621151",
+  "recommendations_updated": "2026-07-20T18:49:39.302822",
   "trade_log": [
     {
       "action": "SELL",
