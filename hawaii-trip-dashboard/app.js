@@ -26,6 +26,21 @@
       .join("");
   }
 
+  function renderVisitLinks(v) {
+    const bits = [];
+    if (v.menuUrl) {
+      bits.push(
+        `<a class="visit-link" href="${escapeHtml(v.menuUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(v.linkLabel || "Website")}</a>`
+      );
+    }
+    if (v.mapsUrl) {
+      bits.push(
+        `<a class="visit-link" href="${escapeHtml(v.mapsUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(v.mapsLinkLabel || "Google Maps")}</a>`
+      );
+    }
+    return bits.length ? `<div class="visit-links">${bits.join(" · ")}</div>` : "";
+  }
+
   function renderDetailBlock(b) {
     const arrive = b.arriveBy
       ? `<div class="arrive">Arrive by: ${formatInline(b.arriveBy)}</div>`
@@ -162,11 +177,7 @@
   trip.optionalStops.food.visits.forEach((v) => {
     optionalFoodHtml += `<div class="detail-card">
       <div class="visit-title">${escapeHtml(v.title)}</div>
-      ${
-        v.menuUrl
-          ? `<a class="visit-link" href="${escapeHtml(v.menuUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(v.linkLabel || "Website")}</a>`
-          : ""
-      }
+      ${renderVisitLinks(v)}
       <div class="lines">${paragraphs(v.summaryLines)}</div>
     </div>`;
   });
@@ -176,12 +187,26 @@
   });
 
   let optionalActHtml = "";
+  (trip.optionalStops.activities.visits || []).forEach((v) => {
+    optionalActHtml += `<div class="detail-card">
+      <div class="visit-title">${escapeHtml(v.title)}</div>
+      ${renderVisitLinks(v)}
+      <div class="lines">${paragraphs(v.summaryLines)}</div>
+    </div>`;
+  });
   trip.optionalStops.activities.sections.forEach((sec) => {
     optionalActHtml += `<div class="sec-heading">${escapeHtml(sec.heading)}</div>`;
     optionalActHtml += renderOptionalSection(sec);
   });
 
   let optionalLocHtml = "";
+  (trip.optionalStops.locations.visits || []).forEach((v) => {
+    optionalLocHtml += `<div class="detail-card">
+      <div class="visit-title">${escapeHtml(v.title)}</div>
+      ${renderVisitLinks(v)}
+      <div class="lines">${paragraphs(v.summaryLines)}</div>
+    </div>`;
+  });
   trip.optionalStops.locations.sections.forEach((sec) => {
     optionalLocHtml += `<div class="sec-heading">${escapeHtml(sec.heading)}</div>`;
     optionalLocHtml += renderOptionalSection(sec);

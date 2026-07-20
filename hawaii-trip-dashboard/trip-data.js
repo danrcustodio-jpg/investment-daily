@@ -53,7 +53,7 @@ window.HAWAII_TRIP = {
           title: 'Blue Water Shrimp & Seafood (planned dinner)',
           lines: [
             'Hilton Hawaiian Village · 2005 Kalia Rd, Honolulu, HI 96815 · Daily 9:00 AM–10:00 PM · (808) 955-5400 · No reservations.',
-            'Website: bluewatershrimphi.com',
+            'Website: [bluewatershrimphi.com](https://www.bluewatershrimphi.com/) · [Google Maps](https://www.google.com/maps/search/?api=1&query=Blue+Water+Shrimp+%26+Seafood+Hilton+Hawaiian+Village+Honolulu).',
           ],
         },
         {
@@ -61,7 +61,7 @@ window.HAWAII_TRIP = {
           title: 'Royal Lobster Waikiki (optional)',
           lines: [
             'Waikīkī · Optional instead of Blue Water Shrimp on Day 1, or bookmark for another evening.',
-            'Menu, hours, and reservations: https://www.theroyallobster.com/',
+            'Menu, hours, and reservations: [theroyallobster.com](https://www.theroyallobster.com/) · [Google Maps](https://www.google.com/maps/search/?api=1&query=Royal+Lobster+Waikiki).',
           ],
         },
       ],
@@ -252,7 +252,7 @@ window.HAWAII_TRIP = {
           kind: 'activity',
           title: 'Contact',
           lines: [
-            '(808) 599-7873 · osp@ohanasurfproject.com · ohanasurfproject.com · FAQ: https://www.ohanasurfproject.com/FAQ/',
+            '(808) 599-7873 · osp@ohanasurfproject.com · [ohanasurfproject.com](https://www.ohanasurfproject.com/) · FAQ: [ohanasurfproject.com/FAQ](https://www.ohanasurfproject.com/FAQ/).',
           ],
         },
         {
@@ -262,6 +262,7 @@ window.HAWAII_TRIP = {
           lines: [
             'Fri Jul 24, 2026 · 5:30 PM · Party of 4.',
             'Manage or cancel in the Yelp app / links from your confirmation email.',
+            'Restaurant: [cajuncrabwaikiki.com](https://cajuncrabwaikiki.com/) · [Google Maps](https://www.google.com/maps/search/?api=1&query=Cajun+Crab+Waikiki+226+Lewers+St).',
           ],
         },
         {
@@ -274,6 +275,7 @@ window.HAWAII_TRIP = {
           title: 'Restaurant address',
           lines: [
             '226 Lewers St, 2F Unit L215, Honolulu, HI · (808) 913-2003.',
+            '[cajuncrabwaikiki.com](https://cajuncrabwaikiki.com/) · [Google Maps](https://www.google.com/maps/search/?api=1&query=Cajun+Crab+Waikiki+226+Lewers+St).',
           ],
         },
       ],
@@ -307,7 +309,7 @@ window.HAWAII_TRIP = {
           kind: 'activity',
           title: 'North Shore day trip (not booked)',
           lines: [
-            'Typical loop: Haleiwa town, Waimea Bay, Sunset Beach, Banzai Pipeline viewpoints, food trucks / shave ice.',
+            'Typical loop: [Haleiwa town](https://www.google.com/maps/search/?api=1&query=Haleiwa+Town+Oahu), [Waimea Bay](https://www.google.com/maps/search/?api=1&query=Waimea+Bay+Beach+Park+Oahu), [Sunset Beach](https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Oahu+Hawaii), [Banzai Pipeline](https://www.google.com/maps/search/?api=1&query=Banzai+Pipeline+Ehukai+Beach+Park) viewpoints, food trucks / shave ice.',
             'Allow drive time from Waikiki (~1 hr each way depending on stops).',
             'More detail & parking strategy: Optional stops & ideas → Hawaii Fun sections (Waimea Valley/Beach, Haleiwa Town, beaches).',
           ],
@@ -316,7 +318,7 @@ window.HAWAII_TRIP = {
           kind: 'location',
           title: 'Areas to map',
           lines: [
-            'Haleiwa · Waimea Bay · Sunset Beach · Optional Laniakea Beach (turtles — safety/traffic caution).',
+            '[Haleiwa](https://www.google.com/maps/search/?api=1&query=Haleiwa+Town+Oahu) · [Waimea Bay](https://www.google.com/maps/search/?api=1&query=Waimea+Bay+Beach+Park+Oahu) · [Sunset Beach](https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Oahu+Hawaii) · Optional [Laniakea Beach](https://www.google.com/maps/search/?api=1&query=Laniakea+Beach+Oahu) (turtles — safety/traffic caution).',
           ],
         },
       ],
@@ -364,7 +366,7 @@ window.HAWAII_TRIP = {
           title: 'Afternoon — flexible',
           lines: [
             'After Pearl Harbor (~noon end): pair with another anchor or take a relaxed afternoon.',
-            'Ideas: Diamond Head State Monument (entry reservation often required via gostateparks.hawaii.gov), east-side scenic drive / Kualoa, Ala Moana Beach Park, or windward dinner at Haleiwa Joe’s Kaneohe (Haiku Gardens) — see parking notes below.',
+            'Ideas: [Diamond Head State Monument](https://gostateparks.hawaii.gov/diamondhead/) ([Map](https://www.google.com/maps/search/?api=1&query=Diamond+Head+State+Monument)), east-side scenic drive / [Kualoa](https://www.google.com/maps/search/?api=1&query=Kualoa+Regional+Park+Oahu), [Ala Moana Beach Park](https://www.honolulu.gov/dpr/ala-moana-regional-park/) ([Map](https://www.google.com/maps/search/?api=1&query=Ala+Moana+Beach+Park+Honolulu)), or windward dinner at [Haleiwa Joe’s Kaneohe](https://www.haleiwajoes.com/kaneohe-menu) (Haiku Gardens) — see parking notes below.',
           ],
         },
       ],
@@ -687,6 +689,8 @@ window.HAWAII_TRIP = {
           title: 'Royal Lobster Waikiki',
           menuUrl: 'https://www.theroyallobster.com/',
           linkLabel: 'theroyallobster.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Royal+Lobster+Waikiki',
           summaryLines: [
             'Seafood / lobster-focused dining in Waikīkī — good optional swap for Day 1 arrival dinner or another night.',
             'Check the site for hours, reservations, and location before you go.',
@@ -696,6 +700,8 @@ window.HAWAII_TRIP = {
           title: 'Waffle and Berry',
           menuUrl: 'https://waffleandberry.com/home',
           linkLabel: 'waffleandberry.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Waffle+and+Berry+Waikiki+Shopping+Plaza',
           summaryLines: [
             'Waikīkī Shopping Plaza — waffles, açaí bowls, desserts · 2250 Kalākaua Ave #LL104, Honolulu, HI 96815.',
             'Behind Victoria’s Secret corner side of the plaza; from plaza parking take elevator to level B, exit and turn right — details on site.',
@@ -705,6 +711,8 @@ window.HAWAII_TRIP = {
           title: "Leonard's Bakery",
           menuUrl: 'https://leonardshawaii.com/home/',
           linkLabel: 'leonardshawaii.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Leonards+Bakery+933+Kapahulu+Ave+Honolulu',
           summaryLines: [
             'Malasadas, pāo doce, and bakes — 933 Kapahulu Ave, Honolulu (short drive from Waikīkī).',
             'Typical hours (confirm on site): daily ~5:30 AM–7:00 PM · (808) 737-5591.',
@@ -714,6 +722,8 @@ window.HAWAII_TRIP = {
           title: 'Marugame Udon — Waikīkī',
           menuUrl: 'https://www.marugameudon.com/locations/waikiki/',
           linkLabel: 'Marugame Udon Waikiki',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Marugame+Udon+Waikiki+2310+Kuhio+Ave',
           summaryLines: [
             'Udon · 2310 Kūhiō Ave Ste 124, Honolulu, HI 96815 · (808) 931-6000.',
             'Typical hours (confirm on site): daily ~10:00 AM–10:00 PM.',
@@ -723,6 +733,8 @@ window.HAWAII_TRIP = {
           title: 'Musubi Cafe IYASUME',
           menuUrl: 'https://iyasumehawaii.com/',
           linkLabel: 'iyasumehawaii.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Musubi+Cafe+IYASUME+Waikiki+Beach+Walk',
           summaryLines: [
             'Musubi, rice balls, bento — multiple Oʻahu stores; near Waikīkī: Beach Walk (227 Lewers St), Pacific Monarch (2427 Kūhiō Ave), Seaside (334 Seaside Ave) — see site for hours and phone by branch.',
             'Also Ala Moana, Keeaumoku, Kahala, and more — menu and locations on iyasumehawaii.com.',
@@ -732,10 +744,56 @@ window.HAWAII_TRIP = {
           title: "Haleiwa Joe's — Kaneohe (Haiku Gardens)",
           menuUrl: 'https://www.haleiwajoes.com/kaneohe-menu',
           linkLabel: 'Kaneohe menu & info',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Haleiwa+Joes+Kaneohe+46-336+Haiku+Rd',
           summaryLines: [
             'Windward Oʻahu · Open-air dinner in Haiku Gardens — tropical grounds, koi pond, views of the Koʻolau range (per Haleiwa Joe’s).',
             'Dinner nightly 4:00–9:00 · (808) 247-6671 · 46-336 Haiku Rd, Kaneohe, HI 96744.',
             'Fits a flexible windward / east-side day (e.g. Day 6); not booked — call ahead if you want a table when busy.',
+          ],
+        },
+        {
+          title: 'Paia Fish Market — Waikīkī',
+          menuUrl: 'https://paiafishmarket.com/locations/waikiki/',
+          linkLabel: 'paiafishmarket.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Paia+Fish+Market+Waikiki+2299+Kuhio+Ave',
+          summaryLines: [
+            'Fresh fish plates under the Laylow Hotel · 2299 Kūhiō Ave, Honolulu · (808) 200-0200.',
+            'No reservations — expect a wait at peak times.',
+          ],
+        },
+        {
+          title: "Duke's Waikiki",
+          menuUrl: 'https://www.dukeswaikiki.com/',
+          linkLabel: 'dukeswaikiki.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Dukes+Waikiki+Outrigger',
+          summaryLines: [
+            'Beachfront at Outrigger Waikiki · 2335 Kalākaua Ave · (808) 922-2268.',
+            'Reservations recommended for the dining room; Barefoot Bar is walk-up.',
+          ],
+        },
+        {
+          title: 'Cajun Crab Waikiki',
+          menuUrl: 'https://cajuncrabwaikiki.com/',
+          linkLabel: 'cajuncrabwaikiki.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Cajun+Crab+Waikiki+226+Lewers+St',
+          summaryLines: [
+            'Booked Day 4 dinner · 226 Lewers St, 2F L215 (Waikīkī Beach Walk) · (808) 913-2003.',
+            'See Day 4 reservation block for party size and arrive-by time.',
+          ],
+        },
+        {
+          title: 'Blue Water Shrimp & Seafood',
+          menuUrl: 'https://www.bluewatershrimphi.com/',
+          linkLabel: 'bluewatershrimphi.com',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Blue+Water+Shrimp+%26+Seafood+Hilton+Hawaiian+Village+Honolulu',
+          summaryLines: [
+            'Hilton Hawaiian Village Rainbow Bazaar · 2005 Kalia Rd · (808) 955-5400 · No reservations.',
+            'Planned Day 1 dinner option — walkable from Grand Islander.',
           ],
         },
       ],
@@ -743,13 +801,13 @@ window.HAWAII_TRIP = {
         {
           heading: 'Waikīkī dining ideas',
           lines: [
-            'Paia Fish Market Waikiki.',
-            "Duke's Waikiki.",
+            '[Paia Fish Market Waikiki](https://paiafishmarket.com/locations/waikiki/) — also in Food stops above.',
+            "[Duke's Waikiki](https://www.dukeswaikiki.com/) — also in Food stops above.",
             'Royal Lobster Waikiki — see Food stops above; also optional Day 1 meal in the day-by-day plan.',
-            'Waffle and Berry — https://waffleandberry.com/home (Food stops above).',
-            "Leonard's Bakery — https://leonardshawaii.com/home/ (malasadas · Kapahulu; Food stops above).",
-            'Marugame Udon Waikīkī — https://www.marugameudon.com/locations/waikiki/ (Food stops above).',
-            'Musubi Cafe IYASUME — https://iyasumehawaii.com/ (several locations; Food stops above).',
+            'Waffle and Berry — see Food stops above.',
+            "Leonard's Bakery — malasadas · Kapahulu; Food stops above.",
+            'Marugame Udon Waikīkī — Food stops above.',
+            'Musubi Cafe IYASUME — several locations; Food stops above.',
           ],
         },
         {
@@ -758,22 +816,22 @@ window.HAWAII_TRIP = {
             headers: ['Place', 'Best for…', 'Location'],
             rows: [
               [
-                'Waiola Shave Ice',
+                '[Waiola Shave Ice](https://www.waiolashaveice.co/hours-and-locations) · [Map](https://www.google.com/maps/search/?api=1&query=Waiola+Shave+Ice+Kapahulu+3113+Mokihana)',
                 'Softest, fluffiest ice (the “local” pick)',
                 'Kapahulu (near Waikīkī)',
               ],
               [
-                'Island Vintage',
+                '[Island Vintage](https://www.islandvintagecoffee.com/pages/locations) · [Map](https://www.google.com/maps/search/?api=1&query=Island+Vintage+Shave+Ice+Royal+Hawaiian+Center)',
                 'Real fruit syrups & gourmet toppings',
                 'Royal Hawaiian Center',
               ],
               [
-                "Ululani's",
+                "[Ululani's](https://www.ululanishawaiianshaveice.com/) · [Map](https://www.google.com/maps/search/?api=1&query=Ululanis+Hawaiian+Shave+Ice+Kapahulu+Ave+Honolulu)",
                 'Consistently high quality & award-winning',
                 'Kapahulu Ave / Honolulu',
               ],
               [
-                'Lahaina Shave Ice',
+                '[Lahaina Shave Ice](https://www.google.com/maps/search/?api=1&query=Lahaina+Shave+Ice+Waikiki+Shore)',
                 'Convenience & beach views',
                 'Waikīkī Shore (near Hilton)',
               ],
@@ -783,21 +841,75 @@ window.HAWAII_TRIP = {
         {
           heading: 'Haleiwa Town — eats & treats',
           lines: [
-            'Matsumoto Shave Ice — long-running shave ice spot.',
-            'Haleiwa Fruit Shack — juices and drinks.',
-            'Kono’s — slow-roasted pork / plate-lunch style (your notes).',
-            'Farm to Barn — breakfast and drinks.',
-            'Haleiwa Joe’s — scenic North Shore setting (chain also has Kaneohe — see Food stops above).',
+            '[Matsumoto Shave Ice](https://matsumotoshaveice.com/) · [Map](https://www.google.com/maps/search/?api=1&query=Matsumoto+Shave+Ice+Haleiwa) — long-running shave ice spot.',
+            '[Haleiwa Fruit Shack](https://www.google.com/maps/search/?api=1&query=Haleiwa+Fruit+Shack) — juices and drinks (Maps; no clear official site).',
+            "[Kono's Northshore — Haleiwa](https://konosnorthshore.com/konos-northshorehaleiwa) · [Map](https://www.google.com/maps/search/?api=1&query=Konos+Northshore+Haleiwa) — slow-roasted pork / plate-lunch style.",
+            '[Farm to Barn Cafe](https://www.google.com/maps/search/?api=1&query=Farm+to+Barn+Cafe+Haleiwa) — breakfast and drinks (Maps; no clear official site).',
+            "[Haleiwa Joe's — North Shore](https://www.haleiwajoes.com/) · [Map](https://www.google.com/maps/search/?api=1&query=Haleiwa+Joes+Haleiwa) — scenic North Shore setting (chain also has Kaneohe — see Food stops above).",
           ],
         },
       ],
     },
     activities: {
+      visits: [
+        {
+          title: 'Waimea Valley',
+          menuUrl: 'https://www.waimeavalley.net/',
+          linkLabel: 'waimeavalley.net',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Waimea+Valley+Oahu',
+          summaryLines: [
+            'Garden valley with trails; waterfall area has food service · Confirm hours, fees, and whether waterfall swimming is open that day.',
+          ],
+        },
+        {
+          title: 'Waimea Bay Beach Park',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Waimea+Bay+Beach+Park+Oahu',
+          summaryLines: [
+            'North Shore beach next to Waimea Valley · Tiny main lot fills early; winter currents can be dangerous.',
+          ],
+        },
+        {
+          title: 'Sharks Cove (Pūpūkea)',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Sharks+Cove+Pupukea+Oahu',
+          summaryLines: [
+            'Snorkeling cove on the North Shore — match conditions and skill; underwater cave swim is advanced.',
+          ],
+        },
+        {
+          title: 'Electric Beach (Kahe Point)',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Electric+Beach+Kahe+Point+Oahu',
+          summaryLines: [
+            'Warm outflow attracts sea life · Pavilion & restrooms · Hide valuables; fins recommended.',
+          ],
+        },
+        {
+          title: 'Lulumahu Falls Trail',
+          menuUrl: 'https://dlnr.hawaii.gov/dsp/hiking/oahu/lulumahu-falls/',
+          linkLabel: 'DLNR trail info',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Lulumahu+Falls+Trailhead+Nuuanu',
+          summaryLines: [
+            'DLNR permit required · Reserve ahead · High petty-theft risk at trailhead lot — nothing visible in car.',
+          ],
+        },
+        {
+          title: 'Waimano Falls',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Waimano+Falls+Trail+Oahu',
+          summaryLines: [
+            'On your list — confirm trail status and access separately before you go.',
+          ],
+        },
+      ],
       sections: [
         {
           heading: 'Waimea Valley & Waimea Beach (North Shore)',
           lines: [
-            '~1 hr 4 min from hotel (your estimate) · Waimea Valley garden valley with trails; waterfall area has food service.',
+            '~1 hr 4 min from hotel (your estimate) · [Waimea Valley](https://www.waimeavalley.net/) · [Waimea Bay map](https://www.google.com/maps/search/?api=1&query=Waimea+Bay+Beach+Park+Oahu).',
             'Typical hours/fees (planning estimate): often ~9 AM–4 PM; closed some days · ~$25 adults / ~$14 children — confirm current.',
             'Swimming at waterfall: call (808) 633-7766 same day to confirm whether swimming is allowed.',
             'Strategy from notes: hit Waimea Beach ~9 AM for parking, then Waimea Falls · Cliff-jumping spot — use caution; winter currents · Good snorkeling too.',
@@ -807,34 +919,86 @@ window.HAWAII_TRIP = {
         {
           heading: 'Hikes',
           lines: [
-            'Lulumahu Falls — DLNR permit required (free permit + small processing fee) · ~100 permits/day · Reserve ahead via Hawaii DLNR “Lulumahu Falls Trail permit”.',
+            '[Lulumahu Falls](https://dlnr.hawaii.gov/dsp/hiking/oahu/lulumahu-falls/) — DLNR permit required (free permit + small processing fee) · ~100 permits/day · [Trailhead map](https://www.google.com/maps/search/?api=1&query=Lulumahu+Falls+Trailhead+Nuuanu).',
             'Trailhead parking: large unpaved lot near Nuʻuanu Pali Dr / Pali Hwy intersection · Treat lot as high petty-theft risk — nothing visible in car.',
-            'Waimano Falls — on your list; confirm trail status and access separately.',
+            '[Waimano Falls](https://www.google.com/maps/search/?api=1&query=Waimano+Falls+Trail+Oahu) — on your list; confirm trail status and access separately.',
           ],
         },
         {
           heading: 'Ocean — snorkel & swim',
           lines: [
-            'Sharks Cove — snorkeling; underwater cave swim on right side of cove (your notes) — match conditions and skill.',
-            'Electric Beach — warm water attracts sea life including dolphins · Pavilion & restrooms · Your notes: theft risk at cars — hide valuables · Fins recommended for swim.',
+            '[Sharks Cove](https://www.google.com/maps/search/?api=1&query=Sharks+Cove+Pupukea+Oahu) — snorkeling; underwater cave swim on right side of cove (your notes) — match conditions and skill.',
+            '[Electric Beach](https://www.google.com/maps/search/?api=1&query=Electric+Beach+Kahe+Point+Oahu) — warm water attracts sea life including dolphins · Pavilion & restrooms · Your notes: theft risk at cars — hide valuables · Fins recommended for swim.',
           ],
         },
       ],
     },
     locations: {
+      visits: [
+        {
+          title: 'Ala Moana Beach Park',
+          menuUrl: 'https://www.honolulu.gov/dpr/ala-moana-regional-park/',
+          linkLabel: 'City & County park page',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Ala+Moana+Beach+Park+Honolulu',
+          summaryLines: [
+            'Local beach ~10 min from hotel · Large public park with lagoons; lots typically daytime-only.',
+          ],
+        },
+        {
+          title: 'Sunset Beach',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Oahu+Hawaii',
+          summaryLines: [
+            'North Shore sunsets and sand · Sunrise Shack nearby for açaí bowls (your notes).',
+          ],
+        },
+        {
+          title: 'Laniakea Beach (“turtle beach”)',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Laniakea+Beach+Oahu',
+          summaryLines: [
+            'South of Waimea Bay · Frequent turtles — stay ≥10 ft by law · Rocky shore · No restrooms · Turtles often morning · Traffic/parking caution.',
+          ],
+        },
+        {
+          title: 'Haleiwa Town',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Haleiwa+Town+Oahu',
+          summaryLines: [
+            '~53 min from hotel (your estimate) · Souvenir shopping · Food trucks or sit-down between stops — see Food → Haleiwa Town for specific spots.',
+          ],
+        },
+        {
+          title: 'Banzai Pipeline / Ehukai Beach Park',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Banzai+Pipeline+Ehukai+Beach+Park',
+          summaryLines: [
+            'Famous North Shore surf viewpoint · Watch from shore; winter waves are not for swimming.',
+          ],
+        },
+        {
+          title: 'Waikīkī Beach',
+          mapsUrl:
+            'https://www.google.com/maps/search/?api=1&query=Waikiki+Beach+Honolulu',
+          summaryLines: [
+            'Beach in front of / beside Hilton Hawaiian Village and the Kalākaua strip — easy from Grand Islander.',
+          ],
+        },
+      ],
       sections: [
         {
-          heading: 'Beaches & bays ( Oʻahu )',
+          heading: 'Beaches & bays (Oʻahu)',
           lines: [
-            'Ala Moana Beach — local beach ~10 min from hotel.',
-            'Sunset Beach — sunsets; sand; Sunrise Shack nearby for açaí bowls (your notes).',
-            'Laniakea (“turtle beach”) — south of Waimea Bay · Frequent turtles — stay ≥10 ft by law · Rocky shore · No restrooms · Turtles often morning.',
+            '[Ala Moana Beach](https://www.honolulu.gov/dpr/ala-moana-regional-park/) · [Map](https://www.google.com/maps/search/?api=1&query=Ala+Moana+Beach+Park+Honolulu) — local beach ~10 min from hotel.',
+            '[Sunset Beach](https://www.google.com/maps/search/?api=1&query=Sunset+Beach+Oahu+Hawaii) — sunsets; sand; Sunrise Shack nearby for açaí bowls (your notes).',
+            '[Laniakea (“turtle beach”)](https://www.google.com/maps/search/?api=1&query=Laniakea+Beach+Oahu) — south of Waimea Bay · Frequent turtles — stay ≥10 ft by law · Rocky shore · No restrooms · Turtles often morning.',
           ],
         },
         {
           heading: 'Haleiwa Town — stroll & shopping',
           lines: [
-            '~53 min from hotel (your estimate) · Souvenir shopping · Food trucks or sit-down between stops — see Food → Haleiwa Town for specific spots.',
+            '[Haleiwa Town map](https://www.google.com/maps/search/?api=1&query=Haleiwa+Town+Oahu) · ~53 min from hotel (your estimate) · Souvenir shopping · Food trucks or sit-down between stops — see Food → Haleiwa Town for specific spots.',
           ],
         },
       ],

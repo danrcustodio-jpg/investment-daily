@@ -246,6 +246,15 @@ tr:last-child td {
   font-size: 0.9rem;
 }
 
+.visit-links {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.visit-links .visit-link {
+  margin-bottom: 0;
+}
+
 .sec-heading {
   font-weight: 600;
   margin: 12px 0 6px;
