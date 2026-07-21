@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, July 20, 2026
-Generated at 02:39 PM
+# Daily Newsletter — Tuesday, July 21, 2026
+Generated at 02:35 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 92 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 26 Bearish
+**Strategy Signals:** 84 total &nbsp;·&nbsp; 🟢 62 Bullish &nbsp;·&nbsp; 🔴 22 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $18.27 | 📉 -2.66% |
-| **NG=F** | Natural Gas | $2.86 | 📉 -1.82% |
-| **SI=F** | Silver | $57.04 | 📈 +1.80% |
-| **CL=F** | Crude Oil | $81.58 | 📉 -1.10% |
-| **^TNX** | 10-Year Treasury Yield | $4.58 | 📈 +0.86% |
-| **XLK** | Tech (XLK) | $176.86 | 📈 +0.72% |
-| **XLE** | Energy (XLE) | $58.09 | 📈 +0.71% |
-| **^TYX** | 30-Year Treasury Yield | $5.10 | 📈 +0.63% |
-| **BTC-USD** | Bitcoin | $64338.83 | 📉 -0.54% |
-| **^IXIC** | NASDAQ | $25658.21 | 📈 +0.54% |
+| **^VIX** | VIX (Fear Index) | $17.52 | 📉 -6.06% |
+| **SI=F** | Silver | $59.24 | 📈 +4.28% |
+| **BTC-USD** | Bitcoin | $66803.12 | 📈 +2.41% |
+| **XLK** | Tech (XLK) | $179.62 | 📈 +2.23% |
+| **ETH-USD** | Ethereum | $1935.12 | 📈 +1.65% |
+| **GC=F** | Gold | $4069.00 | 📈 +1.46% |
+| **CL=F** | Crude Oil | $84.38 | 📈 +1.38% |
+| **^IXIC** | NASDAQ | $25790.32 | 📈 +1.11% |
+| **^RUT** | Russell 2000 | $2965.96 | 📈 +0.80% |
+| **^GSPC** | S&P 500 | $7494.15 | 📈 +0.68% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GOOGL** | MACD Bullish Crossover | 82.6 | 71.4% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 81.6 | 75.8% |
-| 🟢 BULLISH | **XLK** | Stochastic (Full) — Oversold | 80.3 | 73.5% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 83.7 | 76.0% |
+| 🟢 BULLISH | **GC=F** | Vortex — Bullish | 81.7 | 70.8% |
 | 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.1% |
-| 🟢 BULLISH | **ATOM-USD** | RSI Oversold | 79.1 | 76.1% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 78.6 | 73.5% |
 | 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 78.4 | 67.9% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.8 | 70.0% |
-| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 74.7 | 65.7% |
-| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 73.7 | 64.2% |
-| 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 73.5 | 64.9% |
-| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 72.7 | 67.7% |
+| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 74.2 | 65.0% |
+| 🟢 BULLISH | **QQQ** | Stochastic RSI Oversold | 73.3 | 63.8% |
+| 🟢 BULLISH | **SMH** | Stochastic RSI Oversold | 73.3 | 64.9% |
+| 🟢 BULLISH | **TQQQ** | Stochastic RSI Oversold | 72.4 | 65.7% |
+| 🟢 BULLISH | **XBI** | ADX Strong Trend — Bullish | 72.1 | 63.5% |
+| 🟢 BULLISH | **IWM** | SMA 30 — Bullish Reclaim | 71.7 | 57.1% |
+| 🟢 BULLISH | **AMD** | EMA 9/21 — Bullish Cross | 66.8 | 55.6% |
+| 🟢 BULLISH | **SPY** | SMA 30 — Bullish Reclaim | 66.3 | 63.2% |
 
 ## Latest News
 
-- [Two injured after man with airsoft rifles lit fireworks outside NYC immigration court: MS NOW](https://www.cnbc.com/2026/07/20/new-york-nyc-fbi-incendiary-device.html) — *CNBC Markets*
-- [South Korean stocks weren’t a big deal in your emerging-markets fund. Artificial intelligence changed that.](https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories) — *MarketWatch*
-- [Alphabet stock pops on report it's developing a more efficient AI chip](https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html) — *CNBC Markets*
-- [Hedge funds dump U.S. tech stocks at record clip - Goldman](https://seekingalpha.com/news/4615359-hedge-funds-dump-us-tech-stocks-at-record-clip---goldman?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Anterix stock climbs to all-time high as year-to-date gains near 400%](https://seekingalpha.com/news/4615336-anterix-stock-climbs-to-all-time-high-as-year-to-date-gains-near-400?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [4D Molecular releases phase 2 data for wet AMD asset 4D-150](https://seekingalpha.com/news/4615363-4d-molecular-releases-phase-2-data-for-wet-amd-asset-4d-150?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nano Dimension and activist investor Murchison complete overhaul to board; CEO exits](https://seekingalpha.com/news/4615322-nano-dimension-and-activist-investor-murchison-complete-overhaul-to-board-ceo-exits?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [3M Q2 earnings on deck: what to expect](https://seekingalpha.com/news/4615364-3m-q2-earnings-on-deck-what-to-expect?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Molten Ventures VCT publishes supplementary prospectus](https://www.investing.com/news/company-news/molten-ventures-vct-publishes-supplementary-prospectus-93CH-4801304) — *Investing.com*
-- [Britain’s new prime minister Andy Burnham vows to end years of instability](https://www.investing.com/news/stock-market-news/andy-burnham-to-become-prime-minister-pledging-to-rewire-britain-4800029) — *Investing.com*
+- [Tesla earnings are on deck, and investors will be looking to settle this major debate](https://www.marketwatch.com/story/tesla-earnings-are-on-deck-and-investors-will-be-looking-to-settle-this-major-debate-f5a11d0e?mod=mw_rss_topstories) — *MarketWatch*
+- [Vicor tops Q2 estimates as AI demand drives backlog; shares fall on outlook](https://seekingalpha.com/news/4615968-vicor-tops-q2-estimates-as-ai-demand-drives-backlog-shares-fall-on-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Kinder Morgan Q2 2026 earnings preview: Y/Y growth projected](https://seekingalpha.com/news/4615970-kinder-morgan-q2-2026-earnings-preview-yy-growth-projected?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Treasury yields rise across the curve amid Middle East oil supply fears](https://seekingalpha.com/news/4615967-treasury-yields-rise-across-the-curve-amid-middle-east-oil-supply-fears?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [IBM earnings preview: Can management reassure investors after preliminary Q2 miss](https://seekingalpha.com/news/4615949-ibm-q2-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fewer children got US-backed HIV treatment after aid cuts, study finds](https://www.investing.com/news/world-news/fewer-children-got-usbacked-hiv-treatment-after-aid-cuts-study-finds-4803728) — *Investing.com*
+- [NXP Semiconductors stock may move 9.3% on earnings report](https://www.investing.com/news/stock-market-news/nxp-semiconductors-stock-may-move-93-on-earnings-report-93CH-4803726) — *Investing.com*
+- [U.S. appeals court overturns order releasing pro-Palestinian protester Mahdawi](https://www.investing.com/news/economy-news/us-appeals-court-overturns-order-releasing-propalestinian-protester-mahdawi-4803724) — *Investing.com*
+- [Washington Trust expects 2.80% NIM in Q4 2026 as institutional banking drives mid-single-digit loan growth](https://seekingalpha.com/news/4615969-washington-trust-expects-2_80-percent-nim-in-q4-2026-as-institutional-banking-drives-mid?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Ally Financial Q2 2026 slides: margin gains offset EPS miss](https://www.investing.com/news/company-news/ally-financial-q2-2026-slides-margin-gains-offset-eps-miss-93CH-4803723) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
