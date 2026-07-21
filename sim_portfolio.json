@@ -509,11 +509,11 @@
     },
     {
       "date": "2026-07-21",
-      "total_value": 197298.58,
-      "portfolio_pnl": 1.7,
-      "benchmark_pnl": 5.718,
+      "total_value": 197299.39,
+      "portfolio_pnl": 1.701,
+      "benchmark_pnl": 5.721,
       "prices": {
-        "SPY": 748.260009765625
+        "SPY": 748.280029296875
       }
     }
   ],
@@ -553,7 +553,7 @@
       "tax_note": "Held 1 days (short-term). Exiting now costs $80 tax + $30 slippage = $110 total friction."
     }
   ],
-  "recommendations_updated": "2026-07-21T19:05:25.650913",
+  "recommendations_updated": "2026-07-21T20:41:59.072286",
   "trade_log": [
     {
       "action": "SELL",
