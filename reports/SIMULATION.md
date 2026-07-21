@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 74** &nbsp;·&nbsp; Updated: Jul 21 2026 02:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 74** &nbsp;·&nbsp; Updated: Jul 21 2026 02:57 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.67%** &nbsp; ($+3,239) |
-| SPY Benchmark | +5.51% &nbsp; ($+10,690 if 100% SPY) |
-| Alpha vs SPY | **-3.84%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.66%** &nbsp; ($+3,227) |
+| SPY Benchmark | +5.47% &nbsp; ($+10,605 if 100% SPY) |
+| Alpha vs SPY | **-3.80%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,239 |
+| Current Value | $197,227 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,539 | — | $+1,510 | +0.91% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $746.79 | $+190 | +0.63% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $746.48 | $+177 | +0.59% |
 
 ## Daily Equity Curve
 
@@ -73,17 +73,18 @@
 | 2026-07-16 | 📈 +1.67% | +6.07% | ❌ -4.40% |
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
 | 2026-07-20 | 📈 +1.56% | +4.85% | ❌ -3.29% |
+| 2026-07-21 | 📈 +1.66% | +5.47% | ❌ -3.80% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 21 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 21 2026 02:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 83.7, Win Rate 76.0%, Avg 5d Return 7.26%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -2… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Fisher Transform — Low Extreme — Score 64.5, Win Rate 62.6%, Avg 5d Return 2.33%, Max Draw… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+190. Holdi… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+177. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -105,9 +106,9 @@ _Evaluated Jul 21 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+190. Holding avoids $61 in taxes.
+**Signal Analysis:** Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+177. Holding avoids $57 in taxes.
 
-**Tax & Cost:** Held 1 days (short-term). Exiting now costs $61 tax + $30 slippage = $91 total friction.
+**Tax & Cost:** Held 1 days (short-term). Exiting now costs $57 tax + $30 slippage = $87 total friction.
 
 ## Position Rationale
 
