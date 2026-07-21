@@ -509,11 +509,11 @@
     },
     {
       "date": "2026-07-21",
-      "total_value": 197303.83,
-      "portfolio_pnl": 1.703,
-      "benchmark_pnl": 5.736,
+      "total_value": 197321.62,
+      "portfolio_pnl": 1.712,
+      "benchmark_pnl": 5.798,
       "prices": {
-        "SPY": 748.3900146484375
+        "SPY": 748.8300170898438
       }
     }
   ],
@@ -529,9 +529,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
+      "ticker": "IWM",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -28.44%, Sharpe 2.26. No conflicting bearish signals.",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 71.7, Win Rate 57.1%, Avg 5d Return 1.23%, Max Drawdown -6.51%, Sharpe 2.7. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -549,11 +549,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+254. Holding avoids $81 in taxes.",
-      "tax_note": "Held 1 days (short-term). Exiting now costs $81 tax + $30 slippage = $112 total friction."
+      "reason": "Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+272. Holding avoids $87 in taxes.",
+      "tax_note": "Held 1 days (short-term). Exiting now costs $87 tax + $30 slippage = $117 total friction."
     }
   ],
-  "recommendations_updated": "2026-07-21T16:19:03.623288",
+  "recommendations_updated": "2026-07-21T17:51:18.711973",
   "trade_log": [
     {
       "action": "SELL",
