@@ -1,22 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 02:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 02:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.69%** &nbsp; ($+3,277) |
-| SPY Benchmark | +5.57% &nbsp; ($+10,805 if 100% SPY) |
-| Alpha vs SPY | **-3.88%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.79%** &nbsp; ($+3,474) |
+| SPY Benchmark | +5.65% &nbsp; ($+10,958 if 100% SPY) |
+| Alpha vs SPY | **-3.86%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,277 |
+| Current Value | $197,474 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,539 | — | $+1,531 | +0.92% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $747.21 | $+207 | +0.69% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,809 | +0.92% |
 
 ## Daily Equity Curve
 
@@ -74,50 +73,40 @@
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
 | 2026-07-20 | 📈 +1.56% | +4.85% | ❌ -3.29% |
 | 2026-07-21 | 📈 +1.70% | +5.72% | ❌ -4.02% |
+| 2026-07-22 | 📈 +1.79% | +5.65% | ❌ -3.86% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 22 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 22 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
-| 🟡 MEDIUM | ⚠️ REVIEW EXIT | **SPY** | Signal environment turned net bearish (1 bear score 0.90 vs 2 bull score 0.71). Strongest … |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
 **Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.1.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
 **Signal Analysis:** Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,649 deployable. Entry slippage est. $25.
-
-### ⚠️ REVIEW EXIT — SPY
-
-**Signal Analysis:** Signal environment turned net bearish (1 bear score 0.90 vs 2 bull score 0.71). Strongest bearish: TRIX — Bearish Cross (score 88.6). Gross P&L: $+207.
-
-**Tax & Cost:** Held 2 days (short-term rate). $66 tax owed (32% short-term) + $30 slippage. Net proceeds if sold: $30,111.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — TSLA
 
 **Signal Analysis:** VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
-### CASH — $165,539 (62%)
+### CASH — $195,665 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
-
-### SPY — SPY
-**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $742.09
-> Williams %R — Oversold — Score 76.4, Win Rate 65.9%, Avg 5d Return 1.18%, Max Drawdown -17.23%, Sharpe 2.62. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*
