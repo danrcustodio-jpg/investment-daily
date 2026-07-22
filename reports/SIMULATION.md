@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 02:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 04:18 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.79%** &nbsp; ($+3,474) |
-| SPY Benchmark | +5.65% &nbsp; ($+10,958 if 100% SPY) |
-| Alpha vs SPY | **-3.86%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.94% &nbsp; ($+11,527 if 100% SPY) |
+| Alpha vs SPY | **-4.15%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,474 |
 
@@ -73,17 +73,17 @@
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
 | 2026-07-20 | 📈 +1.56% | +4.85% | ❌ -3.29% |
 | 2026-07-21 | 📈 +1.70% | +5.72% | ❌ -4.02% |
-| 2026-07-22 | 📈 +1.79% | +5.65% | ❌ -3.86% |
+| 2026-07-22 | 📈 +1.79% | +5.94% | ❌ -4.15% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 22 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 22 2026 04:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Donchian — 20D High Breakout — Score 68.2, Win Rate 50.0%, Avg 5d Return 1.4%, Max Drawdow… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -97,9 +97,9 @@ _Evaluated Jul 22 2026 02:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — TSLA
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 68.2, Win Rate 50.0%, Avg 5d Return 1.4%, Max Drawdown -3.61%, Sharpe 2.23. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
