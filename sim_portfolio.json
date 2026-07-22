@@ -506,9 +506,9 @@
       "date": "2026-07-22",
       "total_value": 197473.75,
       "portfolio_pnl": 1.791,
-      "benchmark_pnl": 5.752,
+      "benchmark_pnl": 5.606,
       "prices": {
-        "SPY": 748.5
+        "SPY": 747.469970703125
       }
     }
   ],
@@ -533,15 +533,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TSLA",
+      "ticker": "NVDA",
       "priority": "medium",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 62.0, Win Rate 61.9%, Avg 5d Return 1.23%, Max Drawdown -37.67%, Sharpe 1.54. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-22T18:59:48.581009",
+  "recommendations_updated": "2026-07-22T20:11:48.604522",
   "trade_log": [
     {
       "action": "SELL",

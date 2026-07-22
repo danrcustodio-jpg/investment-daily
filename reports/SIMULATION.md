@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 06:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 08:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.79%** &nbsp; ($+3,474) |
-| SPY Benchmark | +5.75% &nbsp; ($+11,158 if 100% SPY) |
-| Alpha vs SPY | **-3.96%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.61% &nbsp; ($+10,876 if 100% SPY) |
+| Alpha vs SPY | **-3.82%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,474 |
 
@@ -73,17 +73,17 @@
 | 2026-07-17 | 📈 +1.68% | +5.02% | ❌ -3.34% |
 | 2026-07-20 | 📈 +1.56% | +4.85% | ❌ -3.29% |
 | 2026-07-21 | 📈 +1.70% | +5.72% | ❌ -4.02% |
-| 2026-07-22 | 📈 +1.79% | +5.75% | ❌ -3.96% |
+| 2026-07-22 | 📈 +1.79% | +5.61% | ❌ -3.81% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 22 2026 06:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 22 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Aroon — Strong Uptrend — Score 62.0, Win Rate 61.9%, Avg 5d Return 1.23%, Max Drawdown -37… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -97,9 +97,9 @@ _Evaluated Jul 22 2026 06:59 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — TSLA
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 62.0, Win Rate 61.9%, Avg 5d Return 1.23%, Max Drawdown -37.67%, Sharpe 1.54. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
