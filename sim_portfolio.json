@@ -522,38 +522,38 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 83.7, Win Rate 76.0%, Avg 5d Return 7.26%, Max Drawdown -30.86%, Sharpe 4.73. 1 minor bearish signal(s), max confidence 50.3.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
-      "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -28.44%, Sharpe 2.26. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.1.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
-      "priority": "medium",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 64.5, Win Rate 62.6%, Avg 5d Return 2.33%, Max Drawdown -72.73%, Sharpe 1.91. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,539 deployable. Entry slippage est. $25.",
+      "priority": "high",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,649 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
-      "action": "HOLD",
+      "action": "REVIEW_EXIT",
       "ticker": "SPY",
-      "priority": "low",
-      "reason": "Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+250. Holding avoids $80 in taxes.",
-      "tax_note": "Held 1 days (short-term). Exiting now costs $80 tax + $30 slippage = $110 total friction."
+      "priority": "medium",
+      "reason": "Signal environment turned net bearish (1 bear score 0.90 vs 2 bull score 0.71). Strongest bearish: TRIX \u2014 Bearish Cross (score 88.6). Gross P&L: $+207.",
+      "tax_note": "Held 2 days (short-term rate). $66 tax owed (32% short-term) + $30 slippage. Net proceeds if sold: $30,111."
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "TSLA",
+      "priority": "medium",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-21T21:57:10.730543",
+  "recommendations_updated": "2026-07-22T14:35:58.906290",
   "trade_log": [
     {
       "action": "SELL",

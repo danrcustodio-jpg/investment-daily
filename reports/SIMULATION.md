@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 74** &nbsp;·&nbsp; Updated: Jul 21 2026 09:57 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 02:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.70%** &nbsp; ($+3,299) |
-| SPY Benchmark | +5.72% &nbsp; ($+11,098 if 100% SPY) |
-| Alpha vs SPY | **-4.02%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.69%** &nbsp; ($+3,277) |
+| SPY Benchmark | +5.57% &nbsp; ($+10,805 if 100% SPY) |
+| Alpha vs SPY | **-3.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,299 |
+| Current Value | $197,277 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,539 | — | $+1,510 | +0.91% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $748.28 | $+250 | +0.83% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,539 | — | $+1,531 | +0.92% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $747.21 | $+207 | +0.69% |
 
 ## Daily Equity Curve
 
@@ -77,38 +77,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 21 2026 09:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 22 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 83.7, Win Rate 76.0%, Avg 5d Return 7.26%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -2… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Fisher Transform — Low Extreme — Score 64.5, Win Rate 62.6%, Avg 5d Return 2.33%, Max Draw… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+250. Holdi… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
+| 🟡 MEDIUM | ⚠️ REVIEW EXIT | **SPY** | Signal environment turned net bearish (1 bear score 0.90 vs 2 bull score 0.71). Strongest … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **TSLA** | VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 83.7, Win Rate 76.0%, Avg 5d Return 7.26%, Max Drawdown -30.86%, Sharpe 4.73. 1 minor bearish signal(s), max confidence 50.3.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.1.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — QQQ
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 73.3, Win Rate 63.8%, Avg 5d Return 1.19%, Max Drawdown -28.44%, Sharpe 2.26. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,539 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 64.5, Win Rate 62.6%, Avg 5d Return 2.33%, Max Drawdown -72.73%, Sharpe 1.91. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,539 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,649 deployable. Entry slippage est. $25.
 
-### ✅ HOLD — SPY
+### ⚠️ REVIEW EXIT — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.20 vs 0 bear score 0.00). Gross P&L: $+250. Holding avoids $80 in taxes.
+**Signal Analysis:** Signal environment turned net bearish (1 bear score 0.90 vs 2 bull score 0.71). Strongest bearish: TRIX — Bearish Cross (score 88.6). Gross P&L: $+207.
 
-**Tax & Cost:** Held 1 days (short-term). Exiting now costs $80 tax + $30 slippage = $110 total friction.
+**Tax & Cost:** Held 2 days (short-term rate). $66 tax owed (32% short-term) + $30 slippage. Net proceeds if sold: $30,111.
+
+### 🔍 NEW OPPORTUNITY — TSLA
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 67.5, Win Rate 60.6%, Avg 5d Return 2.87%, Max Drawdown -86.12%, Sharpe 2.08. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,649 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
