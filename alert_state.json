@@ -215,9 +215,9 @@
       "last_change_at": "2026-07-21T16:18:40.740349+00:00"
     },
     "META": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-23T18:08:22.428071+00:00",
-      "last_change_at": "2026-07-23T18:08:18.226946+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950437+00:00"
     },
     "MRVL": {
       "cadence_min": 15,
@@ -240,9 +240,9 @@
       "last_change_at": "2026-07-23T15:03:10.494553+00:00"
     },
     "RIOT": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-07-23T18:08:23.754715+00:00",
-      "last_change_at": "2026-07-23T15:03:10.494639+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950496+00:00"
     },
     "RKLB": {
       "cadence_min": 1440,
@@ -265,9 +265,9 @@
       "last_change_at": "2026-07-23T15:03:10.495041+00:00"
     },
     "TSLA": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-07-23T15:03:23.730453+00:00",
-      "last_change_at": "2026-07-22T14:57:39.876994+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950634+00:00"
     },
     "XBI": {
       "cadence_min": 15,
@@ -285,9 +285,9 @@
       "last_change_at": "2026-07-08T16:55:10.518411+00:00"
     },
     "ARKK": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-23T18:08:19.850338+00:00",
-      "last_change_at": "2026-07-23T18:08:18.226741+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950181+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -305,9 +305,9 @@
       "last_change_at": "2026-07-17T19:59:05.494623+00:00"
     },
     "BCH-USD": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-07-23T18:08:20.699100+00:00",
-      "last_change_at": "2026-07-23T18:08:18.226826+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950283+00:00"
     },
     "ETH-USD": {
       "cadence_min": 1440,
@@ -370,9 +370,9 @@
       "last_change_at": "2026-07-23T15:03:10.495131+00:00"
     },
     "CRWD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-07-23T16:54:12.616232+00:00",
-      "last_change_at": "2026-07-23T18:08:18.226891+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950362+00:00"
     },
     "MSFT": {
       "cadence_min": 1440,
@@ -395,9 +395,9 @@
       "last_change_at": "2026-07-03T15:02:20.204288+00:00"
     },
     "SMCI": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-07-23T16:54:14.999137+00:00",
-      "last_change_at": "2026-07-23T18:08:18.227042+00:00"
+      "last_change_at": "2026-07-23T19:53:46.950568+00:00"
     }
   },
   "signal_last_notified_price": {
