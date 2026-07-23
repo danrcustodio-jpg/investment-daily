@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 75** &nbsp;·&nbsp; Updated: Jul 22 2026 09:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 76** &nbsp;·&nbsp; Updated: Jul 23 2026 02:42 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.79%** &nbsp; ($+3,474) |
-| SPY Benchmark | +5.60% &nbsp; ($+10,860 if 100% SPY) |
-| Alpha vs SPY | **-3.81%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.80%** &nbsp; ($+3,498) |
+| SPY Benchmark | +4.48% &nbsp; ($+8,686 if 100% SPY) |
+| Alpha vs SPY | **-2.67%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,474 |
+| Current Value | $197,498 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,809 | +0.92% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,833 | +0.94% |
 
 ## Daily Equity Curve
 
@@ -77,17 +77,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 22 2026 09:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 23 2026 02:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Aroon — Strong Uptrend — Score 62.0, Win Rate 61.9%, Avg 5d Return 1.23%, Max Drawdown -37… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 96.7, Win Rate 100.0%, Avg 5d Return 6.29%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.1.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
@@ -97,9 +97,9 @@ _Evaluated Jul 22 2026 09:35 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 62.0, Win Rate 61.9%, Avg 5d Return 1.23%, Max Drawdown -37.67%, Sharpe 1.54. No conflicting bearish signals.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 96.7, Win Rate 100.0%, Avg 5d Return 6.29%, Max Drawdown 0.0%, Sharpe 13.1. 2 minor bearish signal(s), max confidence 55.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
