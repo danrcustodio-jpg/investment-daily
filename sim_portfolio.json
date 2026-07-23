@@ -510,6 +510,15 @@
       "prices": {
         "SPY": 747.4099731445312
       }
+    },
+    {
+      "date": "2026-07-23",
+      "total_value": 197497.87,
+      "portfolio_pnl": 1.803,
+      "benchmark_pnl": 4.222,
+      "prices": {
+        "SPY": 737.6701049804688
+      }
     }
   ],
   "recommendations": [
@@ -526,7 +535,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. 1 minor bearish signal(s), max confidence 66.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -535,13 +544,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
-      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 96.7, Win Rate 100.0%, Avg 5d Return 6.29%, Max Drawdown 0.0%, Sharpe 13.1. 2 minor bearish signal(s), max confidence 55.7.",
+      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 96.7, Win Rate 100.0%, Avg 5d Return 6.29%, Max Drawdown 0.0%, Sharpe 13.1. 2 minor bearish signal(s), max confidence 55.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-23T14:42:19.440814",
+  "recommendations_updated": "2026-07-23T15:04:24.300052",
   "trade_log": [
     {
       "action": "SELL",
