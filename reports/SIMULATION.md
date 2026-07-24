@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 76** &nbsp;·&nbsp; Updated: Jul 23 2026 09:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 77** &nbsp;·&nbsp; Updated: Jul 24 2026 02:21 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.80%** &nbsp; ($+3,498) |
-| SPY Benchmark | +4.29% &nbsp; ($+8,330 if 100% SPY) |
-| Alpha vs SPY | **-2.49%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.82%** &nbsp; ($+3,522) |
+| SPY Benchmark | +4.33% &nbsp; ($+8,390 if 100% SPY) |
+| Alpha vs SPY | **-2.51%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,498 |
+| Current Value | $197,522 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,833 | +0.94% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,857 | +0.95% |
 
 ## Daily Equity Curve
 
@@ -78,29 +78,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 23 2026 09:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 24 2026 02:21 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | EMA 9/21 — Bullish Cross — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.48%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.25%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Keltner — Lower Channel Touch — Score 74.9, Win Rate 64.7%, Avg 5d Return 1.88%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 50.0.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 48.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.6, Win Rate 69.5%, Avg 5d Return 4.24%, Max Drawdown -20.1%, Sharpe 3.42. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.25%, Max Drawdown -20.1%, Sharpe 3.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.48%, Max Drawdown -7.31%, Sharpe 2.95. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 74.9, Win Rate 64.7%, Avg 5d Return 1.88%, Max Drawdown -20.69%, Sharpe 2.63. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 

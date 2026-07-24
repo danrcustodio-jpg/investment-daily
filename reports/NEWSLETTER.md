@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, July 23, 2026
-Generated at 02:42 PM
+# Daily Newsletter — Friday, July 24, 2026
+Generated at 02:21 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 110 total &nbsp;·&nbsp; 🟢 69 Bullish &nbsp;·&nbsp; 🔴 41 Bearish
+**Strategy Signals:** 105 total &nbsp;·&nbsp; 🟢 74 Bullish &nbsp;·&nbsp; 🔴 31 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $19.10 | 📈 +14.78% |
-| **CL=F** | Crude Oil | $91.87 | 📈 +5.80% |
-| **XLY** | Consumer Disc. (XLY) | $109.01 | 📉 -4.39% |
-| **SI=F** | Silver | $58.10 | 📉 -3.20% |
-| **GC=F** | Gold | $4056.10 | 📉 -2.19% |
-| **^IXIC** | NASDAQ | $25172.52 | 📉 -2.02% |
-| **XLI** | Industrials (XLI) | $182.23 | 📈 +1.89% |
-| **ETH-USD** | Ethereum | $1900.52 | 📉 -1.71% |
-| **XLE** | Energy (XLE) | $60.16 | 📈 +1.62% |
-| **BTC-USD** | Bitcoin | $65043.30 | 📉 -1.60% |
+| **SOL-USD** | Solana | $74.02 | 📉 -2.43% |
+| **CL=F** | Crude Oil | $90.08 | 📉 -2.29% |
+| **BTC-USD** | Bitcoin | $63971.02 | 📉 -1.65% |
+| **ETH-USD** | Ethereum | $1854.40 | 📉 -1.21% |
+| **XLK** | Tech (XLK) | $176.30 | 📉 -1.20% |
+| **SI=F** | Silver | $58.46 | 📈 +1.15% |
+| **XLE** | Energy (XLE) | $59.95 | 📈 +0.96% |
+| **XLV** | Healthcare (XLV) | $162.49 | 📈 +0.65% |
+| **NG=F** | Natural Gas | $2.93 | 📈 +0.62% |
+| **^TNX** | 10-Year Treasury Yield | $4.68 | 📉 -0.51% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **RIOT** | Supertrend — Bullish Flip | 96.7 | 100.0% |
 | 🟢 BULLISH | **XBI** | Fisher Transform — Low Extreme | 85.2 | 76.2% |
 | 🟢 BULLISH | **APP** | MFI — Oversold | 85.0 | 100.0% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 82.6 | 76.0% |
-| 🟢 BULLISH | **AVGO** | EMA 9/21 — Bullish Cross | 80.0 | 75.0% |
-| 🟢 BULLISH | **CEG** | Awesome Oscillator — Bullish Zero Line | 80.0 | 77.8% |
-| 🟢 BULLISH | **MARA** | MACD Bullish Crossover | 80.0 | 66.7% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 82.1 | 76.0% |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 80.1 | 70.0% |
 | 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.1% |
+| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 78.2 | 73.0% |
 | 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 77.3 | 63.6% |
-| 🟢 BULLISH | **AMD** | Awesome Oscillator — Bullish Zero Line | 77.0 | 57.1% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.6 | 69.5% |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.8 | 69.5% |
 | 🟢 BULLISH | **SPY** | Williams %R — Oversold | 76.4 | 65.9% |
+| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 75.9 | 67.3% |
+| 🟢 BULLISH | **GOOGL** | Keltner — Lower Channel Touch | 74.9 | 64.7% |
+| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 73.8 | 67.7% |
 
 ## Latest News
 
-- [NextEra Energy Q2 earnings preview: Key checkpoint for backlog growth & capex](https://seekingalpha.com/news/4617377-nextera-energy-q2-earnings-preview-key-checkpoint-for-backlog-growth-capex?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Harley-Davidson Q2 bike sales fall short of expectations](https://seekingalpha.com/news/4617457-harley-davidson-q2-bike-sales-fall-short-of-expectations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Analysis-US Treasury bill issuance grows, heightens long-term risk](https://www.investing.com/news/economy-news/analysisus-treasury-bill-issuance-grows-heightens-longterm-risk-4809404) — *Investing.com*
-- [US judge to weigh New York Times subpoenas over Trump plane reporting](https://www.investing.com/news/stock-market-news/us-judge-to-weigh-new-york-times-subpoenas-over-trump-plane-reporting-4808063) — *Investing.com*
-- [Roblox stock may move 14% on July 30 earnings report](https://www.investing.com/news/stock-market-news/roblox-stock-may-move-14-on-july-30-earnings-report-93CH-4809403) — *Investing.com*
-- [US trade chief Greer aiming for ’interim arrangements’ on USMCA by year end](https://www.investing.com/news/economy-news/us-trade-chief-greer-aiming-for-interim-arrangements-on-usmca-by-year-end-4806652) — *Investing.com*
-- [Character Group completes sale of Infinity House for £9.8m](https://www.investing.com/news/company-news/character-group-completes-sale-of-infinity-house-for-98m-93CH-4809402) — *Investing.com*
-- [Capri Holdings stock hits 52-week low at 15.52 USD](https://www.investing.com/news/company-news/capri-holdings-stock-hits-52week-low-at-1552-usd-93CH-4809401) — *Investing.com*
-- [Poultry firm recalls nearly 1.6 million dozen eggs over potential salmonella, US FDA says](https://www.investing.com/news/stock-market-news/poultry-firm-recalls-nearly-16-million-dozen-eggs-over-potential-salmonella-us-fda-says-4807572) — *Investing.com*
-- [South Africa’s rand falls after central bank holds rates](https://www.investing.com/news/forex-news/south-africas-rand-falls-after-central-bank-holds-rates-93CH-4809400) — *Investing.com*
+- [Treasury yields retreat, 10-year hovers around January 2025 highs](https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html) — *CNBC Markets*
+- [Ventas Inc stock hits all-time high of 99.84 USD](https://www.investing.com/news/company-news/ventas-inc-stock-hits-alltime-high-of-9984-usd-93CH-4812071) — *Investing.com*
+- [Datavault AI names Frank Deo CTO of Acoustic Sciences unit](https://www.investing.com/news/company-news/datavault-ai-names-frank-deo-cto-of-acoustic-sciences-unit-93CH-4812070) — *Investing.com*
+- [Amazon CapEx outlook ahead of July 30 earnings and the AI infrastructure race](https://www.investing.com/news/stock-market-news/amazon-capex-outlook-ahead-of-july-30-earnings-and-the-ai-infrastructure-race-93CH-4812069) — *Investing.com*
+- [Earnings call transcript: Lamb Weston tops Q4 2026 estimates as volume rises](https://www.investing.com/news/transcripts/earnings-call-transcript-lamb-weston-tops-q4-2026-estimates-as-volume-rises-93CH-4812068) — *Investing.com*
+- [Form 144 STATE STREET CORP For: 24 July](https://www.investing.com/news/filings/form-144-state-street-corp-for-24-july-93CH-4812067) — *Investing.com*
+- [‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?](https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories) — *MarketWatch*
+- [UBS lowers T-Mobile stock price target to $235 on valuation](https://www.investing.com/news/analyst-ratings/ubs-lowers-tmobile-stock-price-target-to-235-on-valuation-93CH-4812066) — *Investing.com*
+- [Central Pacific Financial declares $0.30 dividend](https://seekingalpha.com/news/4618181-central-pacific-financial-declares-0_30-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Earnings call transcript: The Hartford beats Q2 2026 estimates, shares fall](https://www.investing.com/news/transcripts/earnings-call-transcript-the-hartford-beats-q2-2026-estimates-shares-fall-93CH-4812065) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
