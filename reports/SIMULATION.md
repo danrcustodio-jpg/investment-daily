@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 77** &nbsp;·&nbsp; Updated: Jul 24 2026 02:21 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 77** &nbsp;·&nbsp; Updated: Jul 24 2026 02:46 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.82%** &nbsp; ($+3,522) |
-| SPY Benchmark | +4.33% &nbsp; ($+8,390 if 100% SPY) |
-| Alpha vs SPY | **-2.51%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.30% &nbsp; ($+8,349 if 100% SPY) |
+| Alpha vs SPY | **-2.49%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,522 |
 
@@ -75,15 +75,16 @@
 | 2026-07-21 | 📈 +1.70% | +5.72% | ❌ -4.02% |
 | 2026-07-22 | 📈 +1.79% | +5.60% | ❌ -3.81% |
 | 2026-07-23 | 📈 +1.80% | +4.29% | ❌ -2.49% |
+| 2026-07-24 | 📈 +1.81% | +4.30% | ❌ -2.49% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 24 2026 02:21 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 24 2026 02:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.25%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.26%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Keltner — Lower Channel Touch — Score 74.9, Win Rate 64.7%, Avg 5d Return 1.88%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — APP
@@ -94,7 +95,7 @@ _Evaluated Jul 24 2026 02:21 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.25%, Max Drawdown -20.1%, Sharpe 3.43. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.26%, Max Drawdown -20.1%, Sharpe 3.44. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 

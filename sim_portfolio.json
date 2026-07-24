@@ -519,6 +519,15 @@
       "prices": {
         "SPY": 738.1799926757812
       }
+    },
+    {
+      "date": "2026-07-24",
+      "total_value": 197521.99,
+      "portfolio_pnl": 1.815,
+      "benchmark_pnl": 4.304,
+      "prices": {
+        "SPY": 738.25
+      }
     }
   ],
   "recommendations": [
@@ -535,7 +544,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.8, Win Rate 69.5%, Avg 5d Return 4.25%, Max Drawdown -20.1%, Sharpe 3.43. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.8, Win Rate 69.5%, Avg 5d Return 4.26%, Max Drawdown -20.1%, Sharpe 3.44. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -550,7 +559,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-24T14:21:33.659197",
+  "recommendations_updated": "2026-07-24T14:46:24.328856",
   "trade_log": [
     {
       "action": "SELL",
