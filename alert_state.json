@@ -180,14 +180,14 @@
       "last_change_at": "2026-07-23T15:03:10.493660+00:00"
     },
     "AMD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:41.318822+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716404+00:00"
+      "last_change_at": "2026-07-24T19:19:04.606721+00:00"
     },
     "AMZN": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:41.431261+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716471+00:00"
+      "last_change_at": "2026-07-24T19:19:04.606819+00:00"
     },
     "APP": {
       "cadence_min": 15,
@@ -230,9 +230,9 @@
       "last_change_at": "2026-07-23T18:08:18.226995+00:00"
     },
     "PLTR": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:45.400787+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716798+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607208+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -240,9 +240,9 @@
       "last_change_at": "2026-07-23T15:03:10.494553+00:00"
     },
     "RIOT": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-07-24T17:57:45.688629+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716833+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607264+00:00"
     },
     "RKLB": {
       "cadence_min": 1440,
@@ -255,9 +255,9 @@
       "last_change_at": "2026-07-24T14:45:45.943361+00:00"
     },
     "SOXL": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-07-24T17:57:46.379263+00:00",
-      "last_change_at": "2026-07-23T15:03:10.494956+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607323+00:00"
     },
     "TQQQ": {
       "cadence_min": 15,
@@ -265,9 +265,9 @@
       "last_change_at": "2026-07-23T15:03:10.495041+00:00"
     },
     "TSLA": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:46.783629+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716872+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607381+00:00"
     },
     "XBI": {
       "cadence_min": 15,
@@ -305,9 +305,9 @@
       "last_change_at": "2026-07-17T19:59:05.494623+00:00"
     },
     "BCH-USD": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-07-24T17:57:42.439523+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716575+00:00"
+      "last_change_at": "2026-07-24T19:19:04.606930+00:00"
     },
     "ETH-USD": {
       "cadence_min": 1440,
@@ -315,9 +315,9 @@
       "last_change_at": "2026-07-08T15:10:33.846875+00:00"
     },
     "IWM": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-07-24T17:57:44.208732+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716672+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607077+00:00"
     },
     "ATOM-USD": {
       "cadence_min": 15,
@@ -330,14 +330,14 @@
       "last_change_at": "2026-07-09T15:53:18.013203+00:00"
     },
     "CEG": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:42.750660+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716625+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607006+00:00"
     },
     "MARA": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-07-24T17:57:44.496204+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716714+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607143+00:00"
     },
     "XLE": {
       "cadence_min": 1440,
@@ -365,9 +365,9 @@
       "last_change_at": "2026-07-22T14:57:39.876843+00:00"
     },
     "UPRO": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-07-24T17:57:46.908791+00:00",
-      "last_change_at": "2026-07-24T17:57:40.716905+00:00"
+      "last_change_at": "2026-07-24T19:19:04.607435+00:00"
     },
     "CRWD": {
       "cadence_min": 1440,
