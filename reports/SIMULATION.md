@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 77** &nbsp;·&nbsp; Updated: Jul 24 2026 09:57 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 78** &nbsp;·&nbsp; Updated: Jul 25 2026 02:10 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.82%** &nbsp; ($+3,522) |
+| Portfolio P&L | **+1.83%** &nbsp; ($+3,546) |
 | SPY Benchmark | +4.40% &nbsp; ($+8,535 if 100% SPY) |
-| Alpha vs SPY | **-2.58%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-2.57%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,522 |
+| Current Value | $197,546 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,857 | +0.95% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,882 | +0.96% |
 
 ## Daily Equity Curve
 
@@ -79,29 +79,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 24 2026 09:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 25 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.26%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Keltner — Lower Channel Touch — Score 78.1, Win Rate 66.7%, Avg 5d Return 2.04%, Max Drawd… |
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 49.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.2, Win Rate 84.2%, Avg 5d Return 4.58%, Max Drawdown -22.13%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 79.3, Win Rate 68.0%, Avg 5d Return 0.89%, Max Drawdown -27… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 86.4, Win Rate 86.4%, Avg 5d Return 3.9%, Max Drawdown -2.61%, Sharpe… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.8, Win Rate 69.5%, Avg 5d Return 4.26%, Max Drawdown -20.1%, Sharpe 3.45. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 83.2, Win Rate 84.2%, Avg 5d Return 4.58%, Max Drawdown -22.13%, Sharpe 4.28. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
+### 🔍 NEW OPPORTUNITY — GC=F
+
+**Signal Analysis:** CCI — Extreme Oversold — Score 79.3, Win Rate 68.0%, Avg 5d Return 0.89%, Max Drawdown -27.37%, Sharpe 2.42. 1 minor bearish signal(s), max confidence 62.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 78.1, Win Rate 66.7%, Avg 5d Return 2.04%, Max Drawdown -20.69%, Sharpe 2.87. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 86.4, Win Rate 86.4%, Avg 5d Return 3.9%, Max Drawdown -2.61%, Sharpe 7.38. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 

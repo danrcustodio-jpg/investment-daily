@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, July 24, 2026
-Generated at 02:21 PM
+# Daily Newsletter — Saturday, July 25, 2026
+Generated at 02:10 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 105 total &nbsp;·&nbsp; 🟢 74 Bullish &nbsp;·&nbsp; 🔴 31 Bearish
+**Strategy Signals:** 15 total &nbsp;·&nbsp; 🟢 13 Bullish &nbsp;·&nbsp; 🔴 2 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SOL-USD** | Solana | $74.02 | 📉 -2.43% |
-| **CL=F** | Crude Oil | $90.08 | 📉 -2.29% |
-| **BTC-USD** | Bitcoin | $63971.02 | 📉 -1.65% |
-| **ETH-USD** | Ethereum | $1854.40 | 📉 -1.21% |
-| **XLK** | Tech (XLK) | $176.30 | 📉 -1.20% |
-| **SI=F** | Silver | $58.46 | 📈 +1.15% |
-| **XLE** | Energy (XLE) | $59.95 | 📈 +0.96% |
-| **XLV** | Healthcare (XLV) | $162.49 | 📈 +0.65% |
-| **NG=F** | Natural Gas | $2.93 | 📈 +0.62% |
-| **^TNX** | 10-Year Treasury Yield | $4.68 | 📉 -0.51% |
+| **^VIX** | VIX (Fear Index) | $18.70 | 📈 +12.38% |
+| **XLY** | Consumer Disc. (XLY) | $108.76 | 📉 -4.61% |
+| **CL=F** | Crude Oil | $89.31 | 📉 -3.12% |
+| **^IXIC** | NASDAQ | $25137.69 | 📉 -2.15% |
+| **XLI** | Industrials (XLI) | $181.94 | 📈 +1.73% |
+| **NG=F** | Natural Gas | $2.87 | 📉 -1.54% |
+| **SI=F** | Silver | $58.66 | 📈 +1.48% |
+| **^IRX** | 3-Month T-Bill | $3.80 | 📈 +1.47% |
+| **XLV** | Healthcare (XLV) | $161.44 | 📈 +1.26% |
+| **^GSPC** | S&P 500 | $7408.30 | 📉 -1.21% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **XBI** | Fisher Transform — Low Extreme | 85.2 | 76.2% |
-| 🟢 BULLISH | **APP** | MFI — Oversold | 85.0 | 100.0% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 82.1 | 76.0% |
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 80.1 | 70.0% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.1% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 78.2 | 73.0% |
-| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 77.3 | 63.6% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.8 | 69.5% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 76.4 | 65.9% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 75.9 | 67.3% |
-| 🟢 BULLISH | **GOOGL** | Keltner — Lower Channel Touch | 74.9 | 64.7% |
-| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 73.8 | 67.7% |
+| 🟢 BULLISH | **GOOGL** | RSI Oversold | 86.4 | 86.4% |
+| 🟢 BULLISH | **ATOM-USD** | MFI — Oversold | 83.2 | 84.2% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.0% |
+| 🟢 BULLISH | **ATOM-USD** | RSI Oversold | 79.1 | 71.0% |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 77.7 | 71.9% |
+| 🟢 BULLISH | **AERO-USD** | Williams %R — Oversold | 69.8 | 54.6% |
+| 🟢 BULLISH | **CRWD** | Stochastic RSI Oversold | 66.2 | 58.4% |
+| 🟢 BULLISH | **ATOM-USD** | Fisher Transform — Low Extreme | 60.5 | 61.0% |
+| 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 60.3 | 53.4% |
+| 🟢 BULLISH | **GOOGL** | Stochastic RSI Oversold | 54.5 | 57.5% |
+| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 53.4 | 64.2% |
+| 🟢 BULLISH | **NEAR-USD** | Williams %R — Oversold | 48.7 | 55.4% |
 
 ## Latest News
 
-- [Treasury yields retreat, 10-year hovers around January 2025 highs](https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html) — *CNBC Markets*
-- [Ventas Inc stock hits all-time high of 99.84 USD](https://www.investing.com/news/company-news/ventas-inc-stock-hits-alltime-high-of-9984-usd-93CH-4812071) — *Investing.com*
-- [Datavault AI names Frank Deo CTO of Acoustic Sciences unit](https://www.investing.com/news/company-news/datavault-ai-names-frank-deo-cto-of-acoustic-sciences-unit-93CH-4812070) — *Investing.com*
-- [Amazon CapEx outlook ahead of July 30 earnings and the AI infrastructure race](https://www.investing.com/news/stock-market-news/amazon-capex-outlook-ahead-of-july-30-earnings-and-the-ai-infrastructure-race-93CH-4812069) — *Investing.com*
-- [Earnings call transcript: Lamb Weston tops Q4 2026 estimates as volume rises](https://www.investing.com/news/transcripts/earnings-call-transcript-lamb-weston-tops-q4-2026-estimates-as-volume-rises-93CH-4812068) — *Investing.com*
-- [Form 144 STATE STREET CORP For: 24 July](https://www.investing.com/news/filings/form-144-state-street-corp-for-24-july-93CH-4812067) — *Investing.com*
-- [‘I’m still confused’: I sold $80,000 in shares on June 30, so why didn’t I receive my dividend?](https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories) — *MarketWatch*
-- [UBS lowers T-Mobile stock price target to $235 on valuation](https://www.investing.com/news/analyst-ratings/ubs-lowers-tmobile-stock-price-target-to-235-on-valuation-93CH-4812066) — *Investing.com*
-- [Central Pacific Financial declares $0.30 dividend](https://seekingalpha.com/news/4618181-central-pacific-financial-declares-0_30-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Earnings call transcript: The Hartford beats Q2 2026 estimates, shares fall](https://www.investing.com/news/transcripts/earnings-call-transcript-the-hartford-beats-q2-2026-estimates-shares-fall-93CH-4812065) — *Investing.com*
+- [Are 7% mortgage rates next? The Treasury market is flashing a warning sign for home buyers.](https://www.marketwatch.com/story/the-treasury-market-is-flashing-a-warning-sign-for-home-buyers-are-7-mortgage-rates-next-58b5b3b1?mod=mw_rss_topstories) — *MarketWatch*
+- [IDFC FIRST Bank Q1 FY27 slides: profit crosses Rs. 1,000 crore milestone](https://www.investing.com/news/company-news/idfc-first-bank-q1-fy27-slides-profit-crosses-rs-1000-crore-milestone-93CH-4812792) — *Investing.com*
+- [Notable tech headlines for the week: Alphabet, Intel, AMD in focus](https://seekingalpha.com/news/4618374-notable-tech-headlines-for-the-week-alphabet-intel-amd-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation](https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html) — *CNBC Markets*
+- [Financial stocks win on fund inflows; Hut 8, Iren among gainers; Canadian banks, AmEx in losers](https://seekingalpha.com/news/4618326-financial-stocks-win-on-fund-inflows-hut-8-iren-among-gainers-canadian-banks-amex-in-losers?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Attack on holiday camp kills 11, says governor of Russian-held territory in Ukraine](https://www.investing.com/news/world-news/attack-on-holiday-camps-kills-eight-says-governor-of-russianheld-territory-in-ukraine-4812758) — *Investing.com*
+- [Israel kills senior Hamas-led police official in Gaza, medics and police officials say](https://www.investing.com/news/world-news/israel-kills-senior-hamasled-police-official-in-gaza-medics-and-police-officials-say-4812784) — *Investing.com*
+- [This ETF Has More Than Doubled the S&P 500's Returns This Year, but Be Aware of This One Issue It Could Face in the Second Half of the Year.](https://finance.yahoo.com/markets/stocks/articles/etf-more-doubled-p-500s-135400323.html) — *Yahoo Finance*
+- [Your retirement math may have a surprising flaw](https://www.marketwatch.com/story/your-retirement-math-may-have-a-surprising-flaw-2d8f58d8?mod=mw_rss_topstories) — *MarketWatch*
+- [Data Centers — Not Iran — Are Fueling the U.S.’s Coming Energy Crisis](https://finance.yahoo.com/energy/articles/data-centers-not-iran-fueling-134421519.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*
