@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 80** &nbsp;·&nbsp; Updated: Jul 27 2026 08:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 80** &nbsp;·&nbsp; Updated: Jul 27 2026 09:57 PM
 
 ## Performance Summary
 
@@ -80,29 +80,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 27 2026 08:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 27 2026 09:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.7%, Avg 5d Return 4.48%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 81.8, Win Rate 72.2%, Avg 5d Return 3.42%, Max Drawdown -8.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.7%, Avg 5d Return 4.47%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 49.4.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 48.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.7%, Avg 5d Return 4.48%, Max Drawdown -16.68%, Sharpe 3.69. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 77.2, Win Rate 70.7%, Avg 5d Return 4.47%, Max Drawdown -17.03%, Sharpe 3.68. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** MACD Bullish Crossover — Score 81.8, Win Rate 72.2%, Avg 5d Return 3.42%, Max Drawdown -8.82%, Sharpe 3.97. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23.33%, Sharpe 3.62. 1 minor bearish signal(s), max confidence 45.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
