@@ -533,33 +533,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "APP",
+      "priority": "high",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 2 minor bearish signal(s), max confidence 55.8.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 79.1, Win Rate 71.0%, Avg 5d Return 5.41%, Max Drawdown -14.42%, Sharpe 4.04. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 77.2, Win Rate 70.7%, Avg 5d Return 4.49%, Max Drawdown -16.68%, Sharpe 3.7. 1 minor bearish signal(s), max confidence 66.6.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GC=F",
+      "ticker": "XLK",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 82.7, Win Rate 73.7%, Avg 5d Return 1.08%, Max Drawdown -4.9%, Sharpe 2.44. 1 minor bearish signal(s), max confidence 62.2.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
-      "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 86.4, Win Rate 86.4%, Avg 5d Return 3.9%, Max Drawdown -2.61%, Sharpe 7.38. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23.33%, Sharpe 3.62. 1 minor bearish signal(s), max confidence 45.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-26T14:09:44.015412",
+  "recommendations_updated": "2026-07-27T15:25:20.584062",
   "trade_log": [
     {
       "action": "SELL",
