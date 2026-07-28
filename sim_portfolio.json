@@ -562,7 +562,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "ATOM-USD",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.6, Win Rate 67.9%, Avg 5d Return 4.1%, Max Drawdown -25.46%, Sharpe 3.25. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.6, Win Rate 67.9%, Avg 5d Return 4.09%, Max Drawdown -25.69%, Sharpe 3.24. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -577,7 +577,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-28T21:05:45.647989",
+  "recommendations_updated": "2026-07-28T22:32:13.262816",
   "trade_log": [
     {
       "action": "SELL",
