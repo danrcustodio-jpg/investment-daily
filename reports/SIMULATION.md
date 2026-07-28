@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 81** &nbsp;·&nbsp; Updated: Jul 28 2026 07:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 81** &nbsp;·&nbsp; Updated: Jul 28 2026 09:05 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.87%** &nbsp; ($+3,618) |
-| SPY Benchmark | +4.72% &nbsp; ($+9,151 if 100% SPY) |
-| Alpha vs SPY | **-2.85%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.67% &nbsp; ($+9,064 if 100% SPY) |
+| Alpha vs SPY | **-2.81%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,618 |
 
@@ -77,27 +77,27 @@
 | 2026-07-23 | 📈 +1.80% | +4.29% | ❌ -2.49% |
 | 2026-07-24 | 📈 +1.81% | +4.40% | ❌ -2.59% |
 | 2026-07-27 | 📈 +1.85% | +4.42% | ❌ -2.57% |
-| 2026-07-28 | 📈 +1.86% | +4.72% | ❌ -2.85% |
+| 2026-07-28 | 📈 +1.86% | +4.67% | ❌ -2.81% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 28 2026 07:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 28 2026 09:05 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 80.4, Win Rate 73.1%, Avg 5d Return 6.89%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 67.9%, Avg 5d Return 4.09%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 76.6, Win Rate 67.9%, Avg 5d Return 4.1%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 80.4, Win Rate 73.1%, Avg 5d Return 6.89%, Max Drawdown -30.86%, Sharpe 4.51. 1 minor bearish signal(s), max confidence 47.8.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 80.4, Win Rate 73.1%, Avg 5d Return 6.89%, Max Drawdown -30.86%, Sharpe 4.5. 1 minor bearish signal(s), max confidence 47.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.6, Win Rate 67.9%, Avg 5d Return 4.09%, Max Drawdown -25.69%, Sharpe 3.24. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.6, Win Rate 67.9%, Avg 5d Return 4.1%, Max Drawdown -25.46%, Sharpe 3.25. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
