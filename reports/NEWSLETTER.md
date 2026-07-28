@@ -1,24 +1,24 @@
-# Daily Newsletter — Monday, July 27, 2026
-Generated at 03:25 PM
+# Daily Newsletter — Tuesday, July 28, 2026
+Generated at 03:00 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 109 total &nbsp;·&nbsp; 🟢 85 Bullish &nbsp;·&nbsp; 🔴 24 Bearish
+**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 90 Bullish &nbsp;·&nbsp; 🔴 36 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $83.22 | 📉 -6.82% |
-| **NG=F** | Natural Gas | $2.79 | 📉 -2.96% |
-| **^VIX** | VIX (Fear Index) | $18.99 | 📈 +2.21% |
-| **SOL-USD** | Solana | $75.25 | 📉 -1.77% |
-| **XLK** | Tech (XLK) | $172.85 | 📉 -1.72% |
-| **XLE** | Energy (XLE) | $58.62 | 📉 -1.69% |
-| **ETH-USD** | Ethereum | $1928.10 | 📉 -1.30% |
-| **BTC-USD** | Bitcoin | $64537.89 | 📉 -1.23% |
-| **XLY** | Consumer Disc. (XLY) | $110.68 | 📈 +1.16% |
-| **XLV** | Healthcare (XLV) | $164.23 | 📈 +1.02% |
+| **XLV** | Healthcare (XLV) | $167.56 | 📈 +2.55% |
+| **XLK** | Tech (XLK) | $169.89 | 📉 -2.53% |
+| **NG=F** | Natural Gas | $2.70 | 📉 -2.31% |
+| **SI=F** | Silver | $57.35 | 📉 -1.93% |
+| **CL=F** | Crude Oil | $81.47 | 📉 -1.38% |
+| **GC=F** | Gold | $4027.30 | 📉 -1.16% |
+| **SOL-USD** | Solana | $73.37 | 📉 -1.04% |
+| **XLY** | Consumer Disc. (XLY) | $111.79 | 📈 +0.86% |
+| **XLI** | Industrials (XLI) | $181.71 | 📉 -0.81% |
+| **^VIX** | VIX (Fear Index) | $18.53 | 📉 -0.75% |
 
 ## Top Strategy Signals
 
@@ -28,27 +28,27 @@ Generated at 03:25 PM
 | 🟢 BULLISH | **APP** | MFI — Oversold | 85.0 | 100.0% |
 | 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.5 | 77.6% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.6% |
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 82.7 | 73.7% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 81.6 | 76.0% |
 | 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 80.5 | 73.9% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.2% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 77.2 | 70.7% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 76.2 | 67.9% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 75.5 | 71.1% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 75.3 | 64.3% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 80.4 | 73.1% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.0 | 68.0% |
+| 🟢 BULLISH | **TQQQ** | Fisher Transform — Low Extreme | 76.9 | 77.8% |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.6 | 67.9% |
+| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 76.4 | 71.1% |
+| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 75.4 | 64.3% |
+| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 75.3 | 66.1% |
 
 ## Latest News
 
-- [Sam Altman to meet with Trump administration, senators this week. Here's what he plans to say](https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html) — *CNBC Markets*
-- [The AI boom shows no sign of slowing — and the U.S. economy is reaping the benefits](https://www.marketwatch.com/story/the-ai-boom-shows-no-sign-of-slowing-and-the-u-s-economy-is-reaping-the-benefits-1728c4e5?mod=mw_rss_topstories) — *MarketWatch*
-- [Rigetti partners with HPE to build hybrid quantum-classical supercomputer](https://seekingalpha.com/news/4618814-rigetti-partners-with-hpe-to-build-hybrid-quantum-classical-supercomputer?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [WestBridge begins process to exit Star Health stake – report](https://finance.yahoo.com/healthcare/articles/westbridge-begins-process-exit-star-152003850.html) — *Yahoo Finance*
-- [Emerson adds AI agents to Ovation automation platform for power, water utilities](https://seekingalpha.com/news/4618830-emerson-adds-ai-agents-to-ovation-automation-platform-for-power-water-utilities?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Ford heads into Q2 earnings after double-digit sales decline](https://seekingalpha.com/news/4618751-ford-heads-into-q2-earnings-after-double-digit-sales-decline?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Biggest stock movers Monday: QBTS, FBRX, MPLT, and more](https://seekingalpha.com/news/4618581-biggest-stock-movers-monday-avgo-fbrx-oil-companies-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Foxconn subsidiary to acquire Maxnerva shares, launch tender offer](https://www.investing.com/news/company-news/foxconn-subsidiary-to-acquire-maxnerva-shares-launch-tender-offer-93CH-4814681) — *Investing.com*
-- [Earnings call transcript: Vodacom lifts outlook in Q1 2026 as Safaricom deal reshapes growth](https://www.investing.com/news/transcripts/earnings-call-transcript-vodacom-lifts-outlook-in-q1-2026-as-safaricom-deal-reshapes-growth-93CH-4814682) — *Investing.com*
-- [Lightbridge jumps on fuel supply deal with Quadrant Nuclear](https://seekingalpha.com/news/4618826-lightbridge-jumps-on-fuel-supply-deal-with-quadrant-nuclear?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide](https://www.cnbc.com/2026/07/28/trump-zelenskyy-ukraine-russia-iran-war.html) — *CNBC Markets*
+- [Starbucks Q3 earnings on deck: What to expect](https://seekingalpha.com/news/4619398-starbucks-q3-earnings-on-deck-what-to-expect?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [ICON plc rises after Anthropic deal, Iqvia earnings](https://seekingalpha.com/news/4619454-icon-plc-stock-rises-anthropic-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [How the Maradona theory is moving the markets – Wells Fargo Investment Institute](https://seekingalpha.com/news/4619455-how-the-maradona-theory-is-moving-the-markets-wells-fargo-investment-institute?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [AI memory, chip stocks routed amid Korea's Kospi, Japan's Nikkei slump](https://seekingalpha.com/news/4619168-ai-memory-chip-stocks-fall-after-koreas-kospi-japans-nikkei-slump?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'](https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html) — *CNBC Markets*
+- [Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off](https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html) — *CNBC Markets*
+- [New Republican ads slam Democrats opposed to Trump's tariffs](https://www.cnbc.com/2026/07/28/trump-tariffs-trade-election-advertising.html) — *CNBC Markets*
+- [How Corning (GLW) is Shaping Data Center Technology from Copper to Fiber](https://finance.yahoo.com/markets/stocks/articles/corning-glw-shaping-data-center-144744173.html) — *Yahoo Finance*
+- [PayPal delivers an earnings beat — and suggests it’s not against a merger deal](https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*
