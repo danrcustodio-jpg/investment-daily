@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 81** &nbsp;·&nbsp; Updated: Jul 28 2026 03:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 81** &nbsp;·&nbsp; Updated: Jul 28 2026 03:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.87%** &nbsp; ($+3,618) |
-| SPY Benchmark | +4.39% &nbsp; ($+8,516 if 100% SPY) |
-| Alpha vs SPY | **-2.52%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.45% &nbsp; ($+8,628 if 100% SPY) |
+| Alpha vs SPY | **-2.58%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,618 |
 
@@ -77,10 +77,11 @@
 | 2026-07-23 | 📈 +1.80% | +4.29% | ❌ -2.49% |
 | 2026-07-24 | 📈 +1.81% | +4.40% | ❌ -2.59% |
 | 2026-07-27 | 📈 +1.85% | +4.42% | ❌ -2.57% |
+| 2026-07-28 | 📈 +1.86% | +4.45% | ❌ -2.58% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 28 2026 03:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 28 2026 03:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -90,7 +91,7 @@ _Evaluated Jul 28 2026 03:00 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 47.6.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 47.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 

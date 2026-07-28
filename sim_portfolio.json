@@ -537,6 +537,15 @@
       "prices": {
         "SPY": 739.0900268554688
       }
+    },
+    {
+      "date": "2026-07-28",
+      "total_value": 197618.48,
+      "portfolio_pnl": 1.865,
+      "benchmark_pnl": 4.45,
+      "prices": {
+        "SPY": 739.2899780273438
+      }
     }
   ],
   "recommendations": [
@@ -544,7 +553,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 47.6.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 1 minor bearish signal(s), max confidence 47.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -568,7 +577,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-28T15:00:32.542716",
+  "recommendations_updated": "2026-07-28T15:13:44.526878",
   "trade_log": [
     {
       "action": "SELL",
