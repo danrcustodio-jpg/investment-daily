@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, July 28, 2026
-Generated at 03:00 PM
+# Daily Newsletter — Wednesday, July 29, 2026
+Generated at 02:43 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 90 Bullish &nbsp;·&nbsp; 🔴 36 Bearish
+**Strategy Signals:** 131 total &nbsp;·&nbsp; 🟢 97 Bullish &nbsp;·&nbsp; 🔴 34 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **XLV** | Healthcare (XLV) | $167.56 | 📈 +2.55% |
-| **XLK** | Tech (XLK) | $169.89 | 📉 -2.53% |
-| **NG=F** | Natural Gas | $2.70 | 📉 -2.31% |
-| **SI=F** | Silver | $57.35 | 📉 -1.93% |
-| **CL=F** | Crude Oil | $81.47 | 📉 -1.38% |
-| **GC=F** | Gold | $4027.30 | 📉 -1.16% |
-| **SOL-USD** | Solana | $73.37 | 📉 -1.04% |
-| **XLY** | Consumer Disc. (XLY) | $111.79 | 📈 +0.86% |
-| **XLI** | Industrials (XLI) | $181.71 | 📉 -0.81% |
-| **^VIX** | VIX (Fear Index) | $18.53 | 📉 -0.75% |
+| **^VIX** | VIX (Fear Index) | $19.85 | 📈 +9.01% |
+| **CL=F** | Crude Oil | $85.00 | 📈 +7.24% |
+| **XLE** | Energy (XLE) | $59.21 | 📈 +2.85% |
+| **XLI** | Industrials (XLI) | $178.09 | 📉 -2.41% |
+| **NG=F** | Natural Gas | $2.72 | 📈 +2.25% |
+| **XLK** | Tech (XLK) | $168.03 | 📉 -1.79% |
+| **^DJI** | Dow Jones | $51889.76 | 📉 -1.63% |
+| **ETH-USD** | Ethereum | $1890.46 | 📉 -1.54% |
+| **^IXIC** | NASDAQ | $24572.72 | 📉 -1.22% |
+| **^RUT** | Russell 2000 | $2920.50 | 📉 -1.13% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.3 | 80.0% |
-| 🟢 BULLISH | **APP** | MFI — Oversold | 85.0 | 100.0% |
+| 🟢 BULLISH | **XBI** | Fisher Transform — Low Extreme | 85.2 | 76.2% |
 | 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.5 | 77.6% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.6% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 84.0 | 75.7% |
+| 🟢 BULLISH | **ATOM-USD** | MFI — Oversold | 83.2 | 84.2% |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 82.7 | 73.7% |
 | 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 80.5 | 73.9% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 80.4 | 73.1% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.0 | 68.0% |
+| 🟢 BULLISH | **META** | Fisher Transform — Low Extreme | 78.8 | 67.6% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 78.6 | 67.7% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 77.1 | 67.5% |
 | 🟢 BULLISH | **TQQQ** | Fisher Transform — Low Extreme | 76.9 | 77.8% |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 76.6 | 67.9% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 76.4 | 71.1% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 75.4 | 64.3% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 75.3 | 66.1% |
 
 ## Latest News
 
-- [Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide](https://www.cnbc.com/2026/07/28/trump-zelenskyy-ukraine-russia-iran-war.html) — *CNBC Markets*
-- [Starbucks Q3 earnings on deck: What to expect](https://seekingalpha.com/news/4619398-starbucks-q3-earnings-on-deck-what-to-expect?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [ICON plc rises after Anthropic deal, Iqvia earnings](https://seekingalpha.com/news/4619454-icon-plc-stock-rises-anthropic-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [How the Maradona theory is moving the markets – Wells Fargo Investment Institute](https://seekingalpha.com/news/4619455-how-the-maradona-theory-is-moving-the-markets-wells-fargo-investment-institute?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [AI memory, chip stocks routed amid Korea's Kospi, Japan's Nikkei slump](https://seekingalpha.com/news/4619168-ai-memory-chip-stocks-fall-after-koreas-kospi-japans-nikkei-slump?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'](https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html) — *CNBC Markets*
-- [Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off](https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html) — *CNBC Markets*
-- [New Republican ads slam Democrats opposed to Trump's tariffs](https://www.cnbc.com/2026/07/28/trump-tariffs-trade-election-advertising.html) — *CNBC Markets*
-- [How Corning (GLW) is Shaping Data Center Technology from Copper to Fiber](https://finance.yahoo.com/markets/stocks/articles/corning-glw-shaping-data-center-144744173.html) — *Yahoo Finance*
-- [PayPal delivers an earnings beat — and suggests it’s not against a merger deal](https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories) — *MarketWatch*
+- [Potomac Bancshares Non-GAAP EPS of $0.80, revenue of $11.73M](https://seekingalpha.com/news/4620442-potomac-bancshares-non-gaap-eps-of-0_80-revenue-of-11_73m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [GFL Environmental gains on report of interest from at least six PE groups](https://seekingalpha.com/news/4620429-gfl-environmental-gains-on-report-of-interest-from-at-least-six-pe-groups?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Biggest stock movers Wednesday: F, CAR, TEVA, PSN, and more](https://seekingalpha.com/news/4620084-biggest-stock-movers-wednesday-f-car-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Baxter Q2 2026 Earnings Preview](https://seekingalpha.com/news/4620441-baxter-q2-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Sopra Steria Group SA GAAP EPS of €9.44, revenue of €2.95B](https://seekingalpha.com/news/4620440-sopra-steria-group-sa-gaap-eps-of-944-revenue-of-295b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Costco's Washington customers could get $500 as part of CEMA settlement](https://seekingalpha.com/news/4620434-costcos-washington-customers-could-get-500-as-part-of-cema-settlement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Strategy Q2 earnings test: Bitcoin weakness, EPS cuts put results at risk?](https://seekingalpha.com/news/4620419-strategy-q2-earnings-test-bitcoin-weakness-eps-cuts-put-results-at-risk?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Oil prices jump more than 7% after Trump says U.S. will hit Iran hard](https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html) — *CNBC Markets*
+- [Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong.](https://finance.yahoo.com/markets/article/semiconductor-stocks-are-going-up-in-smoke-but-the-sp-500-is-holding-strong-143223884.html) — *Yahoo Finance*
+- [Medicare is about to change a drug program that held down the cost of premiums. Here’s what to know.](https://www.marketwatch.com/story/medicare-is-about-to-change-a-program-that-held-down-the-cost-of-premiums-heres-what-to-know-42c0612e?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*
