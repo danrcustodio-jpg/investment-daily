@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 82** &nbsp;·&nbsp; Updated: Jul 29 2026 06:02 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 82** &nbsp;·&nbsp; Updated: Jul 29 2026 07:51 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.88%** &nbsp; ($+3,643) |
-| SPY Benchmark | +4.47% &nbsp; ($+8,681 if 100% SPY) |
-| Alpha vs SPY | **-2.60%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.29% &nbsp; ($+6,378 if 100% SPY) |
+| Alpha vs SPY | **-1.41%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,643 |
 
@@ -78,23 +78,17 @@
 | 2026-07-24 | 📈 +1.81% | +4.40% | ❌ -2.59% |
 | 2026-07-27 | 📈 +1.85% | +4.42% | ❌ -2.57% |
 | 2026-07-28 | 📈 +1.86% | +4.67% | ❌ -2.81% |
-| 2026-07-29 | 📈 +1.88% | +4.47% | ❌ -2.60% |
+| 2026-07-29 | 📈 +1.88% | +3.29% | ❌ -1.42% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 29 2026 06:02 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 29 2026 07:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.2, Win Rate 84.2%, Avg 5d Return 4.58%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23… |
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 12.18%, Max Drawdown 0.0%, Sharpe 7.54. 2 minor bearish signal(s), max confidence 55.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.3, Win Rate 80.0%, Avg 5d Return 4.52%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 2.19%, Max Drawdown 0.0%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -102,9 +96,15 @@ _Evaluated Jul 29 2026 06:02 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Williams %R — Oversold — Score 85.3, Win Rate 80.0%, Avg 5d Return 4.52%, Max Drawdown -19.07%, Sharpe 5.38. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23.33%, Sharpe 3.62. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 85.0, Win Rate 100.0%, Avg 5d Return 2.19%, Max Drawdown 0.0%, Sharpe 8.08. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
