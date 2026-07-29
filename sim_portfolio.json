@@ -551,9 +551,9 @@
       "date": "2026-07-29",
       "total_value": 197642.61,
       "portfolio_pnl": 1.878,
-      "benchmark_pnl": 3.87,
+      "benchmark_pnl": 3.578,
       "prices": {
-        "SPY": 735.1799926757812
+        "SPY": 733.114990234375
       }
     }
   ],
@@ -580,13 +580,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLK",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.5, Win Rate 77.6%, Avg 5d Return 2.23%, Max Drawdown -23.33%, Sharpe 3.62. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 85.0, Win Rate 100.0%, Avg 5d Return 2.19%, Max Drawdown 0.0%, Sharpe 8.08. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-29T15:06:23.152883",
+  "recommendations_updated": "2026-07-29T16:46:43.725948",
   "trade_log": [
     {
       "action": "SELL",
