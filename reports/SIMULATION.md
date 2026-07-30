@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 82** &nbsp;·&nbsp; Updated: Jul 29 2026 09:52 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 02:42 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.88%** &nbsp; ($+3,643) |
-| SPY Benchmark | +3.06% &nbsp; ($+5,940 if 100% SPY) |
-| Alpha vs SPY | **-1.18%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.89%** &nbsp; ($+3,667) |
+| SPY Benchmark | +4.39% &nbsp; ($+8,512 if 100% SPY) |
+| Alpha vs SPY | **-2.50%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,643 |
+| Current Value | $197,667 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+1,978 | +1.01% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,002 | +1.02% |
 
 ## Daily Equity Curve
 
@@ -82,29 +82,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 29 2026 09:52 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 30 2026 02:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 83.2, Win Rate 84.2%, Avg 5d Return 4.58%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.3, Win Rate 80.0%, Avg 5d Return 4.52%, Max Drawdown -19… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XLE** | Elder Force — Bullish — Score 64.9, Win Rate 71.9%, Avg 5d Return 0.68%, Max Drawdown -8.6… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.05%, Max Drawdown -22.13%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Fisher Transform — Low Extreme — Score 74.6, Win Rate 57.7%, Avg 5d Return 2.54%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Fisher Transform — Low Extreme — Score 76.9, Win Rate 77.8%, Avg 5d Return 4.73%, Max Draw… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** MFI — Oversold — Score 83.2, Win Rate 84.2%, Avg 5d Return 4.58%, Max Drawdown -22.13%, Sharpe 4.28. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.05%, Max Drawdown -22.13%, Sharpe 3.69. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.3, Win Rate 80.0%, Avg 5d Return 4.52%, Max Drawdown -19.07%, Sharpe 5.38. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 74.6, Win Rate 57.7%, Avg 5d Return 2.54%, Max Drawdown -15.18%, Sharpe 3.04. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Elder Force — Bullish — Score 64.9, Win Rate 71.9%, Avg 5d Return 0.68%, Max Drawdown -8.68%, Sharpe 1.55. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.9, Win Rate 77.8%, Avg 5d Return 4.73%, Max Drawdown -41.83%, Sharpe 2.76. 1 minor bearish signal(s), max confidence 62.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
