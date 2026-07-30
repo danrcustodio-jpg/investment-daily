@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 04:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 06:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.89%** &nbsp; ($+3,667) |
-| SPY Benchmark | +4.40% &nbsp; ($+8,535 if 100% SPY) |
-| Alpha vs SPY | **-2.51%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.58% &nbsp; ($+8,875 if 100% SPY) |
+| Alpha vs SPY | **-2.68%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,667 |
 
@@ -79,16 +79,16 @@
 | 2026-07-27 | 📈 +1.85% | +4.42% | ❌ -2.57% |
 | 2026-07-28 | 📈 +1.86% | +4.67% | ❌ -2.81% |
 | 2026-07-29 | 📈 +1.88% | +3.06% | ❌ -1.18% |
-| 2026-07-30 | 📈 +1.89% | +4.40% | ❌ -2.51% |
+| 2026-07-30 | 📈 +1.89% | +4.58% | ❌ -2.69% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 30 2026 04:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 30 2026 06:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 74.3, Win Rate 64.7%, Avg 5d Return 2.36%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.02%, Max Drawdown -22.13%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.01%, Max Drawdown -22.13%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Fisher Transform — Low Extreme — Score 74.6, Win Rate 57.7%, Avg 5d Return 2.54%, Max Draw… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
@@ -99,7 +99,7 @@ _Evaluated Jul 30 2026 04:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.02%, Max Drawdown -22.13%, Sharpe 3.63. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.01%, Max Drawdown -22.13%, Sharpe 3.62. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
