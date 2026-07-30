@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Thursday July 30, 2026 at 09:11 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday July 30, 2026 at 10:34 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 111 |
-| 🟢 Bullish | 78 |
-| 🔴 Bearish | 33 |
+| Total signals (confidence ≥ 45) | 108 |
+| 🟢 Bullish | 76 |
+| 🔴 Bearish | 32 |
 | 🔵 In cooldown (fired in last 6h) | 0 |
-| 🟡 Available to fire (not in cooldown) | 111 |
+| 🟡 Available to fire (not in cooldown) | 108 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -19,7 +19,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 |---|---|---|---|---|---|---|
 | 🟢 BULLISH | **XBI** | Fisher Transform — Low Extreme | 83.0 | 72.7% | -16.74% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.9 | 75.0% | -13.22% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 82.7 | 73.7% | -4.9% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.0 | 74.3% | -27.31% | 🟡 Available |
 | 🟢 BULLISH | **ATOM-USD** | MFI — Oversold | 81.5 | 80.0% | -22.13% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Parabolic SAR — Bullish | 81.1 | 66.7% | -4.58% | 🟡 Available |
@@ -29,7 +28,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **META** | Fisher Transform — Low Extreme | 78.8 | 67.6% | -10.65% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | Fisher Transform — Low Extreme | 76.9 | 77.8% | -41.83% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 76.4 | 71.1% | -26.69% | 🟡 Available |
-| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 75.6 | 64.9% | -36.66% | 🟡 Available |
+| 🟢 BULLISH | **ATOM-USD** | Keltner — Lower Channel Touch | 75.6 | 64.9% | -36.61% | 🟡 Available |
 | 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 74.3 | 64.7% | -29.59% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | Stochastic (Full) — Oversold | 74.0 | 66.7% | -25.87% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | Fisher Transform — Low Extreme | 71.5 | 73.3% | -15.41% | 🟡 Available |
@@ -57,7 +56,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **META** | Stochastic (Full) — Oversold | 56.7 | 54.5% | -37.9% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 56.6 | 56.6% | -93.94% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Fisher Transform — Low Extreme | 56.1 | 64.0% | -37.02% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 56.1 | 66.1% | -75.34% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | Stochastic RSI Oversold | 55.7 | 61.0% | -90.25% | 🟡 Available |
 | 🟢 BULLISH | **TSLA** | VWAP Deviation — Oversold | 54.9 | 57.9% | -86.12% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 54.5 | 55.5% | -91.5% | 🟡 Available |
@@ -96,7 +94,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 45.6 | 55.6% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **AAPL** | CCI — Extreme Oversold | 45.5 | 55.3% | -79.79% | 🟡 Available |
 | 🔴 BEARISH | **GOOGL** | Chaikin Money Flow — Bearish | 88.9 | 85.2% | -8.89% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | MFI — Overbought | 83.9 | 69.3% | -21.32% | 🟡 Available |
 | 🔴 BEARISH | **NVDA** | TRIX — Bearish Cross | 81.3 | 80.0% | -18.61% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | TRIX — Bearish Cross | 77.0 | 64.3% | -16.09% | 🟡 Available |
 | 🔴 BEARISH | **XBI** | Ulcer Index — Elevated | 76.7 | 63.9% | -23.78% | 🟡 Available |

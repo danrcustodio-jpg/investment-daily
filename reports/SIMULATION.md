@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 09:12 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 10:34 PM
 
 ## Performance Summary
 
@@ -83,13 +83,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 30 2026 09:12 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 30 2026 10:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 74.3, Win Rate 64.7%, Avg 5d Return 2.36%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.99%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Fisher Transform — Low Extreme — Score 76.9, Win Rate 77.8%, Avg 5d Return 4.73%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.0%, Max Drawdown -22.13%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Parabolic SAR — Bullish — Score 81.1, Win Rate 66.7%, Avg 5d Return 1.09%, Max Drawdown -4… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
@@ -99,13 +99,13 @@ _Evaluated Jul 30 2026 09:12 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.99%, Max Drawdown -22.13%, Sharpe 3.59. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.0%, Max Drawdown -22.13%, Sharpe 3.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — TQQQ
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.9, Win Rate 77.8%, Avg 5d Return 4.73%, Max Drawdown -41.83%, Sharpe 2.76. 1 minor bearish signal(s), max confidence 54.9.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 81.1, Win Rate 66.7%, Avg 5d Return 1.09%, Max Drawdown -4.58%, Sharpe 3.01. 1 minor bearish signal(s), max confidence 52.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
