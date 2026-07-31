@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 83** &nbsp;·&nbsp; Updated: Jul 30 2026 10:34 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 84** &nbsp;·&nbsp; Updated: Jul 31 2026 03:00 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.89%** &nbsp; ($+3,667) |
-| SPY Benchmark | +4.79% &nbsp; ($+9,292 if 100% SPY) |
-| Alpha vs SPY | **-2.90%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.90%** &nbsp; ($+3,691) |
+| SPY Benchmark | +4.91% &nbsp; ($+9,524 if 100% SPY) |
+| Alpha vs SPY | **-3.01%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,667 |
+| Current Value | $197,691 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,002 | +1.02% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,026 | +1.04% |
 
 ## Daily Equity Curve
 
@@ -83,29 +83,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Jul 30 2026 10:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 31 2026 03:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 74.3, Win Rate 64.7%, Avg 5d Return 2.36%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.0%, Max Drawdown -22.13%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Parabolic SAR — Bullish — Score 81.1, Win Rate 66.7%, Avg 5d Return 1.09%, Max Drawdown -4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 87.6, Win Rate 85.7%, Avg 5d Return 3.92%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.98%, Max Drawdown -22.13%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic (Full) — Oversold — Score 82.9, Win Rate 75.0%, Avg 5d Return 4.89%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 74.3, Win Rate 64.7%, Avg 5d Return 2.36%, Max Drawdown -29.59%, Sharpe 2.73. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 87.6, Win Rate 85.7%, Avg 5d Return 3.92%, Max Drawdown -3.91%, Sharpe 4.45. 1 minor bearish signal(s), max confidence 50.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 4.0%, Max Drawdown -22.13%, Sharpe 3.59. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.98%, Max Drawdown -22.13%, Sharpe 3.57. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 81.1, Win Rate 66.7%, Avg 5d Return 1.09%, Max Drawdown -4.58%, Sharpe 3.01. 1 minor bearish signal(s), max confidence 52.5.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 82.9, Win Rate 75.0%, Avg 5d Return 4.89%, Max Drawdown -13.22%, Sharpe 5.83. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
