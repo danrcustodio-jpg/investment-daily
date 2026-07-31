@@ -569,9 +569,9 @@
       "date": "2026-07-31",
       "total_value": 197690.85,
       "portfolio_pnl": 1.903,
-      "benchmark_pnl": 5.43,
+      "benchmark_pnl": 5.524,
       "prices": {
-        "SPY": 746.219970703125
+        "SPY": 746.8900146484375
       }
     }
   ],
@@ -596,15 +596,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 82.9, Win Rate 75.0%, Avg 5d Return 4.89%, Max Drawdown -13.22%, Sharpe 5.83. No conflicting bearish signals.",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 84.1, Win Rate 76.9%, Avg 5d Return 2.38%, Max Drawdown -11.28%, Sharpe 2.8. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-07-31T18:23:44.301986",
+  "recommendations_updated": "2026-07-31T20:01:05.220051",
   "trade_log": [
     {
       "action": "SELL",

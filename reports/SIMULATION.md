@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 84** &nbsp;·&nbsp; Updated: Jul 31 2026 06:23 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 84** &nbsp;·&nbsp; Updated: Jul 31 2026 08:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.90%** &nbsp; ($+3,691) |
-| SPY Benchmark | +5.45% &nbsp; ($+10,572 if 100% SPY) |
-| Alpha vs SPY | **-3.55%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +5.52% &nbsp; ($+10,717 if 100% SPY) |
+| Alpha vs SPY | **-3.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,691 |
 
@@ -80,17 +80,17 @@
 | 2026-07-28 | 📈 +1.86% | +4.67% | ❌ -2.81% |
 | 2026-07-29 | 📈 +1.88% | +3.06% | ❌ -1.18% |
 | 2026-07-30 | 📈 +1.89% | +4.79% | ❌ -2.90% |
-| 2026-07-31 | 📈 +1.90% | +5.43% | ❌ -3.53% |
+| 2026-07-31 | 📈 +1.90% | +5.52% | ❌ -3.62% |
 
 ## Strategy Advisor
 
-_Evaluated Jul 31 2026 06:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Jul 31 2026 08:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 87.6, Win Rate 85.7%, Avg 5d Return 3.92%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.98%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic (Full) — Oversold — Score 82.9, Win Rate 75.0%, Avg 5d Return 4.89%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 84.1, Win Rate 76.9%, Avg 5d Return 2.38%, Max Drawdown -… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -104,9 +104,9 @@ _Evaluated Jul 31 2026 06:23 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 82.9, Win Rate 75.0%, Avg 5d Return 4.89%, Max Drawdown -13.22%, Sharpe 5.83. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 84.1, Win Rate 76.9%, Avg 5d Return 2.38%, Max Drawdown -11.28%, Sharpe 2.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
