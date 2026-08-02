@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 85** &nbsp;·&nbsp; Updated: Aug 01 2026 02:07 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 86** &nbsp;·&nbsp; Updated: Aug 02 2026 02:09 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.91%** &nbsp; ($+3,715) |
+| Portfolio P&L | **+1.93%** &nbsp; ($+3,739) |
 | SPY Benchmark | +5.54% &nbsp; ($+10,755 if 100% SPY) |
-| Alpha vs SPY | **-3.63%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,715 |
+| Current Value | $197,739 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,050 | +1.05% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,075 | +1.06% |
 
 ## Daily Equity Curve
 
@@ -84,13 +84,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 01 2026 02:07 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 02 2026 02:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 87.6, Win Rate 85.7%, Avg 5d Return 3.92%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | MFI — Oversold — Score 81.5, Win Rate 80.0%, Avg 5d Return 3.98%, Max Drawdown -22.13%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 84.1, Win Rate 76.9%, Avg 5d Return 2.38%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -104,9 +104,9 @@ _Evaluated Aug 01 2026 02:07 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 84.1, Win Rate 76.9%, Avg 5d Return 2.38%, Max Drawdown -11.28%, Sharpe 2.8. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
