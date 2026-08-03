@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 87** &nbsp;·&nbsp; Updated: Aug 03 2026 08:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 87** &nbsp;·&nbsp; Updated: Aug 03 2026 09:59 PM
 
 ## Performance Summary
 
@@ -85,12 +85,12 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 03 2026 08:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 03 2026 09:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | EMA 9/21 — Bullish Cross — Score 76.7, Win Rate 66.7%, Avg 5d Return 3.85%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 90.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 66.0, Win Rate 51.9%, Avg 5d Return 6.58%, Max Drawdown -82… |
 
 ### 🔍 NEW OPPORTUNITY — AVGO
@@ -101,7 +101,7 @@ _Evaluated Aug 03 2026 08:42 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 90.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
