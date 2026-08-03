@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 87** &nbsp;·&nbsp; Updated: Aug 03 2026 03:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 87** &nbsp;·&nbsp; Updated: Aug 03 2026 05:47 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.94%** &nbsp; ($+3,763) |
-| SPY Benchmark | +6.74% &nbsp; ($+13,080 if 100% SPY) |
-| Alpha vs SPY | **-4.80%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.02% &nbsp; ($+13,614 if 100% SPY) |
+| Alpha vs SPY | **-5.08%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,763 |
 
@@ -81,16 +81,16 @@
 | 2026-07-29 | 📈 +1.88% | +3.06% | ❌ -1.18% |
 | 2026-07-30 | 📈 +1.89% | +4.79% | ❌ -2.90% |
 | 2026-07-31 | 📈 +1.90% | +5.54% | ❌ -3.64% |
-| 2026-08-03 | 📈 +1.94% | +6.74% | ❌ -4.80% |
+| 2026-08-03 | 📈 +1.94% | +7.02% | ❌ -5.08% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 03 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 03 2026 05:47 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 81.3, Win Rate 70.0%, Avg 5d Return 3.02%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Parabolic SAR — Bullish — Score 80.0, Win Rate 64.7%, Avg 5d Return 1.06%, Max Drawdown -4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 66.0, Win Rate 51.9%, Avg 5d Return 6.57%, Max Drawdown -82… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
@@ -101,7 +101,7 @@ _Evaluated Aug 03 2026 03:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 80.0, Win Rate 64.7%, Avg 5d Return 1.06%, Max Drawdown -4.58%, Sharpe 2.83. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 

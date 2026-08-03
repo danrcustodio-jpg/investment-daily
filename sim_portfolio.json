@@ -578,9 +578,9 @@
       "date": "2026-08-03",
       "total_value": 197763.22,
       "portfolio_pnl": 1.94,
-      "benchmark_pnl": 6.738,
+      "benchmark_pnl": 7.016,
       "prices": {
-        "SPY": 755.47998046875
+        "SPY": 757.4500122070312
       }
     }
   ],
@@ -598,7 +598,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 80.0, Win Rate 64.7%, Avg 5d Return 1.06%, Max Drawdown -4.58%, Sharpe 2.83. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -613,7 +613,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-03T15:39:04.212027",
+  "recommendations_updated": "2026-08-03T17:47:45.953285",
   "trade_log": [
     {
       "action": "SELL",
