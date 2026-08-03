@@ -114,9 +114,9 @@
       "last_change_at": "2026-08-03T15:38:29.310205+00:00"
     },
     "AERO-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:29.710433+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647165+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054172+00:00"
     },
     "AMD": {
       "cadence_min": 1440,
@@ -149,9 +149,9 @@
       "last_change_at": "2026-07-30T18:12:49.617785+00:00"
     },
     "IONQ": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:32.040536+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647386+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054569+00:00"
     },
     "META": {
       "cadence_min": 15,
@@ -164,9 +164,9 @@
       "last_change_at": "2026-07-29T15:05:29.988203+00:00"
     },
     "NVDA": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-03T15:38:33.003922+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647460+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054735+00:00"
     },
     "PLTR": {
       "cadence_min": 1440,
@@ -184,9 +184,9 @@
       "last_change_at": "2026-07-31T15:13:11.000740+00:00"
     },
     "RKLB": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:33.437466+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647494+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054813+00:00"
     },
     "SMH": {
       "cadence_min": 15,
@@ -234,14 +234,14 @@
       "last_change_at": "2026-07-28T16:56:19.766945+00:00"
     },
     "AVGO": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-03T15:38:30.615924+00:00",
-      "last_change_at": "2026-07-29T15:05:29.988024+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054458+00:00"
     },
     "ARM": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-03T15:38:30.269357+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647311+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054263+00:00"
     },
     "BCH-USD": {
       "cadence_min": 1440,
@@ -259,9 +259,9 @@
       "last_change_at": "2026-07-31T20:00:19.495085+00:00"
     },
     "ATOM-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:30.383862+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647343+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054335+00:00"
     },
     "AAPL": {
       "cadence_min": 15,
@@ -304,9 +304,9 @@
       "last_change_at": "2026-07-31T15:13:11.000857+00:00"
     },
     "UPRO": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:34.329078+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647531+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054896+00:00"
     },
     "CRWD": {
       "cadence_min": 15,
@@ -314,9 +314,9 @@
       "last_change_at": "2026-07-31T15:13:11.000384+00:00"
     },
     "MSFT": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-03T15:38:32.749389+00:00",
-      "last_change_at": "2026-08-03T17:47:23.647426+00:00"
+      "last_change_at": "2026-08-03T19:20:14.054656+00:00"
     },
     "BTC-USD": {
       "cadence_min": 1440,
