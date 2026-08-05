@@ -596,9 +596,9 @@
       "date": "2026-08-05",
       "total_value": 197811.47,
       "portfolio_pnl": 1.965,
-      "benchmark_pnl": 9.069,
+      "benchmark_pnl": 8.757,
       "prices": {
-        "SPY": 771.97998046875
+        "SPY": 769.77001953125
       }
     }
   ],
@@ -607,7 +607,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AMZN",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%, Sharpe 4.05. 1 minor bearish signal(s), max confidence 47.5.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.3, Win Rate 86.7%, Avg 5d Return 2.07%, Max Drawdown -6.09%, Sharpe 3.85. 1 minor bearish signal(s), max confidence 47.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -631,7 +631,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-05T18:20:30.961033",
+  "recommendations_updated": "2026-08-05T20:03:09.933463",
   "trade_log": [
     {
       "action": "SELL",

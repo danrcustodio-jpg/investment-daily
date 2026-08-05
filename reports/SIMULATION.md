@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 06:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 08:03 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
-| SPY Benchmark | +9.07% &nbsp; ($+17,602 if 100% SPY) |
-| Alpha vs SPY | **-7.11%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.76% &nbsp; ($+16,988 if 100% SPY) |
+| Alpha vs SPY | **-6.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,811 |
 
@@ -83,21 +83,21 @@
 | 2026-07-31 | 📈 +1.90% | +5.54% | ❌ -3.64% |
 | 2026-08-03 | 📈 +1.94% | +7.05% | ❌ -5.11% |
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
-| 2026-08-05 | 📈 +1.97% | +9.07% | ❌ -7.10% |
+| 2026-08-05 | 📈 +1.97% | +8.76% | ❌ -6.79% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 05 2026 06:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 05 2026 08:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.07%, Max Drawdown -6.09%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 74.3, Win Rate 60.7%, Avg 5d Return 4.04%, Max Drawdown -1… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%, Sharpe 4.05. 1 minor bearish signal(s), max confidence 47.5.
+**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.07%, Max Drawdown -6.09%, Sharpe 3.85. 1 minor bearish signal(s), max confidence 47.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
