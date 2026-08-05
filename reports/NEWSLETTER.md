@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, August 04, 2026
-Generated at 03:02 PM
+# Daily Newsletter — Wednesday, August 05, 2026
+Generated at 02:56 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 116 total &nbsp;·&nbsp; 🟢 69 Bullish &nbsp;·&nbsp; 🔴 47 Bearish
+**Strategy Signals:** 120 total &nbsp;·&nbsp; 🟢 64 Bullish &nbsp;·&nbsp; 🔴 56 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $76.83 | 📉 -4.37% |
-| **NG=F** | Natural Gas | $2.66 | 📉 -4.24% |
-| **XLK** | Tech (XLK) | $184.87 | 📈 +3.84% |
-| **SI=F** | Silver | $59.74 | 📈 +3.60% |
-| **GC=F** | Gold | $4139.60 | 📈 +2.63% |
-| **^IXIC** | NASDAQ | $26349.56 | 📈 +1.68% |
-| **^DJI** | Dow Jones | $53979.62 | 📈 +1.51% |
-| **^GSPC** | S&P 500 | $7691.23 | 📈 +1.19% |
-| **BTC-USD** | Bitcoin | $64102.97 | 📈 +1.01% |
-| **^TNX** | 10-Year Treasury Yield | $4.64 | 📉 -1.00% |
+| **GC=F** | Gold | $4301.60 | 📈 +5.03% |
+| **SI=F** | Silver | $62.72 | 📈 +4.43% |
+| **XLE** | Energy (XLE) | $57.51 | 📉 -1.73% |
+| **XLV** | Healthcare (XLV) | $163.73 | 📈 +1.01% |
+| **^DJI** | Dow Jones | $54629.02 | 📈 +1.00% |
+| **CL=F** | Crude Oil | $75.23 | 📉 -0.71% |
+| **XLY** | Consumer Disc. (XLY) | $119.12 | 📈 +0.71% |
+| **BTC-USD** | Bitcoin | $64363.67 | 📈 +0.48% |
+| **EURUSD=X** | EUR/USD | $1.16 | 📈 +0.39% |
+| **NG=F** | Natural Gas | $2.67 | 📉 -0.37% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GOOGL** | Awesome Oscillator — Bullish Zero Line | 92.0 | 80.0% |
-| 🟢 BULLISH | **GOOGL** | EMA 9/21 — Bullish Cross | 87.1 | 83.3% |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 82.4 | 69.0% |
-| 🟢 BULLISH | **PLTR** | MACD Bullish Crossover | 81.1 | 72.2% |
-| 🟢 BULLISH | **PLTR** | Vortex — Bullish | 80.6 | 70.0% |
-| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 75.0% |
+| 🟢 BULLISH | **AMZN** | PPO — Bullish Cross | 85.3 | 86.7% |
+| 🟢 BULLISH | **CRWD** | Vortex — Bullish | 82.1 | 73.3% |
+| 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 80.0 | 63.9% |
+| 🟢 BULLISH | **IWM** | Awesome Oscillator — Bullish Zero Line | 80.0 | 60.0% |
 | 🟢 BULLISH | **GC=F** | Parabolic SAR — Bullish | 80.0 | 64.7% |
-| 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 79.8 | 63.3% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 68.3% |
-| 🟢 BULLISH | **IWM** | Parabolic SAR — Bullish | 79.1 | 59.1% |
-| 🟢 BULLISH | **QQQ** | Supertrend — Bullish Flip | 78.6 | 71.4% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.7 | 68.5% |
+| 🟢 BULLISH | **RKLB** | Vortex — Bullish | 77.3 | 54.5% |
+| 🟢 BULLISH | **TQQQ** | Vortex — Bullish | 73.7 | 70.8% |
+| 🟢 BULLISH | **RKLB** | TRIX — Bullish Cross | 72.7 | 54.5% |
+| 🟢 BULLISH | **APP** | OBV — Accumulation | 70.9 | 65.0% |
+| 🟢 BULLISH | **APP** | Parabolic SAR — Bullish | 69.2 | 69.6% |
 
 ## Latest News
 
-- [UFP Technologies signals '27 '8-figure' robotics contribution as it evaluates 5-10 M&A opportunities](https://seekingalpha.com/news/4624825-ufp-technologies-signals-27-8-figure-robotics-contribution-as-it-evaluates-5minus-10-m-and-a?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Earnings call transcript: United Fire Group beats Q2 2026 estimates as shares jump](https://www.investing.com/news/transcripts/earnings-call-transcript-united-fire-group-beats-q2-2026-estimates-as-shares-jump-93CH-4834983) — *Investing.com*
-- [Benchmark reiterates Hold on Snap stock after Q2 beat](https://www.investing.com/news/analyst-ratings/benchmark-reiterates-hold-on-snap-stock-after-q2-beat-93CH-4834979) — *Investing.com*
-- [Sagimet Biosciences climbs 8% amid choppy trading in recent weeks](https://seekingalpha.com/news/4624726-sagimet-biosciences-climbs-8-amid-choppy-trading-in-recent-weeks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Metallus Q2 2026 slides: revenue up 12%, execution challenges weigh](https://www.investing.com/news/company-news/metallus-q2-2026-slides-revenue-up-12-execution-challenges-weigh-93CH-4834978) — *Investing.com*
-- [Earnings call transcript: NJR beats Q3 2026 estimates, but shares slip](https://www.investing.com/news/transcripts/earnings-call-transcript-njr-beats-q3-2026-estimates-but-shares-slip-93CH-4834977) — *Investing.com*
-- [Zebra Q2 2026 slides: record results, raised outlook on AI momentum](https://www.investing.com/news/company-news/zebra-q2-2026-slides-record-results-raised-outlook-on-ai-momentum-93CH-4834976) — *Investing.com*
-- [BellRing Q3 FY2026 slides: consumption growth masks margin pressure](https://www.investing.com/news/company-news/bellring-q3-fy2026-slides-consumption-growth-masks-margin-pressure-93CH-4834975) — *Investing.com*
-- [Inspire Medical surges on revised guidance, earnings, Street upgrade](https://seekingalpha.com/news/4624732-inspire-medical-surges-revised-guidance-earnings-street-upgrade?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Xometry Q2 2026 slides: revenue growth accelerates to 41% YoY](https://www.investing.com/news/company-news/xometry-q2-2026-slides-revenue-growth-accelerates-to-41-yoy-93CH-4834974) — *Investing.com*
+- [Assurant signals mid-single-digit 2026 adjusted EBITDA and EPS growth, with buybacks toward upper end of $300M-$350M](https://seekingalpha.com/news/4626077-assurant-signals-mid-single-digit-2026-adjusted-ebitda-and-eps-growth-with-buybacks-toward?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nextdoor forecasts low teens 2026 revenue growth and ~10% adjusted EBITDA margin as Q3 revenue is guided to $76M-$78M](https://seekingalpha.com/news/4626076-nextdoor-forecasts-low-teens-2026-revenue-growth-and-10-percent-adjusted-ebitda-margin-as-q3?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Acushnet Holdings Corp. Q2 2026 Earnings Preview](https://seekingalpha.com/news/4626075-acushnet-holdings-corp-q2-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bank of America spends $250 million a year on GLP-1 drugs for its employees, CEO says](https://www.cnbc.com/2026/08/05/bank-of-america-ceo-glp-1-drugs-cost.html) — *CNBC Markets*
+- [InflaRx Q2 2026 Earnings Preview](https://seekingalpha.com/news/4626074-inflarx-q2-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Advanced Drainage Systems Q1 2027 Earnings Preview](https://seekingalpha.com/news/4626071-advanced-drainage-systems-q1-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [BorgWarner secures new awards, beats Q2 expectations](https://seekingalpha.com/news/4626051-borgwarner-secures-new-awards-beats-q2-expectations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Kelly Services Q2 2026 Earnings Preview](https://seekingalpha.com/news/4626070-kelly-services-q2-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Earnings call transcript: Rockpoint Gas Storage posts steady Q1 2026 results](https://www.investing.com/news/transcripts/earnings-call-transcript-rockpoint-gas-storage-posts-steady-q1-2026-results-93CH-4838372) — *Investing.com*
+- [Playtika earnings in focus as strategic review continues](https://www.investing.com/news/earnings/playtika-earnings-in-focus-as-strategic-review-continues-93CH-4838371) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 88** &nbsp;·&nbsp; Updated: Aug 04 2026 10:05 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 02:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.95%** &nbsp; ($+3,787) |
-| SPY Benchmark | +8.98% &nbsp; ($+17,416 if 100% SPY) |
-| Alpha vs SPY | **-7.02%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
+| SPY Benchmark | +9.20% &nbsp; ($+17,852 if 100% SPY) |
+| Alpha vs SPY | **-7.24%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,787 |
+| Current Value | $197,811 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,123 | +1.08% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,147 | +1.10% |
 
 ## Daily Equity Curve
 
@@ -86,29 +86,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 04 2026 10:05 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 05 2026 02:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Supertrend — Bullish Flip — Score 78.6, Win Rate 71.4%, Avg 5d Return 0.97%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 66.1, Win Rate 52.2%, Avg 5d Return 6.54%, Max Drawdown -82… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 60.2, Win Rate 53.8%, Avg 5d Return 5.64%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 1 minor bearish signal(s), max confidence 52.2.
+**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 52.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — QQQ
+### 🔍 NEW OPPORTUNITY — IWM
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 78.6, Win Rate 71.4%, Avg 5d Return 0.97%, Max Drawdown -2.31%, Sharpe 2.29. No conflicting bearish signals.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, Max Drawdown -0.26%, Sharpe 4.77. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 66.1, Win Rate 52.2%, Avg 5d Return 6.54%, Max Drawdown -82.78%, Sharpe 1.9. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 60.2, Win Rate 53.8%, Avg 5d Return 5.64%, Max Drawdown -89.45%, Sharpe 1.63. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
