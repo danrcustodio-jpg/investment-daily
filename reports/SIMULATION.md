@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 04:59 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 06:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
-| SPY Benchmark | +9.05% &nbsp; ($+17,567 if 100% SPY) |
-| Alpha vs SPY | **-7.09%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.07% &nbsp; ($+17,602 if 100% SPY) |
+| Alpha vs SPY | **-7.11%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,811 |
 
@@ -83,17 +83,17 @@
 | 2026-07-31 | 📈 +1.90% | +5.54% | ❌ -3.64% |
 | 2026-08-03 | 📈 +1.94% | +7.05% | ❌ -5.11% |
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
-| 2026-08-05 | 📈 +1.97% | +9.05% | ❌ -7.09% |
+| 2026-08-05 | 📈 +1.97% | +9.07% | ❌ -7.10% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 05 2026 04:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 05 2026 06:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AVAX-USD** | EMA 9/21 — Bullish Cross — Score 65.4, Win Rate 70.6%, Avg 5d Return 2.74%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 74.3, Win Rate 60.7%, Avg 5d Return 4.04%, Max Drawdown -1… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -107,9 +107,9 @@ _Evaluated Aug 05 2026 04:59 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AVAX-USD
+### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 65.4, Win Rate 70.6%, Avg 5d Return 2.74%, Max Drawdown -31.47%, Sharpe 1.87. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 74.3, Win Rate 60.7%, Avg 5d Return 4.04%, Max Drawdown -17.22%, Sharpe 3.35. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
