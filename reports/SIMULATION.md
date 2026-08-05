@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 03:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 04:59 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
-| SPY Benchmark | +9.32% &nbsp; ($+18,086 if 100% SPY) |
-| Alpha vs SPY | **-7.36%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.05% &nbsp; ($+17,567 if 100% SPY) |
+| Alpha vs SPY | **-7.09%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,811 |
 
@@ -83,11 +83,11 @@
 | 2026-07-31 | 📈 +1.90% | +5.54% | ❌ -3.64% |
 | 2026-08-03 | 📈 +1.94% | +7.05% | ❌ -5.11% |
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
-| 2026-08-05 | 📈 +1.97% | +9.33% | ❌ -7.36% |
+| 2026-08-05 | 📈 +1.97% | +9.05% | ❌ -7.09% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 05 2026 03:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 05 2026 04:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -97,7 +97,7 @@ _Evaluated Aug 05 2026 03:11 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 52.2.
+**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%, Sharpe 4.05. 1 minor bearish signal(s), max confidence 47.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
