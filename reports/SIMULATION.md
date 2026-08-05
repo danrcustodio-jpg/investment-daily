@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 02:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 03:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
-| SPY Benchmark | +9.20% &nbsp; ($+17,852 if 100% SPY) |
-| Alpha vs SPY | **-7.24%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.32% &nbsp; ($+18,086 if 100% SPY) |
+| Alpha vs SPY | **-7.36%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,811 |
 
@@ -83,16 +83,17 @@
 | 2026-07-31 | 📈 +1.90% | +5.54% | ❌ -3.64% |
 | 2026-08-03 | 📈 +1.94% | +7.05% | ❌ -5.11% |
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
+| 2026-08-05 | 📈 +1.97% | +9.33% | ❌ -7.36% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 05 2026 02:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 05 2026 03:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.22%, Max Drawdown -6.09%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Stochastic (Full) — Oversold — Score 60.2, Win Rate 53.8%, Avg 5d Return 5.64%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AVAX-USD** | EMA 9/21 — Bullish Cross — Score 65.4, Win Rate 70.6%, Avg 5d Return 2.74%, Max Drawdown -… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -106,9 +107,9 @@ _Evaluated Aug 05 2026 02:56 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — AVAX-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 60.2, Win Rate 53.8%, Avg 5d Return 5.64%, Max Drawdown -89.45%, Sharpe 1.63. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 65.4, Win Rate 70.6%, Avg 5d Return 2.74%, Max Drawdown -31.47%, Sharpe 1.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
