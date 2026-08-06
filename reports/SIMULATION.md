@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 89** &nbsp;·&nbsp; Updated: Aug 05 2026 09:41 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 90** &nbsp;·&nbsp; Updated: Aug 06 2026 02:54 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.96%** &nbsp; ($+3,811) |
-| SPY Benchmark | +8.76% &nbsp; ($+16,994 if 100% SPY) |
+| Portfolio P&L | **+1.98%** &nbsp; ($+3,836) |
+| SPY Benchmark | +8.78% &nbsp; ($+17,029 if 100% SPY) |
 | Alpha vs SPY | **-6.80%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,811 |
+| Current Value | $197,836 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,147 | +1.10% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,171 | +1.11% |
 
 ## Daily Equity Curve
 
@@ -87,29 +87,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 05 2026 09:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 06 2026 02:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.07%, Max Drawdown -6.09%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 74.3, Win Rate 60.7%, Avg 5d Return 4.04%, Max Drawdown -1… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 83.8, Win Rate 87.5%, Avg 5d Return 2.45%, Max Drawdown -8.03%… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | EMA 9/21 — Bullish Cross — Score 57.3, Win Rate 68.8%, Avg 5d Return 0.78%, Max Drawdown -… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** PPO — Bullish Cross — Score 85.3, Win Rate 86.7%, Avg 5d Return 2.07%, Max Drawdown -6.09%, Sharpe 3.85. 1 minor bearish signal(s), max confidence 47.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — IWM
-
-**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 60.0%, Avg 5d Return 1.31%, Max Drawdown -0.26%, Sharpe 4.77. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 2 minor bearish signal(s), max confidence 66.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 74.3, Win Rate 60.7%, Avg 5d Return 4.04%, Max Drawdown -17.22%, Sharpe 3.35. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 83.8, Win Rate 87.5%, Avg 5d Return 2.45%, Max Drawdown -8.03%, Sharpe 4.23. 1 minor bearish signal(s), max confidence 64.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — BTC-USD
+
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 57.3, Win Rate 68.8%, Avg 5d Return 0.78%, Max Drawdown -14.29%, Sharpe 1.2. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
 
