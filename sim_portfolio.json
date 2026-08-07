@@ -626,29 +626,29 @@
     },
     {
       "date": "2026-08-07",
-      "total_value": 197630.59,
-      "portfolio_pnl": 1.871,
-      "benchmark_pnl": 9.085,
+      "total_value": 197669.24,
+      "portfolio_pnl": 1.891,
+      "benchmark_pnl": 9.224,
       "prices": {
-        "SPY": 772.0900268554688
+        "SPY": 773.0800170898438
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "GC=F",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 2 minor bearish signal(s), max confidence 65.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GC=F",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 2 minor bearish signal(s), max confidence 65.8.",
+      "ticker": "ARKK",
+      "priority": "medium",
+      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 67.6, Win Rate 57.1%, Avg 5d Return 1.72%, Max Drawdown -6.42%, Sharpe 2.17. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -666,11 +666,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+138. Holding avoids $44 in taxes.",
-      "tax_note": "Held 0 days (short-term). Exiting now costs $44 tax + $30 slippage = $74 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+177. Holding avoids $57 in taxes.",
+      "tax_note": "Held 0 days (short-term). Exiting now costs $57 tax + $30 slippage = $87 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-07T18:09:45.976227",
+  "recommendations_updated": "2026-08-07T19:27:12.571992",
   "trade_log": [
     {
       "action": "SELL",

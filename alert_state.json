@@ -67,7 +67,6 @@
     "GC=F::Keltner \u2014 Upper Channel Touch": "2026-08-07T14:06:31.551791+00:00",
     "GOOGL::Stochastic RSI Overbought": "2026-08-06T15:08:54.586965+00:00",
     "NVDA::Keltner \u2014 Upper Channel Touch": "2026-08-07T14:06:31.551818+00:00",
-    "SOL-USD::Parabolic SAR \u2014 Bullish": "2026-08-05T18:19:56.736996+00:00",
     "GOOGL::PPO \u2014 Bullish Cross": "2026-08-07T14:06:27.846173+00:00",
     "APP::RSI Oversold": "2026-08-07T14:06:28.103574+00:00",
     "APP::Keltner \u2014 Lower Channel Touch": "2026-08-07T14:06:27.953548+00:00",
@@ -112,10 +111,11 @@
     "PLTR::Stochastic (Full) \u2014 Overbought": "2026-08-07T14:06:31.696821+00:00",
     "SMH::Stochastic RSI Overbought": "2026-08-07T14:06:31.696840+00:00",
     "RKLB::Chaikin Money Flow \u2014 Bearish": "2026-08-07T14:06:31.819794+00:00",
-    "NEAR-USD::Keltner \u2014 Lower Channel Touch": "2026-08-07T17:14:13.502970+00:00"
+    "NEAR-USD::Keltner \u2014 Lower Channel Touch": "2026-08-07T17:14:13.502970+00:00",
+    "ARKK::Supertrend \u2014 Bullish Flip": "2026-08-07T19:26:43.884253+00:00"
   },
-  "send_count": 130,
-  "last_sms_at": "2026-08-07T17:14:13.502901+00:00",
+  "send_count": 131,
+  "last_sms_at": "2026-08-07T19:26:43.884210+00:00",
   "snoozed_strategies": {},
   "snoozed_tickers": {},
   "ticker_cooldowns": {},
@@ -153,20 +153,21 @@
     "XLE": "2026-08-07T14:06:27.407186+00:00",
     "SOL-USD": "2026-08-06T15:08:47.743696+00:00",
     "BTC-USD": "2026-08-07T14:06:27.407186+00:00",
-    "NEAR-USD": "2026-08-07T17:14:13.502951+00:00"
+    "NEAR-USD": "2026-08-07T17:14:13.502951+00:00",
+    "ARKK": "2026-08-07T19:26:43.884243+00:00"
   },
   "sms_ticker_last_sent": {
     "GOOGL": "2026-08-07T14:06:23.947185+00:00",
     "GC=F": "2026-08-07T14:06:27.407136+00:00",
-    "SOL-USD": "2026-08-05T18:19:56.736932+00:00",
     "APP": "2026-08-06T15:08:47.743637+00:00",
     "PLTR": "2026-08-07T14:06:25.761842+00:00",
-    "NEAR-USD": "2026-08-07T17:14:13.502901+00:00"
+    "NEAR-USD": "2026-08-07T17:14:13.502901+00:00",
+    "ARKK": "2026-08-07T19:26:43.884210+00:00"
   },
   "intraday_tracking": {
     "ADA-USD": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:08.159994+00:00",
+      "last_fetch_at": "2026-08-07T19:26:38.538596+00:00",
       "last_change_at": "2026-08-06T15:08:31.265819+00:00"
     },
     "AERO-USD": {
@@ -186,47 +187,47 @@
     },
     "APP": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:08.318498+00:00",
+      "last_fetch_at": "2026-08-07T19:26:38.767938+00:00",
       "last_change_at": "2026-08-04T15:16:37.516394+00:00"
     },
     "CL=F": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:08.651703+00:00",
+      "last_fetch_at": "2026-08-07T19:26:39.054719+00:00",
       "last_change_at": "2026-08-07T14:06:10.582524+00:00"
     },
     "GC=F": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:08.811318+00:00",
+      "last_fetch_at": "2026-08-07T19:26:39.253062+00:00",
       "last_change_at": "2026-05-11T15:53:01.327216+00:00"
     },
     "GOOGL": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:08.984059+00:00",
+      "last_fetch_at": "2026-08-07T19:26:39.450534+00:00",
       "last_change_at": "2026-07-30T18:12:49.617785+00:00"
     },
     "IONQ": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:09.160358+00:00",
+      "last_fetch_at": "2026-08-07T19:26:39.627618+00:00",
       "last_change_at": "2026-08-06T15:08:31.266156+00:00"
     },
     "META": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:09.484978+00:00",
+      "last_fetch_at": "2026-08-07T19:26:39.820153+00:00",
       "last_change_at": "2026-08-06T15:08:31.266274+00:00"
     },
     "MRVL": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:09.624148+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.020351+00:00",
       "last_change_at": "2026-08-04T15:16:37.516797+00:00"
     },
     "NVDA": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:09.903641+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.475547+00:00",
       "last_change_at": "2026-08-05T15:10:43.099443+00:00"
     },
     "PLTR": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:10.035475+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.666837+00:00",
       "last_change_at": "2026-08-07T14:06:10.582837+00:00"
     },
     "QQQ": {
@@ -241,23 +242,23 @@
     },
     "RKLB": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:10.179330+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.813647+00:00",
       "last_change_at": "2026-08-04T15:16:37.517010+00:00"
     },
     "SMH": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:10.315644+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.994079+00:00",
       "last_change_at": "2026-08-07T14:06:10.583008+00:00"
     },
     "SOXL": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:10.442804+00:00",
+      "last_fetch_at": "2026-08-07T19:26:41.186754+00:00",
       "last_change_at": "2026-07-24T19:19:04.607323+00:00"
     },
     "TQQQ": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-07T17:14:10.564073+00:00",
-      "last_change_at": "2026-08-07T18:09:16.346677+00:00"
+      "last_change_at": "2026-08-07T19:26:38.332934+00:00"
     },
     "TSLA": {
       "cadence_min": 1440,
@@ -271,7 +272,7 @@
     },
     "XLK": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:11.037957+00:00",
+      "last_fetch_at": "2026-08-07T19:26:41.379750+00:00",
       "last_change_at": "2026-08-04T15:16:37.517163+00:00"
     },
     "XRP-USD": {
@@ -371,7 +372,7 @@
     },
     "MSFT": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-08-07T17:14:09.772184+00:00",
+      "last_fetch_at": "2026-08-07T19:26:40.236595+00:00",
       "last_change_at": "2026-08-05T15:10:43.099405+00:00"
     },
     "BTC-USD": {
@@ -463,7 +464,6 @@
     "GC=F::Keltner \u2014 Upper Channel Touch": 4412.7998046875,
     "GOOGL::Stochastic RSI Overbought": 359.8800048828125,
     "NVDA::Keltner \u2014 Upper Channel Touch": 221.9149932861328,
-    "SOL-USD::Parabolic SAR \u2014 Bullish": 74.44999694824219,
     "GOOGL::PPO \u2014 Bullish Cross": 355.4450988769531,
     "APP::RSI Oversold": 343.0450134277344,
     "APP::Keltner \u2014 Lower Channel Touch": 343.0450134277344,
@@ -508,6 +508,7 @@
     "PLTR::Stochastic (Full) \u2014 Overbought": 168.11500549316406,
     "SMH::Stochastic RSI Overbought": 576.155029296875,
     "RKLB::Chaikin Money Flow \u2014 Bearish": 79.50890350341797,
-    "NEAR-USD::Keltner \u2014 Lower Channel Touch": 1.5953999757766724
+    "NEAR-USD::Keltner \u2014 Lower Channel Touch": 1.5953999757766724,
+    "ARKK::Supertrend \u2014 Bullish Flip": 79.23999786376953
   }
 }

@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 91** &nbsp;·&nbsp; Updated: Aug 07 2026 06:09 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 91** &nbsp;·&nbsp; Updated: Aug 07 2026 07:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.87%** &nbsp; ($+3,631) |
-| SPY Benchmark | +9.09% &nbsp; ($+17,624 if 100% SPY) |
-| Alpha vs SPY | **-7.21%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.89%** &nbsp; ($+3,670) |
+| SPY Benchmark | +9.23% &nbsp; ($+17,898 if 100% SPY) |
+| Alpha vs SPY | **-7.33%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,631 |
+| Current Value | $197,670 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,858 | +1.12% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $772.09 | $+138 | +0.46% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $773.09 | $+177 | +0.59% |
 
 ## Daily Equity Curve
 
@@ -86,28 +86,28 @@
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
 | 2026-08-05 | 📈 +1.97% | +8.76% | ❌ -6.79% |
 | 2026-08-06 | 📈 +1.98% | +8.85% | ❌ -6.87% |
-| 2026-08-07 | 📈 +1.87% | +9.09% | ❌ -7.21% |
+| 2026-08-07 | 📈 +1.89% | +9.22% | ❌ -7.33% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 07 2026 06:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 07 2026 07:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARKK** | Supertrend — Bullish Flip — Score 67.6, Win Rate 57.1%, Avg 5d Return 1.72%, Max Drawdown … |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | Awesome Oscillator — Bullish Zero Line — Score 63.6, Win Rate 60.0%, Avg 5d Return 0.85%, … |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+138. Holdi… |
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+177. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
 **Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 2 minor bearish signal(s), max confidence 65.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ARKK
+
+**Signal Analysis:** Supertrend — Bullish Flip — Score 67.6, Win Rate 57.1%, Avg 5d Return 1.72%, Max Drawdown -6.42%, Sharpe 2.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
@@ -119,9 +119,9 @@ _Evaluated Aug 07 2026 06:09 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+138. Holding avoids $44 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+177. Holding avoids $57 in taxes.
 
-**Tax & Cost:** Held 0 days (short-term). Exiting now costs $44 tax + $30 slippage = $74 total friction.
+**Tax & Cost:** Held 0 days (short-term). Exiting now costs $57 tax + $30 slippage = $87 total friction.
 
 ## Position Rationale
 
