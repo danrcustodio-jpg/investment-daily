@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Friday August 07, 2026 at 09:07 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Friday August 07, 2026 at 10:04 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
