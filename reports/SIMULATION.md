@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 91** &nbsp;·&nbsp; Updated: Aug 07 2026 12:36 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 91** &nbsp;·&nbsp; Updated: Aug 07 2026 01:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.80%** &nbsp; ($+3,493) |
-| SPY Benchmark | +8.59% &nbsp; ($+16,657 if 100% SPY) |
-| Alpha vs SPY | **-6.79%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.86%** &nbsp; ($+3,613) |
+| SPY Benchmark | +9.02% &nbsp; ($+17,498 if 100% SPY) |
+| Alpha vs SPY | **-7.16%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,493 |
+| Current Value | $197,613 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,858 | +1.12% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $768.56 | $+0 | +0.00% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $771.63 | $+120 | +0.40% |
 
 ## Daily Equity Curve
 
@@ -90,38 +90,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 07 2026 12:36 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 07 2026 01:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Aroon — Strong Uptrend — Score 70.2, Win Rate 62.4%, Avg 5d Return 1.49%, Max Drawdown -37… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | Volume Spike + Surge — Score 65.8, Win Rate 62.5%, Avg 5d Return 5.86%, Max Drawdown -66.2… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 61.2, Win Rate 61.1%, Avg 5d Return 1.34%, Max Drawdown -4… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.21 vs 0 bear score 0.00). Gross P&L: $0. Holding … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARM** | SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | Awesome Oscillator — Bullish Zero Line — Score 63.6, Win Rate 60.0%, Avg 5d Return 0.85%, … |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+120. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 70.2, Win Rate 62.4%, Avg 5d Return 1.49%, Max Drawdown -37.67%, Sharpe 1.99. 1 minor bearish signal(s), max confidence 47.0.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ADA-USD
+### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** Volume Spike + Surge — Score 65.8, Win Rate 62.5%, Avg 5d Return 5.86%, Max Drawdown -66.29%, Sharpe 1.84. 4 minor bearish signal(s), max confidence 77.5.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -15.32%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 48.7.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — BTC-USD
+
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 63.6, Win Rate 60.0%, Avg 5d Return 0.85%, Max Drawdown -7.9%, Sharpe 1.68. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 61.2, Win Rate 61.1%, Avg 5d Return 1.34%, Max Drawdown -42.05%, Sharpe 1.64. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.21 vs 0 bear score 0.00). Gross P&L: $0. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+120. Holding avoids $38 in taxes.
 
-**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
+**Tax & Cost:** Held 0 days (short-term). Exiting now costs $38 tax + $30 slippage = $68 total friction.
 
 ## Position Rationale
 

@@ -637,40 +637,40 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 70.2, Win Rate 62.4%, Avg 5d Return 1.49%, Max Drawdown -37.67%, Sharpe 1.99. 1 minor bearish signal(s), max confidence 47.0.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ADA-USD",
+      "ticker": "ARM",
       "priority": "medium",
-      "reason": "Volume Spike + Surge \u2014 Score 65.8, Win Rate 62.5%, Avg 5d Return 5.86%, Max Drawdown -66.29%, Sharpe 1.84. 4 minor bearish signal(s), max confidence 77.5.",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -15.32%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 48.7.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "BTC-USD",
+      "priority": "medium",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 63.6, Win Rate 60.0%, Avg 5d Return 0.85%, Max Drawdown -7.9%, Sharpe 1.68. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     },
     {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "CL=F",
-      "priority": "medium",
-      "reason": "Stochastic RSI Oversold \u2014 Score 61.2, Win Rate 61.1%, Avg 5d Return 1.34%, Max Drawdown -42.05%, Sharpe 1.64. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (3 bull score 1.21 vs 0 bear score 0.00). Gross P&L: $0. Holding avoids $0 in taxes.",
-      "tax_note": "Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+120. Holding avoids $38 in taxes.",
+      "tax_note": "Held 0 days (short-term). Exiting now costs $38 tax + $30 slippage = $68 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-07T00:36:54.222883",
+  "recommendations_updated": "2026-08-07T13:50:17.305459",
   "trade_log": [
     {
       "action": "SELL",
