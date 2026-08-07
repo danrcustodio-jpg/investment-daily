@@ -1,21 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 90** &nbsp;·&nbsp; Updated: Aug 06 2026 03:09 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 91** &nbsp;·&nbsp; Updated: Aug 07 2026 12:36 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.98%** &nbsp; ($+3,836) |
-| SPY Benchmark | +8.85% &nbsp; ($+17,168 if 100% SPY) |
-| Alpha vs SPY | **-6.87%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.80%** &nbsp; ($+3,493) |
+| SPY Benchmark | +8.59% &nbsp; ($+16,657 if 100% SPY) |
+| Alpha vs SPY | **-6.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,836 |
+| Current Value | $197,493 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,665 | — | $+2,171 | +1.11% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,858 | +1.12% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $768.56 | $+0 | +0.00% |
 
 ## Daily Equity Curve
 
@@ -85,39 +86,51 @@
 | 2026-08-04 | 📈 +1.95% | +8.98% | ❌ -7.03% |
 | 2026-08-05 | 📈 +1.97% | +8.76% | ❌ -6.79% |
 | 2026-08-06 | 📈 +1.98% | +8.85% | ❌ -6.87% |
+| 2026-08-07 | 📈 +1.80% | +8.59% | ❌ -6.79% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 06 2026 03:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 07 2026 12:36 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 83.8, Win Rate 87.5%, Avg 5d Return 2.45%, Max Drawdown -8.03%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BTC-USD** | EMA 9/21 — Bullish Cross — Score 57.3, Win Rate 68.8%, Avg 5d Return 0.78%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Aroon — Strong Uptrend — Score 70.2, Win Rate 62.4%, Avg 5d Return 1.49%, Max Drawdown -37… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | Volume Spike + Surge — Score 65.8, Win Rate 62.5%, Avg 5d Return 5.86%, Max Drawdown -66.2… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 61.2, Win Rate 61.1%, Avg 5d Return 1.34%, Max Drawdown -4… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.21 vs 0 bear score 0.00). Gross P&L: $0. Holding … |
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** OBV — Accumulation — Score 85.6, Win Rate 77.8%, Avg 5d Return 1.21%, Max Drawdown -4.83%, Sharpe 2.74. 2 minor bearish signal(s), max confidence 66.3.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 70.2, Win Rate 62.4%, Avg 5d Return 1.49%, Max Drawdown -37.67%, Sharpe 1.99. 1 minor bearish signal(s), max confidence 47.0.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — ADA-USD
 
-**Signal Analysis:** PPO — Bullish Cross — Score 83.8, Win Rate 87.5%, Avg 5d Return 2.45%, Max Drawdown -8.03%, Sharpe 4.23. 1 minor bearish signal(s), max confidence 64.1.
+**Signal Analysis:** Volume Spike + Surge — Score 65.8, Win Rate 62.5%, Avg 5d Return 5.86%, Max Drawdown -66.29%, Sharpe 1.84. 4 minor bearish signal(s), max confidence 77.5.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — BTC-USD
+### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 57.3, Win Rate 68.8%, Avg 5d Return 0.78%, Max Drawdown -14.29%, Sharpe 1.2. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 61.2, Win Rate 61.1%, Avg 5d Return 1.34%, Max Drawdown -42.05%, Sharpe 1.64. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,665 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
+### ✅ HOLD — SPY
+
+**Signal Analysis:** Signal still net bullish (3 bull score 1.21 vs 0 bear score 0.00). Gross P&L: $0. Holding avoids $0 in taxes.
+
+**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 
-### CASH — $195,665 (62%)
+### CASH — $165,635 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
+
+### SPY — SPY
+**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $768.56
+> PPO — Bullish Cross — Score 64.7, Win Rate 66.7%, Avg 5d Return 0.49%, Max Drawdown -3.34%, Sharpe 1.55. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*
