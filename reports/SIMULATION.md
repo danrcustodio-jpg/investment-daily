@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 92** &nbsp;·&nbsp; Updated: Aug 08 2026 01:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 93** &nbsp;·&nbsp; Updated: Aug 09 2026 01:31 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.91%** &nbsp; ($+3,697) |
+| Portfolio P&L | **+1.92%** &nbsp; ($+3,717) |
 | SPY Benchmark | +9.25% &nbsp; ($+17,945 if 100% SPY) |
-| Alpha vs SPY | **-7.34%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-7.33%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,697 |
+| Current Value | $197,717 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,879 | +1.13% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,899 | +1.15% |
 | **SPY** | SPY | ✅ OPEN | $30,000 | $773.26 | $+183 | +0.61% |
 
 ## Daily Equity Curve
@@ -90,13 +90,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 08 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 09 2026 01:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.9, Win Rate 74.2%, Avg 5d Return 2.07%, Max Drawdown -8.66%,… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 84.2, Win Rate 75.0%, Avg 5d Return 1.89%, Max Drawdown -12.64%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MACD Bullish Crossover — Score 64.5, Win Rate 60.9%, Avg 5d Return 2.08%, Max Drawdown -22… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 64.9, Win Rate 51.1%, Avg 5d Return 6.32%, Max Drawdown -82… |
 | 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+183. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -111,9 +111,9 @@ _Evaluated Aug 08 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** MACD Bullish Crossover — Score 64.5, Win Rate 60.9%, Avg 5d Return 2.08%, Max Drawdown -22.01%, Sharpe 1.73. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 64.9, Win Rate 51.1%, Avg 5d Return 6.32%, Max Drawdown -82.78%, Sharpe 1.85. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
@@ -121,7 +121,7 @@ _Evaluated Aug 08 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 0 bear score 0.00). Gross P&L: $+183. Holding avoids $59 in taxes.
 
-**Tax & Cost:** Held 1 days (short-term). Exiting now costs $59 tax + $30 slippage = $89 total friction.
+**Tax & Cost:** Held 2 days (short-term). Exiting now costs $59 tax + $30 slippage = $89 total friction.
 
 ## Position Rationale
 
