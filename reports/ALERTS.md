@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Monday August 10, 2026 at 09:09 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday August 10, 2026 at 10:05 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -8,8 +8,8 @@
 | Total signals (confidence ≥ 45) | 127 |
 | 🟢 Bullish | 61 |
 | 🔴 Bearish | 66 |
-| 🔵 In cooldown (fired in last 6h) | 1 |
-| 🟡 Available to fire (not in cooldown) | 126 |
+| 🔵 In cooldown (fired in last 6h) | 0 |
+| 🟡 Available to fire (not in cooldown) | 127 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -95,7 +95,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **MARA** | PPO — Bearish Cross | 70.6 | 52.9% | -27.38% | 🟡 Available |
 | 🔴 BEARISH | **MSFT** | Fisher Transform — High Extreme | 70.2 | 67.6% | -16.69% | 🟡 Available |
 | 🔴 BEARISH | **IONQ** | Fisher Transform — High Extreme | 70.1 | 59.7% | -85.32% | 🟡 Available |
-| 🔴 BEARISH | **BCH-USD** | Vortex — Bearish | 70.1 | 70.3% | -19.47% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **BCH-USD** | Vortex — Bearish | 70.1 | 70.3% | -19.47% | 🟡 Available |
 | 🔴 BEARISH | **META** | Ulcer Index — Elevated | 69.8 | 62.9% | -51.57% | 🟡 Available |
 | 🔴 BEARISH | **XBI** | Aroon — Strong Downtrend | 67.9 | 63.7% | -42.08% | 🟡 Available |
 | 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 66.6 | 64.5% | -44.92% | 🟡 Available |
