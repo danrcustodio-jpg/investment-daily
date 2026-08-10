@@ -1,12 +1,12 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 94** &nbsp;·&nbsp; Updated: Aug 10 2026 08:08 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 94** &nbsp;·&nbsp; Updated: Aug 10 2026 09:09 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+1.92%** &nbsp; ($+3,729) |
-| SPY Benchmark | +9.22% &nbsp; ($+17,887 if 100% SPY) |
+| SPY Benchmark | +9.22% &nbsp; ($+17,882 if 100% SPY) |
 | Alpha vs SPY | **-7.30%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $197,729 |
@@ -16,7 +16,7 @@
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,920 | +1.16% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $773.05 | $+175 | +0.58% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $773.03 | $+174 | +0.58% |
 
 ## Daily Equity Curve
 
@@ -91,14 +91,14 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 10 2026 08:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 10 2026 09:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | EMA 9/21 — Bullish Cross — Score 80.0, Win Rate 71.4%, Avg 5d Return 3.11%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | Parabolic SAR — Bullish — Score 81.0, Win Rate 75.0%, Avg 5d Return 1.75%, Max Drawdown -5… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+175. Holdi… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+174. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -120,7 +120,7 @@ _Evaluated Aug 10 2026 08:08 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+175. Holding avoids $56 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+174. Holding avoids $56 in taxes.
 
 **Tax & Cost:** Held 3 days (short-term). Exiting now costs $56 tax + $30 slippage = $86 total friction.
 
