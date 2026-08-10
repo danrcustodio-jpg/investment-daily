@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 94** &nbsp;·&nbsp; Updated: Aug 10 2026 03:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 94** &nbsp;·&nbsp; Updated: Aug 10 2026 04:23 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.94%** &nbsp; ($+3,758) |
-| SPY Benchmark | +9.32% &nbsp; ($+18,087 if 100% SPY) |
-| Alpha vs SPY | **-7.39%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.93%** &nbsp; ($+3,752) |
+| SPY Benchmark | +9.30% &nbsp; ($+18,043 if 100% SPY) |
+| Alpha vs SPY | **-7.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,758 |
+| Current Value | $197,752 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,920 | +1.16% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $773.78 | $+204 | +0.68% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $773.62 | $+198 | +0.66% |
 
 ## Daily Equity Curve
 
@@ -87,18 +87,18 @@
 | 2026-08-05 | 📈 +1.97% | +8.76% | ❌ -6.79% |
 | 2026-08-06 | 📈 +1.98% | +8.85% | ❌ -6.87% |
 | 2026-08-07 | 📈 +1.90% | +9.25% | ❌ -7.36% |
-| 2026-08-10 | 📈 +1.94% | +9.32% | ❌ -7.38% |
+| 2026-08-10 | 📈 +1.93% | +9.30% | ❌ -7.37% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 10 2026 03:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 10 2026 04:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | PPO — Bullish Cross — Score 80.0, Win Rate 68.4%, Avg 5d Return 3.09%, Max Drawdown -12.18… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | EMA 9/21 — Bullish Cross — Score 80.0, Win Rate 71.4%, Avg 5d Return 3.11%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+204. Holdi… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | TRIX — Bullish Cross — Score 55.3, Win Rate 57.9%, Avg 5d Return 1.46%, Max Drawdown -24.8… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+198. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -114,15 +114,15 @@ _Evaluated Aug 10 2026 03:29 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 80.0, Win Rate 71.4%, Avg 5d Return 3.11%, Max Drawdown -14.59%, Sharpe 2.86. No conflicting bearish signals.
+**Signal Analysis:** TRIX — Bullish Cross — Score 55.3, Win Rate 57.9%, Avg 5d Return 1.46%, Max Drawdown -24.87%, Sharpe 1.37. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+204. Holding avoids $65 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+198. Holding avoids $63 in taxes.
 
-**Tax & Cost:** Held 3 days (short-term). Exiting now costs $65 tax + $30 slippage = $95 total friction.
+**Tax & Cost:** Held 3 days (short-term). Exiting now costs $63 tax + $30 slippage = $93 total friction.
 
 ## Position Rationale
 
