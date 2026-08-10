@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, August 09, 2026
-Generated at 01:31 PM
+# Daily Newsletter — Monday, August 10, 2026
+Generated at 01:56 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 127 total &nbsp;·&nbsp; 🟢 62 Bullish &nbsp;·&nbsp; 🔴 65 Bearish
+**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 59 Bullish &nbsp;·&nbsp; 🔴 67 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **GC=F** | Gold | $4399.70 | 📈 +3.72% |
-| **SI=F** | Silver | $63.50 | 📈 +3.35% |
-| **^VIX** | VIX (Fear Index) | $14.90 | 📉 -1.65% |
-| **XLY** | Consumer Disc. (XLY) | $119.86 | 📈 +1.49% |
-| **XLK** | Tech (XLK) | $187.97 | 📈 +1.42% |
-| **^IXIC** | NASDAQ | $26690.62 | 📈 +1.30% |
-| **CL=F** | Crude Oil | $78.18 | 📈 +1.15% |
-| **XLE** | Energy (XLE) | $57.50 | 📉 -1.13% |
-| **^RUT** | Russell 2000 | $3034.49 | 📈 +1.10% |
-| **SOL-USD** | Solana | $76.65 | 📈 +0.89% |
+| **NG=F** | Natural Gas | $2.80 | 📈 +5.15% |
+| **XLE** | Energy (XLE) | $59.15 | 📈 +2.86% |
+| **CL=F** | Crude Oil | $80.35 | 📈 +2.78% |
+| **^VIX** | VIX (Fear Index) | $15.27 | 📈 +2.48% |
+| **SI=F** | Silver | $64.11 | 📈 +1.23% |
+| **GC=F** | Gold | $4386.50 | 📈 +1.06% |
+| **XLV** | Healthcare (XLV) | $166.99 | 📈 +0.79% |
+| **SOL-USD** | Solana | $76.70 | 📈 +0.64% |
+| **XLY** | Consumer Disc. (XLY) | $119.13 | 📉 -0.61% |
+| **XLF** | Financials (XLF) | $57.94 | 📈 +0.58% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 87.5 | 81.2% |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 85.0 | 87.5% |
-| 🟢 BULLISH | **IONQ** | Supertrend — Bullish Flip | 85.0 | 75.0% |
-| 🟢 BULLISH | **AMZN** | OBV — Accumulation | 84.2 | 75.0% |
-| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 81.9 | 74.2% |
-| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 75.0% |
-| 🟢 BULLISH | **RKLB** | Supertrend — Bullish Flip | 77.8 | 75.0% |
+| 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 83.0 | 70.5% |
+| 🟢 BULLISH | **RKLB** | EMA 9/21 — Bullish Cross | 83.0 | 66.7% |
+| 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 80.1 | 64.2% |
+| 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 80.0 | 68.4% |
+| 🟢 BULLISH | **SOL-USD** | EMA 9/21 — Bullish Cross | 80.0 | 71.4% |
+| 🟢 BULLISH | **ARKK** | TRIX — Bullish Cross | 79.3 | 76.9% |
 | 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 76.4 | 64.0% |
-| 🟢 BULLISH | **RKLB** | ADX Strong Trend — Bullish | 74.0 | 58.4% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 72.1 | 60.9% |
+| 🟢 BULLISH | **APP** | RSI Oversold | 74.3 | 66.7% |
 | 🟢 BULLISH | **NVDA** | Aroon — Strong Uptrend | 70.8 | 62.6% |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 69.7 | 59.6% |
+| 🟢 BULLISH | **RKLB** | ADX Strong Trend — Bullish | 68.3 | 55.3% |
 
 ## Latest News
 
-- [Yemen’s Houthis attack Saudi refinery after kingdom signs defence pact](https://www.investing.com/news/commodities-news/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished-4847714) — *Investing.com*
-- [Here are the 2 big things we're watching in the stock market in the week ahead](https://www.cnbc.com/2026/08/09/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html) — *CNBC Markets*
-- [Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease](https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-at-64k-as-payrolls-test-looms-4845206) — *Investing.com*
-- [Notable healthcare headlines for the week: Eli Lilly, Novo Nordisk, and Pfizer in focus](https://seekingalpha.com/news/4629554-notable-healthcare-headlines-for-the-week-eli-lilly-novo-nordisk-and-pfizer-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Vertical Aerospace is said to near $100M capital raise amid flying-taxi push](https://seekingalpha.com/news/4629657-vertical-aerospace-is-said-to-near-100m-capital-raise-amid-flying-taxi-push?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Inflation data to test record-setting US stocks, Fed rate views](https://www.investing.com/news/economy-news/inflation-data-to-test-recordsetting-us-stocks-fed-rate-views-4847738) — *Investing.com*
-- [‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?](https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories) — *MarketWatch*
-- [The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.](https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories) — *MarketWatch*
-- [Top global stories this week: BP, SoftBank among notable names](https://seekingalpha.com/news/4629627-top-global-stories-this-week-bp-softbank-among-notable-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Which economies and sectors are most exposed to AI earnings bust?](https://www.investing.com/news/economy-news/which-economies-and-sectors-are-most-exposed-to-ai-earnings-bust-4847737) — *Investing.com*
+- [Largo launches copper, PGM output as by-products of vanadium operations](https://seekingalpha.com/news/4629926-largo-launches-copper-pgm-output-as-by-products-of-vanadium-operations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Sandisk rises after Argus upgrades rating to Buy](https://seekingalpha.com/news/4629914-sandisk-rises-after-argus-upgrades-rating-to-buy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Yen sinks as effect of US-Japan intervention fades](https://www.ft.com/content/47d2ab3c-0423-49ed-89ca-68683761ed98?syn-25a6b1a6=1) — *Financial Times*
+- [4Divinity receives $9 million investment from ADATA Technology](https://www.investing.com/news/company-news/4divinity-receives-9-million-investment-from-adata-technology-93CH-4849570) — *Investing.com*
+- [Wall St opens flat as markets monitor Hormuz situation](https://www.investing.com/news/stock-market-news/wall-st-open-flat-as-markets-monitor-hormuz-situation-4849511) — *Investing.com*
+- [Ambiq Micro earnings up next as edge AI momentum builds](https://www.investing.com/news/earnings/ambiq-micro-earnings-up-next-as-edge-ai-momentum-builds-93CH-4849568) — *Investing.com*
+- [Why is Super Micro Computer stock rallying today?](https://www.investing.com/news/stock-market-news/why-is-super-micro-computer-stock-rallying-today-93CH-4849567) — *Investing.com*
+- [TSX opens lower amid Iran war uncertainty, looming U.S. inflation data](https://www.investing.com/news/stock-market-news/tsx-futures-subdued-amid-iran-war-uncertainty-looming-us-inflation-data-4849048) — *Investing.com*
+- [Why is Microsoft stock gaining today?](https://www.investing.com/news/stock-market-news/why-is-microsoft-stock-gaining-today-93CH-4849566) — *Investing.com*
+- [NIQ earnings in focus as AI questions loom for market research](https://www.investing.com/news/earnings/niq-earnings-in-focus-as-ai-questions-loom-for-market-research-93CH-4849565) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
