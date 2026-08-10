@@ -635,20 +635,20 @@
     },
     {
       "date": "2026-08-10",
-      "total_value": 197725.43,
-      "portfolio_pnl": 1.92,
-      "benchmark_pnl": 9.206,
+      "total_value": 197728.15,
+      "portfolio_pnl": 1.922,
+      "benchmark_pnl": 9.216,
       "prices": {
-        "SPY": 772.9500122070312
+        "SPY": 773.0198974609375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 80.0, Win Rate 68.4%, Avg 5d Return 3.09%, Max Drawdown -12.18%, Sharpe 2.84. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -675,11 +675,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+172. Holding avoids $55 in taxes.",
-      "tax_note": "Held 3 days (short-term). Exiting now costs $55 tax + $30 slippage = $85 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+174. Holding avoids $56 in taxes.",
+      "tax_note": "Held 3 days (short-term). Exiting now costs $56 tax + $30 slippage = $86 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-10T18:11:48.498373",
+  "recommendations_updated": "2026-08-10T19:28:56.822781",
   "trade_log": [
     {
       "action": "SELL",
