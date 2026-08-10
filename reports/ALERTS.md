@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Monday August 10, 2026 at 05:22 PM
+**Last scan:** Monday August 10, 2026 at 06:11 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals scanned (confidence ≥ 50) | 103 |
-| 🟢 Bullish | 60 |
+| Total signals scanned (confidence ≥ 50) | 105 |
+| 🟢 Bullish | 62 |
 | 🔴 Bearish | 65 |
 | ✅ Fired this run (SMS + email) | 0 |
-| ⏭ Skipped — same ticker notified in last 6h | 103 |
+| ⏭ Skipped — same ticker notified in last 6h | 105 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
@@ -28,7 +28,7 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
 |---|---|---|---|---|---|---|
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% | 1.21% | 2.74 |
-| 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 83.0 | 70.5% | 2.9% | 3.88 |
+| 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 83.0 | 70.5% | 2.91% | 3.88 |
 | 🟢 BULLISH | **XLE** | Parabolic SAR — Bullish | 81.0 | 75.0% | 1.75% | 4.48 |
 | 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 80.1 | 64.2% | 1.88% | 2.75 |
 | 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 80.0 | 68.4% | 3.09% | 2.84 |
@@ -46,21 +46,23 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **QQQ** | Aroon — Strong Uptrend | 66.6 | 63.8% | 0.65% | 1.62 |
 | 🟢 BULLISH | **GC=F** | Aroon — Strong Uptrend | 65.5 | 64.1% | 0.8% | 1.53 |
 | 🟢 BULLISH | **XLE** | Vortex — Bullish | 65.2 | 63.2% | 0.7% | 1.66 |
-| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.4 | 58.1% | 1.67% | 2.04 |
+| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.4 | 58.1% | 1.68% | 2.05 |
 | 🟢 BULLISH | **XLK** | Aroon — Strong Uptrend | 64.2 | 63.9% | 0.84% | 1.59 |
-| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 64.1 | 60.0% | 1.66% | 1.53 |
+| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 64.1 | 60.0% | 1.65% | 1.53 |
+| 🟢 BULLISH | **MARA** | Keltner — Lower Channel Touch | 63.7 | 64.3% | 3.13% | 1.8 |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 61.8 | 53.4% | 3.48% | 1.75 |
 | 🟢 BULLISH | **SPY** | Aroon — Strong Uptrend | 61.8 | 62.1% | 0.38% | 1.32 |
 | 🟢 BULLISH | **AAPL** | Stochastic RSI Oversold | 60.4 | 57.9% | 1.09% | 1.49 |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 60.1 | 60.7% | 1.1% | 1.46 |
 | 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 59.7 | 61.1% | 0.75% | 1.32 |
-| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 59.0 | 56.5% | 2.38% | 1.45 |
+| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 58.9 | 56.5% | 2.37% | 1.45 |
 | 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 58.4 | 66.5% | 0.65% | 1.08 |
+| 🟢 BULLISH | **GC=F** | Donchian — 20D High Breakout | 58.3 | 69.0% | 0.6% | 1.06 |
 | 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 58.3 | 54.9% | 3.04% | 1.59 |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 58.2 | 58.8% | 1.02% | 1.43 |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.2 | 56.9% | 2.09% | 1.45 |
-| 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 58.2 | 57.8% | 1.52% | 1.47 |
 | 🟢 BULLISH | **UPRO** | Aroon — Strong Uptrend | 58.1 | 62.4% | 0.86% | 1.27 |
+| 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 58.1 | 57.8% | 1.52% | 1.46 |
 | 🟢 BULLISH | **META** | Vortex — Bullish | 57.4 | 54.2% | 1.16% | 1.73 |
 | 🟢 BULLISH | **SOL-USD** | TRIX — Bullish Cross | 55.3 | 57.9% | 1.46% | 1.37 |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 55.0 | 60.9% | 0.39% | 1.0 |
@@ -70,8 +72,8 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 53.6 | 59.7% | 0.51% | 1.03 |
 | 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 53.4 | 58.8% | 2.9% | 1.23 |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 53.3 | 59.2% | 0.66% | 1.11 |
+| 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 52.2 | 57.2% | 1.61% | 1.25 |
 | 🟢 BULLISH | **CRWD** | OBV — Accumulation | 52.2 | 60.5% | 0.86% | 1.05 |
-| 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 52.1 | 57.2% | 1.61% | 1.24 |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 52.0 | 54.8% | 1.33% | 1.19 |
 | 🟢 BULLISH | **UPRO** | CCI — Extreme Oversold | 51.4 | 59.5% | 0.94% | 0.95 |
 | 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 51.2 | 51.5% | 3.08% | 1.3 |
@@ -98,7 +100,7 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **META** | Ulcer Index — Elevated | 69.8 | 62.9% | 1.69% | 2.35 |
 | 🔴 BEARISH | **XBI** | Aroon — Strong Downtrend | 67.7 | 63.7% | 1.19% | 1.84 |
 | 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 66.6 | 64.5% | 2.13% | 2.43 |
-| 🔴 BEARISH | **MSFT** | RSI Overbought | 66.1 | 67.0% | 0.71% | 1.54 |
+| 🔴 BEARISH | **MSFT** | RSI Overbought | 65.9 | 67.0% | 0.71% | 1.53 |
 | 🔴 BEARISH | **IONQ** | Stochastic (Full) — Overbought | 65.5 | 57.7% | 4.62% | 1.9 |
 | 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 64.9 | 65.7% | 0.8% | 1.5 |
 | 🔴 BEARISH | **SMH** | Vortex — Bearish | 61.9 | 65.6% | 1.12% | 1.53 |
@@ -106,8 +108,8 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 61.1 | 59.3% | 1.04% | 1.44 |
 | 🔴 BEARISH | **SMH** | Stochastic (Full) — Overbought | 61.0 | 60.2% | 1.03% | 1.38 |
 | 🔴 BEARISH | **PLTR** | RSI Overbought | 60.0 | 59.3% | 1.7% | 1.43 |
-| 🔴 BEARISH | **MSFT** | Keltner — Upper Channel Touch | 59.9 | 69.1% | 0.64% | 1.27 |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 59.8 | 60.2% | 1.07% | 1.46 |
+| 🔴 BEARISH | **MSFT** | Keltner — Upper Channel Touch | 59.7 | 69.1% | 0.63% | 1.26 |
 | 🔴 BEARISH | **ADA-USD** | Fisher Transform — High Extreme | 59.0 | 48.9% | 4.27% | 1.96 |
 | 🔴 BEARISH | **IONQ** | Stochastic RSI Overbought | 57.2 | 52.2% | 3.72% | 1.55 |
 | 🔴 BEARISH | **XLK** | Stochastic (Full) — Overbought | 57.1 | 60.8% | 0.68% | 1.13 |
@@ -126,8 +128,8 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **SMH** | Stochastic RSI Overbought | 52.5 | 60.0% | 0.8% | 0.93 |
 | 🔴 BEARISH | **AMZN** | Williams %R — Overbought | 51.8 | 58.3% | 0.76% | 1.13 |
 | 🔴 BEARISH | **XLE** | TRIX — Bearish Cross | 51.7 | 68.8% | 0.5% | 1.04 |
-| 🔴 BEARISH | **RIOT** | Vortex — Bearish | 51.4 | 47.8% | 3.25% | 1.34 |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 51.2 | 58.4% | 1.39% | 1.0 |
+| 🔴 BEARISH | **RIOT** | Vortex — Bearish | 51.2 | 47.8% | 3.23% | 1.33 |
 | 🔴 BEARISH | **NVDA** | Stochastic (Full) — Overbought | 50.4 | 57.1% | 0.73% | 0.86 |
 | 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 50.0 | 54.6% | 1.29% | 0.96 |
 
