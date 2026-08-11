@@ -98,6 +98,24 @@ def _parse_sms_max_per_scan() -> int:
     except ValueError:
         return 3
 SMS_MAX_PER_SCAN = _parse_sms_max_per_scan()
+
+# Prefer these tickers in the SMS fan-out so strong VOO/BTC signals are not
+# crowded out by higher-scoring names elsewhere on the watchlist.
+# Override with FOCUS_SMS_TICKERS=VOO,BTC-USD (comma-separated).
+def _parse_focus_sms_tickers() -> frozenset[str]:
+    raw = (os.getenv("FOCUS_SMS_TICKERS") or "VOO,BTC-USD").strip()
+    out: set[str] = set()
+    for part in raw.split(","):
+        t = part.strip().upper()
+        if not t:
+            continue
+        if t in ("BTC", "BITCOIN"):
+            t = "BTC-USD"
+        out.add(t)
+    return frozenset(out)
+
+
+FOCUS_SMS_TICKERS = _parse_focus_sms_tickers()
 # 160 = true single-segment SMS for plain ASCII (GSM-7). Any non-ASCII char
 # (e.g. an emoji) silently forces UCS-2 which drops the segment to 70 chars,
 # which is why earlier alerts containing "⚠" were getting visibly cut off.
@@ -739,18 +757,25 @@ def select_sms_top_signal(
     return top, top.get("ticker") in conflicts
 
 
-def select_sms_per_ticker_signals(new_signals: list[dict]) -> list[dict]:
+def select_sms_per_ticker_signals(
+    new_signals: list[dict],
+    focus_tickers: frozenset[str] | set[str] | None = None,
+) -> list[dict]:
     """Group `new_signals` by ticker, keep each ticker's highest-confidence
-    signal, and return them ordered by confidence desc.
+    signal, and return them ordered for SMS dispatch.
 
-    The dispatch loop then sends one SMS per returned signal (capped by
-    `SMS_MAX_PER_SCAN`). A ticker that fires both a bullish and a bearish rule
-    in the same scan still produces one SMS — the higher-confidence side wins
-    the headline, and the conflict flag adds the MIXED prefix + opposing-side
-    score line on top of it.
+    Focus tickers (default VOO, BTC-USD) are listed first — still sorted by
+    confidence within that group — so a strong focus signal is not dropped when
+    `SMS_MAX_PER_SCAN` is hit by other names. Remaining tickers follow by
+    confidence desc.
+
+    A ticker that fires both a bullish and a bearish rule in the same scan still
+    produces one SMS — the higher-confidence side wins the headline, and the
+    conflict flag adds the MIXED prefix + opposing-side score line on top of it.
     """
     if not new_signals:
         return []
+    focus = frozenset(focus_tickers) if focus_tickers is not None else FOCUS_SMS_TICKERS
     ordered = sorted(
         new_signals, key=lambda s: float(s.get("confidence", 0)), reverse=True
     )
@@ -762,7 +787,10 @@ def select_sms_per_ticker_signals(new_signals: list[dict]) -> list[dict]:
             continue
         seen.add(t)
         top_per_ticker.append(s)
-    return top_per_ticker
+
+    focus_first = [s for s in top_per_ticker if s.get("ticker") in focus]
+    others = [s for s in top_per_ticker if s.get("ticker") not in focus]
+    return focus_first + others
 
 
 def sms_may_send(state: dict) -> bool:
@@ -1509,9 +1537,19 @@ def main(crypto_only: bool = False) -> None:
             ) + (" ..." if len(conflicts) > 8 else ""),
         )
     # Fan out one SMS per top-ticker signal (capped by SMS_MAX_PER_SCAN).
+    # Focus tickers (VOO / BTC-USD by default) are ordered first so strong
+    # signals on them are not crowded out by the per-scan cap.
     # The global SMS_COOLDOWN_HOURS guard runs once up front; per-ticker
     # sms_ticker_last_sent prevents same-ticker spam across consecutive scans.
     per_ticker_signals = select_sms_per_ticker_signals(new_signals)
+    if FOCUS_SMS_TICKERS:
+        focus_hit = [s["ticker"] for s in per_ticker_signals if s.get("ticker") in FOCUS_SMS_TICKERS]
+        if focus_hit:
+            logger.info(
+                "Focus SMS priority tickers eligible this run: %s (cap=%s)",
+                ", ".join(focus_hit),
+                SMS_MAX_PER_SCAN,
+            )
     tickers_sent: list[str] = []
     tickers_skipped_cooldown: list[str] = []
     tickers_over_cap: list[str] = []

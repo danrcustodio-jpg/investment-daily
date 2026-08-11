@@ -78,7 +78,7 @@ WATCHLIST: dict[str, list[str]] = {
 # the SCAN_TICKERS fallback so we don't waste API calls on them.
 _NON_RECIPIENT_TICKERS: set[str] = {
     # Indices / commodities / crypto / 3x leveraged ETFs
-    "SPY", "QQQ", "IWM", "SMH", "ARKK", "XBI", "XLE", "XLK",
+    "SPY", "VOO", "QQQ", "IWM", "SMH", "ARKK", "XBI", "XLE", "XLK",
     "TQQQ", "UPRO", "SOXL",
     "GC=F", "CL=F",
 }
