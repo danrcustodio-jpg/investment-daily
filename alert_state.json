@@ -247,9 +247,9 @@
       "last_change_at": "2026-08-11T18:13:29.839300+00:00"
     },
     "RIOT": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-11T15:27:31.934697+00:00",
-      "last_change_at": "2026-08-11T17:25:02.464348+00:00"
+      "last_change_at": "2026-08-11T19:32:20.316596+00:00"
     },
     "RKLB": {
       "cadence_min": 15,
