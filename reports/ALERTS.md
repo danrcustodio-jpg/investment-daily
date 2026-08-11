@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday August 11, 2026 at 08:35 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday August 11, 2026 at 09:36 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -8,8 +8,8 @@
 | Total signals (confidence ≥ 45) | 117 |
 | 🟢 Bullish | 55 |
 | 🔴 Bearish | 62 |
-| 🔵 In cooldown (fired in last 6h) | 2 |
-| 🟡 Available to fire (not in cooldown) | 115 |
+| 🔵 In cooldown (fired in last 6h) | 0 |
+| 🟡 Available to fire (not in cooldown) | 117 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -43,7 +43,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 59.2 | 56.7% | -91.87% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.5 | 57.0% | -93.94% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 58.3 | 57.9% | -87.02% | 🟡 Available |
-| 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 58.3 | 54.9% | -82.9% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 58.3 | 54.9% | -82.9% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | Aroon — Strong Uptrend | 57.8 | 62.2% | -58.55% | 🟡 Available |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 57.5 | 58.7% | -77.87% | 🟡 Available |
 | 🟢 BULLISH | **CEG** | Aroon — Strong Uptrend | 55.0 | 57.6% | -64.73% | 🟡 Available |
@@ -93,7 +93,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **SMH** | Stochastic (Full) — Overbought | 61.0 | 60.2% | -61.99% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | RSI Overbought | 60.9 | 59.6% | -82.06% | 🟡 Available |
 | 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 60.9 | 59.0% | -39.09% | 🟡 Available |
-| 🔴 BEARISH | **AVAX-USD** | Parabolic SAR — Bearish | 60.6 | 60.0% | -16.63% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **AVAX-USD** | Parabolic SAR — Bearish | 60.6 | 60.0% | -16.63% | 🟡 Available |
 | 🔴 BEARISH | **MSFT** | Keltner — Upper Channel Touch | 60.5 | 69.4% | -36.47% | 🟡 Available |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 59.2 | 59.6% | -37.84% | 🟡 Available |
 | 🔴 BEARISH | **IONQ** | Stochastic RSI Overbought | 57.5 | 52.7% | -62.39% | 🟡 Available |
