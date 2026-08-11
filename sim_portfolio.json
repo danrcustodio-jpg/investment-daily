@@ -644,11 +644,11 @@
     },
     {
       "date": "2026-08-11",
-      "total_value": 197774.73,
-      "portfolio_pnl": 1.946,
-      "benchmark_pnl": 9.311,
+      "total_value": 197727.5,
+      "portfolio_pnl": 1.921,
+      "benchmark_pnl": 9.14,
       "prices": {
-        "SPY": 773.6900024414062
+        "SPY": 772.47998046875
       }
     }
   ],
@@ -664,9 +664,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "NEAR-USD",
       "priority": "medium",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 59.3, Win Rate 52.8%, Avg 5d Return 5.45%, Max Drawdown -89.45%, Sharpe 1.59. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 66.5, Win Rate 62.8%, Avg 5d Return 4.11%, Max Drawdown -71.04%, Sharpe 1.77. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -684,11 +684,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+201. Holding avoids $64 in taxes.",
-      "tax_note": "Held 4 days (short-term). Exiting now costs $64 tax + $30 slippage = $95 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+153. Holding avoids $49 in taxes.",
+      "tax_note": "Held 4 days (short-term). Exiting now costs $49 tax + $30 slippage = $79 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-11T14:13:50.958645",
+  "recommendations_updated": "2026-08-11T15:28:15.532378",
   "trade_log": [
     {
       "action": "SELL",
