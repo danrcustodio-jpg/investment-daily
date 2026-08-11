@@ -648,16 +648,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. No conflicting bearish signals.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.7, Win Rate 85.7%, Avg 5d Return 5.86%, Max Drawdown -22.0%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SOL-USD",
-      "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 80.0, Win Rate 71.4%, Avg 5d Return 3.11%, Max Drawdown -14.59%, Sharpe 2.86. No conflicting bearish signals.",
+      "ticker": "AERO-USD",
+      "priority": "medium",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 59.3, Win Rate 52.8%, Avg 5d Return 5.45%, Max Drawdown -89.45%, Sharpe 1.59. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -665,8 +665,8 @@
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLE",
-      "priority": "high",
-      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 81.0, Win Rate 75.0%, Avg 5d Return 1.75%, Max Drawdown -5.64%, Sharpe 4.48. 1 minor bearish signal(s), max confidence 51.7.",
+      "priority": "medium",
+      "reason": "MACD Bullish Crossover \u2014 Score 61.3, Win Rate 60.0%, Avg 5d Return 0.79%, Max Drawdown -5.64%, Sharpe 1.78. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -675,11 +675,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+174. Holding avoids $56 in taxes.",
-      "tax_note": "Held 3 days (short-term). Exiting now costs $56 tax + $30 slippage = $86 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+169. Holding avoids $54 in taxes.",
+      "tax_note": "Held 4 days (short-term). Exiting now costs $54 tax + $30 slippage = $84 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-10T22:05:39.807983",
+  "recommendations_updated": "2026-08-11T13:55:24.193732",
   "trade_log": [
     {
       "action": "SELL",
