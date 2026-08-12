@@ -653,11 +653,11 @@
     },
     {
       "date": "2026-08-12",
-      "total_value": 197765.09,
-      "portfolio_pnl": 1.941,
-      "benchmark_pnl": 9.202,
+      "total_value": 197774.46,
+      "portfolio_pnl": 1.946,
+      "benchmark_pnl": 9.236,
       "prices": {
-        "SPY": 772.9199829101562
+        "SPY": 773.1599731445312
       }
     }
   ],
@@ -693,11 +693,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+170. Holding avoids $54 in taxes.",
-      "tax_note": "Held 5 days (short-term). Exiting now costs $54 tax + $30 slippage = $85 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+179. Holding avoids $57 in taxes.",
+      "tax_note": "Held 5 days (short-term). Exiting now costs $57 tax + $30 slippage = $88 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-12T17:26:10.562527",
+  "recommendations_updated": "2026-08-12T18:14:35.411233",
   "trade_log": [
     {
       "action": "SELL",
