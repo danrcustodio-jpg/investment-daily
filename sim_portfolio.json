@@ -653,11 +653,11 @@
     },
     {
       "date": "2026-08-12",
-      "total_value": 197774.46,
-      "portfolio_pnl": 1.946,
-      "benchmark_pnl": 9.236,
+      "total_value": 197763.53,
+      "portfolio_pnl": 1.94,
+      "benchmark_pnl": 9.196,
       "prices": {
-        "SPY": 773.1599731445312
+        "SPY": 772.8800048828125
       }
     }
   ],
@@ -675,7 +675,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 85.7, Win Rate 85.7%, Avg 5d Return 5.86%, Max Drawdown -22.0%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -693,11 +693,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+179. Holding avoids $57 in taxes.",
-      "tax_note": "Held 5 days (short-term). Exiting now costs $57 tax + $30 slippage = $88 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+169. Holding avoids $54 in taxes.",
+      "tax_note": "Held 5 days (short-term). Exiting now costs $54 tax + $30 slippage = $84 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-12T18:14:35.411233",
+  "recommendations_updated": "2026-08-12T19:34:46.030472",
   "trade_log": [
     {
       "action": "SELL",
