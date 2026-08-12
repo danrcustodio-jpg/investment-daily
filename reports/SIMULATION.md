@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 96** &nbsp;·&nbsp; Updated: Aug 12 2026 08:34 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 96** &nbsp;·&nbsp; Updated: Aug 12 2026 09:36 PM
 
 ## Performance Summary
 
@@ -93,7 +93,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 12 2026 08:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 12 2026 09:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -116,7 +116,7 @@ _Evaluated Aug 12 2026 08:34 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 64.7, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82.78%, Sharpe 1.84. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 64.7, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82.78%, Sharpe 1.84. 1 minor bearish signal(s), max confidence 68.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
