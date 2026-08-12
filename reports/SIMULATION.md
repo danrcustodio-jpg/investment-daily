@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 95** &nbsp;·&nbsp; Updated: Aug 11 2026 09:37 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 96** &nbsp;·&nbsp; Updated: Aug 12 2026 01:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.88%** &nbsp; ($+3,653) |
-| SPY Benchmark | +8.87% &nbsp; ($+17,205 if 100% SPY) |
-| Alpha vs SPY | **-6.99%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.94%** &nbsp; ($+3,755) |
+| SPY Benchmark | +9.16% &nbsp; ($+17,779 if 100% SPY) |
+| Alpha vs SPY | **-7.23%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,653 |
+| Current Value | $197,755 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,940 | +1.17% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $770.56 | $+78 | +0.26% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,960 | +1.18% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $772.66 | $+160 | +0.53% |
 
 ## Daily Equity Curve
 
@@ -92,38 +92,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 11 2026 09:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 12 2026 01:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 85.7, Win Rate 85.7%, Avg 5d Return 5.86%, Max Drawdown -22.0%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 64.8, Win Rate 51.1%, Avg 5d Return 6.31%, Max Drawdown -82… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XLE** | MACD Bullish Crossover — Score 61.3, Win Rate 60.0%, Avg 5d Return 0.79%, Max Drawdown -5.… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.51). Gross P&L: $+78. Holdin… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 64.8, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+160. Holdi… |
+
+### 🔍 NEW OPPORTUNITY — AAPL
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown -11.1%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 58.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** PPO — Bullish Cross — Score 85.7, Win Rate 85.7%, Avg 5d Return 5.86%, Max Drawdown -22.0%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 64.8, Win Rate 51.1%, Avg 5d Return 6.31%, Max Drawdown -82.78%, Sharpe 1.85. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 64.8, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82.78%, Sharpe 1.85. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** MACD Bullish Crossover — Score 61.3, Win Rate 60.0%, Avg 5d Return 0.79%, Max Drawdown -5.64%, Sharpe 1.78. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.51). Gross P&L: $+78. Holding avoids $25 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.52). Gross P&L: $+160. Holding avoids $51 in taxes.
 
-**Tax & Cost:** Held 4 days (short-term). Exiting now costs $25 tax + $30 slippage = $55 total friction.
+**Tax & Cost:** Held 5 days (short-term). Exiting now costs $51 tax + $30 slippage = $81 total friction.
 
 ## Position Rationale
 
