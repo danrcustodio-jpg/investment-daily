@@ -242,6 +242,28 @@ def main() -> int:
         )
         assert top_per_ticker[0]["confidence"] == 95, "MRVL should keep its 95-conf rule, not the 84"
         print("OK: select_sms_per_ticker_signals dedupes by ticker and orders by confidence.")
+
+        # Focus tickers (VOO / BTC-USD) must lead the SMS queue even when other
+        # names score higher — otherwise the per-scan cap can drop them.
+        focus_fanout = [
+            _full("BULLISH", "APP",     "PPO — Bullish Cross",  95, "APP hot"),
+            _full("BULLISH", "VOO",     "Aroon — Strong Uptrend", 62, "VOO strong"),
+            _full("BEARISH", "BTC-USD", "MACD Bearish Crossover", 58, "BTC strong"),
+            _full("BULLISH", "NVDA",    "Aroon — Strong Uptrend", 88, "NVDA hot"),
+        ]
+        focus_ordered = _als.select_sms_per_ticker_signals(focus_fanout)
+        assert [s["ticker"] for s in focus_ordered] == ["VOO", "BTC-USD", "APP", "NVDA"], (
+            f"focus priority broken: {[s['ticker'] for s in focus_ordered]}"
+        )
+        print("OK: select_sms_per_ticker_signals prioritizes VOO/BTC focus tickers.")
+
+        # FOCUS_SMS_ONLY (default on): dispatch list should drop non-focus names.
+        assert _als.FOCUS_SMS_ONLY is True, "FOCUS_SMS_ONLY should default on"
+        only_focus = [
+            s for s in focus_ordered if s.get("ticker") in _als.FOCUS_SMS_TICKERS
+        ]
+        assert [s["ticker"] for s in only_focus] == ["VOO", "BTC-USD"]
+        print("OK: FOCUS_SMS_ONLY filter keeps only VOO/BTC for SMS.")
         return 0
     finally:
         if had_snap:

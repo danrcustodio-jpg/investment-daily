@@ -1361,29 +1361,30 @@ def _series_json(series: pd.Series) -> list[float | None]:
 
 @app.route("/chart")
 def chart_page():
-    refresh_cache()
-    signals = _cache.get("signals") or []
-    ticker = (request.args.get("ticker") or "BTC-USD").strip().upper()
+    # Focus list only — text indicator cards stay off; overlays default unchecked.
+    chart_tickers = [
+        ("VOO", "Vanguard S&P 500 ETF"),
+        ("BTC-USD", "Bitcoin"),
+    ]
+    allowed = {t for t, _ in chart_tickers}
+    raw = (request.args.get("ticker") or "VOO").strip().upper()
+    if raw in ("BTC", "BITCOIN"):
+        raw = "BTC-USD"
+    ticker = raw if raw in allowed else "VOO"
     options = ""
-    seen: dict[str, str] = {}
-    for s in signals:
-        t = str(s.get("ticker", "")).strip()
-        if t and t not in seen:
-            seen[t] = str(s.get("name", t))
-    for t in sorted(seen.keys()):
+    for t, name in chart_tickers:
         sel = " selected" if t == ticker else ""
-        options += f'<option value="{t}"{sel}>{t} - {seen[t]}</option>'
+        options += f'<option value="{t}"{sel}>{t} - {name}</option>'
 
     body = f"""
     <div style="padding:14px 14px 4px">
-      <h2>Candle Chart & Indicator Context</h2>
-      <p style="font-size:12px;color:#64748b">View multi-timeframe candles and highest-confidence strategy indicators for a ticker.</p>
+      <h2>Candle Chart</h2>
+      <p style="font-size:12px;color:#64748b">VOO and BTC only. Indicator overlays off by default — toggle on if needed.</p>
     </div>
     <div class="card">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
         <select id="chartTicker" onchange="reloadChartPage()"
           style="padding:10px;border-radius:8px;border:1px solid #334155;background:#0a0f1e;color:#e2e8f0;font-size:13px">
-          <option value="BTC-USD">BTC-USD - Bitcoin</option>
           {options}
         </select>
         <select id="chartInterval" onchange="loadChartData()"
@@ -1398,10 +1399,6 @@ def chart_page():
       <div id="indicatorToggles" style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px"></div>
       <div id="chartStatus" style="font-size:11px;color:#64748b;margin-top:10px">Loading chart...</div>
       <div id="candleChart" style="height:420px;margin-top:8px"></div>
-    </div>
-    <div class="card">
-      <h3>High Confidence Recommended Indicators</h3>
-      <div id="indicatorCards" style="font-size:12px;color:#94a3b8">Loading indicators...</div>
     </div>
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <script>
@@ -1419,21 +1416,6 @@ def chart_page():
         {{ key: 'macd_signal', label: 'MACD Signal', group: 'osc' }},
         {{ key: 'macd_hist', label: 'MACD Hist', group: 'osc' }},
       ];
-      let recommendedKeys = [];
-
-      function strategyToIndicatorKeys(name) {{
-        const s = (name || '').toLowerCase();
-        if (s.includes('macd')) return ['ema9', 'ema21', 'macd', 'macd_signal', 'macd_hist'];
-        if (s.includes('rsi')) return ['rsi14'];
-        if (s.includes('bollinger')) return ['sma20', 'bb_upper', 'bb_lower'];
-        if (s.includes('vwap')) return ['vwap'];
-        if (s.includes('golden cross') || s.includes('death cross')) return ['sma30', 'sma50'];
-        if (s.includes('sma 30')) return ['sma30'];
-        if (s.includes('sma')) return ['sma20', 'sma30', 'sma50'];
-        if (s.includes('ema')) return ['ema9', 'ema21'];
-        if (s.includes('breakout') || s.includes('aroon') || s.includes('adx')) return ['ema21', 'sma20'];
-        return [];
-      }}
 
       function selectedIndicatorKeys() {{
         return Array.from(document.querySelectorAll('.indicator-check:checked')).map(x => x.value);
@@ -1441,10 +1423,10 @@ def chart_page():
 
       function renderIndicatorToggles() {{
         const host = document.getElementById('indicatorToggles');
-        const defaults = new Set(recommendedKeys.length ? recommendedKeys : ['ema9', 'ema21', 'rsi14']);
+        // All overlays off by default (text/recommended indicator cards disabled).
         host.innerHTML = INDICATOR_OPTIONS.map(opt => `
           <label style="display:flex;align-items:center;gap:6px;background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:8px 10px;font-size:11px;color:#cbd5e1">
-            <input class="indicator-check" type="checkbox" value="${{opt.key}}" ${{defaults.has(opt.key) ? 'checked' : ''}} onchange="loadChartData()" />
+            <input class="indicator-check" type="checkbox" value="${{opt.key}}" onchange="loadChartData()" />
             <span>${{opt.label}}</span>
           </label>
         `).join('');
@@ -1550,51 +1532,13 @@ def chart_page():
         }}
       }}
 
-      async function loadIndicatorCards() {{
-        const ticker = (document.getElementById('chartTicker').value || '').trim();
-        const host = document.getElementById('indicatorCards');
-        host.textContent = 'Loading indicators...';
-        try {{
-          const r = await fetch('/api/ticker-signals?ticker=' + encodeURIComponent(ticker));
-          const d = await r.json();
-          if (!d.ok || !d.signals || !d.signals.length) {{
-            host.innerHTML = '<div style="color:#64748b">No high-confidence signals found for this ticker right now.</div>';
-            recommendedKeys = ['ema9', 'ema21', 'rsi14'];
-            renderIndicatorToggles();
-            loadChartData();
-            return;
-          }}
-          const rec = new Set();
-          d.signals.forEach(s => strategyToIndicatorKeys(s.strategy).forEach(k => rec.add(k)));
-          recommendedKeys = Array.from(rec);
-          renderIndicatorToggles();
-          host.innerHTML = d.signals.map(s => {{
-            const col = s.direction === 'BULLISH' ? '#22c55e' : '#ef4444';
-            return `
-              <div style="background:#0a0f1e;border:1px solid #1e293b;border-radius:8px;padding:10px;margin-bottom:8px">
-                <div style="font-size:12px;color:${{col}};font-weight:700">${{s.direction}} · ${{s.strategy}} · score ${{s.confidence}}</div>
-                ${{s.learn_html ? `<div style="margin-top:6px">${{s.learn_html}}</div>` : ''}}
-                <div style="font-size:12px;color:#818cf8;margin-top:6px;font-family:monospace">${{s.indicator || ''}}</div>
-                <div style="font-size:12px;color:#94a3b8;margin-top:6px;line-height:1.45">${{s.implication || ''}}</div>
-              </div>
-            `;
-          }}).join('');
-          loadChartData();
-        }} catch (e) {{
-          host.innerHTML = '<div style="color:#fca5a5">Failed to load indicator cards: ' + e + '</div>';
-          recommendedKeys = ['ema9', 'ema21', 'rsi14'];
-          renderIndicatorToggles();
-          loadChartData();
-        }}
-      }}
-
       function reloadChartPage() {{
         const ticker = (document.getElementById('chartTicker').value || '').trim();
         window.location.href = '/chart?ticker=' + encodeURIComponent(ticker);
       }}
 
       renderIndicatorToggles();
-      loadIndicatorCards();
+      loadChartData();
     </script>
     """
     return shell("Chart", body, active="chart")

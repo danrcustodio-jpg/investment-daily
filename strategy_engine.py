@@ -35,6 +35,7 @@ POSITIONING_ADJ_BY_CROWDING = {
 }
 POSITIONING_PROXY_MAP: dict[str, str] = {
     "SPY": "spx",
+    "VOO": "spx",
     "UPRO": "spx",
     "QQQ": "spx",
     "TQQQ": "spx",
@@ -245,6 +246,7 @@ SCAN_TICKERS: dict[str, str] = {
     "RKLB":    "Rocket Lab",
     "SMCI":    "Super Micro Computer",
     "SPY":     "S&P 500 ETF",
+    "VOO":     "Vanguard S&P 500 ETF",
     "QQQ":     "NASDAQ ETF",
     "IWM":     "Russell 2000 ETF",
     "SMH":     "Semiconductors (SMH)",

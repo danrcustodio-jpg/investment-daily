@@ -56,6 +56,11 @@ jobs:
           SMS_GATEWAY: ${{ secrets.SMS_GATEWAY }}
           SMS_ENABLE: ${{ secrets.SMS_ENABLE }}
           SMS_COOLDOWN_HOURS: ${{ secrets.SMS_COOLDOWN_HOURS }}
+          SMS_MAX_PER_SCAN: ${{ secrets.SMS_MAX_PER_SCAN }}
+          # Optional: comma list (default VOO,BTC-USD). Empty secret falls back to code default.
+          FOCUS_SMS_TICKERS: ${{ secrets.FOCUS_SMS_TICKERS }}
+          # Optional: 1 = text only focus tickers (code default). 0 = text full watchlist.
+          FOCUS_SMS_ONLY: ${{ secrets.FOCUS_SMS_ONLY }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: |
           for attempt in 1 2 3; do

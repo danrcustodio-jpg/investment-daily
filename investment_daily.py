@@ -81,6 +81,7 @@ MARKET_TICKERS: dict[str, dict[str, str]] = {
         "^VIX":     "VIX (Fear Index)",
     },
     "Sector ETFs": {
+        "VOO": "S&P 500 (VOO)",
         "XLK": "Tech (XLK)",
         "XLF": "Financials (XLF)",
         "XLE": "Energy (XLE)",
