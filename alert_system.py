@@ -116,6 +116,12 @@ def _parse_focus_sms_tickers() -> frozenset[str]:
 
 
 FOCUS_SMS_TICKERS = _parse_focus_sms_tickers()
+
+# When true (default), SMS is sent only for FOCUS_SMS_TICKERS. Other tickers
+# still appear in email/dashboard alerts. Set FOCUS_SMS_ONLY=0 to text the full
+# watchlist again (focus tickers remain prioritized in the send order).
+_FOCUS_ONLY = (os.getenv("FOCUS_SMS_ONLY") or "1").strip().lower()
+FOCUS_SMS_ONLY = _FOCUS_ONLY in ("1", "true", "yes", "on", "")
 # 160 = true single-segment SMS for plain ASCII (GSM-7). Any non-ASCII char
 # (e.g. an emoji) silently forces UCS-2 which drops the segment to 70 chars,
 # which is why earlier alerts containing "⚠" were getting visibly cut off.
@@ -1539,16 +1545,35 @@ def main(crypto_only: bool = False) -> None:
     # Fan out one SMS per top-ticker signal (capped by SMS_MAX_PER_SCAN).
     # Focus tickers (VOO / BTC-USD by default) are ordered first so strong
     # signals on them are not crowded out by the per-scan cap.
+    # When FOCUS_SMS_ONLY is on (default), non-focus tickers are never texted.
     # The global SMS_COOLDOWN_HOURS guard runs once up front; per-ticker
     # sms_ticker_last_sent prevents same-ticker spam across consecutive scans.
     per_ticker_signals = select_sms_per_ticker_signals(new_signals)
+    if FOCUS_SMS_ONLY and FOCUS_SMS_TICKERS:
+        skipped_non_focus = [
+            s["ticker"] for s in per_ticker_signals if s.get("ticker") not in FOCUS_SMS_TICKERS
+        ]
+        per_ticker_signals = [
+            s for s in per_ticker_signals if s.get("ticker") in FOCUS_SMS_TICKERS
+        ]
+        if skipped_non_focus:
+            logger.info(
+                "FOCUS_SMS_ONLY: skipping SMS for non-focus tickers: %s",
+                ", ".join(skipped_non_focus[:12])
+                + (" ..." if len(skipped_non_focus) > 12 else ""),
+            )
     if FOCUS_SMS_TICKERS:
         focus_hit = [s["ticker"] for s in per_ticker_signals if s.get("ticker") in FOCUS_SMS_TICKERS]
         if focus_hit:
             logger.info(
-                "Focus SMS priority tickers eligible this run: %s (cap=%s)",
+                "Focus SMS tickers eligible this run: %s (only=%s cap=%s)",
                 ", ".join(focus_hit),
+                FOCUS_SMS_ONLY,
                 SMS_MAX_PER_SCAN,
+            )
+        elif FOCUS_SMS_ONLY and not per_ticker_signals:
+            logger.info(
+                "FOCUS_SMS_ONLY: no eligible VOO/BTC signals this run — no SMS.",
             )
     tickers_sent: list[str] = []
     tickers_skipped_cooldown: list[str] = []
