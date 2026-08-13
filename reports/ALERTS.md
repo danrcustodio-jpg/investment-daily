@@ -1,14 +1,14 @@
 # Strategy Alerts
-**Last scan:** Thursday August 13, 2026 at 08:32 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday August 13, 2026 at 09:35 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 140 |
+| Total signals (confidence ≥ 45) | 139 |
 | 🟢 Bullish | 66 |
-| 🔴 Bearish | 74 |
-| 🔵 In cooldown (fired in last 6h) | 1 |
+| 🔴 Bearish | 73 |
+| 🔵 In cooldown (fired in last 6h) | 0 |
 | 🟡 Available to fire (not in cooldown) | 139 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
@@ -48,7 +48,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 59.6 | 56.7% | -91.87% | 🟡 Available |
 | 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 58.8 | 61.7% | -30.97% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.7 | 57.0% | -93.94% | 🟡 Available |
-| 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 58.6 | 55.0% | -82.9% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 58.6 | 55.0% | -82.9% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 58.3 | 57.9% | -87.02% | 🟡 Available |
 | 🟢 BULLISH | **AAPL** | Stochastic RSI Oversold | 57.3 | 55.0% | -45.63% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | Aroon — Strong Uptrend | 57.3 | 62.2% | -58.55% | 🟡 Available |
@@ -79,8 +79,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **COIN** | OBV — Accumulation | 48.6 | 46.3% | -51.81% | 🟡 Available |
 | 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 48.2 | 55.2% | -87.57% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 48.1 | 56.6% | -85.59% | 🟡 Available |
-| 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.7 | 56.3% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 47.7 | 54.3% | -97.27% | 🟡 Available |
+| 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.6 | 56.2% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **APP** | CCI — Extreme Oversold | 46.4 | 56.2% | -98.27% | 🟡 Available |
 | 🟢 BULLISH | **MSFT** | Aroon — Strong Uptrend | 45.3 | 60.5% | -63.38% | 🟡 Available |
 | 🔴 BEARISH | **GOOGL** | Chaikin Money Flow — Bearish | 88.2 | 84.6% | -8.89% | 🟡 Available |
@@ -154,7 +154,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **QQQ** | Williams %R — Overbought | 46.2 | 56.6% | -37.87% | 🟡 Available |
 | 🔴 BEARISH | **VOO** | Stochastic RSI Overbought | 45.8 | 49.6% | -30.45% | 🟡 Available |
 | 🔴 BEARISH | **QQQ** | Stochastic RSI Overbought | 45.7 | 52.3% | -42.79% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | Elder Force — Bearish | 45.6 | 56.2% | -6.25% | 🟡 Available |
 | 🔴 BEARISH | **CL=F** | Ulcer Index — Elevated | 45.4 | 57.0% | -48.86% | 🟡 Available |
 | 🔴 BEARISH | **CRWD** | Keltner — Upper Channel Touch | 45.3 | 52.0% | -58.81% | 🟡 Available |
 
