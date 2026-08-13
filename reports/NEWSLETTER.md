@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, August 12, 2026
+# Daily Newsletter — Thursday, August 13, 2026
 Generated at 01:58 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 122 total &nbsp;·&nbsp; 🟢 49 Bullish &nbsp;·&nbsp; 🔴 73 Bearish
+**Strategy Signals:** 143 total &nbsp;·&nbsp; 🟢 69 Bullish &nbsp;·&nbsp; 🔴 74 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $14.90 | 📉 -2.49% |
-| **GC=F** | Gold | $4487.10 | 📈 +2.38% |
-| **SI=F** | Silver | $66.17 | 📈 +2.16% |
-| **XLK** | Tech (XLK) | $188.97 | 📈 +1.55% |
-| **NG=F** | Natural Gas | $2.81 | 📈 +1.37% |
-| **ETH-USD** | Ethereum | $1902.13 | 📈 +1.10% |
-| **XLY** | Consumer Disc. (XLY) | $118.18 | 📉 -0.89% |
-| **^IXIC** | NASDAQ | $26610.45 | 📈 +0.62% |
-| **^IRX** | 3-Month T-Bill | $3.71 | 📉 -0.62% |
-| **XLV** | Healthcare (XLV) | $166.99 | 📉 -0.61% |
+| **CL=F** | Crude Oil | $81.21 | 📉 -2.47% |
+| **NG=F** | Natural Gas | $2.74 | 📉 -2.18% |
+| **XLK** | Tech (XLK) | $191.04 | 📈 +1.15% |
+| **XLE** | Energy (XLE) | $60.41 | 📉 -1.02% |
+| **^TNX** | 10-Year Treasury Yield | $4.64 | 📉 -0.88% |
+| **^IXIC** | NASDAQ | $26802.58 | 📈 +0.81% |
+| **SOL-USD** | Solana | $76.10 | 📈 +0.76% |
+| **^TYX** | 30-Year Treasury Yield | $5.21 | 📉 -0.71% |
+| **GC=F** | Gold | $4439.40 | 📈 +0.69% |
+| **VOO** | S&P 500 (VOO) | $714.69 | 📈 +0.64% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **SMH** | Donchian — 20D High Breakout | 89.2 | 76.9% |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
+| 🟢 BULLISH | **TQQQ** | Donchian — 20D High Breakout | 85.0 | 75.0% |
 | 🟢 BULLISH | **AAPL** | VWAP Deviation — Oversold | 83.0 | 70.5% |
+| 🟢 BULLISH | **AAPL** | Fisher Transform — Low Extreme | 82.1 | 75.0% |
+| 🟢 BULLISH | **AMZN** | OBV — Accumulation | 81.9 | 74.2% |
 | 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 80.1 | 64.2% |
-| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 76.4 | 64.0% |
-| 🟢 BULLISH | **APP** | RSI Oversold | 74.3 | 66.7% |
-| 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 71.3 | 54.7% |
-| 🟢 BULLISH | **NVDA** | Aroon — Strong Uptrend | 71.0 | 62.7% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 69.7 | 59.6% |
-| 🟢 BULLISH | **QQQ** | Aroon — Strong Uptrend | 66.6 | 63.8% |
-| 🟢 BULLISH | **GC=F** | Aroon — Strong Uptrend | 66.3 | 64.3% |
-| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 65.3 | 60.5% |
-| 🟢 BULLISH | **AERO-USD** | Williams %R — Oversold | 64.8 | 51.3% |
+| 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 79.2 | 61.9% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.4 | 65.3% |
+| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 74.7 | 60.0% |
+| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 74.5 | 70.8% |
+| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 73.3 | 62.7% |
 
 ## Latest News
 
-- [Citadel Securities called the stock-market reset. Now it sees a leverage buildup on the horizon.](https://www.marketwatch.com/story/citadel-securities-called-the-stock-market-reset-now-it-says-leverage-may-build-up-again-988eec86?mod=mw_rss_topstories) — *MarketWatch*
-- [Central Puerto GAAP EPS of $0.14, revenue of $453.3M](https://seekingalpha.com/news/4631513-central-puerto-gaap-eps-of-0_14-revenue-of-453_3m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Lumentum soars after 'strong' Q4 keeps analysts largely positive](https://seekingalpha.com/news/4631483-lumentum-soars-after-strong-q4-keeps-analysts-largely-positive?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Computer Modelling GAAP EPS of C$0.02, revenue of C$27.8M](https://seekingalpha.com/news/4631506-computer-modelling-gaap-eps-of-c002-revenue-of-c278m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Earnings call transcript: Kontoor Brands tops Q2 2026 expectations, lifts outlook](https://www.investing.com/news/transcripts/earnings-call-transcript-kontoor-brands-tops-q2-2026-expectations-lifts-outlook-93CH-4855267) — *Investing.com*
-- [Trump administration set to spend at least $900 million on White House construction, Washington Post reports](https://www.investing.com/news/economy-news/trump-administration-set-to-spend-at-least-900-million-on-white-house-construction-wapo-reports-4854179) — *Investing.com*
-- [Earnings call transcript: Stabilis Solutions misses Q2 2026 estimates as stock falls](https://www.investing.com/news/transcripts/earnings-call-transcript-stabilis-solutions-misses-q2-2026-estimates-as-stock-falls-93CH-4855266) — *Investing.com*
-- [Earnings call transcript: Viveo posts Q2 2026 miss as margins improve](https://www.investing.com/news/transcripts/earnings-call-transcript-viveo-posts-q2-2026-miss-as-margins-improve-93CH-4855265) — *Investing.com*
-- [Fermi earnings up next after landing first $6.5B data center lease](https://www.investing.com/news/earnings/fermi-earnings-up-next-after-landing-first-65b-data-center-lease-93CH-4855264) — *Investing.com*
-- [Piper Sandler raises Claritev stock price target to $73 on platform strength](https://www.investing.com/news/analyst-ratings/piper-sandler-raises-claritev-stock-price-target-to-73-on-platform-strength-93CH-4855263) — *Investing.com*
+- [Democrats demand Trump reveal stock managers, explain suspicious trades](https://www.cnbc.com/2026/08/13/trump-stock-trades-warren-garcia.html) — *CNBC Markets*
+- [Paragon Technologies GAAP EPS of $0.05, revenue of $33.3M](https://seekingalpha.com/news/4632396-paragon-technologies-gaap-eps-of-0_05-revenue-of-33_3m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Minerva S.A. reports Q2 results](https://seekingalpha.com/news/4632395-minerva-s-a-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Iran moves closer to BRICS bank membership as sanctions bite - reports](https://seekingalpha.com/news/4632387-iran-moves-closer-to-brics-bank-membership-as-sanctions-bite---reports?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Credit Acceptance appoints Amazon veteran as CTO](https://seekingalpha.com/news/4632394-credit-acceptance-appoints-amazon-veteran-as-cto?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Silgan upgraded at RBC as packaging growth, cash flow brighten outlook](https://seekingalpha.com/news/4632392-silgan-upgraded-at-rbc-as-packaging-growth-cash-flow-brighten-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Olympia Financial Group Inc. GAAP EPS of $2.93, revenue of $43.49M](https://seekingalpha.com/news/4632393-olympia-financial-group-inc-gaap-eps-of-293-revenue-of-4349m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nucor to invest $59M to expand Vulcraft Indiana facility, adding 20 new jobs](https://seekingalpha.com/news/4632386-nucor-to-invest-59m-to-expand-vulcraft-indiana-facility-adding-20-new-jobs?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Earnings call transcript: Elmet Group Q2 2026 revenue jumps 35% on defense demand](https://www.investing.com/news/transcripts/earnings-call-transcript-elmet-group-q2-2026-revenue-jumps-35-on-defense-demand-93CH-4858310) — *Investing.com*
+- [Earnings call transcript: GMR Solutions posts Q2 2026 revenue growth as stock rises](https://www.investing.com/news/transcripts/earnings-call-transcript-gmr-solutions-posts-q2-2026-revenue-growth-as-stock-rises-93CH-4858303) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

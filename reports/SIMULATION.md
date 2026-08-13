@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 96** &nbsp;·&nbsp; Updated: Aug 12 2026 09:36 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 97** &nbsp;·&nbsp; Updated: Aug 13 2026 01:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.93%** &nbsp; ($+3,748) |
-| SPY Benchmark | +9.14% &nbsp; ($+17,734 if 100% SPY) |
-| Alpha vs SPY | **-7.21%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.04%** &nbsp; ($+3,961) |
+| SPY Benchmark | +9.84% &nbsp; ($+19,081 if 100% SPY) |
+| Alpha vs SPY | **-7.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,748 |
+| Current Value | $197,961 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,960 | +1.18% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $772.49 | $+153 | +0.51% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,981 | +1.20% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $777.41 | $+345 | +1.15% |
 
 ## Daily Equity Curve
 
@@ -93,38 +93,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 12 2026 09:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 13 2026 01:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 64.7, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.53). Gross P&L: $+153. Holdi… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 81.9, Win Rate 74.2%, Avg 5d Return 1.78%, Max Drawdown -12.64%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sha… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Donchian — 20D High Breakout — Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdo… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.53). Gross P&L: $+345. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown -11.1%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 58.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 76.4, Win Rate 64.0%, Avg 5d Return 3.6%, Max Drawdown -26.07%, Sharpe 2.68. 1 minor bearish signal(s), max confidence 53.1.
+**Signal Analysis:** OBV — Accumulation — Score 81.9, Win Rate 74.2%, Avg 5d Return 1.78%, Max Drawdown -12.64%, Sharpe 2.55. 1 minor bearish signal(s), max confidence 56.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 64.7, Win Rate 51.3%, Avg 5d Return 6.28%, Max Drawdown -82.78%, Sharpe 1.84. 1 minor bearish signal(s), max confidence 68.6.
+**Signal Analysis:** MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sharpe 4.83. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Donchian — 20D High Breakout — Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdown -9.61%, Sharpe 2.39. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.53). Gross P&L: $+153. Holding avoids $49 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.53). Gross P&L: $+345. Holding avoids $110 in taxes.
 
-**Tax & Cost:** Held 5 days (short-term). Exiting now costs $49 tax + $30 slippage = $79 total friction.
+**Tax & Cost:** Held 6 days (short-term). Exiting now costs $110 tax + $30 slippage = $141 total friction.
 
 ## Position Rationale
 
