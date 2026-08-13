@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 97** &nbsp;·&nbsp; Updated: Aug 13 2026 03:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 97** &nbsp;·&nbsp; Updated: Aug 13 2026 04:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.01%** &nbsp; ($+3,907) |
-| SPY Benchmark | +9.64% &nbsp; ($+18,701 if 100% SPY) |
-| Alpha vs SPY | **-7.63%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.01%** &nbsp; ($+3,906) |
+| SPY Benchmark | +9.64% &nbsp; ($+18,699 if 100% SPY) |
+| Alpha vs SPY | **-7.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,907 |
+| Current Value | $197,906 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,981 | +1.20% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $776.02 | $+291 | +0.97% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $776.01 | $+291 | +0.97% |
 
 ## Daily Equity Curve
 
@@ -90,17 +90,17 @@
 | 2026-08-10 | 📈 +1.92% | +9.22% | ❌ -7.30% |
 | 2026-08-11 | 📈 +1.88% | +8.87% | ❌ -6.99% |
 | 2026-08-12 | 📈 +1.93% | +9.14% | ❌ -7.21% |
-| 2026-08-13 | 📈 +2.01% | +9.64% | ❌ -7.63% |
+| 2026-08-13 | 📈 +2.01% | +9.64% | ❌ -7.62% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 13 2026 03:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 13 2026 04:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Donchian — 20D High Breakout — Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARM** | SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -… |
 | 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.53). Gross P&L: $+291. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -115,11 +115,11 @@ _Evaluated Aug 13 2026 03:29 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdown -9.61%, Sharpe 2.39. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -15.32%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 47.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
 ### ✅ HOLD — SPY
 

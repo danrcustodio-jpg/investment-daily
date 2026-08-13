@@ -662,11 +662,11 @@
     },
     {
       "date": "2026-08-13",
-      "total_value": 197907.69,
-      "portfolio_pnl": 2.014,
-      "benchmark_pnl": 9.644,
+      "total_value": 197905.74,
+      "portfolio_pnl": 2.013,
+      "benchmark_pnl": 9.637,
       "prices": {
-        "SPY": 776.0499877929688
+        "SPY": 776.0
       }
     }
   ],
@@ -691,12 +691,12 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "ARM",
       "priority": "medium",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 69.3, Win Rate 80.0%, Avg 5d Return 2.55%, Max Drawdown -9.61%, Sharpe 2.39. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -15.32%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 47.9.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "HOLD",
@@ -706,7 +706,7 @@
       "tax_note": "Held 6 days (short-term). Exiting now costs $93 tax + $30 slippage = $123 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-13T15:29:35.982154",
+  "recommendations_updated": "2026-08-13T16:24:56.269184",
   "trade_log": [
     {
       "action": "SELL",
