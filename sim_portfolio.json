@@ -662,20 +662,20 @@
     },
     {
       "date": "2026-08-13",
-      "total_value": 197985.76,
-      "portfolio_pnl": 2.055,
-      "benchmark_pnl": 9.927,
+      "total_value": 197907.69,
+      "portfolio_pnl": 2.014,
+      "benchmark_pnl": 9.644,
       "prices": {
-        "SPY": 778.0499877929688
+        "SPY": 776.0499877929688
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 81.9, Win Rate 74.2%, Avg 5d Return 1.78%, Max Drawdown -12.64%, Sharpe 2.55. 1 minor bearish signal(s), max confidence 56.0.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown -11.1%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 56.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -702,11 +702,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.53). Gross P&L: $+370. Holding avoids $118 in taxes.",
-      "tax_note": "Held 6 days (short-term). Exiting now costs $118 tax + $30 slippage = $149 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.53). Gross P&L: $+291. Holding avoids $93 in taxes.",
+      "tax_note": "Held 6 days (short-term). Exiting now costs $93 tax + $30 slippage = $123 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-13T14:17:26.668984",
+  "recommendations_updated": "2026-08-13T15:29:35.982154",
   "trade_log": [
     {
       "action": "SELL",
