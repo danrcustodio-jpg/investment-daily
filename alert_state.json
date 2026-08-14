@@ -83,7 +83,6 @@
     "CRWD::Stochastic (Full) \u2014 Overbought": "2026-08-14T14:09:55.053872+00:00",
     "XLK::Fisher Transform \u2014 High Extreme": "2026-08-14T14:09:55.053894+00:00",
     "GC=F::Fisher Transform \u2014 High Extreme": "2026-08-14T14:09:55.053910+00:00",
-    "IWM::OBV \u2014 Accumulation": "2026-08-12T15:27:39.245163+00:00",
     "VOO::Aroon \u2014 Strong Uptrend": "2026-08-14T14:09:53.637910+00:00",
     "VOO::CCI \u2014 Extreme Oversold": "2026-08-14T14:09:54.320037+00:00",
     "SMCI::Volume Spike + Surge": "2026-08-12T17:25:47.885356+00:00",
@@ -176,7 +175,6 @@
     "AMZN": "2026-08-14T14:09:52.578155+00:00",
     "AVAX-USD": "2026-08-13T14:16:57.416807+00:00",
     "BTC-USD": "2026-08-13T14:16:57.416807+00:00",
-    "IWM": "2026-08-12T15:27:39.245152+00:00",
     "VOO": "2026-08-14T14:09:52.578155+00:00",
     "SMCI": "2026-08-12T17:25:47.885322+00:00",
     "XRP-USD": "2026-08-14T14:09:52.578155+00:00",
@@ -254,9 +252,9 @@
       "last_change_at": "2026-08-05T15:10:43.099443+00:00"
     },
     "PLTR": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-14T14:09:44.349860+00:00",
-      "last_change_at": "2026-08-14T15:13:14.667857+00:00"
+      "last_change_at": "2026-08-14T16:12:30.787012+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -324,9 +322,9 @@
       "last_change_at": "2026-08-14T14:09:42.710009+00:00"
     },
     "ARM": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-14T14:09:43.192818+00:00",
-      "last_change_at": "2026-08-14T15:13:14.667661+00:00"
+      "last_change_at": "2026-08-14T16:12:30.786779+00:00"
     },
     "BCH-USD": {
       "cadence_min": 15,
@@ -369,9 +367,9 @@
       "last_change_at": "2026-08-11T18:13:29.839409+00:00"
     },
     "AVAX-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-14T14:09:43.301270+00:00",
-      "last_change_at": "2026-08-14T15:13:14.667751+00:00"
+      "last_change_at": "2026-08-14T16:12:30.786869+00:00"
     },
     "DOGE-USD": {
       "cadence_min": 1440,
@@ -508,7 +506,6 @@
     "CRWD::Stochastic (Full) \u2014 Overbought": 220.2279052734375,
     "XLK::Fisher Transform \u2014 High Extreme": 190.85000610351562,
     "GC=F::Fisher Transform \u2014 High Extreme": 4442.7001953125,
-    "IWM::OBV \u2014 Accumulation": 301.7698974609375,
     "VOO::Aroon \u2014 Strong Uptrend": 715.6099853515625,
     "VOO::CCI \u2014 Extreme Oversold": 715.6099853515625,
     "SMCI::Volume Spike + Surge": 37.24980163574219,
