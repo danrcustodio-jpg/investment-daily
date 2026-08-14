@@ -668,6 +668,15 @@
       "prices": {
         "SPY": 777.8800048828125
       }
+    },
+    {
+      "date": "2026-08-14",
+      "total_value": 198026.47,
+      "portfolio_pnl": 2.076,
+      "benchmark_pnl": 10.0,
+      "prices": {
+        "SPY": 778.5698852539062
+      }
     }
   ],
   "recommendations": [
@@ -682,6 +691,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "RIOT",
+      "priority": "high",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.3, Win Rate 60.2%, Avg 5d Return 4.69%, Max Drawdown -77.54%, Sharpe 2.31. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "high",
       "reason": "MFI \u2014 Oversold \u2014 Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sharpe 4.83. No conflicting bearish signals.",
@@ -690,23 +708,14 @@
       "is_crypto": true
     },
     {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "META",
-      "priority": "medium",
-      "reason": "MACD Bullish Crossover \u2014 Score 58.8, Win Rate 52.6%, Avg 5d Return 1.73%, Max Drawdown -10.12%, Sharpe 1.87. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+388. Holding avoids $124 in taxes.",
-      "tax_note": "Held 7 days (short-term). Exiting now costs $124 tax + $30 slippage = $154 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+392. Holding avoids $126 in taxes.",
+      "tax_note": "Held 7 days (short-term). Exiting now costs $126 tax + $30 slippage = $156 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-14T13:54:19.302405",
+  "recommendations_updated": "2026-08-14T14:10:18.969964",
   "trade_log": [
     {
       "action": "SELL",

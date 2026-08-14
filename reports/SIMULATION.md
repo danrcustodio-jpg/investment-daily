@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 98** &nbsp;·&nbsp; Updated: Aug 14 2026 01:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 98** &nbsp;·&nbsp; Updated: Aug 14 2026 02:10 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.07%** &nbsp; ($+4,023) |
-| SPY Benchmark | +9.99% &nbsp; ($+19,378 if 100% SPY) |
-| Alpha vs SPY | **-7.92%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.08%** &nbsp; ($+4,028) |
+| SPY Benchmark | +10.01% &nbsp; ($+19,411 if 100% SPY) |
+| Alpha vs SPY | **-7.93%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,023 |
+| Current Value | $198,028 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,001 | +1.21% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $778.49 | $+388 | +1.29% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $778.61 | $+392 | +1.31% |
 
 ## Daily Equity Curve
 
@@ -91,21 +91,28 @@
 | 2026-08-11 | 📈 +1.88% | +8.87% | ❌ -6.99% |
 | 2026-08-12 | 📈 +1.93% | +9.14% | ❌ -7.21% |
 | 2026-08-13 | 📈 +2.05% | +9.90% | ❌ -7.85% |
+| 2026-08-14 | 📈 +2.08% | +10.00% | ❌ -7.92% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 14 2026 01:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 14 2026 02:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Williams %R — Oversold — Score 70.3, Win Rate 60.2%, Avg 5d Return 4.69%, Max Drawdown -77… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **META** | MACD Bullish Crossover — Score 58.8, Win Rate 52.6%, Avg 5d Return 1.73%, Max Drawdown -10… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+388. Holdi… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+392. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — RIOT
+
+**Signal Analysis:** Williams %R — Oversold — Score 70.3, Win Rate 60.2%, Avg 5d Return 4.69%, Max Drawdown -77.54%, Sharpe 2.31. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
@@ -115,17 +122,11 @@ _Evaluated Aug 14 2026 01:54 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — META
-
-**Signal Analysis:** MACD Bullish Crossover — Score 58.8, Win Rate 52.6%, Avg 5d Return 1.73%, Max Drawdown -10.12%, Sharpe 1.87. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+388. Holding avoids $124 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+392. Holding avoids $126 in taxes.
 
-**Tax & Cost:** Held 7 days (short-term). Exiting now costs $124 tax + $30 slippage = $154 total friction.
+**Tax & Cost:** Held 7 days (short-term). Exiting now costs $126 tax + $30 slippage = $156 total friction.
 
 ## Position Rationale
 
