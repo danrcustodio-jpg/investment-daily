@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 97** &nbsp;·&nbsp; Updated: Aug 13 2026 09:36 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 98** &nbsp;·&nbsp; Updated: Aug 14 2026 01:54 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.05%** &nbsp; ($+3,979) |
-| SPY Benchmark | +9.90% &nbsp; ($+19,211 if 100% SPY) |
-| Alpha vs SPY | **-7.85%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.07%** &nbsp; ($+4,023) |
+| SPY Benchmark | +9.99% &nbsp; ($+19,378 if 100% SPY) |
+| Alpha vs SPY | **-7.92%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,979 |
+| Current Value | $198,023 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+1,981 | +1.20% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $777.88 | $+364 | +1.21% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,001 | +1.21% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $778.49 | $+388 | +1.29% |
 
 ## Daily Equity Curve
 
@@ -94,18 +94,18 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 13 2026 09:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 14 2026 01:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARM** | SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.54). Gross P&L: $+364. Holdi… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **META** | MACD Bullish Crossover — Score 58.8, Win Rate 52.6%, Avg 5d Return 1.73%, Max Drawdown -10… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+388. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 83.0, Win Rate 70.5%, Avg 5d Return 2.92%, Max Drawdown -11.1%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 57.0.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
@@ -115,17 +115,17 @@ _Evaluated Aug 13 2026 09:36 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — ARM
+### 🔍 NEW OPPORTUNITY — META
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 68.0, Win Rate 64.7%, Avg 5d Return 2.94%, Max Drawdown -15.32%, Sharpe 1.91. 1 minor bearish signal(s), max confidence 47.9.
+**Signal Analysis:** MACD Bullish Crossover — Score 58.8, Win Rate 52.6%, Avg 5d Return 1.73%, Max Drawdown -10.12%, Sharpe 1.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.54). Gross P&L: $+364. Holding avoids $116 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.72 vs 2 bear score 0.55). Gross P&L: $+388. Holding avoids $124 in taxes.
 
-**Tax & Cost:** Held 6 days (short-term). Exiting now costs $116 tax + $30 slippage = $147 total friction.
+**Tax & Cost:** Held 7 days (short-term). Exiting now costs $124 tax + $30 slippage = $154 total friction.
 
 ## Position Rationale
 
