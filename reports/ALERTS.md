@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Friday August 14, 2026 at 08:53 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Friday August 14, 2026 at 09:17 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 150 |
+| Total signals (confidence ≥ 45) | 149 |
 | 🟢 Bullish | 68 |
-| 🔴 Bearish | 82 |
+| 🔴 Bearish | 81 |
 | 🔵 In cooldown (fired in last 6h) | 1 |
-| 🟡 Available to fire (not in cooldown) | 149 |
+| 🟡 Available to fire (not in cooldown) | 148 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -118,7 +118,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **XLK** | Stochastic (Full) — Overbought | 58.2 | 61.5% | -44.42% | 🟡 Available |
 | 🔴 BEARISH | **SOXL** | VWAP Deviation — Overbought | 58.2 | 57.7% | -97.55% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 57.7 | 59.0% | -69.18% | 🟡 Available |
-| 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | -68.3% | 🟡 Available |
 | 🔴 BEARISH | **CRWD** | VWAP Deviation — Overbought | 57.4 | 58.4% | -56.28% | 🟡 Available |
 | 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 57.2 | 62.5% | -40.31% | 🟡 Available |
 | 🔴 BEARISH | **XLK** | Williams %R — Overbought | 56.6 | 60.3% | -49.38% | 🟡 Available |
