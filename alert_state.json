@@ -41,10 +41,7 @@
     "RKLB::Stochastic RSI Overbought": "2026-08-14T14:09:54.856447+00:00",
     "RKLB::VWAP Deviation \u2014 Overbought": "2026-08-14T14:09:54.856433+00:00",
     "MRVL::VWAP Deviation \u2014 Overbought": "2026-08-14T14:09:54.856442+00:00",
-    "MSFT::Fisher Transform \u2014 High Extreme": "2026-08-12T14:14:57.714576+00:00",
     "IONQ::Fisher Transform \u2014 High Extreme": "2026-08-14T14:09:54.856452+00:00",
-    "META::Ulcer Index \u2014 Elevated": "2026-08-12T14:14:57.742657+00:00",
-    "XBI::Aroon \u2014 Strong Downtrend": "2026-08-12T14:14:57.714600+00:00",
     "AMD::Chaikin Money Flow \u2014 Bearish": "2026-08-14T14:09:54.856472+00:00",
     "MSFT::RSI Overbought": "2026-08-14T14:09:54.856513+00:00",
     "IONQ::Stochastic (Full) \u2014 Overbought": "2026-08-14T14:09:54.856462+00:00",
@@ -70,8 +67,6 @@
     "GC=F::Williams %R \u2014 Overbought": "2026-08-14T14:09:55.053834+00:00",
     "SMH::Stochastic RSI Overbought": "2026-08-14T14:09:55.053878+00:00",
     "PLTR::VWAP Deviation \u2014 Overbought": "2026-08-14T14:09:55.053899+00:00",
-    "NVDA::Stochastic (Full) \u2014 Overbought": "2026-08-12T14:14:58.320137+00:00",
-    "SMH::SMA 30 \u2014 Bullish Reclaim": "2026-08-12T14:14:57.017376+00:00",
     "SMH::Chaikin Money Flow \u2014 Bearish": "2026-08-14T14:09:54.856417+00:00",
     "GC=F::RSI Overbought": "2026-08-13T14:17:02.633847+00:00",
     "APP::Chaikin Money Flow \u2014 Bearish": "2026-08-14T14:09:55.053915+00:00",
@@ -80,11 +75,8 @@
     "AERO-USD::Williams %R \u2014 Oversold": "2026-08-14T14:09:53.329413+00:00",
     "PLTR::ADX Strong Trend \u2014 Bullish": "2026-08-14T14:09:53.606895+00:00",
     "CRWD::Aroon \u2014 Strong Uptrend": "2026-08-14T14:09:54.544960+00:00",
-    "ADA-USD::Parabolic SAR \u2014 Bearish": "2026-08-12T14:14:57.672534+00:00",
     "RKLB::Williams %R \u2014 Overbought": "2026-08-13T14:17:02.369826+00:00",
-    "ADA-USD::MACD Bearish Crossover": "2026-08-12T14:14:57.714588+00:00",
     "MRVL::Williams %R \u2014 Overbought": "2026-08-14T14:09:54.856457+00:00",
-    "BTC-USD::EMA 9/21 \u2014 Bearish Cross": "2026-08-12T14:14:57.771183+00:00",
     "AMZN::Chaikin Money Flow \u2014 Bearish": "2026-08-14T14:09:54.971877+00:00",
     "SOXL::Williams %R \u2014 Overbought": "2026-08-14T14:09:55.053856+00:00",
     "PLTR::Stochastic (Full) \u2014 Overbought": "2026-08-14T14:09:54.971863+00:00",
@@ -180,11 +172,9 @@
     "MRVL": "2026-08-14T14:09:52.578155+00:00",
     "TQQQ": "2026-08-14T14:09:52.578155+00:00",
     "META": "2026-08-14T14:09:52.578155+00:00",
-    "XBI": "2026-08-12T14:14:56.078305+00:00",
     "TSLA": "2026-08-14T14:09:52.578155+00:00",
     "AMZN": "2026-08-14T14:09:52.578155+00:00",
     "AVAX-USD": "2026-08-13T14:16:57.416807+00:00",
-    "ADA-USD": "2026-08-12T14:14:56.078305+00:00",
     "BTC-USD": "2026-08-13T14:16:57.416807+00:00",
     "IWM": "2026-08-12T15:27:39.245152+00:00",
     "VOO": "2026-08-14T14:09:52.578155+00:00",
@@ -199,9 +189,6 @@
     "MARA": "2026-08-14T14:09:52.578155+00:00"
   },
   "sms_ticker_last_sent": {
-    "GOOGL": "2026-08-12T14:14:54.306093+00:00",
-    "GC=F": "2026-08-12T14:14:55.048007+00:00",
-    "AAPL": "2026-08-12T14:14:56.078212+00:00",
     "VOO": "2026-08-14T14:09:52.578113+00:00",
     "BTC-USD": "2026-08-13T14:16:56.082618+00:00"
   },
@@ -267,9 +254,9 @@
       "last_change_at": "2026-08-05T15:10:43.099443+00:00"
     },
     "PLTR": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-14T14:09:44.349860+00:00",
-      "last_change_at": "2026-08-14T14:09:42.710204+00:00"
+      "last_change_at": "2026-08-14T15:13:14.667857+00:00"
     },
     "QQQ": {
       "cadence_min": 15,
@@ -337,9 +324,9 @@
       "last_change_at": "2026-08-14T14:09:42.710009+00:00"
     },
     "ARM": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-14T14:09:43.192818+00:00",
-      "last_change_at": "2026-08-14T14:09:42.709724+00:00"
+      "last_change_at": "2026-08-14T15:13:14.667661+00:00"
     },
     "BCH-USD": {
       "cadence_min": 15,
@@ -382,9 +369,9 @@
       "last_change_at": "2026-08-11T18:13:29.839409+00:00"
     },
     "AVAX-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-14T14:09:43.301270+00:00",
-      "last_change_at": "2026-08-14T14:09:42.709923+00:00"
+      "last_change_at": "2026-08-14T15:13:14.667751+00:00"
     },
     "DOGE-USD": {
       "cadence_min": 1440,
@@ -479,10 +466,7 @@
     "RKLB::Stochastic RSI Overbought": 80.7499008178711,
     "RKLB::VWAP Deviation \u2014 Overbought": 80.7499008178711,
     "MRVL::VWAP Deviation \u2014 Overbought": 220.3000030517578,
-    "MSFT::Fisher Transform \u2014 High Extreme": 495.6199951171875,
     "IONQ::Fisher Transform \u2014 High Extreme": 46.06999969482422,
-    "META::Ulcer Index \u2014 Elevated": 587.8798828125,
-    "XBI::Aroon \u2014 Strong Downtrend": 158.8800048828125,
     "AMD::Chaikin Money Flow \u2014 Bearish": 502.9460144042969,
     "MSFT::RSI Overbought": 497.5899963378906,
     "IONQ::Stochastic (Full) \u2014 Overbought": 46.06999969482422,
@@ -508,8 +492,6 @@
     "GC=F::Williams %R \u2014 Overbought": 4442.7001953125,
     "SMH::Stochastic RSI Overbought": 588.9401245117188,
     "PLTR::VWAP Deviation \u2014 Overbought": 176.86000061035156,
-    "NVDA::Stochastic (Full) \u2014 Overbought": 223.08599853515625,
-    "SMH::SMA 30 \u2014 Bullish Reclaim": 587.2100219726562,
     "SMH::Chaikin Money Flow \u2014 Bearish": 588.9401245117188,
     "GC=F::RSI Overbought": 4434.10009765625,
     "APP::Chaikin Money Flow \u2014 Bearish": 320.20001220703125,
@@ -518,11 +500,8 @@
     "AERO-USD::Williams %R \u2014 Oversold": 3.378868132131174e-05,
     "PLTR::ADX Strong Trend \u2014 Bullish": 176.86000061035156,
     "CRWD::Aroon \u2014 Strong Uptrend": 220.2279052734375,
-    "ADA-USD::Parabolic SAR \u2014 Bearish": 0.18328000605106354,
     "RKLB::Williams %R \u2014 Overbought": 84.05500030517578,
-    "ADA-USD::MACD Bearish Crossover": 0.18328000605106354,
     "MRVL::Williams %R \u2014 Overbought": 220.3000030517578,
-    "BTC-USD::EMA 9/21 \u2014 Bearish Cross": 63731.83984375,
     "AMZN::Chaikin Money Flow \u2014 Bearish": 264.45001220703125,
     "SOXL::Williams %R \u2014 Overbought": 145.65989685058594,
     "PLTR::Stochastic (Full) \u2014 Overbought": 176.86000061035156,
