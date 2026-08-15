@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, August 14, 2026
-Generated at 01:54 PM
+# Daily Newsletter — Saturday, August 15, 2026
+Generated at 01:09 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 143 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 77 Bearish
+**Strategy Signals:** 146 total &nbsp;·&nbsp; 🟢 65 Bullish &nbsp;·&nbsp; 🔴 81 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **GC=F** | Gold | $4452.90 | 📈 +2.05% |
-| **BTC-USD** | Bitcoin | $62584.82 | 📉 -1.29% |
-| **NG=F** | Natural Gas | $2.76 | 📈 +1.25% |
-| **SOL-USD** | Solana | $75.26 | 📉 -1.20% |
-| **SI=F** | Silver | $65.63 | 📈 +1.17% |
-| **XLE** | Energy (XLE) | $61.77 | 📈 +1.16% |
-| **ETH-USD** | Ethereum | $1865.75 | 📉 -0.97% |
-| **XLV** | Healthcare (XLV) | $166.78 | 📉 -0.95% |
-| **^VIX** | VIX (Fear Index) | $14.55 | 📉 -0.55% |
-| **XLI** | Industrials (XLI) | $186.74 | 📈 +0.51% |
+| **^VIX** | VIX (Fear Index) | $14.25 | 📉 -2.60% |
+| **CL=F** | Crude Oil | $82.40 | 📈 +1.42% |
+| **XLE** | Energy (XLE) | $61.91 | 📈 +1.39% |
+| **^TNX** | 10-Year Treasury Yield | $4.70 | 📈 +1.19% |
+| **^TYX** | 30-Year Treasury Yield | $5.26 | 📈 +1.00% |
+| **XLV** | Healthcare (XLV) | $167.37 | 📉 -0.60% |
+| **^RUT** | Russell 2000 | $3068.42 | 📈 +0.51% |
+| **XLK** | Tech (XLK) | $190.01 | 📉 -0.40% |
+| **XLI** | Industrials (XLI) | $186.51 | 📈 +0.39% |
+| **GC=F** | Gold | $4380.40 | 📈 +0.38% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
 | 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 80.1 | 64.2% |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 79.6 | 71.0% |
 | 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 79.2 | 61.9% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.6 | 65.6% |
-| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 74.7 | 60.0% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 72.4 | 61.1% |
+| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.3 | 65.4% |
 | 🟢 BULLISH | **NVDA** | Aroon — Strong Uptrend | 71.2 | 63.1% |
-| 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 70.7 | 54.3% |
-| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 70.3 | 60.2% |
+| 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 70.3 | 54.2% |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 70.1 | 59.7% |
+| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 69.9 | 59.8% |
 | 🟢 BULLISH | **AMD** | MACD Bullish Crossover | 69.8 | 70.6% |
-| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 69.7 | 61.6% |
+| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 69.3 | 65.3% |
+| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 67.1 | 59.3% |
+| 🟢 BULLISH | **APP** | RSI Oversold | 66.5 | 61.5% |
 
 ## Latest News
 
-- [Canlan Ice Sports non-GAAP EPS of -$0.03, and revenue of $24.91M](https://seekingalpha.com/news/4633294-canlan-ice-sports-non-gaap-eps-of--003-revenue-of-2491m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [LTC Properties upgraded to Buy equivalent at RBC Capital](https://seekingalpha.com/news/4633245-ltc-properties-upgraded-to-buy-equivalent-at-rbc-capital?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [I have a 9-to-5 job and started dating a bartender. Can I have a future with someone who works nights?](https://www.marketwatch.com/story/i-have-a-9-to-5-job-and-started-dating-a-bartender-can-i-have-a-future-with-someone-who-works-nights-500d4320?mod=mw_rss_topstories) — *MarketWatch*
-- [U.S. debt on track to hit $50T by 2029 - BofA](https://seekingalpha.com/news/4633247-u-s-debt-on-track-to-hit-50t-by-2029-bofa?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Adia Med reports Q2 results](https://seekingalpha.com/news/4633292-adia-med-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Silexion Therapeutics GAAP EPS of -$5.17](https://seekingalpha.com/news/4633291-silexion-therapeutics-gaap-eps-of-5_17?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Radnostix reports Q2 results](https://seekingalpha.com/news/4633290-radnostix-reports-q2-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Globant tumbles on outlook cut, Wedbush downgrade](https://seekingalpha.com/news/4633278-globant-tumbles-on-outlook-cut-wedbush-downgrade?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trinity Biotech secures $7m from Perceptive Advisors](https://www.investing.com/news/company-news/trinity-biotech-secures-7m-from-perceptive-advisors-93CH-4860974) — *Investing.com*
-- [Two slicks appear in Gulf as huge oil spill off Oman threatens disaster](https://www.investing.com/news/commodities-news/two-slicks-appear-in-gulf-as-huge-oil-spill-off-oman-threatens-disaster-4860903) — *Investing.com*
+- [Qnity Electronics director Karin de Bondt buys $138,136 in stock](https://www.investing.com/news/insider-trading-news/qnity-electronics-director-karin-de-bondt-buys-138136-in-stock-93CH-4861783) — *Investing.com*
+- [Workday could be acquired by private equity. Should it though?](https://seekingalpha.com/news/4633440-workday-could-be-acquired-by-private-equity-should-it-though?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Should I tap my home equity or sell stocks to build a $100,000 emergency fund?](https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories) — *MarketWatch*
+- [AI inflation is putting even more pressure on the Fed. Could higher interest rates be next?](https://www.marketwatch.com/story/ai-inflation-is-putting-even-more-pressure-on-the-fed-could-higher-interest-rates-be-next-557db399?mod=mw_rss_topstories) — *MarketWatch*
+- [Berkshire adds $17 billion to Alphabet stake](https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html) — *CNBC Markets*
+- [CEO Lip Bu-Tan Just Gave Intel a $10 Million Vote of Confidence](https://finance.yahoo.com/markets/stocks/articles/ceo-lip-bu-tan-just-125039590.html) — *Yahoo Finance*
+- [Via transportation director Arnon Dinur buys $998,984 in stock](https://www.investing.com/news/insider-trading-news/via-transportation-director-arnon-dinur-buys-998984-in-stock-93CH-4861782) — *Investing.com*
+- [Ameriprise Financial’s Dawn Brockman sells $263,815 in stock](https://www.investing.com/news/insider-trading-news/ameriprise-financials-dawn-brockman-sells-263815-in-stock-93CH-4861780) — *Investing.com*
+- [Magnite chief accounting officer Gephart sells $307k in shares](https://www.investing.com/news/insider-trading-news/magnite-chief-accounting-officer-gephart-sells-307k-in-shares-93CH-4861781) — *Investing.com*
+- [Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market](https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
