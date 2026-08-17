@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 01:36 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 02:19 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.05%** &nbsp; ($+3,978) |
-| SPY Benchmark | +9.60% &nbsp; ($+18,630 if 100% SPY) |
-| Alpha vs SPY | **-7.55%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.04%** &nbsp; ($+3,960) |
+| SPY Benchmark | +9.54% &nbsp; ($+18,501 if 100% SPY) |
+| Alpha vs SPY | **-7.50%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,978 |
+| Current Value | $197,960 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,062 | +1.25% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $775.76 | $+281 | +0.94% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $775.29 | $+263 | +0.88% |
 
 ## Daily Equity Curve
 
@@ -92,28 +92,28 @@
 | 2026-08-12 | 📈 +1.93% | +9.14% | ❌ -7.21% |
 | 2026-08-13 | 📈 +2.05% | +9.90% | ❌ -7.85% |
 | 2026-08-14 | 📈 +2.03% | +9.69% | ❌ -7.65% |
-| 2026-08-17 | 📈 +2.05% | +9.59% | ❌ -7.54% |
+| 2026-08-17 | 📈 +2.04% | +9.54% | ❌ -7.50% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 17 2026 01:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 17 2026 02:19 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Williams %R — Oversold — Score 79.8, Win Rate 63.4%, Avg 5d Return 1.86%, Max Drawdown -28… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+281. Holdi… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** Williams %R — Oversold — Score 79.8, Win Rate 63.4%, Avg 5d Return 1.86%, Max Drawdown -28.98%, Sharpe 2.72. 1 minor bearish signal(s), max confidence 55.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+263. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLE
+
+**Signal Analysis:** 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
@@ -125,9 +125,9 @@ _Evaluated Aug 17 2026 01:36 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+281. Holding avoids $90 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+263. Holding avoids $84 in taxes.
 
-**Tax & Cost:** Held 10 days (short-term). Exiting now costs $90 tax + $30 slippage = $120 total friction.
+**Tax & Cost:** Held 10 days (short-term). Exiting now costs $84 tax + $30 slippage = $114 total friction.
 
 ## Position Rationale
 
