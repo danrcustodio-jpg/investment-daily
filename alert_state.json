@@ -222,9 +222,9 @@
       "last_change_at": "2026-08-13T14:16:43.848640+00:00"
     },
     "RIOT": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-17T14:18:41.841775+00:00",
-      "last_change_at": "2026-08-17T15:17:10.282036+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744638+00:00"
     },
     "RKLB": {
       "cadence_min": 15,
@@ -237,9 +237,9 @@
       "last_change_at": "2026-08-10T15:29:09.289072+00:00"
     },
     "SOXL": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-17T14:18:42.202965+00:00",
-      "last_change_at": "2026-08-17T15:17:10.282106+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744756+00:00"
     },
     "TQQQ": {
       "cadence_min": 1440,
@@ -262,9 +262,9 @@
       "last_change_at": "2026-08-04T15:16:37.517163+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-17T13:34:43.999091+00:00",
-      "last_change_at": "2026-08-17T15:17:10.282223+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744925+00:00"
     },
     "ARKK": {
       "cadence_min": 1440,
@@ -277,9 +277,9 @@
       "last_change_at": "2026-08-11T18:13:29.839355+00:00"
     },
     "AVGO": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-17T13:34:07.419702+00:00",
-      "last_change_at": "2026-08-17T15:17:10.281856+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744428+00:00"
     },
     "ARM": {
       "cadence_min": 1440,
@@ -287,9 +287,9 @@
       "last_change_at": "2026-08-14T18:13:07.750707+00:00"
     },
     "BCH-USD": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-17T13:34:14.584471+00:00",
-      "last_change_at": "2026-08-17T15:17:10.281944+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744513+00:00"
     },
     "ETH-USD": {
       "cadence_min": 1440,
@@ -322,9 +322,9 @@
       "last_change_at": "2026-08-11T18:13:29.839243+00:00"
     },
     "XLE": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-17T14:18:42.345894+00:00",
-      "last_change_at": "2026-08-17T15:17:10.282169+00:00"
+      "last_change_at": "2026-08-17T15:47:48.744840+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 1440,

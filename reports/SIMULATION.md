@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 03:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 03:48 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.05%** &nbsp; ($+3,973) |
-| SPY Benchmark | +9.59% &nbsp; ($+18,597 if 100% SPY) |
-| Alpha vs SPY | **-7.54%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.04%** &nbsp; ($+3,953) |
+| SPY Benchmark | +9.51% &nbsp; ($+18,456 if 100% SPY) |
+| Alpha vs SPY | **-7.48%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,973 |
+| Current Value | $197,953 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,062 | +1.25% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $775.64 | $+276 | +0.92% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $775.12 | $+256 | +0.85% |
 
 ## Daily Equity Curve
 
@@ -92,22 +92,22 @@
 | 2026-08-12 | 📈 +1.93% | +9.14% | ❌ -7.21% |
 | 2026-08-13 | 📈 +2.05% | +9.90% | ❌ -7.85% |
 | 2026-08-14 | 📈 +2.03% | +9.69% | ❌ -7.65% |
-| 2026-08-17 | 📈 +2.05% | +9.59% | ❌ -7.54% |
+| 2026-08-17 | 📈 +2.04% | +9.51% | ❌ -7.47% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 17 2026 03:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 17 2026 03:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | VWAP Deviation — Oversold — Score 82.3, Win Rate 68.9%, Avg 5d Return 2.82%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+276. Holdi… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+256. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.5.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 82.3, Win Rate 68.9%, Avg 5d Return 2.82%, Max Drawdown -11.1%, Sharpe 3.78. 1 minor bearish signal(s), max confidence 55.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
@@ -125,9 +125,9 @@ _Evaluated Aug 17 2026 03:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+276. Holding avoids $88 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.79). Gross P&L: $+256. Holding avoids $82 in taxes.
 
-**Tax & Cost:** Held 10 days (short-term). Exiting now costs $88 tax + $30 slippage = $119 total friction.
+**Tax & Cost:** Held 10 days (short-term). Exiting now costs $82 tax + $30 slippage = $112 total friction.
 
 ## Position Rationale
 
