@@ -1,24 +1,24 @@
-# Daily Newsletter — Sunday, August 16, 2026
-Generated at 01:10 PM
+# Daily Newsletter — Monday, August 17, 2026
+Generated at 01:22 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 145 total &nbsp;·&nbsp; 🟢 65 Bullish &nbsp;·&nbsp; 🔴 80 Bearish
+**Strategy Signals:** 147 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 81 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $14.25 | 📉 -2.60% |
-| **GC=F** | Gold | $4437.30 | 📈 +1.69% |
-| **CL=F** | Crude Oil | $82.40 | 📈 +1.42% |
+| **^VIX** | VIX (Fear Index) | $15.06 | 📈 +5.68% |
+| **NG=F** | Natural Gas | $2.67 | 📉 -2.23% |
+| **GC=F** | Gold | $4445.20 | 📈 +1.48% |
 | **XLE** | Energy (XLE) | $61.91 | 📈 +1.39% |
-| **^TNX** | 10-Year Treasury Yield | $4.70 | 📈 +1.19% |
-| **^TYX** | 30-Year Treasury Yield | $5.26 | 📈 +1.00% |
+| **ETH-USD** | Ethereum | $1895.43 | 📈 +1.15% |
+| **SOL-USD** | Solana | $75.27 | 📈 +0.98% |
+| **BTC-USD** | Bitcoin | $63406.96 | 📈 +0.94% |
+| **SI=F** | Silver | $65.47 | 📈 +0.74% |
 | **XLV** | Healthcare (XLV) | $167.37 | 📉 -0.60% |
-| **^RUT** | Russell 2000 | $3068.42 | 📈 +0.51% |
-| **XLK** | Tech (XLK) | $190.01 | 📉 -0.40% |
-| **XLI** | Industrials (XLI) | $186.51 | 📈 +0.39% |
+| **EURUSD=X** | EUR/USD | $1.16 | 📈 +0.58% |
 
 ## Top Strategy Signals
 
@@ -29,7 +29,7 @@ Generated at 01:10 PM
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 79.6 | 71.0% |
 | 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 79.2 | 61.9% |
 | 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.3 | 65.4% |
-| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 74.7 | 60.0% |
+| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 72.4 | 56.6% |
 | 🟢 BULLISH | **NVDA** | Aroon — Strong Uptrend | 71.2 | 63.1% |
 | 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 70.3 | 54.2% |
 | 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 70.1 | 59.7% |
@@ -39,16 +39,16 @@ Generated at 01:10 PM
 
 ## Latest News
 
-- [Voters say their finances have worsened under Trump as midterms approach](https://seekingalpha.com/news/4633597-voters-say-their-finances-have-worsened-under-trump-as-midterms-approach?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Notable healthcare headlines for the week: Eli Lilly, Hims & Hers Health, and Merck in focus](https://seekingalpha.com/news/4633536-notable-healthcare-headlines-for-the-week-eli-lilly-hims-and-hers-health-and-merck-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Here’s the real reason oil prices aren’t moving higher](https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories) — *MarketWatch*
-- [Saudi Arabia stocks higher at close of trade; Tadawul All Share up 0.89%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-089-4861977) — *Investing.com*
-- [Credit Strategist Michael Lewitt warns CoreWeave’s debt load threatens survival](https://seekingalpha.com/news/4633596-credit-strategist-michael-lewitt-warns-coreweave-s-debt-load-threatens-survival?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nyli MacKay portfolio manager John Lawlor sells $18,752 in MMD shares](https://www.investing.com/news/insider-trading-news/nyli-mackay-portfolio-manager-john-lawlor-sells-18752-in-mmd-shares-93CH-4861975) — *Investing.com*
-- [U.S. said to have negotiated directly with Iran’s IRGC in May](https://www.investing.com/news/economy-news/us-said-to-have-negotiated-directly-with-irans-irgc-in-may-4861974) — *Investing.com*
-- [Sonoco products CEO R. Howard Coker buys $249k in company stock](https://www.investing.com/news/insider-trading-news/sonoco-products-ceo-r-howard-coker-buys-249k-in-company-stock-93CH-4861973) — *Investing.com*
-- [ArcBest director Judy McReynolds sells $397,065 in shares](https://www.investing.com/news/insider-trading-news/arcbest-director-judy-mcreynolds-sells-397065-in-shares-93CH-4861972) — *Investing.com*
-- [Earnings Week Ahead: WMT, BABA, HD, TGT, and more](https://seekingalpha.com/news/4633183-earnings-week-ahead-wmt-baba-hd-tgt-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Tractor Supply files mixed-securities shelf registration](https://seekingalpha.com/news/4633859-tractor-supply-files-mixed-securities-shelf-registration?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Alibaba launches Qwen AI model for laptops to meet Meta's challenge](https://seekingalpha.com/news/4633782-alibaba-launches-qwen-ai-model-for-laptops-to-meet-metas-challenge?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fortinet acquires AI security firm Virtue AI](https://seekingalpha.com/news/4633858-fortinet-acquires-ai-security-firm-virtue-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [FingerMotion appoints Chris Polimeni as CFO](https://seekingalpha.com/news/4633848-fingermotion-appoints-chris-polimeni-as-cfo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Oil prices rise as Iran rules out interim deal extension, threatens to escalate conflict](https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html) — *CNBC Markets*
+- [Celanese, Vigor partner on plastic joints for humanoid robots](https://seekingalpha.com/news/4633854-celanese-vigor-partner-on-plastic-joints-for-humanoid-robots?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Cel-Sci GAAP EPS of -$0.47](https://seekingalpha.com/news/4633855-cel-sci-gaap-eps-of-0_47?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bitmine’s Ethereum holdings hit 5.82M tokens; buybacks cross 20.8M shares](https://seekingalpha.com/news/4633843-bitmines-ethereum-holdings-hit-582m-tokens-buybacks-cross-208m-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [OpenAI's Brockman brushes off concerns about leadership changes in CNBC exclusive](https://www.cnbc.com/2026/08/17/openai-brockman-leadership-changes.html) — *CNBC Markets*
+- [Gufic Biosciences Q1 FY27 slides: profit surges 85% on margin gains](https://www.investing.com/news/company-news/gufic-biosciences-q1-fy27-slides-profit-surges-85-on-margin-gains-93CH-4863251) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

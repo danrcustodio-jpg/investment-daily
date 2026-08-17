@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 100** &nbsp;·&nbsp; Updated: Aug 16 2026 01:10 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 01:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.05%** &nbsp; ($+3,980) |
+| Portfolio P&L | **+2.06%** &nbsp; ($+4,001) |
 | SPY Benchmark | +9.69% &nbsp; ($+18,789 if 100% SPY) |
-| Alpha vs SPY | **-7.63%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-7.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,980 |
+| Current Value | $198,001 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,042 | +1.23% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,062 | +1.25% |
 | **SPY** | SPY | ✅ OPEN | $30,000 | $776.34 | $+304 | +1.01% |
 
 ## Daily Equity Curve
@@ -95,13 +95,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 16 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 17 2026 01:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sha… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **RIOT** | Williams %R — Oversold — Score 69.9, Win Rate 59.8%, Avg 5d Return 4.67%, Max Drawdown -77… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -… |
 | 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.55). Gross P&L: $+304. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — APP
@@ -110,23 +110,23 @@ _Evaluated Aug 16 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** MFI — Oversold — Score 74.7, Win Rate 60.0%, Avg 5d Return 5.81%, Max Drawdown -8.58%, Sharpe 4.83. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
-
 ### 🔍 NEW OPPORTUNITY — RIOT
 
 **Signal Analysis:** Williams %R — Oversold — Score 69.9, Win Rate 59.8%, Avg 5d Return 4.67%, Max Drawdown -77.54%, Sharpe 2.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — SOL-USD
+
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -25.88%, Sharpe 1.72. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
+
 ### ✅ HOLD — SPY
 
 **Signal Analysis:** Signal still net bullish (2 bull score 0.71 vs 2 bear score 0.55). Gross P&L: $+304. Holding avoids $97 in taxes.
 
-**Tax & Cost:** Held 9 days (short-term). Exiting now costs $97 tax + $30 slippage = $127 total friction.
+**Tax & Cost:** Held 10 days (short-term). Exiting now costs $97 tax + $30 slippage = $127 total friction.
 
 ## Position Rationale
 
