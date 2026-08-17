@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Monday August 17, 2026 at 08:51 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday August 17, 2026 at 09:17 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 135 |
-| 🟢 Bullish | 58 |
+| Total signals (confidence ≥ 45) | 136 |
+| 🟢 Bullish | 59 |
 | 🔴 Bearish | 77 |
 | 🔵 In cooldown (fired in last 6h) | 98 |
-| 🟡 Available to fire (not in cooldown) | 37 |
+| 🟡 Available to fire (not in cooldown) | 38 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -69,6 +69,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **CEG** | Aroon — Strong Uptrend | 49.6 | 57.0% | -64.73% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 48.7 | 59.9% | -61.15% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 48.6 | 56.1% | -82.42% | 🟡 Available |
+| 🟢 BULLISH | **COIN** | OBV — Accumulation | 48.6 | 46.3% | -51.81% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 48.5 | 57.1% | -85.59% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.9 | 55.7% | -75.52% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 47.4 | 54.2% | -97.27% | 🟡 Available |
