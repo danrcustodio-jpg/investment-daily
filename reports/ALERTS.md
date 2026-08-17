@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Monday August 17, 2026 at 09:17 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday August 17, 2026 at 09:47 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -135,9 +135,9 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **QQQ** | Stochastic (Full) — Overbought | 50.7 | 58.6% | -35.1% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **TQQQ** | Stochastic RSI Overbought | 50.7 | 55.2% | -85.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **SOXL** | Stochastic RSI Overbought | 50.1 | 56.4% | -98.19% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **VOO** | Williams %R — Overbought | 49.8 | 56.7% | -23.22% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **SPY** | Williams %R — Overbought | 49.4 | 56.8% | -23.94% | 🟡 Available |
 | 🔴 BEARISH | **QQQ** | Stochastic RSI Overbought | 49.4 | 54.8% | -46.09% | 🟡 Available |
+| 🔴 BEARISH | **VOO** | Williams %R — Overbought | 49.0 | 56.4% | -24.44% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **IWM** | Stochastic RSI Overbought | 48.9 | 52.3% | -39.2% | 🟡 Available |
 | 🔴 BEARISH | **ARM** | SMA 30 — Bearish Loss | 48.8 | 55.6% | -11.12% | 🟡 Available |
 | 🔴 BEARISH | **NVDA** | VWAP Deviation — Overbought | 48.5 | 59.1% | -74.7% | 🟡 Available |
