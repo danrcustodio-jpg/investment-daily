@@ -1129,35 +1129,55 @@ def detect_cmf(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
     return signals
 
 
+def _regime_start(active: pd.Series) -> pd.Series:
+    """True only on the first bar a boolean regime turns on (not while it stays on)."""
+    on = active.fillna(False).astype(bool)
+    was_on = on.shift(1).fillna(False).astype(bool)
+    return on & ~was_on
+
+
 def detect_aroon(symbol: str, name: str, df: pd.DataFrame) -> list[dict]:
-    """Aroon — time since 25-day high/low; strong when one leg dominates."""
+    """Aroon — fire only on the first day a strong up/down regime starts.
+
+    Scoring the whole regime (every day Up>70) recycled bull-market drift into
+    a 60+ confidence 'buy' while price was still pulling back. MACD-style
+    rising-edge keeps alerts and the backtest on the days the regime actually
+    changes.
+    """
     signals: list[dict] = []
     uc, dc = "AROONU_25", "AROOND_25"
-    if uc not in df.columns or df[uc].isna().iloc[-1]:
+    if uc not in df.columns or dc not in df.columns or df[uc].isna().iloc[-1]:
+        return signals
+    if len(df) < 2:
         return signals
     u, d, price = df[uc], df[dc], df["Close"]
     cu, cd = float(u.iloc[-1]), float(d.iloc[-1])
-    if cu > 70 and cu > cd:
-        mask = (u > 70) & (u > d)
-        bt = backtest_signal(price, mask)
+    up_on = (u > 70) & (u > d)
+    down_on = (d > 70) & (d > u)
+    up_start = _regime_start(up_on)
+    down_start = _regime_start(down_on)
+
+    if bool(up_start.iloc[-1]):
+        bt = backtest_signal(price, up_start)
         signals.append(_make_signal(
             symbol, name,
             "Aroon — Strong Uptrend", "BULLISH",
-            f"Aroon Up {cu:.0f}  vs  Down {cd:.0f}  (Up > 70 & leads)",
-            "Aroon Up is high: a new 25-day high was recent; Up is above Down — "
-            "momentum favors buyers.",
-            "Trend-following: strength until Down catches up or Up rolls over.",
+            f"Aroon Up {cu:.0f}  vs  Down {cd:.0f}  (Up > 70 & leads — regime start)",
+            "Aroon Up just took the lead above 70: a new 25-day high is fresh. "
+            "This fires on the first day of that regime, not every day it stays on.",
+            "Trend-following entry: valid until Aroon Down takes over. Ignore repeats "
+            "while Up remains dominant.",
             bt,
         ))
-    elif cd > 70 and cd > cu:
-        mask = (d > 70) & (d > u)
-        bt = backtest_signal(price, mask)
+    elif bool(down_start.iloc[-1]):
+        bt = backtest_signal(price, down_start)
         signals.append(_make_signal(
             symbol, name,
             "Aroon — Strong Downtrend", "BEARISH",
-            f"Aroon Down {cd:.0f}  vs  Up {cu:.0f}  (Down > 70 & leads)",
-            "Aroon Down dominates — new lows are fresh; structural weakness vs highs.",
-            "Avoid premature longs; wait for Up to recover or Down to fade.",
+            f"Aroon Down {cd:.0f}  vs  Up {cu:.0f}  (Down > 70 & leads — regime start)",
+            "Aroon Down just took the lead above 70 — new lows are fresh. "
+            "This fires on the first day of that regime, not every day it stays on.",
+            "Avoid premature longs until Up recovers or Down fades.",
             bt,
         ))
     return signals
