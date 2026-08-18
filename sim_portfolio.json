@@ -689,24 +689,15 @@
     },
     {
       "date": "2026-08-18",
-      "total_value": 197718.21,
-      "portfolio_pnl": 1.917,
-      "benchmark_pnl": 8.589,
+      "total_value": 197710.41,
+      "portfolio_pnl": 1.913,
+      "benchmark_pnl": 8.56,
       "prices": {
-        "SPY": 768.5800170898438
+        "SPY": 768.3800048828125
       }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
-      "priority": "high",
-      "reason": "ATR \u2014 Volatility Surge (Up) \u2014 Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
@@ -726,14 +717,23 @@
       "is_crypto": false
     },
     {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XRP-USD",
+      "priority": "high",
+      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.64%, Sharpe 4.55. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.70 vs 2 bear score 0.50). Gross P&L: $+2. Holding avoids $1 in taxes.",
-      "tax_note": "Held 11 days (short-term). Exiting now costs $1 tax + $30 slippage = $31 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.70 vs 2 bear score 0.50). Gross P&L: $-9. Holding avoids $0 in taxes.",
+      "tax_note": "Held 11 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-18T13:36:13.021340",
+  "recommendations_updated": "2026-08-18T14:23:55.167320",
   "trade_log": [
     {
       "action": "SELL",
