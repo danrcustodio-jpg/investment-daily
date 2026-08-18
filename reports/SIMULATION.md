@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 08:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 09:15 PM
 
 ## Performance Summary
 
@@ -96,13 +96,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 18 2026 08:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 18 2026 09:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.39%, Max Drawdown -8.69%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.58%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -118,7 +118,7 @@ _Evaluated Aug 18 2026 08:46 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.39%, Max Drawdown -8.69%, Sharpe 4.54. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
