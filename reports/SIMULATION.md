@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 04:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 05:19 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.92%** &nbsp; ($+3,722) |
-| SPY Benchmark | +8.60% &nbsp; ($+16,687 if 100% SPY) |
-| Alpha vs SPY | **-6.68%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+1.91%** &nbsp; ($+3,709) |
+| SPY Benchmark | +8.56% &nbsp; ($+16,599 if 100% SPY) |
+| Alpha vs SPY | **-6.64%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,722 |
+| Current Value | $197,709 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,083 | +1.26% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $768.67 | $+4 | +0.01% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $768.35 | $-8 | -0.03% |
 
 ## Daily Equity Curve
 
@@ -93,18 +93,18 @@
 | 2026-08-13 | 📈 +2.05% | +9.90% | ❌ -7.85% |
 | 2026-08-14 | 📈 +2.03% | +9.69% | ❌ -7.65% |
 | 2026-08-17 | 📈 +1.99% | +9.17% | ❌ -7.18% |
-| 2026-08-18 | 📈 +1.92% | +8.61% | ❌ -6.69% |
+| 2026-08-18 | 📈 +1.91% | +8.56% | ❌ -6.64% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 18 2026 04:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 18 2026 05:19 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sha… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $+4. Holding… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.6%, Sharp… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $-8. Holding… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -120,15 +120,15 @@ _Evaluated Aug 18 2026 04:56 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.6%, Sharpe 4.55. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $+4. Holding avoids $1 in taxes.
+**Signal Analysis:** Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $-8. Holding avoids $0 in taxes.
 
-**Tax & Cost:** Held 11 days (short-term). Exiting now costs $1 tax + $30 slippage = $31 total friction.
+**Tax & Cost:** Held 11 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 

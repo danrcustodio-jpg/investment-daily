@@ -689,11 +689,11 @@
     },
     {
       "date": "2026-08-18",
-      "total_value": 197723.68,
-      "portfolio_pnl": 1.919,
-      "benchmark_pnl": 8.608,
+      "total_value": 197709.23,
+      "portfolio_pnl": 1.912,
+      "benchmark_pnl": 8.556,
       "prices": {
-        "SPY": 768.719970703125
+        "SPY": 768.3499755859375
       }
     }
   ],
@@ -720,7 +720,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.6%, Sharpe 4.55. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -729,11 +729,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $+4. Holding avoids $1 in taxes.",
-      "tax_note": "Held 11 days (short-term). Exiting now costs $1 tax + $30 slippage = $31 total friction."
+      "reason": "Signal still net bullish (2 bull score 0.69 vs 1 bear score 0.26). Gross P&L: $-8. Holding avoids $0 in taxes.",
+      "tax_note": "Held 11 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-18T16:56:20.614243",
+  "recommendations_updated": "2026-08-18T17:19:36.611319",
   "trade_log": [
     {
       "action": "SELL",
