@@ -5,26 +5,12 @@
   "positions": {
     "CASH": {
       "name": "Cash / Money Market",
-      "allocation": 165634.52,
+      "allocation": 195575.09999999998,
       "type": "cash",
       "annual_rate": 0.045,
       "rationale": "SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.",
       "status": "open",
       "triggered_date": null
-    },
-    "SPY": {
-      "name": "SPY",
-      "allocation": 30000.0,
-      "type": "market",
-      "entry_price": 768.5599975585938,
-      "shares": 39.034038,
-      "signal": "Strategy signal",
-      "confidence": null,
-      "win_rate": null,
-      "sharpe": null,
-      "rationale": "PPO \u2014 Bullish Cross \u2014 Score 64.7, Win Rate 66.7%, Avg 5d Return 0.49%, Max Drawdown -3.34%, Sharpe 1.55. No conflicting bearish signals.",
-      "status": "open",
-      "triggered_date": "2026-08-07"
     }
   },
   "benchmark": {
@@ -689,11 +675,11 @@
     },
     {
       "date": "2026-08-18",
-      "total_value": 197670.59,
-      "portfolio_pnl": 1.892,
-      "benchmark_pnl": 8.416,
+      "total_value": 198034.52,
+      "portfolio_pnl": 2.08,
+      "benchmark_pnl": 8.429,
       "prices": {
-        "SPY": 767.3599853515625
+        "SPY": 767.4500122070312
       }
     }
   ],
@@ -703,7 +689,7 @@
       "ticker": "APP",
       "priority": "high",
       "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.4.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -712,7 +698,7 @@
       "ticker": "XLE",
       "priority": "high",
       "reason": "52-Week Breakout \u2014 Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -720,20 +706,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.39%, Max Drawdown -8.69%, Sharpe 4.54. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
-    },
-    {
-      "action": "HOLD",
-      "ticker": "SPY",
-      "priority": "low",
-      "reason": "Signal still net bullish (2 bull score 0.69 vs 2 bear score 0.71). Gross P&L: $-47. Holding avoids $0 in taxes.",
-      "tax_note": "Held 11 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-08-18T20:13:39.659363",
+  "recommendations_updated": "2026-08-18T20:46:45.839929",
   "trade_log": [
     {
       "action": "SELL",
@@ -821,6 +800,16 @@
       "is_crypto": false,
       "explanation": "PPO \u2014 Bullish Cross \u2014 Score 64.7, Win Rate 66.7%, Avg 5d Return 0.49%, Max Drawdown -3.34%, Sharpe 1.55. No conflicting bearish signals. New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,665 deployable. Entry slippage est. $30.",
       "timestamp": "2026-08-07T00:36:29.987141"
+    },
+    {
+      "action": "SELL",
+      "ticker": "SPY",
+      "gross_gain": -43.33,
+      "net_proceeds": 29940.58,
+      "tax_cost": 0.0,
+      "slippage": 29.96,
+      "explanation": "Signal environment turned net bearish (2 bear score 0.71 vs 1 bull score 0.30). Strongest bearish: OBV \u2014 Distribution (score 60.9). Gross P&L: $-43. Held 11 days (short-term rate). $14 tax benefit (loss deduction) + $30 slippage. Net proceeds if sold: $29,941.",
+      "timestamp": "2026-08-18T20:46:34.409536"
     }
   ]
 }

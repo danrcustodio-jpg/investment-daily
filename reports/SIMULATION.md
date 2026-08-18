@@ -1,22 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 08:13 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 08:46 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.89%** &nbsp; ($+3,671) |
-| SPY Benchmark | +8.42% &nbsp; ($+16,328 if 100% SPY) |
-| Alpha vs SPY | **-6.52%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.08%** &nbsp; ($+4,035) |
+| SPY Benchmark | +8.43% &nbsp; ($+16,352 if 100% SPY) |
+| Alpha vs SPY | **-6.35%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,671 |
+| Current Value | $198,035 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,083 | +1.26% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $767.36 | $-47 | -0.16% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,459 | +1.26% |
 
 ## Daily Equity Curve
 
@@ -93,51 +92,40 @@
 | 2026-08-13 | 📈 +2.05% | +9.90% | ❌ -7.85% |
 | 2026-08-14 | 📈 +2.03% | +9.69% | ❌ -7.65% |
 | 2026-08-17 | 📈 +1.99% | +9.17% | ❌ -7.18% |
-| 2026-08-18 | 📈 +1.89% | +8.42% | ❌ -6.52% |
+| 2026-08-18 | 📈 +2.08% | +8.43% | ❌ -6.35% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 18 2026 08:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 18 2026 08:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sha… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.69 vs 2 bear score 0.71). Gross P&L: $-47. Holdin… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.39%, Max Drawdown -8.69%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.4.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLE
 
 **Signal Analysis:** 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.41%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.39%, Max Drawdown -8.69%, Sharpe 4.54. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
-
-### ✅ HOLD — SPY
-
-**Signal Analysis:** Signal still net bullish (2 bull score 0.69 vs 2 bear score 0.71). Gross P&L: $-47. Holding avoids $0 in taxes.
-
-**Tax & Cost:** Held 11 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
-### CASH — $165,635 (62%)
+### CASH — $195,575 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
-
-### SPY — SPY
-**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $768.56
-> PPO — Bullish Cross — Score 64.7, Win Rate 66.7%, Avg 5d Return 0.49%, Max Drawdown -3.34%, Sharpe 1.55. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*
