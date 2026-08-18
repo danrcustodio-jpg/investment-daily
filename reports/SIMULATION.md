@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 101** &nbsp;·&nbsp; Updated: Aug 17 2026 09:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 01:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+1.99%** &nbsp; ($+3,857) |
+| Portfolio P&L | **+2.00%** &nbsp; ($+3,878) |
 | SPY Benchmark | +9.17% &nbsp; ($+17,783 if 100% SPY) |
-| Alpha vs SPY | **-7.18%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-7.17%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $197,857 |
+| Current Value | $197,878 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,062 | +1.25% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,635 | — | $+2,083 | +1.26% |
 | **SPY** | SPY | ✅ OPEN | $30,000 | $772.67 | $+160 | +0.53% |
 
 ## Daily Equity Curve
@@ -96,38 +96,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 17 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 18 2026 01:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.78). Gross P&L: $+160. Holdi… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.37%, Max Drawdown -9.01%, Sha… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **PLTR** | ADX Strong Trend — Bullish — Score 65.2, Win Rate 64.3%, Avg 5d Return 2.69%, Max Drawdown… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+160. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.6, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — SOL-USD
-
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 62.4, Win Rate 58.6%, Avg 5d Return 2.19%, Max Drawdown -25.88%, Sharpe 1.72. No conflicting bearish signals.
+**Signal Analysis:** ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
 
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.37%, Max Drawdown -9.01%, Sharpe 4.51. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,635 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — PLTR
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 65.2, Win Rate 64.3%, Avg 5d Return 2.69%, Max Drawdown -90.11%, Sharpe 1.62. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,635 deployable. Entry slippage est. $30.
+
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.70 vs 3 bear score 0.78). Gross P&L: $+160. Holding avoids $51 in taxes.
+**Signal Analysis:** Signal still net bullish (0 bull score 0.00 vs 0 bear score 0.00). Gross P&L: $+160. Holding avoids $51 in taxes.
 
-**Tax & Cost:** Held 10 days (short-term). Exiting now costs $51 tax + $30 slippage = $82 total friction.
+**Tax & Cost:** Held 11 days (short-term). Exiting now costs $51 tax + $30 slippage = $82 total friction.
 
 ## Position Rationale
 

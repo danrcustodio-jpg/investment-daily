@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, August 17, 2026
-Generated at 01:22 PM
+# Daily Newsletter — Tuesday, August 18, 2026
+Generated at 01:24 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 147 total &nbsp;·&nbsp; 🟢 66 Bullish &nbsp;·&nbsp; 🔴 81 Bearish
+**Strategy Signals:** 26 total &nbsp;·&nbsp; 🟢 14 Bullish &nbsp;·&nbsp; 🔴 12 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $15.06 | 📈 +5.68% |
-| **NG=F** | Natural Gas | $2.67 | 📉 -2.23% |
-| **GC=F** | Gold | $4445.20 | 📈 +1.48% |
+| **^VIX** | VIX (Fear Index) | $15.79 | 📈 +10.81% |
 | **XLE** | Energy (XLE) | $61.91 | 📈 +1.39% |
-| **ETH-USD** | Ethereum | $1895.43 | 📈 +1.15% |
-| **SOL-USD** | Solana | $75.27 | 📈 +0.98% |
-| **BTC-USD** | Bitcoin | $63406.96 | 📈 +0.94% |
-| **SI=F** | Silver | $65.47 | 📈 +0.74% |
+| **SI=F** | Silver | $65.25 | 📉 -1.32% |
+| **^TYX** | 30-Year Treasury Yield | $5.32 | 📈 +0.99% |
+| **NG=F** | Natural Gas | $2.72 | 📈 +0.97% |
+| **ETH-USD** | Ethereum | $1894.93 | 📉 -0.90% |
+| **^TNX** | 10-Year Treasury Yield | $4.73 | 📈 +0.81% |
+| **GC=F** | Gold | $4451.70 | 📈 +0.77% |
+| **BTC-USD** | Bitcoin | $64040.90 | 📉 -0.72% |
 | **XLV** | Healthcare (XLV) | $167.37 | 📉 -0.60% |
-| **EURUSD=X** | EUR/USD | $1.16 | 📈 +0.58% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **AAPL** | Williams %R — Oversold | 80.1 | 64.2% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 79.6 | 71.0% |
-| 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 79.2 | 61.9% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.3 | 65.4% |
+| 🟢 BULLISH | **AERO-USD** | ATR — Volatility Surge (Up) | 80.0 | 64.7% |
+| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 73.1 | 56.2% |
 | 🟢 BULLISH | **AERO-USD** | RSI Oversold | 72.4 | 56.6% |
-| 🟢 BULLISH | **NVDA** | Aroon — Strong Uptrend | 71.2 | 63.1% |
-| 🟢 BULLISH | **RKLB** | Aroon — Strong Uptrend | 70.3 | 54.2% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 70.1 | 59.7% |
-| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 69.9 | 59.8% |
-| 🟢 BULLISH | **AMD** | MACD Bullish Crossover | 69.8 | 70.6% |
-| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 69.3 | 65.3% |
+| 🟢 BULLISH | **GC=F** | Aroon — Strong Uptrend | 65.4 | 64.1% |
+| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 65.2 | 64.3% |
+| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 62.9 | 62.6% |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.1 | 66.7% |
+| 🟢 BULLISH | **AAPL** | Stochastic RSI Oversold | 56.5 | 54.4% |
+| 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 55.4 | 50.8% |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 50.9 | 60.2% |
+| 🟢 BULLISH | **DOT-USD** | Keltner — Lower Channel Touch | 50.1 | 56.5% |
 
 ## Latest News
 
-- [Tractor Supply files mixed-securities shelf registration](https://seekingalpha.com/news/4633859-tractor-supply-files-mixed-securities-shelf-registration?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Alibaba launches Qwen AI model for laptops to meet Meta's challenge](https://seekingalpha.com/news/4633782-alibaba-launches-qwen-ai-model-for-laptops-to-meet-metas-challenge?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Fortinet acquires AI security firm Virtue AI](https://seekingalpha.com/news/4633858-fortinet-acquires-ai-security-firm-virtue-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [FingerMotion appoints Chris Polimeni as CFO](https://seekingalpha.com/news/4633848-fingermotion-appoints-chris-polimeni-as-cfo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Oil prices rise as Iran rules out interim deal extension, threatens to escalate conflict](https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html) — *CNBC Markets*
-- [Celanese, Vigor partner on plastic joints for humanoid robots](https://seekingalpha.com/news/4633854-celanese-vigor-partner-on-plastic-joints-for-humanoid-robots?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Cel-Sci GAAP EPS of -$0.47](https://seekingalpha.com/news/4633855-cel-sci-gaap-eps-of-0_47?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Bitmine’s Ethereum holdings hit 5.82M tokens; buybacks cross 20.8M shares](https://seekingalpha.com/news/4633843-bitmines-ethereum-holdings-hit-582m-tokens-buybacks-cross-208m-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [OpenAI's Brockman brushes off concerns about leadership changes in CNBC exclusive](https://www.cnbc.com/2026/08/17/openai-brockman-leadership-changes.html) — *CNBC Markets*
-- [Gufic Biosciences Q1 FY27 slides: profit surges 85% on margin gains](https://www.investing.com/news/company-news/gufic-biosciences-q1-fy27-slides-profit-surges-85-on-margin-gains-93CH-4863251) — *Investing.com*
+- [Trump's Oman bomb threat an attempt to get their 'attention,' says former ambassador](https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html) — *CNBC Markets*
+- [YieldMax® Semiconductor Portfolio Option Income ETF declares $0.5702 dividend](https://seekingalpha.com/news/4634330-yieldmax-semiconductor-portfolio-option-income-etf-declares-0_5702-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Airgain announces two IoT design wins for AI data center infrastructure](https://seekingalpha.com/news/4634319-airgain-announces-two-iot-design-wins-for-ai-data-center-infrastructure?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Industrial production growth unexpectedly slows in July](https://seekingalpha.com/news/4634300-industrial-production-growth-unexpectedly-slows-in-july?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [The top 10 colleges for financial aid in 2026, according to The Princeton Review — and what families actually pay](https://www.cnbc.com/2026/08/18/colleges-best-financial-aid-2026-princeton-review.html) — *CNBC Markets*
+- [Academy Sports reiterates its aggressive store growth plans](https://seekingalpha.com/news/4634322-academy-sports-reiterates-its-aggressive-store-growth-plans?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [American Airlines to add premium seats, bring back seatback screens fleetwide](https://www.investing.com/news/stock-market-news/american-airlines-to-add-premium-seats-bring-back-seatback-screens-fleetwide-4865427) — *Investing.com*
+- [Contrarian vs. the crowd: One trader made a massive bet against chip stocks](https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html) — *CNBC Markets*
+- [30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns](https://www.cnbc.com/2026/08/18/treasury-yields-.html) — *CNBC Markets*
+- [Francisco Partners to buy Weave for $7.40/share cash](https://seekingalpha.com/news/4634316-francisco-partners-to-buy-weave-for-740share-cash?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
