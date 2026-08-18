@@ -706,13 +706,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.58%, Sharpe 4.56. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.64%, Sharpe 4.55. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-18T21:15:11.180716",
+  "recommendations_updated": "2026-08-18T21:45:16.627770",
   "trade_log": [
     {
       "action": "SELL",

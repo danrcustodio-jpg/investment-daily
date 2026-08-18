@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday August 18, 2026 at 09:14 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday August 18, 2026 at 09:45 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -8,8 +8,8 @@
 | Total signals (confidence ≥ 45) | 106 |
 | 🟢 Bullish | 43 |
 | 🔴 Bearish | 63 |
-| 🔵 In cooldown (fired in last 6h) | 73 |
-| 🟡 Available to fire (not in cooldown) | 33 |
+| 🔵 In cooldown (fired in last 6h) | 72 |
+| 🟡 Available to fire (not in cooldown) | 34 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -22,7 +22,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 79.2 | 71.0% | -30.86% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | -52.28% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 73.8 | 63.2% | -42.38% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 73.1 | 56.2% | -8.58% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 73.1 | 56.2% | -8.64% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AERO-USD** | RSI Oversold | 72.4 | 56.6% | -56.68% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 71.3 | 61.0% | -91.66% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 69.4 | 59.4% | -77.54% | 🔵 In cooldown (≤6h) |
@@ -59,7 +59,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **AMD** | TRIX — Bullish Cross | 48.6 | 60.0% | -18.44% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.8 | 55.6% | -75.52% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 47.3 | 54.1% | -97.27% | 🟡 Available |
-| 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.1 | 56.1% | -87.54% | 🟡 Available |
+| 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.0 | 56.0% | -87.54% | 🟡 Available |
 | 🔴 BEARISH | **SMH** | SMA 30 — Bearish Loss | 86.7 | 82.4% | -8.52% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **QQQ** | Elder Force — Bearish | 84.7 | 80.0% | -5.46% | 🟡 Available |
 | 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.2 | 70.3% | -21.32% | 🔵 In cooldown (≤6h) |
@@ -100,7 +100,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 54.9 | 56.9% | -67.25% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **TSLA** | Stochastic RSI Overbought | 54.4 | 52.3% | -42.62% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ARM** | OBV — Distribution | 54.3 | 53.1% | -42.29% | 🟡 Available |
-| 🔴 BEARISH | **ARM** | Parabolic SAR — Bearish | 54.1 | 53.8% | -30.31% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **ARM** | Parabolic SAR — Bearish | 54.1 | 53.8% | -30.31% | 🟡 Available |
 | 🔴 BEARISH | **ADA-USD** | Awesome Oscillator — Bearish Zero Line | 53.2 | 41.2% | -23.67% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **XLK** | Fisher Transform — High Extreme | 52.6 | 61.6% | -32.97% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | Stochastic (Full) — Overbought | 52.5 | 58.7% | -57.7% | 🔵 In cooldown (≤6h) |
@@ -115,8 +115,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **TQQQ** | VWAP Deviation — Overbought | 48.3 | 58.2% | -75.2% | 🟡 Available |
 | 🔴 BEARISH | **IWM** | Fisher Transform — High Extreme | 47.9 | 55.2% | -14.46% | 🟡 Available |
 | 🔴 BEARISH | **GOOGL** | Vortex — Bearish | 47.6 | 59.3% | -27.43% | 🟡 Available |
-| 🔴 BEARISH | **ARKK** | Elder Force — Bearish | 47.3 | 60.5% | -25.5% | 🟡 Available |
 | 🔴 BEARISH | **SPY** | Stochastic (Full) — Overbought | 46.9 | 55.8% | -20.96% | 🟡 Available |
+| 🔴 BEARISH | **ARKK** | Elder Force — Bearish | 46.8 | 60.5% | -25.5% | 🟡 Available |
 | 🔴 BEARISH | **VOO** | Stochastic (Full) — Overbought | 46.4 | 55.7% | -20.88% | 🟡 Available |
 | 🔴 BEARISH | **IWM** | Stochastic (Full) — Overbought | 46.1 | 53.9% | -32.96% | 🟡 Available |
 | 🔴 BEARISH | **NVDA** | OBV — Distribution | 46.0 | 50.0% | -38.47% | 🟡 Available |
