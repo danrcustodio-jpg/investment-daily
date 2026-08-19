@@ -220,9 +220,9 @@
       "last_change_at": "2026-08-19T14:23:36.555354+00:00"
     },
     "AMZN": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-19T15:32:56.070388+00:00",
-      "last_change_at": "2026-08-19T16:54:19.749812+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255402+00:00"
     },
     "APP": {
       "cadence_min": 15,
@@ -230,9 +230,9 @@
       "last_change_at": "2026-08-04T15:16:37.516394+00:00"
     },
     "CL=F": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T15:32:57.212093+00:00",
-      "last_change_at": "2026-08-19T16:54:19.749983+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255580+00:00"
     },
     "GC=F": {
       "cadence_min": 15,
@@ -295,9 +295,9 @@
       "last_change_at": "2026-08-17T18:24:49.816281+00:00"
     },
     "TQQQ": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-19T15:32:59.040051+00:00",
-      "last_change_at": "2026-08-19T16:54:19.750131+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255727+00:00"
     },
     "TSLA": {
       "cadence_min": 1440,
@@ -315,19 +315,19 @@
       "last_change_at": "2026-08-19T14:23:36.555850+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-19T15:33:00.053236+00:00",
-      "last_change_at": "2026-08-19T15:32:55.519016+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255787+00:00"
     },
     "ARKK": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-19T13:37:26.385535+00:00",
-      "last_change_at": "2026-08-19T16:54:19.749900+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255495+00:00"
     },
     "SOL-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T15:32:58.746288+00:00",
-      "last_change_at": "2026-08-19T16:54:19.750071+00:00"
+      "last_change_at": "2026-08-19T17:18:54.255667+00:00"
     },
     "AVGO": {
       "cadence_min": 15,

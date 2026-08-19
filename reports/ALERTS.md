@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Wednesday August 19, 2026 at 04:54 PM
+**Last scan:** Wednesday August 19, 2026 at 05:18 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals scanned (confidence ≥ 50) | 85 |
-| 🟢 Bullish | 57 |
-| 🔴 Bearish | 47 |
+| Total signals scanned (confidence ≥ 50) | 82 |
+| 🟢 Bullish | 55 |
+| 🔴 Bearish | 45 |
 | ✅ Fired this run (SMS + email) | 0 |
-| ⏭ Skipped — same ticker notified in last 6h | 85 |
+| ⏭ Skipped — same ticker notified in last 6h | 82 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
@@ -36,7 +36,6 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | 2.7% | 2.68 |
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 74.0 | 62.5% | 2.68% | 3.04 |
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 73.8 | 63.2% | 2.34% | 2.3 |
-| 🟢 BULLISH | **XRP-USD** | Supertrend — Bullish Flip | 73.3 | 66.7% | 6.89% | 2.8 |
 | 🟢 BULLISH | **GOOGL** | Vortex — Bullish | 66.8 | 57.1% | 1.24% | 1.86 |
 | 🟢 BULLISH | **AERO-USD** | RSI Oversold | 66.7 | 51.4% | 4.45% | 2.48 |
 | 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 65.6 | 64.7% | 2.68% | 1.63 |
@@ -47,25 +46,24 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 61.0 | 52.9% | 3.39% | 1.71 |
 | 🟢 BULLISH | **XBI** | 52-Week Breakout | 60.6 | 59.5% | 0.96% | 1.54 |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 59.3 | 60.5% | 1.07% | 1.43 |
-| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 59.3 | 57.9% | 1.47% | 1.32 |
+| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 59.2 | 57.9% | 1.47% | 1.31 |
 | 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.1 | 66.4% | 0.68% | 1.13 |
 | 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 58.9 | 58.5% | 1.52% | 1.44 |
-| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 58.8 | 56.1% | 2.37% | 1.46 |
-| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 58.7 | 56.7% | 2.17% | 1.6 |
+| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 58.7 | 56.1% | 2.37% | 1.45 |
+| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 58.7 | 56.7% | 2.18% | 1.6 |
 | 🟢 BULLISH | **COIN** | SMA 30 — Bullish Reclaim | 58.7 | 54.5% | 4.36% | 1.71 |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.2 | 56.7% | 2.09% | 1.45 |
 | 🟢 BULLISH | **COIN** | MACD Bullish Crossover | 57.9 | 50.0% | 2.88% | 1.76 |
 | 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 57.8 | 54.7% | 3.05% | 1.58 |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 56.4 | 57.3% | 1.42% | 1.37 |
-| 🟢 BULLISH | **GC=F** | Donchian — 20D High Breakout | 56.1 | 67.9% | 0.57% | 0.97 |
 | 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 55.0 | 50.8% | 2.87% | 1.53 |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.9 | 57.9% | 0.91% | 1.26 |
 | 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 53.9 | 60.3% | 0.37% | 0.94 |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.7 | 60.3% | 0.37% | 0.93 |
-| 🟢 BULLISH | **APP** | RSI Oversold | 53.6 | 56.2% | 2.14% | 1.31 |
-| 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 52.8 | 59.2% | 0.49% | 0.99 |
-| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 52.8 | 58.6% | 2.83% | 1.2 |
+| 🟢 BULLISH | **APP** | RSI Oversold | 53.6 | 56.2% | 2.15% | 1.31 |
+| 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 52.7 | 59.2% | 0.49% | 0.99 |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 52.7 | 59.0% | 0.64% | 1.07 |
+| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 52.7 | 58.6% | 2.83% | 1.2 |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 51.7 | 57.5% | 1.61% | 1.08 |
 | 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 51.3 | 56.9% | 1.57% | 1.21 |
 | 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 51.0 | 51.5% | 3.04% | 1.28 |
@@ -78,11 +76,10 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **SMH** | Parabolic SAR — Bearish | 80.9 | 72.0% | 1.8% | 2.56 |
 | 🔴 BEARISH | **XLK** | Parabolic SAR — Bearish | 80.9 | 80.0% | 1.23% | 2.21 |
 | 🔴 BEARISH | **AVGO** | Ulcer Index — Elevated | 78.7 | 69.4% | 3.31% | 3.76 |
-| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 77.9 | 65.4% | 2.46% | 2.86 |
-| 🔴 BEARISH | **MRVL** | Stochastic (Full) — Overbought | 76.0 | 62.5% | 3.37% | 2.2 |
-| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 73.7 | 60.3% | 3.15% | 2.11 |
-| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 73.2 | 65.0% | 7.82% | 2.87 |
-| 🔴 BEARISH | **MRVL** | Williams %R — Overbought | 70.4 | 61.3% | 2.66% | 1.92 |
+| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 77.9 | 65.4% | 2.45% | 2.86 |
+| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 73.7 | 60.3% | 3.14% | 2.11 |
+| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 73.1 | 65.0% | 7.8% | 2.86 |
+| 🔴 BEARISH | **MRVL** | Williams %R — Overbought | 70.3 | 61.3% | 2.65% | 1.91 |
 | 🔴 BEARISH | **CRWD** | MACD Bearish Crossover | 69.9 | 61.9% | 2.24% | 2.25 |
 | 🔴 BEARISH | **RKLB** | Elder Force — Bearish | 69.3 | 57.7% | 5.71% | 2.09 |
 | 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 67.0 | 64.6% | 2.13% | 2.46 |
@@ -91,7 +88,7 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **AVGO** | Supertrend — Bearish Flip | 65.8 | 50.0% | 3.06% | 1.92 |
 | 🔴 BEARISH | **AVGO** | Awesome Oscillator — Bearish Zero Line | 65.6 | 50.0% | 2.65% | 2.49 |
 | 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 65.3 | 60.7% | 1.94% | 1.74 |
-| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 62.7 | 56.8% | 4.25% | 1.81 |
+| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 62.6 | 56.8% | 4.24% | 1.8 |
 | 🔴 BEARISH | **CRWD** | Elder Force — Bearish | 61.0 | 64.7% | 1.36% | 1.48 |
 | 🔴 BEARISH | **UPRO** | VWAP Deviation — Overbought | 60.7 | 58.7% | 1.01% | 1.42 |
 | 🔴 BEARISH | **XLE** | RSI Overbought | 60.1 | 60.7% | 0.77% | 1.61 |
@@ -102,15 +99,15 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 57.3 | 58.6% | 1.82% | 1.33 |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 56.9 | 58.1% | 0.97% | 1.34 |
 | 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 56.0 | 60.5% | 0.59% | 1.15 |
-| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 56.0 | 57.3% | 1.5% | 1.23 |
-| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 55.6 | 58.7% | 1.8% | 1.23 |
+| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 55.9 | 57.3% | 1.49% | 1.22 |
+| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 55.5 | 58.7% | 1.79% | 1.22 |
 | 🔴 BEARISH | **TSLA** | Stochastic RSI Overbought | 55.2 | 52.7% | 1.6% | 1.51 |
 | 🔴 BEARISH | **AMZN** | Chaikin Money Flow — Bearish | 55.2 | 52.9% | 0.99% | 1.28 |
 | 🔴 BEARISH | **BTC-USD** | RSI Overbought | 53.6 | 55.6% | 1.03% | 1.11 |
 | 🔴 BEARISH | **GC=F** | Fisher Transform — High Extreme | 52.6 | 63.4% | 0.46% | 0.76 |
 | 🔴 BEARISH | **NVDA** | Stochastic (Full) — Overbought | 51.9 | 58.3% | 0.75% | 0.91 |
-| 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 51.2 | 57.9% | 1.41% | 1.01 |
-| 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 50.9 | 61.7% | 1.35% | 0.72 |
+| 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 51.2 | 57.9% | 1.4% | 1.01 |
+| 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 51.0 | 61.7% | 1.35% | 0.73 |
 | 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | 0.9% | 1.18 |
 
 ---
