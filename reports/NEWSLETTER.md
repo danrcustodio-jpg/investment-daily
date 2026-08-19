@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, August 18, 2026
-Generated at 01:24 PM
+# Daily Newsletter — Wednesday, August 19, 2026
+Generated at 01:26 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 26 total &nbsp;·&nbsp; 🟢 14 Bullish &nbsp;·&nbsp; 🔴 12 Bearish
+**Strategy Signals:** 113 total &nbsp;·&nbsp; 🟢 49 Bullish &nbsp;·&nbsp; 🔴 64 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $15.79 | 📈 +10.81% |
-| **XLE** | Energy (XLE) | $61.91 | 📈 +1.39% |
-| **SI=F** | Silver | $65.25 | 📉 -1.32% |
-| **^TYX** | 30-Year Treasury Yield | $5.32 | 📈 +0.99% |
-| **NG=F** | Natural Gas | $2.72 | 📈 +0.97% |
-| **ETH-USD** | Ethereum | $1894.93 | 📉 -0.90% |
-| **^TNX** | 10-Year Treasury Yield | $4.73 | 📈 +0.81% |
-| **GC=F** | Gold | $4451.70 | 📈 +0.77% |
-| **BTC-USD** | Bitcoin | $64040.90 | 📉 -0.72% |
-| **XLV** | Healthcare (XLV) | $167.37 | 📉 -0.60% |
+| **GC=F** | Gold | $4518.70 | 📈 +3.50% |
+| **NG=F** | Natural Gas | $2.85 | 📈 +2.77% |
+| **^VIX** | VIX (Fear Index) | $15.44 | 📉 -2.53% |
+| **XLK** | Tech (XLK) | $185.62 | 📉 -2.47% |
+| **SI=F** | Silver | $65.23 | 📈 +2.02% |
+| **SOL-USD** | Solana | $78.44 | 📈 +1.83% |
+| **XLE** | Energy (XLE) | $63.68 | 📈 +1.76% |
+| **^TYX** | 30-Year Treasury Yield | $5.20 | 📉 -1.68% |
+| **XLV** | Healthcare (XLV) | $169.73 | 📈 +1.60% |
+| **XLI** | Industrials (XLI) | $183.57 | 📉 -1.48% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 86.4 | 82.1% |
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **AERO-USD** | ATR — Volatility Surge (Up) | 80.0 | 64.7% |
-| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 73.1 | 56.2% |
-| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 72.4 | 56.6% |
-| 🟢 BULLISH | **GC=F** | Aroon — Strong Uptrend | 65.4 | 64.1% |
+| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% |
+| 🟢 BULLISH | **AAPL** | Stochastic (Full) — Oversold | 79.2 | 61.9% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 79.2 | 71.0% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% |
+| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 73.8 | 63.2% |
+| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 71.3 | 61.0% |
+| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 69.4 | 59.4% |
+| 🟢 BULLISH | **META** | Keltner — Lower Channel Touch | 66.9 | 52.2% |
+| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 66.7 | 51.4% |
 | 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 65.2 | 64.3% |
-| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 62.9 | 62.6% |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.1 | 66.7% |
-| 🟢 BULLISH | **AAPL** | Stochastic RSI Oversold | 56.5 | 54.4% |
-| 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 55.4 | 50.8% |
-| 🟢 BULLISH | **IONQ** | ADX Strong Trend — Bullish | 50.9 | 60.2% |
-| 🟢 BULLISH | **DOT-USD** | Keltner — Lower Channel Touch | 50.1 | 56.5% |
 
 ## Latest News
 
-- [Trump's Oman bomb threat an attempt to get their 'attention,' says former ambassador](https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html) — *CNBC Markets*
-- [YieldMax® Semiconductor Portfolio Option Income ETF declares $0.5702 dividend](https://seekingalpha.com/news/4634330-yieldmax-semiconductor-portfolio-option-income-etf-declares-0_5702-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Airgain announces two IoT design wins for AI data center infrastructure](https://seekingalpha.com/news/4634319-airgain-announces-two-iot-design-wins-for-ai-data-center-infrastructure?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Industrial production growth unexpectedly slows in July](https://seekingalpha.com/news/4634300-industrial-production-growth-unexpectedly-slows-in-july?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [The top 10 colleges for financial aid in 2026, according to The Princeton Review — and what families actually pay](https://www.cnbc.com/2026/08/18/colleges-best-financial-aid-2026-princeton-review.html) — *CNBC Markets*
-- [Academy Sports reiterates its aggressive store growth plans](https://seekingalpha.com/news/4634322-academy-sports-reiterates-its-aggressive-store-growth-plans?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [American Airlines to add premium seats, bring back seatback screens fleetwide](https://www.investing.com/news/stock-market-news/american-airlines-to-add-premium-seats-bring-back-seatback-screens-fleetwide-4865427) — *Investing.com*
-- [Contrarian vs. the crowd: One trader made a massive bet against chip stocks](https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html) — *CNBC Markets*
-- [30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns](https://www.cnbc.com/2026/08/18/treasury-yields-.html) — *CNBC Markets*
-- [Francisco Partners to buy Weave for $7.40/share cash](https://seekingalpha.com/news/4634316-francisco-partners-to-buy-weave-for-740share-cash?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax™ Short COIN Option Income Strategy ETF declares $0.31 dividend](https://seekingalpha.com/news/4634925-yieldmax-short-coin-option-income-strategy-etf-declares-0_31-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax META Option Income Strategy ETF declares $0.0466 dividend](https://seekingalpha.com/news/4634924-yieldmax-meta-option-income-strategy-etf-declares-0_0466-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax DKNG Option Income Strategy ETF declares $0.1409 dividend](https://seekingalpha.com/news/4634922-yieldmax-dkng-option-income-strategy-etf-declares-0_1409-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax Short NVDA Option Income Strategy ETF declares $0.2312 dividend](https://seekingalpha.com/news/4634921-yieldmax-short-nvda-option-income-strategy-etf-declares-0_2312-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Dividend Select 15 declares CAD 0.0697 dividend](https://seekingalpha.com/news/4634920-dividend-select-15-declares-cad-0_0697-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Canadian Banc Corp. PFD declares $0.0495 dividend](https://seekingalpha.com/news/4634917-canadian-banc-corp-pfd-declares-0_0495-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [YieldMax CVNA Option Income Strategy ETF declares $0.3021 dividend](https://seekingalpha.com/news/4634916-yieldmax-cvna-option-income-strategy-etf-declares-0_3021-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?](https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories) — *MarketWatch*
+- [Treasury doubles debt buybacks as Bessent moves to steady bond market](https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html) — *CNBC Markets*
+- [U.S. 30-year yield drops below 5.20% following Washington’s moves to backstop debt](https://www.investing.com/news/stock-market-news/global-bond-rout-pauses-as-sovereign-yields-back-off-multidecade-highs-4866597) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

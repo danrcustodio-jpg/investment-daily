@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 102** &nbsp;·&nbsp; Updated: Aug 18 2026 09:45 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 103** &nbsp;·&nbsp; Updated: Aug 19 2026 01:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.08%** &nbsp; ($+4,035) |
+| Portfolio P&L | **+2.09%** &nbsp; ($+4,059) |
 | SPY Benchmark | +8.43% &nbsp; ($+16,352 if 100% SPY) |
-| Alpha vs SPY | **-6.35%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.34%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,035 |
+| Current Value | $198,059 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,459 | +1.26% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,484 | +1.27% |
 
 ## Daily Equity Curve
 
@@ -96,13 +96,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 18 2026 09:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 19 2026 01:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 79.2, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.64%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -110,17 +110,17 @@ _Evaluated Aug 18 2026 09:45 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — SOL-USD
+
+**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
 ### 🔍 NEW OPPORTUNITY — XLE
 
 **Signal Analysis:** 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** MFI — Oversold — Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.64%, Sharpe 4.55. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

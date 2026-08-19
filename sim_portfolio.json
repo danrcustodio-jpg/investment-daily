@@ -695,24 +695,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "SOL-USD",
+      "priority": "high",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "XLE",
       "priority": "high",
       "reason": "52-Week Breakout \u2014 Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. 1 minor bearish signal(s), max confidence 59.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "XRP-USD",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 73.1, Win Rate 56.2%, Avg 5d Return 5.4%, Max Drawdown -8.64%, Sharpe 4.55. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-18T21:45:16.627770",
+  "recommendations_updated": "2026-08-19T13:26:11.705465",
   "trade_log": [
     {
       "action": "SELL",
