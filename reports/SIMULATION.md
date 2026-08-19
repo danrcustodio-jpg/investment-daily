@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 103** &nbsp;·&nbsp; Updated: Aug 19 2026 04:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 103** &nbsp;·&nbsp; Updated: Aug 19 2026 04:54 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.09%** &nbsp; ($+4,059) |
-| SPY Benchmark | +9.04% &nbsp; ($+17,528 if 100% SPY) |
-| Alpha vs SPY | **-6.94%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.77% &nbsp; ($+17,010 if 100% SPY) |
+| Alpha vs SPY | **-6.68%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,059 |
 
@@ -93,21 +93,21 @@
 | 2026-08-14 | 📈 +2.03% | +9.69% | ❌ -7.65% |
 | 2026-08-17 | 📈 +1.99% | +9.17% | ❌ -7.18% |
 | 2026-08-18 | 📈 +2.08% | +8.43% | ❌ -6.35% |
-| 2026-08-19 | 📈 +2.09% | +9.04% | ❌ -6.95% |
+| 2026-08-19 | 📈 +2.09% | +8.77% | ❌ -6.67% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 19 2026 04:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 19 2026 04:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 1 minor bearish signal(s), max confidence 53.3.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
