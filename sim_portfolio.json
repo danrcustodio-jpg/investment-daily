@@ -686,9 +686,9 @@
       "date": "2026-08-19",
       "total_value": 198058.64,
       "portfolio_pnl": 2.092,
-      "benchmark_pnl": 8.73,
+      "benchmark_pnl": 8.577,
       "prices": {
-        "SPY": 769.5800170898438
+        "SPY": 768.5
       }
     }
   ],
@@ -697,7 +697,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 80.4, Win Rate 71.0%, Avg 5d Return 1.91%, Max Drawdown -8.66%, Sharpe 3.23. 1 minor bearish signal(s), max confidence 57.0.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 80.4, Win Rate 71.0%, Avg 5d Return 1.91%, Max Drawdown -8.66%, Sharpe 3.23. 1 minor bearish signal(s), max confidence 56.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -706,7 +706,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.9.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -721,7 +721,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-19T19:29:56.254276",
+  "recommendations_updated": "2026-08-19T19:50:51.945690",
   "trade_log": [
     {
       "action": "SELL",
