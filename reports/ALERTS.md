@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Wednesday August 19, 2026 at 08:17 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Wednesday August 19, 2026 at 08:51 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 110 |
-| 🟢 Bullish | 62 |
-| 🔴 Bearish | 48 |
-| 🔵 In cooldown (fired in last 6h) | 85 |
-| 🟡 Available to fire (not in cooldown) | 25 |
+| Total signals (confidence ≥ 45) | 117 |
+| 🟢 Bullish | 67 |
+| 🔴 Bearish | 50 |
+| 🔵 In cooldown (fired in last 6h) | 84 |
+| 🟡 Available to fire (not in cooldown) | 33 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -20,10 +20,11 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% | -4.83% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **ETH-USD** | Volume Spike + Surge | 85.0 | 75.0% | -12.04% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Donchian — 20D High Breakout | 83.6 | 72.7% | -9.39% | 🟡 Available |
-| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% | -8.25% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% | -8.25% | 🟡 Available |
 | 🟢 BULLISH | **AAPL** | OBV — Accumulation | 79.7 | 70.0% | -8.66% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 78.8 | 71.0% | -30.86% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.1 | 64.3% | -47.04% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 76.0 | 63.3% | -34.84% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | -52.28% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 73.6 | 62.0% | -16.73% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XRP-USD** | Supertrend — Bullish Flip | 73.3 | 66.7% | -18.91% | 🔵 In cooldown (≤6h) |
@@ -32,17 +33,18 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **GOOGL** | Vortex — Bullish | 66.8 | 57.1% | -14.61% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AERO-USD** | RSI Oversold | 66.7 | 51.4% | -56.68% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 65.6 | 64.7% | -90.11% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **DOGE-USD** | Chaikin Money Flow — Bullish | 65.0 | 54.1% | -87.93% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 64.7 | 59.2% | -68.46% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.5 | 58.8% | -29.28% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AAPL** | Vortex — Bullish | 63.5 | 75.0% | -24.2% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **VOO** | OBV — Accumulation | 63.5 | 60.5% | -4.63% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 63.0 | 62.3% | -36.37% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 63.1 | 62.3% | -36.37% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **GOOGL** | Williams %R — Oversold | 61.9 | 60.0% | -45.55% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 60.9 | 52.8% | -98.33% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | 52-Week Breakout | 60.6 | 59.5% | -15.97% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 60.6 | 58.3% | -56.93% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 59.2 | 60.4% | -80.37% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.1 | 66.4% | -75.34% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.2 | 66.4% | -75.34% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 58.9 | 58.5% | -78.63% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **COIN** | SMA 30 — Bullish Reclaim | 58.7 | 54.5% | -30.2% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 58.6 | 56.7% | -26.07% | 🔵 In cooldown (≤6h) |
@@ -73,12 +75,15 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 48.8 | 53.5% | -88.29% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 48.6 | 57.2% | -85.59% | 🟡 Available |
 | 🟢 BULLISH | **COIN** | OBV — Accumulation | 48.6 | 46.3% | -51.81% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | Fisher Transform — Low Extreme | 47.8 | 46.8% | -70.14% | 🟡 Available |
+| 🟢 BULLISH | **LTC-USD** | Donchian — 20D High Breakout | 47.7 | 33.3% | -1.0% | 🟡 Available |
 | 🟢 BULLISH | **ETH-USD** | Awesome Oscillator — Bullish Zero Line | 47.6 | 53.8% | -16.27% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.5 | 55.3% | -75.52% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | Fisher Transform — Low Extreme | 47.4 | 46.8% | -70.14% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.1 | 56.1% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 47.1 | 60.7% | -97.92% | 🟡 Available |
 | 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 46.9 | 53.9% | -97.27% | 🟡 Available |
+| 🟢 BULLISH | **BCH-USD** | Volume Spike + Surge | 46.0 | 47.1% | -21.55% | 🟡 Available |
+| 🟢 BULLISH | **LINK-USD** | Chaikin Money Flow — Bullish | 45.2 | 48.4% | -85.35% | 🟡 Available |
 | 🔴 BEARISH | **VOO** | Chaikin Money Flow — Bearish | 85.3 | 70.2% | -9.79% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **RIOT** | TRIX — Bearish Cross | 85.0 | 75.0% | -13.65% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.2 | 70.3% | -21.32% | 🔵 In cooldown (≤6h) |
@@ -97,15 +102,16 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **RKLB** | Elder Force — Bearish | 69.3 | 57.7% | -44.09% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 67.0 | 64.6% | -44.92% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AVGO** | Aroon — Strong Downtrend | 66.9 | 58.3% | -12.46% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 66.3 | 65.9% | -32.11% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 66.4 | 65.9% | -32.11% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AVGO** | Awesome Oscillator — Bearish Zero Line | 65.6 | 50.0% | -9.4% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 65.3 | 60.7% | -57.59% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **XRP-USD** | VWAP Deviation — Overbought | 63.7 | 47.3% | -84.09% | 🟡 Available |
 | 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 62.5 | 56.6% | -95.42% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | RSI Overbought | 59.2 | 63.4% | -29.41% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **DOGE-USD** | Keltner — Upper Channel Touch | 58.2 | 45.3% | -56.87% | 🟡 Available |
 | 🔴 BEARISH | **CRWD** | Elder Force — Bearish | 58.1 | 63.6% | -37.5% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ETH-USD** | RSI Overbought | 57.8 | 49.1% | -28.27% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 57.6 | 62.6% | -40.31% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 57.8 | 62.6% | -40.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | -68.3% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 57.3 | 58.6% | -69.18% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 57.1 | 58.1% | -37.84% | 🔵 In cooldown (≤6h) |
@@ -127,6 +133,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **XRP-USD** | Williams %R — Overbought | 47.5 | 38.9% | -77.64% | 🟡 Available |
 | 🔴 BEARISH | **DOGE-USD** | VWAP Deviation — Overbought | 47.2 | 45.9% | -90.44% | 🟡 Available |
 | 🔴 BEARISH | **IWM** | Stochastic (Full) — Overbought | 45.8 | 53.5% | -32.96% | 🟡 Available |
+| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 45.1 | 40.6% | -47.9% | 🟡 Available |
 
 ---
 *Not financial advice. Backtests use historical data.*
