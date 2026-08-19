@@ -686,9 +686,9 @@
       "date": "2026-08-19",
       "total_value": 198058.64,
       "portfolio_pnl": 2.092,
-      "benchmark_pnl": 8.751,
+      "benchmark_pnl": 9.097,
       "prices": {
-        "SPY": 769.72998046875
+        "SPY": 772.1749877929688
       }
     }
   ],
@@ -697,7 +697,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.9.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -721,7 +721,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-19T14:24:08.246989",
+  "recommendations_updated": "2026-08-19T15:00:35.440216",
   "trade_log": [
     {
       "action": "SELL",

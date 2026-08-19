@@ -207,9 +207,9 @@
       "last_change_at": "2026-08-13T18:15:03.396881+00:00"
     },
     "AERO-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T13:37:25.489563+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555258+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548239+00:00"
     },
     "AMD": {
       "cadence_min": 15,
@@ -217,9 +217,9 @@
       "last_change_at": "2026-08-19T14:23:36.555354+00:00"
     },
     "AMZN": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-19T14:23:36.990798+00:00",
-      "last_change_at": "2026-08-19T13:37:24.582856+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548326+00:00"
     },
     "APP": {
       "cadence_min": 15,
@@ -237,14 +237,14 @@
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T13:37:31.834517+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555464+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548395+00:00"
     },
     "IONQ": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T13:37:32.208916+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555545+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548471+00:00"
     },
     "META": {
       "cadence_min": 1440,
@@ -257,9 +257,9 @@
       "last_change_at": "2026-08-17T14:18:40.332154+00:00"
     },
     "NVDA": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T13:37:35.169823+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555619+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548550+00:00"
     },
     "PLTR": {
       "cadence_min": 1440,
@@ -292,9 +292,9 @@
       "last_change_at": "2026-08-17T18:24:49.816281+00:00"
     },
     "TQQQ": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-19T14:23:39.050814+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555796+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548633+00:00"
     },
     "TSLA": {
       "cadence_min": 1440,
@@ -312,9 +312,9 @@
       "last_change_at": "2026-08-19T14:23:36.555850+00:00"
     },
     "XRP-USD": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-19T13:37:40.972916+00:00",
-      "last_change_at": "2026-08-19T14:23:36.555901+00:00"
+      "last_change_at": "2026-08-19T15:00:08.548732+00:00"
     },
     "ARKK": {
       "cadence_min": 1440,
