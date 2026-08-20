@@ -695,18 +695,18 @@
       "date": "2026-08-20",
       "total_value": 198082.75,
       "portfolio_pnl": 2.105,
-      "benchmark_pnl": 8.319,
+      "benchmark_pnl": 8.473,
       "prices": {
-        "SPY": 766.6699829101562
+        "SPY": 767.760009765625
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "ARKK",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.4, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.2.",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 1 minor bearish signal(s), max confidence 53.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -730,7 +730,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-20T14:26:39.352143",
+  "recommendations_updated": "2026-08-20T15:03:33.323346",
   "trade_log": [
     {
       "action": "SELL",
