@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 103** &nbsp;·&nbsp; Updated: Aug 19 2026 09:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 01:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.09%** &nbsp; ($+4,059) |
+| Portfolio P&L | **+2.10%** &nbsp; ($+4,083) |
 | SPY Benchmark | +8.66% &nbsp; ($+16,794 if 100% SPY) |
-| Alpha vs SPY | **-6.56%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.55%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,059 |
+| Current Value | $198,083 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,484 | +1.27% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,508 | +1.28% |
 
 ## Daily Equity Curve
 
@@ -97,13 +97,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 19 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 20 2026 01:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05… |
+
+### 🔍 NEW OPPORTUNITY — APP
+
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.8, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 50.9.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ARKK
 
@@ -111,15 +117,9 @@ _Evaluated Aug 19 2026 09:48 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ETH-USD
+### 🔍 NEW OPPORTUNITY — BTC-USD
 
-**Signal Analysis:** Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.04%, Sharpe 4.35. 1 minor bearish signal(s), max confidence 57.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — SOL-USD
-
-**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
+**Signal Analysis:** Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 49.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
