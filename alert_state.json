@@ -263,9 +263,9 @@
       "last_change_at": "2026-08-20T13:38:57.462816+00:00"
     },
     "IONQ": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-20T13:39:01.011343+00:00",
-      "last_change_at": "2026-08-19T16:20:29.405506+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188321+00:00"
     },
     "META": {
       "cadence_min": 1440,
@@ -293,14 +293,14 @@
       "last_change_at": "2026-08-18T18:23:40.899358+00:00"
     },
     "RIOT": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-20T13:39:02.434605+00:00",
-      "last_change_at": "2026-08-20T13:38:57.463024+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188384+00:00"
     },
     "RKLB": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-20T13:39:02.567721+00:00",
-      "last_change_at": "2026-08-20T13:38:57.463078+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188423+00:00"
     },
     "SMH": {
       "cadence_min": 15,
@@ -328,9 +328,9 @@
       "last_change_at": "2026-08-13T18:15:03.397498+00:00"
     },
     "XLK": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-20T13:39:04.217123+00:00",
-      "last_change_at": "2026-08-20T13:38:57.463313+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188468+00:00"
     },
     "XRP-USD": {
       "cadence_min": 15,
@@ -363,9 +363,9 @@
       "last_change_at": "2026-08-17T15:47:48.744513+00:00"
     },
     "ETH-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-20T13:39:00.498528+00:00",
-      "last_change_at": "2026-08-20T13:38:57.462759+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188279+00:00"
     },
     "IWM": {
       "cadence_min": 15,
@@ -378,9 +378,9 @@
       "last_change_at": "2026-08-14T14:09:42.709835+00:00"
     },
     "AAPL": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-20T13:38:57.604523+00:00",
-      "last_change_at": "2026-08-20T13:38:57.462488+00:00"
+      "last_change_at": "2026-08-20T14:26:15.188202+00:00"
     },
     "CEG": {
       "cadence_min": 1440,

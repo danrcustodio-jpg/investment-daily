@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 01:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 02:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.10%** &nbsp; ($+4,083) |
-| SPY Benchmark | +8.41% &nbsp; ($+16,325 if 100% SPY) |
-| Alpha vs SPY | **-6.31%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.32% &nbsp; ($+16,133 if 100% SPY) |
+| Alpha vs SPY | **-6.21%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,083 |
 
@@ -94,11 +94,11 @@
 | 2026-08-17 | 📈 +1.99% | +9.17% | ❌ -7.18% |
 | 2026-08-18 | 📈 +2.08% | +8.43% | ❌ -6.35% |
 | 2026-08-19 | 📈 +2.09% | +8.66% | ❌ -6.56% |
-| 2026-08-20 | 📈 +2.10% | +8.41% | ❌ -6.31% |
+| 2026-08-20 | 📈 +2.10% | +8.32% | ❌ -6.21% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 20 2026 01:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 20 2026 02:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -108,7 +108,7 @@ _Evaluated Aug 20 2026 01:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.4.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 71.0%, Avg 5d Return 5.71%, Max Drawdown -30.86%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 51.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
