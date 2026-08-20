@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Thursday August 20, 2026 at 08:53 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday August 20, 2026 at 09:19 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 123 |
+| Total signals (confidence ≥ 45) | 124 |
 | 🟢 Bullish | 62 |
-| 🔴 Bearish | 61 |
-| 🔵 In cooldown (fired in last 6h) | 100 |
-| 🟡 Available to fire (not in cooldown) | 23 |
+| 🔴 Bearish | 62 |
+| 🔵 In cooldown (fired in last 6h) | 99 |
+| 🟡 Available to fire (not in cooldown) | 25 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -52,7 +52,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 57.9 | 56.4% | -93.94% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 56.5 | 54.8% | -26.07% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 55.2 | 57.0% | -87.02% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **COIN** | Supertrend — Bullish Flip | 55.0 | 40.0% | -11.75% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **COIN** | Supertrend — Bullish Flip | 55.0 | 40.0% | -11.75% | 🟡 Available |
 | 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 54.9 | 45.0% | -90.7% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.5 | 57.7% | -77.87% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 53.0 | 60.0% | -56.86% | 🔵 In cooldown (≤6h) |
@@ -118,6 +118,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 58.8 | 57.7% | -67.46% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 58.3 | 62.8% | -40.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **DOGE-USD** | Keltner — Upper Channel Touch | 58.2 | 45.3% | -56.87% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **NVDA** | Elder Force — Bearish | 57.7 | 60.0% | -15.92% | 🟡 Available |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 57.6 | 58.5% | -37.84% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | -68.3% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 56.7 | 60.7% | -37.32% | 🔵 In cooldown (≤6h) |
