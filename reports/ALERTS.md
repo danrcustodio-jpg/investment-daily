@@ -1,142 +1,128 @@
 # Strategy Alerts
-**Last scan:** Wednesday August 19, 2026 at 09:47 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday August 20, 2026 at 01:39 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 120 |
-| 🟢 Bullish | 70 |
-| 🔴 Bearish | 50 |
-| 🔵 In cooldown (fired in last 6h) | 80 |
-| 🟡 Available to fire (not in cooldown) | 40 |
+| Total signals scanned (confidence ≥ 50) | 87 |
+| 🟢 Bullish | 53 |
+| 🔴 Bearish | 54 |
+| ✅ Fired this run (SMS + email) | 87 |
+| ⏭ Skipped — same ticker notified in last 6h | 0 |
+| ⏸ Suppressed — same signal already fired in last 6h | 0 |
+| 🚀 Bypassed cooldown (large price move) | 0 |
+| 😴 Snoozed by strategy/ticker | 0 |
+| ⚠ Tickers with conflicting BULL+BEAR signals | 4 |
 
-_Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
+## 📲 SMS sent (2)
 
-## All Active Signals
+- One text per ticker: **VOO, BTC-USD**
 
-| Direction | Ticker | Strategy | Confidence | Win Rate | Max Drawdown | Status |
+## ⚠ Conflicting tickers (both directions ≥ 65)
+
+Tickers where bullish *and* bearish strategies are firing above the conflict threshold at the same time. Treat the headline as one input only.
+
+| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |
+|---|---|---:|---:|---|---:|---:|
+| **GC=F** | OBV — Accumulation | 85.6 | 1 | MFI — Overbought | 84.2 | 2 |
+| **CRWD** | VWAP Deviation — Oversold | 66.5 | 1 | Supertrend — Bearish Flip | 80.0 | 1 |
+| **AVGO** | Stochastic RSI Oversold | 78.1 | 3 | Ulcer Index — Elevated | 78.7 | 2 |
+| **XRP-USD** | Volume Spike + Surge | 76.0 | 1 | Keltner — Upper Channel Touch | 72.2 | 2 |
+
+## ✅ Fired this run (SMS + email)
+
+Signals that **actually triggered** an SMS / email on this run.
+
+| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
 |---|---|---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% | -4.83% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **ETH-USD** | Volume Spike + Surge | 85.0 | 75.0% | -12.04% | 🟡 Available |
-| 🟢 BULLISH | **ARKK** | Donchian — 20D High Breakout | 83.6 | 72.7% | -9.39% | 🟡 Available |
-| 🟢 BULLISH | **BTC-USD** | Volume Spike + Surge | 81.8 | 72.7% | -5.05% | 🟡 Available |
-| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% | -8.25% | 🟡 Available |
-| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 79.7 | 70.0% | -8.66% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 78.8 | 71.0% | -30.86% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.1 | 64.3% | -47.04% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 76.0 | 63.3% | -34.84% | 🟡 Available |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | -52.28% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 73.6 | 62.0% | -16.73% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | Supertrend — Bullish Flip | 73.3 | 66.7% | -18.91% | 🟡 Available |
-| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 71.6 | 62.7% | -42.38% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **META** | Keltner — Lower Channel Touch | 66.9 | 52.2% | -32.86% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GOOGL** | Vortex — Bullish | 66.8 | 57.1% | -14.61% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 66.7 | 51.4% | -56.68% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 65.6 | 64.7% | -90.11% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.1 | 59.5% | -67.89% | 🟡 Available |
-| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.5 | 58.8% | -29.28% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | Aroon — Strong Uptrend | 63.9 | 50.0% | -18.91% | 🟡 Available |
-| 🟢 BULLISH | **AAPL** | Vortex — Bullish | 63.5 | 75.0% | -24.2% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **VOO** | OBV — Accumulation | 63.5 | 60.5% | -4.63% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 63.1 | 62.3% | -36.37% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GOOGL** | Williams %R — Oversold | 61.9 | 60.0% | -45.55% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 60.9 | 52.8% | -98.33% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XBI** | 52-Week Breakout | 60.6 | 59.5% | -15.97% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CRWD** | ADX Strong Trend — Bullish | 60.6 | 58.3% | -56.93% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AVAX-USD** | EMA 9/21 — Bullish Cross | 59.8 | 66.7% | -31.47% | 🟡 Available |
-| 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 59.2 | 60.4% | -80.37% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.2 | 66.4% | -75.34% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 58.9 | 58.5% | -78.63% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **COIN** | SMA 30 — Bullish Reclaim | 58.7 | 54.5% | -30.2% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 58.6 | 56.7% | -26.07% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 58.5 | 56.0% | -91.87% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 58.0 | 56.6% | -93.94% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **COIN** | MACD Bullish Crossover | 57.9 | 50.0% | -23.94% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **RIOT** | VWAP Deviation — Oversold | 57.4 | 54.4% | -82.9% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GC=F** | Donchian — 20D High Breakout | 56.1 | 67.9% | -12.08% | 🟡 Available |
-| 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 56.0 | 57.2% | -87.02% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 55.0 | 50.8% | -70.4% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.7 | 57.9% | -77.87% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **META** | Williams %R — Oversold | 53.7 | 56.5% | -40.79% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 53.6 | 60.2% | -56.86% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.5 | 60.2% | -56.53% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **APP** | RSI Oversold | 53.3 | 56.2% | -22.44% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 52.9 | 42.3% | -90.7% | 🟡 Available |
-| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 52.7 | 58.5% | -99.92% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 52.6 | 58.9% | -70.42% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 52.5 | 59.1% | -65.38% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 51.9 | 57.7% | -98.81% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 51.1 | 56.8% | -96.6% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 50.9 | 51.4% | -99.35% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **BTC-USD** | EMA 9/21 — Bullish Cross | 50.6 | 64.7% | -14.29% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **AVGO** | Keltner — Lower Channel Touch | 50.5 | 52.4% | -46.82% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **UPRO** | CCI — Extreme Oversold | 50.0 | 58.7% | -94.04% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 49.3 | 56.4% | -82.42% | 🟡 Available |
-| 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 49.3 | 58.7% | -97.25% | 🟡 Available |
-| 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 49.0 | 60.0% | -61.15% | 🟡 Available |
-| 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 48.8 | 53.5% | -88.29% | 🟡 Available |
-| 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 48.6 | 57.2% | -85.59% | 🟡 Available |
-| 🟢 BULLISH | **COIN** | OBV — Accumulation | 48.6 | 46.3% | -51.81% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | Fisher Transform — Low Extreme | 48.3 | 46.8% | -70.14% | 🟡 Available |
-| 🟢 BULLISH | **LTC-USD** | Donchian — 20D High Breakout | 47.7 | 33.3% | -1.0% | 🟡 Available |
-| 🟢 BULLISH | **ETH-USD** | Awesome Oscillator — Bullish Zero Line | 47.6 | 53.8% | -16.27% | 🟡 Available |
-| 🟢 BULLISH | **IWM** | CCI — Extreme Oversold | 47.5 | 55.3% | -75.52% | 🟡 Available |
-| 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 47.1 | 60.7% | -97.92% | 🟡 Available |
-| 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.0 | 56.0% | -87.54% | 🟡 Available |
-| 🟢 BULLISH | **RIOT** | CCI — Extreme Oversold | 46.9 | 53.9% | -97.27% | 🟡 Available |
-| 🟢 BULLISH | **BCH-USD** | Volume Spike + Surge | 46.0 | 47.1% | -21.55% | 🟡 Available |
-| 🟢 BULLISH | **LINK-USD** | Chaikin Money Flow — Bullish | 45.4 | 48.4% | -85.35% | 🟡 Available |
-| 🔴 BEARISH | **VOO** | Chaikin Money Flow — Bearish | 85.3 | 70.2% | -9.79% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **RIOT** | TRIX — Bearish Cross | 85.0 | 75.0% | -13.65% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.2 | 70.3% | -21.32% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XLK** | Elder Force — Bearish | 83.3 | 76.7% | -7.65% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **SMH** | Parabolic SAR — Bearish | 80.9 | 72.0% | -18.5% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XLK** | Parabolic SAR — Bearish | 80.9 | 80.0% | -16.62% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AVGO** | Ulcer Index — Elevated | 78.7 | 69.4% | -37.52% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 77.9 | 65.4% | -31.69% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **MRVL** | Stochastic (Full) — Overbought | 76.0 | 62.5% | -60.49% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 73.7 | 60.3% | -71.13% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 73.0 | 65.0% | -67.87% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XRP-USD** | Keltner — Upper Channel Touch | 72.2 | 57.6% | -56.2% | 🟡 Available |
-| 🔴 BEARISH | **SOXL** | OBV — Distribution | 70.5 | 65.1% | -37.67% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **MRVL** | Williams %R — Overbought | 70.5 | 61.3% | -65.12% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **CRWD** | MACD Bearish Crossover | 69.9 | 61.9% | -12.16% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **RKLB** | Elder Force — Bearish | 69.3 | 57.7% | -44.09% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 67.0 | 64.6% | -44.92% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AVGO** | Aroon — Strong Downtrend | 66.9 | 58.3% | -12.46% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 66.4 | 65.9% | -32.11% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AVGO** | Awesome Oscillator — Bearish Zero Line | 65.6 | 50.0% | -9.4% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 65.3 | 60.7% | -57.59% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XRP-USD** | VWAP Deviation — Overbought | 63.7 | 47.3% | -84.09% | 🟡 Available |
-| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 62.5 | 56.6% | -95.42% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | RSI Overbought | 59.3 | 63.4% | -29.41% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **DOGE-USD** | Keltner — Upper Channel Touch | 58.2 | 45.3% | -56.87% | 🟡 Available |
-| 🔴 BEARISH | **CRWD** | Elder Force — Bearish | 58.1 | 63.6% | -37.5% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **ETH-USD** | RSI Overbought | 57.8 | 49.1% | -28.27% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 57.8 | 62.6% | -40.31% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | -68.3% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 57.3 | 58.6% | -69.18% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 57.1 | 58.1% | -37.84% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 56.1 | 60.5% | -37.32% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 55.7 | 58.7% | -77.34% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **AMZN** | Chaikin Money Flow — Bearish | 55.4 | 52.9% | -48.44% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 53.8 | 57.1% | -67.25% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **BTC-USD** | RSI Overbought | 53.6 | 55.6% | -36.31% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **ARKK** | Keltner — Upper Channel Touch | 53.3 | 59.4% | -39.55% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | Fisher Transform — High Extreme | 52.7 | 63.4% | -32.61% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 51.0 | 57.8% | -85.7% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 50.9 | 61.7% | -78.86% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | -27.07% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **DOGE-USD** | Williams %R — Overbought | 49.1 | 45.3% | -76.13% | 🟡 Available |
-| 🔴 BEARISH | **BTC-USD** | Keltner — Upper Channel Touch | 49.0 | 52.9% | -38.65% | 🟡 Available |
-| 🔴 BEARISH | **AVGO** | EMA 9/21 — Bearish Cross | 48.9 | 55.6% | -10.11% | 🟡 Available |
-| 🔴 BEARISH | **TQQQ** | VWAP Deviation — Overbought | 48.0 | 57.9% | -75.2% | 🟡 Available |
-| 🔴 BEARISH | **TSLA** | Stochastic RSI Overbought | 47.8 | 50.0% | -42.62% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XRP-USD** | Williams %R — Overbought | 47.5 | 38.9% | -77.64% | 🟡 Available |
-| 🔴 BEARISH | **DOGE-USD** | VWAP Deviation — Overbought | 47.2 | 45.9% | -90.44% | 🟡 Available |
-| 🔴 BEARISH | **IWM** | Stochastic (Full) — Overbought | 45.8 | 53.5% | -32.96% | 🟡 Available |
-| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 45.4 | 40.6% | -47.9% | 🟡 Available |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 86.4 | 82.1% | 2.07% | 5.58 |
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% | 1.21% | 2.74 |
+| 🟢 BULLISH | **BTC-USD** | Volume Spike + Surge | 81.8 | 72.7% | 2.93% | 3.27 |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 78.4 | 71.0% | 5.71% | 3.91 |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 78.1 | 64.3% | 2.44% | 2.79 |
+| 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 76.0 | 63.3% | 11.76% | 3.42 |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | 2.7% | 2.68 |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 74.2 | 64.8% | 1.79% | 2.08 |
+| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 71.6 | 62.7% | 2.07% | 2.14 |
+| 🟢 BULLISH | **MARA** | MACD Bullish Crossover | 69.0 | 63.6% | 3.3% | 2.16 |
+| 🟢 BULLISH | **BCH-USD** | Parabolic SAR — Bullish | 66.8 | 63.3% | 2.28% | 1.79 |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 66.5 | 59.0% | 2.33% | 2.07 |
+| 🟢 BULLISH | **DOGE-USD** | Chaikin Money Flow — Bullish | 65.0 | 54.1% | 5.32% | 1.78 |
+| 🟢 BULLISH | **CRWD** | Williams %R — Oversold | 64.9 | 54.3% | 2.06% | 2.09 |
+| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 64.8 | 64.1% | 2.63% | 1.6 |
+| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 64.8 | 59.4% | 1.45% | 1.69 |
+| 🟢 BULLISH | **BTC-USD** | TRIX — Bullish Cross | 62.1 | 43.8% | 1.3% | 1.78 |
+| 🟢 BULLISH | **GOOGL** | Williams %R — Oversold | 62.0 | 60.0% | 1.35% | 1.84 |
+| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 60.7 | 52.7% | 3.37% | 1.7 |
+| 🟢 BULLISH | **AVAX-USD** | EMA 9/21 — Bullish Cross | 59.8 | 66.7% | 2.35% | 1.62 |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 59.2 | 66.4% | 0.68% | 1.13 |
+| 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 58.9 | 60.3% | 1.06% | 1.41 |
+| 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 58.9 | 58.1% | 2.14% | 1.6 |
+| 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 58.9 | 58.5% | 1.52% | 1.44 |
+| 🟢 BULLISH | **PLTR** | Chaikin Money Flow — Bullish | 58.2 | 55.8% | 2.35% | 1.44 |
+| 🟢 BULLISH | **ADA-USD** | Parabolic SAR — Bullish | 58.0 | 59.4% | 3.22% | 1.45 |
+| 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 57.9 | 56.5% | 2.08% | 1.44 |
+| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 57.8 | 60.0% | 0.73% | 1.26 |
+| 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 55.4 | 57.1% | 1.38% | 1.31 |
+| 🟢 BULLISH | **XRP-USD** | Chaikin Money Flow — Bullish | 55.3 | 47.7% | 4.96% | 1.73 |
+| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 54.9 | 45.0% | 4.91% | 1.73 |
+| 🟢 BULLISH | **GOOGL** | CCI — Extreme Oversold | 54.5 | 57.7% | 0.91% | 1.24 |
+| 🟢 BULLISH | **META** | Williams %R — Oversold | 53.7 | 56.5% | 0.93% | 1.16 |
+| 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 53.2 | 60.0% | 0.37% | 0.91 |
+| 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 53.2 | 60.0% | 0.37% | 0.91 |
+| 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 52.3 | 58.8% | 0.63% | 1.05 |
+| 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 52.3 | 58.4% | 2.79% | 1.18 |
+| 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 52.2 | 59.0% | 0.48% | 0.96 |
+| 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 52.1 | 57.7% | 1.64% | 1.1 |
+| 🟢 BULLISH | **AMD** | CCI — Extreme Oversold | 51.0 | 56.7% | 1.56% | 1.2 |
+| 🟢 BULLISH | **IONQ** | CCI — Extreme Oversold | 50.8 | 51.3% | 3.03% | 1.27 |
+| 🟢 BULLISH | **GOOGL** | Fisher Transform — Low Extreme | 50.6 | 61.0% | 0.93% | 1.23 |
+| 🔴 BEARISH | **TQQQ** | Parabolic SAR — Bearish | 85.4 | 80.8% | 3.64% | 2.85 |
+| 🔴 BEARISH | **VOO** | Chaikin Money Flow — Bearish | 85.3 | 70.2% | 1.5% | 4.14 |
+| 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.2 | 70.3% | 1.3% | 2.9 |
+| 🔴 BEARISH | **VOO** | OBV — Distribution | 83.1 | 72.1% | 0.96% | 3.49 |
+| 🔴 BEARISH | **SMH** | EMA 9/21 — Bearish Cross | 81.7 | 75.0% | 2.25% | 4.48 |
+| 🔴 BEARISH | **IWM** | MACD Bearish Crossover | 81.4 | 68.4% | 1.0% | 2.67 |
+| 🔴 BEARISH | **CRWD** | Supertrend — Bearish Flip | 80.0 | 80.0% | 2.15% | 3.16 |
+| 🔴 BEARISH | **AVGO** | Ulcer Index — Elevated | 78.7 | 69.4% | 3.31% | 3.76 |
+| 🔴 BEARISH | **GOOGL** | TRIX — Bearish Cross | 78.6 | 64.3% | 1.86% | 2.3 |
+| 🔴 BEARISH | **SPY** | MACD Bearish Crossover | 77.6 | 68.2% | 0.63% | 2.01 |
+| 🔴 BEARISH | **MRVL** | Stochastic (Full) — Overbought | 76.7 | 62.9% | 3.43% | 2.25 |
+| 🔴 BEARISH | **VOO** | MACD Bearish Crossover | 76.6 | 68.2% | 0.62% | 1.96 |
+| 🔴 BEARISH | **GOOGL** | PPO — Bearish Cross | 76.2 | 50.0% | 2.05% | 3.0 |
+| 🔴 BEARISH | **AMD** | MACD Bearish Crossover | 75.6 | 61.1% | 3.71% | 3.4 |
+| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 75.5 | 64.2% | 2.32% | 2.69 |
+| 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 74.0 | 60.5% | 3.19% | 2.14 |
+| 🔴 BEARISH | **XRP-USD** | Keltner — Upper Channel Touch | 72.2 | 57.6% | 13.13% | 3.73 |
+| 🔴 BEARISH | **MRVL** | Williams %R — Overbought | 71.5 | 61.7% | 2.72% | 1.97 |
+| 🔴 BEARISH | **XRP-USD** | RSI Overbought | 71.0 | 55.2% | 12.98% | 3.67 |
+| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 70.2 | 63.4% | 7.24% | 2.64 |
+| 🔴 BEARISH | **SOXL** | Vortex — Bearish | 68.2 | 59.1% | 5.51% | 2.41 |
+| 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 66.4 | 65.9% | 0.83% | 1.59 |
+| 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 66.4 | 64.0% | 2.09% | 2.42 |
+| 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 65.3 | 60.7% | 1.94% | 1.74 |
+| 🔴 BEARISH | **XRP-USD** | VWAP Deviation — Overbought | 63.7 | 47.3% | 5.58% | 2.08 |
+| 🔴 BEARISH | **IONQ** | VWAP Deviation — Overbought | 62.2 | 56.4% | 4.21% | 1.79 |
+| 🔴 BEARISH | **TSLA** | SMA 30 — Bearish Loss | 62.1 | 68.0% | 1.32% | 1.6 |
+| 🔴 BEARISH | **UPRO** | MACD Bearish Crossover | 59.0 | 68.0% | 1.14% | 1.11 |
+| 🔴 BEARISH | **DOGE-USD** | Keltner — Upper Channel Touch | 58.2 | 45.3% | 5.3% | 1.58 |
+| 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 58.1 | 62.8% | 0.62% | 1.19 |
+| 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 58.0 | 58.5% | 1.01% | 1.39 |
+| 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | 2.39% | 1.62 |
+| 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 56.9 | 58.3% | 1.79% | 1.31 |
+| 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 56.5 | 60.7% | 0.6% | 1.18 |
+| 🔴 BEARISH | **GC=F** | RSI Overbought | 55.8 | 62.8% | 0.59% | 0.97 |
+| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 55.2 | 58.4% | 1.77% | 1.21 |
+| 🔴 BEARISH | **MRVL** | Stochastic RSI Overbought | 54.9 | 57.5% | 1.55% | 1.2 |
+| 🔴 BEARISH | **AMZN** | Chaikin Money Flow — Bearish | 54.7 | 52.1% | 0.97% | 1.26 |
+| 🔴 BEARISH | **ARKK** | Keltner — Upper Channel Touch | 54.1 | 60.0% | 0.79% | 1.08 |
+| 🔴 BEARISH | **AMZN** | PPO — Bearish Cross | 53.5 | 60.0% | 1.19% | 1.07 |
+| 🔴 BEARISH | **GC=F** | Fisher Transform — High Extreme | 53.3 | 63.7% | 0.48% | 0.8 |
+| 🔴 BEARISH | **DOGE-USD** | RSI Overbought | 52.6 | 40.3% | 4.45% | 1.39 |
+| 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 51.4 | 62.3% | 1.35% | 0.73 |
+| 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.6 | 57.5% | 1.37% | 0.99 |
+| 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | 0.9% | 1.18 |
 
 ---
 *Not financial advice. Backtests use historical data.*
