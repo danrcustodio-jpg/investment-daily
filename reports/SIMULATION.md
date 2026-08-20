@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 03:03 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 03:57 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.10%** &nbsp; ($+4,083) |
-| SPY Benchmark | +8.48% &nbsp; ($+16,454 if 100% SPY) |
-| Alpha vs SPY | **-6.38%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.21% &nbsp; ($+15,919 if 100% SPY) |
+| Alpha vs SPY | **-6.10%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,083 |
 
@@ -94,27 +94,27 @@
 | 2026-08-17 | 📈 +1.99% | +9.17% | ❌ -7.18% |
 | 2026-08-18 | 📈 +2.08% | +8.43% | ❌ -6.35% |
 | 2026-08-19 | 📈 +2.09% | +8.66% | ❌ -6.56% |
-| 2026-08-20 | 📈 +2.10% | +8.47% | ❌ -6.37% |
+| 2026-08-20 | 📈 +2.10% | +8.20% | ❌ -6.10% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 20 2026 03:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 20 2026 03:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-
-### 🔍 NEW OPPORTUNITY — ARKK
-
-**Signal Analysis:** Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 1 minor bearish signal(s), max confidence 53.7.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — BTC-USD
 
 **Signal Analysis:** Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 49.0.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — ETH-USD
+
+**Signal Analysis:** Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.04%, Sharpe 4.35. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
