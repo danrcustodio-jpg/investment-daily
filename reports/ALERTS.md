@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Thursday August 20, 2026 at 09:19 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Thursday August 20, 2026 at 09:51 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 124 |
-| 🟢 Bullish | 62 |
-| 🔴 Bearish | 62 |
+| Total signals (confidence ≥ 45) | 127 |
+| 🟢 Bullish | 63 |
+| 🔴 Bearish | 64 |
 | 🔵 In cooldown (fired in last 6h) | 99 |
-| 🟡 Available to fire (not in cooldown) | 25 |
+| 🟡 Available to fire (not in cooldown) | 28 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -51,6 +51,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ADA-USD** | Parabolic SAR — Bullish | 58.0 | 59.4% | -42.39% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 57.9 | 56.4% | -93.94% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **APP** | Keltner — Lower Channel Touch | 56.5 | 54.8% | -26.07% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **XRP-USD** | Chaikin Money Flow — Bullish | 55.3 | 47.7% | -93.19% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 55.2 | 57.0% | -87.02% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **COIN** | Supertrend — Bullish Flip | 55.0 | 40.0% | -11.75% | 🟡 Available |
 | 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 54.9 | 45.0% | -90.7% | 🔵 In cooldown (≤6h) |
@@ -135,9 +136,11 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.5 | 57.3% | -85.7% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | -27.07% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 50.2 | 60.7% | -78.86% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **DOGE-USD** | Williams %R — Overbought | 49.1 | 45.3% | -76.13% | 🟡 Available |
 | 🔴 BEARISH | **BTC-USD** | Keltner — Upper Channel Touch | 49.0 | 52.9% | -38.65% | 🟡 Available |
 | 🔴 BEARISH | **CRWD** | SMA 30 — Bearish Loss | 48.1 | 60.0% | -24.44% | 🟡 Available |
 | 🔴 BEARISH | **GOOGL** | Vortex — Bearish | 47.6 | 59.3% | -27.43% | 🟡 Available |
+| 🔴 BEARISH | **XRP-USD** | Williams %R — Overbought | 47.5 | 38.9% | -77.64% | 🟡 Available |
 | 🔴 BEARISH | **DOGE-USD** | VWAP Deviation — Overbought | 47.2 | 45.9% | -90.44% | 🟡 Available |
 | 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 46.8 | 41.5% | -47.9% | 🟡 Available |
 | 🔴 BEARISH | **UPRO** | OBV — Distribution | 46.0 | 54.1% | -20.59% | 🟡 Available |
