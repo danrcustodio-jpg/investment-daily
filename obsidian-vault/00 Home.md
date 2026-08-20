@@ -12,7 +12,7 @@ This vault is markdown in git. Sync it however you already sync the repo (Git, O
 
 ## Start here
 
-- [[Creators/Nicholas Crown/MOC|Nicholas Crown]] — TikTok/LinkedIn notes, glossary, legitimacy
+- [[Creators/Nicholas Crown/MOC|Nicholas Crown]] — notes, glossary, [[Creators/Nicholas Crown/Inbox/_README|transcript inbox]]
 - Repo live reports stay on GitHub (`reports/`), not in this vault
 
 ## Disclaimer

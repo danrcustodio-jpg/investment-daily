@@ -27,7 +27,8 @@ Playwright sets `navigator.webdriver` and other automation fingerprints. TikTok 
 |---|---|
 | HTTP fetch of tiktok.com | **403** (Akamai) |
 | Agent clicking videos | 4 clips, then captcha / error |
-| **You click, agent transcribes** | Intended path for the rest of the month |
+| **You click, agent transcribes** | Works when the shared tab actually plays a `/video/` URL |
+| **You record + transcribe (Fireflies etc.)** | Best path when this VM cannot play TikTok. Drop files in [[Creators/Nicholas Crown/Inbox/_README|Inbox]] |
 | YouTube `@NicholasCrownYouTube` | No uploads in the last 30 days |
 | LinkedIn public posts | Captions Jul 22–Aug 15 ([[Creators/Nicholas Crown/LinkedIn month]]) |
 
@@ -37,6 +38,15 @@ Playwright sets `navigator.webdriver` and other automation fingerprints. TikTok 
 2. Click **one** clip. Leave it playing with the caption visible.
 3. Tell the agent **transcribe this one**. Do not ask it to click the next twenty.
 4. Notes go under `Creators/Nicholas Crown/TikTok/` using the template below.
+
+## Fireflies / your own transcript (preferred when the shared tab is stuck)
+
+You watch on **your** phone or laptop (no captcha). Record audio or use an app that transcribes **that** recording. Then either:
+
+1. Paste the transcript in chat and say **process this clip**, or
+2. Save a note in `Creators/Nicholas Crown/Inbox/` using [[Templates/Fireflies drop]] and say **process inbox**.
+
+That is more work on your side and it is the reliable way. Same rules: public clips you watched, not the paid letter.
 
 Do not paste Crown Macro paid-issue text into the vault.
 
