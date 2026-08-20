@@ -1,6 +1,14 @@
 # Glossary (terms from the 2026-07-20 – 2026-08-20 public posts)
 
-Rolled up only from dated captions in [month-notes.md](month-notes.md). Plain English, then what it does **not** prove.
+Rolled up from [month-notes.md](month-notes.md) and four TikToks opened in a browser 2026-08-19–20. Plain English, then what it does **not** prove.
+
+## VIX / 10
+
+**VIX ÷ 10 ≈ expected S&P daily move in percent** (VIX 16 → ~1.6%). Noise vs signal. Implied vol, not a forecast of tomorrow.
+
+## Fed vs Treasury (who polices bonds)
+
+If fiscal and monetary policy **diverge**, risk is hard to price; he says **gold** wins when it is unclear who is **policing the long end**.
 
 ## 0DTE
 

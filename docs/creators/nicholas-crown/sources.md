@@ -7,9 +7,13 @@
 
 | URL | Result |
 |---|---|
-| https://www.tiktok.com/@nicholas_crown | **HTTP 403** (Akamai / `x-tt-system-error: 3`). No video index. |
-| https://www.tiktok.com/@nicholas_crown/video/7633894954066054414 | **HTTP 403**. Snowflake decode ≈ **2026-04-28** — **out of window**. Search snippet (“5d ago”) was a stale relative date. |
-| https://www.tiktok.com/@nicholas_crown/video/7655352577013435662 | Indexed earlier (MU / LETTER / Jun captions). Snowflake decode ≈ **2026-06-25** — **out of window**. Not used in month-notes. |
+| https://www.tiktok.com/@nicholas_crown | HTTP fetch **403**. Browser: profile + Latest OK, then **CAPTCHA** after 4 videos. |
+| https://www.tiktok.com/@nicholas_crown/video/7675887733696400654 | **In window.** Opened in browser 2026-08-19. |
+| https://www.tiktok.com/@nicholas_crown/video/7675941857355943182 | **In window.** Opened in browser 2026-08-20. |
+| https://www.tiktok.com/@nicholas_crown/video/7676131253665487662 | **In window.** Opened in browser 2026-08-20. |
+| https://www.tiktok.com/@nicholas_crown/video/7676193692490714381 | **In window.** Opened in browser 2026-08-20. |
+| https://www.tiktok.com/@nicholas_crown/video/7633894954066054414 | Snowflake ≈ **2026-04-28** — **out of window**. |
+| https://www.tiktok.com/@nicholas_crown/video/7655352577013435662 | Snowflake ≈ **2026-06-25** — **out of window**. |
 
 No unofficial TikTok downloaders were run.
 

@@ -2,15 +2,17 @@
 
 **Window:** 2026-07-20 through 2026-08-20  
 **Handle you asked about:** [@nicholas_crown](https://www.tiktok.com/@nicholas_crown) on TikTok  
-**What this is:** a paraphrase of **public short-form captions** from that month, plus a short bio/legitimacy page. It is **not** a transcript dump, **not** his paid [Crown Macro Letter](https://letter.nicholascrown.com/), and **not** investment advice.
+**What this is:** notes on public short-form, plus a short bio/legitimacy page. **Not** his paid [Crown Macro Letter](https://letter.nicholascrown.com/), **not** investment advice.
+
+**Obsidian:** open [`obsidian-vault/`](../../../obsidian-vault/00%20Home.md) as a vault (File → Open folder as vault). Wikilinks and per-clip notes live there.
 
 This repo’s trading engine is separate. Nothing here is wired into `strategy_engine.py`.
 
 ## How the notes were made
 
-TikTok’s public profile and video pages returned **HTTP 403** from this environment (Akamai / `x-tt-system-error`). No unofficial downloaders were used. Indexed TikTok video IDs we could find decoded **outside** this 30-day window (April / June 2026 snowflakes), so they were **not** treated as last-month TikTok.
+HTTP fetch of TikTok returned **403**. A **real browser** on 2026-08-20 reached [@nicholas_crown](https://www.tiktok.com/@nicholas_crown) **Latest** and opened **four** clips (Aug 19–20) before a **slider CAPTCHA**. Those notes: [`obsidian-vault/Creators/Nicholas Crown/TikTok/`](../../../obsidian-vault/Creators/Nicholas%20Crown/TikTok/Index.md).
 
-What we *could* date into the window is the same creator’s **LinkedIn short-form** ([nicholas-crown](https://www.linkedin.com/in/nicholas-crown)): captions, “Comment LETTER” CTAs, and thin titles. Those posts reuse the same funnel and talking points as the TikTok bio content (Crown Macro, rotation, options structure, energy/AI). Treat them as a **proxy for last-month TikTok**, not as proof of every clip ID.
+The rest of the 30-day window is still **LinkedIn captions** as a proxy. To finish the month, share **your** Cursor/browser session logged into TikTok (see vault note *How we collect*).
 
 If a post is mostly a one-liner (“It’s a rounding error”), the note says the caption was thin.
 

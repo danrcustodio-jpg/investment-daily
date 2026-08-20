@@ -56,6 +56,14 @@ This is also a **product** argument (the letter’s multi-asset coverage). The l
 
 Kalshi/NY: **regulate/tax the vice you cannot stamp out**. Look for **second-order trades** (who gets taxed, who gets the monopoly), not the lawsuit headline itself.
 
+## 11. VIX/10 as a noise filter
+
+Same-session TikTok: divide VIX by 10 for a rough daily SPX band; pair with a “no conviction / wandering” tape.
+
+## 12. Who polices the bond market?
+
+Fed vs Treasury walking apart → gold as haven if the long end has no clear cop.
+
 ## What this month did *not* give you
 
 - Exact strikes, deltas, or hedge ratios.

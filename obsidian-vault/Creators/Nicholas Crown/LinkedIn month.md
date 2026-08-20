@@ -1,17 +1,14 @@
-# Last-month notes (2026-07-20 – 2026-08-20)
+---
+tags:
+  - nicholas-crown
+  - linkedin
+---
 
-Chronological. **Type:** macro / options / pitch / skit / thin. Paraphrase of public captions only.
+# Last-month LinkedIn notes (2026-07-20 – 2026-08-20)
 
-LinkedIn captions below. **TikTok Latest (browser, then CAPTCHA):** four clips 2026-08-19–20 — see [Obsidian TikTok index](../../../obsidian-vault/Creators/Nicholas%20Crown/TikTok/Index.md).
+Caption proxy used when TikTok HTTP fetch 403'd. Real TikTok opens: [[Creators/Nicholas Crown/TikTok/Index]].
 
-## 2026-08-19 / 2026-08-20 — TikTok (browser)
-
-| UTC (snowflake) | URL | One-line |
-|---|---|---|
-| 2026-08-19 23:24 | [video](https://www.tiktok.com/@nicholas_crown/video/7675887733696400654) | Fed vs Treasury walking apart; risk hard to price |
-| 2026-08-20 02:54 | [video](https://www.tiktok.com/@nicholas_crown/video/7675941857355943182) | Long-end yields down; gold if nobody polices bonds |
-| 2026-08-20 15:09 | [video](https://www.tiktok.com/@nicholas_crown/video/7676131253665487662) | VIX/10 ≈ S&P daily expected move % |
-| 2026-08-20 19:11 | [video](https://www.tiktok.com/@nicholas_crown/video/7676193692490714381) | Earnings priced; tape wanders; trade vol |
+Chronological. **Type:** macro / options / pitch / skit / thin.
 
 ## 2026-07-22 — Crack spread 3:2:1
 
