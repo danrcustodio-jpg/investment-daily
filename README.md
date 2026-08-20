@@ -36,6 +36,7 @@ Day 104 &nbsp;·&nbsp; Portfolio **+2.10%** vs SPY +7.86% &nbsp;·&nbsp; Alpha �
 
 - [Architecture & Data Flow](ARCHITECTURE.md)
 - [Agent Guide — Change Recipes](AGENT_GUIDE.md)
+- [Nicholas Crown last-month notes](docs/creators/nicholas-crown/README.md) (public short-form paraphrase; not wired into alerts)
 
 ---
 *This repo is auto-updated by GitHub Actions. Reports commit after every run.*

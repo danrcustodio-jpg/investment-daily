@@ -22,6 +22,10 @@ a Windows PC (C:\Users\Owner\InvestmentDaily\). It emails dan.r.custodio@gmail.c
 
 ---
 
+## Creator notes (not part of the live scan)
+
+[docs/creators/nicholas-crown/](creators/nicholas-crown/README.md) — last-month public captions from Nicholas Crown (TikTok handle `@nicholas_crown`). **Education/notes only.** Do not add his gated letter setups to `strategy_engine.py`.
+
 ## File map
 
 | File | Purpose |
