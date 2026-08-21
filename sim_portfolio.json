@@ -704,9 +704,9 @@
       "date": "2026-08-21",
       "total_value": 198106.86,
       "portfolio_pnl": 2.117,
-      "benchmark_pnl": 8.23,
+      "benchmark_pnl": 8.285,
       "prices": {
-        "SPY": 766.0399780273438
+        "SPY": 766.4299926757812
       }
     }
   ],
@@ -722,9 +722,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
+      "ticker": "IONQ",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. 1 minor bearish signal(s), max confidence 62.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -739,7 +739,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-21T19:06:14.327375",
+  "recommendations_updated": "2026-08-21T19:45:57.810096",
   "trade_log": [
     {
       "action": "SELL",
