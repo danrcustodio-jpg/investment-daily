@@ -704,22 +704,13 @@
       "date": "2026-08-21",
       "total_value": 198106.86,
       "portfolio_pnl": 2.117,
-      "benchmark_pnl": 8.226,
+      "benchmark_pnl": 8.422,
       "prices": {
-        "SPY": 766.0150146484375
+        "SPY": 767.4000244140625
       }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
-      "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 1 minor bearish signal(s), max confidence 52.4.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "ETH-USD",
@@ -731,6 +722,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "PLTR",
+      "priority": "high",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 93.3, Win Rate 100.0%, Avg 5d Return 6.46%, Max Drawdown 0.0%, Sharpe 11.5. 3 minor bearish signal(s), max confidence 56.9.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "XLK",
       "priority": "high",
       "reason": "Williams %R \u2014 Oversold \u2014 Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. No conflicting bearish signals.",
@@ -739,7 +739,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-21T15:01:40.097254",
+  "recommendations_updated": "2026-08-21T15:57:06.311605",
   "trade_log": [
     {
       "action": "SELL",

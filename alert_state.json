@@ -73,7 +73,6 @@
     "AVGO::Chaikin Money Flow \u2014 Bearish": "2026-08-21T13:39:12.190439+00:00",
     "ARM::Chaikin Money Flow \u2014 Bearish": "2026-08-21T13:39:12.549301+00:00",
     "NVDA::Chaikin Money Flow \u2014 Bearish": "2026-08-21T13:39:13.585940+00:00",
-    "XRP-USD::Supertrend \u2014 Bullish Flip": "2026-08-19T15:33:01.378371+00:00",
     "ETH-USD::RSI Overbought": "2026-08-21T13:39:12.549274+00:00",
     "AMD::Williams %R \u2014 Oversold": "2026-08-21T13:39:04.093801+00:00",
     "AMD::VWAP Deviation \u2014 Oversold": "2026-08-20T19:53:46.531965+00:00",
@@ -212,9 +211,9 @@
   },
   "intraday_tracking": {
     "ADA-USD": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-20T13:38:57.737408+00:00",
-      "last_change_at": "2026-08-13T18:15:03.396881+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092267+00:00"
     },
     "AERO-USD": {
       "cadence_min": 1440,
@@ -247,9 +246,9 @@
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T13:38:49.084487+00:00",
-      "last_change_at": "2026-08-21T15:01:01.192692+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092447+00:00"
     },
     "IONQ": {
       "cadence_min": 15,
@@ -302,9 +301,9 @@
       "last_change_at": "2026-08-17T18:24:49.816281+00:00"
     },
     "TQQQ": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-21T13:38:53.020043+00:00",
-      "last_change_at": "2026-08-20T13:38:57.463184+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092753+00:00"
     },
     "TSLA": {
       "cadence_min": 1440,
@@ -317,9 +316,9 @@
       "last_change_at": "2026-08-13T18:15:03.397498+00:00"
     },
     "XLK": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-21T13:38:54.474747+00:00",
-      "last_change_at": "2026-08-21T13:38:44.761036+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092998+00:00"
     },
     "XRP-USD": {
       "cadence_min": 15,
@@ -327,9 +326,9 @@
       "last_change_at": "2026-08-19T18:20:25.258869+00:00"
     },
     "ARKK": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-20T15:56:47.212179+00:00",
-      "last_change_at": "2026-08-21T15:01:01.192577+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092363+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -357,9 +356,9 @@
       "last_change_at": "2026-08-20T15:56:46.625286+00:00"
     },
     "IWM": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T13:38:49.878112+00:00",
-      "last_change_at": "2026-08-21T15:01:01.192859+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092531+00:00"
     },
     "ATOM-USD": {
       "cadence_min": 1440,
@@ -377,14 +376,14 @@
       "last_change_at": "2026-08-11T18:13:29.839175+00:00"
     },
     "MARA": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T13:38:50.287961+00:00",
-      "last_change_at": "2026-08-21T15:01:01.192921+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092602+00:00"
     },
     "XLE": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-21T13:38:54.206499+00:00",
-      "last_change_at": "2026-08-21T15:01:01.193047+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092932+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 15,
@@ -402,14 +401,14 @@
       "last_change_at": "2026-05-21T16:12:11.373630+00:00"
     },
     "SPY": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T13:38:52.570320+00:00",
-      "last_change_at": "2026-08-21T15:01:01.192991+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092688+00:00"
     },
     "UPRO": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-21T13:38:53.354743+00:00",
-      "last_change_at": "2026-08-20T17:29:24.452369+00:00"
+      "last_change_at": "2026-08-21T15:56:41.092853+00:00"
     },
     "CRWD": {
       "cadence_min": 15,
@@ -521,7 +520,6 @@
     "AVGO::Chaikin Money Flow \u2014 Bearish": 373.0849914550781,
     "ARM::Chaikin Money Flow \u2014 Bearish": 254.28909301757812,
     "NVDA::Chaikin Money Flow \u2014 Bearish": 217.42999267578125,
-    "XRP-USD::Supertrend \u2014 Bullish Flip": 1.0625,
     "ETH-USD::RSI Overbought": 2384.830078125,
     "AMD::Williams %R \u2014 Oversold": 469.39990234375,
     "AMD::VWAP Deviation \u2014 Oversold": 466.6000061035156,
