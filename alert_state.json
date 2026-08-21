@@ -214,9 +214,9 @@
   },
   "intraday_tracking": {
     "ADA-USD": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-21T16:59:23.068209+00:00",
-      "last_change_at": "2026-08-21T17:56:32.096695+00:00"
+      "last_change_at": "2026-08-21T18:26:03.043245+00:00"
     },
     "AERO-USD": {
       "cadence_min": 1440,
@@ -384,14 +384,14 @@
       "last_change_at": "2026-08-21T16:24:03.966355+00:00"
     },
     "XLE": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-21T16:59:29.254140+00:00",
-      "last_change_at": "2026-08-21T17:56:32.096871+00:00"
+      "last_change_at": "2026-08-21T18:26:03.043413+00:00"
     },
     "AVAX-USD": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T16:59:24.366321+00:00",
-      "last_change_at": "2026-08-21T17:56:32.096816+00:00"
+      "last_change_at": "2026-08-21T18:26:03.043348+00:00"
     },
     "DOGE-USD": {
       "cadence_min": 1440,
