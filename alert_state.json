@@ -384,14 +384,14 @@
       "last_change_at": "2026-08-21T16:24:03.966355+00:00"
     },
     "XLE": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-08-21T16:59:29.254140+00:00",
-      "last_change_at": "2026-08-21T18:26:03.043413+00:00"
+      "last_change_at": "2026-08-21T19:05:49.878169+00:00"
     },
     "AVAX-USD": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-08-21T16:59:24.366321+00:00",
-      "last_change_at": "2026-08-21T18:26:03.043348+00:00"
+      "last_change_at": "2026-08-21T19:05:49.877997+00:00"
     },
     "DOGE-USD": {
       "cadence_min": 1440,
@@ -409,9 +409,9 @@
       "last_change_at": "2026-08-21T16:24:03.966423+00:00"
     },
     "UPRO": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-21T17:56:33.741073+00:00",
-      "last_change_at": "2026-08-21T17:28:49.194652+00:00"
+      "last_change_at": "2026-08-21T19:05:49.878110+00:00"
     },
     "CRWD": {
       "cadence_min": 15,
