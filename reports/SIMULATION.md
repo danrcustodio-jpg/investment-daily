@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 105** &nbsp;·&nbsp; Updated: Aug 21 2026 01:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 105** &nbsp;·&nbsp; Updated: Aug 21 2026 01:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.12%** &nbsp; ($+4,107) |
-| SPY Benchmark | +7.74% &nbsp; ($+15,023 if 100% SPY) |
-| Alpha vs SPY | **-5.63%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.04% &nbsp; ($+15,605 if 100% SPY) |
+| Alpha vs SPY | **-5.93%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,107 |
 
@@ -95,22 +95,17 @@
 | 2026-08-18 | 📈 +2.08% | +8.43% | ❌ -6.35% |
 | 2026-08-19 | 📈 +2.09% | +8.66% | ❌ -6.56% |
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
+| 2026-08-21 | 📈 +2.12% | +8.04% | ❌ -5.93% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 21 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 21 2026 01:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | Volume Spike + Surge — Score 77.9, Win Rate 63.2%, Avg 5d Return 4.03%, Max Drawdown -14.4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
-
-### 🔍 NEW OPPORTUNITY — AVAX-USD
-
-**Signal Analysis:** Volume Spike + Surge — Score 77.9, Win Rate 63.2%, Avg 5d Return 4.03%, Max Drawdown -14.49%, Sharpe 2.75. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
 
 ### 🔍 NEW OPPORTUNITY — ETH-USD
 
@@ -121,6 +116,12 @@ _Evaluated Aug 21 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — XLE
 
 **Signal Analysis:** 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, Sharpe 5.58. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Williams %R — Oversold — Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
