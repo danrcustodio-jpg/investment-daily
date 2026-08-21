@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Friday August 21, 2026 at 08:15 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Friday August 21, 2026 at 08:46 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 122 |
-| 🟢 Bullish | 71 |
+| Total signals (confidence ≥ 45) | 123 |
+| 🟢 Bullish | 72 |
 | 🔴 Bearish | 51 |
 | 🔵 In cooldown (fired in last 6h) | 93 |
-| 🟡 Available to fire (not in cooldown) | 29 |
+| 🟡 Available to fire (not in cooldown) | 30 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -75,6 +75,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **UPRO** | CCI — Extreme Oversold | 49.0 | 58.3% | -94.04% | 🟡 Available |
 | 🟢 BULLISH | **ARM** | Williams %R — Oversold | 48.8 | 55.0% | -73.75% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | CCI — Extreme Oversold | 48.2 | 58.3% | -97.25% | 🟡 Available |
+| 🟢 BULLISH | **LTC-USD** | Donchian — 20D High Breakout | 47.7 | 33.3% | -1.0% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | CCI — Extreme Oversold | 47.5 | 56.8% | -85.59% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | CCI — Extreme Oversold | 47.5 | 53.0% | -88.29% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | ADX Strong Trend — Bullish | 47.4 | 56.4% | -35.43% | 🟡 Available |
@@ -115,7 +116,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **DOGE-USD** | Keltner — Upper Channel Touch | 58.2 | 45.3% | -56.87% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AAPL** | Ulcer Index — Elevated | 57.9 | 58.9% | -37.84% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ETH-USD** | RSI Overbought | 57.8 | 49.1% | -28.27% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 57.8 | 60.9% | -37.32% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 57.7 | 60.9% | -37.32% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 57.6 | 55.0% | -68.3% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | RSI Overbought | 57.5 | 63.9% | -29.41% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 56.3 | 58.1% | -69.18% | 🔵 In cooldown (≤6h) |
@@ -130,9 +131,9 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **CRWD** | ADX Strong Trend — Bearish | 50.8 | 53.2% | -50.84% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.5 | 57.3% | -85.7% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | -27.07% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 50.2 | 42.4% | -47.9% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | MACD Bearish Crossover | 50.0 | 57.9% | -24.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **MSFT** | TRIX — Bearish Cross | 50.0 | 50.0% | -4.94% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 50.0 | 42.4% | -47.9% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 49.4 | 59.7% | -78.86% | 🟡 Available |
 | 🔴 BEARISH | **DOGE-USD** | Williams %R — Overbought | 49.1 | 45.3% | -76.13% | 🟡 Available |
 | 🔴 BEARISH | **BTC-USD** | Keltner — Upper Channel Touch | 49.0 | 52.9% | -38.65% | 🟡 Available |
