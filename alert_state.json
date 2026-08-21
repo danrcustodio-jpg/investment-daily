@@ -247,14 +247,14 @@
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-21T13:38:49.084487+00:00",
-      "last_change_at": "2026-08-21T14:25:27.057068+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192692+00:00"
     },
     "IONQ": {
-      "cadence_min": 60,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-21T13:38:49.531623+00:00",
-      "last_change_at": "2026-08-21T14:25:27.057141+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192770+00:00"
     },
     "META": {
       "cadence_min": 1440,
@@ -327,9 +327,9 @@
       "last_change_at": "2026-08-19T18:20:25.258869+00:00"
     },
     "ARKK": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-20T15:56:47.212179+00:00",
-      "last_change_at": "2026-08-20T17:56:48.514545+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192577+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
@@ -357,9 +357,9 @@
       "last_change_at": "2026-08-20T15:56:46.625286+00:00"
     },
     "IWM": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-21T13:38:49.878112+00:00",
-      "last_change_at": "2026-08-21T14:25:27.057197+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192859+00:00"
     },
     "ATOM-USD": {
       "cadence_min": 1440,
@@ -377,14 +377,14 @@
       "last_change_at": "2026-08-11T18:13:29.839175+00:00"
     },
     "MARA": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-21T13:38:50.287961+00:00",
-      "last_change_at": "2026-08-21T14:25:27.057243+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192921+00:00"
     },
     "XLE": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-21T13:38:54.206499+00:00",
-      "last_change_at": "2026-08-20T13:38:57.463253+00:00"
+      "last_change_at": "2026-08-21T15:01:01.193047+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 15,
@@ -402,9 +402,9 @@
       "last_change_at": "2026-05-21T16:12:11.373630+00:00"
     },
     "SPY": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-08-21T13:38:52.570320+00:00",
-      "last_change_at": "2026-08-21T14:25:27.057294+00:00"
+      "last_change_at": "2026-08-21T15:01:01.192991+00:00"
     },
     "UPRO": {
       "cadence_min": 15,
