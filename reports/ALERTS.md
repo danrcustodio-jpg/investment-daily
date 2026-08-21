@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Friday August 21, 2026 at 09:15 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Friday August 21, 2026 at 09:46 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 125 |
-| 🟢 Bullish | 73 |
+| Total signals (confidence ≥ 45) | 127 |
+| 🟢 Bullish | 75 |
 | 🔴 Bearish | 52 |
 | 🔵 In cooldown (fired in last 6h) | 93 |
-| 🟡 Available to fire (not in cooldown) | 32 |
+| 🟡 Available to fire (not in cooldown) | 34 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -23,6 +23,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.5% | -20.04% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **BTC-USD** | Volume Spike + Surge | 81.8 | 72.7% | -5.05% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 76.0% | -22.65% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% | -8.25% | 🟡 Available |
+| 🟢 BULLISH | **ADA-USD** | Donchian — 20D High Breakout | 80.0 | 66.7% | -9.51% | 🟡 Available |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 77.2 | 68.8% | -30.86% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 76.0 | 63.3% | -34.84% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 75.3 | 62.3% | -47.04% | 🔵 In cooldown (≤6h) |
@@ -132,7 +134,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **ARKK** | Keltner — Upper Channel Touch | 51.2 | 58.6% | -39.55% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **CRWD** | ADX Strong Trend — Bearish | 50.8 | 53.2% | -50.84% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.5 | 57.3% | -85.7% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 50.3 | 42.4% | -47.9% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 50.4 | 42.4% | -47.9% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | -27.07% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **NVDA** | MACD Bearish Crossover | 50.0 | 57.9% | -24.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **MSFT** | TRIX — Bearish Cross | 50.0 | 50.0% | -4.94% | 🔵 In cooldown (≤6h) |
@@ -140,7 +142,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **DOGE-USD** | Williams %R — Overbought | 49.1 | 45.3% | -76.13% | 🟡 Available |
 | 🔴 BEARISH | **BTC-USD** | Keltner — Upper Channel Touch | 49.0 | 52.9% | -38.65% | 🟡 Available |
 | 🔴 BEARISH | **XRP-USD** | Williams %R — Overbought | 47.5 | 38.9% | -77.64% | 🟡 Available |
-| 🔴 BEARISH | **LINK-USD** | Keltner — Upper Channel Touch | 47.4 | 52.2% | -54.71% | 🟡 Available |
+| 🔴 BEARISH | **LINK-USD** | Keltner — Upper Channel Touch | 47.5 | 52.2% | -54.71% | 🟡 Available |
 | 🔴 BEARISH | **DOGE-USD** | VWAP Deviation — Overbought | 47.2 | 45.9% | -90.44% | 🟡 Available |
 
 ---

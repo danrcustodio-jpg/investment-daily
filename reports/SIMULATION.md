@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 105** &nbsp;·&nbsp; Updated: Aug 21 2026 09:15 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 105** &nbsp;·&nbsp; Updated: Aug 21 2026 09:46 PM
 
 ## Performance Summary
 
@@ -99,12 +99,12 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 21 2026 09:15 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 21 2026 09:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
 
 ### 🔍 NEW OPPORTUNITY — ETH-USD
@@ -113,11 +113,11 @@ _Evaluated Aug 21 2026 09:15 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. 1 minor bearish signal(s), max confidence 62.1.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
