@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 104** &nbsp;·&nbsp; Updated: Aug 20 2026 09:51 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 105** &nbsp;·&nbsp; Updated: Aug 21 2026 01:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.10%** &nbsp; ($+4,083) |
+| Portfolio P&L | **+2.12%** &nbsp; ($+4,107) |
 | SPY Benchmark | +7.74% &nbsp; ($+15,023 if 100% SPY) |
-| Alpha vs SPY | **-5.64%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.63%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,083 |
+| Current Value | $198,107 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,508 | +1.28% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,532 | +1.29% |
 
 ## Daily Equity Curve
 
@@ -98,23 +98,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 20 2026 09:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 21 2026 01:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | Volume Spike + Surge — Score 77.9, Win Rate 63.2%, Avg 5d Return 4.03%, Max Drawdown -14.4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ETH-USD** | Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.0… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 86.4, Win Rate 82.1%, Avg 5d Return 2.07%, Max Drawdown -8.12%, S… |
 
-### 🔍 NEW OPPORTUNITY — BTC-USD
+### 🔍 NEW OPPORTUNITY — AVAX-USD
 
-**Signal Analysis:** Volume Spike + Surge — Score 81.8, Win Rate 72.7%, Avg 5d Return 2.93%, Max Drawdown -5.05%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 49.0.
+**Signal Analysis:** Volume Spike + Surge — Score 77.9, Win Rate 63.2%, Avg 5d Return 4.03%, Max Drawdown -14.49%, Sharpe 2.75. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — ETH-USD
 
-**Signal Analysis:** Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.04%, Sharpe 4.35. No conflicting bearish signals.
+**Signal Analysis:** Volume Spike + Surge — Score 85.0, Win Rate 75.0%, Avg 5d Return 6.05%, Max Drawdown -12.04%, Sharpe 4.35. 1 minor bearish signal(s), max confidence 57.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
