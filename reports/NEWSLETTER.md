@@ -1,29 +1,30 @@
-# Daily Newsletter — Saturday, August 22, 2026
-Generated at 01:10 PM
+# Daily Newsletter — Sunday, August 23, 2026
+Generated at 01:11 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 121 total &nbsp;·&nbsp; 🟢 67 Bullish &nbsp;·&nbsp; 🔴 54 Bearish
+**Strategy Signals:** 118 total &nbsp;·&nbsp; 🟢 65 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
 | **^VIX** | VIX (Fear Index) | $15.13 | 📉 -5.50% |
-| **ETH-USD** | Ethereum | $2428.57 | 📉 -3.45% |
-| **GC=F** | Gold | $4624.10 | 📈 +2.39% |
-| **SI=F** | Silver | $69.47 | 📈 +2.12% |
-| **NG=F** | Natural Gas | $2.77 | 📈 +1.46% |
-| **BTC-USD** | Bitcoin | $77240.40 | 📉 -1.40% |
+| **GC=F** | Gold | $4680.60 | 📈 +3.64% |
+| **NG=F** | Natural Gas | $2.81 | 📈 +2.85% |
+| **SI=F** | Silver | $69.53 | 📈 +2.21% |
 | **XLV** | Healthcare (XLV) | $174.62 | 📈 +1.29% |
 | **XLY** | Consumer Disc. (XLY) | $118.02 | 📈 +1.15% |
 | **^DJI** | Dow Jones | $53277.01 | 📈 +0.98% |
+| **SOL-USD** | Solana | $94.79 | 📈 +0.93% |
 | **XLF** | Financials (XLF) | $57.48 | 📈 +0.93% |
+| **^TNX** | 10-Year Treasury Yield | $4.74 | 📈 +0.89% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
 | 🟢 BULLISH | **XLK** | Williams %R — Oversold | 83.4 | 76.6% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.5% |
 | 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 76.0% |
@@ -35,20 +36,19 @@ Generated at 01:10 PM
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 73.6 | 62.0% |
 | 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 72.9 | 66.7% |
 | 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.7 | 66.0% |
-| 🟢 BULLISH | **XRP-USD** | ATR — Volatility Surge (Up) | 72.7 | 54.5% |
 
 ## Latest News
 
-- [Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?](https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories) — *MarketWatch*
-- [Why an announcement from the Treasury sparked a rally in gold and bitcoin this week](https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories) — *MarketWatch*
-- [Why Did Nebius Stock Plunge This Week?](https://finance.yahoo.com/markets/stocks/articles/why-did-nebius-stock-plunge-125253899.html) — *Yahoo Finance*
-- [I’m 44 with $1.3 million in my 401(k) — can I stop contributing and still retire in 15 years?](https://finance.yahoo.com/markets/options/articles/m-44-1-3-million-155345959.html) — *Yahoo Finance*
-- [India Leaves the Door Ajar for China’s Investors](https://finance.yahoo.com/economy/policy/articles/india-leaves-door-ajar-china-123300050.html) — *Yahoo Finance*
-- [Move over, credit cards: Social-media stars are tapping magic wands to buy things](https://www.marketwatch.com/story/move-over-credit-cards-social-media-stars-are-tapping-magic-wands-to-buy-things-62e475d4?mod=mw_rss_topstories) — *MarketWatch*
-- [The tax loophole that turns a Trump Account into tax-free millions — do you know how to exploit it?](https://finance.yahoo.com/economy/policy/articles/tax-loophole-turns-trump-account-123000413.html) — *Yahoo Finance*
-- [‘Always the best time to buy’: Todd Nepola says real estate builds generational wealth. 4 ways to get in from $100](https://finance.yahoo.com/real-estate/articles/always-best-time-buy-todd-121500299.html) — *Yahoo Finance*
-- [Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers](https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html) — *CNBC Markets*
-- [BofA maintains underperform ratings on six BDC stocks](https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361) — *Investing.com*
+- [Raytheon Navy air-to-air long-range missile undergoes testing](https://seekingalpha.com/news/4636056-raytheon-navy-air-to-air-long-range-missile-undergoes-testing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Notable healthcare headlines for the week: Moderna, Merck, and Twist Bioscience in focus](https://seekingalpha.com/news/4636014-notable-healthcare-headlines-for-the-week-moderna-merck-and-twist-bioscience-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test](https://www.marketwatch.com/story/nvidia-is-the-beating-heart-of-the-ai-boom-and-the-stock-market-which-sets-up-a-big-test-bed36f98?mod=mw_rss_topstories) — *MarketWatch*
+- [Alibaba seeks more than $10B in share sale to expand AI](https://seekingalpha.com/news/4636055-alibaba-seeks-more-than-10b-share-sale-expand-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed](https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428) — *Investing.com*
+- [Small UK power generator shut down after cyberattack linked to Iran: Telegraph](https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html) — *CNBC Markets*
+- [Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.13%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-113-4872445) — *Investing.com*
+- [Robots can outrun humans, but can they plug in a cable?](https://www.investing.com/news/stock-market-news/robots-can-outrun-humans-but-can-they-plug-in-a-cable-4872417) — *Investing.com*
+- [Iran says new sanctions threatened by ’desperate’ US will fail](https://www.investing.com/news/commodities-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-4872444) — *Investing.com*
+- [Trump June stock disclosure: more than 1,000 trades, big in the VIG](https://seekingalpha.com/news/4636053-trump-june-stock-disclosure-more-than-1000-trades-big-in-the-vig?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

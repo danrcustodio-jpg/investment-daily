@@ -733,13 +733,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "high",
-      "reason": "Volume Spike + Surge \u2014 Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.84%, Sharpe 3.42. 6 minor bearish signal(s), max confidence 76.3.",
+      "reason": "Volume Spike + Surge \u2014 Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.84%, Sharpe 3.42. 4 minor bearish signal(s), max confidence 74.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-22T13:10:25.078749",
+  "recommendations_updated": "2026-08-23T13:11:40.470738",
   "trade_log": [
     {
       "action": "SELL",

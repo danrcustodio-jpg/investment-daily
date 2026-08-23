@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 106** &nbsp;·&nbsp; Updated: Aug 22 2026 01:10 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 107** &nbsp;·&nbsp; Updated: Aug 23 2026 01:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.13%** &nbsp; ($+4,131) |
+| Portfolio P&L | **+2.14%** &nbsp; ($+4,155) |
 | SPY Benchmark | +8.19% &nbsp; ($+15,878 if 100% SPY) |
-| Alpha vs SPY | **-6.06%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.04%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,131 |
+| Current Value | $198,155 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,556 | +1.31% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,580 | +1.32% |
 
 ## Daily Equity Curve
 
@@ -99,7 +99,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 22 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 23 2026 01:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -121,7 +121,7 @@ _Evaluated Aug 22 2026 01:10 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** Volume Spike + Surge — Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.84%, Sharpe 3.42. 6 minor bearish signal(s), max confidence 76.3.
+**Signal Analysis:** Volume Spike + Surge — Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.84%, Sharpe 3.42. 4 minor bearish signal(s), max confidence 74.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
