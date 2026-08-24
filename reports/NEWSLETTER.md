@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, August 23, 2026
-Generated at 01:11 PM
+# Daily Newsletter — Monday, August 24, 2026
+Generated at 01:31 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 118 total &nbsp;·&nbsp; 🟢 65 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
+**Strategy Signals:** 125 total &nbsp;·&nbsp; 🟢 67 Bullish &nbsp;·&nbsp; 🔴 58 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $15.13 | 📉 -5.50% |
-| **GC=F** | Gold | $4680.60 | 📈 +3.64% |
-| **NG=F** | Natural Gas | $2.81 | 📈 +2.85% |
-| **SI=F** | Silver | $69.53 | 📈 +2.21% |
-| **XLV** | Healthcare (XLV) | $174.62 | 📈 +1.29% |
-| **XLY** | Consumer Disc. (XLY) | $118.02 | 📈 +1.15% |
-| **^DJI** | Dow Jones | $53277.01 | 📈 +0.98% |
-| **SOL-USD** | Solana | $94.79 | 📈 +0.93% |
-| **XLF** | Financials (XLF) | $57.48 | 📈 +0.93% |
-| **^TNX** | 10-Year Treasury Yield | $4.74 | 📈 +0.89% |
+| **^VIX** | VIX (Fear Index) | $15.84 | 📈 +4.69% |
+| **NG=F** | Natural Gas | $2.88 | 📈 +3.86% |
+| **GC=F** | Gold | $4727.90 | 📈 +2.24% |
+| **CL=F** | Crude Oil | $85.71 | 📉 -1.55% |
+| **ETH-USD** | Ethereum | $2500.93 | 📈 +1.51% |
+| **BTC-USD** | Bitcoin | $78915.18 | 📈 +1.49% |
+| **XLK** | Tech (XLK) | $181.11 | 📉 -1.20% |
+| **^RUT** | Russell 2000 | $3017.87 | 📈 +0.85% |
+| **XLF** | Financials (XLF) | $57.87 | 📈 +0.68% |
+| **^TYX** | 30-Year Treasury Yield | $5.24 | 📉 -0.59% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 83.4 | 76.6% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.5% |
-| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 76.0% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 77.2 | 68.8% |
-| 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 76.0 | 63.3% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 75.3 | 62.3% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 84.6 | 79.3% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 83.5 | 76.6% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 83.1 | 77.5% |
+| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 78.5 | 66.2% |
+| 🟢 BULLISH | **AERO-USD** | Donchian — 20D High Breakout | 77.5 | 75.0% |
+| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 77.3 | 65.9% |
+| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 76.9 | 65.1% |
+| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 76.3 | 62.8% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 76.0 | 66.7% |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 74.2 | 64.8% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 73.6 | 62.0% |
-| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 72.9 | 66.7% |
-| 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.7 | 66.0% |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 74.3 | 64.8% |
 
 ## Latest News
 
-- [Raytheon Navy air-to-air long-range missile undergoes testing](https://seekingalpha.com/news/4636056-raytheon-navy-air-to-air-long-range-missile-undergoes-testing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Notable healthcare headlines for the week: Moderna, Merck, and Twist Bioscience in focus](https://seekingalpha.com/news/4636014-notable-healthcare-headlines-for-the-week-moderna-merck-and-twist-bioscience-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test](https://www.marketwatch.com/story/nvidia-is-the-beating-heart-of-the-ai-boom-and-the-stock-market-which-sets-up-a-big-test-bed36f98?mod=mw_rss_topstories) — *MarketWatch*
-- [Alibaba seeks more than $10B in share sale to expand AI](https://seekingalpha.com/news/4636055-alibaba-seeks-more-than-10b-share-sale-expand-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed](https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428) — *Investing.com*
-- [Small UK power generator shut down after cyberattack linked to Iran: Telegraph](https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html) — *CNBC Markets*
-- [Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.13%](https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-113-4872445) — *Investing.com*
-- [Robots can outrun humans, but can they plug in a cable?](https://www.investing.com/news/stock-market-news/robots-can-outrun-humans-but-can-they-plug-in-a-cable-4872417) — *Investing.com*
-- [Iran says new sanctions threatened by ’desperate’ US will fail](https://www.investing.com/news/commodities-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-4872444) — *Investing.com*
-- [Trump June stock disclosure: more than 1,000 trades, big in the VIG](https://seekingalpha.com/news/4636053-trump-june-stock-disclosure-more-than-1000-trades-big-in-the-vig?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [H.B. Fuller rejects Ancora's $1.2B bid for building adhesives unit](https://seekingalpha.com/news/4636260-hb-fuller-rejects-ancoras-12b-bid-for-building-adhesives-unit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Marvell, Intel liked at GF Securities while highlighting ASIC outlook](https://seekingalpha.com/news/4636241-marvell-intel-liked-at-gf-securities-while-highlighting-asic-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [ADAMA Q2 & H1 2026 slides: strategic shift to profitable growth](https://www.investing.com/news/company-news/adama-q2--h1-2026-slides-strategic-shift-to-profitable-growth-93CH-4873655) — *Investing.com*
+- [X Financial FY2025 slides: 20% ROE masks Q2 2026 contraction](https://www.investing.com/news/company-news/x-financial-fy2025-slides-20-roe-masks-q2-2026-contraction-93CH-4873654) — *Investing.com*
+- [Cantor Fitzgerald Just Named This Chip Giant Its Top Semiconductor Pick](https://www.investing.com/news/stock-market-news/cantor-fitzgerald-just-named-this-chip-giant-its-top-semiconductor-pick-93CH-4873653) — *Investing.com*
+- [U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'](https://www.cnbc.com/2026/08/24/trump-canada-trade-tariffs-greer.html) — *CNBC Markets*
+- [Xpeng forecast disappoints as China EV competition heats up](https://www.investing.com/news/stock-market-news/xpeng-forecast-disappoints-as-china-ev-competition-heats-up-4873652) — *Investing.com*
+- [Cyabra secures European government contracts worth $500,000](https://www.investing.com/news/company-news/cyabra-secures-european-government-contracts-worth-500000-93CH-4873651) — *Investing.com*
+- [MicroVision secures orders for thousands of IRIS lidar sensors](https://www.investing.com/news/company-news/microvision-secures-orders-for-thousands-of-iris-lidar-sensors-93CH-4873650) — *Investing.com*
+- [US FTC to file order resolving litigation against Zillow, Redfin](https://www.investing.com/news/stock-market-news/us-ftc-to-file-order-resolving-litigation-against-zillow-redfin-4873634) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

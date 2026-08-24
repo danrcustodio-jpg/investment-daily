@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 107** &nbsp;·&nbsp; Updated: Aug 23 2026 01:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 108** &nbsp;·&nbsp; Updated: Aug 24 2026 01:31 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.14%** &nbsp; ($+4,155) |
-| SPY Benchmark | +8.19% &nbsp; ($+15,878 if 100% SPY) |
-| Alpha vs SPY | **-6.04%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.15%** &nbsp; ($+4,179) |
+| SPY Benchmark | +7.94% &nbsp; ($+15,407 if 100% SPY) |
+| Alpha vs SPY | **-5.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,155 |
+| Current Value | $198,179 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,580 | +1.32% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,604 | +1.33% |
 
 ## Daily Equity Curve
 
@@ -99,31 +99,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 23 2026 01:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 24 2026 01:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | Volume Spike + Surge — Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.5, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. 1 minor bearish signal(s), max confidence 62.1.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 1 minor bearish signal(s), max confidence 50.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Williams %R — Oversold — Score 83.4, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 83.5, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 65.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** Volume Spike + Surge — Score 76.0, Win Rate 63.3%, Avg 5d Return 11.76%, Max Drawdown -34.84%, Sharpe 3.42. 4 minor bearish signal(s), max confidence 74.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
