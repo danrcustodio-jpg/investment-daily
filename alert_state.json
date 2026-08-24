@@ -160,9 +160,9 @@
   },
   "intraday_tracking": {
     "ADA-USD": {
-      "cadence_min": 15,
+      "cadence_min": 30,
       "last_fetch_at": "2026-08-24T15:30:10.078242+00:00",
-      "last_change_at": "2026-08-24T13:42:56.834333+00:00"
+      "last_change_at": "2026-08-24T17:55:23.720681+00:00"
     },
     "AERO-USD": {
       "cadence_min": 1440,
@@ -305,9 +305,9 @@
       "last_change_at": "2026-08-24T17:03:27.262619+00:00"
     },
     "IWM": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-24T13:43:01.380714+00:00",
-      "last_change_at": "2026-08-21T16:24:03.966299+00:00"
+      "last_change_at": "2026-08-24T17:55:23.720801+00:00"
     },
     "ATOM-USD": {
       "cadence_min": 1440,
