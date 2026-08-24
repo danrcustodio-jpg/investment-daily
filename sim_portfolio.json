@@ -713,18 +713,18 @@
       "date": "2026-08-24",
       "total_value": 198179.2,
       "portfolio_pnl": 2.154,
-      "benchmark_pnl": 7.857,
+      "benchmark_pnl": 7.867,
       "prices": {
-        "SPY": 763.4000244140625
+        "SPY": 763.469970703125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 78.5, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdown -39.78%, Sharpe 2.45. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 79.7, Win Rate 70.0%, Avg 5d Return 1.89%, Max Drawdown -8.66%, Sharpe 3.14. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -748,7 +748,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-24T19:52:29.082575",
+  "recommendations_updated": "2026-08-24T20:19:58.532277",
   "trade_log": [
     {
       "action": "SELL",
