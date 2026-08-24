@@ -1,29 +1,48 @@
 # Strategy Alerts
-**Last scan:** Monday August 24, 2026 at 07:09 PM
+**Last scan:** Monday August 24, 2026 at 07:52 PM
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals scanned (confidence ≥ 50) | 108 |
-| 🟢 Bullish | 64 |
-| 🔴 Bearish | 60 |
-| ✅ Fired this run (SMS + email) | 0 |
-| ⏭ Skipped — same ticker notified in last 6h | 108 |
+| Total signals scanned (confidence ≥ 50) | 110 |
+| 🟢 Bullish | 63 |
+| 🔴 Bearish | 63 |
+| ✅ Fired this run (SMS + email) | 108 |
+| ⏭ Skipped — same ticker notified in last 6h | 2 |
 | ⏸ Suppressed — same signal already fired in last 6h | 0 |
 | 🚀 Bypassed cooldown (large price move) | 0 |
 | 😴 Snoozed by strategy/ticker | 0 |
-| ⚠ Tickers with conflicting BULL+BEAR signals | 0 |
+| ⚠ Tickers with conflicting BULL+BEAR signals | 13 |
 
-_Run ended early: **all_in_cooldown** — no email or SMS dispatched._
+## 📲 SMS sent (2)
 
-## 📲 SMS not sent
+- One text per ticker: **VOO, BTC-USD**
+- ⚠ **Headline ticker was contested** — opposing-side top score **77.3** (1 BULL signals).
 
-_Reason: `all_in_cooldown`_
+## ⚠ Conflicting tickers (both directions ≥ 65)
 
-## ⏭ Skipped — same ticker already notified
+Tickers where bullish *and* bearish strategies are firing above the conflict threshold at the same time. Treat the headline as one input only.
 
-Above-threshold signals dropped because another strategy on the same ticker fired within the last 6h ticker-cooldown window.
+| Ticker | 🟢 Bull top | Score | n | 🔴 Bear top | Score | n |
+|---|---|---:|---:|---|---:|---:|
+| **VOO** | Williams %R — Oversold | 77.3 | 1 | Vortex — Bearish | 86.7 | 3 |
+| **SPY** | Williams %R — Oversold | 76.9 | 1 | Vortex — Bearish | 86.7 | 2 |
+| **GC=F** | OBV — Accumulation | 85.6 | 1 | MFI — Overbought | 84.2 | 2 |
+| **XLK** | Williams %R — Oversold | 83.5 | 1 | SMA 30 — Bearish Loss | 65.6 | 1 |
+| **SMH** | Williams %R — Oversold | 82.6 | 1 | MACD Bearish Crossover | 76.1 | 4 |
+| **QQQ** | Williams %R — Oversold | 72.7 | 1 | SMA 30 — Bearish Loss | 81.6 | 1 |
+| **AVGO** | Stochastic RSI Oversold | 76.3 | 4 | Ulcer Index — Elevated | 79.5 | 2 |
+| **CRWD** | Stochastic RSI Oversold | 67.9 | 2 | Awesome Oscillator — Bearish Zero Line | 78.6 | 1 |
+| **UPRO** | Williams %R — Oversold | 72.9 | 1 | Parabolic SAR — Bearish | 77.7 | 2 |
+| **TQQQ** | Williams %R — Oversold | 73.1 | 1 | Vortex — Bearish | 76.2 | 3 |
+| **AMD** | Williams %R — Oversold | 73.6 | 3 | TRIX — Bearish Cross | 74.5 | 1 |
+| **SOXL** | Williams %R — Oversold | 69.0 | 1 | Vortex — Bearish | 68.2 | 1 |
+| **IWM** | Williams %R — Oversold | 65.9 | 1 | Parabolic SAR — Bearish | 68.7 | 1 |
+
+## ✅ Fired this run (SMS + email)
+
+Signals that **actually triggered** an SMS / email on this run.
 
 | Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
 |---|---|---|---|---|---|---|
@@ -38,7 +57,6 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 76.3 | 62.8% | 2.38% | 2.72 |
 | 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 76.0 | 66.7% | 5.15% | 3.55 |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% | 2.7% | 2.68 |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 74.3 | 64.8% | 1.79% | 2.08 |
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 73.6 | 62.0% | 2.54% | 2.92 |
 | 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 73.1 | 66.7% | 3.79% | 2.38 |
 | 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.9 | 66.0% | 2.83% | 2.35 |
@@ -50,7 +68,6 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🟢 BULLISH | **CRWD** | Stochastic RSI Oversold | 67.9 | 58.3% | 2.03% | 2.03 |
 | 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 66.8 | 59.0% | 2.33% | 2.07 |
 | 🟢 BULLISH | **AMD** | Stochastic RSI Oversold | 66.0 | 59.6% | 2.31% | 2.17 |
-| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 65.9 | 64.3% | 0.95% | 1.69 |
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.5 | 59.9% | 1.47% | 1.72 |
 | 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.5 | 58.8% | 1.64% | 2.02 |
 | 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 63.3 | 62.2% | 0.85% | 1.52 |
@@ -85,11 +102,13 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **GC=F** | MFI — Overbought | 84.2 | 70.3% | 1.3% | 2.9 |
 | 🔴 BEARISH | **XRP-USD** | ATR — Volatility Surge (Down) | 84.0 | 80.0% | 15.04% | 4.83 |
 | 🔴 BEARISH | **VOO** | OBV — Distribution | 82.5 | 70.5% | 0.91% | 3.28 |
+| 🔴 BEARISH | **QQQ** | SMA 30 — Bearish Loss | 81.6 | 72.0% | 1.16% | 3.2 |
 | 🔴 BEARISH | **SPY** | Elder Force — Bearish | 81.0 | 67.5% | 0.82% | 3.18 |
 | 🔴 BEARISH | **AVGO** | Ulcer Index — Elevated | 79.5 | 70.8% | 3.42% | 3.88 |
 | 🔴 BEARISH | **CRWD** | Awesome Oscillator — Bearish Zero Line | 78.6 | 71.4% | 4.09% | 3.28 |
 | 🔴 BEARISH | **UPRO** | Parabolic SAR — Bearish | 77.7 | 75.0% | 2.13% | 2.02 |
-| 🔴 BEARISH | **XRP-USD** | Volume Spike + Drop | 76.5 | 64.5% | 12.45% | 3.63 |
+| 🔴 BEARISH | **IONQ** | OBV — Distribution | 77.3 | 64.0% | 7.58% | 3.46 |
+| 🔴 BEARISH | **XRP-USD** | Volume Spike + Drop | 76.5 | 64.5% | 12.46% | 3.63 |
 | 🔴 BEARISH | **TQQQ** | Vortex — Bearish | 76.2 | 62.5% | 2.79% | 2.67 |
 | 🔴 BEARISH | **SMH** | MACD Bearish Crossover | 76.1 | 72.7% | 1.65% | 2.0 |
 | 🔴 BEARISH | **UPRO** | Vortex — Bearish | 75.8 | 76.2% | 2.01% | 2.05 |
@@ -100,17 +119,16 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **MRVL** | VWAP Deviation — Overbought | 74.3 | 60.7% | 3.22% | 2.17 |
 | 🔴 BEARISH | **RKLB** | Vortex — Bearish | 74.1 | 54.5% | 7.58% | 2.64 |
 | 🔴 BEARISH | **TQQQ** | MACD Bearish Crossover | 74.1 | 70.0% | 1.84% | 2.11 |
-| 🔴 BEARISH | **XRP-USD** | Keltner — Upper Channel Touch | 72.5 | 58.3% | 13.46% | 3.84 |
-| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 69.8 | 61.8% | 2.01% | 2.26 |
+| 🔴 BEARISH | **XRP-USD** | Keltner — Upper Channel Touch | 72.5 | 58.3% | 13.47% | 3.84 |
+| 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 69.7 | 61.8% | 2.0% | 2.25 |
 | 🔴 BEARISH | **DOGE-USD** | RSI Overbought | 68.9 | 48.2% | 6.82% | 1.96 |
-| 🔴 BEARISH | **IWM** | Parabolic SAR — Bearish | 68.7 | 72.7% | 0.79% | 1.59 |
 | 🔴 BEARISH | **SOXL** | Vortex — Bearish | 68.2 | 59.1% | 5.51% | 2.41 |
 | 🔴 BEARISH | **SMH** | Vortex — Bearish | 67.2 | 68.8% | 1.3% | 1.79 |
 | 🔴 BEARISH | **GC=F** | Keltner — Upper Channel Touch | 66.1 | 65.5% | 0.85% | 1.59 |
 | 🔴 BEARISH | **XLK** | SMA 30 — Bearish Loss | 65.6 | 65.2% | 0.8% | 1.73 |
 | 🔴 BEARISH | **AVGO** | Chaikin Money Flow — Bearish | 65.3 | 60.7% | 1.94% | 1.74 |
 | 🔴 BEARISH | **XRP-USD** | VWAP Deviation — Overbought | 64.5 | 47.7% | 5.77% | 2.14 |
-| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 64.0 | 60.5% | 5.88% | 2.08 |
+| 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 63.9 | 60.5% | 5.86% | 2.06 |
 | 🔴 BEARISH | **AMD** | Chaikin Money Flow — Bearish | 63.5 | 62.9% | 1.89% | 2.13 |
 | 🔴 BEARISH | **CRWD** | EMA 9/21 — Bearish Cross | 62.8 | 57.1% | 1.97% | 1.76 |
 | 🔴 BEARISH | **ETH-USD** | RSI Overbought | 60.2 | 50.0% | 1.99% | 1.66 |
@@ -120,13 +138,14 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **RKLB** | MACD Bearish Crossover | 57.4 | 50.0% | 1.96% | 1.44 |
 | 🔴 BEARISH | **GC=F** | RSI Overbought | 57.1 | 63.5% | 0.61% | 1.03 |
 | 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 57.1 | 44.9% | 3.31% | 1.74 |
-| 🔴 BEARISH | **GC=F** | Fisher Transform — High Extreme | 56.7 | 64.4% | 0.58% | 1.0 |
+| 🔴 BEARISH | **GC=F** | Fisher Transform — High Extreme | 56.8 | 64.4% | 0.58% | 1.01 |
 | 🔴 BEARISH | **CRWD** | ADX Strong Trend — Bearish | 56.6 | 56.9% | 1.46% | 1.31 |
 | 🔴 BEARISH | **XBI** | Parabolic SAR — Bearish | 56.3 | 60.7% | 0.7% | 1.31 |
+| 🔴 BEARISH | **PLTR** | Williams %R — Overbought | 55.8 | 57.8% | 1.74% | 1.27 |
 | 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 55.7 | 54.5% | 2.26% | 1.52 |
-| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 54.1 | 57.9% | 1.72% | 1.16 |
-| 🔴 BEARISH | **LINK-USD** | Keltner — Upper Channel Touch | 53.9 | 54.2% | 2.71% | 1.51 |
-| 🔴 BEARISH | **BTC-USD** | RSI Overbought | 53.6 | 55.4% | 1.09% | 1.14 |
+| 🔴 BEARISH | **PLTR** | Stochastic (Full) — Overbought | 54.2 | 57.9% | 1.72% | 1.17 |
+| 🔴 BEARISH | **LINK-USD** | Keltner — Upper Channel Touch | 53.9 | 54.2% | 2.7% | 1.51 |
+| 🔴 BEARISH | **BTC-USD** | RSI Overbought | 53.6 | 55.4% | 1.08% | 1.14 |
 | 🔴 BEARISH | **TSLA** | Stochastic RSI Overbought | 53.1 | 52.8% | 1.45% | 1.37 |
 | 🔴 BEARISH | **RIOT** | Vortex — Bearish | 52.5 | 50.0% | 3.26% | 1.38 |
 | 🔴 BEARISH | **XRP-USD** | Stochastic RSI Overbought | 52.3 | 46.5% | 2.94% | 1.47 |
@@ -135,6 +154,15 @@ Above-threshold signals dropped because another strategy on the same ticker fire
 | 🔴 BEARISH | **NVDA** | SMA 30 — Bearish Loss | 51.9 | 59.3% | 0.74% | 0.96 |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.7 | 57.6% | 1.4% | 1.0 |
 | 🔴 BEARISH | **NVDA** | Chaikin Money Flow — Bearish | 50.2 | 55.2% | 0.9% | 1.18 |
+
+## ⏭ Skipped — same ticker already notified
+
+Above-threshold signals dropped because another strategy on the same ticker fired within the last 6h ticker-cooldown window.
+
+| Direction | Ticker | Strategy | Confidence | Win Rate | Avg Return (5d) | Sharpe |
+|---|---|---|---|---|---|---|
+| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 65.9 | 64.3% | 0.95% | 1.69 |
+| 🔴 BEARISH | **IWM** | Parabolic SAR — Bearish | 68.7 | 72.7% | 0.79% | 1.59 |
 
 ---
 *Not financial advice. Backtests use historical data.*
