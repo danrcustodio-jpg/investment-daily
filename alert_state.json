@@ -191,14 +191,14 @@
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 1440,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-24T13:43:01.046837+00:00",
-      "last_change_at": "2026-08-21T16:24:03.966234+00:00"
+      "last_change_at": "2026-08-24T14:32:48.884405+00:00"
     },
     "IONQ": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-24T13:43:01.195185+00:00",
-      "last_change_at": "2026-08-24T13:42:56.834599+00:00"
+      "last_change_at": "2026-08-24T14:32:48.884495+00:00"
     },
     "META": {
       "cadence_min": 1440,
@@ -296,9 +296,9 @@
       "last_change_at": "2026-08-17T15:47:48.744513+00:00"
     },
     "ETH-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-24T13:43:00.704193+00:00",
-      "last_change_at": "2026-08-24T13:42:56.834553+00:00"
+      "last_change_at": "2026-08-24T14:32:48.884322+00:00"
     },
     "IWM": {
       "cadence_min": 1440,
@@ -366,9 +366,9 @@
       "last_change_at": "2026-08-13T18:15:03.397295+00:00"
     },
     "BTC-USD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-24T13:42:59.426083+00:00",
-      "last_change_at": "2026-08-24T13:42:56.834435+00:00"
+      "last_change_at": "2026-08-24T14:32:48.884232+00:00"
     },
     "COIN": {
       "cadence_min": 1440,
