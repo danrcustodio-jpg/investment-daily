@@ -708,23 +708,32 @@
       "prices": {
         "SPY": 765.719970703125
       }
+    },
+    {
+      "date": "2026-08-24",
+      "total_value": 198179.2,
+      "portfolio_pnl": 2.154,
+      "benchmark_pnl": 7.788,
+      "prices": {
+        "SPY": 762.9099731445312
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 1 minor bearish signal(s), max confidence 50.2.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 2 minor bearish signal(s), max confidence 51.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -739,7 +748,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-24T13:31:48.293846",
+  "recommendations_updated": "2026-08-24T13:43:40.897221",
   "trade_log": [
     {
       "action": "SELL",

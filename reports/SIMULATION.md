@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 108** &nbsp;·&nbsp; Updated: Aug 24 2026 01:31 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 108** &nbsp;·&nbsp; Updated: Aug 24 2026 01:43 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.15%** &nbsp; ($+4,179) |
-| SPY Benchmark | +7.94% &nbsp; ($+15,407 if 100% SPY) |
-| Alpha vs SPY | **-5.79%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.79% &nbsp; ($+15,111 if 100% SPY) |
+| Alpha vs SPY | **-5.63%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,179 |
 
@@ -96,26 +96,27 @@
 | 2026-08-19 | 📈 +2.09% | +8.66% | ❌ -6.56% |
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
+| 2026-08-24 | 📈 +2.15% | +7.79% | ❌ -5.63% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 24 2026 01:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 24 2026 01:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.5, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 1 minor bearish signal(s), max confidence 50.2.
+**Signal Analysis:** Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 2 minor bearish signal(s), max confidence 51.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
