@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 108** &nbsp;·&nbsp; Updated: Aug 24 2026 05:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 108** &nbsp;·&nbsp; Updated: Aug 24 2026 06:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.15%** &nbsp; ($+4,179) |
-| SPY Benchmark | +7.83% &nbsp; ($+15,190 if 100% SPY) |
-| Alpha vs SPY | **-5.68%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.04% &nbsp; ($+15,596 if 100% SPY) |
+| Alpha vs SPY | **-5.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,179 |
 
@@ -96,17 +96,23 @@
 | 2026-08-19 | 📈 +2.09% | +8.66% | ❌ -6.56% |
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
-| 2026-08-24 | 📈 +2.15% | +7.83% | ❌ -5.67% |
+| 2026-08-24 | 📈 +2.15% | +8.04% | ❌ -5.88% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 24 2026 05:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 24 2026 06:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 78.5, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.5, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
+
+### 🔍 NEW OPPORTUNITY — AMZN
+
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 78.5, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdown -39.78%, Sharpe 2.45. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -117,12 +123,6 @@ _Evaluated Aug 24 2026 05:55 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
 **Signal Analysis:** Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 2 minor bearish signal(s), max confidence 51.9.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLK
-
-**Signal Analysis:** Williams %R — Oversold — Score 83.5, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. 1 minor bearish signal(s), max confidence 65.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
