@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 02:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 03:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.17%** &nbsp; ($+4,203) |
-| SPY Benchmark | +8.02% &nbsp; ($+15,549 if 100% SPY) |
-| Alpha vs SPY | **-5.85%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.10% &nbsp; ($+15,722 if 100% SPY) |
+| Alpha vs SPY | **-5.94%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,203 |
 
@@ -97,21 +97,21 @@
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
-| 2026-08-25 | 📈 +2.17% | +8.01% | ❌ -5.84% |
+| 2026-08-25 | 📈 +2.17% | +8.10% | ❌ -5.93% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 25 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 25 2026 03:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 74.9, Win Rate 64.7%, Avg 5d Return 4.97%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.7, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -2… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 74.9, Win Rate 64.7%, Avg 5d Return 4.97%, Max Drawdown -30.86%, Sharpe 3.45. 1 minor bearish signal(s), max confidence 47.8.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 2 minor bearish signal(s), max confidence 51.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
@@ -123,7 +123,7 @@ _Evaluated Aug 25 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Williams %R — Oversold — Score 83.7, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -29.23%, Sharpe 2.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
