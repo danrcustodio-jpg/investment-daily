@@ -722,18 +722,18 @@
       "date": "2026-08-25",
       "total_value": 198203.31,
       "portfolio_pnl": 2.167,
-      "benchmark_pnl": 8.1,
+      "benchmark_pnl": 8.17,
       "prices": {
-        "SPY": 765.1199951171875
+        "SPY": 765.619873046875
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
+      "ticker": "IONQ",
       "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 83.6, Win Rate 72.7%, Avg 5d Return 2.36%, Max Drawdown -9.39%, Sharpe 3.74. 2 minor bearish signal(s), max confidence 51.7.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -757,7 +757,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-25T15:34:49.151778",
+  "recommendations_updated": "2026-08-25T16:26:28.974798",
   "trade_log": [
     {
       "action": "SELL",
