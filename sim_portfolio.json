@@ -722,27 +722,27 @@
       "date": "2026-08-25",
       "total_value": 198203.31,
       "portfolio_pnl": 2.167,
-      "benchmark_pnl": 8.094,
+      "benchmark_pnl": 8.062,
       "prices": {
-        "SPY": 765.0800170898438
+        "SPY": 764.8499755859375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CRWD",
+      "ticker": "IONQ",
       "priority": "high",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawdown -4.37%, Sharpe 6.2. 1 minor bearish signal(s), max confidence 56.6.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "QQQ",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -28.44%, Sharpe 2.22. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -757,7 +757,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-25T17:54:31.754622",
+  "recommendations_updated": "2026-08-25T18:25:53.811506",
   "trade_log": [
     {
       "action": "SELL",
