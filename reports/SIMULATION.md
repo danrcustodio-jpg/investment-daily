@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 01:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 01:42 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.17%** &nbsp; ($+4,203) |
-| SPY Benchmark | +7.87% &nbsp; ($+15,261 if 100% SPY) |
-| Alpha vs SPY | **-5.70%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.28% &nbsp; ($+16,062 if 100% SPY) |
+| Alpha vs SPY | **-6.11%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,203 |
 
@@ -97,32 +97,33 @@
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
+| 2026-08-25 | 📈 +2.17% | +8.29% | ❌ -6.12% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 25 2026 01:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 25 2026 01:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 79.7, Win Rate 70.0%, Avg 5d Return 1.89%, Max Drawdown -8.66%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** OBV — Accumulation — Score 79.7, Win Rate 70.0%, Avg 5d Return 1.89%, Max Drawdown -8.66%, Sharpe 3.14. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.27%, Max Drawdown -10… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -2… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 78.8, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.27%, Max Drawdown -10.45%, Sharpe 3.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 84.6, Win Rate 79.3%, Avg 5d Return 4.36%, Max Drawdown -19.07%, Sharpe 5.25. 2 minor bearish signal(s), max confidence 51.9.
+**Signal Analysis:** Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -28.44%, Sharpe 2.22. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -29.23%, Sharpe 2.72. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
