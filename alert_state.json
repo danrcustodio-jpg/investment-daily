@@ -251,9 +251,9 @@
       "last_change_at": "2026-08-17T14:18:40.332154+00:00"
     },
     "NVDA": {
-      "cadence_min": 30,
+      "cadence_min": 15,
       "last_fetch_at": "2026-08-25T17:53:49.926597+00:00",
-      "last_change_at": "2026-08-25T18:25:28.920612+00:00"
+      "last_change_at": "2026-08-25T19:07:16.232948+00:00"
     },
     "PLTR": {
       "cadence_min": 15,
@@ -311,9 +311,9 @@
       "last_change_at": "2026-08-19T18:20:25.258869+00:00"
     },
     "ARKK": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-08-25T17:53:37.439747+00:00",
-      "last_change_at": "2026-08-25T18:25:28.920489+00:00"
+      "last_change_at": "2026-08-25T19:07:16.232847+00:00"
     },
     "SOL-USD": {
       "cadence_min": 1440,
