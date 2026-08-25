@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 05:04 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 05:54 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.17%** &nbsp; ($+4,203) |
-| SPY Benchmark | +8.15% &nbsp; ($+15,807 if 100% SPY) |
-| Alpha vs SPY | **-5.98%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.09% &nbsp; ($+15,703 if 100% SPY) |
+| Alpha vs SPY | **-5.93%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,203 |
 
@@ -97,27 +97,27 @@
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
-| 2026-08-25 | 📈 +2.17% | +8.15% | ❌ -5.98% |
+| 2026-08-25 | 📈 +2.17% | +8.09% | ❌ -5.93% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 25 2026 05:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 25 2026 05:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Keltner — Lower Channel Touch — Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -2… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.7, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
+
+### 🔍 NEW OPPORTUNITY — CRWD
+
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawdown -4.37%, Sharpe 6.2. 1 minor bearish signal(s), max confidence 56.6.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
 **Signal Analysis:** OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — QQQ
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -28.44%, Sharpe 2.22. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
