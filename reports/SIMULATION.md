@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 01:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 02:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.17%** &nbsp; ($+4,203) |
-| SPY Benchmark | +8.28% &nbsp; ($+16,062 if 100% SPY) |
-| Alpha vs SPY | **-6.11%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.02% &nbsp; ($+15,549 if 100% SPY) |
+| Alpha vs SPY | **-5.85%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,203 |
 
@@ -97,21 +97,21 @@
 | 2026-08-20 | 📈 +2.10% | +7.74% | ❌ -5.64% |
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
-| 2026-08-25 | 📈 +2.17% | +8.29% | ❌ -6.12% |
+| 2026-08-25 | 📈 +2.17% | +8.01% | ❌ -5.84% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 25 2026 01:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 25 2026 02:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.27%, Max Drawdown -10… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 74.9, Win Rate 64.7%, Avg 5d Return 4.97%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 83.7, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23… |
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.27%, Max Drawdown -10.45%, Sharpe 3.17. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 74.9, Win Rate 64.7%, Avg 5d Return 4.97%, Max Drawdown -30.86%, Sharpe 3.45. 1 minor bearish signal(s), max confidence 47.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
@@ -123,7 +123,7 @@ _Evaluated Aug 25 2026 01:42 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -29.23%, Sharpe 2.72. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 83.7, Win Rate 76.6%, Avg 5d Return 2.33%, Max Drawdown -23.33%, Sharpe 3.56. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
