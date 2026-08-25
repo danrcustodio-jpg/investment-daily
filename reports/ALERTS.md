@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday August 25, 2026 at 08:53 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday August 25, 2026 at 09:19 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -56,8 +56,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **CRWD** | Stochastic (Full) — Oversold | 54.4 | 53.9% | -39.39% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AMZN** | Stochastic RSI Oversold | 53.6 | 55.7% | -55.98% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **CRWD** | CCI — Extreme Oversold | 53.4 | 56.6% | -87.02% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 53.1 | 42.3% | -90.7% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **MRVL** | CCI — Extreme Oversold | 53.0 | 58.3% | -98.81% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 53.0 | 42.3% | -90.7% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 52.1 | 59.3% | -56.86% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 52.0 | 59.3% | -56.53% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 51.6 | 57.2% | -82.42% | 🔵 In cooldown (≤6h) |
@@ -110,8 +110,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **GOOGL** | Elder Force — Bearish | 62.3 | 63.6% | -32.53% | 🟡 Available |
 | 🔴 BEARISH | **IWM** | Vortex — Bearish | 62.0 | 62.5% | -9.25% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 61.9 | 59.1% | -67.87% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **BTC-USD** | RSI Overbought | 61.7 | 58.7% | -36.31% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **ETH-USD** | RSI Overbought | 61.7 | 50.8% | -28.27% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **BTC-USD** | RSI Overbought | 61.8 | 58.7% | -36.31% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **ETH-USD** | RSI Overbought | 61.5 | 50.8% | -28.27% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 60.4 | 62.8% | -40.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 59.5 | 61.1% | -37.32% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 58.0 | 45.7% | -47.9% | 🔵 In cooldown (≤6h) |
@@ -123,7 +123,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **ARM** | Chaikin Money Flow — Bearish | 54.8 | 54.0% | -68.3% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **AMZN** | Chaikin Money Flow — Bearish | 53.8 | 52.7% | -48.44% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **UPRO** | PPO — Bearish Cross | 53.3 | 61.1% | -21.57% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **XRP-USD** | Stochastic RSI Overbought | 52.4 | 46.5% | -89.78% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **XRP-USD** | Stochastic RSI Overbought | 52.3 | 46.5% | -89.78% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **ARKK** | Keltner — Upper Channel Touch | 51.7 | 59.2% | -39.55% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **BTC-USD** | Keltner — Upper Channel Touch | 51.6 | 53.4% | -38.65% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **PLTR** | VWAP Deviation — Overbought | 50.8 | 57.8% | -85.7% | 🔵 In cooldown (≤6h) |
@@ -134,7 +134,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 48.6 | 59.4% | -78.86% | 🟡 Available |
 | 🔴 BEARISH | **CL=F** | Elder Force — Bearish | 48.1 | 55.6% | -30.47% | 🟡 Available |
 | 🔴 BEARISH | **ARKK** | VWAP Deviation — Overbought | 46.2 | 55.8% | -62.75% | 🟡 Available |
-| 🔴 BEARISH | **SOL-USD** | RSI Overbought | 46.2 | 56.1% | -43.41% | 🟡 Available |
+| 🔴 BEARISH | **SOL-USD** | RSI Overbought | 46.1 | 56.1% | -43.41% | 🟡 Available |
 | 🔴 BEARISH | **XBI** | VWAP Deviation — Overbought | 45.5 | 56.7% | -30.64% | 🟡 Available |
 
 ---
