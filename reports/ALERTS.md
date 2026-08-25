@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday August 25, 2026 at 09:19 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday August 25, 2026 at 09:51 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -111,7 +111,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **IWM** | Vortex — Bearish | 62.0 | 62.5% | -9.25% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 61.9 | 59.1% | -67.87% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **BTC-USD** | RSI Overbought | 61.8 | 58.7% | -36.31% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **ETH-USD** | RSI Overbought | 61.5 | 50.8% | -28.27% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **ETH-USD** | RSI Overbought | 61.7 | 50.8% | -28.27% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Stochastic (Full) — Overbought | 60.4 | 62.8% | -40.31% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Williams %R — Overbought | 59.5 | 61.1% | -37.32% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **LINK-USD** | Fisher Transform — High Extreme | 58.0 | 45.7% | -47.9% | 🔵 In cooldown (≤6h) |
@@ -133,8 +133,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **GOOGL** | OBV — Distribution | 50.0 | 58.6% | -14.28% | 🟡 Available |
 | 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 48.6 | 59.4% | -78.86% | 🟡 Available |
 | 🔴 BEARISH | **CL=F** | Elder Force — Bearish | 48.1 | 55.6% | -30.47% | 🟡 Available |
+| 🔴 BEARISH | **SOL-USD** | RSI Overbought | 46.3 | 56.1% | -43.41% | 🟡 Available |
 | 🔴 BEARISH | **ARKK** | VWAP Deviation — Overbought | 46.2 | 55.8% | -62.75% | 🟡 Available |
-| 🔴 BEARISH | **SOL-USD** | RSI Overbought | 46.1 | 56.1% | -43.41% | 🟡 Available |
 | 🔴 BEARISH | **XBI** | VWAP Deviation — Overbought | 45.5 | 56.7% | -30.64% | 🟡 Available |
 
 ---
