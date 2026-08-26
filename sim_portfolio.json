@@ -726,9 +726,27 @@
       "prices": {
         "SPY": 765.9099731445312
       }
+    },
+    {
+      "date": "2026-08-26",
+      "total_value": 198227.42,
+      "portfolio_pnl": 2.179,
+      "benchmark_pnl": 8.272,
+      "prices": {
+        "SPY": 766.3400268554688
+      }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "AMZN",
+      "priority": "high",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 78.7, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdown -39.78%, Sharpe 2.45. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "MARA",
@@ -740,24 +758,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "QQQ",
+      "ticker": "TQQQ",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 76.4, Win Rate 67.5%, Avg 5d Return 1.66%, Max Drawdown -25.87%, Sharpe 2.77. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "VOO",
-      "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.4, Win Rate 65.9%, Avg 5d Return 1.16%, Max Drawdown -17.21%, Sharpe 2.63. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 75.2, Win Rate 72.0%, Avg 5d Return 2.17%, Max Drawdown -15.24%, Sharpe 2.45. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-26T13:35:34.328538",
+  "recommendations_updated": "2026-08-26T13:46:48.290167",
   "trade_log": [
     {
       "action": "SELL",
