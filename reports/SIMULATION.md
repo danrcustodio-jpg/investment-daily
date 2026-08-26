@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 110** &nbsp;·&nbsp; Updated: Aug 26 2026 01:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 110** &nbsp;·&nbsp; Updated: Aug 26 2026 02:36 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.18%** &nbsp; ($+4,227) |
-| SPY Benchmark | +8.27% &nbsp; ($+16,048 if 100% SPY) |
-| Alpha vs SPY | **-6.09%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.09% &nbsp; ($+15,703 if 100% SPY) |
+| Alpha vs SPY | **-5.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,227 |
 
@@ -98,21 +98,21 @@
 | 2026-08-21 | 📈 +2.12% | +8.19% | ❌ -6.07% |
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
 | 2026-08-25 | 📈 +2.17% | +8.21% | ❌ -6.04% |
-| 2026-08-26 | 📈 +2.18% | +8.27% | ❌ -6.09% |
+| 2026-08-26 | 📈 +2.18% | +8.10% | ❌ -5.92% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 26 2026 01:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 26 2026 02:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 78.7, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 78.7, Win Rate 67.7%, Avg 5d Return 1.78%, Max Drawdown -8.66%,… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | EMA 9/21 — Bullish Cross — Score 86.7, Win Rate 77.8%, Avg 5d Return 5.51%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Vortex — Bullish — Score 75.2, Win Rate 72.0%, Avg 5d Return 2.17%, Max Drawdown -15.24%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 83.0, Win Rate 77.5%, Avg 5d Return 3.18%, Max Drawdown -20… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 78.7, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdown -39.78%, Sharpe 2.45. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 78.7, Win Rate 67.7%, Avg 5d Return 1.78%, Max Drawdown -8.66%, Sharpe 2.97. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
@@ -122,9 +122,9 @@ _Evaluated Aug 26 2026 01:46 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — TQQQ
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Vortex — Bullish — Score 75.2, Win Rate 72.0%, Avg 5d Return 2.17%, Max Drawdown -15.24%, Sharpe 2.45. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 83.0, Win Rate 77.5%, Avg 5d Return 3.18%, Max Drawdown -20.04%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 68.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

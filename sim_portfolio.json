@@ -731,18 +731,18 @@
       "date": "2026-08-26",
       "total_value": 198227.42,
       "portfolio_pnl": 2.179,
-      "benchmark_pnl": 8.272,
+      "benchmark_pnl": 8.096,
       "prices": {
-        "SPY": 766.3400268554688
+        "SPY": 765.094970703125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 78.7, Win Rate 66.2%, Avg 5d Return 2.14%, Max Drawdown -39.78%, Sharpe 2.45. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 78.7, Win Rate 67.7%, Avg 5d Return 1.78%, Max Drawdown -8.66%, Sharpe 2.97. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -758,15 +758,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TQQQ",
+      "ticker": "SMH",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 75.2, Win Rate 72.0%, Avg 5d Return 2.17%, Max Drawdown -15.24%, Sharpe 2.45. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 83.0, Win Rate 77.5%, Avg 5d Return 3.18%, Max Drawdown -20.04%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 68.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-26T13:46:48.290167",
+  "recommendations_updated": "2026-08-26T14:36:12.560943",
   "trade_log": [
     {
       "action": "SELL",
