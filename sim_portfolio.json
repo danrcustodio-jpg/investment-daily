@@ -731,9 +731,9 @@
       "date": "2026-08-26",
       "total_value": 198227.42,
       "portfolio_pnl": 2.179,
-      "benchmark_pnl": 8.096,
+      "benchmark_pnl": 8.099,
       "prices": {
-        "SPY": 765.094970703125
+        "SPY": 765.114990234375
       }
     }
   ],
@@ -742,7 +742,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AAPL",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 78.7, Win Rate 67.7%, Avg 5d Return 1.78%, Max Drawdown -8.66%, Sharpe 2.97. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 78.8, Win Rate 67.7%, Avg 5d Return 1.79%, Max Drawdown -8.66%, Sharpe 2.99. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -758,15 +758,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SMH",
+      "ticker": "VOO",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 83.0, Win Rate 77.5%, Avg 5d Return 3.18%, Max Drawdown -20.04%, Sharpe 3.99. 1 minor bearish signal(s), max confidence 68.2.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.4, Win Rate 65.9%, Avg 5d Return 1.16%, Max Drawdown -17.21%, Sharpe 2.63. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-26T14:36:12.560943",
+  "recommendations_updated": "2026-08-26T16:11:42.699052",
   "trade_log": [
     {
       "action": "SELL",
