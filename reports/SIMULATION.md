@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 109** &nbsp;·&nbsp; Updated: Aug 25 2026 09:51 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 110** &nbsp;·&nbsp; Updated: Aug 26 2026 01:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.17%** &nbsp; ($+4,203) |
-| SPY Benchmark | +8.21% &nbsp; ($+15,930 if 100% SPY) |
-| Alpha vs SPY | **-6.04%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.18%** &nbsp; ($+4,227) |
+| SPY Benchmark | +8.12% &nbsp; ($+15,757 if 100% SPY) |
+| Alpha vs SPY | **-5.94%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,203 |
+| Current Value | $198,227 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,628 | +1.34% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,652 | +1.36% |
 
 ## Daily Equity Curve
 
@@ -101,29 +101,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 25 2026 09:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 26 2026 01:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | EMA 9/21 — Bullish Cross — Score 86.7, Win Rate 77.8%, Avg 5d Return 5.51%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **QQQ** | Stochastic (Full) — Oversold — Score 76.4, Win Rate 67.5%, Avg 5d Return 1.66%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **VOO** | Williams %R — Oversold — Score 77.4, Win Rate 65.9%, Avg 5d Return 1.16%, Max Drawdown -17… |
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — MARA
 
-**Signal Analysis:** OBV — Accumulation — Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 86.7, Win Rate 77.8%, Avg 5d Return 5.51%, Max Drawdown -19.15%, Sharpe 3.83. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — QQQ
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -28.44%, Sharpe 2.22. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 76.4, Win Rate 67.5%, Avg 5d Return 1.66%, Max Drawdown -25.87%, Sharpe 2.77. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLK
+### 🔍 NEW OPPORTUNITY — VOO
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -29.23%, Sharpe 2.72. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 77.4, Win Rate 65.9%, Avg 5d Return 1.16%, Max Drawdown -17.21%, Sharpe 2.63. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

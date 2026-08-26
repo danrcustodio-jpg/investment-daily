@@ -731,9 +731,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "MARA",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 80.0, Win Rate 76.0%, Avg 5d Return 6.29%, Max Drawdown -22.65%, Sharpe 3.34. No conflicting bearish signals.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 86.7, Win Rate 77.8%, Avg 5d Return 5.51%, Max Drawdown -19.15%, Sharpe 3.83. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -742,22 +742,22 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "QQQ",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 73.2, Win Rate 63.2%, Avg 5d Return 1.21%, Max Drawdown -28.44%, Sharpe 2.22. No conflicting bearish signals.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 76.4, Win Rate 67.5%, Avg 5d Return 1.66%, Max Drawdown -25.87%, Sharpe 2.77. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLK",
+      "ticker": "VOO",
       "priority": "high",
-      "reason": "Stochastic RSI Oversold \u2014 Score 76.7, Win Rate 66.7%, Avg 5d Return 1.65%, Max Drawdown -29.23%, Sharpe 2.72. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 77.4, Win Rate 65.9%, Avg 5d Return 1.16%, Max Drawdown -17.21%, Sharpe 2.63. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-25T21:51:25.058172",
+  "recommendations_updated": "2026-08-26T13:35:34.328538",
   "trade_log": [
     {
       "action": "SELL",

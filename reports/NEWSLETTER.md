@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, August 25, 2026
-Generated at 01:29 PM
+# Daily Newsletter — Wednesday, August 26, 2026
+Generated at 01:35 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 129 total &nbsp;·&nbsp; 🟢 65 Bullish &nbsp;·&nbsp; 🔴 64 Bearish
+**Strategy Signals:** 115 total &nbsp;·&nbsp; 🟢 78 Bullish &nbsp;·&nbsp; 🔴 37 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $82.29 | 📉 -3.20% |
-| **SOL-USD** | Solana | $96.80 | 📉 -1.79% |
-| **XLK** | Tech (XLK) | $180.05 | 📉 -1.78% |
-| **XLF** | Financials (XLF) | $58.22 | 📈 +1.29% |
-| **SI=F** | Silver | $67.71 | 📉 -1.22% |
-| **^TNX** | 10-Year Treasury Yield | $4.65 | 📉 -1.21% |
-| **^TYX** | 30-Year Treasury Yield | $5.18 | 📉 -0.97% |
-| **ETH-USD** | Ethereum | $2457.75 | 📉 -0.97% |
-| **GC=F** | Gold | $4682.40 | 📈 +0.90% |
-| **XLE** | Energy (XLE) | $63.11 | 📉 -0.83% |
+| **NG=F** | Natural Gas | $2.88 | 📈 +3.79% |
+| **CL=F** | Crude Oil | $80.68 | 📉 -2.04% |
+| **^VIX** | VIX (Fear Index) | $15.72 | 📈 +1.75% |
+| **SI=F** | Silver | $68.15 | 📉 -0.70% |
+| **XLE** | Energy (XLE) | $61.65 | 📉 -0.66% |
+| **GC=F** | Gold | $4665.00 | 📈 +0.58% |
+| **XLI** | Industrials (XLI) | $179.33 | 📈 +0.52% |
+| **^RUT** | Russell 2000 | $3010.02 | 📈 +0.50% |
+| **XLY** | Consumer Disc. (XLY) | $117.49 | 📉 -0.39% |
+| **XLV** | Healthcare (XLV) | $174.63 | 📉 -0.37% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | OBV — Accumulation | 85.6 | 77.8% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 84.6 | 79.3% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 83.5 | 76.6% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.6 | 77.5% |
-| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 79.7 | 70.0% |
-| 🟢 BULLISH | **GOOGL** | SMA 30 — Bullish Reclaim | 78.8 | 69.2% |
-| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 78.5 | 66.2% |
-| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 77.3 | 65.9% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 76.9 | 65.1% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 76.3 | 62.8% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 76.0 | 66.7% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 75.3 | 62.7% |
+| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 87.0 | 82.6% |
+| 🟢 BULLISH | **MARA** | EMA 9/21 — Bullish Cross | 86.7 | 77.8% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 84.8 | 79.3% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.1 | 74.8% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 81.6 | 73.3% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 80.3 | 73.5% |
+| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 78.7 | 66.2% |
+| 🟢 BULLISH | **XLK** | Stochastic (Full) — Oversold | 78.1 | 68.8% |
+| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 77.4 | 65.9% |
+| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 77.1 | 65.1% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 76.8 | 66.7% |
+| 🟢 BULLISH | **QQQ** | Stochastic (Full) — Oversold | 76.4 | 67.5% |
 
 ## Latest News
 
-- [Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war](https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html) — *CNBC Markets*
-- [NuScale unveils nuclear-specific AI tools for engineering, knowledge management](https://seekingalpha.com/news/4636591-nuscale-unveils-nuclear-specific-ai-tools-for-engineering-knowledge-management?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Melrose Industries jumps as GKN Aerospace targets full Garden Grove production](https://seekingalpha.com/news/4636603-melrose-industries-jumps-as-gkn-aerospace-targets-full-garden-grove-production?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [CBAK Energy lands $96M India battery cell order; stock price in focus](https://seekingalpha.com/news/4636600-cbak-energy-lands-96m-india-battery-cell-order-stock-price-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Eli Lilly shines as healthcare giants struggle on growth metrics](https://seekingalpha.com/news/4636598-eli-lilly-shines-as-healthcare-giants-struggle-on-growth-metrics?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up](https://finance.yahoo.com/markets/stocks/articles/amd-intel-rise-3-strong-131800376.html) — *Yahoo Finance*
-- [Salesforce options traders target $190-$220 range into earnings](https://seekingalpha.com/news/4636595-salesforce-options-traders-target-190-220-range-into-earnings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?](https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories) — *MarketWatch*
-- [Gold wavers as investors await U.S. inflation, Warsh speech](https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364) — *Investing.com*
-- [Axos Financial announces NYSE Texas dual listing](https://seekingalpha.com/news/4636597-axos-financial-announces-nyse-texas-dual-listing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh](https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html) — *CNBC Markets*
+- [Medical device maker Boston Scientific is being hit by a cyberattack. The shares are falling](https://www.cnbc.com/2026/08/26/medical-device-maker-boston-scientific-is-being-hit-by-a-cyber-attack-the-shares-are-falling.html) — *CNBC Markets*
+- [Meta settles social media addiction trial with California, other states](https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html) — *CNBC Markets*
+- [Starbucks Workers United calls for boycott to kick off pumpkin spice latte launch — update](https://seekingalpha.com/news/4636733-starbucks-workers-united-calls-for-boycott-to-kick-off-pumpkin-spice-latte-launch?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [‘The relationship quickly deteriorated’: My friend’s lawyer settled his injury case without his consent. What can he do?](https://www.marketwatch.com/story/the-relationship-quickly-deteriorated-my-friends-lawyer-settled-his-injury-case-without-his-consent-what-can-he-do-a289fee9?mod=mw_rss_topstories) — *MarketWatch*
+- [Canada unveils retaliatory tariffs on about $20 billion of U.S. goods](https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html) — *CNBC Markets*
+- [Cloudflare vs. Palo Alto Networks: Which Cybersecurity Stock Is the Better Buy?](https://finance.yahoo.com/markets/stocks/articles/cloudflare-vs-palo-alto-networks-132000201.html) — *Yahoo Finance*
+- [Rezolve AI Slides 4% on Profit-Taking After a 22% Google Cloud Rally, Alphabet Holds Flat](https://finance.yahoo.com/markets/stocks/articles/rezolve-ai-slides-4-profit-131836077.html) — *Yahoo Finance*
+- [SAP in focus as UBS downgrades amid lack of AI catalysts](https://seekingalpha.com/news/4636989-sap-in-focus-as-ubs-downgrades-amid-lack-of-ai-catalysts?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [KNOT Offshore Partners to buy Hedda Knutsen tanker, completes $225M loan refinancing](https://seekingalpha.com/news/4636986-knot-offshore-partners-to-buy-hedda-knutsen-tanker-completes-225m-loan-refinancing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
