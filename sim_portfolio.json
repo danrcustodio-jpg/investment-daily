@@ -740,33 +740,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AAPL",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 78.8, Win Rate 67.7%, Avg 5d Return 1.79%, Max Drawdown -8.66%, Sharpe 3.0. No conflicting bearish signals.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 80.0, Win Rate 78.6%, Avg 5d Return 5.16%, Max Drawdown -22.0%, Sharpe 2.33. 1 minor bearish signal(s), max confidence 47.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MARA",
+      "ticker": "UPRO",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 82.0, Win Rate 70.0%, Avg 5d Return 4.82%, Max Drawdown -19.15%, Sharpe 3.45. No conflicting bearish signals.",
+      "reason": "Elder Force \u2014 Bullish \u2014 Score 73.7, Win Rate 68.3%, Avg 5d Return 1.74%, Max Drawdown -17.45%, Sharpe 2.25. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "TQQQ",
+      "ticker": "XRP-USD",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 75.2, Win Rate 72.0%, Avg 5d Return 2.17%, Max Drawdown -15.24%, Sharpe 2.45. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "reason": "ATR \u2014 Volatility Surge (Up) \u2014 Score 70.9, Win Rate 50.0%, Avg 5d Return 7.65%, Max Drawdown -26.48%, Sharpe 3.16. 3 minor bearish signal(s), max confidence 72.5.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-26T23:53:07.396428",
+  "recommendations_updated": "2026-08-27T22:30:25.647434",
   "trade_log": [
     {
       "action": "SELL",
