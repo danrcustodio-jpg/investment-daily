@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 111** &nbsp;·&nbsp; Updated: Aug 27 2026 10:30 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 111** &nbsp;·&nbsp; Updated: Aug 27 2026 10:43 PM
 
 ## Performance Summary
 
@@ -99,16 +99,17 @@
 | 2026-08-24 | 📈 +2.15% | +7.87% | ❌ -5.71% |
 | 2026-08-25 | 📈 +2.17% | +8.21% | ❌ -6.04% |
 | 2026-08-26 | 📈 +2.18% | +8.23% | ❌ -6.06% |
+| 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 27 2026 10:30 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 27 2026 10:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 80.0, Win Rate 78.6%, Avg 5d Return 5.16%, Max Drawdown -22.0%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 73.7, Win Rate 68.3%, Avg 5d Return 1.74%, Max Drawdown -17.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.65%, Max Drawdow… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.67%, Max Drawdow… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -124,7 +125,7 @@ _Evaluated Aug 27 2026 10:30 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.65%, Max Drawdown -26.48%, Sharpe 3.16. 3 minor bearish signal(s), max confidence 72.5.
+**Signal Analysis:** ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.67%, Max Drawdown -26.35%, Sharpe 3.17. 3 minor bearish signal(s), max confidence 72.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
