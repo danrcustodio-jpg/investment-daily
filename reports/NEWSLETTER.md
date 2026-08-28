@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, August 27, 2026
-Generated at 10:30 PM
+# Daily Newsletter — Friday, August 28, 2026
+Generated at 10:33 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 109 total &nbsp;·&nbsp; 🟢 70 Bullish &nbsp;·&nbsp; 🔴 39 Bearish
+**Strategy Signals:** 106 total &nbsp;·&nbsp; 🟢 49 Bullish &nbsp;·&nbsp; 🔴 57 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SOL-USD** | Solana | $109.29 | 📈 +6.97% |
-| **^VIX** | VIX (Fear Index) | $14.51 | 📉 -4.60% |
-| **XLK** | Tech (XLK) | $188.61 | 📈 +3.16% |
-| **SI=F** | Silver | $70.12 | 📈 +3.13% |
-| **NG=F** | Natural Gas | $2.89 | 📈 +1.83% |
-| **CL=F** | Crude Oil | $83.55 | 📈 +1.61% |
-| **^IXIC** | NASDAQ | $26541.35 | 📈 +1.57% |
-| **BTC-USD** | Bitcoin | $80221.44 | 📈 +1.51% |
-| **GC=F** | Gold | $4660.30 | 📈 +1.35% |
-| **XLV** | Healthcare (XLV) | $171.58 | 📉 -1.13% |
+| **SOL-USD** | Solana | $103.78 | 📉 -4.97% |
+| **SI=F** | Silver | $67.09 | 📉 -3.37% |
+| **BTC-USD** | Bitcoin | $77598.05 | 📉 -3.31% |
+| **ETH-USD** | Ethereum | $2434.46 | 📉 -3.03% |
+| **GC=F** | Gold | $4504.10 | 📉 -2.29% |
+| **XLK** | Tech (XLK) | $185.69 | 📉 -1.55% |
+| **^IRX** | 3-Month T-Bill | $3.73 | 📈 +1.41% |
+| **^RUT** | Russell 2000 | $2972.37 | 📉 -1.39% |
+| **XLY** | Consumer Disc. (XLY) | $117.21 | 📈 +1.15% |
+| **^TNX** | 10-Year Treasury Yield | $4.72 | 📈 +1.03% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 87.0 | 82.6% |
-| 🟢 BULLISH | **PLTR** | MACD Bullish Crossover | 80.6 | 72.2% |
-| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 80.0 | 76.0% |
-| 🟢 BULLISH | **APP** | PPO — Bullish Cross | 80.0 | 78.6% |
-| 🟢 BULLISH | **CRWD** | EMA 9/21 — Bullish Cross | 79.5 | 57.1% |
-| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 78.8 | 66.2% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 76.6 | 63.6% |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 73.7 | 64.0% |
-| 🟢 BULLISH | **UPRO** | Elder Force — Bullish | 73.7 | 68.3% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 73.3 | 61.6% |
-| 🟢 BULLISH | **RIOT** | Awesome Oscillator — Bullish Zero Line | 71.4 | 57.1% |
-| 🟢 BULLISH | **XRP-USD** | ATR — Volatility Surge (Up) | 70.9 | 50.0% |
+| 🟢 BULLISH | **AAPL** | SMA 30 — Bullish Reclaim | 82.7 | 80.0% |
+| 🟢 BULLISH | **GOOGL** | SMA 30 — Bullish Reclaim | 77.6 | 69.2% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 73.5 | 62.1% |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 71.7 | 64.0% |
+| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 70.1 | 60.2% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 68.6 | 62.3% |
+| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 68.2 | 64.2% |
+| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 66.0 | 64.3% |
+| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.9 | 60.0% |
+| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.8 | 59.1% |
+| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 63.5 | 63.8% |
+| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 62.6 | 61.4% |
 
 ## Latest News
 
-- [Earnings call transcript: IREN Q4 2026 revenue misses as AI cloud expands](https://www.investing.com/news/transcripts/earnings-call-transcript-iren-q4-2026-revenue-misses-as-ai-cloud-expands-93CH-4880306) — *Investing.com*
-- [Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives](https://www.cnbc.com/2026/08/27/cramer-nvidia-salesforce-earnings-upended-two-bear-narratives.html) — *CNBC Markets*
-- [Earnings call transcript: Affirm tops Q4 2026 estimates as profit jumps](https://www.investing.com/news/transcripts/earnings-call-transcript-affirm-tops-q4-2026-estimates-as-profit-jumps-93CH-4880305) — *Investing.com*
-- [Earnings call transcript: Elastic tops Q1 2026 estimates, shares jump 20%](https://www.investing.com/news/transcripts/earnings-call-transcript-elastic-tops-q1-2026-estimates-shares-jump-20-93CH-4880304) — *Investing.com*
-- [Good Good Golf ad fallout deepens as Callaway ends partnership, retailers pull gear and Golf Channel delays show](https://www.marketwatch.com/story/good-good-golf-ad-fallout-deepens-as-callaway-ends-partnership-retailers-pull-gear-and-golf-channel-delays-show-33546426?mod=mw_rss_topstories) — *MarketWatch*
-- [Earnings call transcript: Autodesk beats Q2 2026 estimates, shares reverse after hours](https://www.investing.com/news/transcripts/earnings-call-transcript-autodesk-beats-q2-2026-estimates-shares-reverse-after-hours-93CH-4880303) — *Investing.com*
-- [Earnings call transcript: SentinelOne beats Q2 2026 estimates, shares slip after hours](https://www.investing.com/news/transcripts/earnings-call-transcript-sentinelone-beats-q2-2026-estimates-shares-slip-after-hours-93CH-4880302) — *Investing.com*
-- [Boise Cascade SVP Jill Twedt sells $99,250 in company stock](https://www.investing.com/news/insider-trading-news/boise-cascade-svp-jill-twedt-sells-99250-in-company-stock-93CH-4880301) — *Investing.com*
-- [Slb CEO Olivier Le Peuch disposes of $275,000 in company shares.](https://www.investing.com/news/insider-trading-news/slb-ceo-olivier-le-peuch-disposes-of-275000-in-company-shares-93CH-4880300) — *Investing.com*
-- [Earnings call transcript: Rubrik tops Q2 2026 estimates, but stock slips after hours](https://www.investing.com/news/transcripts/earnings-call-transcript-rubrik-tops-q2-2026-estimates-but-stock-slips-after-hours-93CH-4880299) — *Investing.com*
+- [Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.](https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories) — *MarketWatch*
+- [Algonquin Power to sell 64% stake in Chilean utility Suralis for $126M](https://seekingalpha.com/news/4638030-algonquin-power-to-sell-64-stake-in-chilean-utility-suralis-for-126m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court](https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html) — *CNBC Markets*
+- [Guggenheim affiliate buys up debt linked to its asset management arm](https://www.ft.com/content/809cbbe8-c151-448b-91fb-e74d908f73d1?syn-25a6b1a6=1) — *Financial Times*
+- [Takeda gains approval of rusfertide for polycythemia vera](https://seekingalpha.com/news/4638031-takeda-gains-approval-rusfertide-polycythemia-vera?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bitcoin sheds more than 3% on hawkish Warsh, loses steam after debasement rally](https://www.investing.com/news/cryptocurrency-news/bitcoin-steadies-near-80k-with-warsh-speech-in-focus-4880563) — *Investing.com*
+- [Microsoft’s stock seals its longest winning streak of the year as AI software fears fade](https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories) — *MarketWatch*
+- [Kalshi cannot block Nevada oversight of prediction markets, US appeals court rules](https://www.investing.com/news/stock-market-news/kalshi-cannot-block-nevada-oversight-of-sports-prediction-markets-us-appeals-court-rules-4881713) — *Investing.com*
+- [‘We are committed Christians’: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?](https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories) — *MarketWatch*
+- [Warsh signals Fed may need to hike rates if above-target inflation persists](https://www.investing.com/news/economy-news/will-warshs-jackson-hole-speech-be-a-course-correction-or-detour-4880496) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

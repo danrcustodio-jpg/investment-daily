@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 111** &nbsp;·&nbsp; Updated: Aug 27 2026 10:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 112** &nbsp;·&nbsp; Updated: Aug 28 2026 10:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.19%** &nbsp; ($+4,252) |
-| SPY Benchmark | +8.95% &nbsp; ($+17,353 if 100% SPY) |
-| Alpha vs SPY | **-6.75%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.20%** &nbsp; ($+4,276) |
+| SPY Benchmark | +8.70% &nbsp; ($+16,873 if 100% SPY) |
+| Alpha vs SPY | **-6.49%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,252 |
+| Current Value | $198,276 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,676 | +1.37% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,701 | +1.38% |
 
 ## Daily Equity Curve
 
@@ -103,31 +103,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 27 2026 10:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 28 2026 10:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | PPO — Bullish Cross — Score 80.0, Win Rate 78.6%, Avg 5d Return 5.16%, Max Drawdown -22.0%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Elder Force — Bullish — Score 73.7, Win Rate 68.3%, Avg 5d Return 1.74%, Max Drawdown -17.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.67%, Max Drawdow… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | SMA 30 — Bullish Reclaim — Score 82.7, Win Rate 80.0%, Avg 5d Return 1.94%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Stochastic RSI Oversold — Score 71.7, Win Rate 64.0%, Avg 5d Return 1.85%, Max Drawdown -4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 77.6, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** PPO — Bullish Cross — Score 80.0, Win Rate 78.6%, Avg 5d Return 5.16%, Max Drawdown -22.0%, Sharpe 2.33. 1 minor bearish signal(s), max confidence 47.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — UPRO
-
-**Signal Analysis:** Elder Force — Bullish — Score 73.7, Win Rate 68.3%, Avg 5d Return 1.74%, Max Drawdown -17.45%, Sharpe 2.25. No conflicting bearish signals.
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 82.7, Win Rate 80.0%, Avg 5d Return 1.94%, Max Drawdown -10.7%, Sharpe 3.03. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — CL=F
 
-**Signal Analysis:** ATR — Volatility Surge (Up) — Score 70.9, Win Rate 50.0%, Avg 5d Return 7.67%, Max Drawdown -26.35%, Sharpe 3.17. 3 minor bearish signal(s), max confidence 72.5.
+**Signal Analysis:** Stochastic RSI Oversold — Score 71.7, Win Rate 64.0%, Avg 5d Return 1.85%, Max Drawdown -42.05%, Sharpe 2.35. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — GOOGL
+
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 77.6, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
