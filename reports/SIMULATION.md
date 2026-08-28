@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 112** &nbsp;·&nbsp; Updated: Aug 28 2026 10:33 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 112** &nbsp;·&nbsp; Updated: Aug 28 2026 10:49 PM
 
 ## Performance Summary
 
@@ -100,10 +100,11 @@
 | 2026-08-25 | 📈 +2.17% | +8.21% | ❌ -6.04% |
 | 2026-08-26 | 📈 +2.18% | +8.23% | ❌ -6.06% |
 | 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
+| 2026-08-28 | 📈 +2.20% | +8.70% | ❌ -6.49% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 28 2026 10:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 28 2026 10:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
