@@ -758,15 +758,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XBI",
-      "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 60.7, Win Rate 59.6%, Avg 5d Return 0.72%, Max Drawdown -32.49%, Sharpe 1.33. No conflicting bearish signals.",
+      "ticker": "AAPL",
+      "priority": "high",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 82.7, Win Rate 80.0%, Avg 5d Return 1.94%, Max Drawdown -10.7%, Sharpe 3.03. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "GOOGL",
+      "priority": "high",
+      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 77.6, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XRP-USD",
+      "priority": "medium",
+      "reason": "ATR \u2014 Volatility Surge (Up) \u2014 Score 69.4, Win Rate 46.2%, Avg 5d Return 6.37%, Max Drawdown -33.1%, Sharpe 2.63. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-08-29T16:51:07.627608",
+  "recommendations_updated": "2026-08-30T16:55:26.012371",
   "trade_log": [
     {
       "action": "SELL",
