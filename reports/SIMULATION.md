@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 07:13 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 07:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.24%** &nbsp; ($+4,348) |
-| SPY Benchmark | +8.23% &nbsp; ($+15,958 if 100% SPY) |
-| Alpha vs SPY | **-5.98%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.23% &nbsp; ($+15,971 if 100% SPY) |
+| Alpha vs SPY | **-5.99%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,348 |
 
@@ -101,32 +101,33 @@
 | 2026-08-26 | 📈 +2.18% | +8.23% | ❌ -6.06% |
 | 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
 | 2026-08-28 | 📈 +2.20% | +8.70% | ❌ -6.49% |
+| 2026-08-31 | 📈 +2.24% | +8.23% | ❌ -5.99% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 31 2026 07:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 31 2026 07:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 79.0, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Williams %R — Oversold — Score 72.5, Win Rate 64.8%, Avg 5d Return 2.78%, Max Drawdown -52… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | VWAP Deviation — Oversold — Score 67.4, Win Rate 62.7%, Avg 5d Return 1.73%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Awesome Oscillator — Bullish Zero Line — Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Williams %R — Oversold — Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Elder Force — Bullish — Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.0, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdown -39.78%, Sharpe 2.43. 1 minor bearish signal(s), max confidence 52.1.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — UPRO
-
-**Signal Analysis:** Williams %R — Oversold — Score 72.5, Win Rate 64.8%, Avg 5d Return 2.78%, Max Drawdown -52.21%, Sharpe 2.32. No conflicting bearish signals.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, Max Drawdown -4.29%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 51.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 67.4, Win Rate 62.7%, Avg 5d Return 1.73%, Max Drawdown -43.99%, Sharpe 2.2. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77.54%, Sharpe 2.32. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — CL=F
+
+**Signal Analysis:** Elder Force — Bullish — Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.88%, Sharpe 1.5. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

@@ -753,38 +753,47 @@
       "prices": {
         "SPY": 769.3499755859375
       }
+    },
+    {
+      "date": "2026-08-31",
+      "total_value": 198347.98,
+      "portfolio_pnl": 2.241,
+      "benchmark_pnl": 8.233,
+      "prices": {
+        "SPY": 766.0599975585938
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "CRWD",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 79.0, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdown -39.78%, Sharpe 2.43. 1 minor bearish signal(s), max confidence 52.1.",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, Max Drawdown -4.29%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 51.8.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "UPRO",
+      "ticker": "RIOT",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 72.5, Win Rate 64.8%, Avg 5d Return 2.78%, Max Drawdown -52.21%, Sharpe 2.32. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77.54%, Sharpe 2.32. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
+      "ticker": "CL=F",
       "priority": "medium",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 67.4, Win Rate 62.7%, Avg 5d Return 1.73%, Max Drawdown -43.99%, Sharpe 2.2. No conflicting bearish signals.",
+      "reason": "Elder Force \u2014 Bullish \u2014 Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.88%, Sharpe 1.5. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-31T19:13:18.860434",
+  "recommendations_updated": "2026-08-31T19:20:09.335990",
   "trade_log": [
     {
       "action": "SELL",
