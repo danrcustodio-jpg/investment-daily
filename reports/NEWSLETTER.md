@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, August 30, 2026
-Generated at 04:55 PM
+# Daily Newsletter — Monday, August 31, 2026
+Generated at 07:13 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 107 total &nbsp;·&nbsp; 🟢 51 Bullish &nbsp;·&nbsp; 🔴 56 Bearish
+**Strategy Signals:** 105 total &nbsp;·&nbsp; 🟢 54 Bullish &nbsp;·&nbsp; 🔴 51 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **ETH-USD** | Ethereum | $2522.01 | 📈 +3.25% |
-| **SOL-USD** | Solana | $106.70 | 📈 +2.47% |
-| **SI=F** | Silver | $67.79 | 📉 -2.37% |
-| **BTC-USD** | Bitcoin | $79179.02 | 📈 +1.73% |
-| **GC=F** | Gold | $4529.90 | 📉 -1.73% |
-| **XLK** | Tech (XLK) | $185.69 | 📉 -1.55% |
-| **^IRX** | 3-Month T-Bill | $3.73 | 📈 +1.41% |
-| **^RUT** | Russell 2000 | $2972.37 | 📉 -1.39% |
-| **XLY** | Consumer Disc. (XLY) | $117.21 | 📈 +1.15% |
-| **^TNX** | 10-Year Treasury Yield | $4.72 | 📈 +1.03% |
+| **^VIX** | VIX (Fear Index) | $15.07 | 📈 +3.86% |
+| **ETH-USD** | Ethereum | $2486.17 | 📈 +2.82% |
+| **CL=F** | Crude Oil | $85.61 | 📈 +2.65% |
+| **SOL-USD** | Solana | $104.46 | 📈 +2.54% |
+| **^RUT** | Russell 2000 | $2948.17 | 📉 -2.20% |
+| **XLE** | Energy (XLE) | $63.65 | 📈 +2.18% |
+| **XLI** | Industrials (XLI) | $175.27 | 📉 -1.97% |
+| **BTC-USD** | Bitcoin | $79170.11 | 📈 +1.93% |
+| **^TNX** | 10-Year Treasury Yield | $4.75 | 📈 +1.76% |
+| **^IRX** | 3-Month T-Bill | $3.73 | 📈 +1.47% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **AAPL** | SMA 30 — Bullish Reclaim | 82.7 | 80.0% |
-| 🟢 BULLISH | **GOOGL** | SMA 30 — Bullish Reclaim | 77.6 | 69.2% |
+| 🟢 BULLISH | **CRWD** | Awesome Oscillator — Bullish Zero Line | 79.5 | 57.1% |
+| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 79.0 | 66.7% |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 73.9 | 64.4% |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 73.5 | 62.1% |
+| 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.5 | 64.8% |
 | 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 70.1 | 60.2% |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 69.8 | 63.0% |
-| 🟢 BULLISH | **XRP-USD** | ATR — Volatility Surge (Up) | 69.4 | 46.2% |
-| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 68.6 | 62.3% |
+| 🟢 BULLISH | **AVGO** | Stochastic (Full) — Oversold | 68.7 | 62.3% |
 | 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 68.2 | 64.2% |
+| 🟢 BULLISH | **GOOGL** | VWAP Deviation — Oversold | 67.4 | 62.7% |
 | 🟢 BULLISH | **IWM** | Williams %R — Oversold | 66.0 | 64.3% |
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.9 | 60.0% |
-| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 64.8 | 59.1% |
-| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 63.5 | 63.8% |
+| 🟢 BULLISH | **GC=F** | ADX Strong Trend — Bullish | 60.0 | 60.7% |
 
 ## Latest News
 
-- [Alnylam data support Amvuttra across ATTR patient groups, advance hypertension drug case](https://seekingalpha.com/news/4638066-alnylam-data-support-amvuttra-across-attr-patient-groups-advance-hypertension-drug-case?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Amarin analysis links Vascepa adherence to greater, longer-lasting heart benefits](https://seekingalpha.com/news/4638065-amarin-analysis-links-vascepa-adherence-to-greater-longer-lasting-heart-benefits?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Should Eli Lilly Investors Be Worried About a Threat From Amylyx?](https://finance.yahoo.com/healthcare/articles/eli-lilly-investors-worried-threat-163500915.html) — *Yahoo Finance*
-- [Is Trump's big, splashy Venezuela oil deal real?](https://finance.yahoo.com/energy/articles/trumps-big-splashy-venezuela-oil-163300516.html) — *Yahoo Finance*
-- [Arrowhead’s plozasiran cuts pancreatitis events in Phase 3 studies](https://seekingalpha.com/news/4638064-arrowheads-plozasiran-cuts-pancreatitis-events-in-phase-3-studies?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?](https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories) — *MarketWatch*
-- [Aon is said to near $17B deal for USI insurance, WSJ reports](https://seekingalpha.com/news/4638063-aon-is-said-to-near-17b-deal-for-usi-insurance-wsj-reports?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Today’s market mania may have more in common with 1901 than 1999](https://seekingalpha.com/news/4638059-today-s-market-mania-may-have-more-in-common-with-1901-than-1999?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [He beat Big Tobacco. Will the same playbook work against Meta and social media?](https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html) — *CNBC Markets*
-- [Arrowhead plans regulatory filing for plozasiran in sHTG](https://www.investing.com/news/company-news/arrowhead-plans-regulatory-filing-for-plozasiran-in-shtg-93CH-4882061) — *Investing.com*
+- [FTC sues Amazon, accusing the e-commerce giant of misleading advertisers](https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html) — *CNBC Markets*
+- [Here’s what’s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more](https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories) — *MarketWatch*
+- [Risk-reward outlook for stocks is getting worse as historically tough month kicks off, says Citadel](https://www.cnbc.com/2026/08/31/risk-reward-outlook-for-stocks-is-getting-worse-says-citadel.html) — *CNBC Markets*
+- [Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon](https://www.cnbc.com/2026/08/31/trump-venezuela-oil-gas-price.html) — *CNBC Markets*
+- [Trump reportedly plans to announce new drug pricing deals with nearly a dozen drugmakers](https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html) — *CNBC Markets*
+- [Linear Minerals Corp. GAAP EPS of -$0.01](https://seekingalpha.com/news/4638447-linear-minerals-corp-gaap-eps-of-0_01?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?](https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories) — *MarketWatch*
+- [Builders Capital Mortgage GAAP EPS of $0.67, revenue of $4.04M](https://seekingalpha.com/news/4638446-builders-capital-mortgage-gaap-eps-of-0_67-revenue-of-4_04m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Astron Connect GAAP EPS of -$0.01](https://seekingalpha.com/news/4638445-astron-connect-gaap-eps-of-0_01?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump says US will hit Iran ‘hard’ as conflict reignites](https://www.ft.com/content/8b09b3fc-bb61-4d9f-aac6-bcef9883fa16?syn-25a6b1a6=1) — *Financial Times*
 
 ---
 *Investment Daily — Not financial advice.*

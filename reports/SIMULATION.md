@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 114** &nbsp;·&nbsp; Updated: Aug 30 2026 04:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 07:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.23%** &nbsp; ($+4,324) |
-| SPY Benchmark | +8.70% &nbsp; ($+16,873 if 100% SPY) |
-| Alpha vs SPY | **-6.47%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.24%** &nbsp; ($+4,348) |
+| SPY Benchmark | +8.23% &nbsp; ($+15,958 if 100% SPY) |
+| Alpha vs SPY | **-5.98%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,324 |
+| Current Value | $198,348 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,749 | +1.41% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,773 | +1.42% |
 
 ## Daily Equity Curve
 
@@ -104,31 +104,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 30 2026 04:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 31 2026 07:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | SMA 30 — Bullish Reclaim — Score 82.7, Win Rate 80.0%, Avg 5d Return 1.94%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | SMA 30 — Bullish Reclaim — Score 77.6, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ATR — Volatility Surge (Up) — Score 69.4, Win Rate 46.2%, Avg 5d Return 6.37%, Max Drawdow… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 79.0, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **UPRO** | Williams %R — Oversold — Score 72.5, Win Rate 64.8%, Avg 5d Return 2.78%, Max Drawdown -52… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | VWAP Deviation — Oversold — Score 67.4, Win Rate 62.7%, Avg 5d Return 1.73%, Max Drawdown … |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 82.7, Win Rate 80.0%, Avg 5d Return 1.94%, Max Drawdown -10.7%, Sharpe 3.03. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.0, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdown -39.78%, Sharpe 2.43. 1 minor bearish signal(s), max confidence 52.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — UPRO
+
+**Signal Analysis:** Williams %R — Oversold — Score 72.5, Win Rate 64.8%, Avg 5d Return 2.78%, Max Drawdown -52.21%, Sharpe 2.32. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 77.6, Win Rate 69.2%, Avg 5d Return 2.31%, Max Drawdown -11.74%, Sharpe 2.7. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 67.4, Win Rate 62.7%, Avg 5d Return 1.73%, Max Drawdown -43.99%, Sharpe 2.2. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** ATR — Volatility Surge (Up) — Score 69.4, Win Rate 46.2%, Avg 5d Return 6.37%, Max Drawdown -33.1%, Sharpe 2.63. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
