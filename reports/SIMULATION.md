@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 07:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 11:16 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.24%** &nbsp; ($+4,348) |
-| SPY Benchmark | +8.23% &nbsp; ($+15,971 if 100% SPY) |
-| Alpha vs SPY | **-5.99%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.37% &nbsp; ($+16,243 if 100% SPY) |
+| Alpha vs SPY | **-6.13%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,348 |
 
@@ -101,17 +101,17 @@
 | 2026-08-26 | 📈 +2.18% | +8.23% | ❌ -6.06% |
 | 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
 | 2026-08-28 | 📈 +2.20% | +8.70% | ❌ -6.49% |
-| 2026-08-31 | 📈 +2.24% | +8.23% | ❌ -5.99% |
+| 2026-08-31 | 📈 +2.24% | +8.37% | ❌ -6.13% |
 
 ## Strategy Advisor
 
-_Evaluated Aug 31 2026 07:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Aug 31 2026 11:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Awesome Oscillator — Bullish Zero Line — Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Williams %R — Oversold — Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Elder Force — Bullish — Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, … |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -119,15 +119,15 @@ _Evaluated Aug 31 2026 07:20 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** Williams %R — Oversold — Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77.54%, Sharpe 2.32. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%, Sharpe 2.89. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** Elder Force — Bullish — Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.88%, Sharpe 1.5. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

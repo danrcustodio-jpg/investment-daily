@@ -758,9 +758,9 @@
       "date": "2026-08-31",
       "total_value": 198347.98,
       "portfolio_pnl": 2.241,
-      "benchmark_pnl": 8.233,
+      "benchmark_pnl": 8.373,
       "prices": {
-        "SPY": 766.0599975585938
+        "SPY": 767.0499877929688
       }
     }
   ],
@@ -776,24 +776,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "IONQ",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.1, Win Rate 60.2%, Avg 5d Return 4.71%, Max Drawdown -77.54%, Sharpe 2.32. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%, Sharpe 2.89. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CL=F",
-      "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 57.0, Win Rate 54.1%, Avg 5d Return 1.73%, Max Drawdown -21.88%, Sharpe 1.5. No conflicting bearish signals.",
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-31T19:20:09.335990",
+  "recommendations_updated": "2026-08-31T23:16:27.664303",
   "trade_log": [
     {
       "action": "SELL",
