@@ -767,9 +767,9 @@
       "date": "2026-09-01",
       "total_value": 198372.09,
       "portfolio_pnl": 2.254,
-      "benchmark_pnl": 7.594,
+      "benchmark_pnl": 7.628,
       "prices": {
-        "SPY": 761.5399780273438
+        "SPY": 761.780029296875
       }
     }
   ],
@@ -785,24 +785,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
+      "ticker": "SMH",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. 1 minor bearish signal(s), max confidence 68.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MSFT",
-      "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 60.6, Win Rate 62.6%, Avg 5d Return 0.59%, Max Drawdown -28.86%, Sharpe 1.39. No conflicting bearish signals.",
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-01T20:00:50.850659",
+  "recommendations_updated": "2026-09-01T22:29:16.020589",
   "trade_log": [
     {
       "action": "SELL",

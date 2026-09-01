@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 116** &nbsp;·&nbsp; Updated: Sep 01 2026 08:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 116** &nbsp;·&nbsp; Updated: Sep 01 2026 10:29 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.25%** &nbsp; ($+4,372) |
-| SPY Benchmark | +7.61% &nbsp; ($+14,757 if 100% SPY) |
-| Alpha vs SPY | **-5.35%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.63% &nbsp; ($+14,798 if 100% SPY) |
+| Alpha vs SPY | **-5.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,372 |
 
@@ -102,17 +102,17 @@
 | 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
 | 2026-08-28 | 📈 +2.20% | +8.70% | ❌ -6.49% |
 | 2026-08-31 | 📈 +2.24% | +8.37% | ❌ -6.13% |
-| 2026-09-01 | 📈 +2.25% | +7.59% | ❌ -5.34% |
+| 2026-09-01 | 📈 +2.25% | +7.63% | ❌ -5.37% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 01 2026 08:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 01 2026 10:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Supertrend — Bullish Flip — Score 85.0, Win Rate 75.0%, Avg 5d Return 5.67%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MSFT** | ADX Strong Trend — Bullish — Score 60.6, Win Rate 62.6%, Avg 5d Return 0.59%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — CL=F
 
@@ -120,15 +120,15 @@ _Evaluated Sep 01 2026 08:00 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.
+**Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. 1 minor bearish signal(s), max confidence 68.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — MSFT
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 60.6, Win Rate 62.6%, Avg 5d Return 0.59%, Max Drawdown -28.86%, Sharpe 1.39. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
