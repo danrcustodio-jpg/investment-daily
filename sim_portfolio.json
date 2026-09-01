@@ -762,23 +762,32 @@
       "prices": {
         "SPY": 767.0499877929688
       }
+    },
+    {
+      "date": "2026-09-01",
+      "total_value": 198372.09,
+      "portfolio_pnl": 2.254,
+      "benchmark_pnl": 7.641,
+      "prices": {
+        "SPY": 761.8699951171875
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
+      "ticker": "SMH",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 2 minor bearish signal(s), max confidence 57.2.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. 1 minor bearish signal(s), max confidence 68.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
-      "priority": "medium",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdown -67.89%, Sharpe 1.74. No conflicting bearish signals.",
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -793,7 +802,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-01T16:50:35.124501",
+  "recommendations_updated": "2026-09-01T17:04:58.280179",
   "trade_log": [
     {
       "action": "SELL",

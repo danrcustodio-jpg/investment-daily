@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 116** &nbsp;·&nbsp; Updated: Sep 01 2026 04:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 116** &nbsp;·&nbsp; Updated: Sep 01 2026 05:04 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.25%** &nbsp; ($+4,372) |
-| SPY Benchmark | +7.63% &nbsp; ($+14,806 if 100% SPY) |
-| Alpha vs SPY | **-5.38%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.62% &nbsp; ($+14,790 if 100% SPY) |
+| Alpha vs SPY | **-5.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,372 |
 
@@ -102,26 +102,27 @@
 | 2026-08-27 | 📈 +2.19% | +8.95% | ❌ -6.75% |
 | 2026-08-28 | 📈 +2.20% | +8.70% | ❌ -6.49% |
 | 2026-08-31 | 📈 +2.24% | +8.37% | ❌ -6.13% |
+| 2026-09-01 | 📈 +2.25% | +7.64% | ❌ -5.39% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 01 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 01 2026 05:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARKK** | Chaikin Money Flow — Bullish — Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdo… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MSFT** | ADX Strong Trend — Bullish — Score 60.6, Win Rate 62.6%, Avg 5d Return 0.58%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 2 minor bearish signal(s), max confidence 57.2.
+**Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. 1 minor bearish signal(s), max confidence 68.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdown -67.89%, Sharpe 1.74. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
