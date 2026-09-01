@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 115** &nbsp;·&nbsp; Updated: Aug 31 2026 11:16 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 116** &nbsp;·&nbsp; Updated: Sep 01 2026 04:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.24%** &nbsp; ($+4,348) |
-| SPY Benchmark | +8.37% &nbsp; ($+16,243 if 100% SPY) |
-| Alpha vs SPY | **-6.13%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.25%** &nbsp; ($+4,372) |
+| SPY Benchmark | +7.63% &nbsp; ($+14,806 if 100% SPY) |
+| Alpha vs SPY | **-5.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,348 |
+| Current Value | $198,372 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,773 | +1.42% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,797 | +1.43% |
 
 ## Daily Equity Curve
 
@@ -105,29 +105,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Aug 31 2026 11:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 01 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Awesome Oscillator — Bullish Zero Line — Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, … |
-
-### 🔍 NEW OPPORTUNITY — CRWD
-
-**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, Max Drawdown -4.29%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 51.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — IONQ
-
-**Signal Analysis:** OBV — Accumulation — Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%, Sharpe 2.89. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARKK** | Chaikin Money Flow — Bullish — Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MSFT** | ADX Strong Trend — Bullish — Score 60.6, Win Rate 62.6%, Avg 5d Return 0.58%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 2 minor bearish signal(s), max confidence 57.2.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ARKK
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdown -67.89%, Sharpe 1.74. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — MSFT
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 60.6, Win Rate 62.6%, Avg 5d Return 0.58%, Max Drawdown -28.86%, Sharpe 1.39. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

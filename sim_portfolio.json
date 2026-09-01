@@ -767,33 +767,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CRWD",
-      "priority": "high",
-      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 79.5, Win Rate 57.1%, Avg 5d Return 3.63%, Max Drawdown -4.29%, Sharpe 4.05. 2 minor bearish signal(s), max confidence 51.8.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 78.8, Win Rate 73.1%, Avg 5d Return 5.56%, Max Drawdown -22.65%, Sharpe 2.89. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "XLE",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 2 minor bearish signal(s), max confidence 57.2.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "ARKK",
+      "priority": "medium",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 65.8, Win Rate 59.7%, Avg 5d Return 1.47%, Max Drawdown -67.89%, Sharpe 1.74. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "MSFT",
+      "priority": "medium",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 60.6, Win Rate 62.6%, Avg 5d Return 0.58%, Max Drawdown -28.86%, Sharpe 1.39. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-08-31T23:16:27.664303",
+  "recommendations_updated": "2026-09-01T16:50:35.124501",
   "trade_log": [
     {
       "action": "SELL",
