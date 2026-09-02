@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, September 01, 2026
-Generated at 04:50 PM
+# Daily Newsletter — Wednesday, September 02, 2026
+Generated at 04:47 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 105 total &nbsp;·&nbsp; 🟢 59 Bullish &nbsp;·&nbsp; 🔴 46 Bearish
+**Strategy Signals:** 96 total &nbsp;·&nbsp; 🟢 62 Bullish &nbsp;·&nbsp; 🔴 34 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $15.99 | 📈 +7.17% |
-| **CL=F** | Crude Oil | $89.56 | 📈 +4.43% |
-| **SOL-USD** | Solana | $101.04 | 📉 -1.90% |
-| **XLY** | Consumer Disc. (XLY) | $114.75 | 📉 -1.58% |
-| **XLI** | Industrials (XLI) | $172.40 | 📉 -1.56% |
-| **XLK** | Tech (XLK) | $183.81 | 📉 -1.44% |
-| **ETH-USD** | Ethereum | $2431.88 | 📉 -1.42% |
-| **BTC-USD** | Bitcoin | $77568.99 | 📉 -1.25% |
-| **^RUT** | Russell 2000 | $2921.34 | 📉 -1.19% |
-| **^IRX** | 3-Month T-Bill | $3.77 | 📈 +1.07% |
+| **^VIX** | VIX (Fear Index) | $15.39 | 📉 -5.81% |
+| **NG=F** | Natural Gas | $2.97 | 📈 +2.41% |
+| **GC=F** | Gold | $4415.30 | 📈 +1.55% |
+| **SI=F** | Silver | $65.55 | 📈 +1.44% |
+| **ETH-USD** | Ethereum | $2387.91 | 📉 -1.24% |
+| **SOL-USD** | Solana | $98.97 | 📉 -1.02% |
+| **^RUT** | Russell 2000 | $2945.83 | 📈 +0.88% |
+| **XLF** | Financials (XLF) | $57.64 | 📈 +0.77% |
+| **CL=F** | Crude Oil | $90.91 | 📈 +0.76% |
+| **XLV** | Healthcare (XLV) | $172.90 | 📈 +0.72% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **AVGO** | MFI — Oversold | 86.0 | 83.3% |
 | 🟢 BULLISH | **XLE** | 52-Week Breakout | 84.5 | 77.4% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 81.5 | 73.8% |
-| 🟢 BULLISH | **XLE** | Parabolic SAR — Bullish | 81.5 | 76.2% |
-| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 77.8 | 66.7% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 77.5 | 65.9% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 74.3 | 62.9% |
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 74.2 | 62.7% |
 | 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 74.0 | 67.7% |
 | 🟢 BULLISH | **QQQ** | Williams %R — Oversold | 73.5 | 65.5% |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 72.7 | 63.0% |
-| 🟢 BULLISH | **SMH** | VWAP Deviation — Oversold | 72.6 | 66.7% |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 71.7 | 62.4% |
+| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 71.2 | 63.8% |
+| 🟢 BULLISH | **CEG** | Aroon — Strong Uptrend | 70.3 | 63.6% |
+| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 70.1 | 60.2% |
+| 🟢 BULLISH | **VOO** | Stochastic RSI Oversold | 67.8 | 61.1% |
+| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 67.4 | 63.8% |
+| 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 67.1 | 62.5% |
 
 ## Latest News
 
-- [Brent hits highest level since July following latest U.S. attacks against Iran; WTI up 4%](https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html) — *CNBC Markets*
-- [Crypto enters September with legislative policy gamble hanging by a thread](https://www.cnbc.com/2026/09/01/crypto-enters-september-with-policy-gamble-hanging-by-a-thread.html) — *CNBC Markets*
-- [Softbank's SB Energy files for IPO, says it's 'substantially dependent' on OpenAI](https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html) — *CNBC Markets*
-- [Analysts pin high hopes on Snowflake Q2 as AI readiness drives optimism](https://seekingalpha.com/news/4638984-analysts-pin-high-hopes-on-snowflake-q2-as-ai-readiness-drives-optimism?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Oil surges to session highs as U.S. conducts more military strikes against Iran](https://www.investing.com/news/commodities-news/oil-extends-gains-as-trump-threatens-further-iran-strikes-4883412) — *Investing.com*
-- [Europe’s STOXX 600 hits one-month low as inflation, rising yields pressure markets](https://www.investing.com/news/economy-news/european-stocks-muted-as-bond-selloff-continues-reckitt-jumps-4883575) — *Investing.com*
-- [Wall Street slides as yields remain elevated at the start of September](https://seekingalpha.com/news/4638853-wall-street-slides-as-yields-remain-elevated-at-the-start-of-september?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries](https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html) — *CNBC Markets*
-- [AI token prices are hitting new record lows](https://www.cnbc.com/2026/09/01/ai-token-prices-lows.html) — *CNBC Markets*
-- [GE Aerospace wins defense contract for hypersonic test platform](https://seekingalpha.com/news/4638983-ge-aerospace-wins-defense-contract-for-hypersonic-test-platform?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Palo Alto Networks slips below 50-day moving average](https://seekingalpha.com/news/4639544-palo-alto-networks-slips-below-50-day-moving-average?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Altria sues FDA to fix broken review process](https://seekingalpha.com/news/4639554-altria-sues-fda-to-fix-broken-review-process?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [American Airlines boosts premium seating on 777 jets as upscale travel grows](https://www.investing.com/news/stock-market-news/american-airlines-boosts-premium-seating-on-777-jets-as-upscale-travel-grows-4886376) — *Investing.com*
+- [Delivery Hero board recommends holders take Uber offer](https://seekingalpha.com/news/4639567-delivery-hero-board-reccommends-holders-take-uber-offer?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Berkshire CEO Abel says AI to help power growth](https://www.investing.com/news/stock-market-news/berkshire-ceo-abel-sees-opportunity-for-energy-business-from-ai-4885911) — *Investing.com*
+- [Stocks rise after recent declines; Japanese yen jumps against US dollar](https://www.investing.com/news/economy-news/asian-markets-tumble-as-usiran-fighting-lifts-oil-and-bond-yields-4885230) — *Investing.com*
+- [Nwpx infrastructure director Larson sells $128,966 in stock](https://www.investing.com/news/insider-trading-news/nwpx-infrastructure-director-larson-sells-128966-in-stock-93CH-4886545) — *Investing.com*
+- [Anthropic back on ’right side’ with Trump administration, US Commerce secretary says](https://www.investing.com/news/economy-news/anthropic-back-on-right-side-with-trump-administration-us-commerce-secretary-says-4886543) — *Investing.com*
+- [Wise schedules Q2 and H1 FY27 results releases](https://www.investing.com/news/company-news/wise-schedules-q2-and-h1-fy27-results-releases-93CH-4886544) — *Investing.com*
+- [Germany and France commit €300 million to South Africa services](https://www.investing.com/news/economy-news/germany-and-france-commit-300-million-to-south-africa-services-93CH-4886542) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
