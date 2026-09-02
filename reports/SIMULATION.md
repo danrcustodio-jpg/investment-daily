@@ -1,12 +1,12 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 117** &nbsp;·&nbsp; Updated: Sep 02 2026 07:34 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 117** &nbsp;·&nbsp; Updated: Sep 02 2026 10:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.27%** &nbsp; ($+4,396) |
-| SPY Benchmark | +8.11% &nbsp; ($+15,733 if 100% SPY) |
+| SPY Benchmark | +8.11% &nbsp; ($+15,725 if 100% SPY) |
 | Alpha vs SPY | **-5.84%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,396 |
@@ -107,13 +107,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 02 2026 07:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 02 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Aroon — Strong Uptrend — Score 70.3, Win Rate 63.6%, Avg 5d Return 2.17%, Max Drawdown -5.… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, … |
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — CEG
 
@@ -123,13 +129,7 @@ _Evaluated Sep 02 2026 07:34 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. 1 minor bearish signal(s), max confidence 67.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 84.5, Win Rate 77.4%, Avg 5d Return 1.74%, Max Drawdown -11.77%, Sharpe 4.42. 1 minor bearish signal(s), max confidence 52.5.
+**Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
