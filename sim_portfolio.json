@@ -785,18 +785,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "PLTR",
       "priority": "high",
-      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "CEG",
-      "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 70.3, Win Rate 63.6%, Avg 5d Return 2.17%, Max Drawdown -5.74%, Sharpe 2.42. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -809,9 +800,18 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "DOGE-USD",
+      "priority": "medium",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdown -88.77%, Sharpe 1.71. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-02T22:11:02.213121",
+  "recommendations_updated": "2026-09-03T16:37:39.479791",
   "trade_log": [
     {
       "action": "SELL",

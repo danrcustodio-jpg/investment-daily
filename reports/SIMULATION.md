@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 117** &nbsp;·&nbsp; Updated: Sep 02 2026 10:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 04:37 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.27%** &nbsp; ($+4,396) |
-| SPY Benchmark | +8.11% &nbsp; ($+15,725 if 100% SPY) |
-| Alpha vs SPY | **-5.84%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.28%** &nbsp; ($+4,420) |
+| SPY Benchmark | +9.15% &nbsp; ($+17,756 if 100% SPY) |
+| Alpha vs SPY | **-6.87%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,396 |
+| Current Value | $198,420 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,821 | +1.44% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,845 | +1.45% |
 
 ## Daily Equity Curve
 
@@ -107,23 +107,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 02 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 03 2026 04:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Aroon — Strong Uptrend — Score 70.3, Win Rate 63.6%, Avg 5d Return 2.17%, Max Drawdown -5.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Chaikin Money Flow — Bullish — Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 77.5, Win Rate 75.0%, Avg 5d Return 28.86%, Max Drawdown -32.69%, Sharpe 4.14. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — CEG
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 70.3, Win Rate 63.6%, Avg 5d Return 2.17%, Max Drawdown -5.74%, Sharpe 2.42. No conflicting bearish signals.
+**Signal Analysis:** Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
@@ -132,6 +126,12 @@ _Evaluated Sep 02 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdown -88.77%, Sharpe 1.71. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
