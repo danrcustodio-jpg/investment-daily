@@ -785,18 +785,18 @@
       "date": "2026-09-03",
       "total_value": 198420.32,
       "portfolio_pnl": 2.279,
-      "benchmark_pnl": 9.277,
+      "benchmark_pnl": 9.237,
       "prices": {
-        "SPY": 773.4500122070312
+        "SPY": 773.1699829101562
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "MARA",
+      "ticker": "PLTR",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 73.9, Win Rate 66.7%, Avg 5d Return 3.63%, Max Drawdown -19.15%, Sharpe 2.37. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -820,7 +820,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-03T19:31:23.961947",
+  "recommendations_updated": "2026-09-03T21:51:36.477376",
   "trade_log": [
     {
       "action": "SELL",
