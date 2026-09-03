@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 04:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 07:31 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.28%** &nbsp; ($+4,420) |
-| SPY Benchmark | +9.23% &nbsp; ($+17,900 if 100% SPY) |
-| Alpha vs SPY | **-6.95%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.28% &nbsp; ($+17,997 if 100% SPY) |
+| Alpha vs SPY | **-7.00%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,420 |
 
@@ -104,27 +104,27 @@
 | 2026-08-31 | 📈 +2.24% | +8.37% | ❌ -6.13% |
 | 2026-09-01 | 📈 +2.25% | +7.63% | ❌ -5.37% |
 | 2026-09-02 | 📈 +2.27% | +8.11% | ❌ -5.84% |
-| 2026-09-03 | 📈 +2.28% | +9.23% | ❌ -6.95% |
+| 2026-09-03 | 📈 +2.28% | +9.28% | ❌ -7.00% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 03 2026 04:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 03 2026 07:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MARA** | EMA 9/21 — Bullish Cross — Score 73.9, Win Rate 66.7%, Avg 5d Return 3.63%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic (Full) — Oversold — Score 79.7, Win Rate 71.4%, Avg 5d Return 3.15%, Max Drawdo… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Chaikin Money Flow — Bullish — Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### 🔍 NEW OPPORTUNITY — MARA
 
-**Signal Analysis:** Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 73.9, Win Rate 66.7%, Avg 5d Return 3.63%, Max Drawdown -19.15%, Sharpe 2.37. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Williams %R — Oversold — Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.7, Win Rate 71.4%, Avg 5d Return 3.15%, Max Drawdown -23.21%, Sharpe 4.2. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

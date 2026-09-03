@@ -785,18 +785,18 @@
       "date": "2026-09-03",
       "total_value": 198420.32,
       "portfolio_pnl": 2.279,
-      "benchmark_pnl": 9.227,
+      "benchmark_pnl": 9.277,
       "prices": {
-        "SPY": 773.094970703125
+        "SPY": 773.4500122070312
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
+      "ticker": "MARA",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 73.9, Win Rate 66.7%, Avg 5d Return 3.63%, Max Drawdown -19.15%, Sharpe 2.37. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -805,7 +805,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "SMH",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 82.5, Win Rate 76.2%, Avg 5d Return 3.04%, Max Drawdown -20.04%, Sharpe 3.87. No conflicting bearish signals.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 79.7, Win Rate 71.4%, Avg 5d Return 3.15%, Max Drawdown -23.21%, Sharpe 4.2. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -820,7 +820,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-03T16:46:58.127494",
+  "recommendations_updated": "2026-09-03T19:31:23.961947",
   "trade_log": [
     {
       "action": "SELL",
