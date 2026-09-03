@@ -780,6 +780,15 @@
       "prices": {
         "SPY": 765.1599731445312
       }
+    },
+    {
+      "date": "2026-09-03",
+      "total_value": 198420.32,
+      "portfolio_pnl": 2.279,
+      "benchmark_pnl": 9.227,
+      "prices": {
+        "SPY": 773.094970703125
+      }
     }
   ],
   "recommendations": [
@@ -787,7 +796,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "PLTR",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -811,7 +820,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-03T16:37:39.479791",
+  "recommendations_updated": "2026-09-03T16:46:58.127494",
   "trade_log": [
     {
       "action": "SELL",

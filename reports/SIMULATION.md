@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 04:37 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 04:46 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.28%** &nbsp; ($+4,420) |
-| SPY Benchmark | +9.15% &nbsp; ($+17,756 if 100% SPY) |
-| Alpha vs SPY | **-6.87%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.23% &nbsp; ($+17,900 if 100% SPY) |
+| Alpha vs SPY | **-6.95%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,420 |
 
@@ -104,10 +104,11 @@
 | 2026-08-31 | 📈 +2.24% | +8.37% | ❌ -6.13% |
 | 2026-09-01 | 📈 +2.25% | +7.63% | ❌ -5.37% |
 | 2026-09-02 | 📈 +2.27% | +8.11% | ❌ -5.84% |
+| 2026-09-03 | 📈 +2.28% | +9.23% | ❌ -6.95% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 03 2026 04:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 03 2026 04:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -117,7 +118,7 @@ _Evaluated Sep 03 2026 04:37 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.
+**Signal Analysis:** Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
