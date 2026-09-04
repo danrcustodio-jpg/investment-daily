@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 118** &nbsp;·&nbsp; Updated: Sep 03 2026 09:51 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 119** &nbsp;·&nbsp; Updated: Sep 04 2026 04:32 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.28%** &nbsp; ($+4,420) |
-| SPY Benchmark | +9.24% &nbsp; ($+17,920 if 100% SPY) |
-| Alpha vs SPY | **-6.96%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.29%** &nbsp; ($+4,444) |
+| SPY Benchmark | +8.90% &nbsp; ($+17,258 if 100% SPY) |
+| Alpha vs SPY | **-6.61%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,420 |
+| Current Value | $198,444 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,845 | +1.45% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,869 | +1.47% |
 
 ## Daily Equity Curve
 
@@ -108,31 +108,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 03 2026 09:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 04 2026 04:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic (Full) — Oversold — Score 79.7, Win Rate 71.4%, Avg 5d Return 3.15%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | Chaikin Money Flow — Bullish — Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | OBV — Accumulation — Score 74.5, Win Rate 65.0%, Avg 5d Return 0.81%, Max Drawdown -8.31%,… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOXL** | MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27… |
 
-### 🔍 NEW OPPORTUNITY — PLTR
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Vortex — Bullish — Score 81.0, Win Rate 70.0%, Avg 5d Return 4.34%, Max Drawdown -11.55%, Sharpe 3.51. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — SMH
-
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.7, Win Rate 71.4%, Avg 5d Return 3.15%, Max Drawdown -23.21%, Sharpe 4.2. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.9%, Sharpe 4.64. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — DOGE-USD
+### 🔍 NEW OPPORTUNITY — IWM
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 61.3, Win Rate 51.4%, Avg 5d Return 5.25%, Max Drawdown -88.77%, Sharpe 1.71. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 74.5, Win Rate 65.0%, Avg 5d Return 0.81%, Max Drawdown -8.31%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.8.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — SOXL
+
+**Signal Analysis:** MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27.92%, Sharpe 1.88. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
