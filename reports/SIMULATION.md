@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 119** &nbsp;·&nbsp; Updated: Sep 04 2026 07:14 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 119** &nbsp;·&nbsp; Updated: Sep 04 2026 09:37 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.29%** &nbsp; ($+4,444) |
-| SPY Benchmark | +8.73% &nbsp; ($+16,943 if 100% SPY) |
-| Alpha vs SPY | **-6.44%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.82% &nbsp; ($+17,103 if 100% SPY) |
+| Alpha vs SPY | **-6.53%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,444 |
 
@@ -105,16 +105,16 @@
 | 2026-09-01 | 📈 +2.25% | +7.63% | ❌ -5.37% |
 | 2026-09-02 | 📈 +2.27% | +8.11% | ❌ -5.84% |
 | 2026-09-03 | 📈 +2.28% | +9.24% | ❌ -6.96% |
-| 2026-09-04 | 📈 +2.29% | +8.73% | ❌ -6.44% |
+| 2026-09-04 | 📈 +2.29% | +8.82% | ❌ -6.53% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 04 2026 07:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 04 2026 09:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | OBV — Accumulation — Score 74.5, Win Rate 65.0%, Avg 5d Return 0.81%, Max Drawdown -8.31%,… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOXL** | MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -123,9 +123,9 @@ _Evaluated Sep 04 2026 07:14 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — IWM
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** OBV — Accumulation — Score 74.5, Win Rate 65.0%, Avg 5d Return 0.81%, Max Drawdown -8.31%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.8.
+**Signal Analysis:** MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11.96%, Sharpe 1.36. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

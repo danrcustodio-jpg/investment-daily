@@ -794,9 +794,9 @@
       "date": "2026-09-04",
       "total_value": 198444.43,
       "portfolio_pnl": 2.291,
-      "benchmark_pnl": 8.734,
+      "benchmark_pnl": 8.816,
       "prices": {
-        "SPY": 769.60498046875
+        "SPY": 770.1900024414062
       }
     }
   ],
@@ -812,9 +812,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IWM",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 74.5, Win Rate 65.0%, Avg 5d Return 0.81%, Max Drawdown -8.31%, Sharpe 2.1. 1 minor bearish signal(s), max confidence 63.8.",
+      "ticker": "AMD",
+      "priority": "medium",
+      "reason": "MACD Bullish Crossover \u2014 Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11.96%, Sharpe 1.36. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -829,7 +829,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-04T19:14:54.133604",
+  "recommendations_updated": "2026-09-04T21:37:22.513156",
   "trade_log": [
     {
       "action": "SELL",
