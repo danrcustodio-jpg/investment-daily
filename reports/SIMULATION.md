@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 119** &nbsp;·&nbsp; Updated: Sep 04 2026 09:37 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 120** &nbsp;·&nbsp; Updated: Sep 05 2026 03:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.29%** &nbsp; ($+4,444) |
+| Portfolio P&L | **+2.30%** &nbsp; ($+4,469) |
 | SPY Benchmark | +8.82% &nbsp; ($+17,103 if 100% SPY) |
-| Alpha vs SPY | **-6.53%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.51%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,444 |
+| Current Value | $198,469 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,869 | +1.47% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,893 | +1.48% |
 
 ## Daily Equity Curve
 
@@ -109,12 +109,12 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 04 2026 09:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 05 2026 03:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 76.2, Win Rate 61.1%, Avg 5d Return 10.48%, Max Drawdown -8.58%, Sh… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOXL** | MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -123,11 +123,11 @@ _Evaluated Sep 04 2026 09:37 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11.96%, Sharpe 1.36. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 76.2, Win Rate 61.1%, Avg 5d Return 10.48%, Max Drawdown -8.58%, Sharpe 4.55. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — SOXL
 
