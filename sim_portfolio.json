@@ -812,9 +812,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XRP-USD",
+      "ticker": "SOL-USD",
       "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 76.2, Win Rate 61.1%, Avg 5d Return 10.48%, Max Drawdown -8.58%, Sharpe 4.55. No conflicting bearish signals.",
+      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 77.2, Win Rate 67.9%, Avg 5d Return 4.96%, Max Drawdown -17.22%, Sharpe 4.58. 1 minor bearish signal(s), max confidence 73.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -829,7 +829,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-05T15:28:31.368898",
+  "recommendations_updated": "2026-09-06T15:40:12.524673",
   "trade_log": [
     {
       "action": "SELL",
