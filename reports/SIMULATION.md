@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 121** &nbsp;·&nbsp; Updated: Sep 06 2026 03:40 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 122** &nbsp;·&nbsp; Updated: Sep 07 2026 05:51 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.32%** &nbsp; ($+4,493) |
+| Portfolio P&L | **+2.33%** &nbsp; ($+4,517) |
 | SPY Benchmark | +8.82% &nbsp; ($+17,103 if 100% SPY) |
-| Alpha vs SPY | **-6.50%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.49%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,493 |
+| Current Value | $198,517 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,918 | +1.49% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,942 | +1.50% |
 
 ## Daily Equity Curve
 
@@ -109,12 +109,12 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 06 2026 03:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 07 2026 05:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 77.2, Win Rate 67.9%, Avg 5d Return 4.96%, Max Drawdown -1… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOXL** | MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
@@ -123,11 +123,11 @@ _Evaluated Sep 06 2026 03:40 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 77.2, Win Rate 67.9%, Avg 5d Return 4.96%, Max Drawdown -17.22%, Sharpe 4.58. 1 minor bearish signal(s), max confidence 73.7.
+**Signal Analysis:** MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11.96%, Sharpe 1.36. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — SOXL
 
