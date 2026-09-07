@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Monday September 07, 2026 at 09:20 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Monday September 07, 2026 at 11:38 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 66 |
-| 🟢 Bullish | 44 |
-| 🔴 Bearish | 22 |
-| 🔵 In cooldown (fired in last 6h) | 44 |
-| 🟡 Available to fire (not in cooldown) | 22 |
+| Total signals (confidence ≥ 45) | 64 |
+| 🟢 Bullish | 43 |
+| 🔴 Bearish | 21 |
+| 🔵 In cooldown (fired in last 6h) | 43 |
+| 🟡 Available to fire (not in cooldown) | 21 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -27,9 +27,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 64.8 | 59.5% | -67.89% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SOXL** | MACD Bullish Crossover | 63.1 | 59.1% | -27.92% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 60.4 | 63.4% | -28.86% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 58.0 | 66.3% | -75.34% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 57.4 | 56.5% | -93.94% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 56.5 | 62.3% | -55.91% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 56.8 | 62.3% | -55.91% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AMD** | MACD Bullish Crossover | 56.4 | 65.0% | -11.96% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 56.2 | 59.2% | -80.37% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 55.0 | 50.6% | -98.33% | 🔵 In cooldown (≤6h) |
@@ -79,7 +78,6 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **APP** | Chaikin Money Flow — Bearish | 50.3 | 62.5% | -78.86% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **LINK-USD** | Keltner — Upper Channel Touch | 49.4 | 50.6% | -54.71% | 🟡 Available |
 | 🔴 BEARISH | **AVAX-USD** | RSI Overbought | 47.7 | 58.0% | -54.79% | 🟡 Available |
-| 🔴 BEARISH | **LINK-USD** | RSI Overbought | 46.2 | 51.3% | -69.31% | 🟡 Available |
 | 🔴 BEARISH | **IONQ** | Ulcer Index — Elevated | 46.1 | 47.5% | -87.77% | 🟡 Available |
 | 🔴 BEARISH | **RIOT** | VWAP Deviation — Overbought | 45.5 | 54.8% | -89.49% | 🟡 Available |
 | 🔴 BEARISH | **NVDA** | VWAP Deviation — Overbought | 45.4 | 58.3% | -74.7% | 🟡 Available |
