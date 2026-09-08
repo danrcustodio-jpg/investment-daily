@@ -812,13 +812,31 @@
       "date": "2026-09-08",
       "total_value": 198540.88,
       "portfolio_pnl": 2.341,
-      "benchmark_pnl": 8.361,
+      "benchmark_pnl": 8.219,
       "prices": {
-        "SPY": 766.969970703125
+        "SPY": 765.9600219726562
       }
     }
   ],
   "recommendations": [
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "ATOM-USD",
+      "priority": "high",
+      "reason": "Volume Spike + Surge \u2014 Score 87.7, Win Rate 76.9%, Avg 5d Return 7.13%, Max Drawdown -0.95%, Sharpe 4.3. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "IONQ",
+      "priority": "high",
+      "reason": "Volume Spike + Surge \u2014 Score 76.7, Win Rate 61.1%, Avg 5d Return 7.69%, Max Drawdown -25.98%, Sharpe 3.34. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
@@ -827,27 +845,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "RKLB",
-      "priority": "high",
-      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 76.2, Win Rate 57.1%, Avg 5d Return 5.73%, Max Drawdown -21.15%, Sharpe 2.69. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ADA-USD",
-      "priority": "medium",
-      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 57.1, Win Rate 59.4%, Avg 5d Return 3.11%, Max Drawdown -42.39%, Sharpe 1.4. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-08T19:41:33.584047",
+  "recommendations_updated": "2026-09-08T22:11:47.830006",
   "trade_log": [
     {
       "action": "SELL",
