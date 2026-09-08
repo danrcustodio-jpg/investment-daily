@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 122** &nbsp;·&nbsp; Updated: Sep 07 2026 11:38 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 123** &nbsp;·&nbsp; Updated: Sep 08 2026 04:48 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.33%** &nbsp; ($+4,517) |
-| SPY Benchmark | +8.82% &nbsp; ($+17,103 if 100% SPY) |
-| Alpha vs SPY | **-6.49%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.34%** &nbsp; ($+4,541) |
+| SPY Benchmark | +8.40% &nbsp; ($+16,288 if 100% SPY) |
+| Alpha vs SPY | **-6.06%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,517 |
+| Current Value | $198,541 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,942 | +1.50% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,966 | +1.52% |
 
 ## Daily Equity Curve
 
@@ -110,31 +110,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 07 2026 11:38 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 08 2026 04:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AMD** | MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOXL** | MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | EMA 9/21 — Bullish Cross — Score 83.3, Win Rate 83.3%, Avg 5d Return 4.12%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | Parabolic SAR — Bullish — Score 76.2, Win Rate 57.1%, Avg 5d Return 5.73%, Max Drawdown -2… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ADA-USD** | Parabolic SAR — Bullish — Score 57.1, Win Rate 59.4%, Avg 5d Return 3.11%, Max Drawdown -4… |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 83.1, Win Rate 76.9%, Avg 5d Return 2.08%, Max Drawdown -4.9%, Sharpe 4.64. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — AMD
-
-**Signal Analysis:** MACD Bullish Crossover — Score 56.4, Win Rate 65.0%, Avg 5d Return 1.27%, Max Drawdown -11.96%, Sharpe 1.36. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 83.3, Win Rate 83.3%, Avg 5d Return 4.12%, Max Drawdown -7.33%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 45.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOXL
+### 🔍 NEW OPPORTUNITY — RKLB
 
-**Signal Analysis:** MACD Bullish Crossover — Score 63.1, Win Rate 59.1%, Avg 5d Return 4.82%, Max Drawdown -27.92%, Sharpe 1.88. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 76.2, Win Rate 57.1%, Avg 5d Return 5.73%, Max Drawdown -21.15%, Sharpe 2.69. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ADA-USD
+
+**Signal Analysis:** Parabolic SAR — Bullish — Score 57.1, Win Rate 59.4%, Avg 5d Return 3.11%, Max Drawdown -42.39%, Sharpe 1.4. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
