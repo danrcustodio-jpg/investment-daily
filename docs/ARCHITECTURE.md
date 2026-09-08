@@ -393,3 +393,5 @@ http://192.168.4.43:5050
 4. **Confidence score range** — `confidence_score()` returns 0–100. Newsletter shows signals ≥ 45. Alert system sends emails for signals ≥ 52. These are in `run_full_scan()` and `alert_system.MIN_CONFIDENCE` respectively.
 
 5. **Signal keys match `STRATEGY_LINKS`** — If you add a new strategy, add its name to both `STRATEGY_LINKS` and ensure the `_make_signal()` call uses the exact same string.
+
+6. **Creator knowledge bases** (e.g. `docs/creators/nicholas-crown/`) are **notes**, not scan inputs. Do not copy gated newsletter setups into `strategy_engine.py`.
