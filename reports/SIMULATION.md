@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 07:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 10:08 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.35%** &nbsp; ($+4,565) |
-| SPY Benchmark | +7.80% &nbsp; ($+15,134 if 100% SPY) |
-| Alpha vs SPY | **-5.45%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.72% &nbsp; ($+14,968 if 100% SPY) |
+| Alpha vs SPY | **-5.36%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,565 |
 
@@ -108,33 +108,33 @@
 | 2026-09-04 | 📈 +2.29% | +8.82% | ❌ -6.53% |
 | 2026-09-07 | 📈 +2.33% | +8.82% | ❌ -6.49% |
 | 2026-09-08 | 📈 +2.34% | +8.22% | ❌ -5.88% |
-| 2026-09-09 | 📈 +2.35% | +7.80% | ❌ -5.45% |
+| 2026-09-09 | 📈 +2.35% | +7.72% | ❌ -5.36% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 09 2026 07:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 09 2026 10:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, S… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MRVL** | EMA 9/21 — Bullish Cross — Score 67.9, Win Rate 66.7%, Avg 5d Return 2.49%, Max Drawdown -… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MRVL** | EMA 9/21 — Bullish Cross — Score 66.9, Win Rate 66.7%, Avg 5d Return 2.4%, Max Drawdown -1… |
 
 ### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.5.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, Sharpe 4.46. 1 minor bearish signal(s), max confidence 54.5.
+**Signal Analysis:** 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 51.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — MRVL
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 67.9, Win Rate 66.7%, Avg 5d Return 2.49%, Max Drawdown -13.2%, Sharpe 1.9. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 66.9, Win Rate 66.7%, Avg 5d Return 2.4%, Max Drawdown -13.2%, Sharpe 1.84. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

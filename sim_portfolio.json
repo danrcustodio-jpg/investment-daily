@@ -821,9 +821,9 @@
       "date": "2026-09-09",
       "total_value": 198564.99,
       "portfolio_pnl": 2.353,
-      "benchmark_pnl": 7.8,
+      "benchmark_pnl": 7.716,
       "prices": {
-        "SPY": 763.0
+        "SPY": 762.4000244140625
       }
     }
   ],
@@ -832,7 +832,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
-      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.5.",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -841,7 +841,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLE",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, Sharpe 4.46. 1 minor bearish signal(s), max confidence 54.5.",
+      "reason": "52-Week Breakout \u2014 Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 51.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -850,13 +850,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "MRVL",
       "priority": "medium",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 67.9, Win Rate 66.7%, Avg 5d Return 2.49%, Max Drawdown -13.2%, Sharpe 1.9. No conflicting bearish signals.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 66.9, Win Rate 66.7%, Avg 5d Return 2.4%, Max Drawdown -13.2%, Sharpe 1.84. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-09T19:35:42.583105",
+  "recommendations_updated": "2026-09-09T22:08:54.537694",
   "trade_log": [
     {
       "action": "SELL",
