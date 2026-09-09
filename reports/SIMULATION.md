@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 04:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 04:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.35%** &nbsp; ($+4,565) |
-| SPY Benchmark | +7.77% &nbsp; ($+15,070 if 100% SPY) |
-| Alpha vs SPY | **-5.41%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.75% &nbsp; ($+15,045 if 100% SPY) |
+| Alpha vs SPY | **-5.40%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,565 |
 
@@ -108,26 +108,27 @@
 | 2026-09-04 | 📈 +2.29% | +8.82% | ❌ -6.53% |
 | 2026-09-07 | 📈 +2.33% | +8.82% | ❌ -6.49% |
 | 2026-09-08 | 📈 +2.34% | +8.22% | ❌ -5.88% |
+| 2026-09-09 | 📈 +2.35% | +7.75% | ❌ -5.40% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 09 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 09 2026 04:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Volume Spike + Surge — Score 87.7, Win Rate 76.9%, Avg 5d Return 7.13%, Max Drawdown -0.95… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | Williams %R — Oversold — Score 73.1, Win Rate 62.9%, Avg 5d Return 1.4%, Max Drawdown -40.… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.69%, Max Drawdown -11.77%, … |
-
-### 🔍 NEW OPPORTUNITY — ATOM-USD
-
-**Signal Analysis:** Volume Spike + Surge — Score 87.7, Win Rate 76.9%, Avg 5d Return 7.13%, Max Drawdown -0.95%, Sharpe 4.3. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — RIOT
 
 **Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XBI
+
+**Signal Analysis:** Williams %R — Oversold — Score 73.1, Win Rate 62.9%, Avg 5d Return 1.4%, Max Drawdown -40.74%, Sharpe 2.01. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
