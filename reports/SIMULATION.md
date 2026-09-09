@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 123** &nbsp;·&nbsp; Updated: Sep 08 2026 10:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 04:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.34%** &nbsp; ($+4,541) |
-| SPY Benchmark | +8.22% &nbsp; ($+15,944 if 100% SPY) |
-| Alpha vs SPY | **-5.88%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.35%** &nbsp; ($+4,565) |
+| SPY Benchmark | +7.77% &nbsp; ($+15,070 if 100% SPY) |
+| Alpha vs SPY | **-5.41%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,541 |
+| Current Value | $198,565 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,966 | +1.52% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,990 | +1.53% |
 
 ## Daily Equity Curve
 
@@ -111,13 +111,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 08 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 09 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Volume Spike + Surge — Score 87.7, Win Rate 76.9%, Avg 5d Return 7.13%, Max Drawdown -0.95… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | Volume Spike + Surge — Score 76.7, Win Rate 61.1%, Avg 5d Return 7.69%, Max Drawdown -25.9… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | EMA 9/21 — Bullish Cross — Score 83.3, Win Rate 83.3%, Avg 5d Return 4.12%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.69%, Max Drawdown -11.77%, … |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
@@ -125,15 +125,15 @@ _Evaluated Sep 08 2026 10:11 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Volume Spike + Surge — Score 76.7, Win Rate 61.1%, Avg 5d Return 7.69%, Max Drawdown -25.98%, Sharpe 3.34. No conflicting bearish signals.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 83.3, Win Rate 83.3%, Avg 5d Return 4.12%, Max Drawdown -7.33%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 45.5.
+**Signal Analysis:** 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.69%, Max Drawdown -11.77%, Sharpe 4.41. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

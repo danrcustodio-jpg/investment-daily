@@ -830,24 +830,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "RIOT",
       "priority": "high",
-      "reason": "Volume Spike + Surge \u2014 Score 76.7, Win Rate 61.1%, Avg 5d Return 7.69%, Max Drawdown -25.98%, Sharpe 3.34. No conflicting bearish signals.",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "XLE",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 83.3, Win Rate 83.3%, Avg 5d Return 4.12%, Max Drawdown -7.33%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 45.5.",
+      "reason": "52-Week Breakout \u2014 Score 85.1, Win Rate 78.8%, Avg 5d Return 1.69%, Max Drawdown -11.77%, Sharpe 4.41. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-08T22:11:47.830006",
+  "recommendations_updated": "2026-09-09T16:50:45.426883",
   "trade_log": [
     {
       "action": "SELL",

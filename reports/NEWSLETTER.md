@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, September 08, 2026
-Generated at 04:48 PM
+# Daily Newsletter — Wednesday, September 09, 2026
+Generated at 04:50 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 70 total &nbsp;·&nbsp; 🟢 42 Bullish &nbsp;·&nbsp; 🔴 28 Bearish
+**Strategy Signals:** 78 total &nbsp;·&nbsp; 🟢 48 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $2.88 | 📉 -3.36% |
-| **XLV** | Healthcare (XLV) | $167.64 | 📉 -2.22% |
-| **SI=F** | Silver | $66.87 | 📈 +1.25% |
-| **JPYUSD=X** | JPY/USD | $0.01 | 📈 +1.21% |
-| **^DJI** | Dow Jones | $52836.03 | 📉 -1.08% |
-| **XLF** | Financials (XLF) | $57.56 | 📉 -0.94% |
-| **CL=F** | Crude Oil | $92.25 | 📈 +0.84% |
-| **XLE** | Energy (XLE) | $64.54 | 📈 +0.74% |
-| **^IRX** | 3-Month T-Bill | $3.78 | 📈 +0.48% |
-| **SOL-USD** | Solana | $104.36 | 📈 +0.48% |
+| **^VIX** | VIX (Fear Index) | $16.40 | 📈 +4.33% |
+| **CL=F** | Crude Oil | $95.71 | 📈 +2.88% |
+| **SI=F** | Silver | $68.21 | 📈 +2.88% |
+| **NG=F** | Natural Gas | $2.84 | 📉 -2.67% |
+| **GC=F** | Gold | $4448.30 | 📈 +1.24% |
+| **XLY** | Consumer Disc. (XLY) | $112.59 | 📉 -1.23% |
+| **^RUT** | Russell 2000 | $2924.74 | 📉 -1.20% |
+| **XLI** | Industrials (XLI) | $172.40 | 📉 -1.16% |
+| **^IRX** | 3-Month T-Bill | $3.81 | 📈 +0.93% |
+| **^TNX** | 10-Year Treasury Yield | $4.85 | 📈 +0.81% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **RIOT** | EMA 9/21 — Bullish Cross | 83.3 | 83.3% |
-| 🟢 BULLISH | **GC=F** | Vortex — Bullish | 80.8 | 68.0% |
-| 🟢 BULLISH | **RKLB** | Parabolic SAR — Bullish | 76.2 | 57.1% |
+| 🟢 BULLISH | **ATOM-USD** | Volume Spike + Surge | 87.7 | 76.9% |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 85.1 | 78.8% |
+| 🟢 BULLISH | **AMD** | Supertrend — Bullish Flip | 76.7 | 66.7% |
+| 🟢 BULLISH | **RIOT** | Awesome Oscillator — Bullish Zero Line | 73.6 | 62.5% |
+| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.1 | 62.9% |
+| 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.5 | 65.5% |
+| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 71.5 | 61.3% |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 71.2 | 62.1% |
+| 🟢 BULLISH | **XLE** | MACD Bullish Crossover | 69.4 | 63.6% |
+| 🟢 BULLISH | **MRVL** | EMA 9/21 — Bullish Cross | 67.9 | 66.7% |
 | 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 67.1 | 62.5% |
-| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.0 | 59.7% |
-| 🟢 BULLISH | **PLTR** | ADX Strong Trend — Bullish | 61.4 | 62.9% |
-| 🟢 BULLISH | **ARM** | SMA 30 — Bullish Reclaim | 58.2 | 61.1% |
-| 🟢 BULLISH | **ADA-USD** | Parabolic SAR — Bullish | 57.1 | 59.4% |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 56.7 | 62.3% |
-| 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 56.4 | 56.2% |
-| 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 55.9 | 59.1% |
-| 🟢 BULLISH | **RKLB** | CCI — Extreme Oversold | 55.1 | 50.7% |
+| 🟢 BULLISH | **SMH** | TRIX — Bullish Cross | 65.9 | 66.7% |
 
 ## Latest News
 
-- [Bombardier points out U.S. footprint after Trump says aerospace giant must build in America](https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html) — *CNBC Markets*
-- [Google web traffic is 'steady,' while ChatGPT, Gemini see gains: BofA](https://seekingalpha.com/news/4640876-google-web-traffic-is-steady-while-chatgpt-gemini-see-gains-bofa?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Private credit resilience tested as BDC discounts widen](https://seekingalpha.com/news/4640875-private-credit-resilience-tested-as-bdc-discounts-widen?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [TKO Group at Goldman Sachs conference: cash flow and growth push](https://www.investing.com/news/transcripts/tko-group-at-goldman-sachs-conference-cash-flow-and-growth-push-93CH-4892130) — *Investing.com*
-- [Qualcomm at Goldman Sachs conference: Amazon deal boosts data center push](https://www.investing.com/news/transcripts/qualcomm-at-goldman-sachs-conference-amazon-deal-boosts-data-center-push-93CH-4892129) — *Investing.com*
-- [Roivant shares jump 17% as lung disease drug meets trial goals](https://www.investing.com/news/stock-market-news/roivant-shares-jump-17-as-lung-disease-drug-meets-trial-goals-93CH-4892128) — *Investing.com*
-- [Ford at Goldman Sachs Communacopia + Technology Conference: services push](https://www.investing.com/news/transcripts/ford-at-goldman-sachs-communacopia--technology-conference-services-push-93CH-4892127) — *Investing.com*
-- [Canadian dollar strengthens as oil rally offsets trade and Fed concerns](https://www.investing.com/news/forex-news/canadian-dollar-strengthens-as-oil-rally-offsets-trade-and-fed-concerns-4892124) — *Investing.com*
-- [Canada tariffs put loonie, supply chains in focus as trade war deepens](https://www.investing.com/news/stock-market-news/canada-tariffs-put-loonie-supply-chains-in-focus-as-trade-war-deepens-4892126) — *Investing.com*
-- [Canada’s Tamarack Valley and Headwater to merge in C$10 billion deal](https://www.investing.com/news/stock-market-news/canadas-tamarack-valley-and-headwater-to-merge-in-c10-billion-deal-4892123) — *Investing.com*
+- [Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'](https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html) — *CNBC Markets*
+- [Sunbelt outlines FY2027 revenue growth of 6%-9% as it raises CapEx to $2.75B-$3.15B](https://seekingalpha.com/news/4641299-sunbelt-outlines-fy2027-revenue-growth-of-6-percentminus-9-percent-as-it-raises-capex-to?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Wall Street slides as oil clears $100/bbl amid Middle East escalation](https://seekingalpha.com/news/4641197-wall-street-slides-as-oil-clears-100bbl-amid-middle-east-escalation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [LA Rams President Kevin Demoff touts Australia push ahead of historic NFL game](https://www.cnbc.com/2026/09/09/la-rams-kevin-demoff-australia.html) — *CNBC Markets*
+- [CoreWeave CEO chalks up public AI pushback to the speed of change: 'And that is frightening'](https://www.cnbc.com/2026/09/09/goldman-sachs-communcacopia-technology-conference-ai.html) — *CNBC Markets*
+- [25 dividend stocks to watch as market sentiment turns negative](https://seekingalpha.com/news/4641297-25-dividend-stocks-to-watch-as-market-sentiment-turns-negative?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [US spy chief prepares for greater role in Russia-Ukraine talks](https://www.ft.com/content/d0557d25-78b5-45d8-bb33-d655e859d803?syn-25a6b1a6=1) — *Financial Times*
+- [Midday Need to Know: Brent tops $100, treasury yields climb & more](https://seekingalpha.com/news/4641294-midday-need-to-know-brent-tops-100-treasury-yields-climb-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [FHFA's Pulte to meet VantageScore owners this week; asks Fair Isaac for competitive pricing](https://seekingalpha.com/news/4641290-fhfas-pulte-to-meet-vantagescore-owners-this-week-asks-fair-isaac-for-competitive-pricing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Southern Company's unit signs data center power deal with Keel](https://seekingalpha.com/news/4641293-southern-company-unit-signs-data-center-power-deal-with-keel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
