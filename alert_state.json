@@ -1,6 +1,5 @@
 {
   "fired": {
-    "GC=F::Vortex \u2014 Bullish": "2026-09-08T16:56:22.525466+00:00",
     "XBI::Stochastic RSI Oversold": "2026-09-10T16:46:40.682580+00:00",
     "GC=F::Elder Force \u2014 Bullish": "2026-09-09T16:57:37.678642+00:00",
     "ARKK::Chaikin Money Flow \u2014 Bullish": "2026-09-10T16:46:40.682601+00:00",
@@ -18,41 +17,20 @@
     "XLE::ADX Strong Trend \u2014 Bullish": "2026-09-10T16:46:41.922496+00:00",
     "QQQ::CCI \u2014 Extreme Oversold": "2026-09-10T16:46:42.349670+00:00",
     "MRVL::CCI \u2014 Extreme Oversold": "2026-09-10T16:46:42.007544+00:00",
-    "BTC-USD::ADX Strong Trend \u2014 Bullish": "2026-09-08T16:56:24.578792+00:00",
     "PLTR::ADX Strong Trend \u2014 Bullish": "2026-09-09T16:57:38.469592+00:00",
     "SPY::Chaikin Money Flow \u2014 Bearish": "2026-09-10T16:46:42.418470+00:00",
     "UPRO::Chaikin Money Flow \u2014 Bearish": "2026-09-10T16:46:42.418479+00:00",
     "VOO::Chaikin Money Flow \u2014 Bearish": "2026-09-10T16:46:42.418491+00:00",
     "GC=F::MFI \u2014 Overbought": "2026-09-10T16:46:42.418496+00:00",
     "GC=F::Ulcer Index \u2014 Elevated": "2026-09-10T16:46:42.418502+00:00",
-    "AVGO::Ulcer Index \u2014 Elevated": "2026-09-08T16:56:25.299516+00:00",
     "IWM::Ulcer Index \u2014 Elevated": "2026-09-10T16:46:42.724891+00:00",
     "AERO-USD::MFI \u2014 Overbought": "2026-09-09T16:57:39.964483+00:00",
     "NVDA::Chaikin Money Flow \u2014 Bearish": "2026-09-10T16:46:43.497401+00:00",
     "XLK::Williams %R \u2014 Overbought": "2026-09-09T16:57:40.723067+00:00",
-    "APP::Chaikin Money Flow \u2014 Bearish": "2026-09-08T16:56:25.868804+00:00",
-    "RIOT::EMA 9/21 \u2014 Bullish Cross": "2026-09-08T16:56:22.491152+00:00",
-    "RKLB::Parabolic SAR \u2014 Bullish": "2026-09-08T16:56:22.686291+00:00",
-    "ARM::SMA 30 \u2014 Bullish Reclaim": "2026-09-08T16:56:22.934606+00:00",
-    "ADA-USD::Parabolic SAR \u2014 Bullish": "2026-09-08T16:56:23.183832+00:00",
-    "SMCI::MACD Bullish Crossover": "2026-09-08T16:56:23.607771+00:00",
     "AMD::Chaikin Money Flow \u2014 Bullish": "2026-09-10T16:46:41.411283+00:00",
-    "AVGO::Parabolic SAR \u2014 Bullish": "2026-09-08T16:56:24.162967+00:00",
-    "ARM::TRIX \u2014 Bullish Cross": "2026-09-08T16:56:24.469434+00:00",
-    "LINK-USD::Chaikin Money Flow \u2014 Bullish": "2026-09-08T16:56:24.469453+00:00",
-    "XBI::Vortex \u2014 Bearish": "2026-09-08T16:56:25.299500+00:00",
-    "VOO::OBV \u2014 Distribution": "2026-09-08T16:56:25.299509+00:00",
-    "UPRO::Elder Force \u2014 Bearish": "2026-09-08T16:56:25.299513+00:00",
-    "IWM::OBV \u2014 Distribution": "2026-09-08T16:56:25.299520+00:00",
-    "PLTR::OBV \u2014 Distribution": "2026-09-08T16:56:25.442185+00:00",
     "AMD::VWAP Deviation \u2014 Overbought": "2026-09-10T16:46:42.536228+00:00",
     "AMD::Williams %R \u2014 Overbought": "2026-09-09T16:57:39.786776+00:00",
-    "XBI::Elder Force \u2014 Bearish": "2026-09-08T16:56:25.442217+00:00",
-    "XBI::OBV \u2014 Distribution": "2026-09-08T16:56:25.442221+00:00",
-    "CRWD::MACD Bearish Crossover": "2026-09-08T16:56:25.442229+00:00",
-    "AERO-USD::RSI Overbought": "2026-09-08T16:56:25.868768+00:00",
     "XLE::MACD Bearish Crossover": "2026-09-10T16:46:43.630058+00:00",
-    "LINK-USD::Keltner \u2014 Upper Channel Touch": "2026-09-08T16:56:25.868795+00:00",
     "XLE::52-Week Breakout": "2026-09-09T16:57:36.847817+00:00",
     "AMD::Supertrend \u2014 Bullish Flip": "2026-09-09T16:57:36.932867+00:00",
     "RIOT::Awesome Oscillator \u2014 Bullish Zero Line": "2026-09-09T16:57:37.261466+00:00",
@@ -134,7 +112,6 @@
   "email_ticker_last_sent": {
     "GC=F": "2026-09-10T16:46:40.362228+00:00",
     "IWM": "2026-09-10T16:46:40.362228+00:00",
-    "AVGO": "2026-09-08T16:56:22.491139+00:00",
     "XBI": "2026-09-10T16:46:40.362228+00:00",
     "PLTR": "2026-09-10T16:46:40.362228+00:00",
     "ARKK": "2026-09-10T16:46:40.362228+00:00",
@@ -210,9 +187,9 @@
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-09-10T16:46:32.595209+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237375+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796393+00:00"
     },
     "IONQ": {
       "cadence_min": 15,
@@ -225,9 +202,9 @@
       "last_change_at": "2026-09-10T16:46:31.237482+00:00"
     },
     "MRVL": {
-      "cadence_min": 60,
+      "cadence_min": 120,
       "last_fetch_at": "2026-09-10T16:46:33.117049+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237525+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796455+00:00"
     },
     "NVDA": {
       "cadence_min": 1440,
@@ -245,9 +222,9 @@
       "last_change_at": "2026-09-09T19:35:14.879969+00:00"
     },
     "RIOT": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-09-10T16:46:33.634360+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237574+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796514+00:00"
     },
     "RKLB": {
       "cadence_min": 15,
@@ -300,9 +277,9 @@
       "last_change_at": "2026-08-19T18:20:25.258749+00:00"
     },
     "AVGO": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-09-10T16:46:32.122466+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237218+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796199+00:00"
     },
     "ARM": {
       "cadence_min": 1440,
@@ -345,9 +322,9 @@
       "last_change_at": "2026-09-08T19:41:05.669683+00:00"
     },
     "XLE": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-09-10T16:46:35.190570+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237709+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796571+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 1440,
@@ -375,9 +352,9 @@
       "last_change_at": "2026-08-26T14:35:40.589671+00:00"
     },
     "CRWD": {
-      "cadence_min": 30,
+      "cadence_min": 60,
       "last_fetch_at": "2026-09-10T16:46:32.325124+00:00",
-      "last_change_at": "2026-09-10T16:46:31.237311+00:00"
+      "last_change_at": "2026-09-10T19:22:11.796343+00:00"
     },
     "MSFT": {
       "cadence_min": 1440,
@@ -411,7 +388,6 @@
     }
   },
   "signal_last_notified_price": {
-    "GC=F::Vortex \u2014 Bullish": 4438.2001953125,
     "XBI::Stochastic RSI Oversold": 157.30999755859375,
     "GC=F::Elder Force \u2014 Bullish": 4452.39990234375,
     "ARKK::Chaikin Money Flow \u2014 Bullish": 83.66500091552734,
@@ -429,41 +405,20 @@
     "XLE::ADX Strong Trend \u2014 Bullish": 65.07499694824219,
     "QQQ::CCI \u2014 Extreme Oversold": 710.7449951171875,
     "MRVL::CCI \u2014 Extreme Oversold": 228.6699981689453,
-    "BTC-USD::ADX Strong Trend \u2014 Bullish": 78653.4921875,
     "PLTR::ADX Strong Trend \u2014 Bullish": 171.2100067138672,
     "SPY::Chaikin Money Flow \u2014 Bearish": 759.0399780273438,
     "UPRO::Chaikin Money Flow \u2014 Bearish": 145.1999969482422,
     "VOO::Chaikin Money Flow \u2014 Bearish": 697.75,
     "GC=F::MFI \u2014 Overbought": 4400.89990234375,
     "GC=F::Ulcer Index \u2014 Elevated": 4400.89990234375,
-    "AVGO::Ulcer Index \u2014 Elevated": 366.1000061035156,
     "IWM::Ulcer Index \u2014 Elevated": 288.2701110839844,
     "AERO-USD::MFI \u2014 Overbought": 5.5900865845615044e-05,
     "NVDA::Chaikin Money Flow \u2014 Bearish": 218.76019287109375,
     "XLK::Williams %R \u2014 Overbought": 188.22999572753906,
-    "APP::Chaikin Money Flow \u2014 Bearish": 313.7200012207031,
-    "RIOT::EMA 9/21 \u2014 Bullish Cross": 22.545000076293945,
-    "RKLB::Parabolic SAR \u2014 Bullish": 66.68000030517578,
-    "ARM::SMA 30 \u2014 Bullish Reclaim": 263.75,
-    "ADA-USD::Parabolic SAR \u2014 Bullish": 0.22589999437332153,
-    "SMCI::MACD Bullish Crossover": 40.494998931884766,
     "AMD::Chaikin Money Flow \u2014 Bullish": 505.57000732421875,
-    "AVGO::Parabolic SAR \u2014 Bullish": 366.1000061035156,
-    "ARM::TRIX \u2014 Bullish Cross": 263.75,
-    "LINK-USD::Chaikin Money Flow \u2014 Bullish": 12.722000122070312,
-    "XBI::Vortex \u2014 Bearish": 162.4550018310547,
-    "VOO::OBV \u2014 Distribution": 705.1500244140625,
-    "UPRO::Elder Force \u2014 Bearish": 149.98500061035156,
-    "IWM::OBV \u2014 Distribution": 295.3399963378906,
-    "PLTR::OBV \u2014 Distribution": 172.0,
     "AMD::VWAP Deviation \u2014 Overbought": 505.57000732421875,
     "AMD::Williams %R \u2014 Overbought": 523.5900268554688,
-    "XBI::Elder Force \u2014 Bearish": 162.4550018310547,
-    "XBI::OBV \u2014 Distribution": 162.4550018310547,
-    "CRWD::MACD Bearish Crossover": 210.1199951171875,
-    "AERO-USD::RSI Overbought": 5.141042856848799e-05,
     "XLE::MACD Bearish Crossover": 65.07499694824219,
-    "LINK-USD::Keltner \u2014 Upper Channel Touch": 12.722000122070312,
     "XLE::52-Week Breakout": 65.1449966430664,
     "AMD::Supertrend \u2014 Bullish Flip": 523.5900268554688,
     "RIOT::Awesome Oscillator \u2014 Bullish Zero Line": 21.690000534057617,

@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 125** &nbsp;·&nbsp; Updated: Sep 10 2026 04:47 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 125** &nbsp;·&nbsp; Updated: Sep 10 2026 07:22 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.37%** &nbsp; ($+4,589) |
-| SPY Benchmark | +7.27% &nbsp; ($+14,108 if 100% SPY) |
-| Alpha vs SPY | **-4.91%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.03% &nbsp; ($+13,639 if 100% SPY) |
+| Alpha vs SPY | **-4.66%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,589 |
 
@@ -109,33 +109,33 @@
 | 2026-09-07 | 📈 +2.33% | +8.82% | ❌ -6.49% |
 | 2026-09-08 | 📈 +2.34% | +8.22% | ❌ -5.88% |
 | 2026-09-09 | 📈 +2.35% | +7.72% | ❌ -5.36% |
-| 2026-09-10 | 📈 +2.37% | +7.28% | ❌ -4.91% |
+| 2026-09-10 | 📈 +2.37% | +7.03% | ❌ -4.67% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 10 2026 04:47 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 10 2026 07:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 70.6, Win Rate 61.5%, Avg 5d Return 1.6%, Max Drawdown -41.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 70.3, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 80.5, Win Rate 77.8%, Avg 5d Return 1.72%, Max Drawdown … |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARM** | PPO — Bullish Cross — Score 64.6, Win Rate 60.0%, Avg 5d Return 3.1%, Max Drawdown -23.56%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Chaikin Money Flow — Bullish — Score 61.5, Win Rate 63.6%, Avg 5d Return 1.79%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Williams %R — Oversold — Score 70.6, Win Rate 61.5%, Avg 5d Return 1.6%, Max Drawdown -41.5%, Sharpe 1.9. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 70.3, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41.5%, Sharpe 1.89. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XBI
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 80.5, Win Rate 77.8%, Avg 5d Return 1.72%, Max Drawdown -31.56%, Sharpe 2.17. 1 minor bearish signal(s), max confidence 77.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
 **Signal Analysis:** PPO — Bullish Cross — Score 64.6, Win Rate 60.0%, Avg 5d Return 3.1%, Max Drawdown -23.56%, Sharpe 1.92. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — CL=F
-
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 61.5, Win Rate 63.6%, Avg 5d Return 1.79%, Max Drawdown -55.91%, Sharpe 1.58. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
