@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 124** &nbsp;·&nbsp; Updated: Sep 09 2026 10:08 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 125** &nbsp;·&nbsp; Updated: Sep 10 2026 04:36 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.35%** &nbsp; ($+4,565) |
-| SPY Benchmark | +7.72% &nbsp; ($+14,968 if 100% SPY) |
-| Alpha vs SPY | **-5.36%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.37%** &nbsp; ($+4,589) |
+| SPY Benchmark | +7.07% &nbsp; ($+13,716 if 100% SPY) |
+| Alpha vs SPY | **-4.70%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,565 |
+| Current Value | $198,589 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+2,990 | +1.53% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,014 | +1.54% |
 
 ## Daily Equity Curve
 
@@ -112,29 +112,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 09 2026 10:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 10 2026 04:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, S… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MRVL** | EMA 9/21 — Bullish Cross — Score 66.9, Win Rate 66.7%, Avg 5d Return 2.4%, Max Drawdown -1… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 70.4, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 80.5, Win Rate 77.8%, Avg 5d Return 1.72%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Chaikin Money Flow — Bullish — Score 61.4, Win Rate 63.6%, Avg 5d Return 1.78%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 73.6, Win Rate 62.5%, Avg 5d Return 3.17%, Max Drawdown -3.49%, Sharpe 3.5. 1 minor bearish signal(s), max confidence 45.1.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 85.1, Win Rate 78.8%, Avg 5d Return 1.7%, Max Drawdown -11.77%, Sharpe 4.44. 1 minor bearish signal(s), max confidence 51.5.
+**Signal Analysis:** Williams %R — Oversold — Score 70.4, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41.5%, Sharpe 1.89. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — MRVL
+### 🔍 NEW OPPORTUNITY — XBI
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 66.9, Win Rate 66.7%, Avg 5d Return 2.4%, Max Drawdown -13.2%, Sharpe 1.84. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 80.5, Win Rate 77.8%, Avg 5d Return 1.72%, Max Drawdown -31.56%, Sharpe 2.17. 1 minor bearish signal(s), max confidence 77.7.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — CL=F
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 61.4, Win Rate 63.6%, Avg 5d Return 1.78%, Max Drawdown -55.91%, Sharpe 1.58. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 

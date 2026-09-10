@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, September 09, 2026
-Generated at 04:50 PM
+# Daily Newsletter — Thursday, September 10, 2026
+Generated at 04:36 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 78 total &nbsp;·&nbsp; 🟢 48 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
+**Strategy Signals:** 99 total &nbsp;·&nbsp; 🟢 48 Bullish &nbsp;·&nbsp; 🔴 51 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.40 | 📈 +4.33% |
-| **CL=F** | Crude Oil | $95.71 | 📈 +2.88% |
-| **SI=F** | Silver | $68.21 | 📈 +2.88% |
-| **NG=F** | Natural Gas | $2.84 | 📉 -2.67% |
-| **GC=F** | Gold | $4448.30 | 📈 +1.24% |
-| **XLY** | Consumer Disc. (XLY) | $112.59 | 📉 -1.23% |
-| **^RUT** | Russell 2000 | $2924.74 | 📉 -1.20% |
-| **XLI** | Industrials (XLI) | $172.40 | 📉 -1.16% |
-| **^IRX** | 3-Month T-Bill | $3.81 | 📈 +0.93% |
-| **^TNX** | 10-Year Treasury Yield | $4.85 | 📈 +0.81% |
+| **^VIX** | VIX (Fear Index) | $17.69 | 📈 +7.47% |
+| **CL=F** | Crude Oil | $101.53 | 📈 +5.71% |
+| **SI=F** | Silver | $64.78 | 📉 -4.66% |
+| **SOL-USD** | Solana | $99.10 | 📉 -2.47% |
+| **BTC-USD** | Bitcoin | $76837.73 | 📉 -1.82% |
+| **^TNX** | 10-Year Treasury Yield | $4.92 | 📈 +1.80% |
+| **XLK** | Tech (XLK) | $185.38 | 📉 -1.33% |
+| **ETH-USD** | Ethereum | $2435.42 | 📉 -1.28% |
+| **^TYX** | 30-Year Treasury Yield | $5.35 | 📈 +1.15% |
+| **^IRX** | 3-Month T-Bill | $3.84 | 📈 +1.00% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **ATOM-USD** | Volume Spike + Surge | 87.7 | 76.9% |
-| 🟢 BULLISH | **XLE** | 52-Week Breakout | 85.1 | 78.8% |
-| 🟢 BULLISH | **AMD** | Supertrend — Bullish Flip | 76.7 | 66.7% |
-| 🟢 BULLISH | **RIOT** | Awesome Oscillator — Bullish Zero Line | 73.6 | 62.5% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.5 | 77.8% |
+| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 78.2 | 67.4% |
+| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 77.9 | 66.7% |
 | 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.1 | 62.9% |
 | 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.5 | 65.5% |
-| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 71.5 | 61.3% |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 71.2 | 62.1% |
-| 🟢 BULLISH | **XLE** | MACD Bullish Crossover | 69.4 | 63.6% |
-| 🟢 BULLISH | **MRVL** | EMA 9/21 — Bullish Cross | 67.9 | 66.7% |
-| 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 67.1 | 62.5% |
-| 🟢 BULLISH | **SMH** | TRIX — Bullish Cross | 65.9 | 66.7% |
+| 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 72.1 | 55.9% |
+| 🟢 BULLISH | **UPRO** | VWAP Deviation — Oversold | 71.1 | 64.7% |
+| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 70.4 | 61.5% |
+| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 68.6 | 60.9% |
+| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.0 | 59.9% |
+| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 64.8 | 65.0% |
+| 🟢 BULLISH | **GC=F** | Stochastic RSI Oversold | 64.5 | 65.4% |
 
 ## Latest News
 
-- [Experts weigh in as researcher says AI has more than 10% chance of 'killing all humans'](https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html) — *CNBC Markets*
-- [Sunbelt outlines FY2027 revenue growth of 6%-9% as it raises CapEx to $2.75B-$3.15B](https://seekingalpha.com/news/4641299-sunbelt-outlines-fy2027-revenue-growth-of-6-percentminus-9-percent-as-it-raises-capex-to?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Wall Street slides as oil clears $100/bbl amid Middle East escalation](https://seekingalpha.com/news/4641197-wall-street-slides-as-oil-clears-100bbl-amid-middle-east-escalation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [LA Rams President Kevin Demoff touts Australia push ahead of historic NFL game](https://www.cnbc.com/2026/09/09/la-rams-kevin-demoff-australia.html) — *CNBC Markets*
-- [CoreWeave CEO chalks up public AI pushback to the speed of change: 'And that is frightening'](https://www.cnbc.com/2026/09/09/goldman-sachs-communcacopia-technology-conference-ai.html) — *CNBC Markets*
-- [25 dividend stocks to watch as market sentiment turns negative](https://seekingalpha.com/news/4641297-25-dividend-stocks-to-watch-as-market-sentiment-turns-negative?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [US spy chief prepares for greater role in Russia-Ukraine talks](https://www.ft.com/content/d0557d25-78b5-45d8-bb33-d655e859d803?syn-25a6b1a6=1) — *Financial Times*
-- [Midday Need to Know: Brent tops $100, treasury yields climb & more](https://seekingalpha.com/news/4641294-midday-need-to-know-brent-tops-100-treasury-yields-climb-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [FHFA's Pulte to meet VantageScore owners this week; asks Fair Isaac for competitive pricing](https://seekingalpha.com/news/4641290-fhfas-pulte-to-meet-vantagescore-owners-this-week-asks-fair-isaac-for-competitive-pricing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Southern Company's unit signs data center power deal with Keel](https://seekingalpha.com/news/4641293-southern-company-unit-signs-data-center-power-deal-with-keel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Markets shrug off Trump’s $5,000 midterm ‘dividend’](https://seekingalpha.com/news/4641748-markets-shrug-off-trump-s-5000-midterm-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [30-year fixed mortgage rate tops 7% for the first time in over a year](https://www.cnbc.com/2026/09/10/30-year-fixed-mortgage-rate-crosses.html) — *CNBC Markets*
+- [Mortgage rates hit fifteen-month high, home sales impacted](https://seekingalpha.com/news/4641741-mortgage-rates-hit-fifteen-month-high-home-sales-impacted?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Northrop Grumman expands CEE defense partnerships amid NATO buildup](https://seekingalpha.com/news/4641744-northrop-grumman-expands-cee-defense-partnerships-amid-nato-buildup?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up](https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories) — *MarketWatch*
+- [Navan at Goldman Sachs Communacopia + Technology Conference 2026: ai push](https://www.investing.com/news/transcripts/navan-at-goldman-sachs-communacopia--technology-conference-2026-ai-push-93CH-4896513) — *Investing.com*
+- [Volkswagen earmarks €16 billion for job cuts, plant closures, source says](https://www.investing.com/news/stock-market-news/volkswagen-braces-for-16-billion-in-costs-for-cutbacks-possible-factory-closures-source-says-4895255) — *Investing.com*
+- [UAE plans to invest $46 billion in Germany](https://www.investing.com/news/economy-news/uae-plans-to-invest-46-billion-in-germany-93CH-4896512) — *Investing.com*
+- [ECB governors see more tightening ahead with October in play](https://www.investing.com/news/economy-news/ecb-governors-see-more-tightening-ahead-with-october-in-play-4896511) — *Investing.com*
+- [Exclusive-UK deepens reliance on Musk’s SpaceX, spending nearly $40 million on satellite services](https://www.investing.com/news/stock-market-news/exclusiveuk-deepens-reliance-on-musks-spacex-spending-nearly-40-million-on-satellite-services-4895622) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
