@@ -825,6 +825,15 @@
       "prices": {
         "SPY": 762.4000244140625
       }
+    },
+    {
+      "date": "2026-09-10",
+      "total_value": 198589.1,
+      "portfolio_pnl": 2.366,
+      "benchmark_pnl": 7.28,
+      "prices": {
+        "SPY": 759.3200073242188
+      }
     }
   ],
   "recommendations": [
@@ -832,16 +841,16 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AMZN",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.4, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41.5%, Sharpe 1.89. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 70.6, Win Rate 61.5%, Avg 5d Return 1.6%, Max Drawdown -41.5%, Sharpe 1.9. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XBI",
-      "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 80.5, Win Rate 77.8%, Avg 5d Return 1.72%, Max Drawdown -31.56%, Sharpe 2.17. 1 minor bearish signal(s), max confidence 77.7.",
+      "ticker": "ARM",
+      "priority": "medium",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 64.6, Win Rate 60.0%, Avg 5d Return 3.1%, Max Drawdown -23.56%, Sharpe 1.92. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -850,13 +859,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CL=F",
       "priority": "medium",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 61.4, Win Rate 63.6%, Avg 5d Return 1.78%, Max Drawdown -55.91%, Sharpe 1.58. No conflicting bearish signals.",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 61.5, Win Rate 63.6%, Avg 5d Return 1.79%, Max Drawdown -55.91%, Sharpe 1.58. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-10T16:36:54.472181",
+  "recommendations_updated": "2026-09-10T16:47:10.893402",
   "trade_log": [
     {
       "action": "SELL",
