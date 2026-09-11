@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, September 10, 2026
-Generated at 04:36 PM
+# Daily Newsletter — Friday, September 11, 2026
+Generated at 04:41 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 99 total &nbsp;·&nbsp; 🟢 48 Bullish &nbsp;·&nbsp; 🔴 51 Bearish
+**Strategy Signals:** 81 total &nbsp;·&nbsp; 🟢 52 Bullish &nbsp;·&nbsp; 🔴 29 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $17.69 | 📈 +7.47% |
-| **CL=F** | Crude Oil | $101.53 | 📈 +5.71% |
-| **SI=F** | Silver | $64.78 | 📉 -4.66% |
-| **SOL-USD** | Solana | $99.10 | 📉 -2.47% |
-| **BTC-USD** | Bitcoin | $76837.73 | 📉 -1.82% |
-| **^TNX** | 10-Year Treasury Yield | $4.92 | 📈 +1.80% |
-| **XLK** | Tech (XLK) | $185.38 | 📉 -1.33% |
-| **ETH-USD** | Ethereum | $2435.42 | 📉 -1.28% |
-| **^TYX** | 30-Year Treasury Yield | $5.35 | 📈 +1.15% |
-| **^IRX** | 3-Month T-Bill | $3.84 | 📈 +1.00% |
+| **^VIX** | VIX (Fear Index) | $15.75 | 📉 -11.72% |
+| **ETH-USD** | Ethereum | $2568.34 | 📈 +5.39% |
+| **SOL-USD** | Solana | $101.81 | 📈 +3.16% |
+| **CL=F** | Crude Oil | $100.17 | 📉 -2.25% |
+| **^IRX** | 3-Month T-Bill | $3.90 | 📈 +1.51% |
+| **BTC-USD** | Bitcoin | $77716.31 | 📈 +1.50% |
+| **XLK** | Tech (XLK) | $187.75 | 📈 +1.37% |
+| **XLI** | Industrials (XLI) | $172.55 | 📈 +1.17% |
+| **^DJI** | Dow Jones | $52620.64 | 📈 +1.07% |
+| **^IXIC** | NASDAQ | $26359.58 | 📈 +1.07% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **CRWD** | Vortex — Bullish | 85.0 | 75.0% |
 | 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.5 | 77.8% |
-| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 78.2 | 67.4% |
-| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 77.9 | 66.7% |
+| 🟢 BULLISH | **AMZN** | Stochastic (Full) — Oversold | 76.8 | 64.6% |
 | 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.1 | 62.9% |
-| 🟢 BULLISH | **UPRO** | Williams %R — Oversold | 72.5 | 65.5% |
 | 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 72.1 | 55.9% |
-| 🟢 BULLISH | **UPRO** | VWAP Deviation — Oversold | 71.1 | 64.7% |
-| 🟢 BULLISH | **AMZN** | Williams %R — Oversold | 70.4 | 61.5% |
-| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 68.6 | 60.9% |
-| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.0 | 59.9% |
+| 🟢 BULLISH | **TQQQ** | Vortex — Bullish | 70.8 | 68.0% |
+| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 68.0 | 60.9% |
+| 🟢 BULLISH | **SPY** | Stochastic RSI Oversold | 67.1 | 60.2% |
+| 🟢 BULLISH | **VOO** | Stochastic RSI Oversold | 67.1 | 60.2% |
+| 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 67.1 | 62.5% |
 | 🟢 BULLISH | **IWM** | Williams %R — Oversold | 64.8 | 65.0% |
-| 🟢 BULLISH | **GC=F** | Stochastic RSI Oversold | 64.5 | 65.4% |
+| 🟢 BULLISH | **MARA** | Chaikin Money Flow — Bullish | 64.8 | 63.1% |
 
 ## Latest News
 
-- [Markets shrug off Trump’s $5,000 midterm ‘dividend’](https://seekingalpha.com/news/4641748-markets-shrug-off-trump-s-5000-midterm-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [30-year fixed mortgage rate tops 7% for the first time in over a year](https://www.cnbc.com/2026/09/10/30-year-fixed-mortgage-rate-crosses.html) — *CNBC Markets*
-- [Mortgage rates hit fifteen-month high, home sales impacted](https://seekingalpha.com/news/4641741-mortgage-rates-hit-fifteen-month-high-home-sales-impacted?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Northrop Grumman expands CEE defense partnerships amid NATO buildup](https://seekingalpha.com/news/4641744-northrop-grumman-expands-cee-defense-partnerships-amid-nato-buildup?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up](https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories) — *MarketWatch*
-- [Navan at Goldman Sachs Communacopia + Technology Conference 2026: ai push](https://www.investing.com/news/transcripts/navan-at-goldman-sachs-communacopia--technology-conference-2026-ai-push-93CH-4896513) — *Investing.com*
-- [Volkswagen earmarks €16 billion for job cuts, plant closures, source says](https://www.investing.com/news/stock-market-news/volkswagen-braces-for-16-billion-in-costs-for-cutbacks-possible-factory-closures-source-says-4895255) — *Investing.com*
-- [UAE plans to invest $46 billion in Germany](https://www.investing.com/news/economy-news/uae-plans-to-invest-46-billion-in-germany-93CH-4896512) — *Investing.com*
-- [ECB governors see more tightening ahead with October in play](https://www.investing.com/news/economy-news/ecb-governors-see-more-tightening-ahead-with-october-in-play-4896511) — *Investing.com*
-- [Exclusive-UK deepens reliance on Musk’s SpaceX, spending nearly $40 million on satellite services](https://www.investing.com/news/stock-market-news/exclusiveuk-deepens-reliance-on-musks-spacex-spending-nearly-40-million-on-satellite-services-4895622) — *Investing.com*
+- [AI regulation calls grow in DC after researcher's extinction warning](https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html) — *CNBC Markets*
+- [I’m locked into a 10-year annuity and now I’m strapped for cash. What are my options?](https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories) — *MarketWatch*
+- [Your Social Security check could go up another $71 next year. That’s not necessarily good news.](https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories) — *MarketWatch*
+- [Bonds are going on tilt. How to play them, says Mike Khouw](https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html) — *CNBC Markets*
+- [GameStop Finds A Bulk Buyer For Its Stock — Its Own CEO](https://www.investors.com/news/gamestop-ceo-ryan-cohen-ebay-merger-meme-stock/?src=A00220&yptr=yahoo) — *Yahoo Finance*
+- [The inside story on the historic U.S.-Venezuela oil deal and how it will work](https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html) — *CNBC Markets*
+- [Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers](https://www.cnbc.com/2026/09/11/kevin-warsh-fed-cpi-inflation-rate-hike-analysis.html) — *CNBC Markets*
+- [9/11 and the America it left behind](https://www.ft.com/content/bbdad57e-bd57-4c75-98b8-12fca7cbd268?syn-25a6b1a6=1) — *Financial Times*
+- [Hooker Furnishings outlines Margaritaville rollout with about 100 in-store galleries and 10 freestanding stores](https://seekingalpha.com/news/4642153-hooker-furnishings-outlines-margaritaville-rollout-with-about-100-in-store-galleries-and-10?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [How rising bond yields can wreck some portfolios while pumping up others with cash](https://www.marketwatch.com/story/how-rising-bond-yields-can-wreck-some-portfolios-while-pumping-up-others-with-cash-c415faf3?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*

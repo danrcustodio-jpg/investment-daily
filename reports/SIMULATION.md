@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 125** &nbsp;·&nbsp; Updated: Sep 10 2026 09:44 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 126** &nbsp;·&nbsp; Updated: Sep 11 2026 04:41 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.37%** &nbsp; ($+4,589) |
-| SPY Benchmark | +7.07% &nbsp; ($+13,716 if 100% SPY) |
-| Alpha vs SPY | **-4.70%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.38%** &nbsp; ($+4,613) |
+| SPY Benchmark | +8.10% &nbsp; ($+15,720 if 100% SPY) |
+| Alpha vs SPY | **-5.73%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,589 |
+| Current Value | $198,613 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,014 | +1.54% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,038 | +1.55% |
 
 ## Daily Equity Curve
 
@@ -113,29 +113,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 10 2026 09:44 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 11 2026 04:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 79.9, Win Rate 69.7%, Avg 5d Return 1.86%, Max Drawdown -8.66%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Williams %R — Oversold — Score 70.4, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Chaikin Money Flow — Bullish — Score 61.9, Win Rate 63.6%, Avg 5d Return 1.83%, Max Drawdo… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** OBV — Accumulation — Score 79.9, Win Rate 69.7%, Avg 5d Return 1.86%, Max Drawdown -8.66%, Sharpe 3.2. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 76.8, Win Rate 64.6%, Avg 5d Return 1.99%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, … |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Williams %R — Oversold — Score 70.4, Win Rate 61.5%, Avg 5d Return 1.59%, Max Drawdown -41.5%, Sharpe 1.89. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 76.8, Win Rate 64.6%, Avg 5d Return 1.99%, Max Drawdown -39.78%, Sharpe 2.32. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 61.9, Win Rate 63.6%, Avg 5d Return 1.83%, Max Drawdown -55.91%, Sharpe 1.61. No conflicting bearish signals.
+**Signal Analysis:** Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 68.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — TQQQ
+
+**Signal Analysis:** Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, Sharpe 2.19. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
