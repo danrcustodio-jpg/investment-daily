@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 126** &nbsp;·&nbsp; Updated: Sep 11 2026 04:41 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 126** &nbsp;·&nbsp; Updated: Sep 11 2026 04:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.38%** &nbsp; ($+4,613) |
-| SPY Benchmark | +8.10% &nbsp; ($+15,720 if 100% SPY) |
-| Alpha vs SPY | **-5.73%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.16% &nbsp; ($+15,822 if 100% SPY) |
+| Alpha vs SPY | **-5.78%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,613 |
 
@@ -110,22 +110,17 @@
 | 2026-09-08 | 📈 +2.34% | +8.22% | ❌ -5.88% |
 | 2026-09-09 | 📈 +2.35% | +7.72% | ❌ -5.36% |
 | 2026-09-10 | 📈 +2.37% | +7.07% | ❌ -4.70% |
+| 2026-09-11 | 📈 +2.38% | +8.16% | ❌ -5.78% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 11 2026 04:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 11 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 76.8, Win Rate 64.6%, Avg 5d Return 1.99%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, … |
-
-### 🔍 NEW OPPORTUNITY — AMZN
-
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 76.8, Win Rate 64.6%, Avg 5d Return 1.99%, Max Drawdown -39.78%, Sharpe 2.32. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -138,6 +133,12 @@ _Evaluated Sep 11 2026 04:41 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, Sharpe 2.19. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 2 minor bearish signal(s), max confidence 73.8.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

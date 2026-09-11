@@ -834,18 +834,18 @@
       "prices": {
         "SPY": 757.8300170898438
       }
+    },
+    {
+      "date": "2026-09-11",
+      "total_value": 198613.21,
+      "portfolio_pnl": 2.378,
+      "benchmark_pnl": 8.156,
+      "prices": {
+        "SPY": 765.5150146484375
+      }
     }
   ],
   "recommendations": [
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
-      "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 76.8, Win Rate 64.6%, Avg 5d Return 1.99%, Max Drawdown -39.78%, Sharpe 2.32. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "CRWD",
@@ -863,9 +863,18 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "AERO-USD",
+      "priority": "medium",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 2 minor bearish signal(s), max confidence 73.8.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-11T16:41:59.024430",
+  "recommendations_updated": "2026-09-11T16:50:28.356739",
   "trade_log": [
     {
       "action": "SELL",
