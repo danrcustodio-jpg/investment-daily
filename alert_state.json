@@ -17,50 +17,26 @@
     "XLE::ADX Strong Trend \u2014 Bullish": "2026-09-10T16:46:41.922496+00:00",
     "QQQ::CCI \u2014 Extreme Oversold": "2026-09-10T16:46:42.349670+00:00",
     "MRVL::CCI \u2014 Extreme Oversold": "2026-09-11T16:50:02.921424+00:00",
-    "PLTR::ADX Strong Trend \u2014 Bullish": "2026-09-09T16:57:38.469592+00:00",
     "SPY::Chaikin Money Flow \u2014 Bearish": "2026-09-11T16:50:03.002767+00:00",
     "UPRO::Chaikin Money Flow \u2014 Bearish": "2026-09-11T16:50:03.002786+00:00",
     "VOO::Chaikin Money Flow \u2014 Bearish": "2026-09-11T16:50:03.002793+00:00",
     "GC=F::MFI \u2014 Overbought": "2026-09-11T16:50:03.002805+00:00",
     "GC=F::Ulcer Index \u2014 Elevated": "2026-09-11T16:50:03.002810+00:00",
     "IWM::Ulcer Index \u2014 Elevated": "2026-09-11T16:50:03.002862+00:00",
-    "AERO-USD::MFI \u2014 Overbought": "2026-09-09T16:57:39.964483+00:00",
     "NVDA::Chaikin Money Flow \u2014 Bearish": "2026-09-11T16:50:03.183969+00:00",
     "XLK::Williams %R \u2014 Overbought": "2026-09-11T16:50:03.248965+00:00",
     "AMD::Chaikin Money Flow \u2014 Bullish": "2026-09-11T16:50:02.720692+00:00",
     "AMD::VWAP Deviation \u2014 Overbought": "2026-09-11T16:50:03.002837+00:00",
     "AMD::Williams %R \u2014 Overbought": "2026-09-11T16:50:03.002842+00:00",
     "XLE::MACD Bearish Crossover": "2026-09-10T16:46:43.630058+00:00",
-    "XLE::52-Week Breakout": "2026-09-09T16:57:36.847817+00:00",
-    "AMD::Supertrend \u2014 Bullish Flip": "2026-09-09T16:57:36.932867+00:00",
-    "RIOT::Awesome Oscillator \u2014 Bullish Zero Line": "2026-09-09T16:57:37.261466+00:00",
     "XBI::Williams %R \u2014 Oversold": "2026-09-11T16:50:02.219416+00:00",
     "UPRO::Williams %R \u2014 Oversold": "2026-09-10T16:46:40.556297+00:00",
     "AMZN::Williams %R \u2014 Oversold": "2026-09-10T16:46:40.636581+00:00",
-    "XLE::MACD Bullish Crossover": "2026-09-09T16:57:37.625681+00:00",
-    "MRVL::EMA 9/21 \u2014 Bullish Cross": "2026-09-09T16:57:37.625707+00:00",
-    "SMH::TRIX \u2014 Bullish Cross": "2026-09-09T16:57:37.970736+00:00",
-    "MRVL::Awesome Oscillator \u2014 Bullish Zero Line": "2026-09-09T16:57:38.236334+00:00",
     "IWM::Williams %R \u2014 Oversold": "2026-09-11T16:50:02.370192+00:00",
     "GC=F::Stochastic RSI Oversold": "2026-09-11T16:50:02.455516+00:00",
-    "MRVL::Parabolic SAR \u2014 Bullish": "2026-09-09T16:57:38.700466+00:00",
     "GOOGL::Williams %R \u2014 Oversold": "2026-09-10T16:46:41.922474+00:00",
     "XRP-USD::ADX Strong Trend \u2014 Bullish": "2026-09-10T16:46:41.454765+00:00",
     "SOXL::CCI \u2014 Extreme Oversold": "2026-09-11T16:50:02.977636+00:00",
-    "SPY::SMA 30 \u2014 Bearish Loss": "2026-09-09T16:57:39.734181+00:00",
-    "VOO::SMA 30 \u2014 Bearish Loss": "2026-09-09T16:57:39.734188+00:00",
-    "CRWD::TRIX \u2014 Bearish Cross": "2026-09-09T16:57:39.734206+00:00",
-    "PLTR::Vortex \u2014 Bearish": "2026-09-09T16:57:39.734217+00:00",
-    "TQQQ::Elder Force \u2014 Bearish": "2026-09-09T16:57:39.734226+00:00",
-    "AMD::Keltner \u2014 Upper Channel Touch": "2026-09-09T16:57:39.786742+00:00",
-    "GOOGL::Supertrend \u2014 Bearish Flip": "2026-09-09T16:57:39.786783+00:00",
-    "IONQ::Elder Force \u2014 Bearish": "2026-09-09T16:57:39.786789+00:00",
-    "MRVL::VWAP Deviation \u2014 Overbought": "2026-09-09T16:57:39.964450+00:00",
-    "SOL-USD::OBV \u2014 Distribution": "2026-09-09T16:57:40.414830+00:00",
-    "AMZN::Elder Force \u2014 Bearish": "2026-09-09T16:57:40.475495+00:00",
-    "RKLB::OBV \u2014 Distribution": "2026-09-09T16:57:40.723033+00:00",
-    "SOXL::Williams %R \u2014 Overbought": "2026-09-09T16:57:40.723059+00:00",
-    "ARKK::OBV \u2014 Distribution": "2026-09-09T16:57:40.723076+00:00",
     "DOGE-USD::MACD Bearish Crossover": "2026-09-09T19:35:18.373209+00:00",
     "SMCI::MACD Bearish Crossover": "2026-09-09T19:35:18.541476+00:00",
     "VOO::Williams %R \u2014 Oversold": "2026-09-10T16:46:40.362241+00:00",
@@ -125,9 +101,10 @@
     "AERO-USD::Supertrend \u2014 Bearish Flip": "2026-09-11T16:50:03.002867+00:00",
     "AVAX-USD::MACD Bearish Crossover": "2026-09-11T16:50:03.002871+00:00",
     "COIN::PPO \u2014 Bearish Cross": "2026-09-11T16:50:03.157673+00:00",
-    "BCH-USD::EMA 9/21 \u2014 Bearish Cross": "2026-09-11T16:50:03.212645+00:00"
+    "BCH-USD::EMA 9/21 \u2014 Bearish Cross": "2026-09-11T16:50:03.212645+00:00",
+    "APP::Elder Force \u2014 Bullish": "2026-09-11T19:22:31.736577+00:00"
   },
-  "send_count": 184,
+  "send_count": 185,
   "last_sms_at": "2026-09-11T16:50:02.012294+00:00",
   "snoozed_strategies": {},
   "snoozed_tickers": {},
@@ -155,8 +132,7 @@
     "UPRO": "2026-09-11T16:50:02.012390+00:00",
     "AERO-USD": "2026-09-11T16:50:02.012390+00:00",
     "NVDA": "2026-09-11T16:50:02.012390+00:00",
-    "APP": "2026-09-10T16:46:40.362228+00:00",
-    "RIOT": "2026-09-09T16:57:36.847802+00:00",
+    "APP": "2026-09-11T19:22:31.736548+00:00",
     "ARM": "2026-09-11T16:50:02.012390+00:00",
     "ADA-USD": "2026-09-10T16:46:40.362228+00:00",
     "SMCI": "2026-09-09T19:35:18.373185+00:00",
@@ -165,7 +141,6 @@
     "XRP-USD": "2026-09-10T16:46:40.362228+00:00",
     "TQQQ": "2026-09-11T16:50:02.012390+00:00",
     "IONQ": "2026-09-10T16:46:40.362228+00:00",
-    "SOL-USD": "2026-09-09T16:57:36.847802+00:00",
     "DOGE-USD": "2026-09-09T19:35:18.373185+00:00",
     "COIN": "2026-09-11T16:50:02.012390+00:00",
     "MARA": "2026-09-11T16:50:02.012390+00:00",
@@ -178,24 +153,24 @@
   },
   "intraday_tracking": {
     "ADA-USD": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:51.614584+00:00",
-      "last_change_at": "2026-09-11T16:49:51.314620+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:25.935758+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586259+00:00"
     },
     "AERO-USD": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:51.886478+00:00",
+      "last_fetch_at": "2026-09-11T19:22:26.134260+00:00",
       "last_change_at": "2026-09-11T16:49:51.314704+00:00"
     },
     "AMD": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:52.033453+00:00",
+      "last_fetch_at": "2026-09-11T19:22:26.459104+00:00",
       "last_change_at": "2026-09-08T16:56:12.354546+00:00"
     },
     "AMZN": {
-      "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:52.165226+00:00",
-      "last_change_at": "2026-09-09T16:57:21.720297+00:00"
+      "cadence_min": 30,
+      "last_fetch_at": "2026-09-11T19:22:26.575268+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586345+00:00"
     },
     "APP": {
       "cadence_min": 1440,
@@ -209,18 +184,18 @@
     },
     "GC=F": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:54.344774+00:00",
+      "last_fetch_at": "2026-09-11T19:22:27.186136+00:00",
       "last_change_at": "2026-08-14T14:09:42.710109+00:00"
     },
     "GOOGL": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-09-11T16:49:54.486141+00:00",
-      "last_change_at": "2026-09-11T16:49:51.314996+00:00"
+      "last_change_at": "2026-09-11T19:22:25.586432+00:00"
     },
     "IONQ": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:54.597961+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315074+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:27.314787+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586493+00:00"
     },
     "META": {
       "cadence_min": 1440,
@@ -228,9 +203,9 @@
       "last_change_at": "2026-09-10T16:46:31.237482+00:00"
     },
     "MRVL": {
-      "cadence_min": 240,
+      "cadence_min": 1440,
       "last_fetch_at": "2026-09-11T16:49:55.334163+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315155+00:00"
+      "last_change_at": "2026-09-11T19:22:25.586548+00:00"
     },
     "NVDA": {
       "cadence_min": 1440,
@@ -239,37 +214,37 @@
     },
     "PLTR": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:55.912868+00:00",
+      "last_fetch_at": "2026-09-11T19:22:27.822712+00:00",
       "last_change_at": "2026-09-08T16:56:12.354787+00:00"
     },
     "QQQ": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:56.018231+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315235+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:28.124567+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586600+00:00"
     },
     "RIOT": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-09-11T16:49:56.152905+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315308+00:00"
+      "last_change_at": "2026-09-11T19:22:25.586645+00:00"
     },
     "RKLB": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:56.284287+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315415+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:28.331392+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586690+00:00"
     },
     "SMH": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:56.511951+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315493+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:28.547174+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586734+00:00"
     },
     "SOXL": {
-      "cadence_min": 30,
-      "last_fetch_at": "2026-09-11T16:49:56.777767+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315583+00:00"
+      "cadence_min": 60,
+      "last_fetch_at": "2026-09-11T19:22:28.798694+00:00",
+      "last_change_at": "2026-09-11T19:22:25.586777+00:00"
     },
     "TQQQ": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:57.121689+00:00",
+      "last_fetch_at": "2026-09-11T19:22:29.137464+00:00",
       "last_change_at": "2026-09-09T16:57:21.720944+00:00"
     },
     "TSLA": {
@@ -279,7 +254,7 @@
     },
     "XBI": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:57.685373+00:00",
+      "last_fetch_at": "2026-09-11T19:22:29.701476+00:00",
       "last_change_at": "2026-09-02T19:34:19.823931+00:00"
     },
     "XLK": {
@@ -324,7 +299,7 @@
     },
     "IWM": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:54.729727+00:00",
+      "last_fetch_at": "2026-09-11T19:22:27.563121+00:00",
       "last_change_at": "2026-09-10T16:46:31.237425+00:00"
     },
     "ATOM-USD": {
@@ -348,9 +323,9 @@
       "last_change_at": "2026-09-08T19:41:05.669683+00:00"
     },
     "XLE": {
-      "cadence_min": 120,
+      "cadence_min": 240,
       "last_fetch_at": "2026-09-11T16:49:57.787214+00:00",
-      "last_change_at": "2026-09-11T16:49:51.315661+00:00"
+      "last_change_at": "2026-09-11T19:22:25.586823+00:00"
     },
     "AVAX-USD": {
       "cadence_min": 1440,
@@ -369,17 +344,17 @@
     },
     "SPY": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:56.930874+00:00",
+      "last_fetch_at": "2026-09-11T19:22:28.959844+00:00",
       "last_change_at": "2026-09-04T16:40:40.852658+00:00"
     },
     "UPRO": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:57.386276+00:00",
+      "last_fetch_at": "2026-09-11T19:22:29.279601+00:00",
       "last_change_at": "2026-08-26T14:35:40.589671+00:00"
     },
     "CRWD": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:53.903032+00:00",
+      "last_fetch_at": "2026-09-11T19:22:26.800248+00:00",
       "last_change_at": "2026-09-11T16:49:51.314909+00:00"
     },
     "MSFT": {
@@ -409,7 +384,7 @@
     },
     "VOO": {
       "cadence_min": 15,
-      "last_fetch_at": "2026-09-11T16:49:57.559704+00:00",
+      "last_fetch_at": "2026-09-11T19:22:29.511142+00:00",
       "last_change_at": "2026-08-19T19:50:09.426874+00:00"
     }
   },
@@ -431,50 +406,26 @@
     "XLE::ADX Strong Trend \u2014 Bullish": 65.07499694824219,
     "QQQ::CCI \u2014 Extreme Oversold": 710.7449951171875,
     "MRVL::CCI \u2014 Extreme Oversold": 237.11000061035156,
-    "PLTR::ADX Strong Trend \u2014 Bullish": 171.2100067138672,
     "SPY::Chaikin Money Flow \u2014 Bearish": 765.3599853515625,
     "UPRO::Chaikin Money Flow \u2014 Bearish": 148.70379638671875,
     "VOO::Chaikin Money Flow \u2014 Bearish": 703.5399780273438,
     "GC=F::MFI \u2014 Overbought": 4402.0,
     "GC=F::Ulcer Index \u2014 Elevated": 4402.0,
     "IWM::Ulcer Index \u2014 Elevated": 289.6050109863281,
-    "AERO-USD::MFI \u2014 Overbought": 5.5900865845615044e-05,
     "NVDA::Chaikin Money Flow \u2014 Bearish": 218.9600067138672,
     "XLK::Williams %R \u2014 Overbought": 187.80029296875,
     "AMD::Chaikin Money Flow \u2014 Bullish": 511.9949951171875,
     "AMD::VWAP Deviation \u2014 Overbought": 511.9949951171875,
     "AMD::Williams %R \u2014 Overbought": 511.9949951171875,
     "XLE::MACD Bearish Crossover": 65.07499694824219,
-    "XLE::52-Week Breakout": 65.1449966430664,
-    "AMD::Supertrend \u2014 Bullish Flip": 523.5900268554688,
-    "RIOT::Awesome Oscillator \u2014 Bullish Zero Line": 21.690000534057617,
     "XBI::Williams %R \u2014 Oversold": 156.63999938964844,
     "UPRO::Williams %R \u2014 Oversold": 145.1999969482422,
     "AMZN::Williams %R \u2014 Oversold": 252.89990234375,
-    "XLE::MACD Bullish Crossover": 65.1449966430664,
-    "MRVL::EMA 9/21 \u2014 Bullish Cross": 237.23500061035156,
-    "SMH::TRIX \u2014 Bullish Cross": 574.6300048828125,
-    "MRVL::Awesome Oscillator \u2014 Bullish Zero Line": 237.23500061035156,
     "IWM::Williams %R \u2014 Oversold": 289.6050109863281,
     "GC=F::Stochastic RSI Oversold": 4402.0,
-    "MRVL::Parabolic SAR \u2014 Bullish": 237.23500061035156,
     "GOOGL::Williams %R \u2014 Oversold": 331.57501220703125,
     "XRP-USD::ADX Strong Trend \u2014 Bullish": 1.3515000343322754,
     "SOXL::CCI \u2014 Extreme Oversold": 122.52999877929688,
-    "SPY::SMA 30 \u2014 Bearish Loss": 762.6799926757812,
-    "VOO::SMA 30 \u2014 Bearish Loss": 701.0999755859375,
-    "CRWD::TRIX \u2014 Bearish Cross": 209.25,
-    "PLTR::Vortex \u2014 Bearish": 171.2100067138672,
-    "TQQQ::Elder Force \u2014 Bearish": 71.62010192871094,
-    "AMD::Keltner \u2014 Upper Channel Touch": 523.5900268554688,
-    "GOOGL::Supertrend \u2014 Bearish Flip": 330.1099853515625,
-    "IONQ::Elder Force \u2014 Bearish": 39.10139846801758,
-    "MRVL::VWAP Deviation \u2014 Overbought": 237.23500061035156,
-    "SOL-USD::OBV \u2014 Distribution": 103.3499984741211,
-    "AMZN::Elder Force \u2014 Bearish": 251.9149932861328,
-    "RKLB::OBV \u2014 Distribution": 64.41000366210938,
-    "SOXL::Williams %R \u2014 Overbought": 125.99800109863281,
-    "ARKK::OBV \u2014 Distribution": 84.97000122070312,
     "DOGE-USD::MACD Bearish Crossover": 0.08834999799728394,
     "SMCI::MACD Bearish Crossover": 38.90999984741211,
     "VOO::Williams %R \u2014 Oversold": 697.75,
@@ -539,6 +490,7 @@
     "AERO-USD::Supertrend \u2014 Bearish Flip": 3.4767843317240477e-05,
     "AVAX-USD::MACD Bearish Crossover": 7.5970001220703125,
     "COIN::PPO \u2014 Bearish Cross": 177.57000732421875,
-    "BCH-USD::EMA 9/21 \u2014 Bearish Cross": 233.60000610351562
+    "BCH-USD::EMA 9/21 \u2014 Bearish Cross": 233.60000610351562,
+    "APP::Elder Force \u2014 Bullish": 324.42498779296875
   }
 }
