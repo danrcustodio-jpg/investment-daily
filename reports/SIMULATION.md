@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 127** &nbsp;·&nbsp; Updated: Sep 12 2026 03:45 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 128** &nbsp;·&nbsp; Updated: Sep 13 2026 04:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.39%** &nbsp; ($+4,637) |
+| Portfolio P&L | **+2.40%** &nbsp; ($+4,661) |
 | SPY Benchmark | +7.98% &nbsp; ($+15,486 if 100% SPY) |
-| Alpha vs SPY | **-5.59%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.58%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,637 |
+| Current Value | $198,661 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,062 | +1.57% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,086 | +1.58% |
 
 ## Daily Equity Curve
 
@@ -114,13 +114,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 12 2026 03:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 13 2026 04:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **CL=F** | Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.3%, Avg 5d Return 1.94%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -134,11 +134,11 @@ _Evaluated Sep 12 2026 03:45 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.3%, Avg 5d Return 1.94%, Max Drawdown -55.91%, Sharpe 1.72. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 1 minor bearish signal(s), max confidence 73.8.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
