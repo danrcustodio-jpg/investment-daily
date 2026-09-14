@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 128** &nbsp;·&nbsp; Updated: Sep 13 2026 04:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 129** &nbsp;·&nbsp; Updated: Sep 14 2026 06:09 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.40%** &nbsp; ($+4,661) |
-| SPY Benchmark | +7.98% &nbsp; ($+15,486 if 100% SPY) |
-| Alpha vs SPY | **-5.58%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.42%** &nbsp; ($+4,686) |
+| SPY Benchmark | +7.74% &nbsp; ($+15,011 if 100% SPY) |
+| Alpha vs SPY | **-5.32%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,661 |
+| Current Value | $198,686 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,086 | +1.58% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,110 | +1.59% |
 
 ## Daily Equity Curve
 
@@ -114,31 +114,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 13 2026 04:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 14 2026 06:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84… |
-
-### 🔍 NEW OPPORTUNITY — CRWD
-
-**Signal Analysis:** Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.69%, Max Drawdown -18.53%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 68.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — TQQQ
-
-**Signal Analysis:** Vortex — Bullish — Score 70.8, Win Rate 68.0%, Avg 5d Return 1.96%, Max Drawdown -15.24%, Sharpe 2.19. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 81.2, Win Rate 81.2%, Avg 5d Return 2.21%, Max Drawdown -8.03%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 1 minor bearish signal(s), max confidence 73.8.
+**Signal Analysis:** ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — GOOGL
+
+**Signal Analysis:** PPO — Bullish Cross — Score 81.2, Win Rate 81.2%, Avg 5d Return 2.21%, Max Drawdown -8.03%, Sharpe 3.64. 1 minor bearish signal(s), max confidence 62.9.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — IONQ
+
+**Signal Analysis:** OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 

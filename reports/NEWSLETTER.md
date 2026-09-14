@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, September 13, 2026
-Generated at 04:35 PM
+# Daily Newsletter — Monday, September 14, 2026
+Generated at 06:09 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 85 total &nbsp;·&nbsp; 🟢 55 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
+**Strategy Signals:** 102 total &nbsp;·&nbsp; 🟢 58 Bullish &nbsp;·&nbsp; 🔴 44 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $15.84 | 📉 -11.21% |
-| **CL=F** | Crude Oil | $100.05 | 📉 -2.37% |
-| **^IRX** | 3-Month T-Bill | $3.91 | 📈 +1.77% |
-| **SI=F** | Silver | $65.19 | 📈 +1.41% |
-| **XLK** | Tech (XLK) | $187.67 | 📈 +1.32% |
-| **SOL-USD** | Solana | $100.59 | 📉 -1.17% |
-| **XLI** | Industrials (XLI) | $172.37 | 📈 +1.07% |
-| **ETH-USD** | Ethereum | $2500.04 | 📉 -1.03% |
-| **GC=F** | Gold | $4408.90 | 📈 +1.02% |
-| **^DJI** | Dow Jones | $52573.29 | 📈 +0.98% |
+| **^VIX** | VIX (Fear Index) | $16.67 | 📈 +5.24% |
+| **SOL-USD** | Solana | $103.22 | 📈 +4.00% |
+| **BTC-USD** | Bitcoin | $78992.50 | 📈 +2.80% |
+| **NG=F** | Natural Gas | $2.90 | 📈 +2.44% |
+| **ETH-USD** | Ethereum | $2536.58 | 📈 +2.40% |
+| **XLI** | Industrials (XLI) | $169.66 | 📉 -1.57% |
+| **CL=F** | Crude Oil | $101.52 | 📈 +1.47% |
+| **XLV** | Healthcare (XLV) | $167.64 | 📈 +1.38% |
+| **GC=F** | Gold | $4352.20 | 📉 -1.29% |
+| **XLK** | Tech (XLK) | $185.46 | 📉 -1.18% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **CRWD** | Vortex — Bullish | 85.0 | 75.0% |
-| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.5 | 77.8% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.1 | 62.9% |
-| 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 72.1 | 55.9% |
-| 🟢 BULLISH | **TQQQ** | Vortex — Bullish | 70.8 | 68.0% |
-| 🟢 BULLISH | **SPY** | Stochastic RSI Oversold | 68.3 | 61.6% |
-| 🟢 BULLISH | **VOO** | Stochastic RSI Oversold | 68.2 | 61.2% |
-| 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 67.9 | 62.4% |
-| 🟢 BULLISH | **GC=F** | Elder Force — Bullish | 67.1 | 62.5% |
-| 🟢 BULLISH | **ARM** | PPO — Bullish Cross | 66.8 | 60.0% |
-| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 64.8 | 65.0% |
-| 🟢 BULLISH | **UPRO** | Stochastic RSI Oversold | 64.4 | 60.9% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.1 | 80.0% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.3% |
+| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 81.2 | 81.2% |
+| 🟢 BULLISH | **AERO-USD** | ATR — Volatility Surge (Up) | 80.0 | 64.7% |
+| 🟢 BULLISH | **GOOGL** | MACD Bullish Crossover | 78.9 | 68.4% |
+| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 74.3 | 67.1% |
+| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.7 | 63.9% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 72.0 | 61.1% |
+| 🟢 BULLISH | **APP** | OBV — Accumulation | 70.9 | 65.0% |
+| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 70.4 | 66.2% |
+| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 70.0 | 66.7% |
+| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 68.9 | 63.0% |
 
 ## Latest News
 
-- [Trump is said to weigh ethics compromise ahead of crucial crypto bill vote](https://seekingalpha.com/news/4642296-trump-is-said-to-weigh-ethics-compromise-ahead-of-crucial-crypto-bill-vote?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?](https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories) — *MarketWatch*
-- [Trump floats keeping Iranian oil as conflict rattles energy markets](https://seekingalpha.com/news/4642295-trump-floats-keeping-iranian-oil-as-conflict-rattles-energy-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike](https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/?src=A00220&yptr=yahoo) — *Yahoo Finance*
-- [Russia strikes Ukrainian train line moments after foreign dignitaries pass](https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf?syn-25a6b1a6=1) — *Financial Times*
-- [Hassett says White House will respect Fed decision, weighs AI safety guardrails](https://seekingalpha.com/news/4642294-hassett-says-white-house-will-respect-fed-decision-weighs-ai-safety-guardrails?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown](https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo) — *Yahoo Finance*
-- [Le Pen vows to put French citizens first in campaign launch](https://www.ft.com/content/d25e4152-afc5-4ff9-bfd9-3317413800ff?syn-25a6b1a6=1) — *Financial Times*
-- [Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown](https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html) — *CNBC Markets*
-- [Pay is back on the rise for job switchers, even in low-hire job market](https://finance.yahoo.com/economy/article/pay-is-back-on-the-rise-for-job-switchers-even-in-low-hire-job-market-154504463.html) — *Yahoo Finance*
+- [RF Industries earnings missed by $0.01, revenue topped estimates](https://www.investing.com/news/earnings/rf-industries-earnings-missed-by-001-revenue-topped-estimates-4900192) — *Investing.com*
+- [Trex at Goldman Sachs conference: demand, growth plan lift outlook](https://www.investing.com/news/transcripts/trex-at-goldman-sachs-conference-demand-growth-plan-lift-outlook-93CH-4900191) — *Investing.com*
+- [GE Vernova and Corning among market cap stock movers on Monday](https://www.investing.com/news/stock-market-news/ge-vernova-and-corning-among-market-cap-stock-movers-on-monday-93CH-4900190) — *Investing.com*
+- [Which matters more to stocks: the bond market or AI risks? The volatility gauge might offer an answer](https://www.cnbc.com/2026/09/14/which-matters-more-to-stocks-the-bond-market-or-ai-risks-the-volatility-gauge-might-offer-an-answer.html) — *CNBC Markets*
+- [Why is Bank of America stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-bank-of-america-stock-sliding-today-93CH-4900189) — *Investing.com*
+- [Donegal Mutual Insurance buys $1.05m of Donegal Group stock](https://www.investing.com/news/insider-trading-news/donegal-mutual-insurance-buys-105m-of-donegal-group-stock-93CH-4900188) — *Investing.com*
+- [ADP employment, Empire State index, and oil inventories due Tuesday](https://www.investing.com/news/stock-market-news/adp-employment-empire-state-index-and-oil-inventories-due-tuesday-93CH-4900187) — *Investing.com*
+- [US Senate Republicans release new crypto bill text ahead of critical vote](https://www.investing.com/news/economy-news/senate-republicans-new-crypto-bill-text-adds-new-ethics-language-4899651) — *Investing.com*
+- [Xeris at H.C. Wainwright conference: growth engine widens](https://www.investing.com/news/transcripts/xeris-at-hc-wainwright-conference-growth-engine-widens-93CH-4900186) — *Investing.com*
+- [Cloudflare stock hits all-time high at 332.27 USD](https://www.investing.com/news/company-news/cloudflare-stock-hits-alltime-high-at-33227-usd-93CH-4900185) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
