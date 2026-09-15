@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 05:25 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 08:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.43%** &nbsp; ($+4,710) |
-| SPY Benchmark | +6.90% &nbsp; ($+13,392 if 100% SPY) |
-| Alpha vs SPY | **-4.48%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.01% &nbsp; ($+13,609 if 100% SPY) |
+| Alpha vs SPY | **-4.59%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,710 |
 
@@ -112,21 +112,21 @@
 | 2026-09-10 | 📈 +2.37% | +7.07% | ❌ -4.70% |
 | 2026-09-11 | 📈 +2.38% | +7.98% | ❌ -5.60% |
 | 2026-09-14 | 📈 +2.42% | +7.50% | ❌ -5.09% |
-| 2026-09-15 | 📈 +2.43% | +6.92% | ❌ -4.49% |
+| 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.59% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 15 2026 05:25 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 15 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | RSI Oversold — Score 91.4, Win Rate 85.7%, Avg 5d Return 8.32%, Max Drawdown -7.94%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | MACD Bullish Crossover — Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 5.14%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 56.5, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — RKLB
 
-**Signal Analysis:** RSI Oversold — Score 91.4, Win Rate 85.7%, Avg 5d Return 8.32%, Max Drawdown -7.94%, Sharpe 6.14. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22.02%, Sharpe 3.06. 1 minor bearish signal(s), max confidence 53.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
@@ -138,7 +138,7 @@ _Evaluated Sep 15 2026 05:25 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 5.14%, Max Drawdown -90.7%, Sharpe 1.84. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 56.5, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown -90.74%, Sharpe 1.82. 3 minor bearish signal(s), max confidence 75.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
