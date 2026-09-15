@@ -857,33 +857,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AERO-USD",
+      "ticker": "AVGO",
       "priority": "high",
-      "reason": "ATR \u2014 Volatility Surge (Up) \u2014 Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 91.4, Win Rate 85.7%, Avg 5d Return 8.32%, Max Drawdown -7.94%, Sharpe 6.14. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, Sharpe 4.31. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XRP-USD",
+      "priority": "medium",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 57.4, Win Rate 43.1%, Avg 5d Return 5.14%, Max Drawdown -90.7%, Sharpe 1.84. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
-      "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 81.2, Win Rate 81.2%, Avg 5d Return 2.21%, Max Drawdown -8.03%, Sharpe 3.64. 1 minor bearish signal(s), max confidence 62.9.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-14T21:56:44.271864",
+  "recommendations_updated": "2026-09-15T17:13:41.950326",
   "trade_log": [
     {
       "action": "SELL",

@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 129** &nbsp;·&nbsp; Updated: Sep 14 2026 09:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 05:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.42%** &nbsp; ($+4,686) |
-| SPY Benchmark | +7.50% &nbsp; ($+14,552 if 100% SPY) |
-| Alpha vs SPY | **-5.09%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.43%** &nbsp; ($+4,710) |
+| SPY Benchmark | +7.00% &nbsp; ($+13,570 if 100% SPY) |
+| Alpha vs SPY | **-4.57%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,686 |
+| Current Value | $198,710 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,110 | +1.59% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,135 | +1.60% |
 
 ## Daily Equity Curve
 
@@ -115,31 +115,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 14 2026 09:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 15 2026 05:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | PPO — Bullish Cross — Score 81.2, Win Rate 81.2%, Avg 5d Return 2.21%, Max Drawdown -8.03%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | RSI Oversold — Score 91.4, Win Rate 85.7%, Avg 5d Return 8.32%, Max Drawdown -7.94%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 5.14%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 91.4, Win Rate 85.7%, Avg 5d Return 8.32%, Max Drawdown -7.94%, Sharpe 6.14. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLE
+
+**Signal Analysis:** 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, Sharpe 4.31. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 5.14%, Max Drawdown -90.7%, Sharpe 1.84. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — GOOGL
-
-**Signal Analysis:** PPO — Bullish Cross — Score 81.2, Win Rate 81.2%, Avg 5d Return 2.21%, Max Drawdown -8.03%, Sharpe 3.64. 1 minor bearish signal(s), max confidence 62.9.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — IONQ
-
-**Signal Analysis:** OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 

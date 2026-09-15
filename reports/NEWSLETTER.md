@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, September 14, 2026
-Generated at 06:09 PM
+# Daily Newsletter — Tuesday, September 15, 2026
+Generated at 05:13 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 102 total &nbsp;·&nbsp; 🟢 58 Bullish &nbsp;·&nbsp; 🔴 44 Bearish
+**Strategy Signals:** 112 total &nbsp;·&nbsp; 🟢 73 Bullish &nbsp;·&nbsp; 🔴 39 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.67 | 📈 +5.24% |
-| **SOL-USD** | Solana | $103.22 | 📈 +4.00% |
-| **BTC-USD** | Bitcoin | $78992.50 | 📈 +2.80% |
-| **NG=F** | Natural Gas | $2.90 | 📈 +2.44% |
-| **ETH-USD** | Ethereum | $2536.58 | 📈 +2.40% |
-| **XLI** | Industrials (XLI) | $169.66 | 📉 -1.57% |
-| **CL=F** | Crude Oil | $101.52 | 📈 +1.47% |
-| **XLV** | Healthcare (XLV) | $167.64 | 📈 +1.38% |
-| **GC=F** | Gold | $4352.20 | 📉 -1.29% |
-| **XLK** | Tech (XLK) | $185.46 | 📉 -1.18% |
+| **CL=F** | Crude Oil | $106.03 | 📈 +4.58% |
+| **ETH-USD** | Ethereum | $2414.14 | 📉 -3.99% |
+| **SOL-USD** | Solana | $98.90 | 📉 -3.51% |
+| **BTC-USD** | Bitcoin | $76191.70 | 📉 -2.52% |
+| **^VIX** | VIX (Fear Index) | $17.50 | 📈 +2.34% |
+| **XLE** | Energy (XLE) | $65.92 | 📈 +2.15% |
+| **XLY** | Consumer Disc. (XLY) | $111.32 | 📉 -1.35% |
+| **JPYUSD=X** | JPY/USD | $0.01 | 📉 -1.07% |
+| **^DJI** | Dow Jones | $51997.94 | 📉 -0.81% |
+| **XLF** | Financials (XLF) | $56.58 | 📉 -0.80% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **AVGO** | RSI Oversold | 91.4 | 85.7% |
+| 🟢 BULLISH | **XBI** | Fisher Transform — Low Extreme | 89.2 | 76.9% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.1 | 80.0% |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 84.4 | 76.5% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.3% |
-| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 81.2 | 81.2% |
-| 🟢 BULLISH | **AERO-USD** | ATR — Volatility Surge (Up) | 80.0 | 64.7% |
-| 🟢 BULLISH | **GOOGL** | MACD Bullish Crossover | 78.9 | 68.4% |
-| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 74.3 | 67.1% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 73.7 | 63.9% |
-| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 72.0 | 61.1% |
-| 🟢 BULLISH | **APP** | OBV — Accumulation | 70.9 | 65.0% |
-| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 70.4 | 66.2% |
-| 🟢 BULLISH | **IONQ** | OBV — Accumulation | 70.0 | 66.7% |
-| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 68.9 | 63.0% |
+| 🟢 BULLISH | **GC=F** | MFI — Oversold | 82.4 | 66.7% |
+| 🟢 BULLISH | **RKLB** | MACD Bullish Crossover | 81.2 | 62.5% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.5 | 77.8% |
+| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 78.9 | 76.7% |
+| 🟢 BULLISH | **VOO** | Williams %R — Oversold | 78.2 | 67.4% |
+| 🟢 BULLISH | **SPY** | Williams %R — Oversold | 77.9 | 66.7% |
+| 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 76.1 | 73.3% |
 
 ## Latest News
 
-- [RF Industries earnings missed by $0.01, revenue topped estimates](https://www.investing.com/news/earnings/rf-industries-earnings-missed-by-001-revenue-topped-estimates-4900192) — *Investing.com*
-- [Trex at Goldman Sachs conference: demand, growth plan lift outlook](https://www.investing.com/news/transcripts/trex-at-goldman-sachs-conference-demand-growth-plan-lift-outlook-93CH-4900191) — *Investing.com*
-- [GE Vernova and Corning among market cap stock movers on Monday](https://www.investing.com/news/stock-market-news/ge-vernova-and-corning-among-market-cap-stock-movers-on-monday-93CH-4900190) — *Investing.com*
-- [Which matters more to stocks: the bond market or AI risks? The volatility gauge might offer an answer](https://www.cnbc.com/2026/09/14/which-matters-more-to-stocks-the-bond-market-or-ai-risks-the-volatility-gauge-might-offer-an-answer.html) — *CNBC Markets*
-- [Why is Bank of America stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-bank-of-america-stock-sliding-today-93CH-4900189) — *Investing.com*
-- [Donegal Mutual Insurance buys $1.05m of Donegal Group stock](https://www.investing.com/news/insider-trading-news/donegal-mutual-insurance-buys-105m-of-donegal-group-stock-93CH-4900188) — *Investing.com*
-- [ADP employment, Empire State index, and oil inventories due Tuesday](https://www.investing.com/news/stock-market-news/adp-employment-empire-state-index-and-oil-inventories-due-tuesday-93CH-4900187) — *Investing.com*
-- [US Senate Republicans release new crypto bill text ahead of critical vote](https://www.investing.com/news/economy-news/senate-republicans-new-crypto-bill-text-adds-new-ethics-language-4899651) — *Investing.com*
-- [Xeris at H.C. Wainwright conference: growth engine widens](https://www.investing.com/news/transcripts/xeris-at-hc-wainwright-conference-growth-engine-widens-93CH-4900186) — *Investing.com*
-- [Cloudflare stock hits all-time high at 332.27 USD](https://www.investing.com/news/company-news/cloudflare-stock-hits-alltime-high-at-33227-usd-93CH-4900185) — *Investing.com*
+- [Judge blocks Kennedy Center board from returning Trump's name to building](https://www.cnbc.com/2026/09/15/trump-kennedy-center-name-ruling.html) — *CNBC Markets*
+- [Scott Bessent defends Treasury intervention, Trump economy in contentious House hearing](https://www.cnbc.com/2026/09/15/scott-bessent-house-hearing-economy-midterms.html) — *CNBC Markets*
+- [Why investors need to learn the difference between uncertainty and risk in today’s market](https://www.marketwatch.com/story/what-investors-need-to-do-and-mistakes-not-to-make-in-todays-uncertain-world-8eb74333?mod=mw_rss_topstories) — *MarketWatch*
+- [Is the two-decade era of low interest rates over? The Fed has to decide.](https://www.marketwatch.com/story/is-the-two-decade-era-of-low-interest-rates-over-the-fed-has-to-decide-0520f458?mod=mw_rss_topstories) — *MarketWatch*
+- [Saudi pipeline closure is a brief interruption that will last days, U.S. Energy Secretary tells CNBC](https://www.cnbc.com/2026/09/15/saud-arabia-east-west-pipeline-iran-war-chris-wright.html) — *CNBC Markets*
+- [Target sets its fall sales event for the same days as Amazon's](https://seekingalpha.com/news/4642955-target-sets-its-fall-sales-event-for-the-same-days-as-amazons?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [U.S. crude oil tops $106 as market awaits updates on Saudi pipeline outage](https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html) — *CNBC Markets*
+- [Will AI really destroy humanity? Pioneers who created the tech weigh in](https://www.cnbc.com/2026/09/15/ai-destroy-humanity-extinction-risks.html) — *CNBC Markets*
+- [My son has a potentially fatal genetic disease. What should I do with my $1.3 million estate?](https://www.marketwatch.com/story/he-does-not-have-a-spouse-or-children-my-son-has-a-serious-genetic-disease-what-should-i-do-with-my-1-3-million-estate-98cdccf9?mod=mw_rss_topstories) — *MarketWatch*
+- [Dell Technologies (DELL) Rallies on Bullish RBC Outlook: Is the Stock a Buy?](https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-rallies-bullish-165722821.html) — *Yahoo Finance*
 
 ---
 *Investment Daily — Not financial advice.*
