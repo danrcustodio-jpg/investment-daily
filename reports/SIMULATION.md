@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 08:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 11:00 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.43%** &nbsp; ($+4,710) |
-| SPY Benchmark | +7.01% &nbsp; ($+13,609 if 100% SPY) |
-| Alpha vs SPY | **-4.59%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.01% &nbsp; ($+13,595 if 100% SPY) |
+| Alpha vs SPY | **-4.58%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,710 |
 
@@ -112,17 +112,17 @@
 | 2026-09-10 | 📈 +2.37% | +7.07% | ❌ -4.70% |
 | 2026-09-11 | 📈 +2.38% | +7.98% | ❌ -5.60% |
 | 2026-09-14 | 📈 +2.42% | +7.50% | ❌ -5.09% |
-| 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.59% |
+| 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.58% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 15 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 15 2026 11:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | MACD Bullish Crossover — Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 56.5, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 56.6, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — RKLB
 
@@ -138,7 +138,7 @@ _Evaluated Sep 15 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 56.5, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown -90.74%, Sharpe 1.82. 3 minor bearish signal(s), max confidence 75.3.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 56.6, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown -90.7%, Sharpe 1.82. 3 minor bearish signal(s), max confidence 75.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 

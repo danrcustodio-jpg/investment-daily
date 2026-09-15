@@ -1,5 +1,5 @@
 # Strategy Alerts
-**Last scan:** Tuesday September 15, 2026 at 08:20 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Tuesday September 15, 2026 at 11:00 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
@@ -38,7 +38,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **TQQQ** | Stochastic RSI Oversold | 70.6 | 62.5% | -66.11% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 70.4 | 66.2% | -72.51% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XLE** | Elder Force — Bullish | 70.3 | 71.9% | -8.68% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 69.2 | 65.5% | -55.91% | 🔵 In cooldown (≤6h) |
+| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 69.1 | 65.5% | -55.91% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 68.9 | 63.0% | -42.38% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **IWM** | Williams %R — Oversold | 64.8 | 65.0% | -29.74% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | Stochastic RSI Oversold | 62.2 | 59.0% | -41.52% | 🔵 In cooldown (≤6h) |
@@ -49,8 +49,8 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **SMCI** | Williams %R — Oversold | 57.2 | 57.0% | -74.38% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **VOO** | Keltner — Lower Channel Touch | 57.0 | 57.1% | -25.03% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | Stochastic RSI Oversold | 56.6 | 53.0% | -67.95% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 56.6 | 42.3% | -90.7% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **CRWD** | Chaikin Money Flow — Bullish | 56.5 | 57.5% | -78.63% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 56.5 | 42.3% | -90.73% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **AVGO** | Keltner — Lower Channel Touch | 55.9 | 57.7% | -46.82% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SMH** | CCI — Extreme Oversold | 55.8 | 59.3% | -80.37% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **TQQQ** | VWAP Deviation — Oversold | 55.7 | 61.2% | -86.0% | 🔵 In cooldown (≤6h) |
@@ -71,14 +71,14 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 50.0 | 58.5% | -56.53% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 49.9 | 61.0% | -61.15% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 49.5 | 57.9% | -65.38% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.3 | 54.2% | -87.57% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.5 | 54.2% | -87.57% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 49.2 | 56.4% | -82.42% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | Keltner — Lower Channel Touch | 48.6 | 56.4% | -29.9% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 48.4 | 58.6% | -40.62% | 🟡 Available |
-| 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.4 | 51.3% | -84.89% | 🟡 Available |
+| 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.2 | 51.3% | -84.89% | 🟡 Available |
 | 🟢 BULLISH | **SMCI** | VWAP Deviation — Oversold | 47.6 | 53.0% | -83.95% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.4 | 55.6% | -87.54% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | Williams %R — Oversold | 47.1 | 47.7% | -82.17% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | Williams %R — Oversold | 47.2 | 47.7% | -82.17% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | Stochastic (Full) — Oversold | 47.0 | 54.5% | -34.92% | 🟡 Available |
 | 🟢 BULLISH | **MSFT** | ADX Strong Trend — Bullish | 46.8 | 60.3% | -31.22% | 🟡 Available |
 | 🟢 BULLISH | **CEG** | Keltner — Lower Channel Touch | 46.8 | 60.0% | -64.34% | 🟡 Available |
@@ -91,7 +91,7 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **SOXL** | VWAP Deviation — Oversold | 45.2 | 59.7% | -97.92% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | OBV — Accumulation | 45.0 | 62.9% | -16.79% | 🟡 Available |
 | 🔴 BEARISH | **SPY** | Chaikin Money Flow — Bearish | 85.8 | 71.4% | -5.11% | 🔵 In cooldown (≤6h) |
-| 🔴 BEARISH | **UPRO** | Chaikin Money Flow — Bearish | 85.2 | 70.7% | -14.04% | 🔵 In cooldown (≤6h) |
+| 🔴 BEARISH | **UPRO** | Chaikin Money Flow — Bearish | 85.2 | 70.7% | -14.06% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **VOO** | Chaikin Money Flow — Bearish | 83.7 | 66.2% | -9.79% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **GC=F** | Ulcer Index — Elevated | 82.5 | 70.9% | -21.44% | 🔵 In cooldown (≤6h) |
 | 🔴 BEARISH | **XBI** | Supertrend — Bearish Flip | 80.0 | 66.7% | -0.05% | 🔵 In cooldown (≤6h) |
