@@ -866,33 +866,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RKLB",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22.02%, Sharpe 3.06. 1 minor bearish signal(s), max confidence 53.4.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 82.4, Win Rate 75.2%, Avg 5d Return 3.56%, Max Drawdown -27.31%, Sharpe 4.22. 2 minor bearish signal(s), max confidence 58.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
+      "ticker": "XBI",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, Sharpe 4.31. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 89.2, Win Rate 76.9%, Avg 5d Return 1.83%, Max Drawdown -16.74%, Sharpe 3.02. 1 minor bearish signal(s), max confidence 77.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XRP-USD",
+      "ticker": "AERO-USD",
       "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 56.6, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown -90.7%, Sharpe 1.82. 3 minor bearish signal(s), max confidence 75.3.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 1 minor bearish signal(s), max confidence 73.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-15T23:00:45.170735",
+  "recommendations_updated": "2026-09-16T17:14:08.219419",
   "trade_log": [
     {
       "action": "SELL",

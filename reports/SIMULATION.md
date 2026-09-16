@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 130** &nbsp;·&nbsp; Updated: Sep 15 2026 11:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 131** &nbsp;·&nbsp; Updated: Sep 16 2026 05:14 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.43%** &nbsp; ($+4,710) |
-| SPY Benchmark | +7.01% &nbsp; ($+13,595 if 100% SPY) |
-| Alpha vs SPY | **-4.58%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.44%** &nbsp; ($+4,734) |
+| SPY Benchmark | +7.32% &nbsp; ($+14,201 if 100% SPY) |
+| Alpha vs SPY | **-4.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,710 |
+| Current Value | $198,734 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,135 | +1.60% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,159 | +1.62% |
 
 ## Daily Equity Curve
 
@@ -116,29 +116,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 15 2026 11:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 16 2026 05:14 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | MACD Bullish Crossover — Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 56.6, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 82.4, Win Rate 75.2%, Avg 5d Return 3.56%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | Fisher Transform — Low Extreme — Score 89.2, Win Rate 76.9%, Avg 5d Return 1.83%, Max Draw… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84… |
 
-### 🔍 NEW OPPORTUNITY — RKLB
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** MACD Bullish Crossover — Score 81.2, Win Rate 62.5%, Avg 5d Return 7.01%, Max Drawdown -22.02%, Sharpe 3.06. 1 minor bearish signal(s), max confidence 53.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 84.4, Win Rate 76.5%, Avg 5d Return 1.64%, Max Drawdown -11.77%, Sharpe 4.31. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 82.4, Win Rate 75.2%, Avg 5d Return 3.56%, Max Drawdown -27.31%, Sharpe 4.22. 2 minor bearish signal(s), max confidence 58.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — XBI
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 56.6, Win Rate 42.3%, Avg 5d Return 5.08%, Max Drawdown -90.7%, Sharpe 1.82. 3 minor bearish signal(s), max confidence 75.3.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.2, Win Rate 76.9%, Avg 5d Return 1.83%, Max Drawdown -16.74%, Sharpe 3.02. 1 minor bearish signal(s), max confidence 77.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 1 minor bearish signal(s), max confidence 73.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
