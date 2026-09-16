@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Wednesday September 16, 2026 at 08:18 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Wednesday September 16, 2026 at 11:05 PM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 101 |
-| 🟢 Bullish | 66 |
+| Total signals (confidence ≥ 45) | 103 |
+| 🟢 Bullish | 68 |
 | 🔴 Bearish | 35 |
-| 🔵 In cooldown (fired in last 6h) | 56 |
-| 🟡 Available to fire (not in cooldown) | 45 |
+| 🔵 In cooldown (fired in last 6h) | 55 |
+| 🟡 Available to fire (not in cooldown) | 48 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -21,13 +21,13 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.1 | 80.0% | -19.07% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 83.1 | 76.9% | -13.25% | 🟡 Available |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.9 | 77.3% | -20.04% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | MFI — Oversold | 82.4 | 66.7% | 0.0% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.5 | 77.8% | -31.56% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **PLTR** | Vortex — Bullish | 79.7 | 66.7% | -11.55% | 🟡 Available |
 | 🟢 BULLISH | **APP** | Aroon — Strong Uptrend | 79.3 | 63.6% | -11.58% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 78.9 | 76.7% | -39.8% | 🟡 Available |
 | 🟢 BULLISH | **VOO** | Williams %R — Oversold | 76.7 | 66.0% | -17.21% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **SPY** | Williams %R — Oversold | 76.4 | 65.2% | -17.23% | 🔵 In cooldown (≤6h) |
-| 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 76.1 | 73.3% | -32.82% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **QQQ** | Williams %R — Oversold | 73.9 | 66.1% | -26.67% | 🟡 Available |
 | 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 73.9 | 67.2% | -66.98% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | Williams %R — Oversold | 72.6 | 63.9% | -40.74% | 🔵 In cooldown (≤6h) |
@@ -65,15 +65,17 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **XLE** | CCI — Extreme Oversold | 49.9 | 61.0% | -61.15% | 🟡 Available |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 49.7 | 58.3% | -56.53% | 🟡 Available |
 | 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 49.7 | 58.3% | -56.86% | 🟡 Available |
-| 🟢 BULLISH | **BTC-USD** | ADX Strong Trend — Bullish | 49.7 | 53.6% | -75.4% | 🟡 Available |
+| 🟢 BULLISH | **BTC-USD** | ADX Strong Trend — Bullish | 49.6 | 53.6% | -75.56% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Williams %R — Oversold | 49.5 | 58.2% | -52.23% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.4 | 54.2% | -87.57% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | CCI — Extreme Oversold | 49.2 | 57.7% | -65.38% | 🟡 Available |
-| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 49.1 | 40.0% | -91.05% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | VWAP Deviation — Oversold | 49.2 | 54.2% | -87.57% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | ADX Strong Trend — Bullish | 49.0 | 40.0% | -91.18% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | Stochastic (Full) — Oversold | 48.9 | 57.5% | -41.07% | 🔵 In cooldown (≤6h) |
 | 🟢 BULLISH | **XBI** | CCI — Extreme Oversold | 48.8 | 56.2% | -82.42% | 🟡 Available |
 | 🟢 BULLISH | **LINK-USD** | Stochastic RSI Oversold | 48.8 | 51.5% | -84.89% | 🟡 Available |
-| 🟢 BULLISH | **ETH-USD** | Stochastic RSI Oversold | 47.4 | 55.9% | -87.65% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | Chaikin Money Flow — Bullish | 47.6 | 58.2% | -42.69% | 🟡 Available |
+| 🟢 BULLISH | **ETH-USD** | Stochastic RSI Oversold | 47.3 | 55.9% | -87.65% | 🟡 Available |
+| 🟢 BULLISH | **XRP-USD** | Williams %R — Oversold | 47.2 | 47.7% | -82.17% | 🟡 Available |
 | 🟢 BULLISH | **LINK-USD** | Stochastic (Full) — Oversold | 47.2 | 52.2% | -90.53% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | CCI — Extreme Oversold | 47.1 | 55.3% | -87.54% | 🟡 Available |
 | 🟢 BULLISH | **IWM** | Stochastic (Full) — Oversold | 47.0 | 54.5% | -34.92% | 🟡 Available |
