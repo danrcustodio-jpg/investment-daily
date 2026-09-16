@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 131** &nbsp;·&nbsp; Updated: Sep 16 2026 05:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 131** &nbsp;·&nbsp; Updated: Sep 16 2026 08:18 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.44%** &nbsp; ($+4,734) |
-| SPY Benchmark | +7.32% &nbsp; ($+14,191 if 100% SPY) |
-| Alpha vs SPY | **-4.87%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.54% &nbsp; ($+12,680 if 100% SPY) |
+| Alpha vs SPY | **-4.10%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,734 |
 
@@ -113,35 +113,35 @@
 | 2026-09-11 | 📈 +2.38% | +7.98% | ❌ -5.60% |
 | 2026-09-14 | 📈 +2.42% | +7.50% | ❌ -5.09% |
 | 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.58% |
-| 2026-09-16 | 📈 +2.44% | +7.32% | ❌ -4.88% |
+| 2026-09-16 | 📈 +2.44% | +6.54% | ❌ -4.10% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 16 2026 05:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 16 2026 08:18 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 82.4, Win Rate 75.2%, Avg 5d Return 3.56%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | Fisher Transform — Low Extreme — Score 89.2, Win Rate 76.9%, Avg 5d Return 1.83%, Max Draw… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AERO-USD** | Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.1, Win Rate 80.0%, Avg 5d Return 4.43%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 79.7, Win Rate 66.7%, Avg 5d Return 3.73%, Max Drawdown -11.55%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.9, Win Rate 77.3%, Avg 5d Return 3.07%, Max Drawdown -20… |
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 82.4, Win Rate 75.2%, Avg 5d Return 3.56%, Max Drawdown -27.31%, Sharpe 4.22. 2 minor bearish signal(s), max confidence 58.3.
+**Signal Analysis:** Williams %R — Oversold — Score 85.1, Win Rate 80.0%, Avg 5d Return 4.43%, Max Drawdown -19.07%, Sharpe 5.42. 2 minor bearish signal(s), max confidence 58.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XBI
+### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.2, Win Rate 76.9%, Avg 5d Return 1.83%, Max Drawdown -16.74%, Sharpe 3.02. 1 minor bearish signal(s), max confidence 77.5.
+**Signal Analysis:** Vortex — Bullish — Score 79.7, Win Rate 66.7%, Avg 5d Return 3.73%, Max Drawdown -11.55%, Sharpe 2.93. 1 minor bearish signal(s), max confidence 47.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Williams %R — Oversold — Score 60.5, Win Rate 48.9%, Avg 5d Return 5.84%, Max Drawdown -84.25%, Sharpe 1.72. 1 minor bearish signal(s), max confidence 73.1.
+**Signal Analysis:** Williams %R — Oversold — Score 82.9, Win Rate 77.3%, Avg 5d Return 3.07%, Max Drawdown -20.04%, Sharpe 3.98. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
