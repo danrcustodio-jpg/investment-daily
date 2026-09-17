@@ -875,18 +875,18 @@
       "date": "2026-09-17",
       "total_value": 198757.88,
       "portfolio_pnl": 2.453,
-      "benchmark_pnl": 7.681,
+      "benchmark_pnl": 7.744,
       "prices": {
-        "SPY": 762.155029296875
+        "SPY": 762.5999755859375
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "IONQ",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 74.7, Win Rate 62.3%, Avg 5d Return 1.94%, Max Drawdown -39.78%, Sharpe 2.23. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -895,7 +895,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 81.8, Win Rate 72.7%, Avg 5d Return 4.95%, Max Drawdown -9.09%, Sharpe 4.3. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.09%, Sharpe 4.17. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -910,7 +910,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-17T17:24:03.056450",
+  "recommendations_updated": "2026-09-17T20:26:56.303713",
   "trade_log": [
     {
       "action": "SELL",

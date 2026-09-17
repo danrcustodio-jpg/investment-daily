@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 132** &nbsp;·&nbsp; Updated: Sep 17 2026 05:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 132** &nbsp;·&nbsp; Updated: Sep 17 2026 08:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.45%** &nbsp; ($+4,758) |
-| SPY Benchmark | +7.68% &nbsp; ($+14,901 if 100% SPY) |
-| Alpha vs SPY | **-5.23%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.74% &nbsp; ($+15,023 if 100% SPY) |
+| Alpha vs SPY | **-5.29%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,758 |
 
@@ -114,27 +114,27 @@
 | 2026-09-14 | 📈 +2.42% | +7.50% | ❌ -5.09% |
 | 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.58% |
 | 2026-09-16 | 📈 +2.44% | +6.54% | ❌ -4.10% |
-| 2026-09-17 | 📈 +2.45% | +7.68% | ❌ -5.23% |
+| 2026-09-17 | 📈 +2.45% | +7.74% | ❌ -5.29% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 17 2026 05:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 17 2026 08:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 74.7, Win Rate 62.3%, Avg 5d Return 1.94%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.95%, Max Drawdown -9.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 74.7, Win Rate 62.3%, Avg 5d Return 1.94%, Max Drawdown -39.78%, Sharpe 2.23. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.95%, Max Drawdown -9.09%, Sharpe 4.3. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.09%, Sharpe 4.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
