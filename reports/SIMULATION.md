@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 131** &nbsp;·&nbsp; Updated: Sep 16 2026 11:05 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 132** &nbsp;·&nbsp; Updated: Sep 17 2026 05:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.44%** &nbsp; ($+4,734) |
-| SPY Benchmark | +6.54% &nbsp; ($+12,680 if 100% SPY) |
-| Alpha vs SPY | **-4.10%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.45%** &nbsp; ($+4,758) |
+| SPY Benchmark | +7.69% &nbsp; ($+14,913 if 100% SPY) |
+| Alpha vs SPY | **-5.23%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,734 |
+| Current Value | $198,758 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,159 | +1.62% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,183 | +1.63% |
 
 ## Daily Equity Curve
 
@@ -117,31 +117,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 16 2026 11:05 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 17 2026 05:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.1, Win Rate 80.0%, Avg 5d Return 4.43%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 79.7, Win Rate 66.7%, Avg 5d Return 3.73%, Max Drawdown -11.55%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Williams %R — Oversold — Score 82.9, Win Rate 77.3%, Avg 5d Return 3.07%, Max Drawdown -20… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Stochastic (Full) — Oversold — Score 74.7, Win Rate 62.3%, Avg 5d Return 1.94%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.95%, Max Drawdown -9.… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -… |
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.1, Win Rate 80.0%, Avg 5d Return 4.43%, Max Drawdown -19.07%, Sharpe 5.42. 2 minor bearish signal(s), max confidence 58.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — PLTR
-
-**Signal Analysis:** Vortex — Bullish — Score 79.7, Win Rate 66.7%, Avg 5d Return 3.73%, Max Drawdown -11.55%, Sharpe 2.93. 1 minor bearish signal(s), max confidence 47.4.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 74.7, Win Rate 62.3%, Avg 5d Return 1.94%, Max Drawdown -39.78%, Sharpe 2.23. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SMH
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Williams %R — Oversold — Score 82.9, Win Rate 77.3%, Avg 5d Return 3.07%, Max Drawdown -20.04%, Sharpe 3.98. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.95%, Max Drawdown -9.09%, Sharpe 4.3. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — SOL-USD
+
+**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -25.88%, Sharpe 1.99. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
