@@ -884,18 +884,18 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "AERO-USD",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "reason": "ATR \u2014 Volatility Surge (Up) \u2014 Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "ARM",
       "priority": "high",
-      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.09%, Sharpe 4.17. No conflicting bearish signals.",
+      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -0.5%, Sharpe 4.52. 1 minor bearish signal(s), max confidence 45.4.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -903,14 +903,14 @@
     {
       "action": "NEW_OPPORTUNITY",
       "ticker": "SOL-USD",
-      "priority": "medium",
-      "reason": "SMA 30 \u2014 Bullish Reclaim \u2014 Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -25.88%, Sharpe 1.99. No conflicting bearish signals.",
+      "priority": "high",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-17T22:58:41.446051",
+  "recommendations_updated": "2026-09-18T16:39:33.309232",
   "trade_log": [
     {
       "action": "SELL",

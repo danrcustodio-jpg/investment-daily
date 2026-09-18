@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 132** &nbsp;·&nbsp; Updated: Sep 17 2026 10:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 133** &nbsp;·&nbsp; Updated: Sep 18 2026 04:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.45%** &nbsp; ($+4,758) |
-| SPY Benchmark | +7.74% &nbsp; ($+15,023 if 100% SPY) |
-| Alpha vs SPY | **-5.29%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.46%** &nbsp; ($+4,782) |
+| SPY Benchmark | +7.22% &nbsp; ($+14,012 if 100% SPY) |
+| Alpha vs SPY | **-4.76%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,758 |
+| Current Value | $198,782 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,183 | +1.63% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,207 | +1.64% |
 
 ## Daily Equity Curve
 
@@ -118,29 +118,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 17 2026 10:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 18 2026 04:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | SMA 30 — Bullish Reclaim — Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** OBV — Accumulation — Score 70.0, Win Rate 66.7%, Avg 5d Return 4.12%, Max Drawdown -30.04%, Sharpe 2.17. No conflicting bearish signals.
+**Signal Analysis:** ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 81.8, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -9.09%, Sharpe 4.17. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -0.5%, Sharpe 4.52. 1 minor bearish signal(s), max confidence 45.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** SMA 30 — Bullish Reclaim — Score 68.5, Win Rate 59.3%, Avg 5d Return 2.84%, Max Drawdown -25.88%, Sharpe 1.99. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
