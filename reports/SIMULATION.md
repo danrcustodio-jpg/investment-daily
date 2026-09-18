@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 133** &nbsp;·&nbsp; Updated: Sep 18 2026 04:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 133** &nbsp;·&nbsp; Updated: Sep 18 2026 07:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.46%** &nbsp; ($+4,782) |
-| SPY Benchmark | +7.27% &nbsp; ($+14,099 if 100% SPY) |
-| Alpha vs SPY | **-4.80%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.53% &nbsp; ($+14,601 if 100% SPY) |
+| Alpha vs SPY | **-5.06%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,782 |
 
@@ -115,23 +115,17 @@
 | 2026-09-15 | 📈 +2.43% | +7.01% | ❌ -4.58% |
 | 2026-09-16 | 📈 +2.44% | +6.54% | ❌ -4.10% |
 | 2026-09-17 | 📈 +2.45% | +7.74% | ❌ -5.29% |
-| 2026-09-18 | 📈 +2.46% | +7.27% | ❌ -4.80% |
+| 2026-09-18 | 📈 +2.46% | +7.53% | ❌ -5.06% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 18 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 18 2026 07:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 76.1, Win Rate 64.3%, Avg 5d Return 4.57%, Max Drawdown -1… |
-
-### 🔍 NEW OPPORTUNITY — AERO-USD
-
-**Signal Analysis:** ATR — Volatility Surge (Up) — Score 80.0, Win Rate 64.7%, Avg 5d Return 14.01%, Max Drawdown -26.26%, Sharpe 3.26. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -139,9 +133,15 @@ _Evaluated Sep 18 2026 04:50 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — RIOT
+
+**Signal Analysis:** Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown 0.0%, Sharpe 11.49. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 76.1, Win Rate 64.3%, Avg 5d Return 4.57%, Max Drawdown -17.22%, Sharpe 4.12. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 75.0%, Avg 5d Return 4.64%, Max Drawdown -8.25%, Sharpe 3.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
