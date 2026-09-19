@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 133** &nbsp;·&nbsp; Updated: Sep 18 2026 09:46 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 134** &nbsp;·&nbsp; Updated: Sep 19 2026 04:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.46%** &nbsp; ($+4,782) |
+| Portfolio P&L | **+2.48%** &nbsp; ($+4,806) |
 | SPY Benchmark | +7.62% &nbsp; ($+14,774 if 100% SPY) |
-| Alpha vs SPY | **-5.15%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.14%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,782 |
+| Current Value | $198,806 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,207 | +1.64% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,231 | +1.65% |
 
 ## Daily Equity Curve
 
@@ -119,13 +119,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 18 2026 09:46 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 19 2026 04:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | Volume Spike + Surge — Score 78.0, Win Rate 65.0%, Avg 5d Return 3.65%, Max Drawdown -14.4… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 76.1, Win Rate 64.3%, Avg 5d Return 4.57%, Max Drawdown -1… |
 
 ### 🔍 NEW OPPORTUNITY — ARM
 
@@ -133,17 +133,17 @@ _Evaluated Sep 18 2026 09:46 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — AVAX-USD
+
+**Signal Analysis:** Volume Spike + Surge — Score 78.0, Win Rate 65.0%, Avg 5d Return 3.65%, Max Drawdown -14.49%, Sharpe 2.51. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
 ### 🔍 NEW OPPORTUNITY — RIOT
 
 **Signal Analysis:** Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown 0.0%, Sharpe 11.49. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — SOL-USD
-
-**Signal Analysis:** Parabolic SAR — Bullish — Score 76.1, Win Rate 64.3%, Avg 5d Return 4.57%, Max Drawdown -17.22%, Sharpe 4.12. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

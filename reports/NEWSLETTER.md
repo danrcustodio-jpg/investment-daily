@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, September 18, 2026
-Generated at 04:39 PM
+# Daily Newsletter — Saturday, September 19, 2026
+Generated at 04:01 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 67 total &nbsp;·&nbsp; 🟢 43 Bullish &nbsp;·&nbsp; 🔴 24 Bearish
+**Strategy Signals:** 74 total &nbsp;·&nbsp; 🟢 44 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SOL-USD** | Solana | $112.02 | 📈 +10.25% |
-| **ETH-USD** | Ethereum | $2603.23 | 📈 +6.38% |
-| **BTC-USD** | Bitcoin | $81031.24 | 📈 +6.06% |
-| **CL=F** | Crude Oil | $96.27 | 📉 -5.53% |
-| **SI=F** | Silver | $67.11 | 📈 +2.51% |
-| **^TNX** | 10-Year Treasury Yield | $5.00 | 📈 +1.15% |
-| **^RUT** | Russell 2000 | $2847.27 | 📉 -0.95% |
-| **^TYX** | 30-Year Treasury Yield | $5.34 | 📈 +0.76% |
-| **^VIX** | VIX (Fear Index) | $15.54 | 📈 +0.65% |
-| **JPYUSD=X** | JPY/USD | $0.01 | 📉 -0.46% |
+| **^VIX** | VIX (Fear Index) | $14.81 | 📉 -4.08% |
+| **SI=F** | Silver | $66.56 | 📈 +1.66% |
+| **CL=F** | Crude Oil | $100.30 | 📉 -1.58% |
+| **ETH-USD** | Ethereum | $2640.24 | 📈 +1.11% |
+| **^TNX** | 10-Year Treasury Yield | $5.00 | 📈 +1.03% |
+| **SOL-USD** | Solana | $111.61 | 📉 -0.88% |
+| **BTC-USD** | Bitcoin | $81604.38 | 📈 +0.87% |
+| **XLK** | Tech (XLK) | $189.60 | 📈 +0.82% |
+| **^TYX** | 30-Year Treasury Yield | $5.33 | 📈 +0.66% |
+| **GC=F** | Gold | $4424.90 | 📈 +0.57% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **RIOT** | Supertrend — Bullish Flip | 96.0 | 100.0% |
 | 🟢 BULLISH | **ARM** | EMA 9/21 — Bullish Cross | 82.8 | 71.4% |
-| 🟢 BULLISH | **SOL-USD** | Donchian — 20D High Breakout | 80.0 | 75.0% |
-| 🟢 BULLISH | **AERO-USD** | ATR — Volatility Surge (Up) | 80.0 | 64.7% |
+| 🟢 BULLISH | **AVAX-USD** | Volume Spike + Surge | 78.0 | 65.0% |
 | 🟢 BULLISH | **RKLB** | Vortex — Bullish | 76.3 | 54.5% |
-| 🟢 BULLISH | **SOL-USD** | Parabolic SAR — Bullish | 76.1 | 64.3% |
 | 🟢 BULLISH | **GOOGL** | Awesome Oscillator — Bullish Zero Line | 73.6 | 66.7% |
-| 🟢 BULLISH | **BCH-USD** | Parabolic SAR — Bullish | 70.7 | 63.3% |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 68.3 | 63.9% |
+| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 69.8 | 65.6% |
 | 🟢 BULLISH | **RKLB** | TRIX — Bullish Cross | 67.7 | 54.5% |
+| 🟢 BULLISH | **SOL-USD** | MACD Bullish Crossover | 63.8 | 60.9% |
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 63.1 | 58.4% |
-| 🟢 BULLISH | **IWM** | Williams %R — Oversold | 59.7 | 61.3% |
-| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 58.6 | 58.0% |
+| 🟢 BULLISH | **XLK** | Chaikin Money Flow — Bullish | 58.9 | 63.1% |
+| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 58.8 | 58.0% |
+| 🟢 BULLISH | **COIN** | OBV — Accumulation | 57.2 | 48.8% |
 
 ## Latest News
 
-- [Fed staff should have known Silicon Valley Bank was vulnerable, new report finds](https://www.cnbc.com/2026/09/18/fed-silicon-valley-bank.html) — *CNBC Markets*
-- [Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes](https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html) — *CNBC Markets*
-- [Two signs investors don’t have to fear an AI slowdown](https://www.marketwatch.com/story/two-signs-investors-dont-have-to-fear-an-ai-slowdown-5ec40948?mod=mw_rss_topstories) — *MarketWatch*
-- [Stock market edges down as Treasury yields rebound](https://seekingalpha.com/news/4644390-stock-market-edges-down-as-treasury-yields-rebound?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump's $403 million war chest is finally being spent on the midterms. Now comes the hard part](https://www.cnbc.com/2026/09/18/trump-election-ad-spend-maga-inc.html) — *CNBC Markets*
-- [Auto industry urges Trump to bar Chinese automakers in U.S. ahead of Xi visit](https://www.cnbc.com/2026/09/18/xi-visit-automakers-urge-trump-to-bar-chinese-automakers-in-us.html) — *CNBC Markets*
-- [Domino’s Pizza options flow shows bullish calendar spreads at $460–$480 strikes](https://www.investing.com/news/stock-market-news/dominos-pizza-options-flow-shows-bullish-calendar-spreads-at-460480-strikes-93CH-4907693) — *Investing.com*
-- [Amundi MSCI Millennials fund to change benchmark, name in October](https://www.investing.com/news/company-news/amundi-msci-millennials-fund-to-change-benchmark-name-in-october-93CH-4907691) — *Investing.com*
-- [HB Fuller stock hits 52-week low at 48.6 USD](https://www.investing.com/news/company-news/hb-fuller-stock-hits-52week-low-at-486-usd-93CH-4907689) — *Investing.com*
-- [Why is Corpay stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-corpay-stock-sliding-today-93CH-4907688) — *Investing.com*
+- [Like Costco, Walmart will sell Medicare Advantage plans](https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories) — *MarketWatch*
+- [Why the Fed hiked into a supply shock?](https://www.investing.com/news/economy-news/why-the-fed-hiked-into-a-supply-shock-4908102) — *Investing.com*
+- [Trump bans major US news outlets from White House](https://www.ft.com/content/4cd82226-3d4a-474d-bc3e-de2ed0b1e6f8?syn-25a6b1a6=1) — *Financial Times*
+- [Couples with a big age gap need more money — they have to plan for two retirements](https://www.marketwatch.com/story/couples-with-a-big-age-gap-need-more-money-they-have-to-plan-for-two-retirements-1454b8c2?mod=mw_rss_topstories) — *MarketWatch*
+- [What S&P 500 Gains of 9.5% in the First Half Signal for the Rest of the Year](https://finance.yahoo.com/markets/stocks/articles/p-500-gains-9-5-153500487.html) — *Yahoo Finance*
+- [First Phosphate secures Swiss backing for mine - ICYMI](https://finance.yahoo.com/markets/stocks/articles/first-phosphate-secures-swiss-backing-153400975.html) — *Yahoo Finance*
+- [Ares Management weighs minority deal with Copenhagen Infrastructure Partners](https://www.investing.com/news/company-news/ares-management-weighs-minority-deal-with-copenhagen-infrastructure-partners-4908100) — *Investing.com*
+- [Amazon cargo delivery company files for Chapter 11 bankruptcy](https://finance.yahoo.com/small-business/articles/amazon-cargo-delivery-company-files-153300197.html) — *Yahoo Finance*
+- [Want to land more job interviews? Stop letting AI write your résumé.](https://www.marketwatch.com/story/are-ai-written-resumes-more-likely-to-get-you-a-job-the-answer-may-surprise-you-ae408827?mod=mw_rss_topstories) — *MarketWatch*
+- [‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?](https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*
