@@ -1,24 +1,24 @@
-# Daily Newsletter — Saturday, September 19, 2026
-Generated at 04:01 PM
+# Daily Newsletter — Sunday, September 20, 2026
+Generated at 04:23 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 74 total &nbsp;·&nbsp; 🟢 44 Bullish &nbsp;·&nbsp; 🔴 30 Bearish
+**Strategy Signals:** 69 total &nbsp;·&nbsp; 🟢 41 Bullish &nbsp;·&nbsp; 🔴 28 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
+| **CL=F** | Crude Oil | $96.08 | 📉 -5.72% |
 | **^VIX** | VIX (Fear Index) | $14.81 | 📉 -4.08% |
-| **SI=F** | Silver | $66.56 | 📈 +1.66% |
-| **CL=F** | Crude Oil | $100.30 | 📉 -1.58% |
-| **ETH-USD** | Ethereum | $2640.24 | 📈 +1.11% |
+| **SI=F** | Silver | $67.15 | 📈 +2.56% |
+| **SOL-USD** | Solana | $109.01 | 📉 -1.81% |
 | **^TNX** | 10-Year Treasury Yield | $5.00 | 📈 +1.03% |
-| **SOL-USD** | Solana | $111.61 | 📉 -0.88% |
-| **BTC-USD** | Bitcoin | $81604.38 | 📈 +0.87% |
 | **XLK** | Tech (XLK) | $189.60 | 📈 +0.82% |
 | **^TYX** | 30-Year Treasury Yield | $5.33 | 📈 +0.66% |
 | **GC=F** | Gold | $4424.90 | 📈 +0.57% |
+| **^RUT** | Russell 2000 | $2860.40 | 📉 -0.50% |
+| **ETH-USD** | Ethereum | $2619.05 | 📉 -0.49% |
 
 ## Top Strategy Signals
 
@@ -29,26 +29,26 @@ Generated at 04:01 PM
 | 🟢 BULLISH | **AVAX-USD** | Volume Spike + Surge | 78.0 | 65.0% |
 | 🟢 BULLISH | **RKLB** | Vortex — Bullish | 76.3 | 54.5% |
 | 🟢 BULLISH | **GOOGL** | Awesome Oscillator — Bullish Zero Line | 73.6 | 66.7% |
-| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 69.8 | 65.6% |
+| 🟢 BULLISH | **CL=F** | Chaikin Money Flow — Bullish | 68.3 | 63.9% |
 | 🟢 BULLISH | **RKLB** | TRIX — Bullish Cross | 67.7 | 54.5% |
-| 🟢 BULLISH | **SOL-USD** | MACD Bullish Crossover | 63.8 | 60.9% |
 | 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 63.1 | 58.4% |
+| 🟢 BULLISH | **AERO-USD** | Williams %R — Oversold | 60.4 | 48.4% |
 | 🟢 BULLISH | **XLK** | Chaikin Money Flow — Bullish | 58.9 | 63.1% |
 | 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 58.8 | 58.0% |
 | 🟢 BULLISH | **COIN** | OBV — Accumulation | 57.2 | 48.8% |
 
 ## Latest News
 
-- [Like Costco, Walmart will sell Medicare Advantage plans](https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories) — *MarketWatch*
-- [Why the Fed hiked into a supply shock?](https://www.investing.com/news/economy-news/why-the-fed-hiked-into-a-supply-shock-4908102) — *Investing.com*
-- [Trump bans major US news outlets from White House](https://www.ft.com/content/4cd82226-3d4a-474d-bc3e-de2ed0b1e6f8?syn-25a6b1a6=1) — *Financial Times*
-- [Couples with a big age gap need more money — they have to plan for two retirements](https://www.marketwatch.com/story/couples-with-a-big-age-gap-need-more-money-they-have-to-plan-for-two-retirements-1454b8c2?mod=mw_rss_topstories) — *MarketWatch*
-- [What S&P 500 Gains of 9.5% in the First Half Signal for the Rest of the Year](https://finance.yahoo.com/markets/stocks/articles/p-500-gains-9-5-153500487.html) — *Yahoo Finance*
-- [First Phosphate secures Swiss backing for mine - ICYMI](https://finance.yahoo.com/markets/stocks/articles/first-phosphate-secures-swiss-backing-153400975.html) — *Yahoo Finance*
-- [Ares Management weighs minority deal with Copenhagen Infrastructure Partners](https://www.investing.com/news/company-news/ares-management-weighs-minority-deal-with-copenhagen-infrastructure-partners-4908100) — *Investing.com*
-- [Amazon cargo delivery company files for Chapter 11 bankruptcy](https://finance.yahoo.com/small-business/articles/amazon-cargo-delivery-company-files-153300197.html) — *Yahoo Finance*
-- [Want to land more job interviews? Stop letting AI write your résumé.](https://www.marketwatch.com/story/are-ai-written-resumes-more-likely-to-get-you-a-job-the-answer-may-surprise-you-ae408827?mod=mw_rss_topstories) — *MarketWatch*
-- [‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?](https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories) — *MarketWatch*
+- [Kashkari warns inflation has spread beyond oil shock](https://seekingalpha.com/news/4644585-kashkari-warns-inflation-has-spread-beyond-oil-shock?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand](https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141) — *Investing.com*
+- [The Family Gave Away Half of Dad’s $200,000 and Used the Other Half to Pay the Nursing Home Through the Penalty. Medicaid Allowed It, and the Strategy Has a Name](https://finance.yahoo.com/healthcare/articles/family-gave-away-half-dad-160748251.html) — *Yahoo Finance*
+- [US Treasury’s Bessent and China’s He launch talks on AI, trade and critical minerals](https://www.investing.com/news/stock-market-news/us-treasurys-bessent-chinas-he-to-launch-talks-on-ai-trade-critical-minerals-4908142) — *Investing.com*
+- [Analyst: Meta Needs Just 115 Million Users to Ignite a $28 Billion AI Gold Rush — But It’s Not Likely to Happen](https://finance.yahoo.com/markets/stocks/articles/analyst-meta-needs-just-115-160303165.html) — *Yahoo Finance*
+- [Targa Resources (TRGP) Gets a Fresh Vote of Confidence from TD Cowen](https://finance.yahoo.com/markets/stocks/articles/targa-resources-trgp-gets-fresh-155123097.html) — *Yahoo Finance*
+- [Hyundai looks to robotaxis to offset slower EV demand](https://seekingalpha.com/news/4644584-hyundai-looks-to-robotaxis-to-offset-slower-ev-demand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Morgan Stanley Sees Marathon Petroleum (MPC) Breaking into New Highs](https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sees-marathon-petroleum-154726182.html) — *Yahoo Finance*
+- [GE Vernova’s (GEV) $200 Billion Backlog is Coming Sooner than Expected](https://finance.yahoo.com/markets/stocks/articles/ge-vernova-gev-200-billion-154331999.html) — *Yahoo Finance*
+- [Trump says 250ft arch will be ‘military complex’ with drones and snipers](https://www.ft.com/content/33b317b4-cd7b-486a-8707-4d65db837c6d?syn-25a6b1a6=1) — *Financial Times*
 
 ---
 *Investment Daily — Not financial advice.*
