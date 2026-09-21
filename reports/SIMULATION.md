@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 136** &nbsp;·&nbsp; Updated: Sep 21 2026 06:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 136** &nbsp;·&nbsp; Updated: Sep 21 2026 06:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.50%** &nbsp; ($+4,854) |
-| SPY Benchmark | +9.26% &nbsp; ($+17,961 if 100% SPY) |
-| Alpha vs SPY | **-6.76%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.33% &nbsp; ($+18,096 if 100% SPY) |
+| Alpha vs SPY | **-6.83%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,854 |
 
@@ -116,16 +116,17 @@
 | 2026-09-16 | 📈 +2.44% | +6.54% | ❌ -4.10% |
 | 2026-09-17 | 📈 +2.45% | +7.74% | ❌ -5.29% |
 | 2026-09-18 | 📈 +2.46% | +7.62% | ❌ -5.15% |
+| 2026-09-21 | 📈 +2.50% | +9.33% | ❌ -6.83% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 21 2026 06:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 21 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Donchian — 20D High Breakout — Score 85.0, Win Rate 75.0%, Avg 5d Return 5.03%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LINK-USD** | Supertrend — Bullish Flip — Score 66.1, Win Rate 66.7%, Avg 5d Return 2.53%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
@@ -139,9 +140,9 @@ _Evaluated Sep 21 2026 06:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — LINK-USD
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown -9.52%, Sharpe 1.91. No conflicting bearish signals.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 66.1, Win Rate 66.7%, Avg 5d Return 2.53%, Max Drawdown -19.58%, Sharpe 1.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
 
