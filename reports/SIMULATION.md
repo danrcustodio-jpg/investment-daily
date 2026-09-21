@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 135** &nbsp;·&nbsp; Updated: Sep 20 2026 04:23 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 136** &nbsp;·&nbsp; Updated: Sep 21 2026 06:17 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.49%** &nbsp; ($+4,830) |
-| SPY Benchmark | +7.62% &nbsp; ($+14,774 if 100% SPY) |
-| Alpha vs SPY | **-5.13%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.50%** &nbsp; ($+4,854) |
+| SPY Benchmark | +9.26% &nbsp; ($+17,961 if 100% SPY) |
+| Alpha vs SPY | **-6.76%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,830 |
+| Current Value | $198,854 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,255 | +1.66% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,279 | +1.68% |
 
 ## Daily Equity Curve
 
@@ -119,31 +119,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 20 2026 04:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 21 2026 06:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVAX-USD** | Volume Spike + Surge — Score 78.0, Win Rate 65.0%, Avg 5d Return 3.65%, Max Drawdown -14.4… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **TQQQ** | Donchian — 20D High Breakout — Score 85.0, Win Rate 75.0%, Avg 5d Return 5.03%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown … |
 
-### 🔍 NEW OPPORTUNITY — ARM
+### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 82.8, Win Rate 71.4%, Avg 5d Return 5.84%, Max Drawdown -0.5%, Sharpe 4.52. 1 minor bearish signal(s), max confidence 45.6.
+**Signal Analysis:** PPO — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05%, Sharpe 6.82. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AVAX-USD
+### 🔍 NEW OPPORTUNITY — TQQQ
 
-**Signal Analysis:** Volume Spike + Surge — Score 78.0, Win Rate 65.0%, Avg 5d Return 3.65%, Max Drawdown -14.49%, Sharpe 2.51. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 85.0, Win Rate 75.0%, Avg 5d Return 5.03%, Max Drawdown -1.23%, Sharpe 8.07. 1 minor bearish signal(s), max confidence 48.6.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown -9.52%, Sharpe 1.91. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Supertrend — Bullish Flip — Score 96.0, Win Rate 100.0%, Avg 5d Return 6.12%, Max Drawdown 0.0%, Sharpe 11.49. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
