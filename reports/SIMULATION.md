@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 136** &nbsp;·&nbsp; Updated: Sep 21 2026 10:06 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 05:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.50%** &nbsp; ($+4,854) |
-| SPY Benchmark | +9.28% &nbsp; ($+18,011 if 100% SPY) |
-| Alpha vs SPY | **-6.78%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.51%** &nbsp; ($+4,878) |
+| SPY Benchmark | +9.26% &nbsp; ($+17,964 if 100% SPY) |
+| Alpha vs SPY | **-6.75%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,854 |
+| Current Value | $198,878 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,279 | +1.68% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,303 | +1.69% |
 
 ## Daily Equity Curve
 
@@ -120,31 +120,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 21 2026 10:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 22 2026 05:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.06%, Max Drawdown -6.09%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOXL** | Donchian — 20D High Breakout — Score 100.0, Win Rate 100.0%, Avg 5d Return 18.05%, Max Dra… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.5… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SPY** | Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, S… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — SOXL
 
-**Signal Analysis:** PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.06%, Max Drawdown -6.09%, Sharpe 3.66. 1 minor bearish signal(s), max confidence 51.5.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — IONQ
-
-**Signal Analysis:** PPO — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05%, Sharpe 6.82. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 100.0, Win Rate 100.0%, Avg 5d Return 18.05%, Max Drawdown 0.0%, Sharpe 11.03. 3 minor bearish signal(s), max confidence 72.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown -9.52%, Sharpe 1.91. No conflicting bearish signals.
+**Signal Analysis:** Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.55%, Sharpe 1.75. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — SPY
+
+**Signal Analysis:** Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 

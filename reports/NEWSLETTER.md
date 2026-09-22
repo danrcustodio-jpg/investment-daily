@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, September 21, 2026
-Generated at 06:17 PM
+# Daily Newsletter — Tuesday, September 22, 2026
+Generated at 05:11 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 129 total &nbsp;·&nbsp; 🟢 75 Bullish &nbsp;·&nbsp; 🔴 54 Bearish
+**Strategy Signals:** 119 total &nbsp;·&nbsp; 🟢 58 Bullish &nbsp;·&nbsp; 🔴 61 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **CL=F** | Crude Oil | $92.32 | 📉 -7.96% |
-| **BTC-USD** | Bitcoin | $86029.54 | 📈 +6.02% |
-| **SOL-USD** | Solana | $117.54 | 📈 +5.77% |
-| **ETH-USD** | Ethereum | $2751.55 | 📈 +4.11% |
-| **XLK** | Tech (XLK) | $194.20 | 📈 +2.43% |
-| **NG=F** | Natural Gas | $2.84 | 📉 -2.34% |
-| **XLE** | Energy (XLE) | $62.88 | 📉 -2.22% |
-| **^IXIC** | NASDAQ | $27089.26 | 📈 +2.14% |
-| **^VIX** | VIX (Fear Index) | $15.05 | 📈 +1.62% |
-| **VOO** | S&P 500 (VOO) | $712.59 | 📈 +1.54% |
+| **NG=F** | Natural Gas | $3.11 | 📈 +9.66% |
+| **CL=F** | Crude Oil | $91.32 | 📉 -4.66% |
+| **^VIX** | VIX (Fear Index) | $14.28 | 📉 -3.97% |
+| **XLF** | Financials (XLF) | $54.85 | 📉 -1.88% |
+| **SI=F** | Silver | $66.60 | 📈 +1.17% |
+| **ETH-USD** | Ethereum | $2747.23 | 📉 -1.05% |
+| **SOL-USD** | Solana | $117.70 | 📉 -0.88% |
+| **^IRX** | 3-Month T-Bill | $4.01 | 📈 +0.65% |
+| **XLV** | Healthcare (XLV) | $169.98 | 📈 +0.57% |
+| **^RUT** | Russell 2000 | $2888.90 | 📈 +0.47% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **SMH** | Donchian — 20D High Breakout | 89.2 | 76.9% |
-| 🟢 BULLISH | **ARKK** | Donchian — 20D High Breakout | 85.0 | 75.0% |
-| 🟢 BULLISH | **TQQQ** | Donchian — 20D High Breakout | 85.0 | 75.0% |
-| 🟢 BULLISH | **IONQ** | PPO — Bullish Cross | 84.5 | 77.8% |
-| 🟢 BULLISH | **AMZN** | PPO — Bullish Cross | 81.3 | 80.0% |
-| 🟢 BULLISH | **QQQ** | Donchian — 20D High Breakout | 74.5 | 70.8% |
+| 🟢 BULLISH | **PLTR** | Vortex — Bullish | 79.7 | 66.7% |
+| 🟢 BULLISH | **IWM** | Parabolic SAR — Bullish | 76.2 | 56.5% |
+| 🟢 BULLISH | **XRP-USD** | Volume Spike + Surge | 75.7 | 62.9% |
 | 🟢 BULLISH | **AMD** | 52-Week Breakout | 73.8 | 63.0% |
 | 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.3 | 62.3% |
-| 🟢 BULLISH | **COIN** | MACD Bullish Crossover | 72.0 | 53.3% |
-| 🟢 BULLISH | **TQQQ** | Vortex — Bullish | 71.9 | 69.2% |
-| 🟢 BULLISH | **XRP-USD** | Aroon — Strong Uptrend | 71.7 | 58.3% |
+| 🟢 BULLISH | **SMH** | Awesome Oscillator — Bullish Zero Line | 72.4 | 81.8% |
 | 🟢 BULLISH | **SOXL** | Chaikin Money Flow — Bullish | 68.9 | 61.3% |
+| 🟢 BULLISH | **MARA** | Chaikin Money Flow — Bullish | 64.8 | 63.1% |
+| 🟢 BULLISH | **SPY** | Vortex — Bullish | 64.5 | 66.7% |
+| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 64.3 | 58.7% |
+| 🟢 BULLISH | **UPRO** | EMA 9/21 — Bullish Cross | 63.3 | 55.6% |
 
 ## Latest News
 
-- [Intel options flow analysis: 1.78M contracts traded as stock surges 11.69%](https://www.investing.com/news/stock-market-news/intel-options-flow-analysis-178m-contracts-traded-as-stock-surges-1169-93CH-4909506) — *Investing.com*
-- [Invesco BulletShares 2029 High Yield Corporate Bond ETF declares monthly distribution of $0.1111](https://seekingalpha.com/news/4645021-invesco-bulletshares-2029-high-yield-corporate-bond-etf-declares-monthly-distribution-of-01111?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nasdaq soars 2%, S&P up 1.5% as AI stocks rally, led by surge in Meta Platforms](https://www.investing.com/news/stock-market-news/us-stock-index-futures-rise-with-china-summit-iran-escalation-in-focus-4908205) — *Investing.com*
-- [Invesco S&P 500 High Beta ETF declares quarterly distribution of $0.1391](https://seekingalpha.com/news/4645020-invesco-sp-500-high-beta-etf-declares-quarterly-distribution-of-01391?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Paramount and state AGs settle lawsuit, allowing Warner Bros. merger to proceed](https://www.cnbc.com/2026/09/21/paramount-reaches-settlement-over-warner-bros-merger.html) — *CNBC Markets*
-- [Invesco S&P SmallCap Quality ETF declares quarterly distribution of $0.1233](https://seekingalpha.com/news/4645019-invesco-sp-smallcap-quality-etf-declares-quarterly-distribution-of-01233?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Invesco S&P 500 Equal Weight Utilities ETF declares quarterly distribution of $0.5128](https://seekingalpha.com/news/4645018-invesco-sp-500-equal-weight-utilities-etf-declares-quarterly-distribution-of-05128?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Invesco BulletShares 2029 Corporate Bond ETF declares monthly distribution of $0.0688](https://seekingalpha.com/news/4645017-invesco-bulletshares-2029-corporate-bond-etf-declares-monthly-distribution-of-00688?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Invesco BulletShares 2028 Municipal Bond ETF declares monthly distribution of $0.0535](https://seekingalpha.com/news/4645016-invesco-bulletshares-2028-municipal-bond-etf-declares-monthly-distribution-of-00535?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Invesco S&P SmallCap Utilities & Communication Services ETF declares quarterly distribution of $0.1381](https://seekingalpha.com/news/4645015-invesco-sp-smallcap-utilities-communication-services-etf-declares-quarterly-distribution-of-01381?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Apple is developing screenless fitness tracker: report](https://seekingalpha.com/news/4645594-apple-is-developing-screenless-fitness-tracker-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Omeros upgraded at Cantor on Yartemlea opportunity](https://seekingalpha.com/news/4645628-omeros-stock-upgraded-cantor-fitzgerald?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Celtic reports £4.8m loss as revenue drops 22.7% in 2025/26](https://www.investing.com/news/company-news/celtic-reports-48m-loss-as-revenue-drops-227-in-202526-93CH-4911361) — *Investing.com*
+- [Vanguard U.S. Multifactor ETF declares quarterly distribution of $0.6047](https://seekingalpha.com/news/4645627-vanguard-us-multifactor-etf-declares-quarterly-distribution-of-06047?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [AnaptysBio earnings analysis: questions answered and next catalysts](https://www.investing.com/news/stock-market-news/anaptysbio-earnings-analysis-questions-answered-and-next-catalysts-93CH-4911360) — *Investing.com*
+- [Vanguard U.S. Value Factor ETF declares quarterly distribution of $0.6845](https://seekingalpha.com/news/4645626-vanguard-us-value-factor-etf-declares-quarterly-distribution-of-06845?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fed’s Barkin says US economy firming but inflation risks persist](https://www.investing.com/news/economy-news/feds-barkin-says-us-economy-firming-but-inflation-risks-persist-4911359) — *Investing.com*
+- [Vanguard U.S. Quality Factor ETF declares quarterly distribution of $0.3836](https://seekingalpha.com/news/4645625-vanguard-us-quality-factor-etf-declares-quarterly-distribution-of-03836?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Vanguard U.S. Momentum Factor ETF declares quarterly distribution of $0.3074](https://seekingalpha.com/news/4645624-vanguard-us-momentum-factor-etf-declares-quarterly-distribution-of-03074?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Vanguard U.S. Minimum Volatility ETF declares quarterly distribution of $0.3448](https://seekingalpha.com/news/4645623-vanguard-us-minimum-volatility-etf-declares-quarterly-distribution-of-03448?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

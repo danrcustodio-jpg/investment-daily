@@ -902,33 +902,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "SOXL",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 81.3, Win Rate 80.0%, Avg 5d Return 2.06%, Max Drawdown -6.09%, Sharpe 3.66. 1 minor bearish signal(s), max confidence 51.5.",
+      "reason": "Donchian \u2014 20D High Breakout \u2014 Score 100.0, Win Rate 100.0%, Avg 5d Return 18.05%, Max Drawdown 0.0%, Sharpe 11.03. 3 minor bearish signal(s), max confidence 72.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
-      "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 84.5, Win Rate 77.8%, Avg 5d Return 11.01%, Max Drawdown -4.05%, Sharpe 6.82. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "BCH-USD",
       "priority": "medium",
-      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 62.3, Win Rate 60.0%, Avg 5d Return 1.65%, Max Drawdown -9.52%, Sharpe 1.91. No conflicting bearish signals.",
+      "reason": "Volume Spike + Surge \u2014 Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.55%, Sharpe 1.75. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "SPY",
+      "priority": "medium",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-21T22:06:01.226160",
+  "recommendations_updated": "2026-09-22T17:11:01.658895",
   "trade_log": [
     {
       "action": "SELL",
