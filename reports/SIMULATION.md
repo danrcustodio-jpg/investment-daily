@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 08:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 11:06 PM
 
 ## Performance Summary
 
@@ -122,18 +122,18 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 22 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 22 2026 11:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.5… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ADA-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 66.7%, Avg 5d Return 16.57%, Max Drawd… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MARA** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdo… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdo… |
 | 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding… |
 
-### 🔍 NEW OPPORTUNITY — BCH-USD
+### 🔍 NEW OPPORTUNITY — ADA-USD
 
-**Signal Analysis:** Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.55%, Sharpe 1.75. No conflicting bearish signals.
+**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 66.7%, Avg 5d Return 16.57%, Max Drawdown -9.51%, Sharpe 4.56. 2 minor bearish signal(s), max confidence 69.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
 
