@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 05:28 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 08:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.24%** &nbsp; ($+4,342) |
-| SPY Benchmark | +9.27% &nbsp; ($+17,986 if 100% SPY) |
+| Portfolio P&L | **+2.24%** &nbsp; ($+4,340) |
+| SPY Benchmark | +9.27% &nbsp; ($+17,978 if 100% SPY) |
 | Alpha vs SPY | **-7.03%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,342 |
+| Current Value | $198,340 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,796 | +1.69% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $773.41 | $+0 | +0.00% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $773.38 | $-1 | -0.00% |
 
 ## Daily Equity Curve
 
@@ -122,14 +122,14 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 22 2026 05:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 22 2026 08:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.5… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MARA** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 63.3, Win Rate 55.6%, Avg 5d Return 1.36%, Max Drawdown -… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $+0. Holding… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdo… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding… |
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
@@ -143,15 +143,15 @@ _Evaluated Sep 22 2026 05:28 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — UPRO
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 63.3, Win Rate 55.6%, Avg 5d Return 1.36%, Max Drawdown -9.28%, Sharpe 1.53. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdown -61.12%, Sharpe 1.92. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $+0. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding avoids $0 in taxes.
 
 **Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 

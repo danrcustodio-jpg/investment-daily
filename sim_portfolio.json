@@ -914,11 +914,11 @@
     },
     {
       "date": "2026-09-22",
-      "total_value": 198341.61,
-      "portfolio_pnl": 2.238,
-      "benchmark_pnl": 9.271,
+      "total_value": 198340.45,
+      "portfolio_pnl": 2.237,
+      "benchmark_pnl": 9.267,
       "prices": {
-        "SPY": 773.4099731445312
+        "SPY": 773.3800048828125
       }
     }
   ],
@@ -943,9 +943,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "UPRO",
+      "ticker": "RIOT",
       "priority": "medium",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 63.3, Win Rate 55.6%, Avg 5d Return 1.36%, Max Drawdown -9.28%, Sharpe 1.53. No conflicting bearish signals.",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdown -61.12%, Sharpe 1.92. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -954,11 +954,11 @@
       "action": "HOLD",
       "ticker": "SPY",
       "priority": "low",
-      "reason": "Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $+0. Holding avoids $0 in taxes.",
+      "reason": "Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding avoids $0 in taxes.",
       "tax_note": "Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction."
     }
   ],
-  "recommendations_updated": "2026-09-22T17:28:15.343630",
+  "recommendations_updated": "2026-09-22T20:20:13.198103",
   "trade_log": [
     {
       "action": "SELL",
