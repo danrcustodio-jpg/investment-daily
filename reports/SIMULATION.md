@@ -1,21 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 05:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 05:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.51%** &nbsp; ($+4,878) |
-| SPY Benchmark | +9.26% &nbsp; ($+17,964 if 100% SPY) |
-| Alpha vs SPY | **-6.75%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.24%** &nbsp; ($+4,342) |
+| SPY Benchmark | +9.27% &nbsp; ($+17,986 if 100% SPY) |
+| Alpha vs SPY | **-7.03%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,878 |
+| Current Value | $198,342 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,575 | — | $+3,303 | +1.69% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,796 | +1.69% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $773.41 | $+0 | +0.00% |
 
 ## Daily Equity Curve
 
@@ -117,39 +118,51 @@
 | 2026-09-17 | 📈 +2.45% | +7.74% | ❌ -5.29% |
 | 2026-09-18 | 📈 +2.46% | +7.62% | ❌ -5.15% |
 | 2026-09-21 | 📈 +2.50% | +9.28% | ❌ -6.78% |
+| 2026-09-22 | 📈 +2.24% | +9.27% | ❌ -7.03% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 22 2026 05:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 22 2026 05:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOXL** | Donchian — 20D High Breakout — Score 100.0, Win Rate 100.0%, Avg 5d Return 18.05%, Max Dra… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.5… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SPY** | Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, S… |
-
-### 🔍 NEW OPPORTUNITY — SOXL
-
-**Signal Analysis:** Donchian — 20D High Breakout — Score 100.0, Win Rate 100.0%, Avg 5d Return 18.05%, Max Drawdown 0.0%, Sharpe 11.03. 3 minor bearish signal(s), max confidence 72.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MARA** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **UPRO** | EMA 9/21 — Bullish Cross — Score 63.3, Win Rate 55.6%, Avg 5d Return 1.36%, Max Drawdown -… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $+0. Holding… |
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
 **Signal Analysis:** Volume Spike + Surge — Score 59.7, Win Rate 47.6%, Avg 5d Return 2.98%, Max Drawdown -21.55%, Sharpe 1.75. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,575 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — SPY
+### 🔍 NEW OPPORTUNITY — MARA
 
-**Signal Analysis:** Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdown -53.35%, Sharpe 1.76. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — UPRO
+
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 63.3, Win Rate 55.6%, Avg 5d Return 1.36%, Max Drawdown -9.28%, Sharpe 1.53. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+
+### ✅ HOLD — SPY
+
+**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $+0. Holding avoids $0 in taxes.
+
+**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 
-### CASH — $195,575 (62%)
+### CASH — $165,545 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
+
+### SPY — SPY
+**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $773.40
+> Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*
