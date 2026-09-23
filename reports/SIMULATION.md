@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 05:23 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 05:37 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.13%** &nbsp; ($+4,142) |
-| SPY Benchmark | +8.47% &nbsp; ($+16,429 if 100% SPY) |
-| Alpha vs SPY | **-6.33%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.13%** &nbsp; ($+4,132) |
+| SPY Benchmark | +8.44% &nbsp; ($+16,364 if 100% SPY) |
+| Alpha vs SPY | **-6.30%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,142 |
+| Current Value | $198,132 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
 | **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,817 | +1.70% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $767.73 | $-220 | -0.73% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $767.49 | $-229 | -0.76% |
 
 ## Daily Equity Curve
 
@@ -119,17 +119,18 @@
 | 2026-09-18 | 📈 +2.46% | +7.62% | ❌ -5.15% |
 | 2026-09-21 | 📈 +2.50% | +9.28% | ❌ -6.78% |
 | 2026-09-22 | 📈 +2.24% | +9.27% | ❌ -7.03% |
+| 2026-09-23 | 📈 +2.13% | +8.43% | ❌ -6.30% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 23 2026 05:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 23 2026 05:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.5, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-220. Holdi… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-229. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — CEG
 
@@ -145,13 +146,13 @@ _Evaluated Sep 23 2026 05:23 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.5, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown -91.56%, Sharpe 1.83. 4 minor bearish signal(s), max confidence 75.7.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown -91.56%, Sharpe 1.83. 4 minor bearish signal(s), max confidence 75.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
 
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-220. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-229. Holding avoids $0 in taxes.
 
 **Tax & Cost:** Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
