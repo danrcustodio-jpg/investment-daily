@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 08:53 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 11:22 PM
 
 ## Performance Summary
 
@@ -123,13 +123,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 23 2026 08:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 23 2026 11:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.97%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown… |
 | 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.62 vs 0 bear score 0.00). Gross P&L: $-217. Holdi… |
 
 ### 🔍 NEW OPPORTUNITY — CEG
@@ -146,7 +146,7 @@ _Evaluated Sep 23 2026 08:53 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.97%, Max Drawdown -91.56%, Sharpe 1.83. 3 minor bearish signal(s), max confidence 75.7.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown -91.56%, Sharpe 1.83. 4 minor bearish signal(s), max confidence 75.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
 
