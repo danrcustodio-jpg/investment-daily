@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 137** &nbsp;·&nbsp; Updated: Sep 22 2026 11:06 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 05:23 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.24%** &nbsp; ($+4,340) |
-| SPY Benchmark | +9.27% &nbsp; ($+17,978 if 100% SPY) |
-| Alpha vs SPY | **-7.03%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.13%** &nbsp; ($+4,142) |
+| SPY Benchmark | +8.47% &nbsp; ($+16,429 if 100% SPY) |
+| Alpha vs SPY | **-6.33%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,340 |
+| Current Value | $198,142 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,796 | +1.69% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $773.38 | $-1 | -0.00% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,817 | +1.70% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $767.73 | $-220 | -0.73% |
 
 ## Daily Equity Curve
 
@@ -122,38 +122,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 22 2026 11:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 23 2026 05:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ADA-USD** | Donchian — 20D High Breakout — Score 80.0, Win Rate 66.7%, Avg 5d Return 16.57%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MARA** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdo… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.5, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown… |
+| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-220. Holdi… |
 
-### 🔍 NEW OPPORTUNITY — ADA-USD
+### 🔍 NEW OPPORTUNITY — CEG
 
-**Signal Analysis:** Donchian — 20D High Breakout — Score 80.0, Win Rate 66.7%, Avg 5d Return 16.57%, Max Drawdown -9.51%, Sharpe 4.56. 2 minor bearish signal(s), max confidence 69.4.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — GC=F
+
+**Signal Analysis:** Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.5, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown -91.56%, Sharpe 1.83. 4 minor bearish signal(s), max confidence 75.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — MARA
-
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.8, Win Rate 63.1%, Avg 5d Return 2.43%, Max Drawdown -53.35%, Sharpe 1.76. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 68.8, Win Rate 59.3%, Avg 5d Return 3.04%, Max Drawdown -61.12%, Sharpe 1.92. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
-
 ### ✅ HOLD — SPY
 
-**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 0 bear score 0.00). Gross P&L: $-1. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal still net bullish (3 bull score 1.14 vs 1 bear score 0.35). Gross P&L: $-220. Holding avoids $0 in taxes.
 
-**Tax & Cost:** Held 0 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
+**Tax & Cost:** Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
 
 ## Position Rationale
 
