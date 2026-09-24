@@ -1,22 +1,22 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 138** &nbsp;·&nbsp; Updated: Sep 23 2026 11:22 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 05:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.14%** &nbsp; ($+4,145) |
-| SPY Benchmark | +8.48% &nbsp; ($+16,451 if 100% SPY) |
-| Alpha vs SPY | **-6.34%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.13%** &nbsp; ($+4,128) |
+| SPY Benchmark | +8.35% &nbsp; ($+16,189 if 100% SPY) |
+| Alpha vs SPY | **-6.22%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,145 |
+| Current Value | $198,128 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,817 | +1.70% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $767.81 | $-217 | -0.72% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,837 | +1.71% |
+| **SPY** | SPY | ✅ OPEN | $30,000 | $766.85 | $-254 | -0.85% |
 
 ## Daily Equity Curve
 
@@ -123,38 +123,38 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 23 2026 11:22 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 24 2026 05:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown… |
-| 🟢 LOW | ✅ HOLD | **SPY** | Signal still net bullish (2 bull score 0.62 vs 0 bear score 0.00). Gross P&L: $-217. Holdi… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown… |
+| 🔴 HIGH | ⚠️ REVIEW EXIT | **SPY** | Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest … |
 
 ### 🔍 NEW OPPORTUNITY — CEG
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
 **Signal Analysis:** Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $165,545 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.4, Win Rate 43.1%, Avg 5d Return 4.98%, Max Drawdown -91.56%, Sharpe 1.83. 4 minor bearish signal(s), max confidence 75.7.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 60.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $165,545 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
 
-### ✅ HOLD — SPY
+### ⚠️ REVIEW EXIT — SPY
 
-**Signal Analysis:** Signal still net bullish (2 bull score 0.62 vs 0 bear score 0.00). Gross P&L: $-217. Holding avoids $0 in taxes.
+**Signal Analysis:** Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest bearish: Vortex — Bearish (score 86.2). Gross P&L: $-254.
 
-**Tax & Cost:** Held 1 days (short-term). Exiting now costs $0 tax + $30 slippage = $30 total friction.
+**Tax & Cost:** Held 2 days (short-term rate). $81 tax benefit (loss deduction) + $30 slippage. Net proceeds if sold: $29,798.
 
 ## Position Rationale
 
