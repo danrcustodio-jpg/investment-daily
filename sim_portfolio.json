@@ -920,9 +920,9 @@
       "date": "2026-09-24",
       "total_value": 198693.38,
       "portfolio_pnl": 2.419,
-      "benchmark_pnl": 8.349,
+      "benchmark_pnl": 8.391,
       "prices": {
-        "SPY": 766.8800048828125
+        "SPY": 767.1799926757812
       }
     }
   ],
@@ -949,13 +949,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "IONQ",
       "priority": "high",
-      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 60.9.",
+      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 52.4.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-24T17:39:58.522887",
+  "recommendations_updated": "2026-09-24T20:57:50.693339",
   "trade_log": [
     {
       "action": "SELL",

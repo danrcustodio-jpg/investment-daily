@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 05:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 08:57 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.42%** &nbsp; ($+4,693) |
-| SPY Benchmark | +8.35% &nbsp; ($+16,196 if 100% SPY) |
-| Alpha vs SPY | **-5.93%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.39% &nbsp; ($+16,278 if 100% SPY) |
+| Alpha vs SPY | **-5.97%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,693 |
 
@@ -119,11 +119,11 @@
 | 2026-09-21 | 📈 +2.50% | +9.28% | ❌ -6.78% |
 | 2026-09-22 | 📈 +2.24% | +9.27% | ❌ -7.03% |
 | 2026-09-23 | 📈 +2.14% | +8.48% | ❌ -6.34% |
-| 2026-09-24 | 📈 +2.42% | +8.35% | ❌ -5.93% |
+| 2026-09-24 | 📈 +2.42% | +8.39% | ❌ -5.97% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 24 2026 05:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 24 2026 08:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -145,7 +145,7 @@ _Evaluated Sep 24 2026 05:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 60.9.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 52.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
