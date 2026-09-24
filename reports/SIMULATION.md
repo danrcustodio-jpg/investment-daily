@@ -1,22 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 05:28 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 05:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.13%** &nbsp; ($+4,128) |
-| SPY Benchmark | +8.35% &nbsp; ($+16,189 if 100% SPY) |
-| Alpha vs SPY | **-6.22%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.42%** &nbsp; ($+4,693) |
+| SPY Benchmark | +8.35% &nbsp; ($+16,196 if 100% SPY) |
+| Alpha vs SPY | **-5.93%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,128 |
+| Current Value | $198,693 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $165,545 | — | $+2,837 | +1.71% |
-| **SPY** | SPY | ✅ OPEN | $30,000 | $766.85 | $-254 | -0.85% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,348 | +1.71% |
 
 ## Daily Equity Curve
 
@@ -120,50 +119,40 @@
 | 2026-09-21 | 📈 +2.50% | +9.28% | ❌ -6.78% |
 | 2026-09-22 | 📈 +2.24% | +9.27% | ❌ -7.03% |
 | 2026-09-23 | 📈 +2.14% | +8.48% | ❌ -6.34% |
+| 2026-09-24 | 📈 +2.42% | +8.35% | ❌ -5.93% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 24 2026 05:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 24 2026 05:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown… |
-| 🔴 HIGH | ⚠️ REVIEW EXIT | **SPY** | Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest … |
 
 ### 🔍 NEW OPPORTUNITY — CEG
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
 **Signal Analysis:** Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
 **Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 60.9.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.
-
-### ⚠️ REVIEW EXIT — SPY
-
-**Signal Analysis:** Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest bearish: Vortex — Bearish (score 86.2). Gross P&L: $-254.
-
-**Tax & Cost:** Held 2 days (short-term rate). $81 tax benefit (loss deduction) + $30 slippage. Net proceeds if sold: $29,798.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
-### CASH — $165,545 (62%)
+### CASH — $195,346 (62%)
 > SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.
-
-### SPY — SPY
-**Signal:** Strategy signal &nbsp; **Confidence:** None &nbsp; **Win Rate:** None% &nbsp; **Entry:** $773.40
-> Vortex — Bullish — Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.
 
 ---
 *Simulated portfolio for educational purposes. Not financial advice.*

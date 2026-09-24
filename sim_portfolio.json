@@ -5,26 +5,12 @@
   "positions": {
     "CASH": {
       "name": "Cash / Money Market",
-      "allocation": 165545.1,
+      "allocation": 195345.74,
       "type": "cash",
       "annual_rate": 0.045,
       "rationale": "SPY & QQQ both showing highest-confidence bearish signals. Holding 62% in T-Bills (~4.5% APY) until pullback confirmed.",
       "status": "open",
       "triggered_date": null
-    },
-    "SPY": {
-      "name": "SPY",
-      "allocation": 30000.0,
-      "type": "market",
-      "entry_price": 773.4000244140625,
-      "shares": 38.789758,
-      "signal": "Strategy signal",
-      "confidence": null,
-      "win_rate": null,
-      "sharpe": null,
-      "rationale": "Vortex \u2014 Bullish \u2014 Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals.",
-      "status": "open",
-      "triggered_date": "2026-09-22"
     }
   },
   "benchmark": {
@@ -929,6 +915,15 @@
       "prices": {
         "SPY": 767.8099975585938
       }
+    },
+    {
+      "date": "2026-09-24",
+      "total_value": 198693.38,
+      "portfolio_pnl": 2.419,
+      "benchmark_pnl": 8.349,
+      "prices": {
+        "SPY": 766.8800048828125
+      }
     }
   ],
   "recommendations": [
@@ -937,7 +932,7 @@
       "ticker": "CEG",
       "priority": "high",
       "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -946,7 +941,7 @@
       "ticker": "GC=F",
       "priority": "high",
       "reason": "Williams %R \u2014 Oversold \u2014 Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
@@ -955,19 +950,12 @@
       "ticker": "IONQ",
       "priority": "high",
       "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 60.9.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,343 deployable. Entry slippage est. $30.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "REVIEW_EXIT",
-      "ticker": "SPY",
-      "priority": "high",
-      "reason": "Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest bearish: Vortex \u2014 Bearish (score 86.2). Gross P&L: $-254.",
-      "tax_note": "Held 2 days (short-term rate). $81 tax benefit (loss deduction) + $30 slippage. Net proceeds if sold: $29,798."
     }
   ],
-  "recommendations_updated": "2026-09-24T17:28:22.295695",
+  "recommendations_updated": "2026-09-24T17:39:58.522887",
   "trade_log": [
     {
       "action": "SELL",
@@ -1076,6 +1064,16 @@
       "is_crypto": false,
       "explanation": "Vortex \u2014 Bullish \u2014 Score 64.5, Win Rate 66.7%, Avg 5d Return 0.47%, Max Drawdown -3.36%, Sharpe 1.46. No conflicting bearish signals. New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,575 deployable. Entry slippage est. $30.",
       "timestamp": "2026-09-22T17:27:57.836049"
+    },
+    {
+      "action": "SELL",
+      "ticker": "SPY",
+      "gross_gain": -249.42,
+      "net_proceeds": 29800.64,
+      "tax_cost": 0.0,
+      "slippage": 29.75,
+      "explanation": "Signal environment turned net bearish (1 bear score 0.86 vs 1 bull score 0.28). Strongest bearish: Vortex \u2014 Bearish (score 86.2). Gross P&L: $-249. Held 2 days (short-term rate). $80 tax benefit (loss deduction) + $30 slippage. Net proceeds if sold: $29,801.",
+      "timestamp": "2026-09-24T17:39:46.052690"
     }
   ]
 }
