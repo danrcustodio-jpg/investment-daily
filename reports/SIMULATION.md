@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 139** &nbsp;·&nbsp; Updated: Sep 24 2026 11:44 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 05:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.42%** &nbsp; ($+4,693) |
-| SPY Benchmark | +8.39% &nbsp; ($+16,278 if 100% SPY) |
-| Alpha vs SPY | **-5.97%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.43%** &nbsp; ($+4,717) |
+| SPY Benchmark | +8.96% &nbsp; ($+17,377 if 100% SPY) |
+| Alpha vs SPY | **-6.53%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,693 |
+| Current Value | $198,717 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,348 | +1.71% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,372 | +1.73% |
 
 ## Daily Equity Curve
 
@@ -123,31 +123,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 24 2026 11:44 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 25 2026 05:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.61%, Max Drawdown -6.09%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sh… |
 
-### 🔍 NEW OPPORTUNITY — CEG
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.61%, Max Drawdown -6.09%, Sharpe 3.81. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Williams %R — Oversold — Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.
+**Signal Analysis:** CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — IONQ
+### 🔍 NEW OPPORTUNITY — NEAR-USD
 
-**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 52.4.
+**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, September 24, 2026
-Generated at 05:28 PM
+# Daily Newsletter — Friday, September 25, 2026
+Generated at 05:27 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 108 total &nbsp;·&nbsp; 🟢 48 Bullish &nbsp;·&nbsp; 🔴 60 Bearish
+**Strategy Signals:** 125 total &nbsp;·&nbsp; 🟢 55 Bullish &nbsp;·&nbsp; 🔴 70 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.36 | 📈 +11.02% |
-| **CL=F** | Crude Oil | $94.43 | 📈 +2.46% |
-| **^VIX** | VIX (Fear Index) | $15.48 | 📈 +1.98% |
-| **SOL-USD** | Solana | $117.02 | 📈 +1.78% |
-| **GBPUSD=X** | GBP/USD | $1.32 | 📉 -0.91% |
-| **JPYUSD=X** | JPY/USD | $0.01 | 📉 -0.89% |
-| **XLE** | Energy (XLE) | $62.87 | 📈 +0.80% |
-| **^IRX** | 3-Month T-Bill | $4.06 | 📈 +0.79% |
-| **^TYX** | 30-Year Treasury Yield | $5.44 | 📈 +0.69% |
-| **EURUSD=X** | EUR/USD | $1.14 | 📉 -0.63% |
+| **^VIX** | VIX (Fear Index) | $15.04 | 📉 -4.02% |
+| **SOL-USD** | Solana | $120.71 | 📈 +3.16% |
+| **NG=F** | Natural Gas | $3.20 | 📉 -2.88% |
+| **CL=F** | Crude Oil | $92.11 | 📉 -2.64% |
+| **SI=F** | Silver | $64.79 | 📈 +2.10% |
+| **XLE** | Energy (XLE) | $61.72 | 📉 -1.41% |
+| **XLK** | Tech (XLK) | $196.72 | 📈 +1.03% |
+| **^TYX** | 30-Year Treasury Yield | $5.51 | 📈 +0.92% |
+| **XLI** | Industrials (XLI) | $170.37 | 📈 +0.91% |
+| **^DJI** | Dow Jones | $51758.25 | 📈 +0.80% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **IONQ** | Supertrend — Bullish Flip | 84.0 | 80.0% |
-| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 78.5 | 76.2% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 78.5 | 66.7% |
-| 🟢 BULLISH | **IONQ** | Aroon — Strong Uptrend | 78.0 | 60.0% |
+| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 86.7 | 80.0% |
+| 🟢 BULLISH | **AMZN** | PPO — Bullish Cross | 81.3 | 80.0% |
+| 🟢 BULLISH | **NEAR-USD** | 52-Week Breakout | 80.0 | 100.0% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 78.4 | 66.5% |
+| 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 75.5 | 72.9% |
 | 🟢 BULLISH | **AMD** | 52-Week Breakout | 73.8 | 63.0% |
 | 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.3 | 62.3% |
-| 🟢 BULLISH | **CEG** | Fisher Transform — Low Extreme | 72.7 | 61.7% |
+| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 71.7 | 67.6% |
 | 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 70.5 | 63.0% |
 | 🟢 BULLISH | **SOXL** | Chaikin Money Flow — Bullish | 68.9 | 61.3% |
-| 🟢 BULLISH | **XBI** | Williams %R — Oversold | 68.0 | 63.9% |
-| 🟢 BULLISH | **VOO** | PPO — Bullish Cross | 67.2 | 66.7% |
-| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.4 | 59.1% |
+| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.8 | 59.3% |
+| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 65.7 | 59.7% |
 
 ## Latest News
 
-- [Letterboxd valued at over $300M as buyers circle](https://seekingalpha.com/news/4646818-letterboxd-valued-at-over-300m-as-buyers-circle?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [BlackBerry forecasts FY2027 revenue of $616M-$636M while lifting adjusted EBITDA outlook to $141M-$158M](https://seekingalpha.com/news/4646823-blackberry-forecasts-fy2027-revenue-of-616m-636m-while-lifting-adjusted-ebitda-outlook-to?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Greenland Energy skyrockets on farm-out agreement extension with 80 Mile](https://seekingalpha.com/news/4646821-greenland-energy-skyrockets-on-farm-out-agreement-extension-with-80-mile?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Ligand, AvenCell ink financing deal worth up to $47M for CAR-T therapies](https://seekingalpha.com/news/4646822-ligand-avencell-financing-deal-worth-47m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Agroz announces 1-for-20 reverse stock split effective Sept. 29](https://www.investing.com/news/company-news/agroz-announces-1for20-reverse-stock-split-effective-sept-29-93CH-4915949) — *Investing.com*
-- [‘We made a bad, bad decision’: I learned the hard way how to manage my aging father’s money](https://www.marketwatch.com/story/we-made-a-bad-bad-decision-i-learned-the-hard-way-how-to-manage-my-aging-fathers-money-c87cabed?mod=mw_rss_topstories) — *MarketWatch*
-- [Warner Bros. ticks lower as judge delays deal settlement approval](https://seekingalpha.com/news/4646795-warner-bros-ticks-lower-as-judge-delays-deal-settlment-approval?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [New York sues Polymarket U.S., two months after filing lawsuit against Kalshi](https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html) — *CNBC Markets*
-- [Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation](https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html) — *CNBC Markets*
-- [Egypt central bank holds interest rates steady at 19%](https://www.investing.com/news/economy-news/egypt-central-bank-holds-interest-rates-steady-at-19-93CH-4915934) — *Investing.com*
+- [SK hynix US unit considering IPO at $150B valuation: report](https://seekingalpha.com/news/4647270-sk-hynix-us-unit-considering-ipo-at-150b-valuation-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [This is why you might see 8% mortgage rates soon](https://www.marketwatch.com/story/this-is-why-you-might-see-8-mortgage-rates-soon-6a2e24dd?mod=mw_rss_topstories) — *MarketWatch*
+- [U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk](https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html) — *CNBC Markets*
+- [Scholar Rock added to Wedbush's Best Ideas List](https://seekingalpha.com/news/4647269-scholar-rock-added-wedbush-best-ideas-list?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Anthropic supply-chain designation upheld in AI military dispute](https://www.investing.com/news/stock-market-news/anthropic-supplychain-designation-upheld-in-ai-military-dispute-4917913) — *Investing.com*
+- [Trump says Scott Bessent won't be AI czar](https://www.cnbc.com/2026/09/25/trump-bessent-ai-czar.html) — *CNBC Markets*
+- [Choosing these AI-exposed college majors could dent your job prospects — and lower your pay](https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories) — *MarketWatch*
+- [Moleculin presents preclinical pancreatic cancer data at AACR](https://www.investing.com/news/company-news/moleculin-presents-preclinical-pancreatic-cancer-data-at-aacr-93CH-4917906) — *Investing.com*
+- [Honeywell declares $0.70 quarterly dividend per share](https://www.investing.com/news/company-news/honeywell-declares-070-quarterly-dividend-per-share-93CH-4917905) — *Investing.com*
+- [REUTERS NEXT- FTC chair pushes back on treating AI agents as independent actors](https://www.investing.com/news/stock-market-news/reuters-next-ftc-chair-pushes-back-on-treating-ai-agents-as-independent-actors-4917904) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

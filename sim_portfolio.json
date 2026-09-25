@@ -929,9 +929,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CEG",
+      "ticker": "AMZN",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 72.7, Win Rate 61.7%, Avg 5d Return 2.3%, Max Drawdown -41.6%, Sharpe 2.15. No conflicting bearish signals.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 81.3, Win Rate 80.0%, Avg 5d Return 2.61%, Max Drawdown -6.09%, Sharpe 3.81. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -940,22 +940,22 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 78.5, Win Rate 76.2%, Avg 5d Return 1.34%, Max Drawdown -39.8%, Sharpe 2.15. No conflicting bearish signals.",
+      "reason": "CCI \u2014 Extreme Oversold \u2014 Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IONQ",
+      "ticker": "NEAR-USD",
       "priority": "high",
-      "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 84.0, Win Rate 80.0%, Avg 5d Return 13.22%, Max Drawdown -11.89%, Sharpe 4.25. 2 minor bearish signal(s), max confidence 52.4.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-24T23:44:04.534051",
+  "recommendations_updated": "2026-09-25T17:27:29.152388",
   "trade_log": [
     {
       "action": "SELL",
