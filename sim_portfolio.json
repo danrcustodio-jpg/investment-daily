@@ -924,6 +924,15 @@
       "prices": {
         "SPY": 767.1799926757812
       }
+    },
+    {
+      "date": "2026-09-25",
+      "total_value": 198717.46,
+      "portfolio_pnl": 2.432,
+      "benchmark_pnl": 8.896,
+      "prices": {
+        "SPY": 770.7550048828125
+      }
     }
   ],
   "recommendations": [
@@ -949,13 +958,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "NEAR-USD",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 24.7%, Max Drawdown 0.0%, Sharpe 13.52. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-25T17:27:29.152388",
+  "recommendations_updated": "2026-09-25T17:38:55.357914",
   "trade_log": [
     {
       "action": "SELL",

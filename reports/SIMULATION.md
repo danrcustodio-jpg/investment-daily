@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 05:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 05:38 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.43%** &nbsp; ($+4,717) |
-| SPY Benchmark | +8.96% &nbsp; ($+17,377 if 100% SPY) |
-| Alpha vs SPY | **-6.53%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.89% &nbsp; ($+17,253 if 100% SPY) |
+| Alpha vs SPY | **-6.46%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,717 |
 
@@ -120,16 +120,17 @@
 | 2026-09-22 | 📈 +2.24% | +9.27% | ❌ -7.03% |
 | 2026-09-23 | 📈 +2.14% | +8.48% | ❌ -6.34% |
 | 2026-09-24 | 📈 +2.42% | +8.39% | ❌ -5.97% |
+| 2026-09-25 | 📈 +2.43% | +8.90% | ❌ -6.46% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 25 2026 05:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 25 2026 05:38 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.61%, Max Drawdown -6.09%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.7%, Max Drawdown 0.0%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -145,7 +146,7 @@ _Evaluated Sep 25 2026 05:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NEAR-USD
 
-**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.7%, Max Drawdown 0.0%, Sharpe 13.52. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
