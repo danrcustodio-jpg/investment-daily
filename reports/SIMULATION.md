@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 08:53 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 11:42 PM
 
 ## Performance Summary
 
@@ -124,13 +124,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 25 2026 08:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 25 2026 11:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.11%, Max Drawdown -6.09%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 25.66%, Max Drawdown 0.0%, S… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -146,7 +146,7 @@ _Evaluated Sep 25 2026 08:53 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NEAR-USD
 
-**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 25.66%, Max Drawdown 0.0%, Sharpe 14.56. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 

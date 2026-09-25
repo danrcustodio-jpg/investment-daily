@@ -958,13 +958,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "NEAR-USD",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 25.66%, Max Drawdown 0.0%, Sharpe 14.56. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-25T20:53:41.428723",
+  "recommendations_updated": "2026-09-25T23:42:50.349653",
   "trade_log": [
     {
       "action": "SELL",
