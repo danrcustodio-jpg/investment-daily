@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 140** &nbsp;·&nbsp; Updated: Sep 25 2026 11:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 141** &nbsp;·&nbsp; Updated: Sep 26 2026 04:37 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.43%** &nbsp; ($+4,717) |
+| Portfolio P&L | **+2.44%** &nbsp; ($+4,742) |
 | SPY Benchmark | +8.98% &nbsp; ($+17,421 if 100% SPY) |
-| Alpha vs SPY | **-6.55%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.54%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,717 |
+| Current Value | $198,742 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,372 | +1.73% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,396 | +1.74% |
 
 ## Daily Equity Curve
 
@@ -124,13 +124,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 25 2026 11:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 26 2026 04:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 81.3, Win Rate 80.0%, Avg 5d Return 2.11%, Max Drawdown -6.09%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 78.4, Win Rate 66.4%, Avg 5d Return 1.01%, Max Drawdown -28… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | ADX Strong Trend — Bullish — Score 59.0, Win Rate 54.8%, Avg 5d Return 2.44%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -140,13 +140,13 @@ _Evaluated Sep 25 2026 11:42 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** CCI — Extreme Oversold — Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.
+**Signal Analysis:** CCI — Extreme Oversold — Score 78.4, Win Rate 66.4%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NEAR-USD
+### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** 52-Week Breakout — Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.0, Win Rate 54.8%, Avg 5d Return 2.44%, Max Drawdown -90.63%, Sharpe 1.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 

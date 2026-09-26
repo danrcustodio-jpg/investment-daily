@@ -949,22 +949,22 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "CCI \u2014 Extreme Oversold \u2014 Score 78.4, Win Rate 66.5%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.",
+      "reason": "CCI \u2014 Extreme Oversold \u2014 Score 78.4, Win Rate 66.4%, Avg 5d Return 1.01%, Max Drawdown -28.31%, Sharpe 2.43. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NEAR-USD",
-      "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 80.0, Win Rate 100.0%, Avg 5d Return 24.5%, Max Drawdown 0.0%, Sharpe 13.29. No conflicting bearish signals.",
+      "ticker": "LTC-USD",
+      "priority": "medium",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 59.0, Win Rate 54.8%, Avg 5d Return 2.44%, Max Drawdown -90.63%, Sharpe 1.59. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-09-25T23:42:50.349653",
+  "recommendations_updated": "2026-09-26T16:37:05.616166",
   "trade_log": [
     {
       "action": "SELL",
