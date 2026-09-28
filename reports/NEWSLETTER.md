@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, September 27, 2026
-Generated at 05:11 PM
+# Daily Newsletter — Monday, September 28, 2026
+Generated at 07:48 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 120 total &nbsp;·&nbsp; 🟢 53 Bullish &nbsp;·&nbsp; 🔴 67 Bearish
+**Strategy Signals:** 110 total &nbsp;·&nbsp; 🟢 58 Bullish &nbsp;·&nbsp; 🔴 52 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $14.87 | 📉 -5.11% |
-| **CL=F** | Crude Oil | $92.41 | 📉 -2.33% |
-| **NG=F** | Natural Gas | $3.22 | 📉 -2.18% |
-| **SI=F** | Silver | $64.80 | 📈 +2.12% |
-| **JPYUSD=X** | JPY/USD | $0.01 | 📈 +1.03% |
-| **XLI** | Industrials (XLI) | $170.43 | 📈 +0.95% |
-| **^DJI** | Dow Jones | $51828.62 | 📈 +0.93% |
-| **XLE** | Energy (XLE) | $62.04 | 📉 -0.89% |
-| **XLK** | Tech (XLK) | $196.27 | 📈 +0.80% |
-| **^TYX** | 30-Year Treasury Yield | $5.50 | 📈 +0.79% |
+| **^VIX** | VIX (Fear Index) | $16.05 | 📈 +7.94% |
+| **SI=F** | Silver | $61.42 | 📉 -4.40% |
+| **GC=F** | Gold | $4165.40 | 📉 -3.61% |
+| **SOL-USD** | Solana | $118.20 | 📉 -3.16% |
+| **NG=F** | Natural Gas | $3.14 | 📉 -1.85% |
+| **BTC-USD** | Bitcoin | $83253.85 | 📉 -1.43% |
+| **XLY** | Consumer Disc. (XLY) | $109.10 | 📉 -1.33% |
+| **XLF** | Financials (XLF) | $54.21 | 📉 -1.15% |
+| **^TNX** | 10-Year Treasury Yield | $5.24 | 📈 +1.08% |
+| **^TYX** | 30-Year Treasury Yield | $5.56 | 📈 +1.04% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 86.7 | 80.0% |
-| 🟢 BULLISH | **AMZN** | PPO — Bullish Cross | 81.3 | 80.0% |
-| 🟢 BULLISH | **NEAR-USD** | 52-Week Breakout | 80.0 | 100.0% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 78.2 | 66.2% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 87.5 | 81.2% |
+| 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 83.1 | 76.9% |
+| 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 81.8 | 76.5% |
+| 🟢 BULLISH | **GC=F** | Williams %R — Oversold | 78.5 | 76.2% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 78.3 | 66.1% |
+| 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 76.6 | 62.7% |
+| 🟢 BULLISH | **PLTR** | TRIX — Bullish Cross | 76.4 | 69.2% |
 | 🟢 BULLISH | **GC=F** | Stochastic (Full) — Oversold | 75.5 | 72.9% |
-| 🟢 BULLISH | **AMD** | 52-Week Breakout | 73.8 | 63.0% |
-| 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.3 | 62.3% |
-| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 71.1 | 63.4% |
-| 🟢 BULLISH | **SOXL** | Chaikin Money Flow — Bullish | 68.9 | 61.3% |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 68.9 | 62.2% |
-| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 65.7 | 59.7% |
-| 🟢 BULLISH | **ARKK** | Chaikin Money Flow — Bullish | 65.5 | 59.1% |
+| 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.5 | 62.5% |
+| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 72.5 | 63.8% |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 71.8 | 64.0% |
+| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 71.7 | 67.6% |
 
 ## Latest News
 
-- [China may permit Alibaba, ByteDance to buy new Nvidia chips – The Information](https://www.investing.com/news/stock-market-news/china-may-permit-alibaba-bytedance-to-buy-new-nvidia-chips--the-information-4919061) — *Investing.com*
-- [Terrorism arrests made in ‘major incident’ near RAF Fairford](https://www.ft.com/content/875027a3-db29-40a6-b17c-fa97c30fd07b?syn-25a6b1a6=1) — *Financial Times*
-- [Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?](https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories) — *MarketWatch*
-- [Neostellar capital chairman Klein buys $39,550 in common stock](https://www.investing.com/news/insider-trading-news/neostellar-capital-chairman-klein-buys-39550-in-common-stock-93CH-4919056) — *Investing.com*
-- [Iran's foreign minister says Tehran ready for 'doomsday' war with U.S., but leaves diplomacy on the table](https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html) — *CNBC Markets*
-- [BCB Bancorp CEO Thomas O’Brien purchases $1.24m in company stock](https://www.investing.com/news/insider-trading-news/bcb-bancorp-ceo-thomas-obrien-purchases-124m-in-company-stock-93CH-4919051) — *Investing.com*
-- [Bill Gates calls for federal AI safeguards beyond industry self-regulation](https://seekingalpha.com/news/4647400-bill-gates-calls-for-federal-ai-safeguards-beyond-industry-self-regulation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?](https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories) — *MarketWatch*
-- [‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?](https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories) — *MarketWatch*
-- [Bill Gates joins calls for AI safeguards, including legislation](https://www.investing.com/news/stock-market-news/bill-gates-joins-calls-for-ai-safeguards-including-legislation-4919049) — *Investing.com*
+- [‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?](https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories) — *MarketWatch*
+- [Is Wall Street's Zervos the magic touch Bessent needs to rein in bond rout?](https://seekingalpha.com/news/4647749-is-wall-streets-zervos-the-magic-touch-bessent-needs-to-rein-in-bond-rout?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump announces plan for $15 billion steel plant, would be largest in U.S. history](https://www.cnbc.com/2026/09/28/trump-steel-plant-iowa.html) — *CNBC Markets*
+- [PepsiCo plans to raise prices on sodas, chips and dip — and that has Wall Street worried](https://www.marketwatch.com/story/pepsico-plans-to-raise-prices-on-sodas-chips-and-dip-and-that-has-wall-street-worried-0ec355bf?mod=mw_rss_topstories) — *MarketWatch*
+- [U.S. stocks slip as OpenAI training halt weighs on AI trade, bonds extend rout](https://www.investing.com/news/stock-market-news/us-stock-futures-dip-as-markets-parse-iran-tensions-openai-training-halt-4919222) — *Investing.com*
+- [‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?](https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories) — *MarketWatch*
+- [LeBron James is already boosting ticket and merchandise demand for Philadelphia 76ers](https://www.cnbc.com/2026/09/28/lebron-james-boosts-ticket-jersey-demand-for-nba-philadelphia-76ers.html) — *CNBC Markets*
+- [Oil prices settle slightly higher on supply worries as Trump rejects Iran proposal](https://www.investing.com/news/commodities-news/oil-price-gains-pared-as-qatarusiran-talks-loom-4920947) — *Investing.com*
+- [Transportation secretary urges Congress to approve $30bn in aviation funding](https://www.investing.com/news/stock-market-news/transportation-secretary-urges-congress-to-approve-30bn-in-aviation-funding-93CH-4921029) — *Investing.com*
+- [Bitcoin consolidates above $82,650 support: Live levels](https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-83119-bears-eye-81194-live-levels-93CH-4919475) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
