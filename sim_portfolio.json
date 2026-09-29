@@ -956,12 +956,12 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMD",
+      "ticker": "AERO-USD",
       "priority": "high",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 72.5, Win Rate 63.8%, Avg 5d Return 3.42%, Max Drawdown -76.99%, Sharpe 2.38. 2 minor bearish signal(s), max confidence 60.4.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "reason": "RSI Oversold \u2014 Score 72.9, Win Rate 54.9%, Avg 5d Return 5.57%, Max Drawdown -56.68%, Sharpe 2.62. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
@@ -974,15 +974,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "XRP-USD",
+      "ticker": "ARKK",
       "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 62.6, Win Rate 44.2%, Avg 5d Return 5.46%, Max Drawdown -91.56%, Sharpe 2.03. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 64.7, Win Rate 58.7%, Avg 5d Return 1.44%, Max Drawdown -68.68%, Sharpe 1.7. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-09-29T00:04:14.921405",
+  "recommendations_updated": "2026-09-29T18:13:15.449771",
   "trade_log": [
     {
       "action": "SELL",

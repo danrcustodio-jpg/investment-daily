@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 144** &nbsp;·&nbsp; Updated: Sep 29 2026 12:04 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 144** &nbsp;·&nbsp; Updated: Sep 29 2026 06:13 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.48%** &nbsp; ($+4,814) |
-| SPY Benchmark | +8.17% &nbsp; ($+15,848 if 100% SPY) |
-| Alpha vs SPY | **-5.69%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.82% &nbsp; ($+15,163 if 100% SPY) |
+| Alpha vs SPY | **-5.33%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,814 |
 
@@ -126,19 +126,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 29 2026 12:04 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 29 2026 06:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | ADX Strong Trend — Bullish — Score 72.5, Win Rate 63.8%, Avg 5d Return 3.42%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.9, Win Rate 54.9%, Avg 5d Return 5.57%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 62.6, Win Rate 44.2%, Avg 5d Return 5.46%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARKK** | Chaikin Money Flow — Bullish — Score 64.7, Win Rate 58.7%, Avg 5d Return 1.44%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 72.5, Win Rate 63.8%, Avg 5d Return 3.42%, Max Drawdown -76.99%, Sharpe 2.38. 2 minor bearish signal(s), max confidence 60.4.
+**Signal Analysis:** RSI Oversold — Score 72.9, Win Rate 54.9%, Avg 5d Return 5.57%, Max Drawdown -56.68%, Sharpe 2.62. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
@@ -146,11 +146,11 @@ _Evaluated Sep 29 2026 12:04 AM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 62.6, Win Rate 44.2%, Avg 5d Return 5.46%, Max Drawdown -91.56%, Sharpe 2.03. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.7, Win Rate 58.7%, Avg 5d Return 1.44%, Max Drawdown -68.68%, Sharpe 1.7. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
