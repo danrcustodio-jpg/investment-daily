@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 143** &nbsp;·&nbsp; Updated: Sep 28 2026 07:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 144** &nbsp;·&nbsp; Updated: Sep 29 2026 12:04 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.47%** &nbsp; ($+4,790) |
-| SPY Benchmark | +8.08% &nbsp; ($+15,670 if 100% SPY) |
-| Alpha vs SPY | **-5.61%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.48%** &nbsp; ($+4,814) |
+| SPY Benchmark | +8.17% &nbsp; ($+15,848 if 100% SPY) |
+| Alpha vs SPY | **-5.69%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,790 |
+| Current Value | $198,814 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,444 | +1.76% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,468 | +1.78% |
 
 ## Daily Equity Curve
 
@@ -122,20 +122,21 @@
 | 2026-09-24 | 📈 +2.42% | +8.39% | ❌ -5.97% |
 | 2026-09-25 | 📈 +2.43% | +8.98% | ❌ -6.55% |
 | 2026-09-28 | 📈 +2.47% | +8.08% | ❌ -5.61% |
+| 2026-09-29 | 📈 +2.48% | +8.17% | ❌ -5.69% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 28 2026 07:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 29 2026 12:04 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | PPO — Bullish Cross — Score 81.8, Win Rate 76.5%, Avg 5d Return 2.37%, Max Drawdown -12.18… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | ADX Strong Trend — Bullish — Score 72.5, Win Rate 63.8%, Avg 5d Return 3.42%, Max Drawdown… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 61.1, Win Rate 43.6%, Avg 5d Return 4.71%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 62.6, Win Rate 44.2%, Avg 5d Return 5.46%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** PPO — Bullish Cross — Score 81.8, Win Rate 76.5%, Avg 5d Return 2.37%, Max Drawdown -12.18%, Sharpe 2.85. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 72.5, Win Rate 63.8%, Avg 5d Return 3.42%, Max Drawdown -76.99%, Sharpe 2.38. 2 minor bearish signal(s), max confidence 60.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -147,7 +148,7 @@ _Evaluated Sep 28 2026 07:55 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 61.1, Win Rate 43.6%, Avg 5d Return 4.71%, Max Drawdown -91.56%, Sharpe 1.87. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 62.6, Win Rate 44.2%, Avg 5d Return 5.46%, Max Drawdown -91.56%, Sharpe 2.03. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
