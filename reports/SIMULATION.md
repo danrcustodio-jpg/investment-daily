@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 144** &nbsp;·&nbsp; Updated: Sep 29 2026 06:24 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 144** &nbsp;·&nbsp; Updated: Sep 29 2026 10:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.48%** &nbsp; ($+4,814) |
-| SPY Benchmark | +7.96% &nbsp; ($+15,437 if 100% SPY) |
-| Alpha vs SPY | **-5.48%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.97% &nbsp; ($+15,462 if 100% SPY) |
+| Alpha vs SPY | **-5.49%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,814 |
 
@@ -122,17 +122,17 @@
 | 2026-09-24 | 📈 +2.42% | +8.39% | ❌ -5.97% |
 | 2026-09-25 | 📈 +2.43% | +8.98% | ❌ -6.55% |
 | 2026-09-28 | 📈 +2.47% | +8.08% | ❌ -5.61% |
-| 2026-09-29 | 📈 +2.48% | +7.96% | ❌ -5.48% |
+| 2026-09-29 | 📈 +2.48% | +7.97% | ❌ -5.49% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 29 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 29 2026 10:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 72.9, Win Rate 54.9%, Avg 5d Return 5.57%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ARKK** | Chaikin Money Flow — Bullish — Score 64.8, Win Rate 58.7%, Avg 5d Return 1.44%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 76.5, Win Rate 72.4%, Avg 5d Return 1.74%, Max Drawdown -12.64%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
@@ -140,15 +140,15 @@ _Evaluated Sep 29 2026 06:24 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown -13.25%, Sharpe 3.72. No conflicting bearish signals.
+**Signal Analysis:** OBV — Accumulation — Score 76.5, Win Rate 72.4%, Avg 5d Return 1.74%, Max Drawdown -12.64%, Sharpe 2.35. 1 minor bearish signal(s), max confidence 55.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ARKK
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.8, Win Rate 58.7%, Avg 5d Return 1.44%, Max Drawdown -68.68%, Sharpe 1.71. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawdown -6.69%, Sharpe 5.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
