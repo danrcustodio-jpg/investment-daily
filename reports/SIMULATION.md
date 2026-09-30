@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 145** &nbsp;·&nbsp; Updated: Sep 30 2026 06:13 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 145** &nbsp;·&nbsp; Updated: Sep 30 2026 10:27 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.49%** &nbsp; ($+4,838) |
-| SPY Benchmark | +8.41% &nbsp; ($+16,322 if 100% SPY) |
-| Alpha vs SPY | **-5.92%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.75% &nbsp; ($+15,031 if 100% SPY) |
+| Alpha vs SPY | **-5.25%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,838 |
 
@@ -123,35 +123,35 @@
 | 2026-09-25 | 📈 +2.43% | +8.98% | ❌ -6.55% |
 | 2026-09-28 | 📈 +2.47% | +8.08% | ❌ -5.61% |
 | 2026-09-29 | 📈 +2.48% | +7.97% | ❌ -5.49% |
-| 2026-09-30 | 📈 +2.49% | +8.41% | ❌ -5.92% |
+| 2026-09-30 | 📈 +2.49% | +7.75% | ❌ -5.25% |
 
 ## Strategy Advisor
 
-_Evaluated Sep 30 2026 06:13 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Sep 30 2026 10:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%,… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.0, Win Rate 55.0%, Avg 5d Return 5.28%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Williams %R — Oversold — Score 72.1, Win Rate 61.0%, Avg 5d Return 4.99%, Max Drawdown -77… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | ADX Strong Trend — Bullish — Score 57.0, Win Rate 52.3%, Avg 5d Return 2.59%, Max Drawdown… |
+
+### 🔍 NEW OPPORTUNITY — AAPL
+
+**Signal Analysis:** OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%, Sharpe 3.33. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AERO-USD
+
+**Signal Analysis:** RSI Oversold — Score 73.0, Win Rate 55.0%, Avg 5d Return 5.28%, Max Drawdown -56.68%, Sharpe 2.52. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
 **Signal Analysis:** Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawdown -6.69%, Sharpe 5.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Williams %R — Oversold — Score 72.1, Win Rate 61.0%, Avg 5d Return 4.99%, Max Drawdown -77.54%, Sharpe 2.45. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — LTC-USD
-
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.0, Win Rate 52.3%, Avg 5d Return 2.59%, Max Drawdown -90.63%, Sharpe 1.58. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
