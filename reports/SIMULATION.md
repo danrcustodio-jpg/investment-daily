@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 146** &nbsp;·&nbsp; Updated: Oct 01 2026 06:32 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 146** &nbsp;·&nbsp; Updated: Oct 01 2026 06:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.51%** &nbsp; ($+4,862) |
-| SPY Benchmark | +7.97% &nbsp; ($+15,453 if 100% SPY) |
-| Alpha vs SPY | **-5.46%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.99% &nbsp; ($+15,492 if 100% SPY) |
+| Alpha vs SPY | **-5.48%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,862 |
 
@@ -124,16 +124,17 @@
 | 2026-09-28 | 📈 +2.47% | +8.08% | ❌ -5.61% |
 | 2026-09-29 | 📈 +2.48% | +7.97% | ❌ -5.49% |
 | 2026-09-30 | 📈 +2.49% | +7.75% | ❌ -5.25% |
+| 2026-10-01 | 📈 +2.51% | +7.99% | ❌ -5.48% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 01 2026 06:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 01 2026 06:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 78.7, Win Rate 75.0%, Avg 5d Return 1.56%, Max Drawdown -6.63%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **COIN** | PPO — Bullish Cross — Score 80.0, Win Rate 66.7%, Avg 5d Return 4.47%, Max Drawdown -9.11%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.0, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.2, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -149,7 +150,7 @@ _Evaluated Oct 01 2026 06:32 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.0, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown -91.56%, Sharpe 1.78. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.2, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown -91.56%, Sharpe 1.79. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
