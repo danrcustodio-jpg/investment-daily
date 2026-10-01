@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 145** &nbsp;·&nbsp; Updated: Sep 30 2026 10:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 146** &nbsp;·&nbsp; Updated: Oct 01 2026 06:32 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.49%** &nbsp; ($+4,838) |
-| SPY Benchmark | +7.75% &nbsp; ($+15,031 if 100% SPY) |
-| Alpha vs SPY | **-5.25%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.51%** &nbsp; ($+4,862) |
+| SPY Benchmark | +7.97% &nbsp; ($+15,453 if 100% SPY) |
+| Alpha vs SPY | **-5.46%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,838 |
+| Current Value | $198,862 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,492 | +1.79% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,516 | +1.80% |
 
 ## Daily Equity Curve
 
@@ -127,31 +127,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Sep 30 2026 10:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 01 2026 06:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.0, Win Rate 55.0%, Avg 5d Return 5.28%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 78.7, Win Rate 75.0%, Avg 5d Return 1.56%, Max Drawdown -6.63%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **COIN** | PPO — Bullish Cross — Score 80.0, Win Rate 66.7%, Avg 5d Return 4.47%, Max Drawdown -9.11%… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 57.0, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%, Sharpe 3.33. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 78.7, Win Rate 75.0%, Avg 5d Return 1.56%, Max Drawdown -6.63%, Sharpe 2.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — COIN
 
-**Signal Analysis:** RSI Oversold — Score 73.0, Win Rate 55.0%, Avg 5d Return 5.28%, Max Drawdown -56.68%, Sharpe 2.52. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 80.0, Win Rate 66.7%, Avg 5d Return 4.47%, Max Drawdown -9.11%, Sharpe 3.67. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 57.0, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown -91.56%, Sharpe 1.78. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — GC=F
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 87.5, Win Rate 81.2%, Avg 5d Return 2.42%, Max Drawdown -6.69%, Sharpe 5.42. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
