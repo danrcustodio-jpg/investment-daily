@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 147** &nbsp;·&nbsp; Updated: Oct 02 2026 06:08 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 147** &nbsp;·&nbsp; Updated: Oct 02 2026 10:24 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.52%** &nbsp; ($+4,886) |
-| SPY Benchmark | +8.67% &nbsp; ($+16,821 if 100% SPY) |
-| Alpha vs SPY | **-6.15%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.74% &nbsp; ($+16,953 if 100% SPY) |
+| Alpha vs SPY | **-6.22%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,886 |
 
@@ -125,33 +125,33 @@
 | 2026-09-29 | 📈 +2.48% | +7.97% | ❌ -5.49% |
 | 2026-09-30 | 📈 +2.49% | +7.75% | ❌ -5.25% |
 | 2026-10-01 | 📈 +2.51% | +7.94% | ❌ -5.43% |
-| 2026-10-02 | 📈 +2.52% | +8.67% | ❌ -6.15% |
+| 2026-10-02 | 📈 +2.52% | +8.74% | ❌ -6.22% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 02 2026 06:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 02 2026 10:24 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 61.4, Win Rate 43.0%, Avg 5d Return 5.23%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%,… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Williams %R — Oversold — Score 74.6, Win Rate 73.8%, Avg 5d Return 1.22%, Max Drawdown -39… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 61.2, Win Rate 43.0%, Avg 5d Return 5.22%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 50.3.
+**Signal Analysis:** OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%, Sharpe 3.33. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown -13.25%, Sharpe 3.72. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 74.6, Win Rate 73.8%, Avg 5d Return 1.22%, Max Drawdown -39.8%, Sharpe 1.94. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 61.4, Win Rate 43.0%, Avg 5d Return 5.23%, Max Drawdown -91.56%, Sharpe 1.96. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 61.2, Win Rate 43.0%, Avg 5d Return 5.22%, Max Drawdown -91.56%, Sharpe 1.95. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
