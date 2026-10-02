@@ -974,18 +974,18 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 76.6, Win Rate 75.0%, Avg 5d Return 1.39%, Max Drawdown -6.63%, Sharpe 2.31. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 50.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "COIN",
+      "ticker": "GC=F",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 80.0, Win Rate 66.7%, Avg 5d Return 4.15%, Max Drawdown -9.11%, Sharpe 3.52. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 74.6, Win Rate 73.8%, Avg 5d Return 1.22%, Max Drawdown -39.8%, Sharpe 1.94. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -994,13 +994,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 57.0, Win Rate 42.0%, Avg 5d Return 4.74%, Max Drawdown -91.56%, Sharpe 1.78. No conflicting bearish signals.",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 61.4, Win Rate 43.0%, Avg 5d Return 5.23%, Max Drawdown -91.56%, Sharpe 1.96. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-01T22:58:14.557720",
+  "recommendations_updated": "2026-10-02T17:59:40.348191",
   "trade_log": [
     {
       "action": "SELL",
