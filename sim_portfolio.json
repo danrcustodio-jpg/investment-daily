@@ -969,6 +969,15 @@
       "prices": {
         "SPY": 763.989990234375
       }
+    },
+    {
+      "date": "2026-10-02",
+      "total_value": 198886.05,
+      "portfolio_pnl": 2.519,
+      "benchmark_pnl": 8.671,
+      "prices": {
+        "SPY": 769.1599731445312
+      }
     }
   ],
   "recommendations": [
@@ -985,7 +994,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 74.6, Win Rate 73.8%, Avg 5d Return 1.22%, Max Drawdown -39.8%, Sharpe 1.94. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown -13.25%, Sharpe 3.72. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1000,7 +1009,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-02T17:59:40.348191",
+  "recommendations_updated": "2026-10-02T18:08:36.839713",
   "trade_log": [
     {
       "action": "SELL",
