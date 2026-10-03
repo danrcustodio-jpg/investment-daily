@@ -994,7 +994,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GC=F",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 74.6, Win Rate 73.8%, Avg 5d Return 1.22%, Max Drawdown -39.8%, Sharpe 1.94. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown -13.25%, Sharpe 3.72. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1003,13 +1003,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 61.2, Win Rate 43.0%, Avg 5d Return 5.22%, Max Drawdown -91.56%, Sharpe 1.95. No conflicting bearish signals.",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 58.9, Win Rate 41.1%, Avg 5d Return 4.83%, Max Drawdown -91.56%, Sharpe 1.85. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-02T22:24:53.136777",
+  "recommendations_updated": "2026-10-03T16:36:38.078776",
   "trade_log": [
     {
       "action": "SELL",
