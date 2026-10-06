@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 151** &nbsp;·&nbsp; Updated: Oct 06 2026 06:43 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 151** &nbsp;·&nbsp; Updated: Oct 06 2026 10:51 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.57%** &nbsp; ($+4,982) |
-| SPY Benchmark | +10.18% &nbsp; ($+19,757 if 100% SPY) |
-| Alpha vs SPY | **-7.62%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +10.07% &nbsp; ($+19,543 if 100% SPY) |
+| Alpha vs SPY | **-7.51%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,982 |
 
@@ -126,21 +126,21 @@
 | 2026-09-30 | 📈 +2.49% | +7.75% | ❌ -5.25% |
 | 2026-10-01 | 📈 +2.51% | +7.94% | ❌ -5.43% |
 | 2026-10-02 | 📈 +2.52% | +8.74% | ❌ -6.22% |
-| 2026-10-06 | 📈 +2.57% | +10.18% | ❌ -7.62% |
+| 2026-10-06 | 📈 +2.57% | +10.07% | ❌ -7.51% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 06 2026 06:43 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 06 2026 10:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | EMA 9/21 — Bullish Cross — Score 77.5, Win Rate 75.0%, Avg 5d Return 7.76%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%,… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Volume Spike + Surge — Score 78.1, Win Rate 66.7%, Avg 5d Return 4.25%, Max Drawdown -19.8… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.71%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.7%, Max Drawdown … |
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 77.5, Win Rate 75.0%, Avg 5d Return 7.76%, Max Drawdown -6.02%, Sharpe 3.84. 1 minor bearish signal(s), max confidence 60.0.
+**Signal Analysis:** OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%, Sharpe 3.33. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -152,7 +152,7 @@ _Evaluated Oct 06 2026 06:43 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.71%, Max Drawdown -91.56%, Sharpe 1.82. 1 minor bearish signal(s), max confidence 51.1.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.7%, Max Drawdown -91.56%, Sharpe 1.82. 1 minor bearish signal(s), max confidence 51.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
