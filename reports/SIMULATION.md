@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 149** &nbsp;·&nbsp; Updated: Oct 04 2026 04:57 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 151** &nbsp;·&nbsp; Updated: Oct 06 2026 01:37 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.54%** &nbsp; ($+4,934) |
-| SPY Benchmark | +8.74% &nbsp; ($+16,953 if 100% SPY) |
-| Alpha vs SPY | **-6.19%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.57%** &nbsp; ($+4,982) |
+| SPY Benchmark | +9.47% &nbsp; ($+18,375 if 100% SPY) |
+| Alpha vs SPY | **-6.90%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $198,934 |
+| Current Value | $198,982 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,588 | +1.84% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,637 | +1.86% |
 
 ## Daily Equity Curve
 
@@ -126,32 +126,33 @@
 | 2026-09-30 | 📈 +2.49% | +7.75% | ❌ -5.25% |
 | 2026-10-01 | 📈 +2.51% | +7.94% | ❌ -5.43% |
 | 2026-10-02 | 📈 +2.52% | +8.74% | ❌ -6.22% |
+| 2026-10-06 | 📈 +2.57% | +9.47% | ❌ -6.90% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 04 2026 04:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 06 2026 01:37 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%,… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.7%, Avg 5d Return 4.84%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.02%, Max Drawdown -10… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | Parabolic SAR — Bullish — Score 81.0, Win Rate 75.0%, Avg 5d Return 1.86%, Max Drawdown -5… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.3, Win Rate 41.6%, Avg 5d Return 4.73%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — AAPL
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** OBV — Accumulation — Score 81.0, Win Rate 69.7%, Avg 5d Return 1.93%, Max Drawdown -8.66%, Sharpe 3.33. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.02%, Max Drawdown -10.45%, Sharpe 3.15. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 83.1, Win Rate 76.9%, Avg 5d Return 1.92%, Max Drawdown -13.25%, Sharpe 3.72. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 81.0, Win Rate 75.0%, Avg 5d Return 1.86%, Max Drawdown -5.64%, Sharpe 4.46. 1 minor bearish signal(s), max confidence 61.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.7%, Avg 5d Return 4.84%, Max Drawdown -91.56%, Sharpe 1.85. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.3, Win Rate 41.6%, Avg 5d Return 4.73%, Max Drawdown -91.56%, Sharpe 1.83. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
