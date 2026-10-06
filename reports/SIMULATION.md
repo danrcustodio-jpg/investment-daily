@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 151** &nbsp;·&nbsp; Updated: Oct 06 2026 01:37 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 151** &nbsp;·&nbsp; Updated: Oct 06 2026 06:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.57%** &nbsp; ($+4,982) |
-| SPY Benchmark | +9.47% &nbsp; ($+18,375 if 100% SPY) |
-| Alpha vs SPY | **-6.90%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +10.19% &nbsp; ($+19,770 if 100% SPY) |
+| Alpha vs SPY | **-7.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $198,982 |
 
@@ -130,29 +130,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 06 2026 01:37 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 06 2026 06:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.02%, Max Drawdown -10… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | Parabolic SAR — Bullish — Score 81.0, Win Rate 75.0%, Avg 5d Return 1.86%, Max Drawdown -5… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.3, Win Rate 41.6%, Avg 5d Return 4.73%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | EMA 9/21 — Bullish Cross — Score 77.5, Win Rate 75.0%, Avg 5d Return 7.76%, Max Drawdown -… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CEG** | Volume Spike + Surge — Score 78.1, Win Rate 66.7%, Avg 5d Return 4.25%, Max Drawdown -19.8… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.71%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** MACD Bullish Crossover — Score 79.6, Win Rate 70.0%, Avg 5d Return 2.02%, Max Drawdown -10.45%, Sharpe 3.15. No conflicting bearish signals.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 77.5, Win Rate 75.0%, Avg 5d Return 7.76%, Max Drawdown -6.02%, Sharpe 3.84. 1 minor bearish signal(s), max confidence 60.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — CEG
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 81.0, Win Rate 75.0%, Avg 5d Return 1.86%, Max Drawdown -5.64%, Sharpe 4.46. 1 minor bearish signal(s), max confidence 61.0.
+**Signal Analysis:** Volume Spike + Surge — Score 78.1, Win Rate 66.7%, Avg 5d Return 4.25%, Max Drawdown -19.87%, Sharpe 2.82. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.3, Win Rate 41.6%, Avg 5d Return 4.73%, Max Drawdown -91.56%, Sharpe 1.83. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 59.4, Win Rate 41.9%, Avg 5d Return 4.71%, Max Drawdown -91.56%, Sharpe 1.82. 1 minor bearish signal(s), max confidence 51.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
