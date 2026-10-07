@@ -992,9 +992,9 @@
       "date": "2026-10-07",
       "total_value": 199006.47,
       "portfolio_pnl": 2.581,
-      "benchmark_pnl": 9.843,
+      "benchmark_pnl": 9.809,
       "prices": {
-        "SPY": 777.4550170898438
+        "SPY": 777.219970703125
       }
     }
   ],
@@ -1010,9 +1010,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CEG",
+      "ticker": "GC=F",
       "priority": "high",
-      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 73.3, Win Rate 66.7%, Avg 5d Return 3.58%, Max Drawdown -4.37%, Sharpe 3.57. No conflicting bearish signals.",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 86.1, Win Rate 77.8%, Avg 5d Return 2.15%, Max Drawdown -6.69%, Sharpe 4.9. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1027,7 +1027,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-07T19:09:43.075171",
+  "recommendations_updated": "2026-10-07T23:39:42.114317",
   "trade_log": [
     {
       "action": "SELL",
