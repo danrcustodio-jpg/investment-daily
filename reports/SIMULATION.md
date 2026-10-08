@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 152** &nbsp;·&nbsp; Updated: Oct 07 2026 11:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 153** &nbsp;·&nbsp; Updated: Oct 08 2026 06:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.58%** &nbsp; ($+5,006) |
-| SPY Benchmark | +9.81% &nbsp; ($+19,030 if 100% SPY) |
-| Alpha vs SPY | **-7.23%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.59%** &nbsp; ($+5,031) |
+| SPY Benchmark | +9.21% &nbsp; ($+17,860 if 100% SPY) |
+| Alpha vs SPY | **-6.61%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,006 |
+| Current Value | $199,031 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,661 | +1.87% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,685 | +1.89% |
 
 ## Daily Equity Curve
 
@@ -131,29 +131,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 07 2026 11:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 08 2026 06:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 88.9, Win Rate 88.9%, Avg 5d Return 3.77%, Max Drawdown -… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | Keltner — Lower Channel Touch — Score 86.1, Win Rate 77.8%, Avg 5d Return 2.15%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | ADX Strong Trend — Bullish — Score 55.0, Win Rate 52.3%, Avg 5d Return 2.15%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | RSI Oversold — Score 78.3, Win Rate 65.2%, Avg 5d Return 7.77%, Max Drawdown -36.51%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 60.3, Win Rate 43.0%, Avg 5d Return 4.88%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 88.9, Win Rate 88.9%, Avg 5d Return 3.77%, Max Drawdown -3.91%, Sharpe 4.83. 1 minor bearish signal(s), max confidence 50.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — GC=F
-
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 86.1, Win Rate 77.8%, Avg 5d Return 2.15%, Max Drawdown -6.69%, Sharpe 4.9. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 48.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — LTC-USD
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 55.0, Win Rate 52.3%, Avg 5d Return 2.15%, Max Drawdown -90.63%, Sharpe 1.38. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 78.3, Win Rate 65.2%, Avg 5d Return 7.77%, Max Drawdown -36.51%, Sharpe 4.43. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 60.3, Win Rate 43.0%, Avg 5d Return 4.88%, Max Drawdown -91.56%, Sharpe 1.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
