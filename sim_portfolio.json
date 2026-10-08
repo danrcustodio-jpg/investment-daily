@@ -1001,27 +1001,27 @@
       "date": "2026-10-08",
       "total_value": 199030.55,
       "portfolio_pnl": 2.593,
-      "benchmark_pnl": 9.172,
+      "benchmark_pnl": 9.345,
       "prices": {
-        "SPY": 772.7100219726562
+        "SPY": 773.9299926757812
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "AMZN",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 48.3.",
+      "reason": "Awesome Oscillator \u2014 Bullish Zero Line \u2014 Score 78.2, Win Rate 63.6%, Avg 5d Return 2.55%, Max Drawdown -5.97%, Sharpe 2.98. 1 minor bearish signal(s), max confidence 51.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RIOT",
+      "ticker": "APP",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 78.3, Win Rate 65.2%, Avg 5d Return 7.77%, Max Drawdown -36.51%, Sharpe 4.43. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1030,13 +1030,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 60.3, Win Rate 43.0%, Avg 5d Return 4.88%, Max Drawdown -91.56%, Sharpe 1.87. No conflicting bearish signals.",
+      "reason": "ADX Strong Trend \u2014 Bullish \u2014 Score 60.5, Win Rate 43.0%, Avg 5d Return 4.89%, Max Drawdown -91.56%, Sharpe 1.88. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-08T19:06:02.582337",
+  "recommendations_updated": "2026-10-08T23:49:50.071574",
   "trade_log": [
     {
       "action": "SELL",

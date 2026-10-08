@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 153** &nbsp;·&nbsp; Updated: Oct 08 2026 07:06 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 153** &nbsp;·&nbsp; Updated: Oct 08 2026 11:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.59%** &nbsp; ($+5,031) |
-| SPY Benchmark | +9.17% &nbsp; ($+17,791 if 100% SPY) |
-| Alpha vs SPY | **-6.58%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.35% &nbsp; ($+18,128 if 100% SPY) |
+| Alpha vs SPY | **-6.75%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,031 |
 
@@ -128,33 +128,33 @@
 | 2026-10-02 | 📈 +2.52% | +8.74% | ❌ -6.22% |
 | 2026-10-06 | 📈 +2.57% | +10.07% | ❌ -7.51% |
 | 2026-10-07 | 📈 +2.58% | +9.81% | ❌ -7.23% |
-| 2026-10-08 | 📈 +2.59% | +9.17% | ❌ -6.58% |
+| 2026-10-08 | 📈 +2.59% | +9.35% | ❌ -6.75% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 08 2026 07:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 08 2026 11:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 78.2, Win Rate 63.6%, Avg 5d Return 2.55%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | RSI Oversold — Score 78.3, Win Rate 65.2%, Avg 5d Return 7.77%, Max Drawdown -36.51%, Shar… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 60.3, Win Rate 43.0%, Avg 5d Return 4.88%, Max Drawdown… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | ADX Strong Trend — Bullish — Score 60.5, Win Rate 43.0%, Avg 5d Return 4.89%, Max Drawdown… |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. 1 minor bearish signal(s), max confidence 48.3.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 78.2, Win Rate 63.6%, Avg 5d Return 2.55%, Max Drawdown -5.97%, Sharpe 2.98. 1 minor bearish signal(s), max confidence 51.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** RSI Oversold — Score 78.3, Win Rate 65.2%, Avg 5d Return 7.77%, Max Drawdown -36.51%, Sharpe 4.43. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.4, Win Rate 69.2%, Avg 5d Return 4.61%, Max Drawdown -30.86%, Sharpe 3.41. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XRP-USD
 
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 60.3, Win Rate 43.0%, Avg 5d Return 4.88%, Max Drawdown -91.56%, Sharpe 1.87. No conflicting bearish signals.
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 60.5, Win Rate 43.0%, Avg 5d Return 4.89%, Max Drawdown -91.56%, Sharpe 1.88. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
