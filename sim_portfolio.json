@@ -1005,6 +1005,15 @@
       "prices": {
         "SPY": 773.9299926757812
       }
+    },
+    {
+      "date": "2026-10-09",
+      "total_value": 199054.63,
+      "portfolio_pnl": 2.605,
+      "benchmark_pnl": 10.003,
+      "prices": {
+        "SPY": 778.5900268554688
+      }
     }
   ],
   "recommendations": [
@@ -1028,15 +1037,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "RKLB",
+      "ticker": "RIOT",
       "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 73.6, Win Rate 60.0%, Avg 5d Return 3.79%, Max Drawdown -16.55%, Sharpe 2.33. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 70.4, Win Rate 52.9%, Avg 5d Return 6.03%, Max Drawdown -36.51%, Sharpe 3.04. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-09T18:28:37.158348",
+  "recommendations_updated": "2026-10-09T18:36:30.680430",
   "trade_log": [
     {
       "action": "SELL",
