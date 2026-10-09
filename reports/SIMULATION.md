@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 154** &nbsp;·&nbsp; Updated: Oct 09 2026 06:36 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 154** &nbsp;·&nbsp; Updated: Oct 09 2026 10:59 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.61%** &nbsp; ($+5,055) |
-| SPY Benchmark | +10.00% &nbsp; ($+19,406 if 100% SPY) |
-| Alpha vs SPY | **-7.40%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +10.00% &nbsp; ($+19,400 if 100% SPY) |
+| Alpha vs SPY | **-7.39%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,055 |
 
@@ -129,17 +129,17 @@
 | 2026-10-06 | 📈 +2.57% | +10.07% | ❌ -7.51% |
 | 2026-10-07 | 📈 +2.58% | +9.81% | ❌ -7.23% |
 | 2026-10-08 | 📈 +2.59% | +9.35% | ❌ -6.75% |
-| 2026-10-09 | 📈 +2.60% | +10.00% | ❌ -7.40% |
+| 2026-10-09 | 📈 +2.60% | +10.00% | ❌ -7.39% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 09 2026 06:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 09 2026 10:59 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.8, Win Rate 70.0%, Avg 5d Return 4.58%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Volume Spike + Surge — Score 86.1, Win Rate 76.9%, Avg 5d Return 6.82%, Max Drawdown -14.8… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | RSI Oversold — Score 70.4, Win Rate 52.9%, Avg 5d Return 6.03%, Max Drawdown -36.51%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XLK** | Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.9%, Avg 5d Return 0.83%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -153,9 +153,9 @@ _Evaluated Oct 09 2026 06:36 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** RSI Oversold — Score 70.4, Win Rate 52.9%, Avg 5d Return 6.03%, Max Drawdown -36.51%, Sharpe 3.04. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.9%, Avg 5d Return 0.83%, Max Drawdown -44.74%, Sharpe 1.57. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
