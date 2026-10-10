@@ -1028,9 +1028,9 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "NEAR-USD",
       "priority": "high",
-      "reason": "Volume Spike + Surge \u2014 Score 86.1, Win Rate 76.9%, Avg 5d Return 6.82%, Max Drawdown -14.89%, Sharpe 3.92. No conflicting bearish signals.",
+      "reason": "52-Week Breakout \u2014 Score 91.1, Win Rate 77.8%, Avg 5d Return 12.22%, Max Drawdown -16.46%, Sharpe 5.64. 1 minor bearish signal(s), max confidence 46.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
@@ -1045,7 +1045,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-09T22:59:27.528485",
+  "recommendations_updated": "2026-10-10T17:26:40.301736",
   "trade_log": [
     {
       "action": "SELL",
