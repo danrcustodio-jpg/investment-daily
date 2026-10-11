@@ -1,24 +1,24 @@
-# Daily Newsletter — Saturday, October 10, 2026
-Generated at 05:26 PM
+# Daily Newsletter — Sunday, October 11, 2026
+Generated at 05:45 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 94 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 34 Bearish
+**Strategy Signals:** 93 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 33 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
 | **^VIX** | VIX (Fear Index) | $14.84 | 📉 -3.70% |
-| **SI=F** | Silver | $60.67 | 📈 +2.72% |
+| **SI=F** | Silver | $61.05 | 📈 +3.36% |
+| **SOL-USD** | Solana | $112.20 | 📈 +1.97% |
 | **NG=F** | Natural Gas | $3.22 | 📈 +1.64% |
 | **XLV** | Healthcare (XLV) | $170.81 | 📈 +1.58% |
+| **ETH-USD** | Ethereum | $2541.63 | 📈 +1.50% |
 | **GC=F** | Gold | $4216.30 | 📈 +1.43% |
+| **BTC-USD** | Bitcoin | $83891.21 | 📈 +1.18% |
 | **XLY** | Consumer Disc. (XLY) | $112.85 | 📈 +1.02% |
 | **XLF** | Financials (XLF) | $54.73 | 📈 +0.92% |
-| **^DJI** | Dow Jones | $51654.95 | 📈 +0.83% |
-| **ETH-USD** | Ethereum | $2505.10 | 📈 +0.79% |
-| **SOL-USD** | Solana | $109.97 | 📈 +0.76% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 05:26 PM
 
 ## Latest News
 
-- [Analog devices director Ray Stata sells $1.17 million in shares](https://www.investing.com/news/insider-trading-news/analog-devices-director-ray-stata-sells-117-million-in-shares-93CH-4942163) — *Investing.com*
-- [Pimco high income fund director David Flattum buys $249,245 stock](https://www.investing.com/news/insider-trading-news/pimco-high-income-fund-director-david-flattum-buys-249245-stock-93CH-4942162) — *Investing.com*
-- [Pimco Dynamic Income Fund director David Flattum buys $249,508 in shares](https://www.investing.com/news/insider-trading-news/pimco-dynamic-income-fund-director-david-flattum-buys-249508-in-shares-93CH-4942161) — *Investing.com*
-- [EU-China trade relations hit crunch time as Brussels pushes for rebalancing](https://www.investing.com/news/stock-market-news/euchina-trade-relations-hit-crunch-time-as-brussels-pushes-for-rebalancing-4942158) — *Investing.com*
-- [Flight disruptions growing after missile attack on Saudi airport](https://seekingalpha.com/news/4651910-flight-disruptions-after-blast-saudi-airport?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Elon Musk is now richer than any American ever — and it’s not even close](https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories) — *MarketWatch*
-- [Abbas postpones Palestinian elections, sets presidential poll for September 2027](https://www.investing.com/news/commodities-news/abbas-postpones-palestinian-elections-sets-presidential-poll-for-september-2027-4942138) — *Investing.com*
-- [Mueller Water Products director Healy buys $29,927 in shares](https://www.investing.com/news/insider-trading-news/mueller-water-products-director-healy-buys-29927-in-shares-93CH-4942152) — *Investing.com*
-- [Philips investors’ move to probe company over 2021 recall denied by Dutch court](https://seekingalpha.com/news/4651909-philips-wins-dutch-court-battle-2021-recall?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Police arrest leader of India’s ‘Cockroach’ movement as protesters take to streets](https://www.ft.com/content/407fa757-cc77-49c0-871a-5140dd3a9a80?syn-25a6b1a6=1) — *Financial Times*
+- [‘Other Mommy’ tops weekend box office with $27M, domestic ticket sales cross $8B](https://seekingalpha.com/news/4651938-other-mommy-tops-weekend-box-office-with-27m-domestic-ticket-sales-cross-8b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Starknet coin surges as developer weighs Ethereum split over quantum security](https://seekingalpha.com/news/4651937-starknet-coin-surges-as-developer-weighs-ethereum-split-over-quantum-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [US threatens to block arms for Ukraine over attacks on Russian refineries](https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1) — *Financial Times*
+- [Can Russia meet Trump’s diesel demands?](https://www.ft.com/content/445b2856-a276-4d4c-bdea-44799d771c21?syn-25a6b1a6=1) — *Financial Times*
+- [Roche's experimental eye drug shows vision improvements in trials](https://seekingalpha.com/news/4651935-roches-experimental-eye-drug-shows-vision-improvements-in-trials?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [From BJ’s to Lululemon, retailers are trimming assortments to boost business](https://www.cnbc.com/2026/10/10/from-bjs-to-lululemon-retailers-are-trimming-assortments.html) — *CNBC Markets*
+- [Stellantis bets on small affordable EVs for European comeback](https://www.investing.com/news/stock-market-news/stellantis-bets-on-small-affordable-evs-for-european-comeback-4942779) — *Investing.com*
+- [UL Solutions president and CEO Jennifer Scanlon sells $876k in stock](https://www.investing.com/news/insider-trading-news/ul-solutions-president-and-ceo-jennifer-scanlon-sells-876k-in-stock-93CH-4942777) — *Investing.com*
+- [Oil chiefs pull out of Riyadh energy congress after airport missile strike](https://www.ft.com/content/a01776ea-4a12-4195-8820-e43a885ba5fe?syn-25a6b1a6=1) — *Financial Times*
+- [Global equities mixed amid rising yields and oil prices](https://seekingalpha.com/news/4651936-global-equities-mixed-amid-rising-yields-and-oil-prices?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

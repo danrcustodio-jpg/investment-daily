@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 155** &nbsp;·&nbsp; Updated: Oct 10 2026 05:26 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 156** &nbsp;·&nbsp; Updated: Oct 11 2026 05:45 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.62%** &nbsp; ($+5,079) |
+| Portfolio P&L | **+2.63%** &nbsp; ($+5,103) |
 | SPY Benchmark | +10.00% &nbsp; ($+19,400 if 100% SPY) |
-| Alpha vs SPY | **-7.38%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-7.37%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,079 |
+| Current Value | $199,103 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,733 | +1.91% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,757 | +1.92% |
 
 ## Daily Equity Curve
 
@@ -133,7 +133,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 10 2026 05:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 11 2026 05:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -149,7 +149,7 @@ _Evaluated Oct 10 2026 05:26 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NEAR-USD
 
-**Signal Analysis:** 52-Week Breakout — Score 91.1, Win Rate 77.8%, Avg 5d Return 12.22%, Max Drawdown -16.46%, Sharpe 5.64. 1 minor bearish signal(s), max confidence 46.2.
+**Signal Analysis:** 52-Week Breakout — Score 91.1, Win Rate 77.8%, Avg 5d Return 12.22%, Max Drawdown -16.46%, Sharpe 5.64. 1 minor bearish signal(s), max confidence 46.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
