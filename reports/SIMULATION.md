@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 156** &nbsp;·&nbsp; Updated: Oct 11 2026 05:45 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 157** &nbsp;·&nbsp; Updated: Oct 12 2026 09:23 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.63%** &nbsp; ($+5,103) |
-| SPY Benchmark | +10.00% &nbsp; ($+19,400 if 100% SPY) |
-| Alpha vs SPY | **-7.37%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.64%** &nbsp; ($+5,127) |
+| SPY Benchmark | +9.93% &nbsp; ($+19,271 if 100% SPY) |
+| Alpha vs SPY | **-7.29%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,103 |
+| Current Value | $199,127 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,757 | +1.92% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,781 | +1.94% |
 
 ## Daily Equity Curve
 
@@ -133,29 +133,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 11 2026 05:45 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 12 2026 09:23 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 78.8, Win Rate 70.0%, Avg 5d Return 4.58%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NEAR-USD** | 52-Week Breakout — Score 91.1, Win Rate 77.8%, Avg 5d Return 12.22%, Max Drawdown -16.46%,… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XLK** | Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.9%, Avg 5d Return 0.83%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.2, Win Rate 54.3%, Avg 5d Return 6.15%, Max Drawdown -56.68%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | TRIX — Bullish Cross — Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.8, Win Rate 70.0%, Avg 5d Return 4.58%, Max Drawdown -30.86%, Sharpe 3.43. 1 minor bearish signal(s), max confidence 48.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — NEAR-USD
-
-**Signal Analysis:** 52-Week Breakout — Score 91.1, Win Rate 77.8%, Avg 5d Return 12.22%, Max Drawdown -16.46%, Sharpe 5.64. 1 minor bearish signal(s), max confidence 46.8.
+**Signal Analysis:** RSI Oversold — Score 73.2, Win Rate 54.3%, Avg 5d Return 6.15%, Max Drawdown -56.68%, Sharpe 2.83. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — XLK
+### 🔍 NEW OPPORTUNITY — IWM
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 64.0, Win Rate 64.9%, Avg 5d Return 0.83%, Max Drawdown -44.74%, Sharpe 1.57. No conflicting bearish signals.
+**Signal Analysis:** TRIX — Bullish Cross — Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%, Sharpe 1.85. 1 minor bearish signal(s), max confidence 62.0.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLE
+
+**Signal Analysis:** 52-Week Breakout — Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

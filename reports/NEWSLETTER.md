@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, October 11, 2026
-Generated at 05:45 PM
+# Daily Newsletter — Monday, October 12, 2026
+Generated at 09:23 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 93 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 33 Bearish
+**Strategy Signals:** 108 total &nbsp;·&nbsp; 🟢 59 Bullish &nbsp;·&nbsp; 🔴 49 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $14.84 | 📉 -3.70% |
-| **SI=F** | Silver | $61.05 | 📈 +3.36% |
-| **SOL-USD** | Solana | $112.20 | 📈 +1.97% |
-| **NG=F** | Natural Gas | $3.22 | 📈 +1.64% |
-| **XLV** | Healthcare (XLV) | $170.81 | 📈 +1.58% |
-| **ETH-USD** | Ethereum | $2541.63 | 📈 +1.50% |
-| **GC=F** | Gold | $4216.30 | 📈 +1.43% |
-| **BTC-USD** | Bitcoin | $83891.21 | 📈 +1.18% |
-| **XLY** | Consumer Disc. (XLY) | $112.85 | 📈 +1.02% |
-| **XLF** | Financials (XLF) | $54.73 | 📈 +0.92% |
+| **SOL-USD** | Solana | $108.04 | 📉 -2.88% |
+| **^VIX** | VIX (Fear Index) | $15.21 | 📈 +2.49% |
+| **XLE** | Energy (XLE) | $66.01 | 📈 +1.43% |
+| **CL=F** | Crude Oil | $93.16 | 📈 +1.43% |
+| **NG=F** | Natural Gas | $3.18 | 📉 -1.34% |
+| **XLK** | Tech (XLK) | $196.36 | 📉 -1.22% |
+| **BTC-USD** | Bitcoin | $82869.07 | 📉 -0.97% |
+| **ETH-USD** | Ethereum | $2512.44 | 📉 -0.88% |
+| **XLV** | Healthcare (XLV) | $171.99 | 📈 +0.69% |
+| **XLF** | Financials (XLF) | $55.05 | 📈 +0.58% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **NEAR-USD** | 52-Week Breakout | 91.1 | 77.8% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 78.8 | 70.0% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.7% |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.5 | 72.2% |
+| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 81.2 | 76.5% |
 | 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 78.2 | 64.2% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.4 | 66.2% |
-| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 76.4 | 66.7% |
-| 🟢 BULLISH | **AMZN** | Aroon — Strong Uptrend | 75.6 | 61.5% |
-| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 73.1 | 64.7% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 68.8 | 57.7% |
-| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 68.8 | 59.3% |
-| 🟢 BULLISH | **RIOT** | Fisher Transform — Low Extreme | 66.9 | 57.9% |
-| 🟢 BULLISH | **AMD** | Chaikin Money Flow — Bullish | 65.1 | 59.0% |
-| 🟢 BULLISH | **XLK** | Chaikin Money Flow — Bullish | 64.0 | 64.9% |
+| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 67.1% |
+| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 76.4 | 66.2% |
+| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 73.2 | 54.3% |
+| 🟢 BULLISH | **IWM** | TRIX — Bullish Cross | 73.0 | 75.0% |
+| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 71.5 | 63.8% |
+| 🟢 BULLISH | **CRWD** | Stochastic RSI Oversold | 68.8 | 58.7% |
+| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 67.8 | 57.1% |
+| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 67.7 | 58.7% |
 
 ## Latest News
 
-- [‘Other Mommy’ tops weekend box office with $27M, domestic ticket sales cross $8B](https://seekingalpha.com/news/4651938-other-mommy-tops-weekend-box-office-with-27m-domestic-ticket-sales-cross-8b?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Starknet coin surges as developer weighs Ethereum split over quantum security](https://seekingalpha.com/news/4651937-starknet-coin-surges-as-developer-weighs-ethereum-split-over-quantum-security?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [US threatens to block arms for Ukraine over attacks on Russian refineries](https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1) — *Financial Times*
-- [Can Russia meet Trump’s diesel demands?](https://www.ft.com/content/445b2856-a276-4d4c-bdea-44799d771c21?syn-25a6b1a6=1) — *Financial Times*
-- [Roche's experimental eye drug shows vision improvements in trials](https://seekingalpha.com/news/4651935-roches-experimental-eye-drug-shows-vision-improvements-in-trials?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [From BJ’s to Lululemon, retailers are trimming assortments to boost business](https://www.cnbc.com/2026/10/10/from-bjs-to-lululemon-retailers-are-trimming-assortments.html) — *CNBC Markets*
-- [Stellantis bets on small affordable EVs for European comeback](https://www.investing.com/news/stock-market-news/stellantis-bets-on-small-affordable-evs-for-european-comeback-4942779) — *Investing.com*
-- [UL Solutions president and CEO Jennifer Scanlon sells $876k in stock](https://www.investing.com/news/insider-trading-news/ul-solutions-president-and-ceo-jennifer-scanlon-sells-876k-in-stock-93CH-4942777) — *Investing.com*
-- [Oil chiefs pull out of Riyadh energy congress after airport missile strike](https://www.ft.com/content/a01776ea-4a12-4195-8820-e43a885ba5fe?syn-25a6b1a6=1) — *Financial Times*
-- [Global equities mixed amid rising yields and oil prices](https://seekingalpha.com/news/4651936-global-equities-mixed-amid-rising-yields-and-oil-prices?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump 'not happy' with Kimberly Guilfoyle, weighs firing her](https://www.cnbc.com/2026/10/12/trump-kimberly-guilfoyle-ambassador.html) — *CNBC Markets*
+- [Nvidia and AMD shares fall as new AI announcements fail to re-energize investors](https://www.marketwatch.com/story/nvidia-and-amd-shares-fall-as-new-ai-announcements-fail-to-re-energize-investors-4a0dd766?mod=mw_rss_topstories) — *MarketWatch*
+- [Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor](https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html) — *CNBC Markets*
+- [J&J long-term Tremfya data demonstrates Crohn's remission through three years](https://seekingalpha.com/news/4652284-johnson-and-johnson-long-term-tremfya-data-demonstrates-crohns-remission-through-three-years?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?](https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories) — *MarketWatch*
+- [Yiren Digital announces update on CEO Ning Tang](https://seekingalpha.com/news/4652288-yiren-digital-announces-update-on-ceo-ning-tang?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [St. Joe says all of its commercial properties in northwest Florida are open](https://seekingalpha.com/news/4652287-st-joe-says-all-of-its-commercial-properties-in-northwest-florida-are-open?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Semtech retreats 10%, adds to recent retreat amid tech pullback](https://seekingalpha.com/news/4652280-semtech-retreats-10-adds-to-recent-retreat-amid-tech-pullback?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Fed’s Hammack backs restrictive policy, says better if it comes ’relatively quickly’](https://www.investing.com/news/economy-news/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-4944977) — *Investing.com*
+- [Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say](https://www.investing.com/news/stock-market-news/exclusivemoonshot-execs-in-talks-to-settle-dispute-with-shareholder-ahead-of-planned-ipo-people-say-4942884) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
