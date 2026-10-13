@@ -1037,6 +1037,15 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "AAPL",
+      "priority": "high",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.9%, Sharpe 5.18. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "AERO-USD",
       "priority": "high",
       "reason": "RSI Oversold \u2014 Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Sharpe 3.57. No conflicting bearish signals.",
@@ -1046,24 +1055,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "IWM",
+      "ticker": "XBI",
       "priority": "high",
-      "reason": "TRIX \u2014 Bullish Cross \u2014 Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%, Sharpe 1.85. 1 minor bearish signal(s), max confidence 62.0.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "XLE",
-      "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. No conflicting bearish signals.",
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 81.9, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown -31.56%, Sharpe 2.31. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-13T02:41:11.184870",
+  "recommendations_updated": "2026-10-13T19:28:17.645290",
   "trade_log": [
     {
       "action": "SELL",

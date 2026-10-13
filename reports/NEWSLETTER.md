@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, October 12, 2026
-Generated at 09:23 PM
+# Daily Newsletter — Tuesday, October 13, 2026
+Generated at 07:28 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 108 total &nbsp;·&nbsp; 🟢 59 Bullish &nbsp;·&nbsp; 🔴 49 Bearish
+**Strategy Signals:** 100 total &nbsp;·&nbsp; 🟢 73 Bullish &nbsp;·&nbsp; 🔴 27 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SOL-USD** | Solana | $108.04 | 📉 -2.88% |
-| **^VIX** | VIX (Fear Index) | $15.21 | 📈 +2.49% |
-| **XLE** | Energy (XLE) | $66.01 | 📈 +1.43% |
-| **CL=F** | Crude Oil | $93.16 | 📈 +1.43% |
-| **NG=F** | Natural Gas | $3.18 | 📉 -1.34% |
-| **XLK** | Tech (XLK) | $196.36 | 📉 -1.22% |
-| **BTC-USD** | Bitcoin | $82869.07 | 📉 -0.97% |
-| **ETH-USD** | Ethereum | $2512.44 | 📉 -0.88% |
-| **XLV** | Healthcare (XLV) | $171.99 | 📈 +0.69% |
-| **XLF** | Financials (XLF) | $55.05 | 📈 +0.58% |
+| **NG=F** | Natural Gas | $3.32 | 📈 +4.67% |
+| **ETH-USD** | Ethereum | $2508.21 | 📈 +2.61% |
+| **SOL-USD** | Solana | $107.77 | 📈 +2.09% |
+| **BTC-USD** | Bitcoin | $83178.16 | 📈 +1.73% |
+| **XLE** | Energy (XLE) | $67.08 | 📈 +1.63% |
+| **^VIX** | VIX (Fear Index) | $15.45 | 📈 +1.58% |
+| **XLV** | Healthcare (XLV) | $169.73 | 📉 -1.31% |
+| **SI=F** | Silver | $59.49 | 📉 -1.09% |
+| **CL=F** | Crude Oil | $94.38 | 📈 +0.68% |
+| **^TYX** | 30-Year Treasury Yield | $5.56 | 📉 -0.63% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.7% |
-| 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.5 | 72.2% |
-| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 81.2 | 76.5% |
+| 🟢 BULLISH | **AAPL** | Aroon — Strong Uptrend | 84.6 | 76.9% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.5 | 78.7% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.1 | 74.0% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 81.9 | 80.0% |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.7 | 72.2% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.8 | 69.7% |
+| 🟢 BULLISH | **AMD** | Stochastic RSI Oversold | 78.5 | 67.9% |
 | 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 78.2 | 64.2% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 67.1% |
-| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 76.4 | 66.2% |
-| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 73.2 | 54.3% |
-| 🟢 BULLISH | **IWM** | TRIX — Bullish Cross | 73.0 | 75.0% |
-| 🟢 BULLISH | **AMD** | ADX Strong Trend — Bullish | 71.5 | 63.8% |
-| 🟢 BULLISH | **CRWD** | Stochastic RSI Oversold | 68.8 | 58.7% |
-| 🟢 BULLISH | **MRVL** | ADX Strong Trend — Bullish | 67.8 | 57.1% |
-| 🟢 BULLISH | **RIOT** | Williams %R — Oversold | 67.7 | 58.7% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 77.4 | 66.7% |
+| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 76.5 | 66.2% |
+| 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.9 | 62.7% |
+| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 73.8 | 60.3% |
 
 ## Latest News
 
-- [Trump 'not happy' with Kimberly Guilfoyle, weighs firing her](https://www.cnbc.com/2026/10/12/trump-kimberly-guilfoyle-ambassador.html) — *CNBC Markets*
-- [Nvidia and AMD shares fall as new AI announcements fail to re-energize investors](https://www.marketwatch.com/story/nvidia-and-amd-shares-fall-as-new-ai-announcements-fail-to-re-energize-investors-4a0dd766?mod=mw_rss_topstories) — *MarketWatch*
-- [Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor](https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html) — *CNBC Markets*
-- [J&J long-term Tremfya data demonstrates Crohn's remission through three years](https://seekingalpha.com/news/4652284-johnson-and-johnson-long-term-tremfya-data-demonstrates-crohns-remission-through-three-years?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?](https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories) — *MarketWatch*
-- [Yiren Digital announces update on CEO Ning Tang](https://seekingalpha.com/news/4652288-yiren-digital-announces-update-on-ceo-ning-tang?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [St. Joe says all of its commercial properties in northwest Florida are open](https://seekingalpha.com/news/4652287-st-joe-says-all-of-its-commercial-properties-in-northwest-florida-are-open?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Semtech retreats 10%, adds to recent retreat amid tech pullback](https://seekingalpha.com/news/4652280-semtech-retreats-10-adds-to-recent-retreat-amid-tech-pullback?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Fed’s Hammack backs restrictive policy, says better if it comes ’relatively quickly’](https://www.investing.com/news/economy-news/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-4944977) — *Investing.com*
-- [Exclusive-Moonshot execs in talks to settle dispute with shareholder ahead of planned IPO, people say](https://www.investing.com/news/stock-market-news/exclusivemoonshot-execs-in-talks-to-settle-dispute-with-shareholder-ahead-of-planned-ipo-people-say-4942884) — *Investing.com*
+- [Fed’s Williams sees no need for rate hike in 2027, Bloomberg News reports](https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379) — *Investing.com*
+- [Small businesses on September inflation: Fuel, fuel, and more fuel](https://seekingalpha.com/news/4652626-small-businesses-on-september-inflation-fuel-fuel-and-more-fuel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Apple releases HomeView smart home hub with screen as showcase for Siri AI](https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html) — *CNBC Markets*
+- [Paul Tudor Jones says 2027 could be a really challenging year for the stock market](https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html) — *CNBC Markets*
+- [AbbVie reports positive Crohn’s disease trial results for Skyrizi](https://www.investing.com/news/company-news/abbvie-reports-positive-crohns-disease-trial-results-for-skyrizi-93CH-4947398) — *Investing.com*
+- [First Phosphate at Precious Metals & Critical Minerals Virtual Investor Conference: supply chain push](https://www.investing.com/news/transcripts/first-phosphate-at-precious-metals--critical-minerals-virtual-investor-conference-supply-chain-push-93CH-4947397) — *Investing.com*
+- [Novartis leprosy drug Lamprene now more easily available](https://seekingalpha.com/news/4652628-novartis-leprosy-drug-lamprene-now-more-easily-available?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Brent Oil coils in tight range at $105.90: Live levels](https://www.investing.com/news/commodities-news/brent-oil-stuck-in-1025010600-range-live-levels-93CH-4943298) — *Investing.com*
+- [Tesla squeezed in $370-$388 range near key support: Live levels](https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787) — *Investing.com*
+- [Alphabet C tests $353 resistance in ascending triangle: Live](https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

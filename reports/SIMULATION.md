@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 02:41 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 07:28 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.66%** &nbsp; ($+5,151) |
-| SPY Benchmark | +9.93% &nbsp; ($+19,271 if 100% SPY) |
-| Alpha vs SPY | **-7.28%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.96% &nbsp; ($+19,326 if 100% SPY) |
+| Alpha vs SPY | **-7.31%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,151 |
 
@@ -135,13 +135,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 13 2026 02:41 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 13 2026 07:28 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | TRIX — Bullish Cross — Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 81.9, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown … |
+
+### 🔍 NEW OPPORTUNITY — AAPL
+
+**Signal Analysis:** Aroon — Strong Uptrend — Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.9%, Sharpe 5.18. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
@@ -149,15 +155,9 @@ _Evaluated Oct 13 2026 02:41 AM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — IWM
+### 🔍 NEW OPPORTUNITY — XBI
 
-**Signal Analysis:** TRIX — Bullish Cross — Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%, Sharpe 1.85. 1 minor bearish signal(s), max confidence 62.0.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown -31.56%, Sharpe 2.31. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
