@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 157** &nbsp;·&nbsp; Updated: Oct 12 2026 09:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 02:41 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.64%** &nbsp; ($+5,127) |
+| Portfolio P&L | **+2.66%** &nbsp; ($+5,151) |
 | SPY Benchmark | +9.93% &nbsp; ($+19,271 if 100% SPY) |
-| Alpha vs SPY | **-7.29%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-7.28%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,127 |
+| Current Value | $199,151 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,781 | +1.94% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,805 | +1.95% |
 
 ## Daily Equity Curve
 
@@ -131,20 +131,21 @@
 | 2026-10-08 | 📈 +2.59% | +9.35% | ❌ -6.75% |
 | 2026-10-09 | 📈 +2.60% | +10.00% | ❌ -7.39% |
 | 2026-10-12 | 📈 +2.64% | +9.93% | ❌ -7.29% |
+| 2026-10-13 | 📈 +2.65% | +9.93% | ❌ -7.28% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 12 2026 09:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 13 2026 02:41 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.2, Win Rate 54.3%, Avg 5d Return 6.15%, Max Drawdown -56.68%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IWM** | TRIX — Bullish Cross — Score 73.0, Win Rate 75.0%, Avg 5d Return 0.7%, Max Drawdown -4.63%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.5, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** RSI Oversold — Score 73.2, Win Rate 54.3%, Avg 5d Return 6.15%, Max Drawdown -56.68%, Sharpe 2.83. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Sharpe 3.57. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
