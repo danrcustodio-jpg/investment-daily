@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 07:40 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 11:32 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.66%** &nbsp; ($+5,151) |
-| SPY Benchmark | +9.99% &nbsp; ($+19,377 if 100% SPY) |
-| Alpha vs SPY | **-7.33%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.92% &nbsp; ($+19,247 if 100% SPY) |
+| Alpha vs SPY | **-7.27%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,151 |
 
@@ -131,17 +131,17 @@
 | 2026-10-08 | 📈 +2.59% | +9.35% | ❌ -6.75% |
 | 2026-10-09 | 📈 +2.60% | +10.00% | ❌ -7.39% |
 | 2026-10-12 | 📈 +2.64% | +9.93% | ❌ -7.29% |
-| 2026-10-13 | 📈 +2.65% | +9.99% | ❌ -7.33% |
+| 2026-10-13 | 📈 +2.65% | +9.92% | ❌ -7.27% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 13 2026 07:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 13 2026 11:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 81.9, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.8, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -2… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
@@ -155,9 +155,9 @@ _Evaluated Oct 13 2026 07:40 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — XBI
+### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.9, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown -31.56%, Sharpe 2.31. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 80.8, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -29.23%, Sharpe 2.93. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
