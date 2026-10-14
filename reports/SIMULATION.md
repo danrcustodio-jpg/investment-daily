@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 158** &nbsp;·&nbsp; Updated: Oct 13 2026 11:32 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 159** &nbsp;·&nbsp; Updated: Oct 14 2026 05:29 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.66%** &nbsp; ($+5,151) |
-| SPY Benchmark | +9.92% &nbsp; ($+19,247 if 100% SPY) |
-| Alpha vs SPY | **-7.27%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.67%** &nbsp; ($+5,175) |
+| SPY Benchmark | +8.53% &nbsp; ($+16,541 if 100% SPY) |
+| Alpha vs SPY | **-5.86%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,151 |
+| Current Value | $199,175 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,805 | +1.95% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,829 | +1.96% |
 
 ## Daily Equity Curve
 
@@ -135,29 +135,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 13 2026 11:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 14 2026 05:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 80.8, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -2… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** Aroon — Strong Uptrend — Score 84.6, Win Rate 76.9%, Avg 5d Return 2.33%, Max Drawdown -4.9%, Sharpe 5.18. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 74.7, Win Rate 57.7%, Avg 5d Return 7.9%, Max Drawdown -56.68%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.97%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** RSI Oversold — Score 73.8, Win Rate 60.3%, Avg 5d Return 6.41%, Max Drawdown -56.68%, Sharpe 3.57. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 74.7, Win Rate 57.7%, Avg 5d Return 7.9%, Max Drawdown -56.68%, Sharpe 3.43. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — XLK
+### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 80.8, Win Rate 69.7%, Avg 5d Return 1.74%, Max Drawdown -29.23%, Sharpe 2.93. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.97%, Max Drawdown -30.86%, Sharpe 2.98. 1 minor bearish signal(s), max confidence 46.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLE
+
+**Signal Analysis:** 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 57.2.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

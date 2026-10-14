@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, October 13, 2026
-Generated at 07:28 PM
+# Daily Newsletter — Wednesday, October 14, 2026
+Generated at 05:29 PM
 
-## Market Sentiment: Neutral
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 100 total &nbsp;·&nbsp; 🟢 73 Bullish &nbsp;·&nbsp; 🔴 27 Bearish
+**Strategy Signals:** 144 total &nbsp;·&nbsp; 🟢 84 Bullish &nbsp;·&nbsp; 🔴 60 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.32 | 📈 +4.67% |
-| **ETH-USD** | Ethereum | $2508.21 | 📈 +2.61% |
-| **SOL-USD** | Solana | $107.77 | 📈 +2.09% |
-| **BTC-USD** | Bitcoin | $83178.16 | 📈 +1.73% |
-| **XLE** | Energy (XLE) | $67.08 | 📈 +1.63% |
-| **^VIX** | VIX (Fear Index) | $15.45 | 📈 +1.58% |
-| **XLV** | Healthcare (XLV) | $169.73 | 📉 -1.31% |
-| **SI=F** | Silver | $59.49 | 📉 -1.09% |
-| **CL=F** | Crude Oil | $94.38 | 📈 +0.68% |
-| **^TYX** | 30-Year Treasury Yield | $5.56 | 📉 -0.63% |
+| **^VIX** | VIX (Fear Index) | $16.60 | 📈 +8.71% |
+| **SI=F** | Silver | $55.80 | 📉 -5.68% |
+| **NG=F** | Natural Gas | $3.17 | 📉 -3.47% |
+| **XLK** | Tech (XLK) | $190.59 | 📉 -2.90% |
+| **ETH-USD** | Ethereum | $2435.46 | 📉 -2.45% |
+| **XLV** | Healthcare (XLV) | $173.42 | 📈 +2.22% |
+| **SOL-USD** | Solana | $104.58 | 📉 -2.01% |
+| **^RUT** | Russell 2000 | $2729.77 | 📉 -1.93% |
+| **^IXIC** | NASDAQ | $26691.70 | 📉 -1.88% |
+| **GC=F** | Gold | $4102.30 | 📉 -1.80% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **AAPL** | Aroon — Strong Uptrend | 84.6 | 76.9% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.5 | 78.7% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.1 | 74.0% |
-| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 81.9 | 80.0% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 86.9 | 78.9% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.1 | 81.0% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.7 | 78.7% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.5 | 77.6% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.2 | 74.0% |
 | 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.7 | 72.2% |
-| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.8 | 69.7% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 81.3 | 80.0% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.9 | 69.7% |
 | 🟢 BULLISH | **AMD** | Stochastic RSI Oversold | 78.5 | 67.9% |
-| 🟢 BULLISH | **MRVL** | Chaikin Money Flow — Bullish | 78.2 | 64.2% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 77.4 | 66.7% |
-| 🟢 BULLISH | **SOXL** | Williams %R — Oversold | 76.5 | 66.2% |
-| 🟢 BULLISH | **SMH** | Chaikin Money Flow — Bullish | 73.9 | 62.7% |
-| 🟢 BULLISH | **AERO-USD** | RSI Oversold | 73.8 | 60.3% |
+| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 78.0 | 67.7% |
+| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 67.1% |
+| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 76.9 | 68.1% |
 
 ## Latest News
 
-- [Fed’s Williams sees no need for rate hike in 2027, Bloomberg News reports](https://www.investing.com/news/economy-news/feds-williams-currently-sees-no-need-for-rate-hike-in-2027-bloomberg-news-reports-4947379) — *Investing.com*
-- [Small businesses on September inflation: Fuel, fuel, and more fuel](https://seekingalpha.com/news/4652626-small-businesses-on-september-inflation-fuel-fuel-and-more-fuel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Apple releases HomeView smart home hub with screen as showcase for Siri AI](https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html) — *CNBC Markets*
-- [Paul Tudor Jones says 2027 could be a really challenging year for the stock market](https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html) — *CNBC Markets*
-- [AbbVie reports positive Crohn’s disease trial results for Skyrizi](https://www.investing.com/news/company-news/abbvie-reports-positive-crohns-disease-trial-results-for-skyrizi-93CH-4947398) — *Investing.com*
-- [First Phosphate at Precious Metals & Critical Minerals Virtual Investor Conference: supply chain push](https://www.investing.com/news/transcripts/first-phosphate-at-precious-metals--critical-minerals-virtual-investor-conference-supply-chain-push-93CH-4947397) — *Investing.com*
-- [Novartis leprosy drug Lamprene now more easily available](https://seekingalpha.com/news/4652628-novartis-leprosy-drug-lamprene-now-more-easily-available?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Brent Oil coils in tight range at $105.90: Live levels](https://www.investing.com/news/commodities-news/brent-oil-stuck-in-1025010600-range-live-levels-93CH-4943298) — *Investing.com*
-- [Tesla squeezed in $370-$388 range near key support: Live levels](https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787) — *Investing.com*
-- [Alphabet C tests $353 resistance in ascending triangle: Live](https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780) — *Investing.com*
+- [Rivian on track to log losses for seventh straight session](https://seekingalpha.com/news/4653062-rivian-on-track-to-log-losses-for-seventh-straight-session?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bank of America tops U.S. mega bank Quant ratings despite Q3 selloff](https://seekingalpha.com/news/4653061-bank-of-america-tops-us-mega-bank-quant-ratings-despite-q3-selloff?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Utz Brands announces death of longtime leader Michael Rice](https://www.investing.com/news/company-news/utz-brands-announces-death-of-longtime-leader-michael-rice-93CH-4949822) — *Investing.com*
+- [Anduril allows staff to sell shares at $90 billion valuation - report](https://www.investing.com/news/stock-market-news/anduril-allows-staff-to-sell-shares-at-90-billion-valuation--report-4949821) — *Investing.com*
+- [CBL Properties declares $0.625 dividend](https://seekingalpha.com/news/4653060-cbl-properties-declares-0_625-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [US lawmakers ask FAA to conduct review before allowing Amazon drone hub near Boston](https://www.investing.com/news/stock-market-news/us-lawmakers-ask-faa-to-conduct-review-before-allowing-amazon-drone-hub-near-boston-4949815) — *Investing.com*
+- [Gold Fields launches charm offensive to woo Northern Star investors - FT](https://seekingalpha.com/news/4653054-gold-fields-launches-charm-offensive-to-woo-northern-star-investors-ft?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Winmark declares $1.02 dividend, and $4 special dividends](https://seekingalpha.com/news/4653059-winmark-declares-102-dividend-and-4-special-dividends?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SA Asks: How much of a threat is SpaceX to AT&T, Verizon, T-Mobile?](https://seekingalpha.com/news/4653057-sa-asks-how-much-of-a-threat-is-spacex-to-at-and-t-verizon-t-mobile?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [FDA unveils rare disease initiative to enhance therapy development](https://seekingalpha.com/news/4653055-fda-unveils-rare-disease-initiative-enhance-therapy-development?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*
