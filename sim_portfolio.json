@@ -1032,6 +1032,15 @@
       "prices": {
         "SPY": 778.010009765625
       }
+    },
+    {
+      "date": "2026-10-14",
+      "total_value": 199175.05,
+      "portfolio_pnl": 2.668,
+      "benchmark_pnl": 8.531,
+      "prices": {
+        "SPY": 768.1699829101562
+      }
     }
   ],
   "recommendations": [
@@ -1063,7 +1072,7 @@
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-14T17:29:22.220398",
+  "recommendations_updated": "2026-10-14T17:42:50.347024",
   "trade_log": [
     {
       "action": "SELL",
