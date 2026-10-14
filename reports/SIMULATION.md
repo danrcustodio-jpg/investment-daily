@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 159** &nbsp;·&nbsp; Updated: Oct 14 2026 05:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 159** &nbsp;·&nbsp; Updated: Oct 14 2026 09:08 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.67%** &nbsp; ($+5,175) |
-| SPY Benchmark | +8.53% &nbsp; ($+16,546 if 100% SPY) |
-| Alpha vs SPY | **-5.86%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.73% &nbsp; ($+16,942 if 100% SPY) |
+| Alpha vs SPY | **-6.07%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,175 |
 
@@ -132,16 +132,16 @@
 | 2026-10-09 | 📈 +2.60% | +10.00% | ❌ -7.39% |
 | 2026-10-12 | 📈 +2.64% | +9.93% | ❌ -7.29% |
 | 2026-10-13 | 📈 +2.65% | +9.92% | ❌ -7.27% |
-| 2026-10-14 | 📈 +2.67% | +8.53% | ❌ -5.86% |
+| 2026-10-14 | 📈 +2.67% | +8.73% | ❌ -6.07% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 14 2026 05:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 14 2026 09:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 74.7, Win Rate 57.7%, Avg 5d Return 7.9%, Max Drawdown -56.68%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.97%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.96%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
@@ -152,13 +152,13 @@ _Evaluated Oct 14 2026 05:42 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — APP
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.97%, Max Drawdown -30.86%, Sharpe 2.98. 1 minor bearish signal(s), max confidence 46.1.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.96%, Max Drawdown -30.86%, Sharpe 2.96. 1 minor bearish signal(s), max confidence 46.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 57.2.
+**Signal Analysis:** 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 49.0.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

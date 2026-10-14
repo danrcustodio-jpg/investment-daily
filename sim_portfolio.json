@@ -1037,9 +1037,9 @@
       "date": "2026-10-14",
       "total_value": 199175.05,
       "portfolio_pnl": 2.668,
-      "benchmark_pnl": 8.531,
+      "benchmark_pnl": 8.733,
       "prices": {
-        "SPY": 768.1699829101562
+        "SPY": 769.5999755859375
       }
     }
   ],
@@ -1057,7 +1057,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "APP",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 76.8, Win Rate 65.1%, Avg 5d Return 3.97%, Max Drawdown -30.86%, Sharpe 2.98. 1 minor bearish signal(s), max confidence 46.1.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 76.8, Win Rate 65.1%, Avg 5d Return 3.96%, Max Drawdown -30.86%, Sharpe 2.96. 1 minor bearish signal(s), max confidence 46.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1066,13 +1066,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "XLE",
       "priority": "high",
-      "reason": "52-Week Breakout \u2014 Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 57.2.",
+      "reason": "52-Week Breakout \u2014 Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 49.0.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-14T17:42:50.347024",
+  "recommendations_updated": "2026-10-14T21:08:22.621460",
   "trade_log": [
     {
       "action": "SELL",
