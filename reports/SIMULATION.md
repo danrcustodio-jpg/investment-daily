@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 160** &nbsp;·&nbsp; Updated: Oct 15 2026 05:31 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 160** &nbsp;·&nbsp; Updated: Oct 15 2026 08:29 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.68%** &nbsp; ($+5,199) |
-| SPY Benchmark | +8.83% &nbsp; ($+17,125 if 100% SPY) |
-| Alpha vs SPY | **-6.15%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.04% &nbsp; ($+17,542 if 100% SPY) |
+| Alpha vs SPY | **-6.36%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,199 |
 
@@ -133,21 +133,27 @@
 | 2026-10-12 | 📈 +2.64% | +9.93% | ❌ -7.29% |
 | 2026-10-13 | 📈 +2.65% | +9.92% | ❌ -7.27% |
 | 2026-10-14 | 📈 +2.67% | +8.73% | ❌ -6.07% |
-| 2026-10-15 | 📈 +2.68% | +8.84% | ❌ -6.16% |
+| 2026-10-15 | 📈 +2.68% | +9.04% | ❌ -6.36% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 15 2026 05:31 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 15 2026 08:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Williams %R — Oversold — Score 77.9, Win Rate 66.7%, Avg 5d Return 3.12%, Max Drawdown -16… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic RSI Oversold — Score 72.2, Win Rate 62.0%, Avg 5d Return 2.81%, Max Drawdown -3… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sh… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.2, Win Rate 77.1%, Avg 5d Return 2.24%, Max Drawdown -23… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Williams %R — Oversold — Score 77.9, Win Rate 66.7%, Avg 5d Return 3.12%, Max Drawdown -16.73%, Sharpe 3.55. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 72.2, Win Rate 62.0%, Avg 5d Return 2.81%, Max Drawdown -36.03%, Sharpe 2.6. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AMZN
+
+**Signal Analysis:** OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%, Sharpe 2.49. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -156,12 +162,6 @@ _Evaluated Oct 15 2026 05:31 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sharpe 5.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — XLK
-
-**Signal Analysis:** Williams %R — Oversold — Score 84.2, Win Rate 77.1%, Avg 5d Return 2.24%, Max Drawdown -23.33%, Sharpe 3.49. 1 minor bearish signal(s), max confidence 68.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
