@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 160** &nbsp;·&nbsp; Updated: Oct 15 2026 12:00 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 160** &nbsp;·&nbsp; Updated: Oct 15 2026 05:16 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.68%** &nbsp; ($+5,199) |
-| SPY Benchmark | +8.73% &nbsp; ($+16,942 if 100% SPY) |
-| Alpha vs SPY | **-6.05%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.85% &nbsp; ($+17,164 if 100% SPY) |
+| Alpha vs SPY | **-6.17%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,199 |
 
@@ -136,29 +136,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 15 2026 12:00 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 15 2026 05:16 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 74.2, Win Rate 57.4%, Avg 5d Return 7.15%, Max Drawdown -56.68%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 78.7, Win Rate 68.3%, Avg 5d Return 2.78%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 79.8, Win Rate 69.6%, Avg 5d Return 1.69%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Williams %R — Oversold — Score 77.9, Win Rate 66.7%, Avg 5d Return 3.12%, Max Drawdown -16… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 84.2, Win Rate 77.1%, Avg 5d Return 2.24%, Max Drawdown -23… |
 
-### 🔍 NEW OPPORTUNITY — AERO-USD
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** RSI Oversold — Score 74.2, Win Rate 57.4%, Avg 5d Return 7.15%, Max Drawdown -56.68%, Sharpe 3.22. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — NVDA
-
-**Signal Analysis:** Stochastic RSI Oversold — Score 78.7, Win Rate 68.3%, Avg 5d Return 2.78%, Max Drawdown -27.31%, Sharpe 3.24. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 77.9, Win Rate 66.7%, Avg 5d Return 3.12%, Max Drawdown -16.73%, Sharpe 3.55. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
+### 🔍 NEW OPPORTUNITY — DOGE-USD
+
+**Signal Analysis:** MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sharpe 5.29. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
 ### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 79.8, Win Rate 69.6%, Avg 5d Return 1.69%, Max Drawdown -29.23%, Sharpe 2.86. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 84.2, Win Rate 77.1%, Avg 5d Return 2.24%, Max Drawdown -23.33%, Sharpe 3.49. 1 minor bearish signal(s), max confidence 68.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

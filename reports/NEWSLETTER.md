@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, October 14, 2026
-Generated at 05:29 PM
+# Daily Newsletter — Thursday, October 15, 2026
+Generated at 05:16 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 144 total &nbsp;·&nbsp; 🟢 84 Bullish &nbsp;·&nbsp; 🔴 60 Bearish
+**Strategy Signals:** 130 total &nbsp;·&nbsp; 🟢 88 Bullish &nbsp;·&nbsp; 🔴 42 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $16.60 | 📈 +8.71% |
-| **SI=F** | Silver | $55.80 | 📉 -5.68% |
-| **NG=F** | Natural Gas | $3.17 | 📉 -3.47% |
-| **XLK** | Tech (XLK) | $190.59 | 📉 -2.90% |
-| **ETH-USD** | Ethereum | $2435.46 | 📉 -2.45% |
-| **XLV** | Healthcare (XLV) | $173.42 | 📈 +2.22% |
-| **SOL-USD** | Solana | $104.58 | 📉 -2.01% |
-| **^RUT** | Russell 2000 | $2729.77 | 📉 -1.93% |
-| **^IXIC** | NASDAQ | $26691.70 | 📉 -1.88% |
-| **GC=F** | Gold | $4102.30 | 📉 -1.80% |
+| **SI=F** | Silver | $57.06 | 📈 +2.71% |
+| **XLV** | Healthcare (XLV) | $178.18 | 📈 +2.43% |
+| **SOL-USD** | Solana | $106.33 | 📈 +2.17% |
+| **^TNX** | 10-Year Treasury Yield | $5.09 | 📉 -1.98% |
+| **^TYX** | 30-Year Treasury Yield | $5.42 | 📉 -1.85% |
+| **CL=F** | Crude Oil | $96.56 | 📈 +1.55% |
+| **XLE** | Energy (XLE) | $66.62 | 📉 -1.49% |
+| **GC=F** | Gold | $4167.20 | 📈 +1.44% |
+| **XLY** | Consumer Disc. (XLY) | $113.01 | 📈 +1.35% |
+| **ETH-USD** | Ethereum | $2450.07 | 📈 +1.32% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 86.9 | 78.9% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.1 | 81.0% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.7 | 78.7% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.5 | 77.6% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.2 | 74.0% |
-| 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.7 | 72.2% |
-| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 81.3 | 80.0% |
-| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.9 | 69.7% |
-| 🟢 BULLISH | **AMD** | Stochastic RSI Oversold | 78.5 | 67.9% |
-| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 78.0 | 67.7% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 67.1% |
-| 🟢 BULLISH | **TQQQ** | Williams %R — Oversold | 76.9 | 68.1% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.3% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.2 | 77.1% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 83.1 | 74.3% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 74.5% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 81.1 | 73.0% |
+| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.0 | 69.6% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 78.8 | 68.3% |
+| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 66.7% |
+| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 77.7 | 67.2% |
+| 🟢 BULLISH | **SMCI** | Keltner — Lower Channel Touch | 77.5 | 65.3% |
+| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 76.2 | 63.6% |
 
 ## Latest News
 
-- [Rivian on track to log losses for seventh straight session](https://seekingalpha.com/news/4653062-rivian-on-track-to-log-losses-for-seventh-straight-session?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Bank of America tops U.S. mega bank Quant ratings despite Q3 selloff](https://seekingalpha.com/news/4653061-bank-of-america-tops-us-mega-bank-quant-ratings-despite-q3-selloff?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Utz Brands announces death of longtime leader Michael Rice](https://www.investing.com/news/company-news/utz-brands-announces-death-of-longtime-leader-michael-rice-93CH-4949822) — *Investing.com*
-- [Anduril allows staff to sell shares at $90 billion valuation - report](https://www.investing.com/news/stock-market-news/anduril-allows-staff-to-sell-shares-at-90-billion-valuation--report-4949821) — *Investing.com*
-- [CBL Properties declares $0.625 dividend](https://seekingalpha.com/news/4653060-cbl-properties-declares-0_625-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [US lawmakers ask FAA to conduct review before allowing Amazon drone hub near Boston](https://www.investing.com/news/stock-market-news/us-lawmakers-ask-faa-to-conduct-review-before-allowing-amazon-drone-hub-near-boston-4949815) — *Investing.com*
-- [Gold Fields launches charm offensive to woo Northern Star investors - FT](https://seekingalpha.com/news/4653054-gold-fields-launches-charm-offensive-to-woo-northern-star-investors-ft?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Winmark declares $1.02 dividend, and $4 special dividends](https://seekingalpha.com/news/4653059-winmark-declares-102-dividend-and-4-special-dividends?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [SA Asks: How much of a threat is SpaceX to AT&T, Verizon, T-Mobile?](https://seekingalpha.com/news/4653057-sa-asks-how-much-of-a-threat-is-spacex-to-at-and-t-verizon-t-mobile?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [FDA unveils rare disease initiative to enhance therapy development](https://seekingalpha.com/news/4653055-fda-unveils-rare-disease-initiative-enhance-therapy-development?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [NYC Comptroller calls for Anthropic to put IPO on hold over safety concerns](https://seekingalpha.com/news/4653525-nyc-comptroller-calls-for-anthropic-to-put-ipo-on-hold-over-safety-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Gladstone Commercial declares $0.10 dividend](https://seekingalpha.com/news/4653547-gladstone-commercial-declares-0_10-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [First Trust Income Opportunities ETF declares $0.1375 dividend](https://seekingalpha.com/news/4653546-first-trust-income-opportunities-etf-declares-0_1375-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.](https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories) — *MarketWatch*
+- [The COLA wars are coming for Social Security](https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories) — *MarketWatch*
+- [Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?](https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories) — *MarketWatch*
+- [Vistance Networks declares $1.50 special dividend](https://seekingalpha.com/news/4653545-vistance-networks-declares-150-special-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [The truth about being a landlord in retirement](https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories) — *MarketWatch*
+- [Scotts Miracle-Gro climbs as UBS upgrades stock on valuation](https://seekingalpha.com/news/4653536-scotts-miracle-gro-climbs-as-ubs-upgrades-stock-on-valuation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump says Nidal Hasan execution won't be livestreamed](https://www.cnbc.com/2026/10/15/trump-nidal-hasan-execution-livestream.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
