@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 159** &nbsp;·&nbsp; Updated: Oct 14 2026 09:08 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 160** &nbsp;·&nbsp; Updated: Oct 15 2026 12:00 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.67%** &nbsp; ($+5,175) |
+| Portfolio P&L | **+2.68%** &nbsp; ($+5,199) |
 | SPY Benchmark | +8.73% &nbsp; ($+16,942 if 100% SPY) |
-| Alpha vs SPY | **-6.07%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.05%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,175 |
+| Current Value | $199,199 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,829 | +1.96% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,853 | +1.97% |
 
 ## Daily Equity Curve
 
@@ -136,29 +136,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 14 2026 09:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 15 2026 12:00 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 74.7, Win Rate 57.7%, Avg 5d Return 7.9%, Max Drawdown -56.68%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.96%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AERO-USD** | RSI Oversold — Score 74.2, Win Rate 57.4%, Avg 5d Return 7.15%, Max Drawdown -56.68%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 78.7, Win Rate 68.3%, Avg 5d Return 2.78%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 79.8, Win Rate 69.6%, Avg 5d Return 1.69%, Max Drawdown -2… |
 
 ### 🔍 NEW OPPORTUNITY — AERO-USD
 
-**Signal Analysis:** RSI Oversold — Score 74.7, Win Rate 57.7%, Avg 5d Return 7.9%, Max Drawdown -56.68%, Sharpe 3.43. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 74.2, Win Rate 57.4%, Avg 5d Return 7.15%, Max Drawdown -56.68%, Sharpe 3.22. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 76.8, Win Rate 65.1%, Avg 5d Return 3.96%, Max Drawdown -30.86%, Sharpe 2.96. 1 minor bearish signal(s), max confidence 46.1.
+**Signal Analysis:** Stochastic RSI Oversold — Score 78.7, Win Rate 68.3%, Avg 5d Return 2.78%, Max Drawdown -27.31%, Sharpe 3.24. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — XLK
 
-**Signal Analysis:** 52-Week Breakout — Score 81.7, Win Rate 72.2%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.12. 1 minor bearish signal(s), max confidence 49.0.
+**Signal Analysis:** Stochastic RSI Oversold — Score 79.8, Win Rate 69.6%, Avg 5d Return 1.69%, Max Drawdown -29.23%, Sharpe 2.86. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
