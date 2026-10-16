@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, October 15, 2026
-Generated at 05:16 PM
+# Daily Newsletter — Friday, October 16, 2026
+Generated at 04:52 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 130 total &nbsp;·&nbsp; 🟢 88 Bullish &nbsp;·&nbsp; 🔴 42 Bearish
+**Strategy Signals:** 138 total &nbsp;·&nbsp; 🟢 98 Bullish &nbsp;·&nbsp; 🔴 40 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **SI=F** | Silver | $57.06 | 📈 +2.71% |
-| **XLV** | Healthcare (XLV) | $178.18 | 📈 +2.43% |
-| **SOL-USD** | Solana | $106.33 | 📈 +2.17% |
-| **^TNX** | 10-Year Treasury Yield | $5.09 | 📉 -1.98% |
-| **^TYX** | 30-Year Treasury Yield | $5.42 | 📉 -1.85% |
-| **CL=F** | Crude Oil | $96.56 | 📈 +1.55% |
-| **XLE** | Energy (XLE) | $66.62 | 📉 -1.49% |
-| **GC=F** | Gold | $4167.20 | 📈 +1.44% |
-| **XLY** | Consumer Disc. (XLY) | $113.01 | 📈 +1.35% |
-| **ETH-USD** | Ethereum | $2450.07 | 📈 +1.32% |
+| **^VIX** | VIX (Fear Index) | $17.59 | 📈 +6.87% |
+| **NG=F** | Natural Gas | $3.14 | 📉 -3.09% |
+| **XLK** | Tech (XLK) | $185.07 | 📉 -2.18% |
+| **XLE** | Energy (XLE) | $67.82 | 📈 +1.89% |
+| **^IXIC** | NASDAQ | $26300.95 | 📉 -1.54% |
+| **SOL-USD** | Solana | $103.77 | 📉 -1.48% |
+| **^RUT** | Russell 2000 | $2734.19 | 📉 -1.20% |
+| **BTC-USD** | Bitcoin | $81262.44 | 📉 -1.07% |
+| **SI=F** | Silver | $57.44 | 📈 +1.07% |
+| **^GSPC** | S&P 500 | $7684.72 | 📉 -0.77% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
+| 🟢 BULLISH | **SOXL** | RSI Oversold | 90.0 | 75.0% |
+| 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 88.3 | 83.3% |
 | 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 86.1 | 81.0% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 84.4 | 78.3% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 84.2 | 77.1% |
+| 🟢 BULLISH | **SOL-USD** | MFI — Oversold | 84.0 | 90.0% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 83.8 | 76.6% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.4 | 68.6% |
 | 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 83.1 | 74.3% |
-| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 74.5% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 81.1 | 73.0% |
-| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 80.0 | 69.6% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 78.8 | 68.3% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.9 | 66.7% |
-| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 77.7 | 67.2% |
-| 🟢 BULLISH | **SMCI** | Keltner — Lower Channel Touch | 77.5 | 65.3% |
-| 🟢 BULLISH | **APP** | Fisher Transform — Low Extreme | 76.2 | 63.6% |
+| 🟢 BULLISH | **CRWD** | Keltner — Lower Channel Touch | 82.9 | 81.0% |
+| 🟢 BULLISH | **XLE** | 52-Week Breakout | 81.7 | 72.2% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.5 | 73.1% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 81.3 | 80.0% |
 
 ## Latest News
 
-- [NYC Comptroller calls for Anthropic to put IPO on hold over safety concerns](https://seekingalpha.com/news/4653525-nyc-comptroller-calls-for-anthropic-to-put-ipo-on-hold-over-safety-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Gladstone Commercial declares $0.10 dividend](https://seekingalpha.com/news/4653547-gladstone-commercial-declares-0_10-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [First Trust Income Opportunities ETF declares $0.1375 dividend](https://seekingalpha.com/news/4653546-first-trust-income-opportunities-etf-declares-0_1375-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.](https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories) — *MarketWatch*
-- [The COLA wars are coming for Social Security](https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories) — *MarketWatch*
-- [Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?](https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories) — *MarketWatch*
-- [Vistance Networks declares $1.50 special dividend](https://seekingalpha.com/news/4653545-vistance-networks-declares-150-special-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [The truth about being a landlord in retirement](https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories) — *MarketWatch*
-- [Scotts Miracle-Gro climbs as UBS upgrades stock on valuation](https://seekingalpha.com/news/4653536-scotts-miracle-gro-climbs-as-ubs-upgrades-stock-on-valuation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump says Nidal Hasan execution won't be livestreamed](https://www.cnbc.com/2026/10/15/trump-nidal-hasan-execution-livestream.html) — *CNBC Markets*
+- [IBC Advanced Alloys reports FY results](https://seekingalpha.com/news/4653924-ibc-advanced-alloys-reports-fy-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says](https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html) — *CNBC Markets*
+- [CNB Community Bancorp GAAP EPS of $1.35, revenue of $15.6M](https://seekingalpha.com/news/4653922-cnb-community-bancorp-gaap-eps-of-1_35-revenue-of-15_6m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [CoreWeave bond rout tests market’s math on AI buildout](https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576) — *Investing.com*
+- [Central bankers eye higher rates as AI boom fuels scramble for cash](https://www.investing.com/news/economy-news/central-bankers-eye-higher-rates-as-ai-boom-fuels-scramble-for-cash-4954264) — *Investing.com*
+- [Apple faces risk to dominance in UK tap-to-pay market - report](https://seekingalpha.com/news/4653909-apple-faces-risk-to-dominance-in-uk-tap-to-pay-market---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Thames Water reaches deal with Class B creditors on debt terms](https://www.investing.com/news/company-news/thames-water-reaches-deal-with-class-b-creditors-on-debt-terms-93CH-4954630) — *Investing.com*
+- [Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.](https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336?mod=mw_rss_topstories) — *MarketWatch*
+- [Elon Musk may have just taken a major step toward consolidating his empire](https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6?mod=mw_rss_topstories) — *MarketWatch*
+- [China’s super-rich scramble to exit offshore trusts, raise cash as taxman knocks](https://www.investing.com/news/stock-market-news/analysischinas-superrich-scramble-to-exit-offshore-trusts-raise-cash-as-taxman-knocks-4953051) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
