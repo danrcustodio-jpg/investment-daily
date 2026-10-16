@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 161** &nbsp;·&nbsp; Updated: Oct 16 2026 04:52 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 161** &nbsp;·&nbsp; Updated: Oct 16 2026 05:06 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.69%** &nbsp; ($+5,223) |
-| SPY Benchmark | +8.23% &nbsp; ($+15,974 if 100% SPY) |
-| Alpha vs SPY | **-5.54%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.99% &nbsp; ($+15,503 if 100% SPY) |
+| Alpha vs SPY | **-5.30%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,223 |
 
@@ -134,15 +134,16 @@
 | 2026-10-13 | 📈 +2.65% | +9.92% | ❌ -7.27% |
 | 2026-10-14 | 📈 +2.67% | +8.73% | ❌ -6.07% |
 | 2026-10-15 | 📈 +2.68% | +9.04% | ❌ -6.36% |
+| 2026-10-16 | 📈 +2.69% | +7.99% | ❌ -5.30% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 16 2026 04:52 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 16 2026 05:06 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Keltner — Lower Channel Touch — Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 86.1, Win Rate 81.0%, Avg 5d Return 4.55%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Keltner — Lower Channel Touch — Score 88.3, Win Rate 83.3%, Avg 5d Return 6.55%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 84.0, Win Rate 90.0%, Avg 5d Return 6.25%, Max Drawdown 0.0%, Sharp… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
@@ -153,7 +154,7 @@ _Evaluated Oct 16 2026 04:52 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 86.1, Win Rate 81.0%, Avg 5d Return 4.55%, Max Drawdown -19.07%, Sharpe 5.68. 1 minor bearish signal(s), max confidence 45.7.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 88.3, Win Rate 83.3%, Avg 5d Return 6.55%, Max Drawdown -6.21%, Sharpe 7.03. 1 minor bearish signal(s), max confidence 45.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
