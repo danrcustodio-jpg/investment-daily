@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 161** &nbsp;·&nbsp; Updated: Oct 16 2026 10:41 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 162** &nbsp;·&nbsp; Updated: Oct 17 2026 03:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.69%** &nbsp; ($+5,223) |
+| Portfolio P&L | **+2.70%** &nbsp; ($+5,247) |
 | SPY Benchmark | +7.84% &nbsp; ($+15,201 if 100% SPY) |
-| Alpha vs SPY | **-5.14%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-5.13%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,223 |
+| Current Value | $199,247 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,877 | +1.98% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,902 | +2.00% |
 
 ## Daily Equity Curve
 
@@ -138,7 +138,7 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 16 2026 10:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 17 2026 03:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -154,7 +154,7 @@ _Evaluated Oct 16 2026 10:41 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** MFI — Oversold — Score 84.0, Win Rate 90.0%, Avg 5d Return 6.25%, Max Drawdown 0.0%, Sharpe 5.53. 1 minor bearish signal(s), max confidence 50.0.
+**Signal Analysis:** MFI — Oversold — Score 84.0, Win Rate 90.0%, Avg 5d Return 6.25%, Max Drawdown 0.0%, Sharpe 5.53. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
