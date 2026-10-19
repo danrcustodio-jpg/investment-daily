@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 163** &nbsp;·&nbsp; Updated: Oct 18 2026 04:04 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 164** &nbsp;·&nbsp; Updated: Oct 19 2026 06:48 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.72%** &nbsp; ($+5,271) |
-| SPY Benchmark | +7.84% &nbsp; ($+15,201 if 100% SPY) |
-| Alpha vs SPY | **-5.12%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.73%** &nbsp; ($+5,295) |
+| SPY Benchmark | +8.47% &nbsp; ($+16,432 if 100% SPY) |
+| Alpha vs SPY | **-5.74%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,271 |
+| Current Value | $199,295 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,926 | +2.01% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,950 | +2.02% |
 
 ## Daily Equity Curve
 
@@ -138,29 +138,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 18 2026 04:04 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 19 2026 06:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Keltner — Lower Channel Touch — Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 84.0, Win Rate 90.0%, Avg 5d Return 6.25%, Max Drawdown 0.0%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 81.3, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
 
-### 🔍 NEW OPPORTUNITY — CRWD
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 82.9, Win Rate 81.0%, Avg 5d Return 5.37%, Max Drawdown -4.37%, Sharpe 6.2. 1 minor bearish signal(s), max confidence 45.6.
+**Signal Analysis:** OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%, Sharpe 2.49. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — DOGE-USD
 
-**Signal Analysis:** MFI — Oversold — Score 84.0, Win Rate 90.0%, Avg 5d Return 6.25%, Max Drawdown 0.0%, Sharpe 5.53. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sharpe 5.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — XBI
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 81.3, Win Rate 80.0%, Avg 5d Return 1.75%, Max Drawdown -31.56%, Sharpe 2.31. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
