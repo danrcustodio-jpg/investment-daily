@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 165** &nbsp;·&nbsp; Updated: Oct 20 2026 05:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 165** &nbsp;·&nbsp; Updated: Oct 20 2026 09:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.74%** &nbsp; ($+5,320) |
-| SPY Benchmark | +8.73% &nbsp; ($+16,928 if 100% SPY) |
-| Alpha vs SPY | **-5.98%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.65% &nbsp; ($+16,791 if 100% SPY) |
+| Alpha vs SPY | **-5.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,320 |
 
@@ -136,21 +136,21 @@
 | 2026-10-15 | 📈 +2.68% | +9.04% | ❌ -6.36% |
 | 2026-10-16 | 📈 +2.69% | +7.84% | ❌ -5.14% |
 | 2026-10-19 | 📈 +2.73% | +8.29% | ❌ -5.56% |
-| 2026-10-20 | 📈 +2.74% | +8.73% | ❌ -5.98% |
+| 2026-10-20 | 📈 +2.74% | +8.65% | ❌ -5.91% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 20 2026 05:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 20 2026 09:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 78.0, Win Rate 67.8%, Avg 5d Return 2.93%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Fisher Transform — Low Extreme — Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Fisher Transform — Low Extreme — Score 64.2, Win Rate 44.7%, Avg 5d Return 3.55%, Max Draw… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Elder Force — Bullish — Score 58.1, Win Rate 56.8%, Avg 5d Return 2.47%, Max Drawdown -34.… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 78.0, Win Rate 67.8%, Avg 5d Return 2.93%, Max Drawdown -21.55%, Sharpe 3.41. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Drawdown -8.83%, Sharpe 3.14. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -160,9 +160,9 @@ _Evaluated Oct 20 2026 05:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 64.2, Win Rate 44.7%, Avg 5d Return 3.55%, Max Drawdown -70.14%, Sharpe 1.93. No conflicting bearish signals.
+**Signal Analysis:** Elder Force — Bullish — Score 58.1, Win Rate 56.8%, Avg 5d Return 2.47%, Max Drawdown -34.71%, Sharpe 1.52. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
