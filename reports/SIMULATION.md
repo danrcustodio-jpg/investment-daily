@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 164** &nbsp;·&nbsp; Updated: Oct 19 2026 10:42 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 165** &nbsp;·&nbsp; Updated: Oct 20 2026 05:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.73%** &nbsp; ($+5,295) |
-| SPY Benchmark | +8.29% &nbsp; ($+16,086 if 100% SPY) |
-| Alpha vs SPY | **-5.56%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.74%** &nbsp; ($+5,320) |
+| SPY Benchmark | +8.71% &nbsp; ($+16,902 if 100% SPY) |
+| Alpha vs SPY | **-5.97%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,295 |
+| Current Value | $199,320 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,950 | +2.02% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,974 | +2.03% |
 
 ## Daily Equity Curve
 
@@ -139,31 +139,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 19 2026 10:42 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 20 2026 05:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 78.0, Win Rate 67.8%, Avg 5d Return 2.93%, Max Drawdo… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Fisher Transform — Low Extreme — Score 64.2, Win Rate 44.7%, Avg 5d Return 3.55%, Max Draw… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** OBV — Accumulation — Score 77.9, Win Rate 73.3%, Avg 5d Return 1.81%, Max Drawdown -12.64%, Sharpe 2.49. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 78.0, Win Rate 67.8%, Avg 5d Return 2.93%, Max Drawdown -21.55%, Sharpe 3.41. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — DOGE-USD
-
-**Signal Analysis:** MFI — Oversold — Score 74.5, Win Rate 72.7%, Avg 5d Return 5.96%, Max Drawdown -10.66%, Sharpe 5.29. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 64.2, Win Rate 44.7%, Avg 5d Return 3.55%, Max Drawdown -70.14%, Sharpe 1.93. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 

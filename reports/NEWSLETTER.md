@@ -1,24 +1,24 @@
-# Daily Newsletter — Monday, October 19, 2026
-Generated at 06:48 PM
+# Daily Newsletter — Tuesday, October 20, 2026
+Generated at 05:26 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 128 total &nbsp;·&nbsp; 🟢 103 Bullish &nbsp;·&nbsp; 🔴 25 Bearish
+**Strategy Signals:** 130 total &nbsp;·&nbsp; 🟢 95 Bullish &nbsp;·&nbsp; 🔴 35 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $18.46 | 📉 -7.65% |
-| **CL=F** | Crude Oil | $98.37 | 📉 -3.00% |
-| **NG=F** | Natural Gas | $3.05 | 📉 -2.05% |
-| **XLY** | Consumer Disc. (XLY) | $114.45 | 📈 +1.77% |
-| **XLK** | Tech (XLK) | $186.24 | 📈 +1.51% |
-| **^IXIC** | NASDAQ | $26467.58 | 📈 +1.25% |
-| **SI=F** | Silver | $57.37 | 📈 +0.65% |
-| **XLF** | Financials (XLF) | $55.16 | 📉 -0.65% |
-| **^TNX** | 10-Year Treasury Yield | $5.13 | 📈 +0.65% |
-| **^TYX** | 30-Year Treasury Yield | $5.47 | 📈 +0.63% |
+| **CL=F** | Crude Oil | $98.07 | 📉 -5.39% |
+| **^VIX** | VIX (Fear Index) | $17.67 | 📉 -4.18% |
+| **NG=F** | Natural Gas | $2.97 | 📉 -2.88% |
+| **XLV** | Healthcare (XLV) | $179.65 | 📈 +2.28% |
+| **ETH-USD** | Ethereum | $2448.16 | 📈 +1.80% |
+| **SI=F** | Silver | $57.99 | 📈 +1.77% |
+| **^RUT** | Russell 2000 | $2770.91 | 📈 +1.56% |
+| **SOL-USD** | Solana | $106.42 | 📈 +1.42% |
+| **BTC-USD** | Bitcoin | $82713.24 | 📈 +1.05% |
+| **XLF** | Financials (XLF) | $55.63 | 📈 +1.04% |
 
 ## Top Strategy Signals
 
@@ -31,24 +31,24 @@ Generated at 06:48 PM
 | 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.2 | 68.2% |
 | 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 83.1 | 74.3% |
 | 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 74.5% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.2 | 74.3% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 81.1 | 73.0% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.9 | 73.6% |
 | 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 80.9 | 73.9% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.2 | 68.1% |
-| 🟢 BULLISH | **GC=F** | Vortex — Bullish | 79.0 | 60.0% |
+| 🟢 BULLISH | **GOOGL** | PPO — Bullish Cross | 80.6 | 76.5% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 80.3 | 71.1% |
+| 🟢 BULLISH | **AMZN** | Supertrend — Bullish Flip | 80.0 | 62.5% |
 
 ## Latest News
 
-- [The S&P 500 had its largest ever put volume day on Friday](https://seekingalpha.com/news/4654348-the-s-and-p-500-had-its-largest-ever-put-volume-day-on-friday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Mondelez offers a new Ritz variety that fans have been clamoring for](https://seekingalpha.com/news/4654349-mondelez-offers-a-new-ritz-variety-that-fans-have-been-clamoring-for?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Broader S&P 500 set to outpace Mag 7 in earnings growth for first time since 2022](https://seekingalpha.com/news/4654346-broader-s-and-p-500-set-to-outpace-mag-7-in-earnings-growth-for-first-time-since-2022?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why](https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html) — *CNBC Markets*
-- [Poultry stocks rattled as Newcastle disease detected in Brazil](https://seekingalpha.com/news/4654342-poultry-stocks-rattled-as-newcastle-disease-detected-in-brazil?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Welltower stock may move 2.6% on Oct. 26 earnings release](https://www.investing.com/news/stock-market-news/welltower-stock-may-move-26-on-oct-26-earnings-release-93CH-4958153) — *Investing.com*
-- [Hub Group stock hits 52-week low at $25.62](https://www.investing.com/news/company-news/hub-group-stock-hits-52week-low-at-2562-93CH-4958152) — *Investing.com*
-- [Occidental Petroleum raised to Buy at Roth as one of better ways to play oil upside](https://seekingalpha.com/news/4654343-occidental-petroleum-raised-to-buy-at-roth-as-one-of-better-ways-to-play-oil-upside?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [French bond sell-off intensifies after violent protests](https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1) — *Financial Times*
-- [Zentalis rises as lead asset extends survival in mid-stage trial for ovarian cancer](https://seekingalpha.com/news/4654347-zentalis-stock-rises-cancer-trial-data?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Agenus at Chardan’s 10th annual healthcare conference: pivot to ROBIN](https://www.investing.com/news/transcripts/agenus-at-chardans-10th-annual-healthcare-conference-pivot-to-robin-93CH-4960788) — *Investing.com*
+- [Andrada Mining converts £577,845 in loan notes to equity](https://www.investing.com/news/company-news/andrada-mining-converts-577845-in-loan-notes-to-equity-93CH-4960787) — *Investing.com*
+- [Earnings call transcript: EssilorLuxottica posts strong Q3 2026 growth as wearables gain](https://www.investing.com/news/transcripts/earnings-call-transcript-essilorluxottica-posts-strong-q3-2026-growth-as-wearables-gain-93CH-4960786) — *Investing.com*
+- [Healios at Chardan’s 10th Annual Healthcare Conference: japan-first push](https://www.investing.com/news/transcripts/healios-at-chardans-10th-annual-healthcare-conference-japanfirst-push-93CH-4960785) — *Investing.com*
+- [Marriott Vacations completes $460 million loan securitization](https://www.investing.com/news/company-news/marriott-vacations-completes-460-million-loan-securitization-93CH-4960784) — *Investing.com*
+- [Nostrum Oil & Gas announces debt repayment following asset sale](https://www.investing.com/news/company-news/nostrum-oil--gas-announces-debt-repayment-following-asset-sale-93CH-4960782) — *Investing.com*
+- [Earnings call transcript: Western Alliance beats Q3 2026 estimates as stock rises](https://www.investing.com/news/transcripts/earnings-call-transcript-western-alliance-beats-q3-2026-estimates-as-stock-rises-93CH-4960781) — *Investing.com*
+- [One consortium moves ahead in the GFL Environmental sales process - CTFN](https://seekingalpha.com/news/4654770-one-consortium-moves-ahead-in-gfl-environmental-sales-process---ctfn?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Phillips 66 says locking out New Jersey refinery union workers after contract expired](https://seekingalpha.com/news/4654792-phillips-66-says-locking-out-new-jersey-refinery-union-workers-after-contract-expired?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Virtuix at LD Micro event: consumer growth and defense push](https://www.investing.com/news/transcripts/virtuix-at-ld-micro-event-consumer-growth-and-defense-push-93CH-4960779) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
