@@ -1082,33 +1082,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMD",
+      "ticker": "AERO-USD",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Drawdown -8.83%, Sharpe 3.14. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 75.0, Win Rate 61.2%, Avg 5d Return 8.92%, Max Drawdown -56.68%, Sharpe 3.92. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "AVGO",
+      "priority": "high",
+      "reason": "Stochastic RSI Oversold \u2014 Score 79.2, Win Rate 68.1%, Avg 5d Return 2.47%, Max Drawdown -47.04%, Sharpe 2.8. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
-      "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "BCH-USD",
+      "ticker": "XRP-USD",
       "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 58.1, Win Rate 56.8%, Avg 5d Return 2.47%, Max Drawdown -34.71%, Sharpe 1.52. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 64.9, Win Rate 46.1%, Avg 5d Return 3.55%, Max Drawdown -70.14%, Sharpe 1.93. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-20T21:01:59.339853",
+  "recommendations_updated": "2026-10-21T00:00:18.870070",
   "trade_log": [
     {
       "action": "SELL",
