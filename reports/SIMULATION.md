@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 166** &nbsp;·&nbsp; Updated: Oct 21 2026 05:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 166** &nbsp;·&nbsp; Updated: Oct 21 2026 09:03 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.75%** &nbsp; ($+5,344) |
-| SPY Benchmark | +9.35% &nbsp; ($+18,131 if 100% SPY) |
-| Alpha vs SPY | **-6.59%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.23% &nbsp; ($+17,898 if 100% SPY) |
+| Alpha vs SPY | **-6.47%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,344 |
 
@@ -137,33 +137,33 @@
 | 2026-10-16 | 📈 +2.69% | +7.84% | ❌ -5.14% |
 | 2026-10-19 | 📈 +2.73% | +8.29% | ❌ -5.56% |
 | 2026-10-20 | 📈 +2.74% | +8.65% | ❌ -5.91% |
-| 2026-10-21 | 📈 +2.75% | +9.34% | ❌ -6.59% |
+| 2026-10-21 | 📈 +2.75% | +9.23% | ❌ -6.47% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 21 2026 05:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 21 2026 09:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Supertrend — Bullish Flip — Score 80.0, Win Rate 62.5%, Avg 5d Return 2.71%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MSFT** | ADX Strong Trend — Bullish — Score 64.4, Win Rate 62.9%, Avg 5d Return 0.62%, Max Drawdown… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdown -21.55%, Sharpe 3.29. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — AMZN
-
-**Signal Analysis:** Supertrend — Bullish Flip — Score 80.0, Win Rate 62.5%, Avg 5d Return 2.71%, Max Drawdown -3.97%, Sharpe 3.3. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdown -21.55%, Sharpe 3.28. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
 **Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — MSFT
+
+**Signal Analysis:** ADX Strong Trend — Bullish — Score 64.4, Win Rate 62.9%, Avg 5d Return 0.62%, Max Drawdown -28.86%, Sharpe 1.55. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
