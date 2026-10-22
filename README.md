@@ -3,7 +3,7 @@
 Automated investment newsletter, intraday strategy alerts, and portfolio simulation.
 Powered by GitHub Actions — runs 24/7 with no PC required.
 
-**Last updated:** October 21, 2026 at 09:03 PM
+**Last updated:** October 22, 2026 at 12:04 AM
 
 ---
 
@@ -17,7 +17,7 @@ Powered by GitHub Actions — runs 24/7 with no PC required.
 
 ## Portfolio Simulation
 
-Day 166 &nbsp;·&nbsp; Portfolio **+2.75%** vs SPY +9.23% &nbsp;·&nbsp; Alpha ❌ **-6.47%**
+Day 167 &nbsp;·&nbsp; Portfolio **+2.77%** vs SPY +9.23% &nbsp;·&nbsp; Alpha ❌ **-6.46%**
 
 [Full details with equity curve →](reports/SIMULATION.md)
 

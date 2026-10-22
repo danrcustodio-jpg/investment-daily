@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 166** &nbsp;·&nbsp; Updated: Oct 21 2026 09:03 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 167** &nbsp;·&nbsp; Updated: Oct 22 2026 12:04 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.75%** &nbsp; ($+5,344) |
+| Portfolio P&L | **+2.77%** &nbsp; ($+5,368) |
 | SPY Benchmark | +9.23% &nbsp; ($+17,898 if 100% SPY) |
-| Alpha vs SPY | **-6.47%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-6.46%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,344 |
+| Current Value | $199,368 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+3,998 | +2.05% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,022 | +2.06% |
 
 ## Daily Equity Curve
 
@@ -138,32 +138,33 @@
 | 2026-10-19 | 📈 +2.73% | +8.29% | ❌ -5.56% |
 | 2026-10-20 | 📈 +2.74% | +8.65% | ❌ -5.91% |
 | 2026-10-21 | 📈 +2.75% | +9.23% | ❌ -6.47% |
+| 2026-10-22 | 📈 +2.77% | +9.23% | ❌ -6.46% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 21 2026 09:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 22 2026 12:04 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **MSFT** | ADX Strong Trend — Bullish — Score 64.4, Win Rate 62.9%, Avg 5d Return 0.62%, Max Drawdown… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 77.5, Win Rate 67.3%, Avg 5d Return 2.41%, Max Drawdown -4… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | RSI Oversold — Score 76.8, Win Rate 56.0%, Avg 5d Return 3.92%, Max Drawdown -30.68%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 61.0, Win Rate 71.3%, Avg 5d Return nan%, Max Drawdown nan… |
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — AVGO
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdown -21.55%, Sharpe 3.28. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 77.5, Win Rate 67.3%, Avg 5d Return 2.41%, Max Drawdown -47.04%, Sharpe 2.7. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — RKLB
+
+**Signal Analysis:** RSI Oversold — Score 76.8, Win Rate 56.0%, Avg 5d Return 3.92%, Max Drawdown -30.68%, Sharpe 2.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — MSFT
-
-**Signal Analysis:** ADX Strong Trend — Bullish — Score 64.4, Win Rate 62.9%, Avg 5d Return 0.62%, Max Drawdown -28.86%, Sharpe 1.55. No conflicting bearish signals.
+**Signal Analysis:** Stochastic RSI Oversold — Score 61.0, Win Rate 71.3%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
