@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, October 21, 2026
-Generated at 05:34 PM
+# Daily Newsletter — Thursday, October 22, 2026
+Generated at 05:30 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 97 total &nbsp;·&nbsp; 🟢 69 Bullish &nbsp;·&nbsp; 🔴 28 Bearish
+**Strategy Signals:** 144 total &nbsp;·&nbsp; 🟢 93 Bullish &nbsp;·&nbsp; 🔴 51 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $2.82 | 📉 -4.96% |
-| **CL=F** | Crude Oil | $96.99 | 📉 -4.72% |
-| **^VIX** | VIX (Fear Index) | $16.75 | 📉 -3.24% |
-| **ETH-USD** | Ethereum | $2512.93 | 📈 +2.71% |
-| **SOL-USD** | Solana | $108.48 | 📈 +1.93% |
-| **BTC-USD** | Bitcoin | $84538.94 | 📈 +1.93% |
-| **XLK** | Tech (XLK) | $188.69 | 📈 +1.75% |
-| **^IXIC** | NASDAQ | $26739.50 | 📈 +1.19% |
-| **XLI** | Industrials (XLI) | $168.57 | 📈 +1.06% |
-| **XLV** | Healthcare (XLV) | $178.39 | 📉 -0.80% |
+| **^VIX** | VIX (Fear Index) | $19.09 | 📈 +14.45% |
+| **SI=F** | Silver | $54.94 | 📉 -4.33% |
+| **ETH-USD** | Ethereum | $2377.59 | 📉 -3.77% |
+| **^TNX** | 10-Year Treasury Yield | $4.97 | 📉 -3.52% |
+| **BTC-USD** | Bitcoin | $81253.43 | 📉 -3.28% |
+| **XLK** | Tech (XLK) | $182.50 | 📉 -3.20% |
+| **SOL-USD** | Solana | $103.72 | 📉 -2.88% |
+| **^TYX** | 30-Year Treasury Yield | $5.30 | 📉 -2.56% |
+| **^IXIC** | NASDAQ | $26048.93 | 📉 -2.45% |
+| **CL=F** | Crude Oil | $99.27 | 📈 +2.18% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
 | 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 89.1 | 100.0% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.2 | 68.2% |
-| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 82.6 | 74.5% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 82.0 | 73.8% |
-| 🟢 BULLISH | **AMZN** | Supertrend — Bullish Flip | 80.0 | 62.5% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 79.6 | 69.2% |
-| 🟢 BULLISH | **AVGO** | Stochastic RSI Oversold | 79.2 | 68.1% |
-| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 77.5 | 66.7% |
-| 🟢 BULLISH | **XLK** | Stochastic (Full) — Oversold | 77.4 | 67.7% |
-| 🟢 BULLISH | **AMD** | Fisher Transform — Low Extreme | 77.3 | 66.7% |
-| 🟢 BULLISH | **SMH** | Fisher Transform — Low Extreme | 75.0 | 75.0% |
-| 🟢 BULLISH | **XLK** | Stochastic RSI Oversold | 74.9 | 67.1% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.7 | 80.0% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 84.3 | 75.0% |
+| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 84.0 | 80.0% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.0 | 68.0% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 82.8 | 74.5% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 82.7 | 73.2% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 82.4 | 73.5% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 81.9 | 72.9% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.1 | 71.6% |
+| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 80.9 | 73.9% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 78.9 | 67.5% |
 
 ## Latest News
 
-- [JPM sees Corning posting strong revenue on AI demand](https://seekingalpha.com/news/4655422-jpm-sees-corning-posting-strong-revenue-on-ai-demand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case](https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html) — *CNBC Markets*
-- [How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier](https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html) — *CNBC Markets*
-- [New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking](https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html) — *CNBC Markets*
-- [Interest rates should be raised as insurance against persistent inflation – economist](https://seekingalpha.com/news/4655415-interest-rates-should-be-raised-as-insurance-against-persistent-inflation-economist?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Carpenter Technology Q1 2027 Earnings Preview](https://seekingalpha.com/news/4655410-carpenter-technology-q1-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Reliance’s Ambani meets Marco Rubio in Jamnagar](https://www.investing.com/news/stock-market-news/reliances-ambani-meets-marco-rubio-in-jamnagar-93CH-4963766) — *Investing.com*
-- [Ryder Q3 2026 Earnings Preview](https://seekingalpha.com/news/4655409-ryder-q3-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Quest Diagnostics Q3 2026 Earnings Preview](https://seekingalpha.com/news/4655408-quest-diagnostics-q3-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [United States Antimony at LD Micro event: growth meets price pressure](https://www.investing.com/news/transcripts/united-states-antimony-at-ld-micro-event-growth-meets-price-pressure-93CH-4963764) — *Investing.com*
+- [Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath](https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories) — *MarketWatch*
+- [The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.](https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories) — *MarketWatch*
+- [Undervalued technology stocks to watch as Q3 earnings season unfolds](https://seekingalpha.com/news/4656082-undervalued-technology-stocks-to-watch-as-q3-earnings-season-unfolds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Gruma, S.A.B. de C.V. reports Q3 results](https://seekingalpha.com/news/4656087-gruma-s-a-b-de-c-v-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.](https://www.marketwatch.com/story/young-investors-are-betting-on-prediction-markets-and-crypto-but-this-bestselling-author-says-the-boring-money-moves-still-work-cd9d350a?mod=mw_rss_topstories) — *MarketWatch*
+- [Pinnacle outlines $150M-$160M 2026 BHG income while targeting 10.25% CET1 and March 2027 conversion](https://seekingalpha.com/news/4656086-pinnacle-outlines-150m-160m-2026-bhg-income-while-targeting-10_25-percent-cet1-and-march-2027?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Casino comeback: Analysts expect Las Vegas Sands to bounce back](https://seekingalpha.com/news/4655961-casino-comeback-analysts-expect-las-vegas-sands-to-bounce-back?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Dow expects about $1.5B Q4 EBITDA while targeting $1.3B of self-help benefits in 2027](https://seekingalpha.com/news/4656085-dow-expects-about-1_5b-q4-ebitda-while-targeting-1_3b-of-self-help-benefits-in-2027?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SA analyst upgrades/downgrades: META, AVGO, SPCX, ED](https://seekingalpha.com/news/4656080-sa-analyst-upgradesdowngrades-meta-avgo-spcx-ed?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Midwest pump prices surge after disruption at Exxon's Illinois refinery](https://seekingalpha.com/news/4656076-midwest-pump-prices-surge-after-disruption-at-exxons-illinois-refinery?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

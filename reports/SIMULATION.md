@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 167** &nbsp;·&nbsp; Updated: Oct 22 2026 12:04 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 167** &nbsp;·&nbsp; Updated: Oct 22 2026 05:30 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.77%** &nbsp; ($+5,368) |
-| SPY Benchmark | +9.23% &nbsp; ($+17,898 if 100% SPY) |
-| Alpha vs SPY | **-6.46%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.83% &nbsp; ($+15,198 if 100% SPY) |
+| Alpha vs SPY | **-5.07%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,368 |
 
@@ -142,29 +142,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 22 2026 12:04 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 22 2026 05:30 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AVGO** | Stochastic RSI Oversold — Score 77.5, Win Rate 67.3%, Avg 5d Return 2.41%, Max Drawdown -4… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | RSI Oversold — Score 76.8, Win Rate 56.0%, Avg 5d Return 3.92%, Max Drawdown -30.68%, Shar… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 61.0, Win Rate 71.3%, Avg 5d Return nan%, Max Drawdown nan… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLK** | Williams %R — Oversold — Score 82.8, Win Rate 74.5%, Avg 5d Return 2.03%, Max Drawdown -23… |
 
-### 🔍 NEW OPPORTUNITY — AVGO
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 77.5, Win Rate 67.3%, Avg 5d Return 2.41%, Max Drawdown -47.04%, Sharpe 2.7. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RKLB
-
-**Signal Analysis:** RSI Oversold — Score 76.8, Win Rate 56.0%, Avg 5d Return 3.92%, Max Drawdown -30.68%, Sharpe 2.29. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 77.5, Win Rate 66.7%, Avg 5d Return 2.83%, Max Drawdown -21.55%, Sharpe 3.28. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 61.0, Win Rate 71.3%, Avg 5d Return nan%, Max Drawdown nan%, Sharpe 0.0. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 68.4.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XLK
+
+**Signal Analysis:** Williams %R — Oversold — Score 82.8, Win Rate 74.5%, Avg 5d Return 2.03%, Max Drawdown -23.33%, Sharpe 3.13. 1 minor bearish signal(s), max confidence 66.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
