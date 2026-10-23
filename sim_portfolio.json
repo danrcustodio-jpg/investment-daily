@@ -1100,18 +1100,18 @@
       "date": "2026-10-23",
       "total_value": 199391.81,
       "portfolio_pnl": 2.779,
-      "benchmark_pnl": 7.427,
+      "benchmark_pnl": 7.372,
       "prices": {
-        "SPY": 760.3599853515625
+        "SPY": 759.969970703125
       }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMD",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Drawdown -8.83%, Sharpe 3.14. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1120,7 +1120,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 67.8.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 67.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1135,7 +1135,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-23T17:37:54.410801",
+  "recommendations_updated": "2026-10-23T20:49:53.058059",
   "trade_log": [
     {
       "action": "SELL",

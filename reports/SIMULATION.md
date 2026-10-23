@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 168** &nbsp;·&nbsp; Updated: Oct 23 2026 05:37 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 168** &nbsp;·&nbsp; Updated: Oct 23 2026 08:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.78%** &nbsp; ($+5,392) |
-| SPY Benchmark | +7.43% &nbsp; ($+14,406 if 100% SPY) |
-| Alpha vs SPY | **-4.65%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.37% &nbsp; ($+14,302 if 100% SPY) |
+| Alpha vs SPY | **-4.59%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,392 |
 
@@ -139,27 +139,27 @@
 | 2026-10-20 | 📈 +2.74% | +8.65% | ❌ -5.91% |
 | 2026-10-21 | 📈 +2.75% | +9.23% | ❌ -6.47% |
 | 2026-10-22 | 📈 +2.77% | +7.94% | ❌ -5.17% |
-| 2026-10-23 | 📈 +2.78% | +7.43% | ❌ -4.65% |
+| 2026-10-23 | 📈 +2.78% | +7.37% | ❌ -4.59% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 23 2026 05:37 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 23 2026 08:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Fisher Transform — Low Extreme — Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Dra… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Elder Force — Bullish — Score 58.9, Win Rate 56.8%, Avg 5d Return 2.57%, Max Drawdown -34.… |
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 77.3, Win Rate 66.7%, Avg 5d Return 3.38%, Max Drawdown -8.83%, Sharpe 3.14. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 67.8.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 89.1, Win Rate 100.0%, Avg 5d Return 8.35%, Max Drawdown 0.0%, Sharpe 10.19. 1 minor bearish signal(s), max confidence 67.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
