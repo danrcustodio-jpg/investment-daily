@@ -1109,6 +1109,15 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
+      "ticker": "AMD",
+      "priority": "high",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 77.7, Win Rate 66.7%, Avg 5d Return 2.81%, Max Drawdown -21.55%, Sharpe 3.25. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
       "ticker": "GOOGL",
       "priority": "high",
       "reason": "RSI Oversold \u2014 Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. No conflicting bearish signals.",
@@ -1124,18 +1133,9 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "BCH-USD",
-      "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 58.9, Win Rate 56.8%, Avg 5d Return 2.57%, Max Drawdown -34.71%, Sharpe 1.56. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-10-23T23:41:49.510580",
+  "recommendations_updated": "2026-10-24T16:10:36.953343",
   "trade_log": [
     {
       "action": "SELL",
