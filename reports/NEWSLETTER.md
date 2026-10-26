@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, October 25, 2026
-Generated at 04:42 PM
+# Daily Newsletter — Monday, October 26, 2026
+Generated at 06:50 PM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 148 total &nbsp;·&nbsp; 🟢 103 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
+**Strategy Signals:** 111 total &nbsp;·&nbsp; 🟢 78 Bullish &nbsp;·&nbsp; 🔴 33 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.05 | 📈 +9.08% |
-| **CL=F** | Crude Oil | $103.27 | 📈 +3.82% |
-| **XLE** | Energy (XLE) | $69.33 | 📈 +2.60% |
-| **^VIX** | VIX (Fear Index) | $19.45 | 📈 +2.21% |
-| **XLY** | Consumer Disc. (XLY) | $113.10 | 📉 -1.66% |
-| **SI=F** | Silver | $53.95 | 📉 -1.49% |
-| **XLF** | Financials (XLF) | $55.90 | 📉 -1.32% |
-| **GC=F** | Gold | $4007.90 | 📉 -1.29% |
-| **XLI** | Industrials (XLI) | $164.62 | 📉 -1.27% |
-| **^DJI** | Dow Jones | $52215.16 | 📉 -1.23% |
+| **NG=F** | Natural Gas | $3.02 | 📈 +14.39% |
+| **^VIX** | VIX (Fear Index) | $18.38 | 📉 -5.50% |
+| **XLK** | Tech (XLK) | $186.83 | 📈 +1.96% |
+| **XLI** | Industrials (XLI) | $167.07 | 📈 +1.49% |
+| **CL=F** | Crude Oil | $101.88 | 📉 -1.35% |
+| **XLY** | Consumer Disc. (XLY) | $114.24 | 📈 +1.00% |
+| **^IXIC** | NASDAQ | $26197.60 | 📈 +0.93% |
+| **SOL-USD** | Solana | $100.35 | 📉 -0.86% |
+| **^GSPC** | S&P 500 | $7678.65 | 📈 +0.72% |
+| **VOO** | S&P 500 (VOO) | $703.52 | 📈 +0.71% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 89.1 | 100.0% |
 | 🟢 BULLISH | **GOOGL** | RSI Oversold | 88.8 | 87.5% |
-| 🟢 BULLISH | **ARKK** | MFI — Oversold | 86.3 | 78.9% |
-| 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 85.8 | 76.9% |
-| 🟢 BULLISH | **GC=F** | RSI Oversold | 85.7 | 78.6% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 85.2 | 78.8% |
-| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 84.0 | 80.0% |
-| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 83.5 | 76.9% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 83.1 | 68.2% |
+| 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 85.8 | 91.7% |
+| 🟢 BULLISH | **AVGO** | Fisher Transform — Low Extreme | 84.6 | 80.8% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 82.9 | 68.2% |
 | 🟢 BULLISH | **XLE** | 52-Week Breakout | 82.8 | 75.0% |
-| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 82.3 | 72.2% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 82.2 | 72.9% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 82.4 | 76.9% |
+| 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 81.9 | 71.2% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 81.0 | 71.4% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 80.8 | 70.0% |
+| 🟢 BULLISH | **META** | Fisher Transform — Low Extreme | 78.9 | 68.6% |
+| 🟢 BULLISH | **TQQQ** | Fisher Transform — Low Extreme | 78.8 | 76.5% |
+| 🟢 BULLISH | **GOOGL** | Keltner — Lower Channel Touch | 78.2 | 66.7% |
 
 ## Latest News
 
-- [Hamilton Enhanced Bitcoin DayMAX™ ETF declares CAD0.215 dividend](https://seekingalpha.com/news/4656959-hamilton-enhanced-bitcoin-daymax-etf-declares-cad0215-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Netflix viewing is said to fall as engagement weakens, raising growth concerns](https://seekingalpha.com/news/4656957-netflix-viewing-is-said-to-fall-as-engagement-weakens-raising-growth-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hamilton Enhanced Technology DayMAX™ ETF declares CAD 0.225 dividend](https://seekingalpha.com/news/4656958-hamilton-enhanced-technology-daymax-etf-declares-cad-0_225-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hamilton Enhanced U.S. Equity DayMAX™ ETF declares CAD 0.185 dividend](https://seekingalpha.com/news/4656956-hamilton-enhanced-u-s-equity-daymax-etf-declares-cad-0_185-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Hamilton Enhanced Canadian Equity DayMAX™ ETF declares CAD0.212 dividend](https://seekingalpha.com/news/4656955-hamilton-enhanced-canadian-equity-daymax-etf-declares-cad0212-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [AstraZeneca stomach cancer drug doubles survival in late-stage trial](https://seekingalpha.com/news/4656953-astrazeneca-stomach-cancer-drug-doubles-survival-in-late-stage-trial?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [U.S., Canada nearing trade deal as negotiations gain momentum, Hassett says](https://seekingalpha.com/news/4656952-u-s-canada-nearing-trade-deal-as-negotiations-gain-momentum-hassett-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs](https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html) — *CNBC Markets*
-- [Marco Rubio still owes Europe answers about America’s intentions](https://www.ft.com/content/899bc060-3f17-4ed9-bea7-710c467d92fd) — *Financial Times*
-- [Audi defends decision to stand by Trump on $4 billion US factory in Georgia](https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975) — *Investing.com*
+- [Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers](https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html) — *CNBC Markets*
+- [Apple responds to user reports of broken iPhone Duo screens on new foldable phone](https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html) — *CNBC Markets*
+- [FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers](https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html) — *CNBC Markets*
+- [Anthropic’s soaring sales, steep losses put AI frenzy to IPO test](https://www.investing.com/news/stock-market-news/anthropic-opens-books-on-ais-explosive-growth-and-staggering-costs-4972801) — *Investing.com*
+- [Aardvark Therapeutics stock rating cut to Perform by Oppenheimer](https://www.investing.com/news/analyst-ratings/aardvark-therapeutics-stock-rating-cut-to-perform-by-oppenheimer-93CH-4973421) — *Investing.com*
+- [Ryder System stock hits all-time high at 284.62 USD](https://www.investing.com/news/company-news/ryder-system-stock-hits-alltime-high-at-28462-usd-93CH-4973420) — *Investing.com*
+- [Alpha Growth Outlines Institutional Blueprint to Attract and Retain Sustainable DeFi TVL](https://www.investing.com/news/cryptocurrency-news/alpha-growth-outlines-institutional-blueprint-to-attract-and-retain-sustainable-defi-tvl-4973419) — *Investing.com*
+- [Top infrastructure software stocks ahead of earnings: BofA Securities](https://www.investing.com/news/stock-market-news/top-infrastructure-software-stocks-ahead-of-earnings-bofa-securities-4973417) — *Investing.com*
+- [Peabody Energy raised to Buy at B. Riley on 'compelling' valuation](https://seekingalpha.com/news/4657453-peabody-energy-raised-to-buy-at-b-riley-on-compelling-valuation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering](https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*
