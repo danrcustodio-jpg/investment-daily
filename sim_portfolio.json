@@ -1109,9 +1109,9 @@
       "date": "2026-10-26",
       "total_value": 199464.06,
       "portfolio_pnl": 2.817,
-      "benchmark_pnl": 8.104,
+      "benchmark_pnl": 8.135,
       "prices": {
-        "SPY": 765.1500244140625
+        "SPY": 765.3699951171875
       }
     }
   ],
@@ -1120,7 +1120,7 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "AMD",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 77.9, Win Rate 66.1%, Avg 5d Return 2.81%, Max Drawdown -21.55%, Sharpe 3.23. No conflicting bearish signals.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 77.9, Win Rate 66.1%, Avg 5d Return 2.81%, Max Drawdown -21.55%, Sharpe 3.22. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1138,13 +1138,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 85.8, Win Rate 91.7%, Avg 5d Return 7.62%, Max Drawdown -0.38%, Sharpe 8.85. 1 minor bearish signal(s), max confidence 67.3.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 85.8, Win Rate 91.7%, Avg 5d Return 7.61%, Max Drawdown -0.5%, Sharpe 8.82. 1 minor bearish signal(s), max confidence 67.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-26T18:58:28.972252",
+  "recommendations_updated": "2026-10-26T23:00:01.446916",
   "trade_log": [
     {
       "action": "SELL",
