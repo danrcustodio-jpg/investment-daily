@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 171** &nbsp;·&nbsp; Updated: Oct 26 2026 11:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 172** &nbsp;·&nbsp; Updated: Oct 27 2026 06:10 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.82%** &nbsp; ($+5,464) |
-| SPY Benchmark | +8.13% &nbsp; ($+15,782 if 100% SPY) |
-| Alpha vs SPY | **-5.32%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.83%** &nbsp; ($+5,488) |
+| SPY Benchmark | +8.70% &nbsp; ($+16,879 if 100% SPY) |
+| Alpha vs SPY | **-5.87%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,464 |
+| Current Value | $199,488 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,118 | +2.11% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,142 | +2.12% |
 
 ## Daily Equity Curve
 
@@ -144,29 +144,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 26 2026 11:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 27 2026 06:10 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 77.9, Win Rate 66.1%, Avg 5d Return 2.81%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 85.8, Win Rate 91.7%, Avg 5d Return 7.61%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Parabolic SAR — Bullish — Score 73.8, Win Rate 63.3%, Avg 5d Return 3.51%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Keltner — Lower Channel Touch — Score 78.2, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.26%, Max Drawdo… |
 
-### 🔍 NEW OPPORTUNITY — AMD
+### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 77.9, Win Rate 66.1%, Avg 5d Return 2.81%, Max Drawdown -21.55%, Sharpe 3.22. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 73.8, Win Rate 63.3%, Avg 5d Return 3.51%, Max Drawdown -23.35%, Sharpe 2.21. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 78.2, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawdown -20.69%, Sharpe 2.88. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 85.8, Win Rate 91.7%, Avg 5d Return 7.61%, Max Drawdown -0.5%, Sharpe 8.82. 1 minor bearish signal(s), max confidence 67.2.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.26%, Max Drawdown -13.22%, Sharpe 5.11. 1 minor bearish signal(s), max confidence 67.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
