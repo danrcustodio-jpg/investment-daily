@@ -1118,9 +1118,9 @@
       "date": "2026-10-27",
       "total_value": 199488.14,
       "portfolio_pnl": 2.829,
-      "benchmark_pnl": 8.672,
+      "benchmark_pnl": 8.741,
       "prices": {
-        "SPY": 769.1699829101562
+        "SPY": 769.6599731445312
       }
     }
   ],
@@ -1147,13 +1147,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "NVDA",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 81.0, Win Rate 70.6%, Avg 5d Return 4.26%, Max Drawdown -13.22%, Sharpe 5.11. 1 minor bearish signal(s), max confidence 67.5.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 81.0, Win Rate 70.6%, Avg 5d Return 4.27%, Max Drawdown -13.22%, Sharpe 5.11. 1 minor bearish signal(s), max confidence 67.5.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-27T18:29:54.638053",
+  "recommendations_updated": "2026-10-27T22:30:27.401925",
   "trade_log": [
     {
       "action": "SELL",

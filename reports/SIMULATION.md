@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 172** &nbsp;·&nbsp; Updated: Oct 27 2026 06:29 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 172** &nbsp;·&nbsp; Updated: Oct 27 2026 10:30 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.83%** &nbsp; ($+5,488) |
-| SPY Benchmark | +8.67% &nbsp; ($+16,825 if 100% SPY) |
-| Alpha vs SPY | **-5.84%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.74% &nbsp; ($+16,958 if 100% SPY) |
+| Alpha vs SPY | **-5.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,488 |
 
@@ -141,17 +141,17 @@
 | 2026-10-22 | 📈 +2.77% | +7.94% | ❌ -5.17% |
 | 2026-10-23 | 📈 +2.78% | +7.37% | ❌ -4.59% |
 | 2026-10-26 | 📈 +2.82% | +8.13% | ❌ -5.32% |
-| 2026-10-27 | 📈 +2.83% | +8.67% | ❌ -5.84% |
+| 2026-10-27 | 📈 +2.83% | +8.74% | ❌ -5.91% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 27 2026 06:29 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 27 2026 10:30 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Parabolic SAR — Bullish — Score 73.8, Win Rate 63.3%, Avg 5d Return 3.51%, Max Drawdown -2… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | Keltner — Lower Channel Touch — Score 78.2, Win Rate 66.7%, Avg 5d Return 2.12%, Max Drawd… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.26%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.27%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — BCH-USD
 
@@ -167,7 +167,7 @@ _Evaluated Oct 27 2026 06:29 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.26%, Max Drawdown -13.22%, Sharpe 5.11. 1 minor bearish signal(s), max confidence 67.5.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 81.0, Win Rate 70.6%, Avg 5d Return 4.27%, Max Drawdown -13.22%, Sharpe 5.11. 1 minor bearish signal(s), max confidence 67.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
