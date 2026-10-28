@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 173** &nbsp;·&nbsp; Updated: Oct 28 2026 06:35 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 173** &nbsp;·&nbsp; Updated: Oct 28 2026 10:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.84%** &nbsp; ($+5,512) |
-| SPY Benchmark | +9.00% &nbsp; ($+17,462 if 100% SPY) |
-| Alpha vs SPY | **-6.16%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.12% &nbsp; ($+17,684 if 100% SPY) |
+| Alpha vs SPY | **-6.27%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,512 |
 
@@ -142,17 +142,17 @@
 | 2026-10-23 | 📈 +2.78% | +7.37% | ❌ -4.59% |
 | 2026-10-26 | 📈 +2.82% | +8.13% | ❌ -5.32% |
 | 2026-10-27 | 📈 +2.83% | +8.74% | ❌ -5.91% |
-| 2026-10-28 | 📈 +2.84% | +9.01% | ❌ -6.17% |
+| 2026-10-28 | 📈 +2.84% | +9.12% | ❌ -6.27% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 28 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 28 2026 10:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 75.5, Win Rate 62.5%, Avg 5d Return 3.39%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CL=F** | Elder Force — Bullish — Score 73.2, Win Rate 55.3%, Avg 5d Return 2.27%, Max Drawdown -18.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 75.7, Win Rate 64.3%, Avg 5d Return 4.46%, Max Drawdown -1… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | VWAP Deviation — Oversold — Score 66.4, Win Rate 62.1%, Avg 5d Return 1.69%, Max Drawdown … |
 
 ### 🔍 NEW OPPORTUNITY — APP
 
@@ -160,15 +160,15 @@ _Evaluated Oct 28 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — CL=F
+### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** Elder Force — Bullish — Score 73.2, Win Rate 55.3%, Avg 5d Return 2.27%, Max Drawdown -18.17%, Sharpe 2.06. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 75.7, Win Rate 64.3%, Avg 5d Return 4.46%, Max Drawdown -17.22%, Sharpe 4.02. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — CRWD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, Sharpe 3.34. 2 minor bearish signal(s), max confidence 53.4.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 66.4, Win Rate 62.1%, Avg 5d Return 1.69%, Max Drawdown -43.96%, Sharpe 2.13. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
