@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 173** &nbsp;·&nbsp; Updated: Oct 28 2026 06:26 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 173** &nbsp;·&nbsp; Updated: Oct 28 2026 06:35 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.84%** &nbsp; ($+5,512) |
-| SPY Benchmark | +8.84% &nbsp; ($+17,158 if 100% SPY) |
-| Alpha vs SPY | **-6.00%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +9.00% &nbsp; ($+17,462 if 100% SPY) |
+| Alpha vs SPY | **-6.16%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,512 |
 
@@ -142,10 +142,11 @@
 | 2026-10-23 | 📈 +2.78% | +7.37% | ❌ -4.59% |
 | 2026-10-26 | 📈 +2.82% | +8.13% | ❌ -5.32% |
 | 2026-10-27 | 📈 +2.83% | +8.74% | ❌ -5.91% |
+| 2026-10-28 | 📈 +2.84% | +9.01% | ❌ -6.17% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 28 2026 06:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 28 2026 06:35 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -167,7 +168,7 @@ _Evaluated Oct 28 2026 06:26 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, Sharpe 3.34. 2 minor bearish signal(s), max confidence 53.3.
+**Signal Analysis:** Vortex — Bullish — Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, Sharpe 3.34. 2 minor bearish signal(s), max confidence 53.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

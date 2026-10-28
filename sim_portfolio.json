@@ -1122,6 +1122,15 @@
       "prices": {
         "SPY": 769.6599731445312
       }
+    },
+    {
+      "date": "2026-10-28",
+      "total_value": 199512.22,
+      "portfolio_pnl": 2.841,
+      "benchmark_pnl": 9.01,
+      "prices": {
+        "SPY": 771.5599975585938
+      }
     }
   ],
   "recommendations": [
@@ -1147,13 +1156,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CRWD",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, Sharpe 3.34. 2 minor bearish signal(s), max confidence 53.3.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 85.0, Win Rate 75.0%, Avg 5d Return 3.89%, Max Drawdown -18.53%, Sharpe 3.34. 2 minor bearish signal(s), max confidence 53.4.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-28T18:26:58.350228",
+  "recommendations_updated": "2026-10-28T18:35:35.263482",
   "trade_log": [
     {
       "action": "SELL",
