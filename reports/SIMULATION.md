@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 173** &nbsp;·&nbsp; Updated: Oct 28 2026 10:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 174** &nbsp;·&nbsp; Updated: Oct 29 2026 06:36 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.84%** &nbsp; ($+5,512) |
-| SPY Benchmark | +9.12% &nbsp; ($+17,684 if 100% SPY) |
-| Alpha vs SPY | **-6.27%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.85%** &nbsp; ($+5,536) |
+| SPY Benchmark | +8.37% &nbsp; ($+16,241 if 100% SPY) |
+| Alpha vs SPY | **-5.52%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,512 |
+| Current Value | $199,536 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,166 | +2.13% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,191 | +2.15% |
 
 ## Daily Equity Curve
 
@@ -146,29 +146,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 28 2026 10:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 29 2026 06:36 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | Fisher Transform — Low Extreme — Score 75.5, Win Rate 62.5%, Avg 5d Return 3.39%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | Parabolic SAR — Bullish — Score 75.7, Win Rate 64.3%, Avg 5d Return 4.46%, Max Drawdown -1… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | VWAP Deviation — Oversold — Score 66.4, Win Rate 62.1%, Avg 5d Return 1.69%, Max Drawdown … |
-
-### 🔍 NEW OPPORTUNITY — APP
-
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 75.5, Win Rate 62.5%, Avg 5d Return 3.39%, Max Drawdown -30.86%, Sharpe 2.61. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — SOL-USD
-
-**Signal Analysis:** Parabolic SAR — Bullish — Score 75.7, Win Rate 64.3%, Avg 5d Return 4.46%, Max Drawdown -17.22%, Sharpe 4.02. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.0, Win Rate 78.3%, Avg 5d Return 4.11%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | MACD Bullish Crossover — Score 75.5, Win Rate 62.5%, Avg 5d Return 4.63%, Max Drawdown -22… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 66.4, Win Rate 62.1%, Avg 5d Return 1.69%, Max Drawdown -43.96%, Sharpe 2.13. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. 1 minor bearish signal(s), max confidence 73.9.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Williams %R — Oversold — Score 85.0, Win Rate 78.3%, Avg 5d Return 4.11%, Max Drawdown -19.07%, Sharpe 5.16. 1 minor bearish signal(s), max confidence 66.6.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — RKLB
+
+**Signal Analysis:** MACD Bullish Crossover — Score 75.5, Win Rate 62.5%, Avg 5d Return 4.63%, Max Drawdown -22.02%, Sharpe 2.44. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

@@ -1136,33 +1136,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "GOOGL",
       "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 75.5, Win Rate 62.5%, Avg 5d Return 3.39%, Max Drawdown -30.86%, Sharpe 2.61. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 88.8, Win Rate 87.5%, Avg 5d Return 4.16%, Max Drawdown -2.61%, Sharpe 7.3. 1 minor bearish signal(s), max confidence 73.9.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SOL-USD",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "Parabolic SAR \u2014 Bullish \u2014 Score 75.7, Win Rate 64.3%, Avg 5d Return 4.46%, Max Drawdown -17.22%, Sharpe 4.02. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 85.0, Win Rate 78.3%, Avg 5d Return 4.11%, Max Drawdown -19.07%, Sharpe 5.16. 1 minor bearish signal(s), max confidence 66.6.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
-      "priority": "medium",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 66.4, Win Rate 62.1%, Avg 5d Return 1.69%, Max Drawdown -43.96%, Sharpe 2.13. No conflicting bearish signals.",
+      "ticker": "RKLB",
+      "priority": "high",
+      "reason": "MACD Bullish Crossover \u2014 Score 75.5, Win Rate 62.5%, Avg 5d Return 4.63%, Max Drawdown -22.02%, Sharpe 2.44. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-28T22:56:06.618484",
+  "recommendations_updated": "2026-10-29T18:36:48.730788",
   "trade_log": [
     {
       "action": "SELL",
