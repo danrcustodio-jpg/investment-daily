@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 06:08 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 06:21 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.87%** &nbsp; ($+5,560) |
-| SPY Benchmark | +6.49% &nbsp; ($+12,589 if 100% SPY) |
-| Alpha vs SPY | **-3.62%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.52% &nbsp; ($+12,647 if 100% SPY) |
+| Alpha vs SPY | **-3.65%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,560 |
 
@@ -144,16 +144,17 @@
 | 2026-10-27 | 📈 +2.83% | +8.74% | ❌ -5.91% |
 | 2026-10-28 | 📈 +2.84% | +9.12% | ❌ -6.27% |
 | 2026-10-29 | 📈 +2.85% | +8.70% | ❌ -5.84% |
+| 2026-10-30 | 📈 +2.87% | +6.52% | ❌ -3.65% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 30 2026 06:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 30 2026 06:21 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 73.4, Win Rate 60.0%, Avg 5d Return 5.8%, Max Drawdown -66.94%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | RSI Oversold — Score 78.5, Win Rate 64.5%, Avg 5d Return 12.48%, Max Drawdown -22.52%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
 
 ### 🔍 NEW OPPORTUNITY — ADA-USD
 
@@ -161,15 +162,15 @@ _Evaluated Oct 30 2026 06:08 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — APP
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** RSI Oversold — Score 78.5, Win Rate 64.5%, Avg 5d Return 12.48%, Max Drawdown -22.52%, Sharpe 3.25. No conflicting bearish signals.
+**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.98. 1 minor bearish signal(s), max confidence 65.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.99. 1 minor bearish signal(s), max confidence 65.3.
+**Signal Analysis:** 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.32. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

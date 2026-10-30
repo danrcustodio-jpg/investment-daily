@@ -1140,6 +1140,15 @@
       "prices": {
         "SPY": 769.3599853515625
       }
+    },
+    {
+      "date": "2026-10-30",
+      "total_value": 199560.39,
+      "portfolio_pnl": 2.866,
+      "benchmark_pnl": 6.519,
+      "prices": {
+        "SPY": 753.9299926757812
+      }
     }
   ],
   "recommendations": [
@@ -1154,24 +1163,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "APP",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 78.5, Win Rate 64.5%, Avg 5d Return 12.48%, Max Drawdown -22.52%, Sharpe 3.25. No conflicting bearish signals.",
+      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.98. 1 minor bearish signal(s), max confidence 65.3.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
+      "ticker": "XLE",
       "priority": "high",
-      "reason": "Williams %R \u2014 Oversold \u2014 Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.99. 1 minor bearish signal(s), max confidence 65.3.",
+      "reason": "52-Week Breakout \u2014 Score 83.0, Win Rate 75.6%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.32. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-30T18:08:48.182182",
+  "recommendations_updated": "2026-10-30T18:21:12.438689",
   "trade_log": [
     {
       "action": "SELL",
