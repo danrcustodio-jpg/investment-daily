@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 06:21 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 10:32 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.87%** &nbsp; ($+5,560) |
-| SPY Benchmark | +6.52% &nbsp; ($+12,647 if 100% SPY) |
-| Alpha vs SPY | **-3.65%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.77% &nbsp; ($+13,137 if 100% SPY) |
+| Alpha vs SPY | **-3.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,560 |
 
@@ -144,35 +144,35 @@
 | 2026-10-27 | 📈 +2.83% | +8.74% | ❌ -5.91% |
 | 2026-10-28 | 📈 +2.84% | +9.12% | ❌ -6.27% |
 | 2026-10-29 | 📈 +2.85% | +8.70% | ❌ -5.84% |
-| 2026-10-30 | 📈 +2.87% | +6.52% | ❌ -3.65% |
+| 2026-10-30 | 📈 +2.87% | +6.77% | ❌ -3.91% |
 
 ## Strategy Advisor
 
-_Evaluated Oct 30 2026 06:21 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 30 2026 10:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 73.4, Win Rate 60.0%, Avg 5d Return 5.8%, Max Drawdown -66.94%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.34%, Max Drawdown -16.96%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 86.7, Win Rate 82.4%, Avg 5d Return 3.18%, Max Drawdown -12.61%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sha… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Elder Force — Bullish — Score 55.8, Win Rate 57.5%, Avg 5d Return 2.04%, Max Drawdown -34.… |
 
-### 🔍 NEW OPPORTUNITY — ADA-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 73.4, Win Rate 60.0%, Avg 5d Return 5.8%, Max Drawdown -66.94%, Sharpe 2.24. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 86.7, Win Rate 82.4%, Avg 5d Return 3.18%, Max Drawdown -12.61%, Sharpe 3.91. 1 minor bearish signal(s), max confidence 48.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — MSFT
+
+**Signal Analysis:** MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sharpe 4.23. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — BCH-USD
+
+**Signal Analysis:** Elder Force — Bullish — Score 55.8, Win Rate 57.5%, Avg 5d Return 2.04%, Max Drawdown -34.71%, Sharpe 1.36. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — NVDA
-
-**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.98. 1 minor bearish signal(s), max confidence 65.3.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — XLE
-
-**Signal Analysis:** 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.34%, Max Drawdown -16.96%, Sharpe 3.32. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
