@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 174** &nbsp;·&nbsp; Updated: Oct 29 2026 11:03 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 06:08 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.85%** &nbsp; ($+5,536) |
-| SPY Benchmark | +8.70% &nbsp; ($+16,876 if 100% SPY) |
-| Alpha vs SPY | **-5.85%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.87%** &nbsp; ($+5,560) |
+| SPY Benchmark | +6.49% &nbsp; ($+12,589 if 100% SPY) |
+| Alpha vs SPY | **-3.62%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,536 |
+| Current Value | $199,560 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,191 | +2.15% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,215 | +2.16% |
 
 ## Daily Equity Curve
 
@@ -147,31 +147,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 29 2026 11:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 30 2026 06:08 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 85.0, Win Rate 78.3%, Avg 5d Return 4.12%, Max Drawdown -19… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RKLB** | MACD Bullish Crossover — Score 75.5, Win Rate 62.5%, Avg 5d Return 4.63%, Max Drawdown -22… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 69.6, Win Rate 65.1%, Avg 5d Return 2.79%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ADA-USD** | RSI Oversold — Score 73.4, Win Rate 60.0%, Avg 5d Return 5.8%, Max Drawdown -66.94%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **APP** | RSI Oversold — Score 78.5, Win Rate 64.5%, Avg 5d Return 12.48%, Max Drawdown -22.52%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.… |
+
+### 🔍 NEW OPPORTUNITY — ADA-USD
+
+**Signal Analysis:** RSI Oversold — Score 73.4, Win Rate 60.0%, Avg 5d Return 5.8%, Max Drawdown -66.94%, Sharpe 2.24. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — APP
+
+**Signal Analysis:** RSI Oversold — Score 78.5, Win Rate 64.5%, Avg 5d Return 12.48%, Max Drawdown -22.52%, Sharpe 3.25. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Williams %R — Oversold — Score 85.0, Win Rate 78.3%, Avg 5d Return 4.12%, Max Drawdown -19.07%, Sharpe 5.18. 1 minor bearish signal(s), max confidence 66.6.
+**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.0%, Max Drawdown -19.07%, Sharpe 4.99. 1 minor bearish signal(s), max confidence 65.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RKLB
-
-**Signal Analysis:** MACD Bullish Crossover — Score 75.5, Win Rate 62.5%, Avg 5d Return 4.63%, Max Drawdown -22.02%, Sharpe 2.44. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — DOT-USD
-
-**Signal Analysis:** RSI Oversold — Score 69.6, Win Rate 65.1%, Avg 5d Return 2.79%, Max Drawdown -53.52%, Sharpe 2.01. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
