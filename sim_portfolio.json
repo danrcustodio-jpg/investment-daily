@@ -1172,15 +1172,15 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "BCH-USD",
-      "priority": "medium",
-      "reason": "Elder Force \u2014 Bullish \u2014 Score 55.8, Win Rate 57.5%, Avg 5d Return 2.04%, Max Drawdown -34.71%, Sharpe 1.36. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "ticker": "XLE",
+      "priority": "high",
+      "reason": "52-Week Breakout \u2014 Score 83.0, Win Rate 75.6%, Avg 5d Return 1.35%, Max Drawdown -16.96%, Sharpe 3.36. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-10-30T22:32:37.784461",
+  "recommendations_updated": "2026-10-31T17:20:12.275165",
   "trade_log": [
     {
       "action": "SELL",

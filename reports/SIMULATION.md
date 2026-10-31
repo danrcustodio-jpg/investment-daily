@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 175** &nbsp;·&nbsp; Updated: Oct 30 2026 10:32 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 176** &nbsp;·&nbsp; Updated: Oct 31 2026 05:20 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.87%** &nbsp; ($+5,560) |
+| Portfolio P&L | **+2.88%** &nbsp; ($+5,584) |
 | SPY Benchmark | +6.77% &nbsp; ($+13,137 if 100% SPY) |
-| Alpha vs SPY | **-3.91%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.89%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,560 |
+| Current Value | $199,584 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,215 | +2.16% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,239 | +2.17% |
 
 ## Daily Equity Curve
 
@@ -148,13 +148,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 30 2026 10:32 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Oct 31 2026 05:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 86.7, Win Rate 82.4%, Avg 5d Return 3.18%, Max Drawdown -12.61%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sha… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **BCH-USD** | Elder Force — Bullish — Score 55.8, Win Rate 57.5%, Avg 5d Return 2.04%, Max Drawdown -34.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.35%, Max Drawdown -16.96%, … |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -168,11 +168,11 @@ _Evaluated Oct 30 2026 10:32 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — BCH-USD
+### 🔍 NEW OPPORTUNITY — XLE
 
-**Signal Analysis:** Elder Force — Bullish — Score 55.8, Win Rate 57.5%, Avg 5d Return 2.04%, Max Drawdown -34.71%, Sharpe 1.36. No conflicting bearish signals.
+**Signal Analysis:** 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.35%, Max Drawdown -16.96%, Sharpe 3.36. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
