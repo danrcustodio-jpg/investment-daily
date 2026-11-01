@@ -1,16 +1,16 @@
-# Daily Newsletter — Saturday, October 31, 2026
-Generated at 05:20 PM
+# Daily Newsletter — Sunday, November 01, 2026
+Generated at 06:02 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 132 total &nbsp;·&nbsp; 🟢 71 Bullish &nbsp;·&nbsp; 🔴 61 Bearish
+**Strategy Signals:** 130 total &nbsp;·&nbsp; 🟢 71 Bullish &nbsp;·&nbsp; 🔴 59 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
 | **^VIX** | VIX (Fear Index) | $19.42 | 📈 +12.91% |
-| **SI=F** | Silver | $49.10 | 📉 -5.93% |
+| **SI=F** | Silver | $49.28 | 📉 -5.59% |
 | **XLK** | Tech (XLK) | $179.51 | 📉 -4.89% |
 | **GC=F** | Gold | $3898.90 | 📉 -3.29% |
 | **^IXIC** | NASDAQ | $25437.00 | 📉 -2.86% |
@@ -31,7 +31,7 @@ Generated at 05:20 PM
 | 🟢 BULLISH | **XLE** | 52-Week Breakout | 83.0 | 75.6% |
 | 🟢 BULLISH | **XLK** | Williams %R — Oversold | 82.3 | 73.1% |
 | 🟢 BULLISH | **NVDA** | VWAP Deviation — Oversold | 81.6 | 70.7% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 80.7 | 67.0% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 80.7 | 66.8% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 80.6 | 69.8% |
 | 🟢 BULLISH | **IWM** | Awesome Oscillator — Bullish Zero Line | 80.0 | 66.7% |
 | 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 79.9 | 71.4% |
@@ -39,16 +39,16 @@ Generated at 05:20 PM
 
 ## Latest News
 
-- [Binance says it has replaced 90% of $6.3 billion stolen in record crypto hack](https://www.investing.com/news/cryptocurrency-news/binance-says-it-has-replaced-90-of-63-billion-stolen-in-record-crypto-hack-4989304) — *Investing.com*
-- [80% of workers make this 401(k)  mistake when they retire](https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories) — *MarketWatch*
-- [Meta built humanoid prototype in robotics push: The Information](https://seekingalpha.com/news/4661861-meta-built-humanoid-prototype-robotics-push?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [OPEC+ set to keep production targets unchanged in December, source says](https://www.investing.com/news/commodities-news/opec-set-to-keep-production-targets-unchanged-in-december-source-says-4989301) — *Investing.com*
-- [Reliance Q2 FY27 slides: record EBITDA on O2C surge, Jio IPO milestone](https://www.investing.com/news/company-news/reliance-q2-fy27-slides-record-ebitda-on-o2c-surge-jio-ipo-milestone-93CH-4989300) — *Investing.com*
-- [Earnings call transcript: Reliance posts Q2 2026 beat as energy drives record profit](https://www.investing.com/news/transcripts/earnings-call-transcript-reliance-posts-q2-2026-beat-as-energy-drives-record-profit-93CH-4989298) — *Investing.com*
-- [France braces for fresh unrest, as protesters march for third Saturday](https://www.investing.com/news/economy-news/france-braces-for-fresh-unrest-government-vows-tough-response-4989212) — *Investing.com*
-- [Meta builds humanoid robot with Chinese startup Fourier, The Information says](https://www.investing.com/news/stock-market-news/meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says-4989297) — *Investing.com*
-- [Binance restores 90% of stolen crypto assets](https://seekingalpha.com/news/4661860-binance-restores-90-percent-stolen-crypto-assets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday](https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html) — *CNBC Markets*
+- [Democratic Rep. Stevens endorses Rogers over El-Sayed in Michigan Senate election](https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html) — *CNBC Markets*
+- [Serbians mark railway disaster that led to rise of victorious student movement](https://www.investing.com/news/commodities-news/serbians-mark-railway-disaster-that-led-to-rise-of-victorious-student-movement-4989758) — *Investing.com*
+- [Worsening Michigan feud threatens Democratic unity in key Senate race](https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1) — *Financial Times*
+- [My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?](https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories) — *MarketWatch*
+- [BYD's October vehicle sales rise as overseas demand offsets China weakness](https://seekingalpha.com/news/4661888-byds-october-vehicle-sales-rise-as-overseas-demand-offsets-china-weakness?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Europe's pension crisis threatens sovereign debt markets as populations age](https://seekingalpha.com/news/4661887-europes-pension-crisis-threatens-sovereign-debt-markets-as-populations-age?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan](https://www.cnbc.com/2026/11/01/alaska-senate-election-dan-sullivan-peltola.html) — *CNBC Markets*
+- [New Zealand’s two-speed economy poses election dilemma for ruling National party](https://www.investing.com/news/economic-indicators/new-zealands-twospeed-economy-poses-election-dilemma-for-ruling-national-party-4989769) — *Investing.com*
+- [‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?](https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories) — *MarketWatch*
+- [Serbia shuts down bank favoured by Russians](https://www.ft.com/content/c478c8b6-789f-4253-8970-1244b93c1cce?syn-25a6b1a6=1) — *Financial Times*
 
 ---
 *Investment Daily — Not financial advice.*

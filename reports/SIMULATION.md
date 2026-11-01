@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 176** &nbsp;·&nbsp; Updated: Oct 31 2026 05:20 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 177** &nbsp;·&nbsp; Updated: Nov 01 2026 06:02 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.88%** &nbsp; ($+5,584) |
+| Portfolio P&L | **+2.89%** &nbsp; ($+5,609) |
 | SPY Benchmark | +6.77% &nbsp; ($+13,137 if 100% SPY) |
-| Alpha vs SPY | **-3.89%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,584 |
+| Current Value | $199,609 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,239 | +2.17% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,263 | +2.18% |
 
 ## Daily Equity Curve
 
@@ -148,13 +148,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Oct 31 2026 05:20 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 01 2026 06:02 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 86.7, Win Rate 82.4%, Avg 5d Return 3.18%, Max Drawdown -12.61%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sha… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XLE** | 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.35%, Max Drawdown -16.96%, … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 67.9, Win Rate 61.4%, Avg 5d Return 2.71%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -168,11 +168,11 @@ _Evaluated Oct 31 2026 05:20 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLE
+### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** 52-Week Breakout — Score 83.0, Win Rate 75.6%, Avg 5d Return 1.35%, Max Drawdown -16.96%, Sharpe 3.36. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 67.9, Win Rate 61.4%, Avg 5d Return 2.71%, Max Drawdown -49.63%, Sharpe 2.18. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
