@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 12:17 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 07:58 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.93%** &nbsp; ($+5,681) |
-| SPY Benchmark | +6.58% &nbsp; ($+12,762 if 100% SPY) |
-| Alpha vs SPY | **-3.65%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.40% &nbsp; ($+16,295 if 100% SPY) |
+| Alpha vs SPY | **-5.47%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,681 |
 
@@ -151,29 +151,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 04 2026 12:17 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 04 2026 07:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 71.2, Win Rate 61.5%, Avg 5d Return 3.35%, Max Drawdown -41.15%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 80.4, Win Rate 77.8%, Avg 5d Return 2.34%, Max Drawdown -23.04%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 2.05%, Max Drawdown -4.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.02%, Max Drawdown -19… |
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** RSI Oversold — Score 71.2, Win Rate 61.5%, Avg 5d Return 3.35%, Max Drawdown -41.15%, Sharpe 2.42. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — GOOGL
-
-**Signal Analysis:** RSI Oversold — Score 80.4, Win Rate 77.8%, Avg 5d Return 2.34%, Max Drawdown -23.04%, Sharpe 2.45. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 2.05%, Max Drawdown -4.9%, Sharpe 4.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — MSFT
+### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sharpe 4.23. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05%, Sharpe 7.82. 1 minor bearish signal(s), max confidence 67.7.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.02%, Max Drawdown -19.07%, Sharpe 5.02. 1 minor bearish signal(s), max confidence 59.1.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
