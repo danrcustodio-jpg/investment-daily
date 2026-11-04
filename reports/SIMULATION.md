@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 179** &nbsp;·&nbsp; Updated: Nov 03 2026 07:54 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 12:17 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.92%** &nbsp; ($+5,657) |
-| SPY Benchmark | +6.55% &nbsp; ($+12,707 if 100% SPY) |
-| Alpha vs SPY | **-3.63%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.93%** &nbsp; ($+5,681) |
+| SPY Benchmark | +6.58% &nbsp; ($+12,762 if 100% SPY) |
+| Alpha vs SPY | **-3.65%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,657 |
+| Current Value | $199,681 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,311 | +2.21% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,335 | +2.22% |
 
 ## Daily Equity Curve
 
@@ -147,20 +147,21 @@
 | 2026-10-30 | 📈 +2.87% | +6.77% | ❌ -3.91% |
 | 2026-11-02 | 📈 +2.90% | +6.26% | ❌ -3.36% |
 | 2026-11-03 | 📈 +2.92% | +6.57% | ❌ -3.65% |
+| 2026-11-04 | 📈 +2.93% | +6.58% | ❌ -3.65% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 03 2026 07:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 04 2026 12:17 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 78.1, Win Rate 64.3%, Avg 5d Return 4.47%, Max Drawdown -41.15%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 71.2, Win Rate 61.5%, Avg 5d Return 3.35%, Max Drawdown -41.15%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 80.4, Win Rate 77.8%, Avg 5d Return 2.34%, Max Drawdown -23.04%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **MSFT** | MFI — Oversold — Score 83.6, Win Rate 72.7%, Avg 5d Return 2.23%, Max Drawdown -1.69%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** RSI Oversold — Score 78.1, Win Rate 64.3%, Avg 5d Return 4.47%, Max Drawdown -41.15%, Sharpe 3.04. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 71.2, Win Rate 61.5%, Avg 5d Return 3.35%, Max Drawdown -41.15%, Sharpe 2.42. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
