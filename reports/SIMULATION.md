@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 07:58 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 08:09 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.93%** &nbsp; ($+5,681) |
-| SPY Benchmark | +8.40% &nbsp; ($+16,295 if 100% SPY) |
-| Alpha vs SPY | **-5.47%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +8.43% &nbsp; ($+16,352 if 100% SPY) |
+| Alpha vs SPY | **-5.50%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,681 |
 
@@ -147,11 +147,11 @@
 | 2026-10-30 | 📈 +2.87% | +6.77% | ❌ -3.91% |
 | 2026-11-02 | 📈 +2.90% | +6.26% | ❌ -3.36% |
 | 2026-11-03 | 📈 +2.92% | +6.57% | ❌ -3.65% |
-| 2026-11-04 | 📈 +2.93% | +6.58% | ❌ -3.65% |
+| 2026-11-04 | 📈 +2.93% | +8.43% | ❌ -5.50% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 04 2026 07:58 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 04 2026 08:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -167,7 +167,7 @@ _Evaluated Nov 04 2026 07:58 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05%, Sharpe 7.82. 1 minor bearish signal(s), max confidence 67.7.
+**Signal Analysis:** PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05%, Sharpe 7.82. 1 minor bearish signal(s), max confidence 67.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
