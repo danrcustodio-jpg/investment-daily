@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 181** &nbsp;·&nbsp; Updated: Nov 05 2026 08:12 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 181** &nbsp;·&nbsp; Updated: Nov 05 2026 08:25 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.94%** &nbsp; ($+5,705) |
-| SPY Benchmark | +3.85% &nbsp; ($+7,469 if 100% SPY) |
-| Alpha vs SPY | **-0.91%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.98% &nbsp; ($+7,718 if 100% SPY) |
+| Alpha vs SPY | **-1.04%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,705 |
 
@@ -148,21 +148,21 @@
 | 2026-11-02 | 📈 +2.90% | +6.26% | ❌ -3.36% |
 | 2026-11-03 | 📈 +2.92% | +6.57% | ❌ -3.65% |
 | 2026-11-04 | 📈 +2.93% | +8.43% | ❌ -5.50% |
-| 2026-11-05 | 📈 +2.94% | +8.34% | ❌ -5.40% |
+| 2026-11-05 | 📈 +2.94% | +3.99% | ❌ -1.05% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 05 2026 08:12 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 05 2026 08:25 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | EMA 9/21 — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 2.92%, Max Drawdown -… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | RSI Oversold — Score 74.0, Win Rate 60.0%, Avg 5d Return 3.29%, Max Drawdown -26.25%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 80.8, Win Rate 78.9%, Avg 5d Return 2.22%, Max Drawdown -23.04%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 80.9, Win Rate 78.9%, Avg 5d Return 2.22%, Max Drawdown -23.04%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 2.92%, Max Drawdown -3.91%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 48.2.
+**Signal Analysis:** EMA 9/21 — Bullish Cross — Score 84.5, Win Rate 77.8%, Avg 5d Return 2.92%, Max Drawdown -3.91%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 48.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -174,7 +174,7 @@ _Evaluated Nov 05 2026 08:12 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 80.8, Win Rate 78.9%, Avg 5d Return 2.22%, Max Drawdown -23.04%, Sharpe 2.38. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 80.9, Win Rate 78.9%, Avg 5d Return 2.22%, Max Drawdown -23.04%, Sharpe 2.39. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
