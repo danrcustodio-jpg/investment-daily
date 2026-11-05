@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 180** &nbsp;·&nbsp; Updated: Nov 04 2026 08:09 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 181** &nbsp;·&nbsp; Updated: Nov 05 2026 12:58 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.93%** &nbsp; ($+5,681) |
-| SPY Benchmark | +8.43% &nbsp; ($+16,352 if 100% SPY) |
-| Alpha vs SPY | **-5.50%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.94%** &nbsp; ($+5,705) |
+| SPY Benchmark | +8.34% &nbsp; ($+16,177 if 100% SPY) |
+| Alpha vs SPY | **-5.40%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,681 |
+| Current Value | $199,705 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,335 | +2.22% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,359 | +2.23% |
 
 ## Daily Equity Curve
 
@@ -148,32 +148,33 @@
 | 2026-11-02 | 📈 +2.90% | +6.26% | ❌ -3.36% |
 | 2026-11-03 | 📈 +2.92% | +6.57% | ❌ -3.65% |
 | 2026-11-04 | 📈 +2.93% | +8.43% | ❌ -5.50% |
+| 2026-11-05 | 📈 +2.94% | +8.34% | ❌ -5.40% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 04 2026 08:09 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 05 2026 12:58 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 2.05%, Max Drawdown -4.… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.02%, Max Drawdown -19… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 1.93%, Max Drawdown -4.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 80.4, Win Rate 77.8%, Avg 5d Return 2.34%, Max Drawdown -23.04%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **IONQ** | PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.44%, Max Drawdown -4.05… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 2.05%, Max Drawdown -4.9%, Sharpe 4.59. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 80.9, Win Rate 71.4%, Avg 5d Return 1.93%, Max Drawdown -4.9%, Sharpe 4.28. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — GOOGL
+
+**Signal Analysis:** RSI Oversold — Score 80.4, Win Rate 77.8%, Avg 5d Return 2.34%, Max Drawdown -23.04%, Sharpe 2.45. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — IONQ
 
-**Signal Analysis:** PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.42%, Max Drawdown -4.05%, Sharpe 7.82. 1 minor bearish signal(s), max confidence 67.8.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — NVDA
-
-**Signal Analysis:** Williams %R — Oversold — Score 84.5, Win Rate 77.1%, Avg 5d Return 4.02%, Max Drawdown -19.07%, Sharpe 5.02. 1 minor bearish signal(s), max confidence 59.1.
+**Signal Analysis:** PPO — Bullish Cross — Score 84.7, Win Rate 82.4%, Avg 5d Return 11.44%, Max Drawdown -4.05%, Sharpe 7.84. 1 minor bearish signal(s), max confidence 67.8.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
