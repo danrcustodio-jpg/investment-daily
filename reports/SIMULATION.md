@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 182** &nbsp;·&nbsp; Updated: Nov 06 2026 01:00 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 182** &nbsp;·&nbsp; Updated: Nov 06 2026 07:38 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+2.95%** &nbsp; ($+5,729) |
-| SPY Benchmark | +3.56% &nbsp; ($+6,910 if 100% SPY) |
-| Alpha vs SPY | **-0.61%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +4.21% &nbsp; ($+8,176 if 100% SPY) |
+| Alpha vs SPY | **-1.26%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,729 |
 
@@ -153,29 +153,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 06 2026 01:00 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 06 2026 07:38 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Stochastic RSI Oversold — Score 79.1, Win Rate 67.8%, Avg 5d Return 2.6%, Max Drawdown -27… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 65.9, Win Rate 59.6%, Avg 5d Return 2.55%, Max Drawd… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XLK** | Stochastic RSI Oversold — Score 68.6, Win Rate 64.1%, Avg 5d Return 1.16%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 79.7, Win Rate 75.0%, Avg 5d Return 2.19%, Max Drawdown -23.38%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown … |
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 79.1, Win Rate 67.8%, Avg 5d Return 2.6%, Max Drawdown -27.31%, Sharpe 3.02. 1 minor bearish signal(s), max confidence 60.1.
+**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, Max Drawdown -5.97%, Sharpe 2.86. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 65.9, Win Rate 59.6%, Avg 5d Return 2.55%, Max Drawdown -49.63%, Sharpe 2.03. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 79.7, Win Rate 75.0%, Avg 5d Return 2.19%, Max Drawdown -23.38%, Sharpe 2.41. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XLK
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Stochastic RSI Oversold — Score 68.6, Win Rate 64.1%, Avg 5d Return 1.16%, Max Drawdown -29.23%, Sharpe 1.96. 1 minor bearish signal(s), max confidence 56.2.
+**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown -3.16%, Sharpe 5.96. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
