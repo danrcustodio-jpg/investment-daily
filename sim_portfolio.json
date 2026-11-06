@@ -1185,38 +1185,47 @@
       "prices": {
         "SPY": 736.02001953125
       }
+    },
+    {
+      "date": "2026-11-06",
+      "total_value": 199728.98,
+      "portfolio_pnl": 2.953,
+      "benchmark_pnl": 3.562,
+      "prices": {
+        "SPY": 733.0
+      }
     }
   ],
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "NVDA",
       "priority": "high",
-      "reason": "EMA 9/21 \u2014 Bullish Cross \u2014 Score 84.5, Win Rate 77.8%, Avg 5d Return 2.92%, Max Drawdown -3.91%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 48.4.",
+      "reason": "Stochastic RSI Oversold \u2014 Score 79.1, Win Rate 67.8%, Avg 5d Return 2.6%, Max Drawdown -27.31%, Sharpe 3.02. 1 minor bearish signal(s), max confidence 60.1.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARM",
-      "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 74.0, Win Rate 60.0%, Avg 5d Return 3.29%, Max Drawdown -26.25%, Sharpe 2.95. 1 minor bearish signal(s), max confidence 46.1.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
+      "ticker": "ATOM-USD",
+      "priority": "medium",
+      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 65.9, Win Rate 59.6%, Avg 5d Return 2.55%, Max Drawdown -49.63%, Sharpe 2.03. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "GOOGL",
-      "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 80.9, Win Rate 78.9%, Avg 5d Return 2.22%, Max Drawdown -23.04%, Sharpe 2.39. No conflicting bearish signals.",
+      "ticker": "XLK",
+      "priority": "medium",
+      "reason": "Stochastic RSI Oversold \u2014 Score 68.6, Win Rate 64.1%, Avg 5d Return 1.16%, Max Drawdown -29.23%, Sharpe 1.96. 1 minor bearish signal(s), max confidence 56.2.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-11-05T20:25:40.864483",
+  "recommendations_updated": "2026-11-06T01:00:47.858562",
   "trade_log": [
     {
       "action": "SELL",
