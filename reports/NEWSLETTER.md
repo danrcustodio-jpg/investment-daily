@@ -1,54 +1,54 @@
-# Daily Newsletter — Friday, November 06, 2026
-Generated at 07:38 PM
+# Daily Newsletter — Saturday, November 07, 2026
+Generated at 05:50 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 126 total &nbsp;·&nbsp; 🟢 86 Bullish &nbsp;·&nbsp; 🔴 40 Bearish
+**Strategy Signals:** 130 total &nbsp;·&nbsp; 🟢 85 Bullish &nbsp;·&nbsp; 🔴 45 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $24.90 | 📉 -11.64% |
-| **NG=F** | Natural Gas | $3.00 | 📈 +1.83% |
-| **XLK** | Tech (XLK) | $164.96 | 📈 +1.59% |
-| **^IXIC** | NASDAQ | $24640.44 | 📈 +1.34% |
-| **GC=F** | Gold | $4074.30 | 📉 -0.95% |
-| **^RUT** | Russell 2000 | $2755.62 | 📈 +0.94% |
-| **GBPUSD=X** | GBP/USD | $1.34 | 📉 -0.92% |
-| **SOL-USD** | Solana | $89.94 | 📈 +0.89% |
-| **EURUSD=X** | EUR/USD | $1.11 | 📉 -0.80% |
-| **DX-Y.NYB** | US Dollar Index | $102.28 | 📈 +0.72% |
+| **^VIX** | VIX (Fear Index) | $25.64 | 📉 -9.01% |
+| **NG=F** | Natural Gas | $3.00 | 📈 +1.73% |
+| **XLK** | Tech (XLK) | $164.74 | 📈 +1.45% |
+| **^IXIC** | NASDAQ | $24579.43 | 📈 +1.09% |
+| **GC=F** | Gold | $4074.90 | 📉 -0.94% |
+| **^RUT** | Russell 2000 | $2754.11 | 📈 +0.89% |
+| **SI=F** | Silver | $51.80 | 📉 -0.82% |
+| **DX-Y.NYB** | US Dollar Index | $102.30 | 📈 +0.74% |
+| **XLF** | Financials (XLF) | $57.16 | 📉 -0.59% |
+| **JPYUSD=X** | JPY/USD | $0.01 | 📉 -0.59% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **SMH** | RSI Oversold | 93.3 | 83.3% |
-| 🟢 BULLISH | **XLK** | RSI Oversold | 88.6 | 85.7% |
-| 🟢 BULLISH | **AVGO** | RSI Oversold | 85.0 | 75.0% |
+| 🟢 BULLISH | **QQQ** | RSI Oversold | 90.0 | 90.0% |
 | 🟢 BULLISH | **RIOT** | Supertrend — Bullish Flip | 84.0 | 80.0% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 83.7 | 75.0% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 83.4 | 74.6% |
+| 🟢 BULLISH | **TQQQ** | RSI Oversold | 82.9 | 78.6% |
+| 🟢 BULLISH | **XLK** | RSI Oversold | 82.5 | 62.5% |
 | 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 81.7 | 66.7% |
 | 🟢 BULLISH | **PLTR** | Fisher Transform — Low Extreme | 81.2 | 62.5% |
 | 🟢 BULLISH | **SMH** | Williams %R — Oversold | 80.1 | 68.5% |
 | 🟢 BULLISH | **AMZN** | Awesome Oscillator — Bullish Zero Line | 80.0 | 66.7% |
-| 🟢 BULLISH | **TQQQ** | RSI Oversold | 80.0 | 75.0% |
 | 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 79.7 | 76.5% |
-| 🟢 BULLISH | **GOOGL** | RSI Oversold | 79.7 | 75.0% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 79.1 | 71.7% |
+| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 78.9 | 69.0% |
 
 ## Latest News
 
-- [OpenAI bugging suspect Alfozan pleads not guilty](https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html) — *CNBC Markets*
-- [Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now](https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html) — *CNBC Markets*
-- [Playboy outlines Miami club plan with $5M cash commitment while expecting rest of world licensing to return to growth in 2027](https://seekingalpha.com/news/4668465-playboy-outlines-miami-club-plan-with-5m-cash-commitment-while-expecting-rest-of-world?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Helios projects 2026 sales of $895M-$902M while integrating Radio Sound](https://seekingalpha.com/news/4668464-helios-projects-2026-sales-of-895m-902m-while-integrating-radio-sound?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Corvus anticipates PTCL futility analysis in Q1 2027 while guiding cash runway into Q2 2028](https://seekingalpha.com/news/4668463-corvus-anticipates-ptcl-futility-analysis-in-q1-2027-while-guiding-cash-runway-into-q2-2028?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump says Stephen Miller to replace Susie Wiles as White House chief of staff](https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html) — *CNBC Markets*
-- [vVardis targets IPO at up to $24 per share](https://www.investing.com/news/stock-market-news/vvardis-targets-ipo-at-up-to-24-per-share-432SI-5009047) — *Investing.com*
-- [Canadian Utilities outlines Emera merger with $45B rate base and ~20% dividend increase for CU shareowners](https://seekingalpha.com/news/4668462-canadian-utilities-outlines-emera-merger-with-45b-rate-base-and-20-percent-dividend-increase?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [ATCO outlines Emera merger terms with 0.865 share and 1 New ATCO share per ATCO share](https://seekingalpha.com/news/4668461-atco-outlines-emera-merger-terms-with-0_865-share-and-1-new-atco-share-per-atco-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [FNF expects $105M interest and investment income in Q4, then +$5M per quarter through 2027](https://seekingalpha.com/news/4668460-fnf-expects-105m-interest-and-investment-income-in-q4-then-5m-per-quarter-through-2027?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bulls vs. Bears: NVIDIA sparks valuation debate as stock nears six-month low](https://seekingalpha.com/news/4668735-nvidia-sparks-valuation-debate-after-selloff?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Democrats’ big election win revives a difficult Social Security question: Who pays?](https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories) — *MarketWatch*
+- [I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories) — *MarketWatch*
+- [Clough Global Opportunities Fund director buys $1,996 in GLO shares](https://www.investing.com/news/insider-trading-news/clough-global-opportunities-fund-director-buys-1996-in-glo-shares-93CH-5009976) — *Investing.com*
+- [Seaport offers preliminary thoughts on Anthropic stock](https://www.investing.com/news/stock-market-news/seaport-offers-preliminary-thoughts-on-anthropic-stock-5009973) — *Investing.com*
+- [Coca-Cola evp Perez sells $6.4 million in shares](https://www.investing.com/news/insider-trading-news/cocacola-evp-perez-sells-64-million-in-shares-93CH-5009971) — *Investing.com*
+- [Binance CFO exits days after catastrophic $6 billion crypto hack](https://www.investing.com/news/stock-market-news/binance-cfo-exits-days-after-catastrophic-6-billion-crypto-hack-5009968) — *Investing.com*
+- [The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.](https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories) — *MarketWatch*
+- [Ceribell CTO Raymond Woo sells $131,753 in company stock](https://www.investing.com/news/insider-trading-news/ceribell-cto-raymond-woo-sells-131753-in-company-stock-93CH-5009966) — *Investing.com*
+- [‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home](https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories) — *MarketWatch*
 
 ---
 *Investment Daily — Not financial advice.*

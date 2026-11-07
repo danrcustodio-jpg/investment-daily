@@ -1208,24 +1208,24 @@
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARKK",
-      "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 71.3, Win Rate 67.6%, Avg 5d Return 1.89%, Max Drawdown -30.14%, Sharpe 2.11. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
       "reason": "Supertrend \u2014 Bullish Flip \u2014 Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown -3.16%, Sharpe 5.96. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "XRP-USD",
+      "priority": "medium",
+      "reason": "RSI Oversold \u2014 Score 57.8, Win Rate 59.3%, Avg 5d Return 2.41%, Max Drawdown -48.16%, Sharpe 1.57. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-06T23:53:17.410602",
+  "recommendations_updated": "2026-11-07T17:50:26.751602",
   "trade_log": [
     {
       "action": "SELL",

@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 182** &nbsp;·&nbsp; Updated: Nov 06 2026 11:53 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 183** &nbsp;·&nbsp; Updated: Nov 07 2026 05:50 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.95%** &nbsp; ($+5,729) |
+| Portfolio P&L | **+2.97%** &nbsp; ($+5,753) |
 | SPY Benchmark | +3.88% &nbsp; ($+7,538 if 100% SPY) |
-| Alpha vs SPY | **-0.93%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-0.92%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,729 |
+| Current Value | $199,753 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,383 | +2.24% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,407 | +2.26% |
 
 ## Daily Equity Curve
 
@@ -153,23 +153,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 06 2026 11:53 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 07 2026 05:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | Fisher Transform — Low Extreme — Score 71.3, Win Rate 67.6%, Avg 5d Return 1.89%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | RSI Oversold — Score 57.8, Win Rate 59.3%, Avg 5d Return 2.41%, Max Drawdown -48.16%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
 **Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, Max Drawdown -5.97%, Sharpe 2.86. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — ARKK
-
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 71.3, Win Rate 67.6%, Avg 5d Return 1.89%, Max Drawdown -30.14%, Sharpe 2.11. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -178,6 +172,12 @@ _Evaluated Nov 06 2026 11:53 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown -3.16%, Sharpe 5.96. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** RSI Oversold — Score 57.8, Win Rate 59.3%, Avg 5d Return 2.41%, Max Drawdown -48.16%, Sharpe 1.57. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
