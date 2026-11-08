@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 183** &nbsp;·&nbsp; Updated: Nov 07 2026 05:50 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 184** &nbsp;·&nbsp; Updated: Nov 08 2026 06:01 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.97%** &nbsp; ($+5,753) |
+| Portfolio P&L | **+2.98%** &nbsp; ($+5,777) |
 | SPY Benchmark | +3.88% &nbsp; ($+7,538 if 100% SPY) |
-| Alpha vs SPY | **-0.92%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-0.91%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,753 |
+| Current Value | $199,777 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,407 | +2.26% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,431 | +2.27% |
 
 ## Daily Equity Curve
 
@@ -153,13 +153,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 07 2026 05:50 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 08 2026 06:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | RSI Oversold — Score 57.8, Win Rate 59.3%, Avg 5d Return 2.41%, Max Drawdown -48.16%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 59.6, Win Rate 56.7%, Avg 5d Return 2.19%, Max Drawd… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -173,9 +173,9 @@ _Evaluated Nov 07 2026 05:50 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** RSI Oversold — Score 57.8, Win Rate 59.3%, Avg 5d Return 2.41%, Max Drawdown -48.16%, Sharpe 1.57. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 59.6, Win Rate 56.7%, Avg 5d Return 2.19%, Max Drawdown -49.63%, Sharpe 1.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
