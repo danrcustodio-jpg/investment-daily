@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, November 08, 2026
-Generated at 06:01 PM
+# Daily Newsletter — Monday, November 09, 2026
+Generated at 10:38 PM
 
 ## Market Sentiment: Bullish
 
-**Strategy Signals:** 131 total &nbsp;·&nbsp; 🟢 88 Bullish &nbsp;·&nbsp; 🔴 43 Bearish
+**Strategy Signals:** 101 total &nbsp;·&nbsp; 🟢 64 Bullish &nbsp;·&nbsp; 🔴 37 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $25.64 | 📉 -9.01% |
-| **NG=F** | Natural Gas | $3.00 | 📈 +1.73% |
-| **XLK** | Tech (XLK) | $164.74 | 📈 +1.45% |
-| **^IXIC** | NASDAQ | $24579.43 | 📈 +1.09% |
-| **GC=F** | Gold | $4074.90 | 📉 -0.94% |
-| **^RUT** | Russell 2000 | $2754.11 | 📈 +0.89% |
-| **DX-Y.NYB** | US Dollar Index | $102.30 | 📈 +0.74% |
-| **SOL-USD** | Solana | $89.06 | 📉 -0.68% |
-| **XLF** | Financials (XLF) | $57.16 | 📉 -0.59% |
-| **JPYUSD=X** | JPY/USD | $0.01 | 📉 -0.59% |
+| **^VIX** | VIX (Fear Index) | $19.92 | 📉 -22.31% |
+| **NG=F** | Natural Gas | $3.20 | 📈 +6.90% |
+| **CL=F** | Crude Oil | $86.38 | 📉 -4.90% |
+| **XLI** | Industrials (XLI) | $168.89 | 📈 +3.82% |
+| **XLK** | Tech (XLK) | $170.88 | 📈 +3.73% |
+| **SI=F** | Silver | $53.46 | 📈 +3.19% |
+| **^RUT** | Russell 2000 | $2840.81 | 📈 +3.15% |
+| **XLY** | Consumer Disc. (XLY) | $121.01 | 📈 +2.92% |
+| **^IXIC** | NASDAQ | $25253.14 | 📈 +2.74% |
+| **VOO** | S&P 500 (VOO) | $691.87 | 📈 +2.35% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **QQQ** | RSI Oversold | 90.0 | 90.0% |
-| 🟢 BULLISH | **RIOT** | Supertrend — Bullish Flip | 84.0 | 80.0% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 83.4 | 74.6% |
-| 🟢 BULLISH | **TQQQ** | RSI Oversold | 82.9 | 78.6% |
-| 🟢 BULLISH | **XLK** | RSI Oversold | 82.5 | 62.5% |
-| 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 81.7 | 66.7% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 82.5 | 72.9% |
 | 🟢 BULLISH | **PLTR** | Fisher Transform — Low Extreme | 81.2 | 62.5% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 80.1 | 68.5% |
-| 🟢 BULLISH | **AMZN** | Awesome Oscillator — Bullish Zero Line | 80.0 | 66.7% |
+| 🟢 BULLISH | **ARM** | PPO — Bullish Cross | 80.3 | 71.4% |
 | 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 79.7 | 76.5% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 79.1 | 71.7% |
-| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 78.9 | 69.0% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 78.4 | 66.7% |
+| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 78.0 | 66.7% |
+| 🟢 BULLISH | **NVDA** | Stochastic (Full) — Oversold | 77.4 | 61.8% |
+| 🟢 BULLISH | **CRWD** | Vortex — Bullish | 76.9 | 70.6% |
+| 🟢 BULLISH | **IONQ** | Supertrend — Bullish Flip | 76.7 | 66.7% |
+| 🟢 BULLISH | **NVDA** | Keltner — Lower Channel Touch | 76.5 | 62.5% |
+| 🟢 BULLISH | **RKLB** | Vortex — Bullish | 76.5 | 56.5% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 75.9 | 63.6% |
 
 ## Latest News
 
-- [Environmental groups embrace AI, even as they warn of data center impacts](https://www.investing.com/news/stock-market-news/environmental-groups-embrace-ai-even-as-they-warn-of-data-center-impacts-5010279) — *Investing.com*
-- [First Financial Bankshares director purchases $24,423 in stock](https://www.investing.com/news/insider-trading-news/first-financial-bankshares-director-purchases-24423-in-stock-93CH-5010278) — *Investing.com*
-- [Golf-BC Partners seeks control of LIV Golf from Saudi wealth fund, FT reports](https://www.investing.com/news/stock-market-news/private-equity-firm-bc-partners-seeks-to-take-control-of-liv-golf-from-saudi-wealth-fund-ft-reports-5010245) — *Investing.com*
-- [Two months after my father’s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?](https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories) — *MarketWatch*
-- [Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out](https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories) — *MarketWatch*
-- [Arrowhead reports lower pancreatitis rates, early cholesterol drug results](https://seekingalpha.com/news/4668766-arrowhead-reports-lower-pancreatitis-rates-early-cholesterol-drug-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Airbus needs 249 year-end deliveries to meet annual target](https://seekingalpha.com/news/4668765-airbus-needs-249-year-end-deliveries-to-meet-annual-target?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Democrats vow to impeach Trump officials and investigate Republican donors](https://www.ft.com/content/111fefdb-0f85-4f8f-854f-86a5f81aceec?syn-25a6b1a6=1) — *Financial Times*
-- [Cullen/Frost Bankers chief accounting officer Henson sells $85,290 of stock](https://www.investing.com/news/insider-trading-news/cullenfrost-bankers-chief-accounting-officer-henson-sells-85290-of-stock-93CH-5010272) — *Investing.com*
-- [South Korea selects Sikorsky for presidential helicopter program](https://seekingalpha.com/news/4668764-south-korea-selects-sikorsky-for-presidential-helicopter-program?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Earnings call transcript: Nerdy posts Q3 2026 loss, shares jump on margin gains](https://www.investing.com/news/transcripts/earnings-call-transcript-nerdy-posts-q3-2026-loss-shares-jump-on-margin-gains-93CH-5013576) — *Investing.com*
+- [Earnings call transcript: Bakkt misses Q3 2026 EPS forecast as stock slips after hours](https://www.investing.com/news/transcripts/earnings-call-transcript-bakkt-misses-q3-2026-eps-forecast-as-stock-slips-after-hours-93CH-5013574) — *Investing.com*
+- [Earnings call transcript: Cannae Holdings posts Q3 2026 revenue miss](https://www.investing.com/news/transcripts/earnings-call-transcript-cannae-holdings-posts-q3-2026-revenue-miss-93CH-5013573) — *Investing.com*
+- [Earnings call transcript: Trump Media posts Q3 2026 revenue surge, stock rises 10%](https://www.investing.com/news/transcripts/earnings-call-transcript-trump-media-posts-q3-2026-revenue-surge-stock-rises-10-93CH-5013572) — *Investing.com*
+- [Earnings call transcript: AlTi Global misses Q3 2026 estimates as costs fall](https://www.investing.com/news/transcripts/earnings-call-transcript-alti-global-misses-q3-2026-estimates-as-costs-fall-93CH-5013570) — *Investing.com*
+- [Earnings call transcript: Mesa Labs misses Q2 2026 EPS estimate, shares slip](https://www.investing.com/news/transcripts/earnings-call-transcript-mesa-labs-misses-q2-2026-eps-estimate-shares-slip-93CH-5013571) — *Investing.com*
+- [Earnings call transcript: Microvast Q3 2026 loss deepens as stock sinks after hours](https://www.investing.com/news/transcripts/earnings-call-transcript-microvast-q3-2026-loss-deepens-as-stock-sinks-after-hours-93CH-5013569) — *Investing.com*
+- [Dollar slips, taking a breather after last week’s advance a day ahead of CPI test](https://www.investing.com/news/forex-news/asia-fx-gains-as-dollar-steadies-after-strong-us-jobs-data-china-cpi-in-focus-5010449) — *Investing.com*
+- [Air Industries Group sets date for 2026 annual meeting and shareholder proposal deadlines](https://www.investing.com/news/sec-filings/air-industries-group-sets-date-for-2026-annual-meeting-and-shareholder-proposal-deadlines-93CH-5013568) — *Investing.com*
+- [RadNet targets $140m+ Digital Health ARR by year-end while raising 2026 Imaging Center free cash flow to $120m-$130m](https://seekingalpha.com/news/4669406-radnet-targets-140m-digital-health-arr-by-year-end-while-raising-2026-imaging-center-free?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

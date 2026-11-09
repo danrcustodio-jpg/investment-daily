@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 184** &nbsp;·&nbsp; Updated: Nov 08 2026 06:01 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 185** &nbsp;·&nbsp; Updated: Nov 09 2026 10:38 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.98%** &nbsp; ($+5,777) |
-| SPY Benchmark | +3.88% &nbsp; ($+7,538 if 100% SPY) |
-| Alpha vs SPY | **-0.91%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+2.99%** &nbsp; ($+5,801) |
+| SPY Benchmark | +6.34% &nbsp; ($+12,307 if 100% SPY) |
+| Alpha vs SPY | **-3.35%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,777 |
+| Current Value | $199,801 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,431 | +2.27% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,455 | +2.28% |
 
 ## Daily Equity Curve
 
@@ -153,29 +153,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 08 2026 06:01 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 09 2026 10:38 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 59.6, Win Rate 56.7%, Avg 5d Return 2.19%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | PPO — Bullish Cross — Score 80.3, Win Rate 71.4%, Avg 5d Return 4.4%, Max Drawdown -23.56%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 76.9, Win Rate 70.6%, Avg 5d Return 3.1%, Max Drawdown -18.53%, S… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 55.5, Win Rate 63.8%, Avg 5d Return 1.64%, Max Drawdown -53.52%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — ARM
 
-**Signal Analysis:** Awesome Oscillator — Bullish Zero Line — Score 80.0, Win Rate 66.7%, Avg 5d Return 2.36%, Max Drawdown -5.97%, Sharpe 2.86. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Supertrend — Bullish Flip — Score 84.0, Win Rate 80.0%, Avg 5d Return 4.81%, Max Drawdown -3.16%, Sharpe 5.96. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 80.3, Win Rate 71.4%, Avg 5d Return 4.4%, Max Drawdown -23.56%, Sharpe 2.81. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Keltner — Lower Channel Touch — Score 59.6, Win Rate 56.7%, Avg 5d Return 2.19%, Max Drawdown -49.63%, Sharpe 1.74. No conflicting bearish signals.
+**Signal Analysis:** Vortex — Bullish — Score 76.9, Win Rate 70.6%, Avg 5d Return 3.1%, Max Drawdown -18.53%, Sharpe 2.51. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — DOT-USD
+
+**Signal Analysis:** RSI Oversold — Score 55.5, Win Rate 63.8%, Avg 5d Return 1.64%, Max Drawdown -53.52%, Sharpe 1.35. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
