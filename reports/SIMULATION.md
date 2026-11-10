@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 185** &nbsp;·&nbsp; Updated: Nov 09 2026 10:48 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 186** &nbsp;·&nbsp; Updated: Nov 10 2026 07:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+2.99%** &nbsp; ($+5,801) |
-| SPY Benchmark | +6.34% &nbsp; ($+12,307 if 100% SPY) |
-| Alpha vs SPY | **-3.35%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.00%** &nbsp; ($+5,825) |
+| SPY Benchmark | +5.80% &nbsp; ($+11,243 if 100% SPY) |
+| Alpha vs SPY | **-2.79%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,801 |
+| Current Value | $199,825 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,455 | +2.28% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,480 | +2.29% |
 
 ## Daily Equity Curve
 
@@ -154,23 +154,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 09 2026 10:48 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 10 2026 07:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARM** | PPO — Bullish Cross — Score 80.3, Win Rate 71.4%, Avg 5d Return 4.4%, Max Drawdown -23.56%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Vortex — Bullish — Score 76.9, Win Rate 70.6%, Avg 5d Return 3.1%, Max Drawdown -18.53%, S… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 74.5, Win Rate 63.6%, Avg 5d Return 3.68%, Max Drawdo… |
 | 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 55.5, Win Rate 63.8%, Avg 5d Return 1.64%, Max Drawdown -53.52%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — ARM
+### 🔍 NEW OPPORTUNITY — AMZN
 
-**Signal Analysis:** PPO — Bullish Cross — Score 80.3, Win Rate 71.4%, Avg 5d Return 4.4%, Max Drawdown -23.56%, Sharpe 2.81. No conflicting bearish signals.
+**Signal Analysis:** PPO — Bullish Cross — Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 45.7.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — CRWD
+### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Vortex — Bullish — Score 76.9, Win Rate 70.6%, Avg 5d Return 3.1%, Max Drawdown -18.53%, Sharpe 2.51. No conflicting bearish signals.
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 74.5, Win Rate 63.6%, Avg 5d Return 3.68%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

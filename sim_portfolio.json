@@ -1208,18 +1208,18 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ARM",
+      "ticker": "AMZN",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 80.3, Win Rate 71.4%, Avg 5d Return 4.4%, Max Drawdown -23.56%, Sharpe 2.81. No conflicting bearish signals.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 45.7.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CRWD",
+      "ticker": "RIOT",
       "priority": "high",
-      "reason": "Vortex \u2014 Bullish \u2014 Score 76.9, Win Rate 70.6%, Avg 5d Return 3.1%, Max Drawdown -18.53%, Sharpe 2.51. No conflicting bearish signals.",
+      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 74.5, Win Rate 63.6%, Avg 5d Return 3.68%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1234,7 +1234,7 @@
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-09T22:48:09.903028",
+  "recommendations_updated": "2026-11-10T19:56:09.132351",
   "trade_log": [
     {
       "action": "SELL",
