@@ -1226,9 +1226,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AMZN",
+      "ticker": "ARKK",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 45.7.",
+      "reason": "PPO \u2014 Bullish Cross \u2014 Score 79.3, Win Rate 76.5%, Avg 5d Return 2.18%, Max Drawdown -12.18%, Sharpe 2.67. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1246,13 +1246,13 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "RIOT",
       "priority": "high",
-      "reason": "Chaikin Money Flow \u2014 Bullish \u2014 Score 74.6, Win Rate 63.6%, Avg 5d Return 3.7%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.",
+      "reason": "Aroon \u2014 Strong Uptrend \u2014 Score 80.0, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -3.07%, Sharpe 4.17. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-11-11T00:44:58.195412",
+  "recommendations_updated": "2026-11-11T19:49:57.163654",
   "trade_log": [
     {
       "action": "SELL",

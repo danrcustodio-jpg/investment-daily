@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 187** &nbsp;·&nbsp; Updated: Nov 11 2026 12:44 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 187** &nbsp;·&nbsp; Updated: Nov 11 2026 07:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.02%** &nbsp; ($+5,849) |
-| SPY Benchmark | +5.95% &nbsp; ($+11,548 if 100% SPY) |
-| Alpha vs SPY | **-2.94%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +7.47% &nbsp; ($+14,498 if 100% SPY) |
+| Alpha vs SPY | **-4.46%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,849 |
 
@@ -156,17 +156,17 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 11 2026 12:44 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 11 2026 07:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | PPO — Bullish Cross — Score 79.3, Win Rate 76.5%, Avg 5d Return 2.18%, Max Drawdown -12.18… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 78.4, Win Rate 69.1%, Avg 5d Return 5.12%, Max Drawdown -53.52%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 74.6, Win Rate 63.6%, Avg 5d Return 3.7%, Max Drawdow… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 80.0, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -3.… |
 
-### 🔍 NEW OPPORTUNITY — AMZN
+### 🔍 NEW OPPORTUNITY — ARKK
 
-**Signal Analysis:** PPO — Bullish Cross — Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%, Sharpe 2.51. 1 minor bearish signal(s), max confidence 45.7.
+**Signal Analysis:** PPO — Bullish Cross — Score 79.3, Win Rate 76.5%, Avg 5d Return 2.18%, Max Drawdown -12.18%, Sharpe 2.67. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -178,7 +178,7 @@ _Evaluated Nov 11 2026 12:44 AM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — RIOT
 
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 74.6, Win Rate 63.6%, Avg 5d Return 3.7%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.
+**Signal Analysis:** Aroon — Strong Uptrend — Score 80.0, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -3.07%, Sharpe 4.17. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
