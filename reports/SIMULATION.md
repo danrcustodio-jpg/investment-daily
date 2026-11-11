@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 186** &nbsp;·&nbsp; Updated: Nov 10 2026 08:07 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 187** &nbsp;·&nbsp; Updated: Nov 11 2026 12:44 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.00%** &nbsp; ($+5,825) |
-| SPY Benchmark | +5.72% &nbsp; ($+11,098 if 100% SPY) |
-| Alpha vs SPY | **-2.72%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.02%** &nbsp; ($+5,849) |
+| SPY Benchmark | +5.95% &nbsp; ($+11,548 if 100% SPY) |
+| Alpha vs SPY | **-2.94%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,825 |
+| Current Value | $199,849 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,480 | +2.29% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,504 | +2.31% |
 
 ## Daily Equity Curve
 
@@ -152,16 +152,17 @@
 | 2026-11-06 | 📈 +2.95% | +3.88% | ❌ -0.93% |
 | 2026-11-09 | 📈 +2.99% | +6.34% | ❌ -3.35% |
 | 2026-11-10 | 📈 +3.00% | +5.72% | ❌ -2.72% |
+| 2026-11-11 | 📈 +3.02% | +5.95% | ❌ -2.94% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 10 2026 08:07 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 11 2026 12:44 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMZN** | PPO — Bullish Cross — Score 79.4, Win Rate 76.5%, Avg 5d Return 1.47%, Max Drawdown -6.63%… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 74.5, Win Rate 63.6%, Avg 5d Return 3.68%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 55.5, Win Rate 63.8%, Avg 5d Return 1.64%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 78.4, Win Rate 69.1%, Avg 5d Return 5.12%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Chaikin Money Flow — Bullish — Score 74.6, Win Rate 63.6%, Avg 5d Return 3.7%, Max Drawdow… |
 
 ### 🔍 NEW OPPORTUNITY — AMZN
 
@@ -169,17 +170,17 @@ _Evaluated Nov 10 2026 08:07 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — RIOT
-
-**Signal Analysis:** Chaikin Money Flow — Bullish — Score 74.5, Win Rate 63.6%, Avg 5d Return 3.68%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
 ### 🔍 NEW OPPORTUNITY — DOT-USD
 
-**Signal Analysis:** RSI Oversold — Score 55.5, Win Rate 63.8%, Avg 5d Return 1.64%, Max Drawdown -53.52%, Sharpe 1.35. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 78.4, Win Rate 69.1%, Avg 5d Return 5.12%, Max Drawdown -53.52%, Sharpe 2.74. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — RIOT
+
+**Signal Analysis:** Chaikin Money Flow — Bullish — Score 74.6, Win Rate 63.6%, Avg 5d Return 3.7%, Max Drawdown -61.12%, Sharpe 2.35. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
