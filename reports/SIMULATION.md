@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 188** &nbsp;·&nbsp; Updated: Nov 12 2026 08:17 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 188** &nbsp;·&nbsp; Updated: Nov 12 2026 08:34 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.03%** &nbsp; ($+5,873) |
-| SPY Benchmark | +6.96% &nbsp; ($+13,502 if 100% SPY) |
-| Alpha vs SPY | **-3.93%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.91% &nbsp; ($+13,406 if 100% SPY) |
+| Alpha vs SPY | **-3.88%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,873 |
 
@@ -153,11 +153,11 @@
 | 2026-11-09 | 📈 +2.99% | +6.34% | ❌ -3.35% |
 | 2026-11-10 | 📈 +3.00% | +5.72% | ❌ -2.72% |
 | 2026-11-11 | 📈 +3.02% | +7.45% | ❌ -4.44% |
-| 2026-11-12 | 📈 +3.03% | +7.35% | ❌ -4.32% |
+| 2026-11-12 | 📈 +3.03% | +6.91% | ❌ -3.88% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 12 2026 08:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 12 2026 08:34 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
@@ -173,7 +173,7 @@ _Evaluated Nov 12 2026 08:17 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.7, Win Rate 76.5%, Avg 5d Return 4.72%, Max Drawdown -11.35%, Sharpe 4.7. 1 minor bearish signal(s), max confidence 54.6.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.7, Win Rate 76.5%, Avg 5d Return 4.72%, Max Drawdown -11.35%, Sharpe 4.7. 1 minor bearish signal(s), max confidence 54.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
