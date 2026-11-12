@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 187** &nbsp;·&nbsp; Updated: Nov 11 2026 07:56 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 188** &nbsp;·&nbsp; Updated: Nov 12 2026 01:45 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.02%** &nbsp; ($+5,849) |
-| SPY Benchmark | +7.45% &nbsp; ($+14,453 if 100% SPY) |
-| Alpha vs SPY | **-4.43%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.03%** &nbsp; ($+5,873) |
+| SPY Benchmark | +7.35% &nbsp; ($+14,258 if 100% SPY) |
+| Alpha vs SPY | **-4.32%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,849 |
+| Current Value | $199,873 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,504 | +2.31% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,528 | +2.32% |
 
 ## Daily Equity Curve
 
@@ -153,34 +153,35 @@
 | 2026-11-09 | 📈 +2.99% | +6.34% | ❌ -3.35% |
 | 2026-11-10 | 📈 +3.00% | +5.72% | ❌ -2.72% |
 | 2026-11-11 | 📈 +3.02% | +7.45% | ❌ -4.44% |
+| 2026-11-12 | 📈 +3.03% | +7.35% | ❌ -4.32% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 11 2026 07:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 12 2026 01:45 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **ARKK** | PPO — Bullish Cross — Score 79.3, Win Rate 76.5%, Avg 5d Return 2.18%, Max Drawdown -12.18… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 78.4, Win Rate 69.1%, Avg 5d Return 5.12%, Max Drawdown -53.52%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **RIOT** | Aroon — Strong Uptrend — Score 80.0, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -3.… |
-
-### 🔍 NEW OPPORTUNITY — ARKK
-
-**Signal Analysis:** PPO — Bullish Cross — Score 79.3, Win Rate 76.5%, Avg 5d Return 2.18%, Max Drawdown -12.18%, Sharpe 2.67. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.7, Win Rate 68.2%, Avg 5d Return 4.7%, Max Drawdown -53.52%, Sharp… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 79.3, Win Rate 65.7%, Avg 5d Return 1.03%, Max Drawdown -23… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — DOT-USD
 
-**Signal Analysis:** RSI Oversold — Score 78.4, Win Rate 69.1%, Avg 5d Return 5.12%, Max Drawdown -53.52%, Sharpe 2.74. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 77.7, Win Rate 68.2%, Avg 5d Return 4.7%, Max Drawdown -53.52%, Sharpe 2.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — RIOT
+### 🔍 NEW OPPORTUNITY — GC=F
 
-**Signal Analysis:** Aroon — Strong Uptrend — Score 80.0, Win Rate 72.7%, Avg 5d Return 4.74%, Max Drawdown -3.07%, Sharpe 4.17. No conflicting bearish signals.
+**Signal Analysis:** CCI — Extreme Oversold — Score 79.3, Win Rate 65.7%, Avg 5d Return 1.03%, Max Drawdown -23.66%, Sharpe 2.48. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — SOL-USD
+
+**Signal Analysis:** MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Sharpe 4.66. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
