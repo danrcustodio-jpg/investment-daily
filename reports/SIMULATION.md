@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 188** &nbsp;·&nbsp; Updated: Nov 12 2026 01:45 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 188** &nbsp;·&nbsp; Updated: Nov 12 2026 08:17 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.03%** &nbsp; ($+5,873) |
-| SPY Benchmark | +7.35% &nbsp; ($+14,258 if 100% SPY) |
-| Alpha vs SPY | **-4.32%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.96% &nbsp; ($+13,502 if 100% SPY) |
+| Alpha vs SPY | **-3.93%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,873 |
 
@@ -157,12 +157,12 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 12 2026 01:45 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 12 2026 08:17 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.7, Win Rate 68.2%, Avg 5d Return 4.7%, Max Drawdown -53.52%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | CCI — Extreme Oversold — Score 79.3, Win Rate 65.7%, Avg 5d Return 1.03%, Max Drawdown -23… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 79.7, Win Rate 76.5%, Avg 5d Return 4.72%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — DOT-USD
@@ -171,9 +171,9 @@ _Evaluated Nov 12 2026 01:45 AM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
-### 🔍 NEW OPPORTUNITY — GC=F
+### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** CCI — Extreme Oversold — Score 79.3, Win Rate 65.7%, Avg 5d Return 1.03%, Max Drawdown -23.66%, Sharpe 2.48. No conflicting bearish signals.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 79.7, Win Rate 76.5%, Avg 5d Return 4.72%, Max Drawdown -11.35%, Sharpe 4.7. 1 minor bearish signal(s), max confidence 54.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 

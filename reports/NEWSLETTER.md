@@ -1,54 +1,54 @@
-# Daily Newsletter — Wednesday, November 11, 2026
-Generated at 07:49 PM
+# Daily Newsletter — Thursday, November 12, 2026
+Generated at 08:17 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Bearish
 
-**Strategy Signals:** 85 total &nbsp;·&nbsp; 🟢 49 Bullish &nbsp;·&nbsp; 🔴 36 Bearish
+**Strategy Signals:** 79 total &nbsp;·&nbsp; 🟢 38 Bullish &nbsp;·&nbsp; 🔴 41 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $17.57 | 📉 -9.71% |
-| **XLK** | Tech (XLK) | $175.15 | 📈 +3.69% |
-| **NG=F** | Natural Gas | $3.21 | 📉 -2.70% |
-| **^IXIC** | NASDAQ | $25535.61 | 📈 +1.87% |
-| **SOL-USD** | Solana | $84.57 | 📈 +1.57% |
-| **SI=F** | Silver | $51.87 | 📈 +1.50% |
-| **^GSPC** | S&P 500 | $7628.43 | 📈 +1.43% |
-| **XLE** | Energy (XLE) | $63.10 | 📈 +1.42% |
-| **VOO** | S&P 500 (VOO) | $699.16 | 📈 +1.40% |
-| **XLI** | Industrials (XLI) | $170.90 | 📈 +1.29% |
+| **^VIX** | VIX (Fear Index) | $18.69 | 📈 +6.86% |
+| **NG=F** | Natural Gas | $3.35 | 📈 +4.14% |
+| **SI=F** | Silver | $50.02 | 📉 -3.59% |
+| **BTC-USD** | Bitcoin | $71427.67 | 📉 -3.43% |
+| **CL=F** | Crude Oil | $89.07 | 📈 +2.94% |
+| **GC=F** | Gold | $3889.00 | 📉 -2.79% |
+| **SOL-USD** | Solana | $81.39 | 📉 -2.32% |
+| **^TNX** | 10-Year Treasury Yield | $5.10 | 📈 +2.10% |
+| **ETH-USD** | Ethereum | $2014.96 | 📉 -1.99% |
+| **XLE** | Energy (XLE) | $64.60 | 📈 +1.93% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 81.8 | 71.8% |
-| 🟢 BULLISH | **RIOT** | Aroon — Strong Uptrend | 80.0 | 72.7% |
+| 🟢 BULLISH | **SOL-USD** | MFI — Oversold | 80.0 | 84.6% |
 | 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 79.7 | 76.5% |
-| 🟢 BULLISH | **ARKK** | PPO — Bullish Cross | 79.3 | 76.5% |
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.3 | 65.7% |
-| 🟢 BULLISH | **DOT-USD** | RSI Oversold | 78.4 | 69.1% |
-| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.5 | 62.1% |
-| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 74.6 | 63.6% |
-| 🟢 BULLISH | **AMD** | Supertrend — Bullish Flip | 74.3 | 57.1% |
-| 🟢 BULLISH | **AAPL** | MACD Bullish Crossover | 73.4 | 63.2% |
-| 🟢 BULLISH | **XRP-USD** | MFI — Oversold | 73.0 | 56.5% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 72.8 | 65.6% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 79.6 | 66.0% |
+| 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 78.1 | 68.4% |
+| 🟢 BULLISH | **DOT-USD** | RSI Oversold | 77.7 | 68.2% |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.6 | 62.5% |
+| 🟢 BULLISH | **GOOGL** | MACD Bullish Crossover | 73.9 | 68.4% |
+| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 72.6 | 65.8% |
+| 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 71.5 | 56.3% |
+| 🟢 BULLISH | **CL=F** | Fisher Transform — Low Extreme | 68.5 | 61.5% |
+| 🟢 BULLISH | **XRP-USD** | RSI Oversold | 68.5 | 58.6% |
+| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 67.6 | 60.9% |
 
 ## Latest News
 
-- [Alphabet's DeepMind unveils new AlphaGenome 2 model aimed at reading DNA cells](https://seekingalpha.com/news/4670939-alphabets-deepmind-unveils-new-alphagenome-2-model-aimed-at-reading-dna-cells?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nomura considers selling its Laser Digital Crypto division - report](https://seekingalpha.com/news/4670937-nomura-considers-selling-its-laser-digital-crypto-division---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Google rolls out Gemini AI voice assistant to Apple CarPlay dashboards](https://www.investing.com/news/stock-market-news/google-rolls-out-gemini-ai-voice-assistant-to-apple-carplay-dashboards-5019761) — *Investing.com*
-- [Why is Netflix stock gaining today?](https://www.investing.com/news/stock-market-news/why-is-netflix-stock-gaining-today-93CH-5019760) — *Investing.com*
-- [I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?](https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories) — *MarketWatch*
-- [Atrium Therapeutics at stifel 2026 healthcare conference: cash, pipeline](https://www.investing.com/news/transcripts/atrium-therapeutics-at-stifel-2026-healthcare-conference-cash-pipeline-93CH-5019759) — *Investing.com*
-- [uniQure at Stifel 2026 Healthcare Conference: AMT-130 nears key test](https://www.investing.com/news/transcripts/uniqure-at-stifel-2026-healthcare-conference-amt130-nears-key-test-93CH-5019758) — *Investing.com*
-- [Kestra Medical at Stifel 2026 Healthcare Conference: growth, margins rise](https://www.investing.com/news/transcripts/kestra-medical-at-stifel-2026-healthcare-conference-growth-margins-rise-93CH-5019757) — *Investing.com*
-- [CME Group is said to plan physically backed uranium futures contract](https://seekingalpha.com/news/4670938-cme-group-is-said-to-plan-physically-backed-uranium-futures-contract?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Ticketmaster keeps its spot as the top NFL ticket reseller](https://seekingalpha.com/news/4670935-ticketmaster-keeps-its-spot-as-the-top-nfl-ticket-reseller?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Why is HIVE Digital stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-hive-digital-stock-sliding-today-93CH-5023084) — *Investing.com*
+- [Retail buyers limit Nvidia stock rout](https://www.investing.com/news/stock-market-news/retail-buyers-limit-nvidia-stock-rout-5023063) — *Investing.com*
+- [Akamai closes $2.5 billion convertible notes offering](https://www.investing.com/news/company-news/akamai-closes-25-billion-convertible-notes-offering-93CH-5023082) — *Investing.com*
+- [Cms Energy stock hits 52-week low at 19.45 USD](https://www.investing.com/news/company-news/cms-energy-stock-hits-52week-low-at-1945-usd-93CH-5023081) — *Investing.com*
+- [Help wanted: AI firms court ex-spies as Nvidia crisis spotlights security risks](https://www.investing.com/news/stock-market-news/help-wanted-ai-firms-court-exspies-as-nvidia-drama-spotlights-security-risks-5021949) — *Investing.com*
+- [Alvotech targets $650M-$700M revenue and $180M-$220M EBITDA as it expects Q4 to be “the strongest” in company history](https://seekingalpha.com/news/4671715-alvotech-targets-650m-700m-revenue-and-180m-220m-ebitda-as-it-expects-q4-to-be-the-strongest?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Why is Capstone Copper stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-capstone-copper-stock-sliding-today-93CH-5023080) — *Investing.com*
+- [Alice Huang tied to Nvidia’s biggest Chinese competitor](https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html) — *CNBC Markets*
+- [HSBC names 11 Buy-rated stocks to scoop up after recent retreat](https://seekingalpha.com/news/4671711-hsbc-names-11-buy-rated-stocks-to-scoop-up-after-recent-retreat?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Why is MDA Space stock sliding today?](https://www.investing.com/news/stock-market-news/why-is-mda-space-stock-sliding-today-93CH-5023077) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
