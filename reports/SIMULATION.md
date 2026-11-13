@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 189** &nbsp;·&nbsp; Updated: Nov 13 2026 01:35 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 189** &nbsp;·&nbsp; Updated: Nov 13 2026 07:57 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.04%** &nbsp; ($+5,898) |
-| SPY Benchmark | +6.97% &nbsp; ($+13,521 if 100% SPY) |
-| Alpha vs SPY | **-3.93%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.37% &nbsp; ($+12,356 if 100% SPY) |
+| Alpha vs SPY | **-3.33%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,898 |
 
@@ -158,29 +158,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 13 2026 01:35 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 13 2026 07:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.7, Win Rate 68.2%, Avg 5d Return 4.97%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.3, Win Rate 67.2%, Avg 5d Return 4.85%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.73%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **DOGE-USD** | RSI Oversold — Score 64.4, Win Rate 60.5%, Avg 5d Return 2.14%, Max Drawdown -32.86%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — DOT-USD
 
-**Signal Analysis:** RSI Oversold — Score 77.7, Win Rate 68.2%, Avg 5d Return 4.97%, Max Drawdown -53.52%, Sharpe 2.64. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 77.3, Win Rate 67.2%, Avg 5d Return 4.85%, Max Drawdown -53.52%, Sharpe 2.59. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — NVDA
+
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.73%, Max Drawdown -22.94%, Sharpe 3.24. 1 minor bearish signal(s), max confidence 49.1.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
 **Signal Analysis:** MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Sharpe 4.66. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — DOGE-USD
-
-**Signal Analysis:** RSI Oversold — Score 64.4, Win Rate 60.5%, Avg 5d Return 2.14%, Max Drawdown -32.86%, Sharpe 2.19. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
