@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 189** &nbsp;·&nbsp; Updated: Nov 13 2026 07:57 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 189** &nbsp;·&nbsp; Updated: Nov 13 2026 08:11 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.04%** &nbsp; ($+5,898) |
-| SPY Benchmark | +6.37% &nbsp; ($+12,356 if 100% SPY) |
-| Alpha vs SPY | **-3.33%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +6.49% &nbsp; ($+12,581 if 100% SPY) |
+| Alpha vs SPY | **-3.45%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $199,898 |
 
@@ -154,16 +154,16 @@
 | 2026-11-10 | 📈 +3.00% | +5.72% | ❌ -2.72% |
 | 2026-11-11 | 📈 +3.02% | +7.45% | ❌ -4.44% |
 | 2026-11-12 | 📈 +3.03% | +6.91% | ❌ -3.88% |
-| 2026-11-13 | 📈 +3.04% | +6.97% | ❌ -3.93% |
+| 2026-11-13 | 📈 +3.04% | +6.48% | ❌ -3.44% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 13 2026 07:57 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 13 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.3, Win Rate 67.2%, Avg 5d Return 4.85%, Max Drawdown -53.52%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.73%, Max Draw… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — DOT-USD
@@ -174,7 +174,7 @@ _Evaluated Nov 13 2026 07:57 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.73%, Max Drawdown -22.94%, Sharpe 3.24. 1 minor bearish signal(s), max confidence 49.1.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Drawdown -22.62%, Sharpe 3.28. 1 minor bearish signal(s), max confidence 49.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
