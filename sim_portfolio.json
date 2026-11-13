@@ -1230,6 +1230,15 @@
       "prices": {
         "SPY": 756.6799926757812
       }
+    },
+    {
+      "date": "2026-11-13",
+      "total_value": 199897.56,
+      "portfolio_pnl": 3.04,
+      "benchmark_pnl": 6.97,
+      "prices": {
+        "SPY": 757.1199951171875
+      }
     }
   ],
   "recommendations": [
@@ -1237,19 +1246,10 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "DOT-USD",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 77.7, Win Rate 68.2%, Avg 5d Return 4.7%, Max Drawdown -53.52%, Sharpe 2.59. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 77.7, Win Rate 68.2%, Avg 5d Return 4.97%, Max Drawdown -53.52%, Sharpe 2.64. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
-      "ticker": "NVDA",
-      "priority": "high",
-      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 79.7, Win Rate 76.5%, Avg 5d Return 4.72%, Max Drawdown -11.35%, Sharpe 4.7. 1 minor bearish signal(s), max confidence 54.5.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
@@ -1259,9 +1259,18 @@
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "DOGE-USD",
+      "priority": "medium",
+      "reason": "RSI Oversold \u2014 Score 64.4, Win Rate 60.5%, Avg 5d Return 2.14%, Max Drawdown -32.86%, Sharpe 2.19. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
+      "suggested_allocation": 25000,
+      "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-12T20:34:26.578246",
+  "recommendations_updated": "2026-11-13T01:35:39.856916",
   "trade_log": [
     {
       "action": "SELL",
