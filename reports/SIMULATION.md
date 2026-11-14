@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 190** &nbsp;·&nbsp; Updated: Nov 14 2026 12:57 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 190** &nbsp;·&nbsp; Updated: Nov 14 2026 06:25 PM
 
 ## Performance Summary
 
@@ -159,19 +159,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 14 2026 12:57 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 14 2026 06:25 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
-
-### 🔍 NEW OPPORTUNITY — CRWD
-
-**Signal Analysis:** VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown -55.13%, Sharpe 2.97. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.0, Win Rate 56.5%, Avg 5d Return 8.14%, Max Drawdown -8.58%, Sha… |
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
@@ -182,6 +176,12 @@ _Evaluated Nov 14 2026 12:57 AM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
 **Signal Analysis:** MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Sharpe 4.66. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — XRP-USD
+
+**Signal Analysis:** MFI — Oversold — Score 73.0, Win Rate 56.5%, Avg 5d Return 8.14%, Max Drawdown -8.58%, Sharpe 3.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
