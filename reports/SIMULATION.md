@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 189** &nbsp;·&nbsp; Updated: Nov 13 2026 08:11 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 190** &nbsp;·&nbsp; Updated: Nov 14 2026 12:57 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.04%** &nbsp; ($+5,898) |
-| SPY Benchmark | +6.49% &nbsp; ($+12,581 if 100% SPY) |
-| Alpha vs SPY | **-3.45%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.05%** &nbsp; ($+5,922) |
+| SPY Benchmark | +6.58% &nbsp; ($+12,767 if 100% SPY) |
+| Alpha vs SPY | **-3.53%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,898 |
+| Current Value | $199,922 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,552 | +2.33% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,576 | +2.34% |
 
 ## Daily Equity Curve
 
@@ -155,26 +155,27 @@
 | 2026-11-11 | 📈 +3.02% | +7.45% | ❌ -4.44% |
 | 2026-11-12 | 📈 +3.03% | +6.91% | ❌ -3.88% |
 | 2026-11-13 | 📈 +3.04% | +6.48% | ❌ -3.44% |
+| 2026-11-14 | 📈 +3.05% | +6.58% | ❌ -3.53% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 13 2026 08:11 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 14 2026 12:57 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOT-USD** | RSI Oversold — Score 77.3, Win Rate 67.2%, Avg 5d Return 4.85%, Max Drawdown -53.52%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — DOT-USD
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** RSI Oversold — Score 77.3, Win Rate 67.2%, Avg 5d Return 4.85%, Max Drawdown -53.52%, Sharpe 2.59. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown -55.13%, Sharpe 2.97. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Drawdown -22.62%, Sharpe 3.28. 1 minor bearish signal(s), max confidence 49.3.
+**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Drawdown -22.65%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 53.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
