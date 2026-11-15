@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 190** &nbsp;·&nbsp; Updated: Nov 14 2026 06:25 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 191** &nbsp;·&nbsp; Updated: Nov 15 2026 07:02 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.05%** &nbsp; ($+5,922) |
+| Portfolio P&L | **+3.06%** &nbsp; ($+5,946) |
 | SPY Benchmark | +6.58% &nbsp; ($+12,767 if 100% SPY) |
-| Alpha vs SPY | **-3.53%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-3.52%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,922 |
+| Current Value | $199,946 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,576 | +2.34% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,600 | +2.35% |
 
 ## Daily Equity Curve
 
@@ -159,13 +159,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 14 2026 06:25 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 15 2026 07:02 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Draw… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XRP-USD** | MFI — Oversold — Score 73.0, Win Rate 56.5%, Avg 5d Return 8.14%, Max Drawdown -8.58%, Sha… |
+
+### 🔍 NEW OPPORTUNITY — CRWD
+
+**Signal Analysis:** VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown -55.13%, Sharpe 2.97. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — NVDA
 
@@ -176,12 +182,6 @@ _Evaluated Nov 14 2026 06:25 PM · Tax rates: 32% short-term / 15% long-term · 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
 **Signal Analysis:** MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Sharpe 4.66. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — XRP-USD
-
-**Signal Analysis:** MFI — Oversold — Score 73.0, Win Rate 56.5%, Avg 5d Return 8.14%, Max Drawdown -8.58%, Sharpe 3.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
