@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 191** &nbsp;·&nbsp; Updated: Nov 15 2026 07:02 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 192** &nbsp;·&nbsp; Updated: Nov 16 2026 10:26 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.06%** &nbsp; ($+5,946) |
-| SPY Benchmark | +6.58% &nbsp; ($+12,767 if 100% SPY) |
-| Alpha vs SPY | **-3.52%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.08%** &nbsp; ($+5,970) |
+| SPY Benchmark | +4.54% &nbsp; ($+8,815 if 100% SPY) |
+| Alpha vs SPY | **-1.47%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,946 |
+| Current Value | $199,970 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,600 | +2.35% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,624 | +2.37% |
 
 ## Daily Equity Curve
 
@@ -159,29 +159,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 15 2026 07:02 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 16 2026 10:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **NVDA** | Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Draw… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.2, Win Rate 62.2%, Avg 5d Return 3.46%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 79.6, Win Rate 70.2%, Avg 5d Return 4.97%, Max Drawdown -53.89%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.59%, Max Drawdown -14.74%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 75.6, Win Rate 62.9%, Avg 5d Return 3.52%, Max Drawdown -55.13%, Sharpe 2.97. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 75.2, Win Rate 62.2%, Avg 5d Return 3.46%, Max Drawdown -55.13%, Sharpe 2.92. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 78.0, Win Rate 72.2%, Avg 5d Return 3.75%, Max Drawdown -22.65%, Sharpe 3.27. 1 minor bearish signal(s), max confidence 53.4.
+**Signal Analysis:** RSI Oversold — Score 79.6, Win Rate 70.2%, Avg 5d Return 4.97%, Max Drawdown -53.89%, Sharpe 2.92. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** MFI — Oversold — Score 80.0, Win Rate 84.6%, Avg 5d Return 4.92%, Max Drawdown -1.2%, Sharpe 4.66. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.59%, Max Drawdown -14.74%, Sharpe 2.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 

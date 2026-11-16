@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, November 15, 2026
-Generated at 07:02 PM
+# Daily Newsletter — Monday, November 16, 2026
+Generated at 10:26 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 83 total &nbsp;·&nbsp; 🟢 37 Bullish &nbsp;·&nbsp; 🔴 46 Bearish
+**Strategy Signals:** 98 total &nbsp;·&nbsp; 🟢 54 Bullish &nbsp;·&nbsp; 🔴 44 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.23 | 📉 -3.29% |
-| **^VIX** | VIX (Fear Index) | $19.30 | 📈 +3.21% |
-| **ETH-USD** | Ethereum | $1816.08 | 📈 +2.65% |
-| **XLK** | Tech (XLK) | $170.28 | 📉 -2.01% |
-| **SI=F** | Silver | $49.12 | 📉 -1.70% |
-| **SOL-USD** | Solana | $71.18 | 📈 +1.43% |
-| **^TNX** | 10-Year Treasury Yield | $5.15 | 📈 +1.00% |
-| **XLE** | Energy (XLE) | $64.96 | 📈 +0.98% |
-| **^IXIC** | NASDAQ | $25136.27 | 📉 -0.91% |
-| **BTC-USD** | Bitcoin | $64706.98 | 📈 +0.90% |
+| **^VIX** | VIX (Fear Index) | $22.91 | 📈 +18.70% |
+| **SI=F** | Silver | $46.91 | 📉 -4.33% |
+| **CL=F** | Crude Oil | $85.06 | 📉 -3.95% |
+| **NG=F** | Natural Gas | $3.12 | 📉 -3.37% |
+| **XLK** | Tech (XLK) | $164.76 | 📉 -3.24% |
+| **^IXIC** | NASDAQ | $24509.76 | 📉 -2.49% |
+| **XLE** | Energy (XLE) | $63.69 | 📉 -1.96% |
+| **^GSPC** | S&P 500 | $7416.59 | 📉 -1.92% |
+| **VOO** | S&P 500 (VOO) | $680.26 | 📉 -1.89% |
+| **XLI** | Industrials (XLI) | $165.66 | 📉 -1.85% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 82.3 | 67.0% |
-| 🟢 BULLISH | **SOL-USD** | MFI — Oversold | 80.0 | 84.6% |
+| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 82.7 | 67.3% |
+| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.6 | 80.0% |
+| 🟢 BULLISH | **LTC-USD** | RSI Oversold | 79.6 | 70.2% |
 | 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 78.1 | 68.4% |
-| 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 78.0 | 72.2% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 77.3 | 69.9% |
-| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.6 | 62.9% |
-| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 75.0 | 63.9% |
-| 🟢 BULLISH | **PLTR** | VWAP Deviation — Oversold | 71.7 | 56.7% |
-| 🟢 BULLISH | **NVDA** | Stochastic RSI Oversold | 66.5 | 63.9% |
-| 🟢 BULLISH | **CEG** | Awesome Oscillator — Bullish Zero Line | 66.2 | 55.6% |
-| 🟢 BULLISH | **CL=F** | Stochastic RSI Oversold | 65.4 | 59.6% |
-| 🟢 BULLISH | **AERO-USD** | Keltner — Lower Channel Touch | 65.1 | 52.8% |
+| 🟢 BULLISH | **SOL-USD** | MFI — Oversold | 77.6 | 78.6% |
+| 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 76.7 | 70.4% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 75.5 | 69.0% |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.2 | 62.2% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 74.9 | 66.7% |
+| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 74.4 | 63.3% |
+| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 74.1 | 68.9% |
+| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 72.2 | 62.9% |
 
 ## Latest News
 
-- [Jensen Huang agrees to private congressional testimony on alleged China links](https://seekingalpha.com/news/4672797-jensen-huang-agrees-to-private-congressional-testimony-on-alleged-china-links?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Fed ’has some work to do on inflation,’ KC Fed chief says](https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048) — *Investing.com*
-- [SpaceX outlines land purchase proposal near Boca Chica Beach](https://seekingalpha.com/news/4672796-spacex-outlines-land-purchase-proposal-near-boca-chica-beach?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [ULA’s Vulcan returns to flight with 40 Amazon internet satellites](https://seekingalpha.com/news/4672795-ula-s-vulcan-returns-to-flight-with-40-amazon-internet-satellites?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Houthis claim missile attack on Riyadh airport](https://www.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-5027672) — *Investing.com*
-- [Bessent says Nvidia needs ‘shake-up’ with external CEO](https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1) — *Financial Times*
-- [Diamondback nears $5bn deal to expand drilling in oil-rich Permian Basin](https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1) — *Financial Times*
-- ['We slept here': Flight delays linger but schedule is back on track for Monday](https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html) — *CNBC Markets*
-- [DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html) — *CNBC Markets*
-- [Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO](https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html) — *CNBC Markets*
+- [United Airlines reports system outage affecting departing flights](https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html) — *CNBC Markets*
+- [Safe Pro Group Non-GAAP EPS of -$0.02, revenue of $2.68M beats by $0.42M](https://seekingalpha.com/news/4673372-safe-pro-group-non-gaap-eps-of-0_02-revenue-of-2_68m-beats-by-0_42m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Earnings call transcript: Daré Bioscience Q3 2026 misses EPS, shares swing](https://www.investing.com/news/transcripts/earnings-call-transcript-dare-bioscience-q3-2026-misses-eps-shares-swing-93CH-5031145) — *Investing.com*
+- [Earnings call transcript: Red Cat misses on Q3 2026 revenue, stock sinks 24%](https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-on-q3-2026-revenue-stock-sinks-24-93CH-5031143) — *Investing.com*
+- [L’Oreal US settles hair relaxer cancer cases during first trial](https://www.investing.com/news/stock-market-news/loreal-us-settles-hair-relaxer-cancer-cases-during-first-trial-5031132) — *Investing.com*
+- [United Airlines says technology issue affecting departing flights](https://www.investing.com/news/stock-market-news/united-airlines-says-technology-issue-affecting-departing-flights-5031142) — *Investing.com*
+- [Firy Q3 2026 slides: RZR surges to 53% of revenue, firm nears break-even](https://www.investing.com/news/company-news/firy-q3-2026-slides-rzr-surges-to-53-of-revenue-firm-nears-breakeven-93CH-5031141) — *Investing.com*
+- [Earnings call transcript: Parabolic posts strong Q3 2026 revenue growth](https://www.investing.com/news/transcripts/earnings-call-transcript-parabolic-posts-strong-q3-2026-revenue-growth-93CH-5031140) — *Investing.com*
+- [Interpace Biosciences GAAP EPS of -$0.26, revenue of $10.4M](https://seekingalpha.com/news/4673370-interpace-biosciences-gaap-eps-of-0_26-revenue-of-10_4m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding](https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
