@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 192** &nbsp;·&nbsp; Updated: Nov 16 2026 10:26 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 192** &nbsp;·&nbsp; Updated: Nov 16 2026 10:40 PM
 
 ## Performance Summary
 
@@ -156,16 +156,17 @@
 | 2026-11-12 | 📈 +3.03% | +6.91% | ❌ -3.88% |
 | 2026-11-13 | 📈 +3.04% | +6.48% | ❌ -3.44% |
 | 2026-11-14 | 📈 +3.05% | +6.58% | ❌ -3.53% |
+| 2026-11-16 | 📈 +3.08% | +4.54% | ❌ -1.47% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 16 2026 10:26 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 16 2026 10:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 75.2, Win Rate 62.2%, Avg 5d Return 3.46%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 79.6, Win Rate 70.2%, Avg 5d Return 4.97%, Max Drawdown -53.89%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.59%, Max Drawdown -14.74%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.58%, Max Drawdown -14.78%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -181,7 +182,7 @@ _Evaluated Nov 16 2026 10:26 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.59%, Max Drawdown -14.74%, Sharpe 2.87. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 77.6, Win Rate 78.6%, Avg 5d Return 3.58%, Max Drawdown -14.78%, Sharpe 2.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
