@@ -1264,31 +1264,31 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "CRWD",
       "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 75.2, Win Rate 62.2%, Avg 5d Return 3.46%, Max Drawdown -55.13%, Sharpe 2.92. No conflicting bearish signals.",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 75.4, Win Rate 60.7%, Avg 5d Return 3.4%, Max Drawdown -15.18%, Sharpe 3.67. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "LTC-USD",
+      "ticker": "XBI",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 79.6, Win Rate 70.2%, Avg 5d Return 4.97%, Max Drawdown -53.89%, Sharpe 2.92. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
-      "suggested_allocation": 25000,
-      "is_crypto": true
+      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown -31.56%, Sharpe 2.12. No conflicting bearish signals.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SOL-USD",
-      "priority": "high",
-      "reason": "MFI \u2014 Oversold \u2014 Score 77.6, Win Rate 78.6%, Avg 5d Return 3.58%, Max Drawdown -14.78%, Sharpe 2.87. No conflicting bearish signals.",
+      "ticker": "XRP-USD",
+      "priority": "medium",
+      "reason": "Fisher Transform \u2014 Low Extreme \u2014 Score 56.7, Win Rate 44.0%, Avg 5d Return 2.95%, Max Drawdown -70.14%, Sharpe 1.64. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-16T22:40:08.262189",
+  "recommendations_updated": "2026-11-17T21:14:58.825522",
   "trade_log": [
     {
       "action": "SELL",

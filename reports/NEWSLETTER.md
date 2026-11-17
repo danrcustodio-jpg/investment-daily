@@ -1,54 +1,54 @@
-# Daily Newsletter — Monday, November 16, 2026
-Generated at 10:26 PM
+# Daily Newsletter — Tuesday, November 17, 2026
+Generated at 09:14 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 98 total &nbsp;·&nbsp; 🟢 54 Bullish &nbsp;·&nbsp; 🔴 44 Bearish
+**Strategy Signals:** 96 total &nbsp;·&nbsp; 🟢 60 Bullish &nbsp;·&nbsp; 🔴 36 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $22.91 | 📈 +18.70% |
-| **SI=F** | Silver | $46.91 | 📉 -4.33% |
-| **CL=F** | Crude Oil | $85.06 | 📉 -3.95% |
-| **NG=F** | Natural Gas | $3.12 | 📉 -3.37% |
-| **XLK** | Tech (XLK) | $164.76 | 📉 -3.24% |
-| **^IXIC** | NASDAQ | $24509.76 | 📉 -2.49% |
-| **XLE** | Energy (XLE) | $63.69 | 📉 -1.96% |
-| **^GSPC** | S&P 500 | $7416.59 | 📉 -1.92% |
-| **VOO** | S&P 500 (VOO) | $680.26 | 📉 -1.89% |
-| **XLI** | Industrials (XLI) | $165.66 | 📉 -1.85% |
+| **^VIX** | VIX (Fear Index) | $25.64 | 📈 +11.92% |
+| **NG=F** | Natural Gas | $3.20 | 📈 +2.53% |
+| **SOL-USD** | Solana | $73.11 | 📈 +2.24% |
+| **XLF** | Financials (XLF) | $57.08 | 📉 -1.89% |
+| **^DJI** | Dow Jones | $50759.42 | 📉 -1.64% |
+| **^RUT** | Russell 2000 | $2703.29 | 📉 -1.45% |
+| **XLV** | Healthcare (XLV) | $185.28 | 📉 -1.38% |
+| **BTC-USD** | Bitcoin | $64001.31 | 📉 -1.32% |
+| **ETH-USD** | Ethereum | $1796.95 | 📉 -1.23% |
+| **VOO** | S&P 500 (VOO) | $672.97 | 📉 -1.07% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **GC=F** | CCI — Extreme Oversold | 82.7 | 67.3% |
 | 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.6 | 80.0% |
-| 🟢 BULLISH | **LTC-USD** | RSI Oversold | 79.6 | 70.2% |
+| 🟢 BULLISH | **XLE** | Parabolic SAR — Bullish | 79.6 | 72.7% |
 | 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 78.1 | 68.4% |
-| 🟢 BULLISH | **SOL-USD** | MFI — Oversold | 77.6 | 78.6% |
 | 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 76.7 | 70.4% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 75.5 | 69.0% |
-| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.2 | 62.2% |
-| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 74.9 | 66.7% |
-| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 74.4 | 63.3% |
-| 🟢 BULLISH | **NVDA** | Williams %R — Oversold | 74.1 | 68.9% |
-| 🟢 BULLISH | **XLK** | VWAP Deviation — Oversold | 72.2 | 62.9% |
+| 🟢 BULLISH | **UPRO** | Keltner — Lower Channel Touch | 75.9 | 69.2% |
+| 🟢 BULLISH | **CRWD** | Fisher Transform — Low Extreme | 75.4 | 60.7% |
+| 🟢 BULLISH | **PLTR** | Keltner — Lower Channel Touch | 75.3 | 54.2% |
+| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 75.3 | 69.0% |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 74.9 | 61.6% |
+| 🟢 BULLISH | **SMH** | Williams %R — Oversold | 74.7 | 66.7% |
+| 🟢 BULLISH | **RIOT** | Chaikin Money Flow — Bullish | 73.7 | 62.7% |
+| 🟢 BULLISH | **QQQ** | VWAP Deviation — Oversold | 72.4 | 61.5% |
 
 ## Latest News
 
-- [United Airlines reports system outage affecting departing flights](https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html) — *CNBC Markets*
-- [Safe Pro Group Non-GAAP EPS of -$0.02, revenue of $2.68M beats by $0.42M](https://seekingalpha.com/news/4673372-safe-pro-group-non-gaap-eps-of-0_02-revenue-of-2_68m-beats-by-0_42m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Earnings call transcript: Daré Bioscience Q3 2026 misses EPS, shares swing](https://www.investing.com/news/transcripts/earnings-call-transcript-dare-bioscience-q3-2026-misses-eps-shares-swing-93CH-5031145) — *Investing.com*
-- [Earnings call transcript: Red Cat misses on Q3 2026 revenue, stock sinks 24%](https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-on-q3-2026-revenue-stock-sinks-24-93CH-5031143) — *Investing.com*
-- [L’Oreal US settles hair relaxer cancer cases during first trial](https://www.investing.com/news/stock-market-news/loreal-us-settles-hair-relaxer-cancer-cases-during-first-trial-5031132) — *Investing.com*
-- [United Airlines says technology issue affecting departing flights](https://www.investing.com/news/stock-market-news/united-airlines-says-technology-issue-affecting-departing-flights-5031142) — *Investing.com*
-- [Firy Q3 2026 slides: RZR surges to 53% of revenue, firm nears break-even](https://www.investing.com/news/company-news/firy-q3-2026-slides-rzr-surges-to-53-of-revenue-firm-nears-breakeven-93CH-5031141) — *Investing.com*
-- [Earnings call transcript: Parabolic posts strong Q3 2026 revenue growth](https://www.investing.com/news/transcripts/earnings-call-transcript-parabolic-posts-strong-q3-2026-revenue-growth-93CH-5031140) — *Investing.com*
-- [Interpace Biosciences GAAP EPS of -$0.26, revenue of $10.4M](https://seekingalpha.com/news/4673370-interpace-biosciences-gaap-eps-of-0_26-revenue-of-10_4m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding](https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html) — *CNBC Markets*
+- [Ardent Health launches proposed secondary public offering of shares](https://seekingalpha.com/news/4673903-ardent-health-launches-proposed-secondary-public-offering-of-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Golub Capital BDC Non-GAAP EPS of $0.08 misses by $0.25](https://seekingalpha.com/news/4673907-golub-capital-bdc-non-gaap-eps-of-0_08-misses-by-0_25?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Salesforce leads enterprise software stocks lower ahead of Anthropic's IPO](https://seekingalpha.com/news/4673872-salesforce-leads-enterprise-software-stocks-lower-ahead-of-anthropics-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Why Salesforce’s stock is leading S&P 500 decliners amid tech jitters](https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories) — *MarketWatch*
+- [Credo reaches settlement in patent dispute](https://seekingalpha.com/news/4673905-credo-reaches-settlement-in-patent-dispute?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [UPS to acquire Smartways Logistics; targets Asia-Pacific healthcare growth](https://seekingalpha.com/news/4673897-ups-to-acquire-smartways-logistics-targets-asia-pacific-healthcare-growth?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [‘Can I pick your brain?’ and other terrible things to say in a networking email](https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories) — *MarketWatch*
+- [MDB Capital Holdings reports Q3 results](https://seekingalpha.com/news/4673904-mdb-capital-holdings-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [IRIDEX GAAP EPS of -$0.08 misses by $0.04, revenue of $10.2M misses by $2.44M](https://seekingalpha.com/news/4673902-iridex-gaap-eps-of-0_08-misses-by-0_04-revenue-of-10_2m-misses-by-2_44m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nvidia closes lower ahead of earnings as company reels from Huang resignation](https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html) — *CNBC Markets*
 
 ---
 *Investment Daily — Not financial advice.*
