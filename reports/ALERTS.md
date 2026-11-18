@@ -1,15 +1,15 @@
 # Strategy Alerts
-**Last scan:** Tuesday November 17, 2026 at 09:27 PM  _(live re-scan; per-run snapshot unavailable)_
+**Last scan:** Wednesday November 18, 2026 at 03:01 AM  _(live re-scan; per-run snapshot unavailable)_
 
 ## Scan Summary
 
 | | Count |
 |---|---|
-| Total signals (confidence ≥ 45) | 95 |
-| 🟢 Bullish | 59 |
-| 🔴 Bearish | 36 |
+| Total signals (confidence ≥ 45) | 97 |
+| 🟢 Bullish | 62 |
+| 🔴 Bearish | 35 |
 | 🔵 In cooldown (fired in last 6h) | 0 |
-| 🟡 Available to fire (not in cooldown) | 95 |
+| 🟡 Available to fire (not in cooldown) | 97 |
 
 _Note: without `last_scan.json` we cannot tell which signals fired on the most recent run vs. earlier in the cooldown window. Run `alert_system.py` to refresh the snapshot._
 
@@ -17,9 +17,11 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 
 | Direction | Ticker | Strategy | Confidence | Win Rate | Max Drawdown | Status |
 |---|---|---|---|---|---|---|
+| 🟢 BULLISH | **GC=F** | RSI Oversold | 84.5 | 80.0% | -2.72% | 🟡 Available |
 | 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.6 | 80.0% | -31.56% | 🟡 Available |
 | 🟢 BULLISH | **XLE** | Parabolic SAR — Bullish | 79.6 | 72.7% | -5.64% | 🟡 Available |
 | 🟢 BULLISH | **GC=F** | Keltner — Lower Channel Touch | 78.1 | 68.4% | -5.16% | 🟡 Available |
+| 🟢 BULLISH | **GC=F** | VWAP Deviation — Oversold | 76.7 | 70.4% | -13.25% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | Keltner — Lower Channel Touch | 75.9 | 69.2% | -35.17% | 🟡 Available |
 | 🟢 BULLISH | **CRWD** | Fisher Transform — Low Extreme | 75.4 | 60.7% | -15.18% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | Keltner — Lower Channel Touch | 75.3 | 54.2% | -36.8% | 🟡 Available |
@@ -43,7 +45,9 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **XBI** | Williams %R — Oversold | 62.7 | 61.5% | -40.74% | 🟡 Available |
 | 🟢 BULLISH | **UPRO** | VWAP Deviation — Oversold | 62.5 | 60.8% | -60.9% | 🟡 Available |
 | 🟢 BULLISH | **NVDA** | Fisher Transform — Low Extreme | 62.3 | 65.0% | -37.78% | 🟡 Available |
+| 🟢 BULLISH | **LTC-USD** | RSI Oversold | 62.0 | 66.7% | -53.89% | 🟡 Available |
 | 🟢 BULLISH | **AVGO** | Elder Force — Bullish | 61.0 | 56.2% | -21.77% | 🟡 Available |
+| 🟢 BULLISH | **DOT-USD** | RSI Oversold | 60.1 | 61.2% | -61.4% | 🟡 Available |
 | 🟢 BULLISH | **QQQ** | Keltner — Lower Channel Touch | 57.8 | 58.5% | -23.11% | 🟡 Available |
 | 🟢 BULLISH | **SMCI** | Williams %R — Oversold | 57.7 | 58.9% | -71.89% | 🟡 Available |
 | 🟢 BULLISH | **SMCI** | Keltner — Lower Channel Touch | 57.2 | 60.8% | -65.68% | 🟡 Available |
@@ -68,11 +72,10 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🟢 BULLISH | **IONQ** | Keltner — Lower Channel Touch | 48.6 | 50.0% | -49.47% | 🟡 Available |
 | 🟢 BULLISH | **LINK-USD** | Keltner — Lower Channel Touch | 48.0 | 54.8% | -62.57% | 🟡 Available |
 | 🟢 BULLISH | **SOXL** | CCI — Extreme Oversold | 47.6 | 57.2% | -99.97% | 🟡 Available |
-| 🟢 BULLISH | **GC=F** | PPO — Bullish Cross | 47.5 | 55.6% | -11.12% | 🟡 Available |
 | 🟢 BULLISH | **SPY** | CCI — Extreme Oversold | 47.3 | 57.4% | -56.53% | 🟡 Available |
 | 🟢 BULLISH | **VOO** | CCI — Extreme Oversold | 47.3 | 57.4% | -56.86% | 🟡 Available |
 | 🟢 BULLISH | **ARKK** | Keltner — Lower Channel Touch | 47.1 | 55.3% | -35.41% | 🟡 Available |
-| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 47.1 | 57.3% | -72.8% | 🟡 Available |
+| 🟢 BULLISH | **CL=F** | VWAP Deviation — Oversold | 46.9 | 57.3% | -72.8% | 🟡 Available |
 | 🟢 BULLISH | **PLTR** | CCI — Extreme Oversold | 46.8 | 53.9% | -93.94% | 🟡 Available |
 | 🟢 BULLISH | **APP** | Chaikin Money Flow — Bullish | 46.2 | 59.9% | -94.84% | 🟡 Available |
 | 🟢 BULLISH | **XLK** | CCI — Extreme Oversold | 45.4 | 57.7% | -70.42% | 🟡 Available |
@@ -89,23 +92,22 @@ _Note: without `last_scan.json` we cannot tell which signals fired on the most r
 | 🔴 BEARISH | **ARKK** | Chaikin Money Flow — Bearish | 75.0 | 70.6% | -30.2% | 🟡 Available |
 | 🔴 BEARISH | **ARKK** | ADX Strong Trend — Bearish | 74.5 | 69.3% | -61.86% | 🟡 Available |
 | 🔴 BEARISH | **TQQQ** | Parabolic SAR — Bearish | 72.9 | 79.2% | -37.77% | 🟡 Available |
-| 🔴 BEARISH | **CL=F** | ADX Strong Trend — Bearish | 71.0 | 55.4% | -34.02% | 🟡 Available |
 | 🔴 BEARISH | **RKLB** | Vortex — Bearish | 69.0 | 52.0% | -32.99% | 🟡 Available |
 | 🔴 BEARISH | **SMH** | Chaikin Money Flow — Bearish | 68.8 | 60.0% | -23.24% | 🟡 Available |
 | 🔴 BEARISH | **PLTR** | ADX Strong Trend — Bearish | 68.0 | 50.9% | -37.35% | 🟡 Available |
 | 🔴 BEARISH | **SOXL** | Chaikin Money Flow — Bearish | 65.3 | 56.0% | -77.07% | 🟡 Available |
 | 🔴 BEARISH | **XLE** | ADX Strong Trend — Bearish | 65.0 | 67.9% | -28.24% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 64.7 | 64.6% | -29.08% | 🟡 Available |
+| 🔴 BEARISH | **GC=F** | ADX Strong Trend — Bearish | 64.0 | 64.6% | -29.08% | 🟡 Available |
 | 🔴 BEARISH | **IONQ** | ADX Strong Trend — Bearish | 63.2 | 55.1% | -53.76% | 🟡 Available |
-| 🔴 BEARISH | **GC=F** | Chaikin Money Flow — Bearish | 60.2 | 59.5% | -21.83% | 🟡 Available |
+| 🔴 BEARISH | **GC=F** | Chaikin Money Flow — Bearish | 58.5 | 59.5% | -22.96% | 🟡 Available |
 | 🔴 BEARISH | **TSLA** | Ulcer Index — Elevated | 58.1 | 64.8% | -41.95% | 🟡 Available |
 | 🔴 BEARISH | **VOO** | Ulcer Index — Elevated | 57.0 | 65.7% | -19.17% | 🟡 Available |
 | 🔴 BEARISH | **QQQ** | ADX Strong Trend — Bearish | 56.4 | 58.2% | -42.88% | 🟡 Available |
 | 🔴 BEARISH | **SPY** | Ulcer Index — Elevated | 53.0 | 63.7% | -19.1% | 🟡 Available |
 | 🔴 BEARISH | **SOXL** | ADX Strong Trend — Bearish | 53.0 | 60.0% | -97.88% | 🟡 Available |
 | 🔴 BEARISH | **UPRO** | Ulcer Index — Elevated | 51.9 | 62.5% | -48.89% | 🟡 Available |
-| 🔴 BEARISH | **CL=F** | Ulcer Index — Elevated | 50.6 | 56.8% | -48.86% | 🟡 Available |
 | 🔴 BEARISH | **XLK** | ADX Strong Trend — Bearish | 50.5 | 54.3% | -48.63% | 🟡 Available |
+| 🔴 BEARISH | **CL=F** | Ulcer Index — Elevated | 50.5 | 56.8% | -48.86% | 🟡 Available |
 | 🔴 BEARISH | **NVDA** | ADX Strong Trend — Bearish | 50.3 | 56.9% | -42.53% | 🟡 Available |
 | 🔴 BEARISH | **TQQQ** | ADX Strong Trend — Bearish | 48.3 | 55.4% | -85.23% | 🟡 Available |
 | 🔴 BEARISH | **SMH** | ADX Strong Trend — Bearish | 48.2 | 56.4% | -49.65% | 🟡 Available |

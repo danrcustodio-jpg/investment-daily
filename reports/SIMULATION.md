@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 193** &nbsp;·&nbsp; Updated: Nov 17 2026 09:27 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 194** &nbsp;·&nbsp; Updated: Nov 18 2026 03:01 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.09%** &nbsp; ($+5,994) |
+| Portfolio P&L | **+3.10%** &nbsp; ($+6,018) |
 | SPY Benchmark | +3.48% &nbsp; ($+6,756 if 100% SPY) |
-| Alpha vs SPY | **-0.39%** &nbsp; ❌ Underperforming |
+| Alpha vs SPY | **-0.38%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $199,994 |
+| Current Value | $200,018 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,648 | +2.38% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,672 | +2.39% |
 
 ## Daily Equity Curve
 
@@ -158,16 +158,17 @@
 | 2026-11-14 | 📈 +3.05% | +6.58% | ❌ -3.53% |
 | 2026-11-16 | 📈 +3.08% | +4.54% | ❌ -1.47% |
 | 2026-11-17 | 📈 +3.09% | +3.48% | ❌ -0.39% |
+| 2026-11-18 | 📈 +3.10% | +3.48% | ❌ -0.38% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 18 2026 03:01 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Fisher Transform — Low Extreme — Score 75.4, Win Rate 60.7%, Avg 5d Return 3.4%, Max Drawd… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **XRP-USD** | Fisher Transform — Low Extreme — Score 56.8, Win Rate 44.0%, Avg 5d Return 2.95%, Max Draw… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 62.0, Win Rate 66.7%, Avg 5d Return 1.97%, Max Drawdown -53.89%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -181,9 +182,9 @@ _Evaluated Nov 17 2026 09:27 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XRP-USD
+### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 56.8, Win Rate 44.0%, Avg 5d Return 2.95%, Max Drawdown -70.14%, Sharpe 1.65. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 62.0, Win Rate 66.7%, Avg 5d Return 1.97%, Max Drawdown -53.89%, Sharpe 1.62. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
