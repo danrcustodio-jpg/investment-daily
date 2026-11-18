@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 194** &nbsp;·&nbsp; Updated: Nov 18 2026 03:01 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 194** &nbsp;·&nbsp; Updated: Nov 18 2026 08:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.10%** &nbsp; ($+6,018) |
-| SPY Benchmark | +3.48% &nbsp; ($+6,756 if 100% SPY) |
-| Alpha vs SPY | **-0.38%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +3.19% &nbsp; ($+6,194 if 100% SPY) |
+| Alpha vs SPY | **-0.09%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
 | Current Value | $200,018 |
 
@@ -162,17 +162,23 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 18 2026 03:01 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 18 2026 08:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | Fisher Transform — Low Extreme — Score 75.4, Win Rate 60.7%, Avg 5d Return 3.4%, Max Drawd… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 71.7, Win Rate 66.7%, Avg 5d Return 5.24%, Max Drawdown -10.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | RSI Oversold — Score 84.5, Win Rate 80.0%, Avg 5d Return 2.78%, Max Drawdown -2.72%, Sharp… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown … |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 62.0, Win Rate 66.7%, Avg 5d Return 1.97%, Max Drawdown -53.89%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — CRWD
+### 🔍 NEW OPPORTUNITY — DOGE-USD
 
-**Signal Analysis:** Fisher Transform — Low Extreme — Score 75.4, Win Rate 60.7%, Avg 5d Return 3.4%, Max Drawdown -15.18%, Sharpe 3.67. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 71.7, Win Rate 66.7%, Avg 5d Return 5.24%, Max Drawdown -10.66%, Sharpe 4.63. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+
+### 🔍 NEW OPPORTUNITY — GC=F
+
+**Signal Analysis:** RSI Oversold — Score 84.5, Win Rate 80.0%, Avg 5d Return 2.78%, Max Drawdown -2.72%, Sharpe 5.95. 2 minor bearish signal(s), max confidence 64.9.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
@@ -181,12 +187,6 @@ _Evaluated Nov 18 2026 03:01 AM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** VWAP Deviation — Oversold — Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown -31.56%, Sharpe 2.12. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — LTC-USD
-
-**Signal Analysis:** RSI Oversold — Score 62.0, Win Rate 66.7%, Avg 5d Return 1.97%, Max Drawdown -53.89%, Sharpe 1.62. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
