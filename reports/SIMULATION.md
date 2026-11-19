@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 195** &nbsp;·&nbsp; Updated: Nov 19 2026 02:22 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 195** &nbsp;·&nbsp; Updated: Nov 19 2026 08:54 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.11%** &nbsp; ($+6,042) |
-| SPY Benchmark | +3.17% &nbsp; ($+6,142 if 100% SPY) |
-| Alpha vs SPY | **-0.05%** &nbsp; ❌ Underperforming |
+| SPY Benchmark | +1.43% &nbsp; ($+2,771 if 100% SPY) |
+| Alpha vs SPY | **+1.69%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
 | Current Value | $200,042 |
 
@@ -163,19 +163,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 19 2026 02:22 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 19 2026 08:54 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 71.7, Win Rate 66.7%, Avg 5d Return 5.24%, Max Drawdown -10.66%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | RSI Oversold — Score 84.5, Win Rate 80.0%, Avg 5d Return 2.78%, Max Drawdown -2.72%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 73.1, Win Rate 66.7%, Avg 5d Return 3.42%, Max Drawdown -53.89%, Shar… |
-
-### 🔍 NEW OPPORTUNITY — DOGE-USD
-
-**Signal Analysis:** MFI — Oversold — Score 71.7, Win Rate 66.7%, Avg 5d Return 5.24%, Max Drawdown -10.66%, Sharpe 4.63. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 89.9, Win Rate 83.8%, Avg 5d Return 3.11%, Max Drawdown -23.38%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 64.8, Win Rate 70.6%, Avg 5d Return 2.37%, Max Drawdown -26.48%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — GC=F
 
@@ -183,9 +177,15 @@ _Evaluated Nov 19 2026 02:22 AM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — LTC-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 73.1, Win Rate 66.7%, Avg 5d Return 3.42%, Max Drawdown -53.89%, Sharpe 2.14. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 89.9, Win Rate 83.8%, Avg 5d Return 3.11%, Max Drawdown -23.38%, Sharpe 4.02. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — SOL-USD
+
+**Signal Analysis:** MFI — Oversold — Score 64.8, Win Rate 70.6%, Avg 5d Return 2.37%, Max Drawdown -26.48%, Sharpe 1.87. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
