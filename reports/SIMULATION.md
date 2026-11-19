@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 194** &nbsp;·&nbsp; Updated: Nov 18 2026 09:00 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 195** &nbsp;·&nbsp; Updated: Nov 19 2026 02:22 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.10%** &nbsp; ($+6,018) |
-| SPY Benchmark | +3.17% &nbsp; ($+6,156 if 100% SPY) |
-| Alpha vs SPY | **-0.07%** &nbsp; ❌ Underperforming |
+| Portfolio P&L | **+3.11%** &nbsp; ($+6,042) |
+| SPY Benchmark | +3.17% &nbsp; ($+6,142 if 100% SPY) |
+| Alpha vs SPY | **-0.05%** &nbsp; ❌ Underperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,018 |
+| Current Value | $200,042 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,672 | +2.39% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,696 | +2.40% |
 
 ## Daily Equity Curve
 
@@ -159,16 +159,17 @@
 | 2026-11-16 | 📈 +3.08% | +4.54% | ❌ -1.47% |
 | 2026-11-17 | 📈 +3.09% | +3.48% | ❌ -0.39% |
 | 2026-11-18 | 📈 +3.10% | +3.17% | ❌ -0.07% |
+| 2026-11-19 | 📈 +3.11% | +3.17% | ❌ -0.05% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 18 2026 09:00 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 19 2026 02:22 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **DOGE-USD** | MFI — Oversold — Score 71.7, Win Rate 66.7%, Avg 5d Return 5.24%, Max Drawdown -10.66%, Sh… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GC=F** | RSI Oversold — Score 84.5, Win Rate 80.0%, Avg 5d Return 2.78%, Max Drawdown -2.72%, Sharp… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **XBI** | VWAP Deviation — Oversold — Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 73.1, Win Rate 66.7%, Avg 5d Return 3.42%, Max Drawdown -53.89%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — DOGE-USD
 
@@ -182,11 +183,11 @@ _Evaluated Nov 18 2026 09:00 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — XBI
+### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 80.6, Win Rate 80.0%, Avg 5d Return 1.59%, Max Drawdown -31.56%, Sharpe 2.12. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 73.1, Win Rate 66.7%, Avg 5d Return 3.42%, Max Drawdown -53.89%, Sharpe 2.14. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
