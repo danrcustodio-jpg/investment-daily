@@ -1,54 +1,54 @@
-# Daily Newsletter — Thursday, November 19, 2026
-Generated at 08:54 PM
+# Daily Newsletter — Friday, November 20, 2026
+Generated at 08:39 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 122 total &nbsp;·&nbsp; 🟢 83 Bullish &nbsp;·&nbsp; 🔴 39 Bearish
+**Strategy Signals:** 142 total &nbsp;·&nbsp; 🟢 94 Bullish &nbsp;·&nbsp; 🔴 48 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $28.28 | 📈 +15.15% |
-| **NG=F** | Natural Gas | $3.25 | 📉 -3.53% |
-| **XLY** | Consumer Disc. (XLY) | $116.25 | 📉 -2.48% |
-| **SI=F** | Silver | $43.90 | 📉 -2.43% |
-| **GC=F** | Gold | $3665.30 | 📉 -2.05% |
-| **^DJI** | Dow Jones | $49222.97 | 📉 -1.94% |
-| **^IXIC** | NASDAQ | $23956.65 | 📉 -1.94% |
-| **^RUT** | Russell 2000 | $2662.43 | 📉 -1.91% |
-| **XLV** | Healthcare (XLV) | $177.75 | 📉 -1.89% |
-| **^GSPC** | S&P 500 | $7196.01 | 📉 -1.74% |
+| **^VIX** | VIX (Fear Index) | $35.59 | 📈 +25.14% |
+| **NG=F** | Natural Gas | $3.76 | 📈 +15.12% |
+| **ETH-USD** | Ethereum | $1595.76 | 📉 -9.08% |
+| **SI=F** | Silver | $40.88 | 📉 -7.77% |
+| **SOL-USD** | Solana | $67.71 | 📉 -7.33% |
+| **XLK** | Tech (XLK) | $149.57 | 📉 -6.92% |
+| **BTC-USD** | Bitcoin | $58534.72 | 📉 -5.44% |
+| **^IXIC** | NASDAQ | $22687.60 | 📉 -4.99% |
+| **GC=F** | Gold | $3516.00 | 📉 -4.60% |
+| **^GSPC** | S&P 500 | $6932.38 | 📉 -3.39% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 90.9 | 79.3% |
-| 🟢 BULLISH | **GOOGL** | RSI Oversold | 89.9 | 83.8% |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.2 | 74.4% |
-| 🟢 BULLISH | **ARKK** | RSI Oversold | 88.7 | 85.0% |
+| 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 92.3 | 82.8% |
+| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.9 | 76.3% |
+| 🟢 BULLISH | **XLK** | RSI Oversold | 89.8 | 88.9% |
+| 🟢 BULLISH | **QQQ** | RSI Oversold | 89.7 | 90.9% |
+| 🟢 BULLISH | **GOOGL** | RSI Oversold | 89.3 | 84.6% |
+| 🟢 BULLISH | **SMH** | RSI Oversold | 88.3 | 87.5% |
+| 🟢 BULLISH | **ARKK** | RSI Oversold | 88.1 | 84.2% |
 | 🟢 BULLISH | **SPY** | VWAP Deviation — Oversold | 88.0 | 90.0% |
+| 🟢 BULLISH | **VOO** | RSI Oversold | 88.0 | 90.0% |
 | 🟢 BULLISH | **VOO** | VWAP Deviation — Oversold | 88.0 | 90.0% |
-| 🟢 BULLISH | **UPRO** | RSI Oversold | 87.7 | 84.6% |
-| 🟢 BULLISH | **GC=F** | RSI Oversold | 84.5 | 80.0% |
-| 🟢 BULLISH | **XBI** | VWAP Deviation — Oversold | 80.6 | 80.0% |
-| 🟢 BULLISH | **UPRO** | Keltner — Lower Channel Touch | 75.9 | 69.2% |
-| 🟢 BULLISH | **PLTR** | Keltner — Lower Channel Touch | 75.3 | 54.2% |
-| 🟢 BULLISH | **XLK** | Williams %R — Oversold | 75.1 | 69.0% |
+| 🟢 BULLISH | **SPY** | RSI Oversold | 85.4 | 81.8% |
+| 🟢 BULLISH | **UPRO** | RSI Oversold | 85.4 | 81.8% |
 
 ## Latest News
 
-- [UniFirst, Cintas executives to meet with FTC on Friday - CTFN](https://seekingalpha.com/news/4674876-unifirst-cintas-executives-to-meet-with-ftc-on-friday---ctfn?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Amazon app warns New York of higher costs if Mamdani delivery law passes](https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html) — *CNBC Markets*
-- [Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says](https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html) — *CNBC Markets*
-- [Orion at 18th annual Southwest IDEAS conference: self-help in focus](https://www.investing.com/news/transcripts/orion-at-18th-annual-southwest-ideas-conference-selfhelp-in-focus-93CH-5039892) — *Investing.com*
-- [BMO highlights top materials stock pick](https://www.investing.com/news/stock-market-news/bmo-highlights-top-materials-stock-pick-5039891) — *Investing.com*
-- [Fed’s Goolsbee says AI surge could strain US capacity, overheat economy](https://www.investing.com/news/economy-news/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-5039887) — *Investing.com*
-- [US court ruling jeopardizes Sentinel Midstream’s license for deepwater oil export project](https://www.investing.com/news/commodities-news/us-court-ruling-jeopardizes-sentinel-midstreams-license-for-deepwater-oil-export-project-5039890) — *Investing.com*
-- [Meritage Homes declares $0.48 quarterly dividend](https://www.investing.com/news/company-news/meritage-homes-declares-048-quarterly-dividend-93CH-5039889) — *Investing.com*
-- [UBS mulls shifting some job roles from Europe to India in next couple of years - report](https://seekingalpha.com/news/4674872-ubs-mulls-shifting-some-job-roles-from-europe-to-india-in-next-couple-of-years---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Congress passes bill to protect older investors from financial fraud](https://www.cnbc.com/2026/11/19/financial-exploitation-prevention-act-older-investors-fraud.html) — *CNBC Markets*
+- [Fastenal, Grainger cut at Baird, as outlook for industrial distributors turns negative](https://seekingalpha.com/news/4675313-fastenal-grainger-cut-at-baird-as-outlook-for-industrial-distributors-turns-negative?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [‘GTA 6’ has taken over. Is it too late to buy the developer’s stock?](https://www.marketwatch.com/story/gta-6-has-taken-over-is-it-too-late-to-buy-the-developers-stock-69a5cbc5?mod=mw_rss_topstories) — *MarketWatch*
+- [My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?](https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories) — *MarketWatch*
+- [I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?](https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories) — *MarketWatch*
+- [I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?](https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories) — *MarketWatch*
+- [Snap falls 10% as tech selloff drags down social media stocks](https://seekingalpha.com/news/4675320-snap-falls-10-as-tech-selloff-drags-down-social-media-stocks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Corning drops 11% amid technology-led market slide](https://seekingalpha.com/news/4675318-corning-drops-11-percent-amid-technology-led-market-slide?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [S&P 500 and Dow enter correction territory, Nasdaq craters over 4% amid AI rout](https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450) — *Investing.com*
+- [ICE canola futures close lower on Friday after flat week](https://www.investing.com/news/commodities-news/ice-canola-futures-close-lower-on-friday-after-flat-week-93CH-5042543) — *Investing.com*
+- [AI tech rout prompts US investors to rush into value stocks](https://www.investing.com/news/economy-news/ai-tech-rout-prompts-us-investors-to-rush-into-value-stocks-5042534) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

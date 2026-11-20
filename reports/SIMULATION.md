@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 196** &nbsp;·&nbsp; Updated: Nov 20 2026 02:28 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 196** &nbsp;·&nbsp; Updated: Nov 20 2026 08:39 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.13%** &nbsp; ($+6,066) |
-| SPY Benchmark | +1.14% &nbsp; ($+2,215 if 100% SPY) |
-| Alpha vs SPY | **+1.98%** &nbsp; ✅ Outperforming |
+| SPY Benchmark | -2.25% &nbsp; ($-4,369 if 100% SPY) |
+| Alpha vs SPY | **+5.38%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
 | Current Value | $200,066 |
 
@@ -164,29 +164,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 20 2026 02:28 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 20 2026 08:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 89.8, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Shar… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **NVDA** | Williams %R — Oversold — Score 69.3, Win Rate 67.1%, Avg 5d Return 2.12%, Max Drawdown -68… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 63.4, Win Rate 70.6%, Avg 5d Return 2.26%, Max Drawdown -26.48%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 89.3, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | RSI Oversold — Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharp… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 55.3, Win Rate 66.7%, Avg 5d Return 1.85%, Max Drawdown -28.65%, Sh… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 89.8, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Sharpe 4.44. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 89.3, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Sharpe 4.44. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — NVDA
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** Williams %R — Oversold — Score 69.3, Win Rate 67.1%, Avg 5d Return 2.12%, Max Drawdown -68.73%, Sharpe 1.96. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharpe 8.69. 1 minor bearish signal(s), max confidence 53.5.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — SOL-USD
 
-**Signal Analysis:** MFI — Oversold — Score 63.4, Win Rate 70.6%, Avg 5d Return 2.26%, Max Drawdown -26.48%, Sharpe 1.79. No conflicting bearish signals.
+**Signal Analysis:** MFI — Oversold — Score 55.3, Win Rate 66.7%, Avg 5d Return 1.85%, Max Drawdown -28.65%, Sharpe 1.44. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
