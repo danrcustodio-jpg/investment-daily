@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 196** &nbsp;·&nbsp; Updated: Nov 20 2026 08:39 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 196** &nbsp;·&nbsp; Updated: Nov 20 2026 08:52 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.13%** &nbsp; ($+6,066) |
-| SPY Benchmark | -2.25% &nbsp; ($-4,369 if 100% SPY) |
-| Alpha vs SPY | **+5.38%** &nbsp; ✅ Outperforming |
+| SPY Benchmark | -2.36% &nbsp; ($-4,570 if 100% SPY) |
+| Alpha vs SPY | **+5.48%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
 | Current Value | $200,066 |
 
@@ -160,17 +160,17 @@
 | 2026-11-17 | 📈 +3.09% | +3.48% | ❌ -0.39% |
 | 2026-11-18 | 📈 +3.10% | +3.17% | ❌ -0.07% |
 | 2026-11-19 | 📈 +3.11% | +1.14% | ✅ +1.98% |
-| 2026-11-20 | 📈 +3.13% | +1.14% | ✅ +1.98% |
+| 2026-11-20 | 📈 +3.13% | -2.35% | ✅ +5.48% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 20 2026 08:39 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 20 2026 08:52 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 89.3, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | RSI Oversold — Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharp… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 55.3, Win Rate 66.7%, Avg 5d Return 1.85%, Max Drawdown -28.65%, Sh… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | Keltner — Lower Channel Touch — Score 61.6, Win Rate 59.4%, Avg 5d Return 2.2%, Max Drawdo… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -180,13 +180,13 @@ _Evaluated Nov 20 2026 08:39 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** RSI Oversold — Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharpe 8.69. 1 minor bearish signal(s), max confidence 53.5.
+**Signal Analysis:** RSI Oversold — Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharpe 8.69. 1 minor bearish signal(s), max confidence 53.4.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — SOL-USD
+### 🔍 NEW OPPORTUNITY — ATOM-USD
 
-**Signal Analysis:** MFI — Oversold — Score 55.3, Win Rate 66.7%, Avg 5d Return 1.85%, Max Drawdown -28.65%, Sharpe 1.44. No conflicting bearish signals.
+**Signal Analysis:** Keltner — Lower Channel Touch — Score 61.6, Win Rate 59.4%, Avg 5d Return 2.2%, Max Drawdown -49.63%, Sharpe 1.8. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
