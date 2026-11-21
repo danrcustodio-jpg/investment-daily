@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 197** &nbsp;·&nbsp; Updated: Nov 21 2026 01:54 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 197** &nbsp;·&nbsp; Updated: Nov 21 2026 07:40 PM
 
 ## Performance Summary
 
@@ -165,13 +165,19 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 21 2026 01:54 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 21 2026 07:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 90.2, Win Rate 86.1%, Avg 5d Return 3.62%, Max Drawdown -23.38%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **VOO** | RSI Oversold — Score 88.0, Win Rate 90.0%, Avg 5d Return 3.26%, Max Drawdown -2.2%, Sharpe… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **SOL-USD** | MFI — Oversold — Score 56.7, Win Rate 66.7%, Avg 5d Return 1.92%, Max Drawdown -27.66%, Sh… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharp… |
+
+### 🔍 NEW OPPORTUNITY — BTC-USD
+
+**Signal Analysis:** MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sharpe 8.6. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -179,17 +185,11 @@ _Evaluated Nov 21 2026 01:54 AM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — VOO
+### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** RSI Oversold — Score 88.0, Win Rate 90.0%, Avg 5d Return 3.26%, Max Drawdown -2.2%, Sharpe 7.22. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharpe 8.04. 1 minor bearish signal(s), max confidence 53.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — SOL-USD
-
-**Signal Analysis:** MFI — Oversold — Score 56.7, Win Rate 66.7%, Avg 5d Return 1.92%, Max Drawdown -27.66%, Sharpe 1.52. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
