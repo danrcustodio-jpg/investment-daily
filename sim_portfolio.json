@@ -1293,6 +1293,15 @@
       "prices": {
         "SPY": 691.1262817382812
       }
+    },
+    {
+      "date": "2026-11-21",
+      "total_value": 200090.23,
+      "portfolio_pnl": 3.139,
+      "benchmark_pnl": -2.54,
+      "prices": {
+        "SPY": 689.8099975585938
+      }
     }
   ],
   "recommendations": [
@@ -1300,31 +1309,31 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "GOOGL",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 89.3, Win Rate 84.6%, Avg 5d Return 3.44%, Max Drawdown -23.38%, Sharpe 4.44. No conflicting bearish signals.",
+      "reason": "RSI Oversold \u2014 Score 90.2, Win Rate 86.1%, Avg 5d Return 3.62%, Max Drawdown -23.38%, Sharpe 4.6. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "SMH",
+      "ticker": "VOO",
       "priority": "high",
-      "reason": "RSI Oversold \u2014 Score 88.3, Win Rate 87.5%, Avg 5d Return 6.93%, Max Drawdown -2.33%, Sharpe 8.69. 1 minor bearish signal(s), max confidence 53.4.",
+      "reason": "RSI Oversold \u2014 Score 88.0, Win Rate 90.0%, Avg 5d Return 3.26%, Max Drawdown -2.2%, Sharpe 7.22. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "ATOM-USD",
+      "ticker": "SOL-USD",
       "priority": "medium",
-      "reason": "Keltner \u2014 Lower Channel Touch \u2014 Score 61.6, Win Rate 59.4%, Avg 5d Return 2.2%, Max Drawdown -49.63%, Sharpe 1.8. No conflicting bearish signals.",
+      "reason": "MFI \u2014 Oversold \u2014 Score 56.7, Win Rate 66.7%, Avg 5d Return 1.92%, Max Drawdown -27.66%, Sharpe 1.52. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-20T20:52:15.783463",
+  "recommendations_updated": "2026-11-21T01:54:09.306217",
   "trade_log": [
     {
       "action": "SELL",
