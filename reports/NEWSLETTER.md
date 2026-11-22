@@ -1,24 +1,24 @@
-# Daily Newsletter — Saturday, November 21, 2026
-Generated at 07:40 PM
+# Daily Newsletter — Sunday, November 22, 2026
+Generated at 07:55 PM
 
 ## Market Sentiment: Bearish
 
-**Strategy Signals:** 144 total &nbsp;·&nbsp; 🟢 91 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
+**Strategy Signals:** 143 total &nbsp;·&nbsp; 🟢 90 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
 | **^VIX** | VIX (Fear Index) | $35.89 | 📈 +26.20% |
-| **SI=F** | Silver | $41.03 | 📉 -7.41% |
+| **NG=F** | Natural Gas | $3.75 | 📈 +14.69% |
+| **SI=F** | Silver | $41.07 | 📉 -7.33% |
 | **XLK** | Tech (XLK) | $149.01 | 📉 -7.27% |
 | **^IXIC** | NASDAQ | $22617.73 | 📉 -5.28% |
 | **GC=F** | Gold | $3515.40 | 📉 -4.62% |
-| **NG=F** | Natural Gas | $3.41 | 📈 +4.38% |
-| **ETH-USD** | Ethereum | $1682.76 | 📈 +3.91% |
 | **^GSPC** | S&P 500 | $6910.39 | 📉 -3.70% |
 | **VOO** | S&P 500 (VOO) | $635.54 | 📉 -3.41% |
 | **XLI** | Industrials (XLI) | $156.37 | 📉 -3.09% |
+| **XLY** | Consumer Disc. (XLY) | $112.46 | 📉 -2.95% |
 
 ## Top Strategy Signals
 
@@ -39,16 +39,16 @@ Generated at 07:40 PM
 
 ## Latest News
 
-- [Terrance Ford, First Community Corp director, buys $20,928 in stock](https://www.investing.com/news/insider-trading-news/terrance-ford-first-community-corp-director-buys-20928-in-stock-93CH-5043565) — *Investing.com*
-- [Trump orders contractors to report Congress inquiries](https://www.investing.com/news/economy-news/trump-orders-contractors-to-report-congress-inquiries-5043559) — *Investing.com*
-- [Who really wins from AI?](https://www.investing.com/news/stock-market-news/who-really-wins-from-ai-5043557) — *Investing.com*
-- [CV Sciences director Charlie Cheever III acquires $20,307 in common stock](https://www.investing.com/news/insider-trading-news/cv-sciences-director-charlie-cheever-iii-acquires-20307-in-common-stock-93CH-5043555) — *Investing.com*
-- [Trump to work with Dems to cap credit card interest rates](https://seekingalpha.com/news/4675397-trump-work-with-dems-cap-credit-card-interest-rate?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Amdocs director and officer Shimie Hortig sells $558,955 in shares](https://www.investing.com/news/insider-trading-news/amdocs-director-and-officer-shimie-hortig-sells-558955-in-shares-93CH-5043551) — *Investing.com*
-- [CION Investment Corp president buys $48,110 in stock](https://www.investing.com/news/insider-trading-news/cion-investment-corp-president-buys-48110-in-stock-93CH-5043543) — *Investing.com*
-- [Scotts Miracle-Gro director sells $199,727 in shares](https://www.investing.com/news/insider-trading-news/scotts-miraclegro-director-sells-199727-in-shares-93CH-5043542) — *Investing.com*
-- [Amazon nearing $7.5B deal to buy AI start-up Decart: FT](https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Violence erupts in Sinaloa after Mexico captures alleged drug trafficker](https://www.ft.com/content/90a8d0bd-32c8-471a-8696-e95555e41b78?syn-25a6b1a6=1) — *Financial Times*
+- [Goldman watching for 3 conditions that could support a stock correction bottom](https://seekingalpha.com/news/4675412-goldman-watching-for-3-conditions-that-could-support-a-stock-correction-bottom?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Delta flight delays add to concerns about US air travel system](https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1) — *Financial Times*
+- [Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill](https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories) — *MarketWatch*
+- [Delta flights faced brief delays at Atlanta airport over automated system issue](https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102) — *Investing.com*
+- [Bessent refuses to rule out Huang’s return to Nvidia](https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1) — *Financial Times*
+- [Gregory M. Shepard sells $2.19M in Atlas Energy Solutions stock](https://www.investing.com/news/insider-trading-news/gregory-m-shepard-sells-219m-in-atlas-energy-solutions-stock-93CH-5044100) — *Investing.com*
+- [OpenAI calls for industry-wide AI brake tied to perplexity](https://seekingalpha.com/news/4675411-openai-calls-for-industry-wide-ai-brake-tied-to-perplexity?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [SA Asks: How much of a threat is Anthropic's multi-chip strategy to Nvidia?](https://seekingalpha.com/news/4675384-sa-asks-how-much-of-a-threat-is-anthropics-multi-chip-strategy-to-nvidia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens](https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html) — *CNBC Markets*
+- [Bessent says Trump administration needs answers from Nvidia](https://www.investing.com/news/company-news/bessent-says-trump-administration-needs-answers-from-nvidia-5044096) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 197** &nbsp;·&nbsp; Updated: Nov 21 2026 07:40 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 198** &nbsp;·&nbsp; Updated: Nov 22 2026 07:55 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.14%** &nbsp; ($+6,090) |
+| Portfolio P&L | **+3.15%** &nbsp; ($+6,114) |
 | SPY Benchmark | -2.54% &nbsp; ($-4,928 if 100% SPY) |
-| Alpha vs SPY | **+5.68%** &nbsp; ✅ Outperforming |
+| Alpha vs SPY | **+5.69%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,090 |
+| Current Value | $200,114 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,744 | +2.43% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,769 | +2.44% |
 
 ## Daily Equity Curve
 
@@ -165,19 +165,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 21 2026 07:40 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 22 2026 07:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sha… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 90.2, Win Rate 86.1%, Avg 5d Return 3.62%, Max Drawdown -23.38%, Shar… |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharp… |
-
-### 🔍 NEW OPPORTUNITY — BTC-USD
-
-**Signal Analysis:** MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sharpe 8.6. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 68.5, Win Rate 60.5%, Avg 5d Return 2.97%, Max Drawdown -41.15%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — GOOGL
 
@@ -190,6 +184,12 @@ _Evaluated Nov 21 2026 07:40 PM · Tax rates: 32% short-term / 15% long-term · 
 **Signal Analysis:** RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharpe 8.04. 1 minor bearish signal(s), max confidence 53.3.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — ATOM-USD
+
+**Signal Analysis:** RSI Oversold — Score 68.5, Win Rate 60.5%, Avg 5d Return 2.97%, Max Drawdown -41.15%, Sharpe 2.2. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ## Position Rationale
 
