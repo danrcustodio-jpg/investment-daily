@@ -1,24 +1,24 @@
 # Daily Newsletter — Tuesday, November 24, 2026
-Generated at 12:12 AM
+Generated at 10:41 PM
 
-## Market Sentiment: Bullish
+## Market Sentiment: Neutral
 
-**Strategy Signals:** 75 total &nbsp;·&nbsp; 🟢 41 Bullish &nbsp;·&nbsp; 🔴 34 Bearish
+**Strategy Signals:** 76 total &nbsp;·&nbsp; 🟢 39 Bullish &nbsp;·&nbsp; 🔴 37 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $26.62 | 📉 -25.83% |
-| **XLK** | Tech (XLK) | $162.38 | 📈 +8.97% |
-| **^IXIC** | NASDAQ | $24089.56 | 📈 +6.51% |
-| **SI=F** | Silver | $43.16 | 📈 +5.18% |
-| **^GSPC** | S&P 500 | $7237.17 | 📈 +4.73% |
-| **VOO** | S&P 500 (VOO) | $663.91 | 📈 +4.46% |
-| **CL=F** | Crude Oil | $80.57 | 📉 -4.06% |
-| **XLY** | Consumer Disc. (XLY) | $116.93 | 📈 +3.97% |
-| **XLI** | Industrials (XLI) | $162.47 | 📈 +3.90% |
-| **NG=F** | Natural Gas | $3.53 | 📈 +3.61% |
+| **NG=F** | Natural Gas | $3.67 | 📈 +15.26% |
+| **SI=F** | Silver | $40.71 | 📉 -5.65% |
+| **XLK** | Tech (XLK) | $157.09 | 📉 -3.26% |
+| **XLV** | Healthcare (XLV) | $184.72 | 📈 +2.95% |
+| **SOL-USD** | Solana | $69.91 | 📉 -2.88% |
+| **GC=F** | Gold | $3555.10 | 📉 -2.64% |
+| **BTC-USD** | Bitcoin | $59972.70 | 📉 -2.02% |
+| **CL=F** | Crude Oil | $81.69 | 📈 +1.90% |
+| **^IXIC** | NASDAQ | $23733.54 | 📉 -1.48% |
+| **ETH-USD** | Ethereum | $1684.72 | 📉 -1.41% |
 
 ## Top Strategy Signals
 
@@ -26,29 +26,29 @@ Generated at 12:12 AM
 |---|---|---|---|---|
 | 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 91.4 | 80.8% |
 | 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 89.7 | 77.8% |
-| 🟢 BULLISH | **XLE** | MFI — Oversold | 89.1 | 75.0% |
 | 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.0 | 74.3% |
+| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 84.0 | 73.3% |
 | 🟢 BULLISH | **XLE** | Williams %R — Oversold | 83.2 | 71.2% |
-| 🟢 BULLISH | **AAPL** | SMA 30 — Bullish Reclaim | 82.0 | 80.0% |
+| 🟢 BULLISH | **GC=F** | RSI Oversold | 83.1 | 80.0% |
+| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 76.9 | 64.9% |
 | 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 76.2 | 65.0% |
-| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.1 | 62.1% |
-| 🟢 BULLISH | **BCH-USD** | Parabolic SAR — Bullish | 72.9 | 62.1% |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 74.8 | 61.5% |
 | 🟢 BULLISH | **XLE** | Stochastic RSI Oversold | 71.6 | 68.6% |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 71.3 | 62.2% |
-| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 70.5 | 63.3% |
+| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 70.6 | 65.0% |
 
 ## Latest News
 
-- [CrowdStrike expects $1B revenue synergies and $500M cost synergies from proposed Zscaler deal, while guiding FY 2027 net new ARR to $1.459B-$1.463B](https://seekingalpha.com/news/4675951-crowdstrike-expects-1b-revenue-synergies-and-500m-cost-synergies-from-proposed-zscaler-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [US agency to vote to ease ownership limits on local TV, radio stations](https://www.investing.com/news/stock-market-news/us-agency-to-vote-to-ease-ownership-limits-on-local-tv-radio-stations-5046494) — *Investing.com*
-- [Oil prices steady after logging deep losses on supply glut fears](https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712) — *Investing.com*
-- [Jensen Huang’s comeback to Nvidia underscores his outsized grip on AI](https://www.investing.com/news/stock-market-news/jensen-huangs-comeback-to-nvidia-underscores-his-outsized-grip-on-ai-5046711) — *Investing.com*
-- [CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'](https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html) — *CNBC Markets*
-- [Cadence Design sr. vp Chin-Chi Teng sells $1.09 million in stock](https://www.investing.com/news/insider-trading-news/cadence-design-sr-vp-chinchi-teng-sells-109-million-in-stock-93CH-5046709) — *Investing.com*
-- [Trump orders US Army to pause lead azide detonation in Iowa](https://www.investing.com/news/commodities-news/trump-orders-us-army-to-pause-leadazide-detonation-in-iowa-5046270) — *Investing.com*
-- [Fed’s Williams says inflation still too high, signals more rate hikes possible](https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374) — *Investing.com*
-- [Trump sealed deal for Nvidia to rehire Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html) — *CNBC Markets*
-- [Visa chief risk officer Fabara sells $589,680 in company stock](https://www.investing.com/news/insider-trading-news/visa-chief-risk-officer-fabara-sells-589680-in-company-stock-93CH-5046697) — *Investing.com*
+- [Ford explores Pentagon opportunities as automakers pursue defense business](https://seekingalpha.com/news/4676414-ford-explores-pentagon-opportunities-as-automakers-pursue-defense-business?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Kutcho Copper announces C$1M private placement](https://seekingalpha.com/news/4676410-kutcho-copper-announces-c-1m-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Gold slips after sharp rebound with inflation, Fed expectations in focus](https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835) — *Investing.com*
+- [Earnings call transcript: Ambarella Q3 2027 profit beats, but stock plunges](https://www.investing.com/news/transcripts/earnings-call-transcript-ambarella-q3-2027-profit-beats-but-stock-plunges-93CH-5049252) — *Investing.com*
+- [The Western Investment GAAP EPS of -C$0.007, revenue of C$11.1M](https://seekingalpha.com/news/4676412-the-western-investment-gaap-eps-of-c0007-revenue-of-c111m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Bold Eagle Acquisition enters $1.08 million promissory note with sponsor](https://www.investing.com/news/sec-filings/bold-eagle-acquisition-enters-108-million-promissory-note-with-sponsor-93CH-5049251) — *Investing.com*
+- [Fountain Asset reports Q3 results](https://seekingalpha.com/news/4676411-fountain-asset-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Trump Account contributions from friends and family pass $1 billion mark, Treasury says](https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html) — *CNBC Markets*
+- [Schumer accuses Nvidia CEO of violating US export control law](https://www.investing.com/news/stock-market-news/schumer-accuses-nvidia-ceo-of-violating-us-export-control-law-5048879) — *Investing.com*
+- [Ambarella collapses 40% as Q4 guidance falls shockingly short of estimates](https://seekingalpha.com/news/4676404-ambarella-collapses-40-percent-as-q4-guidance-falls-shockingly-short-of-estimates?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
 
 ---
 *Investment Daily — Not financial advice.*

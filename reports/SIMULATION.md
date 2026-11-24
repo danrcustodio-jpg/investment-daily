@@ -1,13 +1,13 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 12:30 AM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 10:41 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
 | Portfolio P&L | **+3.18%** &nbsp; ($+6,162) |
-| SPY Benchmark | +2.05% &nbsp; ($+3,974 if 100% SPY) |
-| Alpha vs SPY | **+1.13%** &nbsp; ✅ Outperforming |
+| SPY Benchmark | +1.55% &nbsp; ($+3,012 if 100% SPY) |
+| Alpha vs SPY | **+1.62%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
 | Current Value | $200,162 |
 
@@ -166,31 +166,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 24 2026 12:30 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 24 2026 10:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Parabolic SAR — Bullish — Score 72.9, Win Rate 62.1%, Avg 5d Return 3.41%, Max Drawdown -2… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic (Full) — Oversold — Score 70.5, Win Rate 63.3%, Avg 5d Return 2.21%, Max Drawdo… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 60.6, Win Rate 65.0%, Avg 5d Return 1.11%, Max Drawdown -8.… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | PPO — Bullish Cross — Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.21%, Shar… |
 
-### 🔍 NEW OPPORTUNITY — BCH-USD
+### 🔍 NEW OPPORTUNITY — CRWD
 
-**Signal Analysis:** Parabolic SAR — Bullish — Score 72.9, Win Rate 62.1%, Avg 5d Return 3.41%, Max Drawdown -23.35%, Sharpe 2.31. No conflicting bearish signals.
+**Signal Analysis:** VWAP Deviation — Oversold — Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown -55.13%, Sharpe 2.77. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — PLTR
+
+**Signal Analysis:** PPO — Bullish Cross — Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — LTC-USD
+
+**Signal Analysis:** RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.21%, Sharpe 1.6. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
-
-### 🔍 NEW OPPORTUNITY — SMH
-
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.5, Win Rate 63.3%, Avg 5d Return 2.21%, Max Drawdown -23.21%, Sharpe 2.65. 1 minor bearish signal(s), max confidence 52.6.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — GOOGL
-
-**Signal Analysis:** MACD Bullish Crossover — Score 60.6, Win Rate 65.0%, Avg 5d Return 1.11%, Max Drawdown -8.72%, Sharpe 1.46. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
