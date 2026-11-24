@@ -1,5 +1,5 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 10:41 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 10:51 PM
 
 ## Performance Summary
 
@@ -162,17 +162,17 @@
 | 2026-11-19 | 📈 +3.11% | +1.14% | ✅ +1.98% |
 | 2026-11-20 | 📈 +3.13% | -2.35% | ✅ +5.48% |
 | 2026-11-21 | 📈 +3.14% | -2.54% | ✅ +5.68% |
-| 2026-11-24 | 📈 +3.18% | +2.05% | ✅ +1.13% |
+| 2026-11-24 | 📈 +3.18% | +1.55% | ✅ +1.62% |
 
 ## Strategy Advisor
 
-_Evaluated Nov 24 2026 10:41 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 24 2026 10:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | PPO — Bullish Cross — Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.21%, Shar… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.25%, Shar… |
 
 ### 🔍 NEW OPPORTUNITY — CRWD
 
@@ -188,7 +188,7 @@ _Evaluated Nov 24 2026 10:41 PM · Tax rates: 32% short-term / 15% long-term · 
 
 ### 🔍 NEW OPPORTUNITY — LTC-USD
 
-**Signal Analysis:** RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.21%, Sharpe 1.6. No conflicting bearish signals.
+**Signal Analysis:** RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.25%, Sharpe 1.6. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
