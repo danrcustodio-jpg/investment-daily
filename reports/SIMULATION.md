@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 198** &nbsp;·&nbsp; Updated: Nov 22 2026 07:55 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 12:12 AM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.15%** &nbsp; ($+6,114) |
-| SPY Benchmark | -2.54% &nbsp; ($-4,928 if 100% SPY) |
-| Alpha vs SPY | **+5.69%** &nbsp; ✅ Outperforming |
+| Portfolio P&L | **+3.18%** &nbsp; ($+6,162) |
+| SPY Benchmark | +2.05% &nbsp; ($+3,974 if 100% SPY) |
+| Alpha vs SPY | **+1.13%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,114 |
+| Current Value | $200,162 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,769 | +2.44% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,817 | +2.47% |
 
 ## Daily Equity Curve
 
@@ -165,31 +165,31 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 22 2026 07:55 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 24 2026 12:12 AM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **GOOGL** | RSI Oversold — Score 90.2, Win Rate 86.1%, Avg 5d Return 3.62%, Max Drawdown -23.38%, Shar… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharp… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **ATOM-USD** | RSI Oversold — Score 68.5, Win Rate 60.5%, Avg 5d Return 2.97%, Max Drawdown -41.15%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BCH-USD** | Parabolic SAR — Bullish — Score 72.9, Win Rate 62.1%, Avg 5d Return 3.41%, Max Drawdown -2… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **SMH** | Stochastic (Full) — Oversold — Score 70.5, Win Rate 63.3%, Avg 5d Return 2.21%, Max Drawdo… |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **GOOGL** | MACD Bullish Crossover — Score 60.6, Win Rate 65.0%, Avg 5d Return 1.11%, Max Drawdown -8.… |
 
-### 🔍 NEW OPPORTUNITY — GOOGL
+### 🔍 NEW OPPORTUNITY — BCH-USD
 
-**Signal Analysis:** RSI Oversold — Score 90.2, Win Rate 86.1%, Avg 5d Return 3.62%, Max Drawdown -23.38%, Sharpe 4.6. No conflicting bearish signals.
+**Signal Analysis:** Parabolic SAR — Bullish — Score 72.9, Win Rate 62.1%, Avg 5d Return 3.41%, Max Drawdown -23.35%, Sharpe 2.31. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
 ### 🔍 NEW OPPORTUNITY — SMH
 
-**Signal Analysis:** RSI Oversold — Score 93.8, Win Rate 92.9%, Avg 5d Return 5.32%, Max Drawdown -2.33%, Sharpe 8.04. 1 minor bearish signal(s), max confidence 53.3.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 70.5, Win Rate 63.3%, Avg 5d Return 2.21%, Max Drawdown -23.21%, Sharpe 2.65. 1 minor bearish signal(s), max confidence 52.6.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — ATOM-USD
+### 🔍 NEW OPPORTUNITY — GOOGL
 
-**Signal Analysis:** RSI Oversold — Score 68.5, Win Rate 60.5%, Avg 5d Return 2.97%, Max Drawdown -41.15%, Sharpe 2.2. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 60.6, Win Rate 65.0%, Avg 5d Return 1.11%, Max Drawdown -8.72%, Sharpe 1.46. No conflicting bearish signals.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 

@@ -1,54 +1,54 @@
-# Daily Newsletter — Sunday, November 22, 2026
-Generated at 07:55 PM
+# Daily Newsletter — Tuesday, November 24, 2026
+Generated at 12:12 AM
 
-## Market Sentiment: Bearish
+## Market Sentiment: Bullish
 
-**Strategy Signals:** 143 total &nbsp;·&nbsp; 🟢 90 Bullish &nbsp;·&nbsp; 🔴 53 Bearish
+**Strategy Signals:** 75 total &nbsp;·&nbsp; 🟢 41 Bullish &nbsp;·&nbsp; 🔴 34 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **^VIX** | VIX (Fear Index) | $35.89 | 📈 +26.20% |
-| **NG=F** | Natural Gas | $3.75 | 📈 +14.69% |
-| **SI=F** | Silver | $41.07 | 📉 -7.33% |
-| **XLK** | Tech (XLK) | $149.01 | 📉 -7.27% |
-| **^IXIC** | NASDAQ | $22617.73 | 📉 -5.28% |
-| **GC=F** | Gold | $3515.40 | 📉 -4.62% |
-| **^GSPC** | S&P 500 | $6910.39 | 📉 -3.70% |
-| **VOO** | S&P 500 (VOO) | $635.54 | 📉 -3.41% |
-| **XLI** | Industrials (XLI) | $156.37 | 📉 -3.09% |
-| **XLY** | Consumer Disc. (XLY) | $112.46 | 📉 -2.95% |
+| **^VIX** | VIX (Fear Index) | $26.62 | 📉 -25.83% |
+| **XLK** | Tech (XLK) | $162.38 | 📈 +8.97% |
+| **^IXIC** | NASDAQ | $24089.56 | 📈 +6.51% |
+| **SI=F** | Silver | $43.16 | 📈 +5.18% |
+| **^GSPC** | S&P 500 | $7237.17 | 📈 +4.73% |
+| **VOO** | S&P 500 (VOO) | $663.91 | 📈 +4.46% |
+| **CL=F** | Crude Oil | $80.57 | 📉 -4.06% |
+| **XLY** | Consumer Disc. (XLY) | $116.93 | 📈 +3.97% |
+| **XLI** | Industrials (XLI) | $162.47 | 📈 +3.90% |
+| **NG=F** | Natural Gas | $3.53 | 📈 +3.61% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **SMH** | RSI Oversold | 93.8 | 92.9% |
-| 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 92.0 | 82.1% |
-| 🟢 BULLISH | **GOOGL** | RSI Oversold | 90.2 | 86.1% |
-| 🟢 BULLISH | **XLK** | RSI Oversold | 89.8 | 88.9% |
-| 🟢 BULLISH | **QQQ** | RSI Oversold | 89.7 | 90.9% |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.6 | 75.7% |
-| 🟢 BULLISH | **SPY** | VWAP Deviation — Oversold | 88.0 | 90.0% |
-| 🟢 BULLISH | **VOO** | RSI Oversold | 88.0 | 90.0% |
-| 🟢 BULLISH | **VOO** | VWAP Deviation — Oversold | 88.0 | 90.0% |
-| 🟢 BULLISH | **ARKK** | RSI Oversold | 87.2 | 84.6% |
-| 🟢 BULLISH | **SPY** | RSI Oversold | 85.4 | 81.8% |
-| 🟢 BULLISH | **UPRO** | RSI Oversold | 85.4 | 81.8% |
+| 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 91.4 | 80.8% |
+| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 89.7 | 77.8% |
+| 🟢 BULLISH | **XLE** | MFI — Oversold | 89.1 | 75.0% |
+| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.0 | 74.3% |
+| 🟢 BULLISH | **XLE** | Williams %R — Oversold | 83.2 | 71.2% |
+| 🟢 BULLISH | **AAPL** | SMA 30 — Bullish Reclaim | 82.0 | 80.0% |
+| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 76.2 | 65.0% |
+| 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 75.1 | 62.1% |
+| 🟢 BULLISH | **BCH-USD** | Parabolic SAR — Bullish | 72.9 | 62.1% |
+| 🟢 BULLISH | **XLE** | Stochastic RSI Oversold | 71.6 | 68.6% |
+| 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 71.3 | 62.2% |
+| 🟢 BULLISH | **SMH** | Stochastic (Full) — Oversold | 70.5 | 63.3% |
 
 ## Latest News
 
-- [Goldman watching for 3 conditions that could support a stock correction bottom](https://seekingalpha.com/news/4675412-goldman-watching-for-3-conditions-that-could-support-a-stock-correction-bottom?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Delta flight delays add to concerns about US air travel system](https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1) — *Financial Times*
-- [Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill](https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories) — *MarketWatch*
-- [Delta flights faced brief delays at Atlanta airport over automated system issue](https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102) — *Investing.com*
-- [Bessent refuses to rule out Huang’s return to Nvidia](https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1) — *Financial Times*
-- [Gregory M. Shepard sells $2.19M in Atlas Energy Solutions stock](https://www.investing.com/news/insider-trading-news/gregory-m-shepard-sells-219m-in-atlas-energy-solutions-stock-93CH-5044100) — *Investing.com*
-- [OpenAI calls for industry-wide AI brake tied to perplexity](https://seekingalpha.com/news/4675411-openai-calls-for-industry-wide-ai-brake-tied-to-perplexity?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [SA Asks: How much of a threat is Anthropic's multi-chip strategy to Nvidia?](https://seekingalpha.com/news/4675384-sa-asks-how-much-of-a-threat-is-anthropics-multi-chip-strategy-to-nvidia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens](https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html) — *CNBC Markets*
-- [Bessent says Trump administration needs answers from Nvidia](https://www.investing.com/news/company-news/bessent-says-trump-administration-needs-answers-from-nvidia-5044096) — *Investing.com*
+- [CrowdStrike expects $1B revenue synergies and $500M cost synergies from proposed Zscaler deal, while guiding FY 2027 net new ARR to $1.459B-$1.463B](https://seekingalpha.com/news/4675951-crowdstrike-expects-1b-revenue-synergies-and-500m-cost-synergies-from-proposed-zscaler-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [US agency to vote to ease ownership limits on local TV, radio stations](https://www.investing.com/news/stock-market-news/us-agency-to-vote-to-ease-ownership-limits-on-local-tv-radio-stations-5046494) — *Investing.com*
+- [Oil prices steady after logging deep losses on supply glut fears](https://www.investing.com/news/commodities-news/oil-prices-steady-after-logging-deep-losses-on-supply-glut-fears-5046712) — *Investing.com*
+- [Jensen Huang’s comeback to Nvidia underscores his outsized grip on AI](https://www.investing.com/news/stock-market-news/jensen-huangs-comeback-to-nvidia-underscores-his-outsized-grip-on-ai-5046711) — *Investing.com*
+- [CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'](https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html) — *CNBC Markets*
+- [Cadence Design sr. vp Chin-Chi Teng sells $1.09 million in stock](https://www.investing.com/news/insider-trading-news/cadence-design-sr-vp-chinchi-teng-sells-109-million-in-stock-93CH-5046709) — *Investing.com*
+- [Trump orders US Army to pause lead azide detonation in Iowa](https://www.investing.com/news/commodities-news/trump-orders-us-army-to-pause-leadazide-detonation-in-iowa-5046270) — *Investing.com*
+- [Fed’s Williams says inflation still too high, signals more rate hikes possible](https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374) — *Investing.com*
+- [Trump sealed deal for Nvidia to rehire Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html) — *CNBC Markets*
+- [Visa chief risk officer Fabara sells $589,680 in company stock](https://www.investing.com/news/insider-trading-news/visa-chief-risk-officer-fabara-sells-589680-in-company-stock-93CH-5046697) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*
