@@ -1316,33 +1316,33 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "CRWD",
+      "ticker": "AAPL",
       "priority": "high",
-      "reason": "VWAP Deviation \u2014 Oversold \u2014 Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown -55.13%, Sharpe 2.77. No conflicting bearish signals.",
+      "reason": "OBV \u2014 Accumulation \u2014 Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, Sharpe 3.29. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "PLTR",
+      "ticker": "AMD",
       "priority": "high",
-      "reason": "PPO \u2014 Bullish Cross \u2014 Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdown -14.17%, Sharpe 3.8. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     },
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "LTC-USD",
-      "priority": "medium",
-      "reason": "RSI Oversold \u2014 Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.25%, Sharpe 1.6. No conflicting bearish signals.",
+      "ticker": "BTC-USD",
+      "priority": "high",
+      "reason": "MFI \u2014 Oversold \u2014 Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sharpe 8.6. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.",
       "suggested_allocation": 25000,
       "is_crypto": true
     }
   ],
-  "recommendations_updated": "2026-11-24T22:51:47.156465",
+  "recommendations_updated": "2026-11-25T21:56:14.303067",
   "trade_log": [
     {
       "action": "SELL",

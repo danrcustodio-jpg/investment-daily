@@ -1,54 +1,54 @@
-# Daily Newsletter — Tuesday, November 24, 2026
-Generated at 10:41 PM
+# Daily Newsletter — Wednesday, November 25, 2026
+Generated at 09:56 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 76 total &nbsp;·&nbsp; 🟢 39 Bullish &nbsp;·&nbsp; 🔴 37 Bearish
+**Strategy Signals:** 64 total &nbsp;·&nbsp; 🟢 32 Bullish &nbsp;·&nbsp; 🔴 32 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.67 | 📈 +15.26% |
-| **SI=F** | Silver | $40.71 | 📉 -5.65% |
-| **XLK** | Tech (XLK) | $157.09 | 📉 -3.26% |
-| **XLV** | Healthcare (XLV) | $184.72 | 📈 +2.95% |
-| **SOL-USD** | Solana | $69.91 | 📉 -2.88% |
-| **GC=F** | Gold | $3555.10 | 📉 -2.64% |
-| **BTC-USD** | Bitcoin | $59972.70 | 📉 -2.02% |
-| **CL=F** | Crude Oil | $81.69 | 📈 +1.90% |
-| **^IXIC** | NASDAQ | $23733.54 | 📉 -1.48% |
-| **ETH-USD** | Ethereum | $1684.72 | 📉 -1.41% |
+| **NG=F** | Natural Gas | $3.68 | 📈 +10.86% |
+| **^VIX** | VIX (Fear Index) | $28.29 | 📈 +7.32% |
+| **CL=F** | Crude Oil | $84.12 | 📈 +2.52% |
+| **SI=F** | Silver | $41.47 | 📈 +1.74% |
+| **SOL-USD** | Solana | $70.60 | 📈 +1.38% |
+| **GC=F** | Gold | $3606.90 | 📈 +1.26% |
+| **^TNX** | 10-Year Treasury Yield | $4.85 | 📉 -1.14% |
+| **^TYX** | 30-Year Treasury Yield | $5.23 | 📉 -1.08% |
+| **XLI** | Industrials (XLI) | $162.95 | 📈 +0.83% |
+| **XLK** | Tech (XLK) | $155.79 | 📉 -0.83% |
 
 ## Top Strategy Signals
 
 | Direction | Ticker | Strategy | Confidence | Win Rate |
 |---|---|---|---|---|
-| 🟢 BULLISH | **XLE** | Keltner — Lower Channel Touch | 91.4 | 80.8% |
-| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 89.7 | 77.8% |
-| 🟢 BULLISH | **XLE** | VWAP Deviation — Oversold | 89.0 | 74.3% |
-| 🟢 BULLISH | **PLTR** | PPO — Bullish Cross | 84.0 | 73.3% |
-| 🟢 BULLISH | **XLE** | Williams %R — Oversold | 83.2 | 71.2% |
-| 🟢 BULLISH | **GC=F** | RSI Oversold | 83.1 | 80.0% |
-| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 76.9 | 64.9% |
-| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 76.2 | 65.0% |
+| 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 90.2 | 79.0% |
+| 🟢 BULLISH | **AAPL** | OBV — Accumulation | 81.7 | 71.4% |
+| 🟢 BULLISH | **BTC-USD** | MFI — Oversold | 81.4 | 92.9% |
+| 🟢 BULLISH | **PLTR** | MACD Bullish Crossover | 81.1 | 72.2% |
+| 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 79.8 | 71.0% |
+| 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.4 | 65.8% |
+| 🟢 BULLISH | **AMD** | VWAP Deviation — Oversold | 76.5 | 65.5% |
 | 🟢 BULLISH | **CRWD** | VWAP Deviation — Oversold | 74.8 | 61.5% |
+| 🟢 BULLISH | **XBI** | MACD Bullish Crossover | 74.1 | 57.9% |
 | 🟢 BULLISH | **XLE** | Stochastic RSI Oversold | 71.6 | 68.6% |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 71.3 | 62.2% |
-| 🟢 BULLISH | **AVGO** | Williams %R — Oversold | 70.6 | 65.0% |
+| 🟢 BULLISH | **AMZN** | VWAP Deviation — Oversold | 71.3 | 63.0% |
 
 ## Latest News
 
-- [Ford explores Pentagon opportunities as automakers pursue defense business](https://seekingalpha.com/news/4676414-ford-explores-pentagon-opportunities-as-automakers-pursue-defense-business?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Kutcho Copper announces C$1M private placement](https://seekingalpha.com/news/4676410-kutcho-copper-announces-c-1m-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Gold slips after sharp rebound with inflation, Fed expectations in focus](https://www.investing.com/news/commodities-news/gold-extends-rebound-as-nvidia-ceo-news-lifts-equities-dipbuying-lifts-bullion-5046835) — *Investing.com*
-- [Earnings call transcript: Ambarella Q3 2027 profit beats, but stock plunges](https://www.investing.com/news/transcripts/earnings-call-transcript-ambarella-q3-2027-profit-beats-but-stock-plunges-93CH-5049252) — *Investing.com*
-- [The Western Investment GAAP EPS of -C$0.007, revenue of C$11.1M](https://seekingalpha.com/news/4676412-the-western-investment-gaap-eps-of-c0007-revenue-of-c111m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Bold Eagle Acquisition enters $1.08 million promissory note with sponsor](https://www.investing.com/news/sec-filings/bold-eagle-acquisition-enters-108-million-promissory-note-with-sponsor-93CH-5049251) — *Investing.com*
-- [Fountain Asset reports Q3 results](https://seekingalpha.com/news/4676411-fountain-asset-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Trump Account contributions from friends and family pass $1 billion mark, Treasury says](https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html) — *CNBC Markets*
-- [Schumer accuses Nvidia CEO of violating US export control law](https://www.investing.com/news/stock-market-news/schumer-accuses-nvidia-ceo-of-violating-us-export-control-law-5048879) — *Investing.com*
-- [Ambarella collapses 40% as Q4 guidance falls shockingly short of estimates](https://seekingalpha.com/news/4676404-ambarella-collapses-40-percent-as-q4-guidance-falls-shockingly-short-of-estimates?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Macy's postpones Thanksgiving Day Parade due to severe weather](https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html) — *CNBC Markets*
+- [IMPACT Silver GAAP EPS of -C$0.01, revenue of C$18.5M](https://seekingalpha.com/news/4676712-impact-silver-gaap-eps-of-c001-revenue-of-c185m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Banco Macro reports Q3 results](https://seekingalpha.com/news/4676711-banco-macro-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Blue Owl Credit Income announces tender offer to repurchase up to 5% of shares outstanding](https://seekingalpha.com/news/4676705-blue-owl-credit-income-announces-tender-offer-to-repurchase-up-to-5-of-shares-outstanding?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Nvidia’s stock has given back more than half of Monday’s rally as dip buyers cash in](https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories) — *MarketWatch*
+- [Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’](https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories) — *MarketWatch*
+- [Atacama Resources International COO steps down](https://seekingalpha.com/news/4676710-atacama-resources-international-coo-steps-down?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [Vertex drops as FDA extends review of povetacicept for IgA nephropathy](https://seekingalpha.com/news/4676698-vertex-drops-fda-extends-review-povetacicept-iga-nephropathy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
+- [CVR Energy completes $1.25 billion senior secured notes offering for refinery acquisition](https://www.investing.com/news/sec-filings/cvr-energy-completes-125-billion-senior-secured-notes-offering-for-refinery-acquisition-93CH-5051551) — *Investing.com*
+- [Acumen Pharmaceuticals announces executive changes and appointments](https://www.investing.com/news/sec-filings/acumen-pharmaceuticals-announces-executive-changes-and-appointments-93CH-5051550) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

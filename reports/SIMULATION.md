@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 200** &nbsp;·&nbsp; Updated: Nov 24 2026 10:51 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 201** &nbsp;·&nbsp; Updated: Nov 25 2026 09:56 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.18%** &nbsp; ($+6,162) |
-| SPY Benchmark | +1.55% &nbsp; ($+3,012 if 100% SPY) |
-| Alpha vs SPY | **+1.62%** &nbsp; ✅ Outperforming |
+| Portfolio P&L | **+3.19%** &nbsp; ($+6,187) |
+| SPY Benchmark | +1.26% &nbsp; ($+2,442 if 100% SPY) |
+| Alpha vs SPY | **+1.93%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,162 |
+| Current Value | $200,187 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,817 | +2.47% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,841 | +2.48% |
 
 ## Daily Equity Curve
 
@@ -166,29 +166,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 24 2026 10:51 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 25 2026 09:56 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **CRWD** | VWAP Deviation — Oversold — Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | PPO — Bullish Cross — Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%… |
-| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **LTC-USD** | RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.25%, Shar… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, … |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sha… |
 
-### 🔍 NEW OPPORTUNITY — CRWD
+### 🔍 NEW OPPORTUNITY — AAPL
 
-**Signal Analysis:** VWAP Deviation — Oversold — Score 74.8, Win Rate 61.5%, Avg 5d Return 3.23%, Max Drawdown -55.13%, Sharpe 2.77. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
-
-### 🔍 NEW OPPORTUNITY — PLTR
-
-**Signal Analysis:** PPO — Bullish Cross — Score 84.0, Win Rate 73.3%, Avg 5d Return 4.94%, Max Drawdown -5.49%, Sharpe 3.51. 1 minor bearish signal(s), max confidence 51.5.
+**Signal Analysis:** OBV — Accumulation — Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, Sharpe 3.29. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — LTC-USD
+### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** RSI Oversold — Score 58.5, Win Rate 57.8%, Avg 5d Return 2.97%, Max Drawdown -58.25%, Sharpe 1.6. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdown -14.17%, Sharpe 3.8. No conflicting bearish signals.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — BTC-USD
+
+**Signal Analysis:** MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sharpe 8.6. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
 
