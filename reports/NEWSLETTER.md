@@ -1,24 +1,24 @@
-# Daily Newsletter — Wednesday, November 25, 2026
-Generated at 09:56 PM
+# Daily Newsletter — Thursday, November 26, 2026
+Generated at 09:49 PM
 
 ## Market Sentiment: Neutral
 
-**Strategy Signals:** 64 total &nbsp;·&nbsp; 🟢 32 Bullish &nbsp;·&nbsp; 🔴 32 Bearish
+**Strategy Signals:** 61 total &nbsp;·&nbsp; 🟢 29 Bullish &nbsp;·&nbsp; 🔴 32 Bearish
 
 ## Top Movers
 
 | Ticker | Name | Price | Change |
 |---|---|---|---|
-| **NG=F** | Natural Gas | $3.68 | 📈 +10.86% |
-| **^VIX** | VIX (Fear Index) | $28.29 | 📈 +7.32% |
-| **CL=F** | Crude Oil | $84.12 | 📈 +2.52% |
-| **SI=F** | Silver | $41.47 | 📈 +1.74% |
-| **SOL-USD** | Solana | $70.60 | 📈 +1.38% |
-| **GC=F** | Gold | $3606.90 | 📈 +1.26% |
+| **NG=F** | Natural Gas | $3.60 | 📈 +10.09% |
+| **^VIX** | VIX (Fear Index) | $26.80 | 📉 -5.27% |
+| **SI=F** | Silver | $41.75 | 📈 +4.24% |
+| **SOL-USD** | Solana | $71.68 | 📈 +1.83% |
+| **GC=F** | Gold | $3593.40 | 📈 +1.63% |
+| **CL=F** | Crude Oil | $84.91 | 📈 +1.47% |
 | **^TNX** | 10-Year Treasury Yield | $4.85 | 📉 -1.14% |
-| **^TYX** | 30-Year Treasury Yield | $5.23 | 📉 -1.08% |
+| **^TYX** | 30-Year Treasury Yield | $5.24 | 📉 -1.08% |
+| **ETH-USD** | Ethereum | $1707.22 | 📈 +0.97% |
 | **XLI** | Industrials (XLI) | $162.95 | 📈 +0.83% |
-| **XLK** | Tech (XLK) | $155.79 | 📉 -0.83% |
 
 ## Top Strategy Signals
 
@@ -26,7 +26,6 @@ Generated at 09:56 PM
 |---|---|---|---|---|
 | 🟢 BULLISH | **XLE** | Stochastic (Full) — Oversold | 90.2 | 79.0% |
 | 🟢 BULLISH | **AAPL** | OBV — Accumulation | 81.7 | 71.4% |
-| 🟢 BULLISH | **BTC-USD** | MFI — Oversold | 81.4 | 92.9% |
 | 🟢 BULLISH | **PLTR** | MACD Bullish Crossover | 81.1 | 72.2% |
 | 🟢 BULLISH | **AMD** | Stochastic (Full) — Oversold | 79.8 | 71.0% |
 | 🟢 BULLISH | **AMD** | Williams %R — Oversold | 77.4 | 65.8% |
@@ -36,19 +35,20 @@ Generated at 09:56 PM
 | 🟢 BULLISH | **XLE** | Stochastic RSI Oversold | 71.6 | 68.6% |
 | 🟢 BULLISH | **AVGO** | VWAP Deviation — Oversold | 71.3 | 62.2% |
 | 🟢 BULLISH | **AMZN** | VWAP Deviation — Oversold | 71.3 | 63.0% |
+| 🟢 BULLISH | **QQQ** | VWAP Deviation — Oversold | 68.4 | 59.3% |
 
 ## Latest News
 
-- [Macy's postpones Thanksgiving Day Parade due to severe weather](https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html) — *CNBC Markets*
-- [IMPACT Silver GAAP EPS of -C$0.01, revenue of C$18.5M](https://seekingalpha.com/news/4676712-impact-silver-gaap-eps-of-c001-revenue-of-c185m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Banco Macro reports Q3 results](https://seekingalpha.com/news/4676711-banco-macro-reports-q3-results?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Blue Owl Credit Income announces tender offer to repurchase up to 5% of shares outstanding](https://seekingalpha.com/news/4676705-blue-owl-credit-income-announces-tender-offer-to-repurchase-up-to-5-of-shares-outstanding?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Nvidia’s stock has given back more than half of Monday’s rally as dip buyers cash in](https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories) — *MarketWatch*
-- [Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’](https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories) — *MarketWatch*
-- [Atacama Resources International COO steps down](https://seekingalpha.com/news/4676710-atacama-resources-international-coo-steps-down?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [Vertex drops as FDA extends review of povetacicept for IgA nephropathy](https://seekingalpha.com/news/4676698-vertex-drops-fda-extends-review-povetacicept-iga-nephropathy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news) — *Seeking Alpha*
-- [CVR Energy completes $1.25 billion senior secured notes offering for refinery acquisition](https://www.investing.com/news/sec-filings/cvr-energy-completes-125-billion-senior-secured-notes-offering-for-refinery-acquisition-93CH-5051551) — *Investing.com*
-- [Acumen Pharmaceuticals announces executive changes and appointments](https://www.investing.com/news/sec-filings/acumen-pharmaceuticals-announces-executive-changes-and-appointments-93CH-5051550) — *Investing.com*
+- [I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?](https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories) — *MarketWatch*
+- [Canadian bonds extend rally amid AI jitters, Macklem comments](https://www.investing.com/news/stock-market-news/canadian-bonds-extend-rally-amid-ai-jitters-macklem-comments-5052727) — *Investing.com*
+- [Mexico stocks lower at close of trade; S&P/BMV IPC down 1.33%](https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-133-5052726) — *Investing.com*
+- [Canada stocks higher at close of trade; S&P/TSX Composite up 0.72%](https://www.investing.com/news/stock-market-news/canada-stocks-higher-at-close-of-trade-sptsx-composite-up-072-5052724) — *Investing.com*
+- [I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?](https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories) — *MarketWatch*
+- [Colombia stocks higher at close of trade; COLCAP up 0.97%](https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-097-5052723) — *Investing.com*
+- [Thanksgiving storm knocks out power, disrupts flights on US East Coast](https://www.investing.com/news/commodities-news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-5052706) — *Investing.com*
+- [Russia stocks lower at close of trade; MOEX Russia Index down 0.80%](https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-080-5052722) — *Investing.com*
+- [Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher](https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html) — *CNBC Markets*
+- [TSX ends higher after whipsaw session, helped by battery metal stocks & labor data](https://www.investing.com/news/stock-market-news/canadas-tsx-futures-flat-in-holidaythinned-trade--and-macklems-warning-5052325) — *Investing.com*
 
 ---
 *Investment Daily — Not financial advice.*

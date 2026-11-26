@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 201** &nbsp;·&nbsp; Updated: Nov 25 2026 10:03 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 202** &nbsp;·&nbsp; Updated: Nov 26 2026 09:49 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.19%** &nbsp; ($+6,187) |
+| Portfolio P&L | **+3.20%** &nbsp; ($+6,211) |
 | SPY Benchmark | +1.26% &nbsp; ($+2,442 if 100% SPY) |
-| Alpha vs SPY | **+1.93%** &nbsp; ✅ Outperforming |
+| Alpha vs SPY | **+1.94%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,187 |
+| Current Value | $200,211 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,841 | +2.48% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,865 | +2.49% |
 
 ## Daily Equity Curve
 
@@ -167,13 +167,13 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 25 2026 10:03 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 26 2026 09:49 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, … |
 | 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **BTC-USD** | MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sha… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 81.1, Win Rate 72.2%, Avg 5d Return 3.14%, Max Drawdown -6.… |
 
 ### 🔍 NEW OPPORTUNITY — AAPL
 
@@ -187,11 +187,11 @@ _Evaluated Nov 25 2026 10:03 PM · Tax rates: 32% short-term / 15% long-term · 
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
-### 🔍 NEW OPPORTUNITY — BTC-USD
+### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MFI — Oversold — Score 81.4, Win Rate 92.9%, Avg 5d Return 4.02%, Max Drawdown -3.38%, Sharpe 8.6. No conflicting bearish signals.
+**Signal Analysis:** MACD Bullish Crossover — Score 81.1, Win Rate 72.2%, Avg 5d Return 3.14%, Max Drawdown -6.51%, Sharpe 4.9. 1 minor bearish signal(s), max confidence 52.0.
 
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$25,000 of $195,346 deployable. Entry slippage est. $25.
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ## Position Rationale
 
