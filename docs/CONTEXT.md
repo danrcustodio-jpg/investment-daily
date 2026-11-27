@@ -22,6 +22,10 @@ a Windows PC (C:\Users\Owner\InvestmentDaily\). It emails dan.r.custodio@gmail.c
 
 ---
 
+## Creator notes (not part of the live scan)
+
+[docs/creators/nicholas-crown/](creators/nicholas-crown/README.md) and the Obsidian vault [`obsidian-vault/`](../obsidian-vault/00%20Home.md) — last-month public notes on Nicholas Crown (`@nicholas_crown`). **Education/notes only.** Do not add his gated letter setups to `strategy_engine.py`.
+
 ## File map
 
 | File | Purpose |

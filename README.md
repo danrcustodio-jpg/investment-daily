@@ -36,6 +36,8 @@ Day 202 &nbsp;·&nbsp; Portfolio **+3.20%** vs SPY +1.26% &nbsp;·&nbsp; Alpha �
 
 - [Architecture & Data Flow](ARCHITECTURE.md)
 - [Agent Guide — Change Recipes](AGENT_GUIDE.md)
+- [Nicholas Crown last-month notes](docs/creators/nicholas-crown/README.md) (public short-form; not wired into alerts)
+- [Obsidian vault](obsidian-vault/00%20Home.md) — open `obsidian-vault/` as a vault in Obsidian
 
 ---
 *This repo is auto-updated by GitHub Actions. Reports commit after every run.*
