@@ -1334,18 +1334,9 @@
   "recommendations": [
     {
       "action": "NEW_OPPORTUNITY",
-      "ticker": "AAPL",
-      "priority": "high",
-      "reason": "OBV \u2014 Accumulation \u2014 Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, Sharpe 3.29. No conflicting bearish signals.",
-      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
-      "suggested_allocation": 30000,
-      "is_crypto": false
-    },
-    {
-      "action": "NEW_OPPORTUNITY",
       "ticker": "AMD",
       "priority": "high",
-      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdown -14.17%, Sharpe 3.8. No conflicting bearish signals.",
+      "reason": "Stochastic (Full) \u2014 Oversold \u2014 Score 79.1, Win Rate 70.0%, Avg 5d Return 4.47%, Max Drawdown -14.17%, Sharpe 3.75. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
@@ -1354,13 +1345,22 @@
       "action": "NEW_OPPORTUNITY",
       "ticker": "PLTR",
       "priority": "high",
-      "reason": "MACD Bullish Crossover \u2014 Score 81.1, Win Rate 72.2%, Avg 5d Return 3.14%, Max Drawdown -6.51%, Sharpe 4.9. 1 minor bearish signal(s), max confidence 52.0.",
+      "reason": "Vortex \u2014 Bullish \u2014 Score 80.9, Win Rate 68.2%, Avg 5d Return 3.29%, Max Drawdown -11.55%, Sharpe 2.76. 1 minor bearish signal(s), max confidence 55.5.",
+      "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
+      "suggested_allocation": 30000,
+      "is_crypto": false
+    },
+    {
+      "action": "NEW_OPPORTUNITY",
+      "ticker": "AAPL",
+      "priority": "medium",
+      "reason": "MACD Bullish Crossover \u2014 Score 65.0, Win Rate 57.9%, Avg 5d Return 0.9%, Max Drawdown -4.9%, Sharpe 1.7. No conflicting bearish signals.",
       "tax_note": "New position \u2014 no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.",
       "suggested_allocation": 30000,
       "is_crypto": false
     }
   ],
-  "recommendations_updated": "2026-11-26T22:02:00.744161",
+  "recommendations_updated": "2026-11-27T21:33:45.999985",
   "trade_log": [
     {
       "action": "SELL",

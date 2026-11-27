@@ -1,21 +1,21 @@
 # Portfolio Simulation 📈
-**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 202** &nbsp;·&nbsp; Updated: Nov 26 2026 10:02 PM
+**Started:** 2026-05-08 &nbsp;·&nbsp; **Day 203** &nbsp;·&nbsp; Updated: Nov 27 2026 09:33 PM
 
 ## Performance Summary
 
 | Metric | Value |
 |---|---|
-| Portfolio P&L | **+3.20%** &nbsp; ($+6,211) |
-| SPY Benchmark | +1.26% &nbsp; ($+2,442 if 100% SPY) |
-| Alpha vs SPY | **+1.94%** &nbsp; ✅ Outperforming |
+| Portfolio P&L | **+3.21%** &nbsp; ($+6,235) |
+| SPY Benchmark | +2.90% &nbsp; ($+5,627 if 100% SPY) |
+| Alpha vs SPY | **+0.31%** &nbsp; ✅ Outperforming |
 | Total Capital | $194,000 |
-| Current Value | $200,211 |
+| Current Value | $200,235 |
 
 ## Position Breakdown
 
 | Ticker | Name | Status | Allocated | Current Price | P&L $ | P&L % |
 |---|---|---|---|---|---|---|
-| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,865 | +2.49% |
+| **CASH** | Cash / Money Market | ✅ OPEN | $195,346 | — | $+4,889 | +2.50% |
 
 ## Daily Equity Curve
 
@@ -168,29 +168,29 @@
 
 ## Strategy Advisor
 
-_Evaluated Nov 26 2026 10:02 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
+_Evaluated Nov 27 2026 09:33 PM · Tax rates: 32% short-term / 15% long-term · Slippage: 0.1% per trade_
 
 | Priority | Action | Ticker | Summary |
 |---|---|---|---|
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AAPL** | OBV — Accumulation — Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, … |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdo… |
-| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | MACD Bullish Crossover — Score 81.1, Win Rate 72.2%, Avg 5d Return 3.14%, Max Drawdown -6.… |
-
-### 🔍 NEW OPPORTUNITY — AAPL
-
-**Signal Analysis:** OBV — Accumulation — Score 81.7, Win Rate 71.4%, Avg 5d Return 1.86%, Max Drawdown -4.9%, Sharpe 3.29. No conflicting bearish signals.
-
-**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **AMD** | Stochastic (Full) — Oversold — Score 79.1, Win Rate 70.0%, Avg 5d Return 4.47%, Max Drawdo… |
+| 🔴 HIGH | 🔍 NEW OPPORTUNITY | **PLTR** | Vortex — Bullish — Score 80.9, Win Rate 68.2%, Avg 5d Return 3.29%, Max Drawdown -11.55%, … |
+| 🟡 MEDIUM | 🔍 NEW OPPORTUNITY | **AAPL** | MACD Bullish Crossover — Score 65.0, Win Rate 57.9%, Avg 5d Return 0.9%, Max Drawdown -4.9… |
 
 ### 🔍 NEW OPPORTUNITY — AMD
 
-**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.8, Win Rate 71.0%, Avg 5d Return 4.46%, Max Drawdown -14.17%, Sharpe 3.8. No conflicting bearish signals.
+**Signal Analysis:** Stochastic (Full) — Oversold — Score 79.1, Win Rate 70.0%, Avg 5d Return 4.47%, Max Drawdown -14.17%, Sharpe 3.75. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
 ### 🔍 NEW OPPORTUNITY — PLTR
 
-**Signal Analysis:** MACD Bullish Crossover — Score 81.1, Win Rate 72.2%, Avg 5d Return 3.14%, Max Drawdown -6.51%, Sharpe 4.9. 1 minor bearish signal(s), max confidence 52.0.
+**Signal Analysis:** Vortex — Bullish — Score 80.9, Win Rate 68.2%, Avg 5d Return 3.29%, Max Drawdown -11.55%, Sharpe 2.76. 1 minor bearish signal(s), max confidence 55.5.
+
+**Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
+
+### 🔍 NEW OPPORTUNITY — AAPL
+
+**Signal Analysis:** MACD Bullish Crossover — Score 65.0, Win Rate 57.9%, Avg 5d Return 0.9%, Max Drawdown -4.9%, Sharpe 1.7. No conflicting bearish signals.
 
 **Tax & Cost:** New position — no tax on entry. Suggested allocation: ~$30,000 of $195,346 deployable. Entry slippage est. $30.
 
